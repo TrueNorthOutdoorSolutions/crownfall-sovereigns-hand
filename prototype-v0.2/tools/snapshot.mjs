@@ -1,6 +1,6 @@
 // Read-only canon snapshot from the original Crownfall project.
 // Reads committed files only (git show HEAD:...), never the working tree, and never writes there.
-// Usage: node prototype-v0.2/tools/snapshot.mjs [path-to-Crownfall]
+// Usage: npx tsx prototype-v0.2/tools/snapshot.mjs [path-to-Crownfall]
 import { execFileSync } from 'node:child_process';
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -42,7 +42,7 @@ const out = { source: 'Desktop/Crownfall', commit, readAt: new Date().toISOStrin
 writeFileSync(join(root, 'data', 'canon-snapshot.json'), JSON.stringify(out, null, 2) + '\n');
 
 // Copy committed star portraits for the champions the prototype uses.
-const { CHAMPION_LINES } = await import('../data/cards.mjs');
+const { CHAMPION_LINES } = await import('../../src/v02/content/cards.ts');
 for (const line of CHAMPION_LINES) {
   for (const s of [1, 2, 3]) {
     const rel = `public/assets/champions/${line.canonId}/star_${s}/portrait.webp`;

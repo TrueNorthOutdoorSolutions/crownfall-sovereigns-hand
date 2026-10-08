@@ -2,7 +2,7 @@
 
 A small print-and-play test of the provisionally approved **Model B: The Shattered Crown**.
 Its only job is to show whether two people can learn the rules quickly, enjoy a 15–20 minute match, understand why they won or lost, and want a rematch straight away.
-**This is not the digital game.** The `tools/` scripts exist only to validate and balance the paper rules.
+A **playable digital version** of the same rules now exists too: see `DIGITAL.md`. Both read the same card file, `src/v02/content/cards.ts`.
 
 | File | What it is |
 | --- | --- |
@@ -12,10 +12,12 @@ Its only job is to show whether two people can learn the rules quickly, enjoy a 
 | `PLAYTEST.md` | How to print, run sessions, and the pass gates. |
 | `DESIGN_ANSWERS.md` | Collector rarity, the Tier V penalty test, and the evolution-decision test. |
 | `VALIDATION.md` | Validation results and open balance questions. |
-| `data/cards.mjs` | The single source of card truth, used by both the print kit and the simulator. |
+| `../src/v02/content/cards.ts` | The single source of card truth, used by the print kit, the digital engine and the AI. |
+| `DIGITAL.md` | How to play the digital slice, its architecture and limits. |
+| `research/` | The paper-era balance simulator and its results, archived (only its import paths changed). |
 | `data/canon-snapshot.json` | Read-only identity snapshot of all 55 Crownfall champions, with the commit hash. |
 | `art/` | Star portraits copied from Crownfall's committed assets. |
-| `tools/` | `snapshot`, `validate`, `engine` + `sim` (bot simulator), `build-print`. Node only, no dependencies. |
+| `tools/` | `snapshot`, `validate`, `build-print` (run with `npm run proto:*`). |
 
 ## Canon rules
 

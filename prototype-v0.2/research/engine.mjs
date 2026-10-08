@@ -2,7 +2,7 @@
 // Purpose: balance evidence only. It mirrors RULEBOOK.md step for step; it is NOT the digital game.
 // Both seats are played by the same heuristic bot, so results measure the cards and rules under one
 // consistent (imperfect) policy, not human skill.
-import { cardIndex, DECKS } from '../data/cards.mjs';
+import { cardIndex, DECKS } from './cards.mjs';
 
 const CARDS = cardIndex();
 

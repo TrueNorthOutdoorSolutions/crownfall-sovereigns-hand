@@ -58,3 +58,10 @@ node prototype-v0.2/tools/build-print.mjs   # print kit + PDFs
 4. **★★★ rate is 42%** with a cautious bot. If humans also land below about 50%, lower the ★★★ Ascend costs by 1.
 5. **Shardfall fires about 0.6 times per game.** Is that enough for the comeback moments to be felt, or should each deck have more Shardfall cards?
 6. **Breakthrough** adds a rule. Do new players understand it on first read?
+
+## 5. Digital vertical slice (added with the playable V0.2)
+
+- **One card source.** `src/v02/content/cards.ts` drives the print kit, the digital engine and the AI. `npm run proto:validate` now runs **616 checks**, including a parity check that every card's stats and text are identical to the paper-tested set (`research/cards.mjs`, the data behind sections 2 and DESIGN_ANSWERS.md).
+- **Gameplay tests** (`tests/v02/engine.test.ts`, 28 tests): setup and first-turn bonuses; determinism; the legal-action contract (wrong player, illegal moves rejected with a reason, no mutation); clashes (≥, simultaneous, 0 Might); unblocked hits and ★★★ double hits; blocking, Bulwark, Flight/Reach; Breakthrough; Shield; Ambush; Charge; Ascension rules (on field since the turn began, once per turn, cost, sideways, after-battle window, Ascend effects); Scheme timing, Cinder Veil, Hold the Gate; Shardfall; target choices; the round-10 rule, deck-out, hand limit; victory; and 60 full AI games with card conservation.
+- **Engine balance run** (`npm run sim:v02`, 4,000 AI games, `validation/engine-sim.json`): Banner 51.6% / Ember 48.5%, first player 50.5%, rounds median 7 / 90th percentile 10 / max 12, ★★ reached by 65.6% of players and ★★★ by 41.7%. That matches the paper-rules research run (53/47, 50.8%, 7/10/12, 66%, 42%).
+- The research simulator that produced the earlier numbers is archived in `research/` for reproducibility (only its import paths changed).

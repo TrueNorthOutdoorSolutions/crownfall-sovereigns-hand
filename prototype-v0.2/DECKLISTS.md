@@ -1,6 +1,6 @@
 # Starter decklists
 
-Rules version 0.2-paper-1. Generated from `data/cards.mjs`; do not edit by hand.
+Rules version 0.2-paper-1. Generated from `src/v02/content/cards.ts` (the same data the digital game uses); do not edit by hand.
 Champion names, titles, tiers, Origins and Classes come from Crownfall commit `e07421b`.
 
 ## Banner of the Realm (Kingdom · Dawnforged)

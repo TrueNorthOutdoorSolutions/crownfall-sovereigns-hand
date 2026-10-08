@@ -1,0 +1,20 @@
+{
+  "engine": "src/v02/rules/engine.ts",
+  "games": 4000,
+  "seeds": "20000..23999",
+  "winRate": {
+    "banner": 51.6,
+    "ember": 48.5
+  },
+  "firstPlayerWinRate": 50.5,
+  "rounds": {
+    "median": 7,
+    "p90": 10,
+    "max": 12
+  },
+  "endedByRound10OrDeckOut": 6.2,
+  "playersReachingStar2": 65.6,
+  "playersReachingStar3": 41.7,
+  "ascendsPerGame": 2.8,
+  "msPerGame": 9
+}

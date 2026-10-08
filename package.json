@@ -1,6 +1,6 @@
 {
   "name": "crownfall-sovereigns-hand",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,11 @@
     "test": "vitest run tests",
     "test:browser": "playwright test",
     "print:cards": "tsx scripts/print.ts",
-    "simulate": "tsx scripts/simulate.ts"
+    "simulate": "tsx scripts/simulate.ts",
+    "sim:v02": "tsx scripts/v02-sim.ts 2000",
+    "proto:validate": "tsx prototype-v0.2/tools/validate.mjs",
+    "proto:print": "tsx prototype-v0.2/tools/build-print.mjs",
+    "proto:snapshot": "tsx prototype-v0.2/tools/snapshot.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

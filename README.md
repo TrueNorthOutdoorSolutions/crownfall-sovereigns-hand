@@ -42,4 +42,4 @@ Collector metadata is separate from gameplay definitions. Standard, Radiant, Asc
 
 ## V0.2 redesign (branch `redesign/v0.2`)
 
-The V0.1 battlefront prototype above is preserved at tag `v0.1.0`. The V0.2 direction (Model B, The Shattered Crown) is being proven first as a paper print-and-play prototype in [`prototype-v0.2/`](prototype-v0.2/README.md). No digital V0.2 game exists yet.
+The V0.1 battlefront prototype above is preserved at tag `v0.1.0`. The V0.2 direction (Model B, The Shattered Crown) is being proven first as a paper print-and-play prototype in [`prototype-v0.2/`](prototype-v0.2/README.md), and as a playable digital vertical slice (you vs AI) at the site root: see [`prototype-v0.2/DIGITAL.md`](prototype-v0.2/DIGITAL.md). The V0.1 app stays reachable at `/v0.1.html`; its browser test (`e2e/match.spec.ts`) opens `/` and should be run on the `prototype/sovereigns-hand-v0.1` branch.

@@ -130,7 +130,7 @@ if ((process.argv[1] ?? '').endsWith('sim.mjs')) {
   }
   results.evolutionDecision = decision;
   if (WRITE) {
-    const out = join(dirname(fileURLToPath(import.meta.url)), '..', 'validation');
+    const out = dirname(fileURLToPath(import.meta.url));
     mkdirSync(out, { recursive: true });
     writeFileSync(join(out, 'sim-results.json'), JSON.stringify({ gamesPerVariant: N, seeds: `1..${N}`, results }, null, 2) + '\n');
     console.log(`wrote validation/sim-results.json`);

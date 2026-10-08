@@ -1,16 +1,16 @@
-// Builds the print-and-play kit from data/cards.mjs + RULEBOOK.md.
+// Builds the print-and-play kit from src/v02/content/cards.ts (the same card data the digital game uses) + RULEBOOK.md.
 // Output: prototype-v0.2/print/*.html (source) and prototype-v0.2/print/*.pdf (via local Chrome, if found).
-// Usage: node prototype-v0.2/tools/build-print.mjs
+// Usage: npx tsx prototype-v0.2/tools/build-print.mjs
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { execFileSync } from 'node:child_process';
-import { CHAMPION_LINES, DECKS, RULES_VERSION, cardIndex } from '../data/cards.mjs';
+import { DECKS, RULES_VERSION, CARDS } from '../../src/v02/content/cards.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const out = join(root, 'print');
 mkdirSync(out, { recursive: true });
-const CARDS = cardIndex();
+
 const canon = JSON.parse(readFileSync(join(root, 'data', 'canon-snapshot.json'), 'utf8'));
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V'];
@@ -314,7 +314,7 @@ const feedbackHtml = `<!doctype html><html><head><meta charset="utf-8"><title>So
 writeFileSync(join(out, 'feedback.html'), feedbackHtml);
 
 // ── decklists (Markdown) ──
-let dl = `# Starter decklists\n\nRules version ${RULES_VERSION}. Generated from \`data/cards.mjs\`; do not edit by hand.\nChampion names, titles, tiers, Origins and Classes come from Crownfall commit \`${canon.commit.slice(0, 7)}\`.\n`;
+let dl = `# Starter decklists\n\nRules version ${RULES_VERSION}. Generated from \`src/v02/content/cards.ts\` (the same data the digital game uses); do not edit by hand.\nChampion names, titles, tiers, Origins and Classes come from Crownfall commit \`${canon.commit.slice(0, 7)}\`.\n`;
 for (const [id, d] of Object.entries(DECKS)) {
   dl += `\n## ${d.name} (${d.origins})\n\n${d.pitch}\n\n| # | Card | Type | Cost | Might / Guard | Text |\n| --- | --- | --- | --- | --- | --- |\n`;
   for (const [cid, n] of d.main) {
