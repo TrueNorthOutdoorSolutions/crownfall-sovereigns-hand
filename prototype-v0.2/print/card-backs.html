@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Sovereign's Hand — Card backs</title><style>
+@page { size: letter; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; padding: 0; background: #fff; color: #16161a; -webkit-print-color-adjust: exact; print-color-adjust: exact }
+body { font-family: "Segoe UI", Arial, sans-serif }
+.page { width: 215.9mm; height: 279.4mm; position: relative; overflow: hidden; page-break-after: always }
+.page:last-child { page-break-after: auto }
+
+.sheet { position: absolute; left: 13.45mm; top: 7.7mm; width: 189mm; height: 264mm; display: grid; grid-template-columns: repeat(3, 63mm); grid-template-rows: repeat(3, 88mm) }
+.crop { position: absolute; background: #999 }
+.card { width: 63mm; height: 88mm; position: relative; border: 2.6mm solid var(--deck, #444); border-radius: 3mm; padding: 1.6mm 1.8mm 1.2mm; display: flex; flex-direction: column; gap: .9mm; overflow: hidden; background: #fff }
+.card.s2 { border-color: color-mix(in srgb, var(--deck) 70%, var(--acc)) }
+.card.s3 { border-color: var(--acc); box-shadow: inset 0 0 0 .5mm var(--deck) }
+.head { display: flex; align-items: center; gap: 1.5mm }
+.nm { flex: 1; min-width: 0 }
+.name { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 10.5pt; line-height: 1.05; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.title { font-size: 6pt; color: #555; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.cost, .asc { flex: none; width: 8.4mm; height: 8.4mm; display: grid; place-items: center; font-weight: 800; font-size: 11pt; color: #fff; background: var(--deck) }
+.cost { border-radius: 50% }
+.asc { background: var(--acc); color: #1b1b1b; clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); font-size: 9.5pt }
+.art { flex: none; height: 36mm; border-radius: 1.5mm; background: #ddd center 32% / cover no-repeat; position: relative; border: .3mm solid #0003 }
+.stars { position: absolute; left: 1mm; top: .8mm; color: #ffd75e; font-size: 10pt; text-shadow: 0 0 1.2mm #000, 0 0 .4mm #000; letter-spacing: .3mm }
+.crowndmg { position: absolute; right: 1mm; top: .8mm; background: #1b1b1b; color: #ffd75e; font-weight: 800; font-size: 8pt; padding: .2mm 1.2mm; border-radius: 1mm }
+.ascband { position: absolute; left: 0; right: 0; bottom: 0; background: #000b; color: #ffe08a; font-size: 5.6pt; font-weight: 700; letter-spacing: .06em; padding: .5mm 1.2mm; text-align: center }
+.tribe { font-size: 5.8pt; color: #333; font-weight: 600; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.box { flex: 1; min-height: 0; border: .3mm solid #0002; border-radius: 1.2mm; padding: 1.2mm 1.5mm; background: #f6f5f1; font-size: 7.3pt; line-height: 1.28 }
+.box.big { font-size: 8.6pt; display: flex; flex-direction: column; gap: 1.6mm }
+.kw { font-weight: 800; font-size: 7.4pt; color: var(--deck) }
+.abil { font-family: Georgia, serif; font-style: italic; font-size: 6.6pt; color: #555 }
+.vanilla { color: #777; font-style: italic }
+.stats { display: flex; justify-content: space-between; font-weight: 800; font-size: 11.5pt }
+.stats span { border: .35mm solid #1b1b1b; border-radius: 1.2mm; padding: 0 2mm; background: #fff }
+.foot { display: flex; justify-content: space-between; gap: 1mm; white-space: nowrap; font-size: 4.6pt; color: #777; letter-spacing: .02em }
+.spell .sigil { flex: none; height: 30mm; border-radius: 1.5mm; display: grid; place-items: center; position: relative;
+  background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--deck) 12%, #fff) 0 2.2mm, #fff 2.2mm 4.4mm); border: .3mm solid #0002 }
+.spell .sigil span { font-size: 30pt; color: var(--deck) }
+.spell.scheme .sigil { background: repeating-linear-gradient(45deg, #2a2a33 0 2.2mm, #3a3a45 2.2mm 4.4mm) }
+.spell.scheme .sigil span { color: var(--acc) }
+.sf { position: absolute; bottom: 1mm; font-style: normal; font-weight: 800; font-size: 6.4pt; letter-spacing: .14em; color: #fff; background: var(--acc); padding: .3mm 1.6mm; border-radius: 1mm }
+.sfnote { font-size: 6.6pt; color: #444 }
+.note { margin-top: auto; font-size: 6.2pt; color: #666; font-style: italic }
+.ref { border-color: #1b1b1b; font-size: 6.9pt; line-height: 1.28 }
+.ref .refh { font-weight: 800; letter-spacing: .12em; font-size: 7.4pt; border-bottom: .3mm solid #1b1b1b; margin-top: .6mm }
+.ref ol { margin: .5mm 0 0; padding-left: 3.6mm } .ref li { margin-bottom: .45mm } .ref p { margin: .6mm 0 0 }
+.ref dl { margin: .5mm 0 0; display: grid; grid-template-columns: auto 1fr; gap: .3mm 1.4mm } .ref dt { font-weight: 800 } .ref dd { margin: 0 }
+.ref .foot { margin-top: auto }
+.back { width: 63mm; height: 88mm; border-radius: 3mm; background: radial-gradient(circle at 50% 42%, #3b2f12 0, #15131c 62%); border: 2.6mm solid #15131c; display: grid; place-items: center; color: #e2b44c; text-align: center }
+.back b { display: block; font-family: Georgia, serif; font-size: 13pt; letter-spacing: .08em } .back i { font-size: 6pt; letter-spacing: .3em; color: #b89a5a }
+.back .crown { font-size: 34pt; line-height: 1 }
+</style></head><body><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div><div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div></div></section></body></html>

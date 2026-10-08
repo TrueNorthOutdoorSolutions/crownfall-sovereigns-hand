@@ -39,3 +39,7 @@ Choose a starter, enter the battle, select a hand card and select a front to dep
 Use Vercel's Vite framework preset, `npm run build`, and output directory `dist` for deployment. This repository has no authenticated Vercel project link configured by the prototype. Link the intended existing project through its normal deployment flow; do not create or replace a project blindly.
 
 Collector metadata is separate from gameplay definitions. Standard, Radiant, Ascended and Sovereign printings have equal gameplay. No real-money economy, paid packs, ranking, networking, account system, full roster or canonical artwork is implemented.
+
+## V0.2 redesign (branch `redesign/v0.2`)
+
+The V0.1 battlefront prototype above is preserved at tag `v0.1.0`. The V0.2 direction (Model B, The Shattered Crown) is being proven first as a paper print-and-play prototype in [`prototype-v0.2/`](prototype-v0.2/README.md). No digital V0.2 game exists yet.

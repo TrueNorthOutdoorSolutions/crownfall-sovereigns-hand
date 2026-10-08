@@ -1,0 +1,761 @@
+{
+  "gamesPerVariant": 10000,
+  "seeds": "1..10000",
+  "results": {
+    "baseline": {
+      "rules": {},
+      "games": 10000,
+      "winRate": {
+        "banner": 53,
+        "ember": 47
+      },
+      "firstPlayerWinRate": 50.8,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endReasons": {
+        "attack": 75.2,
+        "breakthrough": 19.4,
+        "stall": 5.4
+      },
+      "stallRuleUsed": 11.5,
+      "evolution": {
+        "reachedStar2": 66,
+        "reachedStar3": 41.9,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.38
+      },
+      "perGame": {
+        "attacks": 14.8,
+        "blocks": 3.9,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 34.5,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 7.8,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.41,
+          "winRateWhenDeployed": 66,
+          "winRateWhenNot": 46.2
+        },
+        "ember": {
+          "deployRate": 35.1,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 49,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.26,
+          "winRateWhenDeployed": 36.8,
+          "winRateWhenNot": 52.5
+        }
+      }
+    },
+    "noBreakthrough": {
+      "rules": {
+        "breakthrough": false
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 52.3,
+        "ember": 47.7
+      },
+      "firstPlayerWinRate": 50.4,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endReasons": {
+        "attack": 91.7,
+        "stall": 8.3
+      },
+      "stallRuleUsed": 16.1,
+      "evolution": {
+        "reachedStar2": 68.3,
+        "reachedStar3": 44.4,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.5
+      },
+      "perGame": {
+        "attacks": 16.3,
+        "blocks": 4.3,
+        "schemesSprung": 3,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 37.7,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 8,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.49,
+          "winRateWhenDeployed": 62.5,
+          "winRateWhenNot": 46.2
+        },
+        "ember": {
+          "deployRate": 39.5,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 50.2,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.3,
+          "winRateWhenDeployed": 36.9,
+          "winRateWhenNot": 54.7
+        }
+      }
+    },
+    "secondPlayerNoCommand": {
+      "rules": {
+        "secondPlayerCommand": false
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 54.1,
+        "ember": 45.9
+      },
+      "firstPlayerWinRate": 58.1,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endReasons": {
+        "attack": 74,
+        "stall": 6.5,
+        "breakthrough": 19.6
+      },
+      "stallRuleUsed": 13.2,
+      "evolution": {
+        "reachedStar2": 66.7,
+        "reachedStar3": 43.6,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.43
+      },
+      "perGame": {
+        "attacks": 14.9,
+        "blocks": 3.9,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.5
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 36.3,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 7.9,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.43,
+          "winRateWhenDeployed": 66.1,
+          "winRateWhenNot": 47.3
+        },
+        "ember": {
+          "deployRate": 36.4,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 48.4,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.29,
+          "winRateWhenDeployed": 37.6,
+          "winRateWhenNot": 50.6
+        }
+      }
+    },
+    "secondPlayerNoCard": {
+      "rules": {
+        "secondPlayerCard": false
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 53.3,
+        "ember": 46.7
+      },
+      "firstPlayerWinRate": 57.8,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endReasons": {
+        "attack": 76,
+        "breakthrough": 19,
+        "stall": 5
+      },
+      "stallRuleUsed": 11.1,
+      "evolution": {
+        "reachedStar2": 65.7,
+        "reachedStar3": 42.6,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.38
+      },
+      "perGame": {
+        "attacks": 14.5,
+        "blocks": 3.7,
+        "schemesSprung": 2.7,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 33.5,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 8.1,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.43,
+          "winRateWhenDeployed": 67.1,
+          "winRateWhenNot": 46.3
+        },
+        "ember": {
+          "deployRate": 34,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 48.8,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.28,
+          "winRateWhenDeployed": 35.8,
+          "winRateWhenNot": 52.4
+        }
+      }
+    },
+    "ascendFree": {
+      "rules": {
+        "ascendMode": "free"
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 60.1,
+        "ember": 39.9
+      },
+      "firstPlayerWinRate": 52.1,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 9,
+        "max": 12
+      },
+      "endReasons": {
+        "attack": 76.2,
+        "breakthrough": 21.4,
+        "stall": 2.5
+      },
+      "stallRuleUsed": 5.1,
+      "evolution": {
+        "reachedStar2": 61.4,
+        "reachedStar3": 41,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.26
+      },
+      "perGame": {
+        "attacks": 13.7,
+        "blocks": 3.6,
+        "schemesSprung": 2.5,
+        "shardfalls": 0.5
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 30.8,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 8.5,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.78,
+          "winRateWhenDeployed": 71.2,
+          "winRateWhenNot": 55.1
+        },
+        "ember": {
+          "deployRate": 30.1,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 55.1,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.24,
+          "winRateWhenDeployed": 32.8,
+          "winRateWhenNot": 43
+        }
+      }
+    },
+    "ascendNoAttack": {
+      "rules": {
+        "ascendMode": "noAttack"
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 57.5,
+        "ember": 42.5
+      },
+      "firstPlayerWinRate": 51,
+      "unfinished": 0,
+      "rounds": {
+        "median": 8,
+        "p90": 10,
+        "max": 13
+      },
+      "endReasons": {
+        "attack": 71,
+        "breakthrough": 19.9,
+        "stall": 9.1
+      },
+      "stallRuleUsed": 19.6,
+      "evolution": {
+        "reachedStar2": 68,
+        "reachedStar3": 46.3,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.58
+      },
+      "perGame": {
+        "attacks": 15.6,
+        "blocks": 4.2,
+        "schemesSprung": 3,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 37.5,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 7.8,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.52,
+          "winRateWhenDeployed": 70.9,
+          "winRateWhenNot": 49.5
+        },
+        "ember": {
+          "deployRate": 38.8,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 57.1,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.22,
+          "winRateWhenDeployed": 31.9,
+          "winRateWhenNot": 49.2
+        }
+      }
+    },
+    "tierV_shard": {
+      "rules": {
+        "tierV": "shard"
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 53.4,
+        "ember": 46.7
+      },
+      "firstPlayerWinRate": 51,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endReasons": {
+        "attack": 73,
+        "breakthrough": 18.2,
+        "ascendant": 3.8,
+        "stall": 4.9
+      },
+      "stallRuleUsed": 10.1,
+      "evolution": {
+        "reachedStar2": 65.7,
+        "reachedStar3": 41.6,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.36
+      },
+      "perGame": {
+        "attacks": 14.5,
+        "blocks": 3.8,
+        "schemesSprung": 2.7,
+        "shardfalls": 0.5
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 34.2,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 7.9,
+          "penaltyShardWasLast": 0.7,
+          "avgShardsBrokenByIt": 0.36,
+          "winRateWhenDeployed": 65.8,
+          "winRateWhenNot": 46.9
+        },
+        "ember": {
+          "deployRate": 35,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 48.9,
+          "penaltyShardWasLast": 10.2,
+          "avgShardsBrokenByIt": 0.26,
+          "winRateWhenDeployed": 35.7,
+          "winRateWhenNot": 52.6
+        }
+      }
+    },
+    "tierV_spoils": {
+      "rules": {
+        "tierV": "spoils"
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 53.1,
+        "ember": 46.9
+      },
+      "firstPlayerWinRate": 50.8,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endReasons": {
+        "attack": 75.1,
+        "breakthrough": 19.4,
+        "stall": 5.5
+      },
+      "stallRuleUsed": 11.4,
+      "evolution": {
+        "reachedStar2": 66,
+        "reachedStar3": 41.8,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.38
+      },
+      "perGame": {
+        "attacks": 14.8,
+        "blocks": 3.9,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 34.6,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 7.8,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.41,
+          "winRateWhenDeployed": 66.1,
+          "winRateWhenNot": 46.2
+        },
+        "ember": {
+          "deployRate": 35.1,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 49,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.26,
+          "winRateWhenDeployed": 36.6,
+          "winRateWhenNot": 52.5
+        }
+      }
+    },
+    "tierV_crowning": {
+      "rules": {
+        "tierV": "crowning"
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 52.9,
+        "ember": 47.1
+      },
+      "firstPlayerWinRate": 50.6,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endReasons": {
+        "attack": 74.7,
+        "breakthrough": 19.5,
+        "stall": 5.8
+      },
+      "stallRuleUsed": 11.8,
+      "evolution": {
+        "reachedStar2": 66.1,
+        "reachedStar3": 41.9,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.38
+      },
+      "perGame": {
+        "attacks": 14.8,
+        "blocks": 3.9,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 31.1,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 7.9,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.38,
+          "winRateWhenDeployed": 61.6,
+          "winRateWhenNot": 48.9
+        },
+        "ember": {
+          "deployRate": 34,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 50.5,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.24,
+          "winRateWhenDeployed": 34.8,
+          "winRateWhenNot": 53.4
+        }
+      }
+    },
+    "noSol": {
+      "rules": {
+        "replaceAscendant": {
+          "banner": "varr"
+        }
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 51.6,
+        "ember": 48.4
+      },
+      "firstPlayerWinRate": 50.8,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endReasons": {
+        "attack": 70.6,
+        "breakthrough": 23.3,
+        "stall": 6.1
+      },
+      "stallRuleUsed": 11.7,
+      "evolution": {
+        "reachedStar2": 65.5,
+        "reachedStar3": 41.5,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.31
+      },
+      "perGame": {
+        "attacks": 14.8,
+        "blocks": 3.8,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.5
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 0,
+          "medianDeployRound": null,
+          "defeatedWhenDeployed": 0,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0,
+          "winRateWhenDeployed": 0,
+          "winRateWhenNot": 51.6
+        },
+        "ember": {
+          "deployRate": 35.4,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 48.9,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.25,
+          "winRateWhenDeployed": 39.8,
+          "winRateWhenNot": 53.1
+        }
+      }
+    },
+    "noAurex": {
+      "rules": {
+        "replaceAscendant": {
+          "ember": "pyrax"
+        }
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 54.1,
+        "ember": 45.9
+      },
+      "firstPlayerWinRate": 50.8,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endReasons": {
+        "attack": 73,
+        "breakthrough": 22,
+        "stall": 5
+      },
+      "stallRuleUsed": 10.3,
+      "evolution": {
+        "reachedStar2": 67,
+        "reachedStar3": 43.1,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.42
+      },
+      "perGame": {
+        "attacks": 14.8,
+        "blocks": 4,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 34.4,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 4.9,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0.41,
+          "winRateWhenDeployed": 68.1,
+          "winRateWhenNot": 46.7
+        },
+        "ember": {
+          "deployRate": 0,
+          "medianDeployRound": null,
+          "defeatedWhenDeployed": 0,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0,
+          "winRateWhenDeployed": 0,
+          "winRateWhenNot": 45.9
+        }
+      }
+    },
+    "noSol_shard": {
+      "rules": {
+        "tierV": "shard",
+        "replaceAscendant": {
+          "banner": "varr"
+        }
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 52.2,
+        "ember": 47.8
+      },
+      "firstPlayerWinRate": 50.9,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endReasons": {
+        "attack": 68.3,
+        "breakthrough": 22.1,
+        "stall": 5.6,
+        "ascendant": 4
+      },
+      "stallRuleUsed": 10.4,
+      "evolution": {
+        "reachedStar2": 65.1,
+        "reachedStar3": 41.3,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.29
+      },
+      "perGame": {
+        "attacks": 14.5,
+        "blocks": 3.7,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.5
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 0,
+          "medianDeployRound": null,
+          "defeatedWhenDeployed": 0,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0,
+          "winRateWhenDeployed": 0,
+          "winRateWhenNot": 52.2
+        },
+        "ember": {
+          "deployRate": 35.4,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 48.9,
+          "penaltyShardWasLast": 11.2,
+          "avgShardsBrokenByIt": 0.25,
+          "winRateWhenDeployed": 38.1,
+          "winRateWhenNot": 53.1
+        }
+      }
+    },
+    "noAurex_shard": {
+      "rules": {
+        "tierV": "shard",
+        "replaceAscendant": {
+          "ember": "pyrax"
+        }
+      },
+      "games": 10000,
+      "winRate": {
+        "banner": 53.9,
+        "ember": 46.1
+      },
+      "firstPlayerWinRate": 50.9,
+      "unfinished": 0,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endReasons": {
+        "attack": 72.9,
+        "breakthrough": 21.8,
+        "stall": 5,
+        "ascendant": 0.3
+      },
+      "stallRuleUsed": 10.2,
+      "evolution": {
+        "reachedStar2": 67,
+        "reachedStar3": 43,
+        "medianStar2Round": 4,
+        "medianStar3Round": 5,
+        "ascendsPerPlayer": 1.41
+      },
+      "perGame": {
+        "attacks": 14.8,
+        "blocks": 4,
+        "schemesSprung": 2.8,
+        "shardfalls": 0.6
+      },
+      "tierV": {
+        "banner": {
+          "deployRate": 34.4,
+          "medianDeployRound": 6,
+          "defeatedWhenDeployed": 4.9,
+          "penaltyShardWasLast": 0.8,
+          "avgShardsBrokenByIt": 0.41,
+          "winRateWhenDeployed": 67.7,
+          "winRateWhenNot": 46.7
+        },
+        "ember": {
+          "deployRate": 0,
+          "medianDeployRound": null,
+          "defeatedWhenDeployed": 0,
+          "penaltyShardWasLast": 0,
+          "avgShardsBrokenByIt": 0,
+          "winRateWhenDeployed": 0,
+          "winRateWhenNot": 46.1
+        }
+      }
+    },
+    "evolutionDecision": {
+      "free": {
+        "alwaysVsSmart": 58.2,
+        "neverVsSmart": 36.6,
+        "smartVsSmart": 50.5
+      },
+      "noAttack": {
+        "alwaysVsSmart": 50.8,
+        "neverVsSmart": 38.6,
+        "smartVsSmart": 50.9
+      },
+      "exhaust": {
+        "alwaysVsSmart": 42.5,
+        "neverVsSmart": 43.1,
+        "smartVsSmart": 50.3
+      }
+    }
+  }
+}

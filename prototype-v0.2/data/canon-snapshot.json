@@ -1,0 +1,1011 @@
+{
+  "source": "Desktop/Crownfall",
+  "commit": "e07421b0d7d20616cc540ce8f5bf05b2413fe64a",
+  "readAt": "2026-10-08",
+  "tierNames": {
+    "1": "Common",
+    "2": "Uncommon",
+    "3": "Elite",
+    "4": "Epic",
+    "5": "Mythic"
+  },
+  "champions": [
+    {
+      "id": "bramble",
+      "name": "Bramble",
+      "title": "Sapling of the Greenwall",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "verdant"
+      ],
+      "classes": [
+        "warden"
+      ],
+      "ability": "Rootslam",
+      "star1": "A small wooden creature wearing moss like armour, fists of knotted root.",
+      "star2": "Larger, plated in armoured bark with glowing green runes; flowers bloom along the shoulders and roots trail when he walks.",
+      "star3": "A miniature ancient world-tree warrior. Leaves orbit him, his eyes burn emerald, and Rootslam erupts as enormous spectral roots.",
+      "lore": "The Greenwall forests sent their smallest guardian into the Crownfall. The forest does not understand crowns. It understands roots."
+    },
+    {
+      "id": "kira",
+      "name": "Kira Volt",
+      "title": "Arc-Tech Prodigy",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "voltborn"
+      ],
+      "classes": [
+        "ranger"
+      ],
+      "ability": "Overcharged Round",
+      "star1": "A young arc-tech gunner with one compact energy pistol.",
+      "star2": "Dual energised pistols; her coat carries a glowing arc coil.",
+      "star3": "Floating arc batteries orbit her and every shot leaves a lightning trail.",
+      "lore": "Kira rebuilt her first pistol from a lightning rod. She intends to rebuild the Crown the same way."
+    },
+    {
+      "id": "grimm",
+      "name": "Grimm",
+      "title": "The Soldier Who Stayed",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "hollow"
+      ],
+      "classes": [
+        "vanguard"
+      ],
+      "ability": "Refuse Death",
+      "star1": "A skeletal footsoldier in dented plate, ghost-light in his ribs.",
+      "star2": "Plate reforged with spectral seams; a tattered banner grows from his back.",
+      "star3": "A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate.",
+      "lore": "His war ended three centuries ago. Nobody told Grimm."
+    },
+    {
+      "id": "pip",
+      "name": "Pip",
+      "title": "Demolitions Enthusiast",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "gearbound"
+      ],
+      "classes": [
+        "saboteur"
+      ],
+      "ability": "Special Delivery",
+      "star1": "A tiny goblin-like sapper with a satchel of fizzing bombs.",
+      "star2": "Goggles, a bandolier of bigger bombs and a smoking backpack launcher.",
+      "star3": "Pip rides a ridiculous miniature mechanical war machine with a bomb chute.",
+      "lore": "Pip was told the Crownfall was a place of great explosions. Pip was not told correctly, so Pip brought his own."
+    },
+    {
+      "id": "solara",
+      "name": "Solara",
+      "title": "Novice of the Dawn",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "dawnforged"
+      ],
+      "classes": [
+        "mystic"
+      ],
+      "ability": "Sun Mend",
+      "star1": "A novice sun priestess with a simple brass staff.",
+      "star2": "Gilded vestments and a sun-disc staff that hums with light.",
+      "star3": "Radiant robes, a floating halo of three suns and wings of morning light.",
+      "lore": "Her order believes the Crown is the first sunrise, stolen. She has come to return it."
+    },
+    {
+      "id": "fen",
+      "name": "Fen",
+      "title": "Blood of the Pack",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "wildkin"
+      ],
+      "classes": [
+        "duelist"
+      ],
+      "ability": "Red Moon Pounce",
+      "star1": "A lean grey wolf warrior with bone-hilted claws.",
+      "star2": "Scarred and armoured in hide, crimson war paint glowing on his muzzle.",
+      "star3": "An alpha of the blood moon; a red spirit-wolf runs beside every leap.",
+      "lore": "Fen tracks weakness. He learned it from the winters, and the winters were thorough."
+    },
+    {
+      "id": "torren",
+      "name": "Torren",
+      "title": "Shield of the Deep",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "titanborn"
+      ],
+      "classes": [
+        "warden"
+      ],
+      "ability": "Stonewall",
+      "star1": "A stone-skinned bearer behind a slab shield.",
+      "star2": "The shield becomes a carved gate with glowing gold veins.",
+      "star3": "A mountain made small: crystal spires grow from his shoulders and the shield bears a living rune.",
+      "lore": "The Titanborn say a shield is a promise. Torren has never broken one."
+    },
+    {
+      "id": "nyx",
+      "name": "Nyx",
+      "title": "The Quiet Hand",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "umbral"
+      ],
+      "classes": [
+        "assassin"
+      ],
+      "ability": "Fade",
+      "star1": "A hooded thief with two crooked daggers.",
+      "star2": "Her cloak drips living shadow; violet eyes glow beneath the hood.",
+      "star3": "Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night.",
+      "lore": "Nyx stole a star once. She gave it back. Mostly."
+    },
+    {
+      "id": "emberling",
+      "name": "Emberling",
+      "title": "Spark That Learned to Speak",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "elemental"
+      ],
+      "classes": [
+        "arcanist"
+      ],
+      "ability": "Kindle",
+      "star1": "A small living flame with curious coal eyes.",
+      "star2": "A crackling fire sprite crowned with blue-hot embers.",
+      "star3": "A miniature sun-spirit; the air warps around her and her fireballs leave spiralling trails.",
+      "lore": "She was a candle once. Then someone read a spell too close to her."
+    },
+    {
+      "id": "rowan",
+      "name": "Rowan",
+      "title": "Longbow of the Realm",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "kingdom"
+      ],
+      "classes": [
+        "ranger"
+      ],
+      "ability": "Kingsbolt",
+      "star1": "A kingdom archer with a yew longbow.",
+      "star2": "Royal green tabard and a silver-limbed bow.",
+      "star3": "A legendary marksman: arrows of light, a lion cloak and a falcon familiar.",
+      "lore": "Rowan has never missed at a hundred paces. At a thousand, he says, the wind argues."
+    },
+    {
+      "id": "hexie",
+      "name": "Hexie",
+      "title": "Apprentice of Mischief",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "hexbound"
+      ],
+      "classes": [
+        "arcanist"
+      ],
+      "ability": "Unstable Hex",
+      "star1": "An apprentice witch in an oversized hat.",
+      "star2": "Her hat has grown eyes. Her staff has grown opinions.",
+      "star3": "A chaos witch riding a floating cauldron, hexes orbiting like fireflies.",
+      "lore": "Hexie is not supposed to be here. Neither was anything she has ever turned into a toad."
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "title": "Unit B-07",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "gearbound"
+      ],
+      "classes": [
+        "vanguard"
+      ],
+      "ability": "Emergency Plating",
+      "star1": "A compact combat automaton with one amber eye.",
+      "star2": "Reinforced plating, piston fists and a spinning gear core.",
+      "star3": "A gleaming brass guardian with a reactor heart and folding shield vanes.",
+      "lore": "Bolt was built to guard a door. The door is gone. Bolt has decided you are the door now."
+    },
+    {
+      "id": "kael",
+      "name": "Kael",
+      "title": "Seeker of the Crown",
+      "tier": 1,
+      "tierName": "Common",
+      "origins": [
+        "kingdom"
+      ],
+      "classes": [
+        "duelist"
+      ],
+      "ability": "Crescent Slash",
+      "star1": "A young swordsman in travelling leathers.",
+      "star2": "Blue-steel armour and a blade that leaves a crescent of light.",
+      "star3": "A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet.",
+      "lore": "Everyone in the Crownfall wants the Crown. Kael is the only one who wants to be worthy of it."
+    },
+    {
+      "id": "solenne",
+      "name": "Solenne Ash",
+      "title": "Knight of the Burning Dawn",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "dawnforged"
+      ],
+      "classes": [
+        "vanguard"
+      ],
+      "ability": "Solar Charge",
+      "star1": "A flame knight in rose-gold plate.",
+      "star2": "Her plume becomes fire; her blade glows white-hot.",
+      "star3": "Sun-forged armour, blazing wings and a trail of dawnfire.",
+      "lore": "Solenne swore to burn away every shadow in the Crownfall. She has started a list."
+    },
+    {
+      "id": "grizz",
+      "name": "Grizz",
+      "title": "The Mountain That Walks",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "wildkin"
+      ],
+      "classes": [
+        "bruiser"
+      ],
+      "ability": "Maul",
+      "star1": "An enormous bear warrior with iron-shod claws.",
+      "star2": "War-paint and a pauldron made from a mountain troll's skull.",
+      "star3": "A primal bear-titan whose roar shakes the arena floor.",
+      "lore": "Grizz does not understand the Crown. He understands that everyone wants it, and he likes a crowd."
+    },
+    {
+      "id": "gearwick",
+      "name": "Gearwick-9",
+      "title": "Siege Calculator",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "gearbound"
+      ],
+      "classes": [
+        "artillerist"
+      ],
+      "ability": "Mortar Protocol",
+      "star1": "A clockwork artillery robot with a brass mortar.",
+      "star2": "Twin barrels and a targeting monocle that clicks.",
+      "star3": "A walking siege tower with a rotary mortar crown.",
+      "lore": "Gearwick-9 has calculated the odds of winning the Crown. It will not tell you them."
+    },
+    {
+      "id": "mirella",
+      "name": "Mirella",
+      "title": "Voice of the Tides",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "elemental"
+      ],
+      "classes": [
+        "mystic"
+      ],
+      "ability": "Tidal Veil",
+      "star1": "A water mage with a swirling orb of seawater.",
+      "star2": "Robes of living foam and a coral circlet.",
+      "star3": "A tide queen: a ring of water orbits her and fish of light swim through it.",
+      "lore": "Mirella can hear every ocean. The Crownfall has none, and the silence frightens her."
+    },
+    {
+      "id": "shade",
+      "name": "Shade",
+      "title": "The Mask With No Face",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "umbral"
+      ],
+      "classes": [
+        "assassin"
+      ],
+      "ability": "Execution Mark",
+      "star1": "A masked assassin with a red-lacquered blade.",
+      "star2": "The mask cracks, revealing a crimson glow beneath.",
+      "star3": "A wraith of ribbons and knives; the mask floats in front of an empty hood.",
+      "lore": "Shade has worn many faces. The mask is the only one that stayed."
+    },
+    {
+      "id": "borin",
+      "name": "Borin Ironbelly",
+      "title": "Forgekin Hearthbreaker",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "titanborn"
+      ],
+      "classes": [
+        "bruiser"
+      ],
+      "ability": "Molten Hammer",
+      "star1": "A broad Forgekin smith: basalt skin, braided beard of copper wire, a glowing hammer.",
+      "star2": "Magma veins open along his arms; his hammer head is a live forge.",
+      "star3": "Borin becomes a walking furnace; his beard is molten metal and every step leaves slag.",
+      "lore": "The Forgekin of Titan's Deep sing to metal until it agrees to become a hammer. Borin sings loudest."
+    },
+    {
+      "id": "seren",
+      "name": "Seren",
+      "title": "Keeper of Starlings",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "astral"
+      ],
+      "classes": [
+        "summoner"
+      ],
+      "ability": "Starling",
+      "star1": "A star-child with a lantern staff.",
+      "star2": "A cloak of night sky and a lantern that holds a real star.",
+      "star3": "Constellations sketch themselves around her; a flock of light-birds circles overhead.",
+      "lore": "Seren catches falling stars. Some of them want to fight."
+    },
+    {
+      "id": "thorn",
+      "name": "Thorn",
+      "title": "Blighted Bloom",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "verdant"
+      ],
+      "classes": [
+        "saboteur"
+      ],
+      "ability": "Toxic Bloom",
+      "star1": "A thorned plant warrior with a violet flower head.",
+      "star2": "Poison dripping from purple petals; a thorny spine along his back.",
+      "star3": "A carnivorous bloom colossus whose petals exhale toxic spores.",
+      "lore": "Not every forest wants visitors."
+    },
+    {
+      "id": "dax",
+      "name": "Dax Meridian",
+      "title": "The Gun Between Worlds",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "riftborn"
+      ],
+      "classes": [
+        "ranger"
+      ],
+      "ability": "Ricochet",
+      "star1": "A dimensional gunslinger in a dusty long coat.",
+      "star2": "Rift cracks glow along his revolver; his coat shows another sky.",
+      "star3": "A drifter from every timeline at once: ghostly copies echo his shots.",
+      "lore": "Dax has fought in forty-one realities. He lost in one, and he is still annoyed about it."
+    },
+    {
+      "id": "elara",
+      "name": "Elara",
+      "title": "Field Surgeon of the Realm",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "kingdom"
+      ],
+      "classes": [
+        "mystic"
+      ],
+      "ability": "Last Light",
+      "star1": "A battlefield healer with a satchel of salves.",
+      "star2": "White-and-blue royal vestments; her tome glows.",
+      "star3": "An angel of the field hospital, light pouring from her open tome.",
+      "lore": "Elara has saved more soldiers than any general has led."
+    },
+    {
+      "id": "rask",
+      "name": "Rask",
+      "title": "Pit Champion of Sszar",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "wildkin"
+      ],
+      "classes": [
+        "duelist"
+      ],
+      "star1": "A reptilian gladiator with a notched gladius.",
+      "star2": "Gilded arena armour and a trophy belt.",
+      "star3": "The undefeated: golden scales and a cloak of every champion he has bested.",
+      "lore": "Rask counts in threes. So do his opponents, briefly."
+    },
+    {
+      "id": "hex3",
+      "name": "HEX-3",
+      "title": "Arcane Prototype",
+      "tier": 2,
+      "tierName": "Uncommon",
+      "origins": [
+        "gearbound"
+      ],
+      "classes": [
+        "arcanist"
+      ],
+      "ability": "Mana Reactor",
+      "star1": "An experimental robot with a glass mana chamber.",
+      "star2": "Rune-etched plating; the reactor glows violet.",
+      "star3": "A levitating arcane engine with three orbiting reactor cores.",
+      "lore": "Prototypes one and two exploded. HEX-3 is careful. HEX-3 is very, very careful."
+    },
+    {
+      "id": "valkara",
+      "name": "Valkara",
+      "title": "Wing of Judgment",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "astral"
+      ],
+      "classes": [
+        "duelist"
+      ],
+      "ability": "Judgment Dive",
+      "star1": "A winged celestial warrior with a spear-sword.",
+      "star2": "Wings of starlight and a gilded war-helm.",
+      "star3": "Six wings, a halo of blades and a dive that splits the sky.",
+      "lore": "Valkara judges. The verdict is usually \"from above\"."
+    },
+    {
+      "id": "dreadmouth",
+      "name": "Dreadmouth",
+      "title": "The Hunger Below",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "hollow"
+      ],
+      "classes": [
+        "bruiser"
+      ],
+      "ability": "Devour",
+      "star1": "An enormous hollow creature that is mostly jaw.",
+      "star2": "Bone plates, a second jaw, and ghostfire in its throat.",
+      "star3": "A leviathan of the dead: an entire graveyard of teeth.",
+      "lore": "It ate a kingdom once. It is still hungry."
+    },
+    {
+      "id": "spark",
+      "name": "Professor Spark",
+      "title": "Arc-Engineer Extraordinaire",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "gearbound"
+      ],
+      "classes": [
+        "summoner"
+      ],
+      "ability": "Deploy Turret",
+      "star1": "A wild-haired engineer with a wrench and a tool-pack.",
+      "star2": "A mechanical arm grows from the pack; goggles spark.",
+      "star3": "He sits in a walking workshop that builds turrets on the fly.",
+      "lore": "Professor Spark was expelled from four academies for \"excessive voltage\"."
+    },
+    {
+      "id": "orion",
+      "name": "Orion",
+      "title": "The Constellation Sniper",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "astral"
+      ],
+      "classes": [
+        "ranger"
+      ],
+      "ability": "Constellation Shot",
+      "star1": "A star-powered sniper with a crescent longbow.",
+      "star2": "Constellations glow across his armour; his bow draws starlight.",
+      "star3": "A hunter of gods: his arrows are comets.",
+      "lore": "Orion names every star he fires. He is running out of names."
+    },
+    {
+      "id": "maeve",
+      "name": "Maeve",
+      "title": "The Old Bargain",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "verdant",
+        "hexbound"
+      ],
+      "classes": [
+        "mystic"
+      ],
+      "star1": "An ancient forest witch with a staff of living wood.",
+      "star2": "Antlers of bone and branch; her shadow is a tree.",
+      "star3": "The forest itself leans in to listen: moths of light circle her crown of antlers.",
+      "lore": "Maeve always keeps her bargains. That is what makes them frightening."
+    },
+    {
+      "id": "ronin",
+      "name": "Ronin Zero",
+      "title": "The Frame That Wanders",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "voltborn"
+      ],
+      "classes": [
+        "duelist"
+      ],
+      "ability": "Zero Frame",
+      "star1": "A cybernetic wandering swordsman with a straw-coloured visor.",
+      "star2": "Arc lines trace his frame; his blade hums.",
+      "star3": "He moves faster than his own afterimages; a lightning scabbard crackles at his hip.",
+      "lore": "Ronin Zero forgot his master's name. He did not forget the technique."
+    },
+    {
+      "id": "ignara",
+      "name": "Ignara",
+      "title": "The Living Pyre",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "elemental"
+      ],
+      "classes": [
+        "vanguard"
+      ],
+      "ability": "Inferno Shell",
+      "star1": "A fire elemental warrior in cooling obsidian armour.",
+      "star2": "The armour cracks and roars with flame.",
+      "star3": "A pillar of fire in the shape of a woman; the air itself is burning.",
+      "lore": "Ignara was born in a volcano. She considers everywhere else cold."
+    },
+    {
+      "id": "morrow",
+      "name": "Morrow",
+      "title": "The Gravecaller",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "hollow"
+      ],
+      "classes": [
+        "summoner"
+      ],
+      "ability": "Raise Fallen",
+      "star1": "A gaunt necromancer with a bone scythe.",
+      "star2": "Ghostlights orbit him and his robes are stitched from banners.",
+      "star3": "A lord of the grave crowned in spectral candles.",
+      "lore": "Morrow believes death is a waste of good soldiers."
+    },
+    {
+      "id": "blacktide",
+      "name": "Captain Blacktide",
+      "title": "Terror of the Rift Seas",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "riftborn"
+      ],
+      "classes": [
+        "artillerist"
+      ],
+      "ability": "Broadside",
+      "star1": "A dimensional pirate captain with a hand cannon.",
+      "star2": "A spectral crew appears behind him; his coat drips seawater from nowhere.",
+      "star3": "A ghost galleon's figurehead rises behind him as he fires.",
+      "lore": "Blacktide sails seas that exist only between realities. He charges tolls."
+    },
+    {
+      "id": "aurelia",
+      "name": "Aurelia",
+      "title": "Crown Commander",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "kingdom"
+      ],
+      "classes": [
+        "commander"
+      ],
+      "ability": "Rally the Crown",
+      "star1": "A royal battle commander in blue and gold.",
+      "star2": "A standard bearer marches behind her; her circlet glows.",
+      "star3": "Crowned in light, her banner becomes a column of gold.",
+      "lore": "Aurelia already has a crown. She wants to know why this one is bigger."
+    },
+    {
+      "id": "knuckle",
+      "name": "Knuckle",
+      "title": "Pit King",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "titanborn"
+      ],
+      "classes": [
+        "bruiser"
+      ],
+      "ability": "Arena Breaker",
+      "star1": "An enormous stone pit fighter with taped fists.",
+      "star2": "Championship belts and cracks of gold in his granite skin.",
+      "star3": "A living landslide with fists like siege rams.",
+      "lore": "Knuckle has never lost a fight in the Underpits. He is here to see if the surface is any harder."
+    },
+    {
+      "id": "zyrak",
+      "name": "Zyrak",
+      "title": "Shard of the Far Lattice",
+      "tier": 3,
+      "tierName": "Elite",
+      "origins": [
+        "riftborn"
+      ],
+      "classes": [
+        "arcanist"
+      ],
+      "ability": "Prismatic Collapse",
+      "star1": "A crystal alien with a floating prism.",
+      "star2": "More facets, more light; a halo of crystal shards.",
+      "star3": "A walking cathedral of prisms refracting impossible colours.",
+      "lore": "Zyrak speaks in light. Most listeners go briefly blind; Zyrak considers this rude."
+    },
+    {
+      "id": "astryon",
+      "name": "Astryon",
+      "title": "The Seven-Star Blade",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "astral"
+      ],
+      "classes": [
+        "duelist"
+      ],
+      "ability": "Seven-Star Dance",
+      "star1": "A silver celestial swordsman.",
+      "star2": "Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes.",
+      "star3": "Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space.",
+      "lore": "Astryon has cut down seven stars. He intends the Crown to be the eighth."
+    },
+    {
+      "id": "vespera",
+      "name": "Queen Vespera",
+      "title": "Monarch of the Umbral Court",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "umbral"
+      ],
+      "classes": [
+        "summoner"
+      ],
+      "ability": "Court of Shadows",
+      "star1": "A pale shadow monarch on invisible stairs.",
+      "star2": "Her train becomes a river of shadow courtiers.",
+      "star3": "A throne of night rises behind her; her crown is an eclipse.",
+      "lore": "Vespera rules a court that exists only when no one is looking."
+    },
+    {
+      "id": "titanrho",
+      "name": "Titan Rho",
+      "title": "The Last Fortress",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "gearbound"
+      ],
+      "classes": [
+        "warden"
+      ],
+      "ability": "Fortress Mode",
+      "star1": "An enormous ancient war machine on tread-legs.",
+      "star2": "Fold-out cannon towers and a reactor crown.",
+      "star3": "A walking citadel with a garrison of tiny brass drones.",
+      "lore": "Titan Rho guarded a city for ten thousand years. It does not know the city fell."
+    },
+    {
+      "id": "pyrax",
+      "name": "Pyrax",
+      "title": "Dragon-Blooded",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "elemental"
+      ],
+      "classes": [
+        "bruiser"
+      ],
+      "ability": "Dragonheart",
+      "star1": "A dragon-blooded warrior with ember scales on her arms.",
+      "star2": "Horns and a burning tail; half her body is scaled.",
+      "star3": "She becomes a dragon in all but wings, and the wings are coming.",
+      "lore": "Pyrax's grandmother was a dragon. Pyrax intends to be one too."
+    },
+    {
+      "id": "elysian",
+      "name": "Elysian",
+      "title": "Grace of the Firmament",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "astral"
+      ],
+      "classes": [
+        "mystic"
+      ],
+      "ability": "Divine Intervention",
+      "star1": "A serene celestial healer with feathered wings.",
+      "star2": "A second pair of wings and a halo of script.",
+      "star3": "A seraph of the firmament; her wings are made of dawn.",
+      "lore": "Elysian does not believe anyone deserves to die in the Crownfall. The Crownfall disagrees."
+    },
+    {
+      "id": "varr",
+      "name": "General Varr",
+      "title": "The Unbroken Line",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "kingdom"
+      ],
+      "classes": [
+        "commander",
+        "vanguard"
+      ],
+      "ability": "Hold the Line",
+      "star1": "A grizzled kingdom commander with a tower shield.",
+      "star2": "Medals of every war and a banner-spear.",
+      "star3": "A legend of the line, flanked by phantom shieldbearers.",
+      "lore": "Varr has held every line he was given. He was never given the Crown."
+    },
+    {
+      "id": "veilwalker",
+      "name": "Veilwalker",
+      "title": "The Anomaly",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "riftborn"
+      ],
+      "classes": [
+        "assassin"
+      ],
+      "ability": "Reality Cut",
+      "star1": "A living dimensional anomaly in a tattered shape.",
+      "star2": "Its edges tear into other skies.",
+      "star3": "A hole in the world holding a blade.",
+      "lore": "The Veilwalker is what happens when a door between worlds learns to walk."
+    },
+    {
+      "id": "gaia",
+      "name": "Gaia Prime",
+      "title": "The Worldroot",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "verdant"
+      ],
+      "classes": [
+        "warden"
+      ],
+      "ability": "Worldroot",
+      "star1": "An ancient living tree titan.",
+      "star2": "Blossoms and a canopy crown; birds nest in her shoulders.",
+      "star3": "A walking forest; the ground turns green where she stands.",
+      "lore": "Gaia Prime was old when the Crownfall was built. She remembers who built it."
+    },
+    {
+      "id": "ladyvolt",
+      "name": "Lady Volt",
+      "title": "Thunder in Heels",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "voltborn"
+      ],
+      "classes": [
+        "duelist"
+      ],
+      "ability": "Thunderstep",
+      "star1": "An elite lightning duelist with a rapier.",
+      "star2": "Storm-silver armour; her hair crackles.",
+      "star3": "She is lightning with a sword; thunder arrives a heartbeat after her.",
+      "lore": "Lady Volt has never lost a duel. She considers most battles to be several duels at once."
+    },
+    {
+      "id": "vessimer",
+      "name": "Vessimer",
+      "title": "The Tinctor",
+      "tier": 4,
+      "tierName": "Epic",
+      "origins": [
+        "hexbound"
+      ],
+      "classes": [
+        "saboteur"
+      ],
+      "ability": "Grand Experiment",
+      "star1": "A masked chemist with a bandolier of vials.",
+      "star2": "Brass apparatus hisses on his back.",
+      "star3": "A mobile laboratory of floating flasks and glowing tubes.",
+      "lore": "Nobody has seen Vessimer's face. Vessimer is not sure he still has one."
+    },
+    {
+      "id": "aurex",
+      "name": "Aurex",
+      "title": "The Last Dragon",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "wyrmblood"
+      ],
+      "classes": [
+        "ascendant",
+        "bruiser"
+      ],
+      "ability": "WORLD IN FLAMES",
+      "star1": "A massive dragon warrior.",
+      "star2": "Molten armour grows over his wings; fire leaks from every seam.",
+      "star3": "A full celestial dragon. The sky turns red and flames surround the arena.",
+      "lore": "Every dragon died for the Crown. Aurex is here to find out whether it was worth it."
+    },
+    {
+      "id": "noctara",
+      "name": "Noctara",
+      "title": "Empress of Nothing",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "umbral"
+      ],
+      "classes": [
+        "ascendant",
+        "arcanist"
+      ],
+      "ability": "THE UNMAKING",
+      "star1": "An empress robed in the space between stars.",
+      "star2": "Her crown becomes an eclipse; small voids orbit her.",
+      "star3": "She is a doorway to nothing. The battlefield becomes the void.",
+      "lore": "Noctara ruled an empire until it disappeared. She is not sure she did not do it."
+    },
+    {
+      "id": "atlas",
+      "name": "ATLAS-Ω",
+      "title": "Final-Generation War Machine",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "gearbound"
+      ],
+      "classes": [
+        "ascendant",
+        "warden"
+      ],
+      "ability": "OMEGA PROTOCOL",
+      "star1": "A gigantic final-generation war machine.",
+      "star2": "Shoulder cannons and a reactor halo.",
+      "star3": "A titan of the last war: a sun burns in its chest.",
+      "lore": "ATLAS-Ω was built to end a war. It did. It is still waiting for its next order."
+    },
+    {
+      "id": "sol",
+      "name": "Sol",
+      "title": "The First Light",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "dawnforged"
+      ],
+      "classes": [
+        "ascendant",
+        "mystic"
+      ],
+      "ability": "DAWN",
+      "star1": "The first light given a body.",
+      "star2": "A corona and four wings of light.",
+      "star3": "A miniature sun hangs above the arena.",
+      "lore": "Before anything, there was Sol. Sol would like it back that way."
+    },
+    {
+      "id": "unwritten",
+      "name": "The Unwritten King",
+      "title": "Lord of the Forgotten",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "hollow"
+      ],
+      "classes": [
+        "ascendant",
+        "summoner"
+      ],
+      "ability": "THE FORGOTTEN LEGION",
+      "star1": "A skeletal king on a throne of shields.",
+      "star2": "A spectral legion stands behind him.",
+      "star3": "He remembers his name, and the dead answer it.",
+      "lore": "His name was erased from every record. He wants the Crown to write it back."
+    },
+    {
+      "id": "veyra",
+      "name": "Veyra Sol",
+      "title": "Reality Hunter",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "riftborn"
+      ],
+      "classes": [
+        "ascendant",
+        "assassin"
+      ],
+      "ability": "BETWEEN WORLDS",
+      "star1": "A huntress with portal-rings on her wrists.",
+      "star2": "Her cloak is a window into other worlds.",
+      "star3": "She exists in every reality at once, and all of them are hunting.",
+      "lore": "Veyra hunts things that escape between worlds. The Crown is the biggest one yet."
+    },
+    {
+      "id": "mother",
+      "name": "Mother Verdant",
+      "title": "Life Eternal",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "verdant"
+      ],
+      "classes": [
+        "ascendant",
+        "summoner"
+      ],
+      "ability": "LIFE ETERNAL",
+      "star1": "The mother of forests, crowned in blossom.",
+      "star2": "Her train is a meadow; deer of light follow her.",
+      "star3": "A goddess of green whose every step is spring.",
+      "lore": "Every forest in every world is one of her children. She would like the Crown for the last one."
+    },
+    {
+      "id": "crownless",
+      "name": "Crownless",
+      "title": "The One Who Refused",
+      "tier": 5,
+      "tierName": "Mythic",
+      "origins": [
+        "crownless"
+      ],
+      "classes": [
+        "ascendant"
+      ],
+      "ability": "BREAK THE RULES",
+      "star1": "A figure in broken regalia whose face is hidden.",
+      "star2": "Cracks of Crown-light spread through the armour.",
+      "star3": "The Crown's own power, worn as a body. Reality fractures around him.",
+      "lore": "Once, someone won the Crownfall. They refused the Crown. Nobody has explained why."
+    }
+  ]
+}

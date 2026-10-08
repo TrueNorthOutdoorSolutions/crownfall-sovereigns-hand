@@ -1,0 +1,1130 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Sovereign's Hand — Cards</title><style>
+@page { size: letter; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; padding: 0; background: #fff; color: #16161a; -webkit-print-color-adjust: exact; print-color-adjust: exact }
+body { font-family: "Segoe UI", Arial, sans-serif }
+.page { width: 215.9mm; height: 279.4mm; position: relative; overflow: hidden; page-break-after: always }
+.page:last-child { page-break-after: auto }
+
+.sheet { position: absolute; left: 13.45mm; top: 7.7mm; width: 189mm; height: 264mm; display: grid; grid-template-columns: repeat(3, 63mm); grid-template-rows: repeat(3, 88mm) }
+.crop { position: absolute; background: #999 }
+.card { width: 63mm; height: 88mm; position: relative; border: 2.6mm solid var(--deck, #444); border-radius: 3mm; padding: 1.6mm 1.8mm 1.2mm; display: flex; flex-direction: column; gap: .9mm; overflow: hidden; background: #fff }
+.card.s2 { border-color: color-mix(in srgb, var(--deck) 70%, var(--acc)) }
+.card.s3 { border-color: var(--acc); box-shadow: inset 0 0 0 .5mm var(--deck) }
+.head { display: flex; align-items: center; gap: 1.5mm }
+.nm { flex: 1; min-width: 0 }
+.name { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 10.5pt; line-height: 1.05; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.title { font-size: 6pt; color: #555; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.cost, .asc { flex: none; width: 8.4mm; height: 8.4mm; display: grid; place-items: center; font-weight: 800; font-size: 11pt; color: #fff; background: var(--deck) }
+.cost { border-radius: 50% }
+.asc { background: var(--acc); color: #1b1b1b; clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); font-size: 9.5pt }
+.art { flex: none; height: 36mm; border-radius: 1.5mm; background: #ddd center 32% / cover no-repeat; position: relative; border: .3mm solid #0003 }
+.stars { position: absolute; left: 1mm; top: .8mm; color: #ffd75e; font-size: 10pt; text-shadow: 0 0 1.2mm #000, 0 0 .4mm #000; letter-spacing: .3mm }
+.crowndmg { position: absolute; right: 1mm; top: .8mm; background: #1b1b1b; color: #ffd75e; font-weight: 800; font-size: 8pt; padding: .2mm 1.2mm; border-radius: 1mm }
+.ascband { position: absolute; left: 0; right: 0; bottom: 0; background: #000b; color: #ffe08a; font-size: 5.6pt; font-weight: 700; letter-spacing: .06em; padding: .5mm 1.2mm; text-align: center }
+.tribe { font-size: 5.8pt; color: #333; font-weight: 600; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.box { flex: 1; min-height: 0; border: .3mm solid #0002; border-radius: 1.2mm; padding: 1.2mm 1.5mm; background: #f6f5f1; font-size: 7.3pt; line-height: 1.28 }
+.box.big { font-size: 8.6pt; display: flex; flex-direction: column; gap: 1.6mm }
+.kw { font-weight: 800; font-size: 7.4pt; color: var(--deck) }
+.abil { font-family: Georgia, serif; font-style: italic; font-size: 6.6pt; color: #555 }
+.vanilla { color: #777; font-style: italic }
+.stats { display: flex; justify-content: space-between; font-weight: 800; font-size: 11.5pt }
+.stats span { border: .35mm solid #1b1b1b; border-radius: 1.2mm; padding: 0 2mm; background: #fff }
+.foot { display: flex; justify-content: space-between; gap: 1mm; white-space: nowrap; font-size: 4.6pt; color: #777; letter-spacing: .02em }
+.spell .sigil { flex: none; height: 30mm; border-radius: 1.5mm; display: grid; place-items: center; position: relative;
+  background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--deck) 12%, #fff) 0 2.2mm, #fff 2.2mm 4.4mm); border: .3mm solid #0002 }
+.spell .sigil span { font-size: 30pt; color: var(--deck) }
+.spell.scheme .sigil { background: repeating-linear-gradient(45deg, #2a2a33 0 2.2mm, #3a3a45 2.2mm 4.4mm) }
+.spell.scheme .sigil span { color: var(--acc) }
+.sf { position: absolute; bottom: 1mm; font-style: normal; font-weight: 800; font-size: 6.4pt; letter-spacing: .14em; color: #fff; background: var(--acc); padding: .3mm 1.6mm; border-radius: 1mm }
+.sfnote { font-size: 6.6pt; color: #444 }
+.note { margin-top: auto; font-size: 6.2pt; color: #666; font-style: italic }
+.ref { border-color: #1b1b1b; font-size: 6.9pt; line-height: 1.28 }
+.ref .refh { font-weight: 800; letter-spacing: .12em; font-size: 7.4pt; border-bottom: .3mm solid #1b1b1b; margin-top: .6mm }
+.ref ol { margin: .5mm 0 0; padding-left: 3.6mm } .ref li { margin-bottom: .45mm } .ref p { margin: .6mm 0 0 }
+.ref dl { margin: .5mm 0 0; display: grid; grid-template-columns: auto 1fr; gap: .3mm 1.4mm } .ref dt { font-weight: 800 } .ref dd { margin: 0 }
+.ref .foot { margin-top: auto }
+.back { width: 63mm; height: 88mm; border-radius: 3mm; background: radial-gradient(circle at 50% 42%, #3b2f12 0, #15131c 62%); border: 2.6mm solid #15131c; display: grid; place-items: center; color: #e2b44c; text-align: center }
+.back b { display: block; font-family: Georgia, serif; font-size: 13pt; letter-spacing: .08em } .back i { font-size: 6pt; letter-spacing: .3em; color: #b89a5a }
+.back .crown { font-size: 34pt; line-height: 1 }
+</style></head><body><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Rowan</div><div class="title">Longbow of the Realm</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/rowan/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Ranger</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 01/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Rowan</div><div class="title">Longbow of the Realm</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/rowan/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Ranger</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 02/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Seeker of the Crown</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt"><span class="vanilla">No ability. Strong for its cost.</span></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 03/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Seeker of the Crown</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt"><span class="vanilla">No ability. Strong for its cost.</span></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 04/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Solara</div><div class="title">Novice of the Dawn</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/solara/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Dawnforged · Mystic</div>
+    <div class="box">
+      
+      <div class="abil">Sun Mend</div>
+      <div class="txt"><b>Arrival:</b> <i>Shield</i> another champion you control.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 05/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Solara</div><div class="title">Novice of the Dawn</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/solara/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Dawnforged · Mystic</div>
+    <div class="box">
+      
+      <div class="abil">Sun Mend</div>
+      <div class="txt"><b>Arrival:</b> <i>Shield</i> another champion you control.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 06/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Elara</div><div class="title">Field Surgeon of the Realm</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/elara/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Kingdom · Mystic</div>
+    <div class="box">
+      
+      <div class="abil">Last Light</div>
+      <div class="txt"><b>Arrival:</b> Return a ★ champion from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 07/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Elara</div><div class="title">Field Surgeon of the Realm</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/elara/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Kingdom · Mystic</div>
+    <div class="box">
+      
+      <div class="abil">Last Light</div>
+      <div class="txt"><b>Arrival:</b> Return a ★ champion from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 08/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Solenne Ash</div><div class="title">Knight of the Burning Dawn</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/solenne/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Dawnforged · Vanguard</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 09/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Solenne Ash</div><div class="title">Knight of the Burning Dawn</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/solenne/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Dawnforged · Vanguard</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 10/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Crown Commander</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      <div class="abil">Rally the Crown</div>
+      <div class="txt"><b>Attack:</b> Your other champions get +1 Might this turn.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 11/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Crown Commander</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      <div class="abil">Rally the Crown</div>
+      <div class="txt"><b>Attack:</b> Your other champions get +1 Might this turn.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 12/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">General Varr</div><div class="title">The Unbroken Line</div></div>
+      <div class="cost" title="Command cost">5</div>
+    </div>
+    <div class="art" style="background-image:url('../art/varr/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier IV · Kingdom · Commander · Vanguard</div>
+    <div class="box">
+      <div class="kw">Bulwark</div>
+      <div class="abil">Hold the Line</div>
+      <div class="txt">Your other champions have +1 Guard.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 4</span><span class="gd">⛨ 6</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 13/38 · Tier IV Epic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Sol</div><div class="title">The First Light</div></div>
+      <div class="cost" title="Command cost">6</div>
+    </div>
+    <div class="art" style="background-image:url('../art/sol/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier V · Dawnforged · Ascendant · Mystic</div>
+    <div class="box">
+      <div class="kw">Ascendant</div>
+      <div class="abil">DAWN</div>
+      <div class="txt"><b>Arrival:</b> <i>Shield</i> each champion you control.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 14/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Rally the Banners</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your champions get +1 Might this turn.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 15/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Rally the Banners</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your champions get +1 Might this turn.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 16/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Reinforcements</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Deploy a ★ champion costing 2 or less from your hand for free.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 17/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Reinforcements</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Deploy a ★ champion costing 2 or less from your hand for free.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 18/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Royal Dispatch</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Draw 2 cards.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 19/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Royal Dispatch</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Draw 2 cards.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 20/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Shield Wall</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt"><i>Shield</i> up to two champions you control.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 21/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Shield Wall</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt"><i>Shield</i> up to two champions you control.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 22/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">First Light</div><div class="title">SWIFT TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚡</span></div>
+    <div class="box big"><div class="txt">A champion gets +2 Guard this turn.</div>
+      
+      <div class="note">Cast on your turn, or in any response window.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 23/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">First Light</div><div class="title">SWIFT TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚡</span></div>
+    <div class="box big"><div class="txt">A champion gets +2 Guard this turn.</div>
+      
+      <div class="note">Cast on your turn, or in any response window.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 24/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Dawnward Oath</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks: <i>Shield</i> one of your champions.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 25/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Dawnward Oath</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks: <i>Shield</i> one of your champions.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 26/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Hold the Gate</div><div class="title">SCHEME</div></div>
+      <div class="cost">0</div>
+    </div>
+    <div class="sigil"><span>◈</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks your Crown and is not blocked: ready one of your champions; it blocks that attack.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 27/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card spell scheme" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Hold the Gate</div><div class="title">SCHEME</div></div>
+      <div class="cost">0</div>
+    </div>
+    <div class="sigil"><span>◈</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks your Crown and is not blocked: ready one of your champions; it blocks that attack.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 28/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Arrow Volley</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks: it gets −2 Might this turn.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 29/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Arrow Volley</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks: it gets −2 Might this turn.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BANNER OF THE REALM 30/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Seeker of the Crown</div></div>
+      <div class="asc" title="Ascend cost">↑0</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Kael ★</span>
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      <div class="abil">Crescent Slash</div>
+      <div class="txt"><b>Attack:</b> <i>Scorch 1</i> each rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 6</span><span class="gd">⛨ 5</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 31/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Seeker of the Crown</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Kael ★★</span>
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      <div class="abil">Crescent Slash</div>
+      <div class="txt"><b>Ascend:</b> <i>Scorch 1</i> each rival champion. <b>Attack:</b> <i>Scorch 1</i> each rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 10</span><span class="gd">⛨ 8</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 32/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Solenne Ash</div><div class="title">Knight of the Burning Dawn</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/solenne/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Solenne Ash ★</span>
+    </div>
+    <div class="tribe">Tier II · Dawnforged · Vanguard</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      <div class="abil">Solar Charge</div>
+      <div class="txt"><b>Ascend:</b> <i>Scorch 2</i> a rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 6</span><span class="gd">⛨ 6</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 33/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Solenne Ash</div><div class="title">Knight of the Burning Dawn</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/solenne/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Solenne Ash ★★</span>
+    </div>
+    <div class="tribe">Tier II · Dawnforged · Vanguard</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      <div class="abil">Solar Charge</div>
+      <div class="txt"><b>Ascend:</b> <i>Scorch 2</i> each rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 10</span><span class="gd">⛨ 9</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 34/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Crown Commander</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Aurelia ★</span>
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      <div class="abil">Rally the Crown</div>
+      <div class="txt">Your other champions have +1 Might.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 6</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 35/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Crown Commander</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Aurelia ★★</span>
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      <div class="abil">Rally the Crown</div>
+      <div class="txt">Your other champions have +1 Might and +1 Guard.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 9</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 36/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s2" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Sol</div><div class="title">The First Light</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/sol/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Sol ★</span>
+    </div>
+    <div class="tribe">Tier V · Dawnforged · Ascendant · Mystic</div>
+    <div class="box">
+      <div class="kw">Ascendant · Flight</div>
+      <div class="abil">DAWN</div>
+      <div class="txt"><b>Ascend:</b> <i>Shield</i> each champion you control.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 8</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 37/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#3d6fd8;--acc:#d9a92c">
+    <div class="head">
+      <div class="nm"><div class="name">Sol</div><div class="title">The First Light</div></div>
+      <div class="asc" title="Ascend cost">↑3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/sol/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Sol ★★</span>
+    </div>
+    <div class="tribe">Tier V · Dawnforged · Ascendant · Mystic</div>
+    <div class="box">
+      <div class="kw">Ascendant · Flight</div>
+      <div class="abil">DAWN</div>
+      <div class="txt"><b>Ascend:</b> <i>Scorch 3</i> each rival champion, then <i>Mend 1</i>.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 12</span><span class="gd">⛨ 13</span></div>
+    <div class="foot"><span>BANNER OF THE REALM 38/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Fen</div><div class="title">Blood of the Pack</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/fen/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Wildkin · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt">+1 Might while you have fewer shards than your rival.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 01/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Fen</div><div class="title">Blood of the Pack</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/fen/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Wildkin · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt">+1 Might while you have fewer shards than your rival.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 02/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Emberling</div><div class="title">Spark That Learned to Speak</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/emberling/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Elemental · Arcanist</div>
+    <div class="box">
+      
+      <div class="abil">Kindle</div>
+      <div class="txt"><b>Arrival:</b> <i>Scorch 2</i> a rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 03/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Emberling</div><div class="title">Spark That Learned to Speak</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/emberling/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Elemental · Arcanist</div>
+    <div class="box">
+      
+      <div class="abil">Kindle</div>
+      <div class="txt"><b>Arrival:</b> <i>Scorch 2</i> a rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 04/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Mirella</div><div class="title">Voice of the Tides</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/mirella/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Elemental · Mystic</div>
+    <div class="box">
+      
+      <div class="abil">Tidal Veil</div>
+      <div class="txt"><b>Arrival:</b> <i>Shield</i> another champion you control.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 05/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Mirella</div><div class="title">Voice of the Tides</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/mirella/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Elemental · Mystic</div>
+    <div class="box">
+      
+      <div class="abil">Tidal Veil</div>
+      <div class="txt"><b>Arrival:</b> <i>Shield</i> another champion you control.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 06/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Grizz</div><div class="title">The Mountain That Walks</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/grizz/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Wildkin · Bruiser</div>
+    <div class="box">
+      
+      <div class="abil">Maul</div>
+      <div class="txt">+2 Might while blocking.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 4</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 07/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Grizz</div><div class="title">The Mountain That Walks</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/grizz/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Wildkin · Bruiser</div>
+    <div class="box">
+      
+      <div class="abil">Maul</div>
+      <div class="txt">+2 Might while blocking.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 4</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 08/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Ignara</div><div class="title">The Living Pyre</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/ignara/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Elemental · Vanguard</div>
+    <div class="box">
+      
+      <div class="abil">Inferno Shell</div>
+      <div class="txt"><b>Block:</b> <i>Scorch 2</i> the attacker.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 09/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Ignara</div><div class="title">The Living Pyre</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/ignara/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Elemental · Vanguard</div>
+    <div class="box">
+      
+      <div class="abil">Inferno Shell</div>
+      <div class="txt"><b>Block:</b> <i>Scorch 2</i> the attacker.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 10/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Pyrax</div><div class="title">Dragon-Blooded</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/pyrax/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier IV · Elemental · Bruiser</div>
+    <div class="box">
+      
+      
+      <div class="txt"><span class="vanilla">No ability. Strong for its cost.</span></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 11/38 · Tier IV Epic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Pyrax</div><div class="title">Dragon-Blooded</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/pyrax/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier IV · Elemental · Bruiser</div>
+    <div class="box">
+      
+      
+      <div class="txt"><span class="vanilla">No ability. Strong for its cost.</span></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 12/38 · Tier IV Epic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Aurex</div><div class="title">The Last Dragon</div></div>
+      <div class="cost" title="Command cost">6</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurex/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier V · Wyrmblood · Ascendant · Bruiser</div>
+    <div class="box">
+      <div class="kw">Ascendant</div>
+      <div class="abil">WORLD IN FLAMES</div>
+      <div class="txt"><b>Arrival:</b> <i>Scorch 2</i> each rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 7</span><span class="gd">⛨ 8</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 13/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Firebolt</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt"><i>Scorch 2</i> a rival champion.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 14/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Firebolt</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt"><i>Scorch 2</i> a rival champion.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 15/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Firestorm</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt"><i>Scorch 1</i> each rival champion. Draw a card.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 16/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Firestorm</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt"><i>Scorch 1</i> each rival champion. Draw a card.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 17/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Feral Howl</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your champions get +1 Might this turn, or +2 if you have fewer shards than your rival.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 18/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Feral Howl</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your champions get +1 Might this turn, or +2 if you have fewer shards than your rival.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 19/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Return to the Fire</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Return up to two ★ champions from your Fallen pile to your hand.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 20/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Return to the Fire</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Return up to two ★ champions from your Fallen pile to your hand.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 21/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Flare Up</div><div class="title">SWIFT TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚡</span></div>
+    <div class="box big"><div class="txt">A champion gets +2 Might this turn.</div>
+      
+      <div class="note">Cast on your turn, or in any response window.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 22/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Flare Up</div><div class="title">SWIFT TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚡</span></div>
+    <div class="box big"><div class="txt">A champion gets +2 Might this turn.</div>
+      
+      <div class="note">Cast on your turn, or in any response window.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 23/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Kindling</div><div class="title">TACTIC</div></div>
+      <div class="cost">0</div>
+    </div>
+    <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Draw a card.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 24/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Bloodscent</div><div class="title">SCHEME</div></div>
+      <div class="cost">0</div>
+    </div>
+    <div class="sigil"><span>◈</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Spring when one of your champions is attacked or blocks: it gets +3 Guard this turn.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 25/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card spell scheme" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Bloodscent</div><div class="title">SCHEME</div></div>
+      <div class="cost">0</div>
+    </div>
+    <div class="sigil"><span>◈</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Spring when one of your champions is attacked or blocks: it gets +3 Guard this turn.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 26/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Ember Trap</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks: <i>Scorch 2</i> it.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 27/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Ember Trap</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks: <i>Scorch 2</i> it.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 28/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Cinder Veil</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks your Crown: that attack ends. No shards break.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 29/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Cinder Veil</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks your Crown: that attack ends. No shards break.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 30/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Fen</div><div class="title">Blood of the Pack</div></div>
+      <div class="asc" title="Ascend cost">↑0</div>
+    </div>
+    <div class="art" style="background-image:url('../art/fen/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Fen ★</span>
+    </div>
+    <div class="tribe">Tier I · Wildkin · Duelist</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      <div class="abil">Red Moon Pounce</div>
+      <div class="txt">+1 Might while you have fewer shards than your rival.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 31/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Fen</div><div class="title">Blood of the Pack</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/fen/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Fen ★★</span>
+    </div>
+    <div class="tribe">Tier I · Wildkin · Duelist</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      <div class="abil">Red Moon Pounce</div>
+      <div class="txt">+1 Might while you have fewer shards than your rival. Once per turn, when Fen defeats a champion on your turn, ready Fen.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 9</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 32/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Ignara</div><div class="title">The Living Pyre</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/ignara/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Ignara ★</span>
+    </div>
+    <div class="tribe">Tier III · Elemental · Vanguard</div>
+    <div class="box">
+      
+      <div class="abil">Inferno Shell</div>
+      <div class="txt"><b>Block:</b> <i>Scorch 2</i> the attacker.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 6</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 33/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Ignara</div><div class="title">The Living Pyre</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/ignara/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Ignara ★★</span>
+    </div>
+    <div class="tribe">Tier III · Elemental · Vanguard</div>
+    <div class="box">
+      <div class="kw">Bulwark</div>
+      <div class="abil">Inferno Shell</div>
+      <div class="txt"><b>Block:</b> <i>Scorch 2</i> the attacker. This also happens when Ignara is attacked.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 9</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 34/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s2" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Pyrax</div><div class="title">Dragon-Blooded</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/pyrax/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Pyrax ★</span>
+    </div>
+    <div class="tribe">Tier IV · Elemental · Bruiser</div>
+    <div class="box">
+      
+      <div class="abil">Dragonheart</div>
+      <div class="txt"><b>Ascend:</b> <i>Scorch 1</i> each rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 8</span><span class="gd">⛨ 8</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 35/38 · Tier IV Epic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Pyrax</div><div class="title">Dragon-Blooded</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/pyrax/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Pyrax ★★</span>
+    </div>
+    <div class="tribe">Tier IV · Elemental · Bruiser</div>
+    <div class="box">
+      
+      <div class="abil">Dragonheart</div>
+      <div class="txt"><b>Ascend:</b> <i>Scorch 2</i> each rival champion. <b>Attack:</b> <i>Scorch 2</i> the defender.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 11</span><span class="gd">⛨ 11</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 36/38 · Tier IV Epic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Aurex</div><div class="title">The Last Dragon</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurex/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Aurex ★</span>
+    </div>
+    <div class="tribe">Tier V · Wyrmblood · Ascendant · Bruiser</div>
+    <div class="box">
+      <div class="kw">Ascendant · Flight</div>
+      <div class="abil">WORLD IN FLAMES</div>
+      <div class="txt"><b>Attack:</b> <i>Scorch 2</i> the defender.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 9</span><span class="gd">⛨ 9</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 37/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c2451e;--acc:#e8a33a">
+    <div class="head">
+      <div class="nm"><div class="name">Aurex</div><div class="title">The Last Dragon</div></div>
+      <div class="asc" title="Ascend cost">↑3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurex/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Aurex ★★</span>
+    </div>
+    <div class="tribe">Tier V · Wyrmblood · Ascendant · Bruiser</div>
+    <div class="box">
+      <div class="kw">Ascendant · Flight</div>
+      <div class="abil">WORLD IN FLAMES</div>
+      <div class="txt"><b>Ascend:</b> Defeat each rival champion with Guard 3 or less. Your other champions can’t attack this turn.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 13</span><span class="gd">⛨ 12</span></div>
+    <div class="foot"><span>BLOOD &AMP; EMBER 38/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card ref"><div class="refh">YOUR TURN</div><ol>
+    <li><b>Rise</b>: ready all; Command +1 (max 8), refill. Round 10+: break 1 own shard.</li>
+    <li><b>Draw</b> 1 (empty deck: break 1 own shard).</li>
+    <li><b>Main</b>: deploy ★ · cast Tactics · set Schemes (free) · Ascend (once per turn).</li>
+    <li><b>Battle</b>: attack one at a time.</li>
+    <li><b>After battle</b>: Ascend if you haven't yet.</li>
+    <li><b>End</b>: discard to 8. Unspent Command stays for your rival's turn.</li></ol>
+    <div class="refh">WIN</div><p>Break all 5 of your rival's Crown Shards.</p><div class="foot"><span>REFERENCE</span><span></span><span>v0.2-paper-1</span></div></div><div class="card ref"><div class="refh">COMBAT</div><ol>
+    <li><b>Attack</b> the Crown or any rival champion. Attacker turns sideways.</li>
+    <li><b>Block</b> (Crown only): one ready champion, turned sideways (Bulwark: stays up).</li>
+    <li><b>Respond</b>: defender 1 Scheme/Swift, then attacker 1 Swift.</li>
+    <li><b>Clash</b>: Might ≥ Guard defeats. Both at once.</li>
+    <li><b>Unblocked</b>: break 1 shard (★★★: 2). <b>Breakthrough</b>: beat the blocker and survive, break 1.</li></ol>
+    <div class="refh">ASCEND</div><p>On field since your turn began · pay ↑ · place on top · <b>turn it sideways</b> · resolve Ascend:</p><div class="foot"><span>REFERENCE</span><span></span><span>v0.2-paper-1</span></div></div><div class="card ref"><div class="refh">KEYWORDS</div><dl>
+    <dt>Shield</dt><dd>Next time it would be defeated, remove the token instead.</dd>
+    <dt>Scorch X</dt><dd>−X Guard this turn.</dd><dt>Mend 1</dt><dd>Hand card → face-down shard (max 5).</dd>
+    <dt>Charge</dt><dd>May attack the turn it arrives.</dd><dt>Bulwark</dt><dd>Blocking doesn't turn it sideways.</dd>
+    <dt>Ambush</dt><dd>Attacking a sideways champion: strikes first.</dd><dt>Flight / Reach</dt><dd>Flight is blocked only by Flight or Reach.</dd>
+    <dt>Shardfall</dt><dd>Breaks from your Crown: cast/set free.</dd><dt>Ascendant</dt><dd>Tier V. One per deck.</dd></dl>
+    <div class="foot"><span>REFERENCE</span><span></span><span>v0.2-paper-1</span></div></div></div></section></body></html>

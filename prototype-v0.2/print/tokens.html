@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Sovereign's Hand — Tokens</title><style>
+@page { size: letter; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; padding: 0; background: #fff; color: #16161a; -webkit-print-color-adjust: exact; print-color-adjust: exact }
+body { font-family: "Segoe UI", Arial, sans-serif }
+.page { width: 215.9mm; height: 279.4mm; position: relative; overflow: hidden; page-break-after: always }
+.page:last-child { page-break-after: auto }
+
+.wrap { padding: 12mm 13mm; display: flex; flex-direction: column; gap: 6mm }
+h2 { font-family: Georgia, serif; margin: 0 0 2mm; font-size: 14pt }
+p.small { font-size: 8.5pt; color: #444; margin: 0 }
+.track { display: grid; grid-template-columns: 26mm repeat(9, 1fr); border: .4mm solid #1b1b1b; border-radius: 2mm; overflow: hidden }
+.track div { height: 16mm; display: grid; place-items: center; border-left: .3mm solid #1b1b1b55; font-weight: 800; font-size: 16pt }
+.track div:first-child { font-size: 9pt; letter-spacing: .1em; border: 0; background: #1b1b1b; color: #fff; text-align: center }
+.tok { display: flex; flex-wrap: wrap; gap: 3mm }
+.chip { width: 17mm; height: 17mm; border-radius: 50%; border: .5mm dashed #888; display: grid; place-items: center; text-align: center; font-weight: 800; font-size: 8pt; line-height: 1.05 }
+.chip.sh { background: #fff3c9; color: #6a5200 } .chip.sc { background: #ffe1d6; color: #8a2a0e } .chip.mt { background: #dbe7ff; color: #1d3f8f }
+.rounds { display: grid; grid-template-columns: repeat(12, 1fr); border: .4mm solid #1b1b1b; border-radius: 2mm; overflow: hidden }
+.rounds div { height: 12mm; display: grid; place-items: center; border-left: .3mm solid #1b1b1b55; font-weight: 700 }
+.rounds div.imp { background: #ffe9e0 }
+</style></head><body><section class="page"><div class="wrap">
+  <div><h2>Command tracks</h2><p class="small">Put a coin on your current Command. At Rise, your maximum goes up by 1 (to 8 at most) and you refill. Spend by sliding the coin down.</p></div>
+  <div class="track"><div>PLAYER 1<br>COMMAND</div><div>0</div><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div></div><div class="track"><div>PLAYER 2<br>COMMAND</div><div>0</div><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div></div>
+  <div><h2>Round tracker</h2><p class="small">Move a coin after both players have taken a turn. From round 10, each player breaks one of their own shards at the start of their turn.</p></div>
+  <div class="rounds"><div class="">1</div><div class="">2</div><div class="">3</div><div class="">4</div><div class="">5</div><div class="">6</div><div class="">7</div><div class="">8</div><div class="">9</div><div class="imp">10</div><div class="imp">11</div><div class="imp">12</div></div>
+  <div><h2>Shield tokens</h2><p class="small">A champion holds at most one. Remove it instead of the champion being defeated.</p></div>
+  <div class="tok"><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div><div class="chip sh">SHIELD</div></div>
+  <div><h2>This-turn markers</h2><p class="small">Optional reminders for Scorch and Might boosts. Clear them all at the end of each turn.</p></div>
+  <div class="tok"><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−1</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip sc">SCORCH<br>−2</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div><div class="chip mt">MIGHT<br>+1</div></div>
+</div></section></body></html>
