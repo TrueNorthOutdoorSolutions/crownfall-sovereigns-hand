@@ -1,0 +1,54 @@
+{
+  "contentVersion": "noncanonical-prototype-0.1",
+  "seeds": "1\u201330; deck assignments alternate",
+  "matches": 30,
+  "wins": {
+    "first": 14,
+    "second": 16,
+    "draws": 0
+  },
+  "rounds": {
+    "median": 9,
+    "p90": 13
+  },
+  "actions": {
+    "median": 107,
+    "p90": 161
+  },
+  "claimsBroken": 6,
+  "forgeUses": 61,
+  "ascents": 165,
+  "stalled": 0,
+  "probabilities": [
+    {
+      "seen": 5,
+      "pairOfNamedChampion": 6.4,
+      "tripleOfNamedChampion": 0.2
+    },
+    {
+      "seen": 9,
+      "pairOfNamedChampion": 20.7,
+      "tripleOfNamedChampion": 2.1
+    },
+    {
+      "seen": 13,
+      "pairOfNamedChampion": 39.7,
+      "tripleOfNamedChampion": 7
+    },
+    {
+      "seen": 17,
+      "pairOfNamedChampion": 60.3,
+      "tripleOfNamedChampion": 16.7
+    },
+    {
+      "seen": 21,
+      "pairOfNamedChampion": 79.3,
+      "tripleOfNamedChampion": 32.8
+    }
+  ],
+  "openingSamples": 10000,
+  "openingsWithAnyPair": 5652,
+  "openingsWithoutOneCostCard": 2933,
+  "deadOpeningHands": 0,
+  "note": "All champions cost at most starting Command (4). Simulation measures bots, not human fun or physical duration."
+}
