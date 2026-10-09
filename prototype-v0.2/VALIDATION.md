@@ -65,3 +65,11 @@ node prototype-v0.2/tools/build-print.mjs   # print kit + PDFs
 - **Gameplay tests** (`tests/v02/engine.test.ts`, 28 tests): setup and first-turn bonuses; determinism; the legal-action contract (wrong player, illegal moves rejected with a reason, no mutation); clashes (≥, simultaneous, 0 Might); unblocked hits and ★★★ double hits; blocking, Bulwark, Flight/Reach; Breakthrough; Shield; Ambush; Charge; Ascension rules (on field since the turn began, once per turn, cost, sideways, after-battle window, Ascend effects); Scheme timing, Cinder Veil, Hold the Gate; Shardfall; target choices; the round-10 rule, deck-out, hand limit; victory; and 60 full AI games with card conservation.
 - **Engine balance run** (`npm run sim:v02`, 4,000 AI games, `validation/engine-sim.json`): Banner 51.6% / Ember 48.5%, first player 50.5%, rounds median 7 / 90th percentile 10 / max 12, ★★ reached by 65.6% of players and ★★★ by 41.7%. That matches the paper-rules research run (53/47, 50.8%, 7/10/12, 66%, 42%).
 - The research simulator that produced the earlier numbers is archived in `research/` for reproducibility (only its import paths changed).
+
+## 6. Set 1: every champion in all three star forms
+
+- `src/v02/content/set1.ts` adds the 40 champions not in a starter deck. `cards.ts` gives the 7 one-star starter champions (Rowan, Solara, Elara, General Varr, Emberling, Mirella, Grizz) their ★★/★★★ forms. Together that is **all 55 Crownfall champions × 3 forms = 165 champion cards**.
+- The starter decks are unchanged; the new forms are not in either Ascension Pile. The engine balance run is identical to before (Banner 51.6 / Ember 48.5).
+- `npm run proto:validate` now runs **2,604 checks**: canon (names, titles, tiers, Origins, Classes, ability names) for all 55, each form stronger than the last, every printed effect implemented and every implemented effect printed.
+- `tests/v02/set1.test.ts` (9 tests) covers the new effects (Shield itself, weaken a rival, effects on "the defender" including blockers, deploy from the Fallen pile, ready another champion, Crownless staying standing, Dreadmouth's Shield) and plays full AI games with test decks that use all 165 champion cards.
+- Set 1 cards outside the starter decks are **drafts**: playable, but their numbers are not yet balance-tested in a deck.

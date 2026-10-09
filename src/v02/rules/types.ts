@@ -46,8 +46,8 @@ export interface Combat {
   stage: CombatStage;
   /** The attacked champion was sideways when the attack was declared (for Ambush). */
   targetWasExhausted: boolean;
-  /** "Attack: Scorch N the defender" waiting for the defender to be known. */
-  defenderScorch: number;
+  /** "Attack: … the defender" effects waiting for the defender to be known. */
+  defenderEffects: Effect[];
 }
 
 export interface EffectContext { attacker?: number; defender?: number }

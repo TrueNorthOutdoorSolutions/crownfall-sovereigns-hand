@@ -1,5 +1,5 @@
 import React from 'react';
-import { CARDS, DECKS, isChampionCard } from '../content/cards';
+import { CARDS, DECKS, ORIGIN_COLORS, isChampionCard } from '../content/cards';
 import type { Card, ChampionCard } from '../content/cards';
 import { guard, hasKeyword, might, top } from '../rules/engine';
 import type { ChampionInPlay, GameState } from '../rules/types';
@@ -30,8 +30,9 @@ export function RulesText({ text }: { text: string }) {
 }
 
 function deckStyle(c: Card): React.CSSProperties {
-  const d = DECKS[c.deck];
-  return { ['--deck' as string]: d.color, ['--acc' as string]: d.accent };
+  if (c.deck) return { ['--deck' as string]: DECKS[c.deck].color, ['--acc' as string]: DECKS[c.deck].accent };
+  const origin = isChampionCard(c) ? ORIGIN_COLORS[c.line.origins[0]] : '#8a6d2a';
+  return { ['--deck' as string]: origin, ['--acc' as string]: '#f0c95a' };
 }
 
 /** A full card face, used in hand, inspector and choices. */

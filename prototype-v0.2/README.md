@@ -8,6 +8,7 @@ A **playable digital version** of the same rules now exists too: see `DIGITAL.md
 | --- | --- |
 | `RULEBOOK.md` → `print/00-rulebook.pdf` | The exact rules, version 0.2-paper-1. |
 | `DECKLISTS.md` | Both starter decks with every card's stats and text (generated). |
+| `MASTER_CARD_LIST.md` / `master-card-list.csv` | **All 182 Set 1 cards** (55 champions × ★/★★/★★★ + 17 Tactics and Schemes) with rules text, canonical flavour text and art briefs, for commissioning final art (generated: `npm run proto:masterlist`). |
 | `print/` | The printable kit: cards, backs, tokens, feedback sheet (PDF plus HTML source). |
 | `PLAYTEST.md` | How to print, run sessions, and the pass gates. |
 | `DESIGN_ANSWERS.md` | Collector rarity, the Tier V penalty test, and the evolution-decision test. |

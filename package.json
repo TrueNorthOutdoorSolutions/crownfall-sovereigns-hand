@@ -14,7 +14,8 @@
     "sim:v02": "tsx scripts/v02-sim.ts 2000",
     "proto:validate": "tsx prototype-v0.2/tools/validate.mjs",
     "proto:print": "tsx prototype-v0.2/tools/build-print.mjs",
-    "proto:snapshot": "tsx prototype-v0.2/tools/snapshot.mjs"
+    "proto:snapshot": "tsx prototype-v0.2/tools/snapshot.mjs",
+    "proto:masterlist": "tsx prototype-v0.2/tools/master-list.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

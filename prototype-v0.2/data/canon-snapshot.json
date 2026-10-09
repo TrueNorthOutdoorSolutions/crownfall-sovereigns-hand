@@ -1,7 +1,7 @@
 {
   "source": "Desktop/Crownfall",
-  "commit": "e07421b0d7d20616cc540ce8f5bf05b2413fe64a",
-  "readAt": "2026-10-08",
+  "commit": "dc59846b3d44782a1ea1ce92bc5ee0f9472247a7",
+  "readAt": "2026-10-09",
   "tierNames": {
     "1": "Common",
     "2": "Uncommon",
@@ -22,11 +22,17 @@
       "classes": [
         "warden"
       ],
+      "role": "tank",
       "ability": "Rootslam",
       "star1": "A small wooden creature wearing moss like armour, fists of knotted root.",
       "star2": "Larger, plated in armoured bark with glowing green runes; flowers bloom along the shoulders and roots trail when he walks.",
       "star3": "A miniature ancient world-tree warrior. Leaves orbit him, his eyes burn emerald, and Rootslam erupts as enormous spectral roots.",
-      "lore": "The Greenwall forests sent their smallest guardian into the Crownfall. The forest does not understand crowns. It understands roots."
+      "lore": "The Greenwall forests sent their smallest guardian into the Crownfall. The forest does not understand crowns. It understands roots.",
+      "lines": {
+        "buy": "Roots first. Then questions.",
+        "star": "I grew!",
+        "win": "The forest remembers."
+      }
     },
     {
       "id": "kira",
@@ -40,11 +46,17 @@
       "classes": [
         "ranger"
       ],
+      "role": "marksman",
       "ability": "Overcharged Round",
       "star1": "A young arc-tech gunner with one compact energy pistol.",
       "star2": "Dual energised pistols; her coat carries a glowing arc coil.",
       "star3": "Floating arc batteries orbit her and every shot leaves a lightning trail.",
-      "lore": "Kira rebuilt her first pistol from a lightning rod. She intends to rebuild the Crown the same way."
+      "lore": "Kira rebuilt her first pistol from a lightning rod. She intends to rebuild the Crown the same way.",
+      "lines": {
+        "buy": "Charged and ready!",
+        "star": "Double the volts!",
+        "win": "Nobody out-sparks me."
+      }
     },
     {
       "id": "grimm",
@@ -58,11 +70,17 @@
       "classes": [
         "vanguard"
       ],
+      "role": "tank",
       "ability": "Refuse Death",
       "star1": "A skeletal footsoldier in dented plate, ghost-light in his ribs.",
       "star2": "Plate reforged with spectral seams; a tattered banner grows from his back.",
       "star3": "A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate.",
-      "lore": "His war ended three centuries ago. Nobody told Grimm."
+      "lore": "His war ended three centuries ago. Nobody told Grimm.",
+      "lines": {
+        "buy": "Reporting for duty. Again.",
+        "star": "Still haven't died properly.",
+        "win": "Another war ended."
+      }
     },
     {
       "id": "pip",
@@ -76,11 +94,17 @@
       "classes": [
         "saboteur"
       ],
+      "role": "caster",
       "ability": "Special Delivery",
       "star1": "A tiny goblin-like sapper with a satchel of fizzing bombs.",
       "star2": "Goggles, a bandolier of bigger bombs and a smoking backpack launcher.",
       "star3": "Pip rides a ridiculous miniature mechanical war machine with a bomb chute.",
-      "lore": "Pip was told the Crownfall was a place of great explosions. Pip was not told correctly, so Pip brought his own."
+      "lore": "Pip was told the Crownfall was a place of great explosions. Pip was not told correctly, so Pip brought his own.",
+      "lines": {
+        "buy": "Pip brought explosives!",
+        "star": "BIGGER BOOM!",
+        "win": "Pip wants to go again!"
+      }
     },
     {
       "id": "solara",
@@ -94,11 +118,17 @@
       "classes": [
         "mystic"
       ],
+      "role": "support",
       "ability": "Sun Mend",
       "star1": "A novice sun priestess with a simple brass staff.",
       "star2": "Gilded vestments and a sun-disc staff that hums with light.",
       "star3": "Radiant robes, a floating halo of three suns and wings of morning light.",
-      "lore": "Her order believes the Crown is the first sunrise, stolen. She has come to return it."
+      "lore": "Her order believes the Crown is the first sunrise, stolen. She has come to return it.",
+      "lines": {
+        "buy": "The dawn walks with you.",
+        "star": "The light answers me now.",
+        "win": "Rest. The sun rises."
+      }
     },
     {
       "id": "fen",
@@ -112,11 +142,17 @@
       "classes": [
         "duelist"
       ],
+      "role": "fighter",
       "ability": "Red Moon Pounce",
       "star1": "A lean grey wolf warrior with bone-hilted claws.",
       "star2": "Scarred and armoured in hide, crimson war paint glowing on his muzzle.",
       "star3": "An alpha of the blood moon; a red spirit-wolf runs beside every leap.",
-      "lore": "Fen tracks weakness. He learned it from the winters, and the winters were thorough."
+      "lore": "Fen tracks weakness. He learned it from the winters, and the winters were thorough.",
+      "lines": {
+        "buy": "I smell weakness.",
+        "star": "The pack grows.",
+        "win": "Good hunt."
+      }
     },
     {
       "id": "torren",
@@ -130,11 +166,17 @@
       "classes": [
         "warden"
       ],
+      "role": "tank",
       "ability": "Stonewall",
       "star1": "A stone-skinned bearer behind a slab shield.",
       "star2": "The shield becomes a carved gate with glowing gold veins.",
       "star3": "A mountain made small: crystal spires grow from his shoulders and the shield bears a living rune.",
-      "lore": "The Titanborn say a shield is a promise. Torren has never broken one."
+      "lore": "The Titanborn say a shield is a promise. Torren has never broken one.",
+      "lines": {
+        "buy": "Stand behind me.",
+        "star": "Stone endures.",
+        "win": "Promise kept."
+      }
     },
     {
       "id": "nyx",
@@ -148,11 +190,17 @@
       "classes": [
         "assassin"
       ],
+      "role": "assassin",
       "ability": "Fade",
       "star1": "A hooded thief with two crooked daggers.",
       "star2": "Her cloak drips living shadow; violet eyes glow beneath the hood.",
       "star3": "Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night.",
-      "lore": "Nyx stole a star once. She gave it back. Mostly."
+      "lore": "Nyx stole a star once. She gave it back. Mostly.",
+      "lines": {
+        "buy": "You didn't see me.",
+        "star": "Quieter. Sharper.",
+        "win": "Gone before they knew."
+      }
     },
     {
       "id": "emberling",
@@ -166,11 +214,17 @@
       "classes": [
         "arcanist"
       ],
+      "role": "caster",
       "ability": "Kindle",
       "star1": "A small living flame with curious coal eyes.",
       "star2": "A crackling fire sprite crowned with blue-hot embers.",
       "star3": "A miniature sun-spirit; the air warps around her and her fireballs leave spiralling trails.",
-      "lore": "She was a candle once. Then someone read a spell too close to her."
+      "lore": "She was a candle once. Then someone read a spell too close to her.",
+      "lines": {
+        "buy": "Can I burn something?",
+        "star": "I'm a real fire now!",
+        "win": "Warm, warm, warm!"
+      }
     },
     {
       "id": "rowan",
@@ -184,11 +238,17 @@
       "classes": [
         "ranger"
       ],
+      "role": "marksman",
       "ability": "Kingsbolt",
       "star1": "A kingdom archer with a yew longbow.",
       "star2": "Royal green tabard and a silver-limbed bow.",
       "star3": "A legendary marksman: arrows of light, a lion cloak and a falcon familiar.",
-      "lore": "Rowan has never missed at a hundred paces. At a thousand, he says, the wind argues."
+      "lore": "Rowan has never missed at a hundred paces. At a thousand, he says, the wind argues.",
+      "lines": {
+        "buy": "The wind is kind today.",
+        "star": "A thousand paces, now.",
+        "win": "Clean shots."
+      }
     },
     {
       "id": "hexie",
@@ -202,11 +262,17 @@
       "classes": [
         "arcanist"
       ],
+      "role": "caster",
       "ability": "Unstable Hex",
       "star1": "An apprentice witch in an oversized hat.",
       "star2": "Her hat has grown eyes. Her staff has grown opinions.",
       "star3": "A chaos witch riding a floating cauldron, hexes orbiting like fireflies.",
-      "lore": "Hexie is not supposed to be here. Neither was anything she has ever turned into a toad."
+      "lore": "Hexie is not supposed to be here. Neither was anything she has ever turned into a toad.",
+      "lines": {
+        "buy": "Who wants to be a toad?",
+        "star": "My hat has opinions!",
+        "win": "Ribbit. Ha!"
+      }
     },
     {
       "id": "bolt",
@@ -220,11 +286,17 @@
       "classes": [
         "vanguard"
       ],
+      "role": "tank",
       "ability": "Emergency Plating",
       "star1": "A compact combat automaton with one amber eye.",
       "star2": "Reinforced plating, piston fists and a spinning gear core.",
       "star3": "A gleaming brass guardian with a reactor heart and folding shield vanes.",
-      "lore": "Bolt was built to guard a door. The door is gone. Bolt has decided you are the door now."
+      "lore": "Bolt was built to guard a door. The door is gone. Bolt has decided you are the door now.",
+      "lines": {
+        "buy": "Unit B-07 online.",
+        "star": "Upgrade accepted.",
+        "win": "Door secured."
+      }
     },
     {
       "id": "kael",
@@ -238,11 +310,17 @@
       "classes": [
         "duelist"
       ],
+      "role": "fighter",
       "ability": "Crescent Slash",
       "star1": "A young swordsman in travelling leathers.",
       "star2": "Blue-steel armour and a blade that leaves a crescent of light.",
       "star3": "A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet.",
-      "lore": "Everyone in the Crownfall wants the Crown. Kael is the only one who wants to be worthy of it."
+      "lore": "Everyone in the Crownfall wants the Crown. Kael is the only one who wants to be worthy of it.",
+      "lines": {
+        "buy": "I will be worthy.",
+        "star": "Stronger — for the Crown.",
+        "win": "One step closer."
+      }
     },
     {
       "id": "solenne",
@@ -256,11 +334,17 @@
       "classes": [
         "vanguard"
       ],
+      "role": "tank",
       "ability": "Solar Charge",
       "star1": "A flame knight in rose-gold plate.",
       "star2": "Her plume becomes fire; her blade glows white-hot.",
       "star3": "Sun-forged armour, blazing wings and a trail of dawnfire.",
-      "lore": "Solenne swore to burn away every shadow in the Crownfall. She has started a list."
+      "lore": "Solenne swore to burn away every shadow in the Crownfall. She has started a list.",
+      "lines": {
+        "buy": "Shadows, beware.",
+        "star": "The dawn burns brighter!",
+        "win": "Cleansed."
+      }
     },
     {
       "id": "grizz",
@@ -274,11 +358,17 @@
       "classes": [
         "bruiser"
       ],
+      "role": "bruiser",
       "ability": "Maul",
       "star1": "An enormous bear warrior with iron-shod claws.",
       "star2": "War-paint and a pauldron made from a mountain troll's skull.",
       "star3": "A primal bear-titan whose roar shakes the arena floor.",
-      "lore": "Grizz does not understand the Crown. He understands that everyone wants it, and he likes a crowd."
+      "lore": "Grizz does not understand the Crown. He understands that everyone wants it, and he likes a crowd.",
+      "lines": {
+        "buy": "GRAHH!",
+        "star": "BIGGER GRAHH!",
+        "win": "Nap time."
+      }
     },
     {
       "id": "gearwick",
@@ -292,11 +382,17 @@
       "classes": [
         "artillerist"
       ],
+      "role": "marksman",
       "ability": "Mortar Protocol",
       "star1": "A clockwork artillery robot with a brass mortar.",
       "star2": "Twin barrels and a targeting monocle that clicks.",
       "star3": "A walking siege tower with a rotary mortar crown.",
-      "lore": "Gearwick-9 has calculated the odds of winning the Crown. It will not tell you them."
+      "lore": "Gearwick-9 has calculated the odds of winning the Crown. It will not tell you them.",
+      "lines": {
+        "buy": "Calculating trajectory.",
+        "star": "Additional barrels installed.",
+        "win": "Odds improved."
+      }
     },
     {
       "id": "mirella",
@@ -310,11 +406,17 @@
       "classes": [
         "mystic"
       ],
+      "role": "support",
       "ability": "Tidal Veil",
       "star1": "A water mage with a swirling orb of seawater.",
       "star2": "Robes of living foam and a coral circlet.",
       "star3": "A tide queen: a ring of water orbits her and fish of light swim through it.",
-      "lore": "Mirella can hear every ocean. The Crownfall has none, and the silence frightens her."
+      "lore": "Mirella can hear every ocean. The Crownfall has none, and the silence frightens her.",
+      "lines": {
+        "buy": "The tide turns.",
+        "star": "Every ocean sings with me.",
+        "win": "Calm waters."
+      }
     },
     {
       "id": "shade",
@@ -328,11 +430,17 @@
       "classes": [
         "assassin"
       ],
+      "role": "assassin",
       "ability": "Execution Mark",
       "star1": "A masked assassin with a red-lacquered blade.",
       "star2": "The mask cracks, revealing a crimson glow beneath.",
       "star3": "A wraith of ribbons and knives; the mask floats in front of an empty hood.",
-      "lore": "Shade has worn many faces. The mask is the only one that stayed."
+      "lore": "Shade has worn many faces. The mask is the only one that stayed.",
+      "lines": {
+        "buy": "A mark has been chosen.",
+        "star": "The mask cracks. Good.",
+        "win": "Executed."
+      }
     },
     {
       "id": "borin",
@@ -346,11 +454,17 @@
       "classes": [
         "bruiser"
       ],
+      "role": "bruiser",
       "ability": "Molten Hammer",
       "star1": "A broad Forgekin smith: basalt skin, braided beard of copper wire, a glowing hammer.",
       "star2": "Magma veins open along his arms; his hammer head is a live forge.",
       "star3": "Borin becomes a walking furnace; his beard is molten metal and every step leaves slag.",
-      "lore": "The Forgekin of Titan's Deep sing to metal until it agrees to become a hammer. Borin sings loudest."
+      "lore": "The Forgekin of Titan's Deep sing to metal until it agrees to become a hammer. Borin sings loudest.",
+      "lines": {
+        "buy": "The forge is hot!",
+        "star": "Hammer sings louder!",
+        "win": "Well struck."
+      }
     },
     {
       "id": "seren",
@@ -364,11 +478,17 @@
       "classes": [
         "summoner"
       ],
+      "role": "caster",
       "ability": "Starling",
       "star1": "A star-child with a lantern staff.",
       "star2": "A cloak of night sky and a lantern that holds a real star.",
       "star3": "Constellations sketch themselves around her; a flock of light-birds circles overhead.",
-      "lore": "Seren catches falling stars. Some of them want to fight."
+      "lore": "Seren catches falling stars. Some of them want to fight.",
+      "lines": {
+        "buy": "The starlings are hungry.",
+        "star": "More stars, more friends!",
+        "win": "Twinkle, twinkle!"
+      }
     },
     {
       "id": "thorn",
@@ -382,11 +502,17 @@
       "classes": [
         "saboteur"
       ],
+      "role": "caster",
       "ability": "Toxic Bloom",
       "star1": "A thorned plant warrior with a violet flower head.",
       "star2": "Poison dripping from purple petals; a thorny spine along his back.",
       "star3": "A carnivorous bloom colossus whose petals exhale toxic spores.",
-      "lore": "Not every forest wants visitors."
+      "lore": "Not every forest wants visitors.",
+      "lines": {
+        "buy": "Step closer…",
+        "star": "In full bloom.",
+        "win": "The garden wins."
+      }
     },
     {
       "id": "dax",
@@ -400,11 +526,17 @@
       "classes": [
         "ranger"
       ],
+      "role": "marksman",
       "ability": "Ricochet",
       "star1": "A dimensional gunslinger in a dusty long coat.",
       "star2": "Rift cracks glow along his revolver; his coat shows another sky.",
       "star3": "A drifter from every timeline at once: ghostly copies echo his shots.",
-      "lore": "Dax has fought in forty-one realities. He lost in one, and he is still annoyed about it."
+      "lore": "Dax has fought in forty-one realities. He lost in one, and he is still annoyed about it.",
+      "lines": {
+        "buy": "This isn't my first reality.",
+        "star": "Forty-two realities, one gun.",
+        "win": "Not the one I lose in."
+      }
     },
     {
       "id": "elara",
@@ -418,11 +550,17 @@
       "classes": [
         "mystic"
       ],
+      "role": "support",
       "ability": "Last Light",
       "star1": "A battlefield healer with a satchel of salves.",
       "star2": "White-and-blue royal vestments; her tome glows.",
       "star3": "An angel of the field hospital, light pouring from her open tome.",
-      "lore": "Elara has saved more soldiers than any general has led."
+      "lore": "Elara has saved more soldiers than any general has led.",
+      "lines": {
+        "buy": "Who needs mending?",
+        "star": "No one falls today.",
+        "win": "Everyone accounted for."
+      }
     },
     {
       "id": "rask",
@@ -436,10 +574,17 @@
       "classes": [
         "duelist"
       ],
+      "role": "fighter",
+      "ability": "Predator's Rhythm",
       "star1": "A reptilian gladiator with a notched gladius.",
       "star2": "Gilded arena armour and a trophy belt.",
       "star3": "The undefeated: golden scales and a cloak of every champion he has bested.",
-      "lore": "Rask counts in threes. So do his opponents, briefly."
+      "lore": "Rask counts in threes. So do his opponents, briefly.",
+      "lines": {
+        "buy": "One. Two. Three.",
+        "star": "The crowd chants my name.",
+        "win": "Undefeated."
+      }
     },
     {
       "id": "hex3",
@@ -453,11 +598,17 @@
       "classes": [
         "arcanist"
       ],
+      "role": "caster",
       "ability": "Mana Reactor",
       "star1": "An experimental robot with a glass mana chamber.",
       "star2": "Rune-etched plating; the reactor glows violet.",
       "star3": "A levitating arcane engine with three orbiting reactor cores.",
-      "lore": "Prototypes one and two exploded. HEX-3 is careful. HEX-3 is very, very careful."
+      "lore": "Prototypes one and two exploded. HEX-3 is careful. HEX-3 is very, very careful.",
+      "lines": {
+        "buy": "Reactor stable. Mostly.",
+        "star": "Core output increased.",
+        "win": "Did not explode."
+      }
     },
     {
       "id": "valkara",
@@ -471,11 +622,17 @@
       "classes": [
         "duelist"
       ],
+      "role": "fighter",
       "ability": "Judgment Dive",
       "star1": "A winged celestial warrior with a spear-sword.",
       "star2": "Wings of starlight and a gilded war-helm.",
       "star3": "Six wings, a halo of blades and a dive that splits the sky.",
-      "lore": "Valkara judges. The verdict is usually \"from above\"."
+      "lore": "Valkara judges. The verdict is usually \"from above\".",
+      "lines": {
+        "buy": "Judgment comes from above.",
+        "star": "My wings are sharper.",
+        "win": "The verdict stands."
+      }
     },
     {
       "id": "dreadmouth",
@@ -489,11 +646,17 @@
       "classes": [
         "bruiser"
       ],
+      "role": "bruiser",
       "ability": "Devour",
       "star1": "An enormous hollow creature that is mostly jaw.",
       "star2": "Bone plates, a second jaw, and ghostfire in its throat.",
       "star3": "A leviathan of the dead: an entire graveyard of teeth.",
-      "lore": "It ate a kingdom once. It is still hungry."
+      "lore": "It ate a kingdom once. It is still hungry.",
+      "lines": {
+        "buy": "Hungry…",
+        "star": "MORE TEETH.",
+        "win": "Delicious."
+      }
     },
     {
       "id": "spark",
@@ -507,11 +670,17 @@
       "classes": [
         "summoner"
       ],
+      "role": "caster",
       "ability": "Deploy Turret",
       "star1": "A wild-haired engineer with a wrench and a tool-pack.",
       "star2": "A mechanical arm grows from the pack; goggles spark.",
       "star3": "He sits in a walking workshop that builds turrets on the fly.",
-      "lore": "Professor Spark was expelled from four academies for \"excessive voltage\"."
+      "lore": "Professor Spark was expelled from four academies for \"excessive voltage\".",
+      "lines": {
+        "buy": "Excessive voltage? Never!",
+        "star": "Version two, even better!",
+        "win": "Science wins again!"
+      }
     },
     {
       "id": "orion",
@@ -525,11 +694,17 @@
       "classes": [
         "ranger"
       ],
+      "role": "marksman",
       "ability": "Constellation Shot",
       "star1": "A star-powered sniper with a crescent longbow.",
       "star2": "Constellations glow across his armour; his bow draws starlight.",
       "star3": "A hunter of gods: his arrows are comets.",
-      "lore": "Orion names every star he fires. He is running out of names."
+      "lore": "Orion names every star he fires. He is running out of names.",
+      "lines": {
+        "buy": "I have a star with your name.",
+        "star": "The constellations align.",
+        "win": "Named and claimed."
+      }
     },
     {
       "id": "maeve",
@@ -544,10 +719,17 @@
       "classes": [
         "mystic"
       ],
+      "role": "support",
+      "ability": "Nature's Bargain",
       "star1": "An ancient forest witch with a staff of living wood.",
       "star2": "Antlers of bone and branch; her shadow is a tree.",
       "star3": "The forest itself leans in to listen: moths of light circle her crown of antlers.",
-      "lore": "Maeve always keeps her bargains. That is what makes them frightening."
+      "lore": "Maeve always keeps her bargains. That is what makes them frightening.",
+      "lines": {
+        "buy": "Every gift has a price.",
+        "star": "The old bargain holds.",
+        "win": "Debts collected."
+      }
     },
     {
       "id": "ronin",
@@ -561,11 +743,17 @@
       "classes": [
         "duelist"
       ],
+      "role": "fighter",
       "ability": "Zero Frame",
       "star1": "A cybernetic wandering swordsman with a straw-coloured visor.",
       "star2": "Arc lines trace his frame; his blade hums.",
       "star3": "He moves faster than his own afterimages; a lightning scabbard crackles at his hip.",
-      "lore": "Ronin Zero forgot his master's name. He did not forget the technique."
+      "lore": "Ronin Zero forgot his master's name. He did not forget the technique.",
+      "lines": {
+        "buy": "Frame ready.",
+        "star": "Faster than memory.",
+        "win": "The technique remains."
+      }
     },
     {
       "id": "ignara",
@@ -579,11 +767,17 @@
       "classes": [
         "vanguard"
       ],
+      "role": "tank",
       "ability": "Inferno Shell",
       "star1": "A fire elemental warrior in cooling obsidian armour.",
       "star2": "The armour cracks and roars with flame.",
       "star3": "A pillar of fire in the shape of a woman; the air itself is burning.",
-      "lore": "Ignara was born in a volcano. She considers everywhere else cold."
+      "lore": "Ignara was born in a volcano. She considers everywhere else cold.",
+      "lines": {
+        "buy": "Everywhere else is cold.",
+        "star": "Burn brighter!",
+        "win": "Only ash."
+      }
     },
     {
       "id": "morrow",
@@ -597,11 +791,17 @@
       "classes": [
         "summoner"
       ],
+      "role": "caster",
       "ability": "Raise Fallen",
       "star1": "A gaunt necromancer with a bone scythe.",
       "star2": "Ghostlights orbit him and his robes are stitched from banners.",
       "star3": "A lord of the grave crowned in spectral candles.",
-      "lore": "Morrow believes death is a waste of good soldiers."
+      "lore": "Morrow believes death is a waste of good soldiers.",
+      "lines": {
+        "buy": "Death is a waste of soldiers.",
+        "star": "My legion grows.",
+        "win": "Rise, and rest."
+      }
     },
     {
       "id": "blacktide",
@@ -615,11 +815,17 @@
       "classes": [
         "artillerist"
       ],
+      "role": "marksman",
       "ability": "Broadside",
       "star1": "A dimensional pirate captain with a hand cannon.",
       "star2": "A spectral crew appears behind him; his coat drips seawater from nowhere.",
       "star3": "A ghost galleon's figurehead rises behind him as he fires.",
-      "lore": "Blacktide sails seas that exist only between realities. He charges tolls."
+      "lore": "Blacktide sails seas that exist only between realities. He charges tolls.",
+      "lines": {
+        "buy": "Toll's due, landlubber.",
+        "star": "Crew, to the cannons!",
+        "win": "Plunder!"
+      }
     },
     {
       "id": "aurelia",
@@ -633,11 +839,17 @@
       "classes": [
         "commander"
       ],
+      "role": "support",
       "ability": "Rally the Crown",
       "star1": "A royal battle commander in blue and gold.",
       "star2": "A standard bearer marches behind her; her circlet glows.",
       "star3": "Crowned in light, her banner becomes a column of gold.",
-      "lore": "Aurelia already has a crown. She wants to know why this one is bigger."
+      "lore": "Aurelia already has a crown. She wants to know why this one is bigger.",
+      "lines": {
+        "buy": "Rally to me!",
+        "star": "For the realm!",
+        "win": "Victory for the Crown."
+      }
     },
     {
       "id": "knuckle",
@@ -651,11 +863,17 @@
       "classes": [
         "bruiser"
       ],
+      "role": "bruiser",
       "ability": "Arena Breaker",
       "star1": "An enormous stone pit fighter with taped fists.",
       "star2": "Championship belts and cracks of gold in his granite skin.",
       "star3": "A living landslide with fists like siege rams.",
-      "lore": "Knuckle has never lost a fight in the Underpits. He is here to see if the surface is any harder."
+      "lore": "Knuckle has never lost a fight in the Underpits. He is here to see if the surface is any harder.",
+      "lines": {
+        "buy": "Surface fighters. Cute.",
+        "star": "Champion of two worlds.",
+        "win": "Next!"
+      }
     },
     {
       "id": "zyrak",
@@ -669,11 +887,17 @@
       "classes": [
         "arcanist"
       ],
+      "role": "caster",
       "ability": "Prismatic Collapse",
       "star1": "A crystal alien with a floating prism.",
       "star2": "More facets, more light; a halo of crystal shards.",
       "star3": "A walking cathedral of prisms refracting impossible colours.",
-      "lore": "Zyrak speaks in light. Most listeners go briefly blind; Zyrak considers this rude."
+      "lore": "Zyrak speaks in light. Most listeners go briefly blind; Zyrak considers this rude.",
+      "lines": {
+        "buy": "* refracts politely *",
+        "star": "* shines brighter *",
+        "win": "* hums in triumph *"
+      }
     },
     {
       "id": "astryon",
@@ -687,11 +911,18 @@
       "classes": [
         "duelist"
       ],
+      "role": "fighter",
       "ability": "Seven-Star Dance",
       "star1": "A silver celestial swordsman.",
       "star2": "Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes.",
       "star3": "Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space.",
-      "lore": "Astryon has cut down seven stars. He intends the Crown to be the eighth."
+      "lore": "Astryon has cut down seven stars. He intends the Crown to be the eighth.",
+      "lines": {
+        "buy": "The eighth star awaits.",
+        "star": "My blades multiply.",
+        "ult": "Seven stars — fall!",
+        "win": "Another star cut down."
+      }
     },
     {
       "id": "vespera",
@@ -705,11 +936,18 @@
       "classes": [
         "summoner"
       ],
+      "role": "caster",
       "ability": "Court of Shadows",
       "star1": "A pale shadow monarch on invisible stairs.",
       "star2": "Her train becomes a river of shadow courtiers.",
       "star3": "A throne of night rises behind her; her crown is an eclipse.",
-      "lore": "Vespera rules a court that exists only when no one is looking."
+      "lore": "Vespera rules a court that exists only when no one is looking.",
+      "lines": {
+        "buy": "Court is in session.",
+        "star": "My courtiers grow bold.",
+        "ult": "Rise, my court!",
+        "win": "Dismissed."
+      }
     },
     {
       "id": "titanrho",
@@ -723,11 +961,18 @@
       "classes": [
         "warden"
       ],
+      "role": "tank",
       "ability": "Fortress Mode",
       "star1": "An enormous ancient war machine on tread-legs.",
       "star2": "Fold-out cannon towers and a reactor crown.",
       "star3": "A walking citadel with a garrison of tiny brass drones.",
-      "lore": "Titan Rho guarded a city for ten thousand years. It does not know the city fell."
+      "lore": "Titan Rho guarded a city for ten thousand years. It does not know the city fell.",
+      "lines": {
+        "buy": "City status: unknown. Defending anyway.",
+        "star": "Fortress systems expanded.",
+        "ult": "Fortress mode.",
+        "win": "Perimeter held."
+      }
     },
     {
       "id": "pyrax",
@@ -741,11 +986,18 @@
       "classes": [
         "bruiser"
       ],
+      "role": "bruiser",
       "ability": "Dragonheart",
       "star1": "A dragon-blooded warrior with ember scales on her arms.",
       "star2": "Horns and a burning tail; half her body is scaled.",
       "star3": "She becomes a dragon in all but wings, and the wings are coming.",
-      "lore": "Pyrax's grandmother was a dragon. Pyrax intends to be one too."
+      "lore": "Pyrax's grandmother was a dragon. Pyrax intends to be one too.",
+      "lines": {
+        "buy": "Grandmother would be proud.",
+        "star": "The dragon wakes.",
+        "ult": "Breathe fire!",
+        "win": "Scorched."
+      }
     },
     {
       "id": "elysian",
@@ -759,11 +1011,18 @@
       "classes": [
         "mystic"
       ],
+      "role": "support",
       "ability": "Divine Intervention",
       "star1": "A serene celestial healer with feathered wings.",
       "star2": "A second pair of wings and a halo of script.",
       "star3": "A seraph of the firmament; her wings are made of dawn.",
-      "lore": "Elysian does not believe anyone deserves to die in the Crownfall. The Crownfall disagrees."
+      "lore": "Elysian does not believe anyone deserves to die in the Crownfall. The Crownfall disagrees.",
+      "lines": {
+        "buy": "No one dies today.",
+        "star": "My wings shelter many.",
+        "ult": "Not yet — live!",
+        "win": "All of you, safe."
+      }
     },
     {
       "id": "varr",
@@ -778,11 +1037,18 @@
         "commander",
         "vanguard"
       ],
+      "role": "tank",
       "ability": "Hold the Line",
       "star1": "A grizzled kingdom commander with a tower shield.",
       "star2": "Medals of every war and a banner-spear.",
       "star3": "A legend of the line, flanked by phantom shieldbearers.",
-      "lore": "Varr has held every line he was given. He was never given the Crown."
+      "lore": "Varr has held every line he was given. He was never given the Crown.",
+      "lines": {
+        "buy": "Form up!",
+        "star": "The line does not break.",
+        "ult": "Hold the line!",
+        "win": "Line held."
+      }
     },
     {
       "id": "veilwalker",
@@ -796,11 +1062,18 @@
       "classes": [
         "assassin"
       ],
+      "role": "assassin",
       "ability": "Reality Cut",
       "star1": "A living dimensional anomaly in a tattered shape.",
       "star2": "Its edges tear into other skies.",
       "star3": "A hole in the world holding a blade.",
-      "lore": "The Veilwalker is what happens when a door between worlds learns to walk."
+      "lore": "The Veilwalker is what happens when a door between worlds learns to walk.",
+      "lines": {
+        "buy": "* the air tears open *",
+        "star": "* more of the world goes missing *",
+        "ult": "Between here — and there.",
+        "win": "* closes *"
+      }
     },
     {
       "id": "gaia",
@@ -814,11 +1087,18 @@
       "classes": [
         "warden"
       ],
+      "role": "tank",
       "ability": "Worldroot",
       "star1": "An ancient living tree titan.",
       "star2": "Blossoms and a canopy crown; birds nest in her shoulders.",
       "star3": "A walking forest; the ground turns green where she stands.",
-      "lore": "Gaia Prime was old when the Crownfall was built. She remembers who built it."
+      "lore": "Gaia Prime was old when the Crownfall was built. She remembers who built it.",
+      "lines": {
+        "buy": "I remember who built this place.",
+        "star": "The forest walks with me.",
+        "ult": "Worldroot!",
+        "win": "Grow."
+      }
     },
     {
       "id": "ladyvolt",
@@ -832,11 +1112,18 @@
       "classes": [
         "duelist"
       ],
+      "role": "fighter",
       "ability": "Thunderstep",
       "star1": "An elite lightning duelist with a rapier.",
       "star2": "Storm-silver armour; her hair crackles.",
       "star3": "She is lightning with a sword; thunder arrives a heartbeat after her.",
-      "lore": "Lady Volt has never lost a duel. She considers most battles to be several duels at once."
+      "lore": "Lady Volt has never lost a duel. She considers most battles to be several duels at once.",
+      "lines": {
+        "buy": "Shall we duel?",
+        "star": "Lightning, en garde.",
+        "ult": "Thunderstep!",
+        "win": "Touché."
+      }
     },
     {
       "id": "vessimer",
@@ -850,11 +1137,18 @@
       "classes": [
         "saboteur"
       ],
+      "role": "caster",
       "ability": "Grand Experiment",
       "star1": "A masked chemist with a bandolier of vials.",
       "star2": "Brass apparatus hisses on his back.",
       "star3": "A mobile laboratory of floating flasks and glowing tubes.",
-      "lore": "Nobody has seen Vessimer's face. Vessimer is not sure he still has one."
+      "lore": "Nobody has seen Vessimer's face. Vessimer is not sure he still has one.",
+      "lines": {
+        "buy": "A new experiment!",
+        "star": "The formula improves.",
+        "ult": "Tinctures — away!",
+        "win": "Results: conclusive."
+      }
     },
     {
       "id": "aurex",
@@ -869,11 +1163,18 @@
         "ascendant",
         "bruiser"
       ],
+      "role": "bruiser",
       "ability": "WORLD IN FLAMES",
       "star1": "A massive dragon warrior.",
       "star2": "Molten armour grows over his wings; fire leaks from every seam.",
       "star3": "A full celestial dragon. The sky turns red and flames surround the arena.",
-      "lore": "Every dragon died for the Crown. Aurex is here to find out whether it was worth it."
+      "lore": "Every dragon died for the Crown. Aurex is here to find out whether it was worth it.",
+      "lines": {
+        "buy": "The last dragon answers.",
+        "star": "My wings remember the sky.",
+        "ult": "Let the world burn!",
+        "win": "Worth it? Perhaps."
+      }
     },
     {
       "id": "noctara",
@@ -888,11 +1189,18 @@
         "ascendant",
         "arcanist"
       ],
+      "role": "caster",
       "ability": "THE UNMAKING",
       "star1": "An empress robed in the space between stars.",
       "star2": "Her crown becomes an eclipse; small voids orbit her.",
       "star3": "She is a doorway to nothing. The battlefield becomes the void.",
-      "lore": "Noctara ruled an empire until it disappeared. She is not sure she did not do it."
+      "lore": "Noctara ruled an empire until it disappeared. She is not sure she did not do it.",
+      "lines": {
+        "buy": "All things end in me.",
+        "star": "The void deepens.",
+        "ult": "Be unmade.",
+        "win": "Nothing remains."
+      }
     },
     {
       "id": "atlas",
@@ -907,11 +1215,18 @@
         "ascendant",
         "warden"
       ],
+      "role": "tank",
       "ability": "OMEGA PROTOCOL",
       "star1": "A gigantic final-generation war machine.",
       "star2": "Shoulder cannons and a reactor halo.",
       "star3": "A titan of the last war: a sun burns in its chest.",
-      "lore": "ATLAS-Ω was built to end a war. It did. It is still waiting for its next order."
+      "lore": "ATLAS-Ω was built to end a war. It did. It is still waiting for its next order.",
+      "lines": {
+        "buy": "Awaiting orders.",
+        "star": "Weapon systems expanded.",
+        "ult": "Omega protocol engaged.",
+        "win": "War ended. Again."
+      }
     },
     {
       "id": "sol",
@@ -926,11 +1241,18 @@
         "ascendant",
         "mystic"
       ],
+      "role": "support",
       "ability": "DAWN",
       "star1": "The first light given a body.",
       "star2": "A corona and four wings of light.",
       "star3": "A miniature sun hangs above the arena.",
-      "lore": "Before anything, there was Sol. Sol would like it back that way."
+      "lore": "Before anything, there was Sol. Sol would like it back that way.",
+      "lines": {
+        "buy": "Before anything, there was me.",
+        "star": "Brighter than the first morning.",
+        "ult": "Let there be DAWN!",
+        "win": "The light endures."
+      }
     },
     {
       "id": "unwritten",
@@ -945,11 +1267,18 @@
         "ascendant",
         "summoner"
       ],
+      "role": "caster",
       "ability": "THE FORGOTTEN LEGION",
       "star1": "A skeletal king on a throne of shields.",
       "star2": "A spectral legion stands behind him.",
       "star3": "He remembers his name, and the dead answer it.",
-      "lore": "His name was erased from every record. He wants the Crown to write it back."
+      "lore": "His name was erased from every record. He wants the Crown to write it back.",
+      "lines": {
+        "buy": "Remember my name.",
+        "star": "The forgotten answer.",
+        "ult": "Legion — rise!",
+        "win": "Write it down."
+      }
     },
     {
       "id": "veyra",
@@ -964,11 +1293,18 @@
         "ascendant",
         "assassin"
       ],
+      "role": "assassin",
       "ability": "BETWEEN WORLDS",
       "star1": "A huntress with portal-rings on her wrists.",
       "star2": "Her cloak is a window into other worlds.",
       "star3": "She exists in every reality at once, and all of them are hunting.",
-      "lore": "Veyra hunts things that escape between worlds. The Crown is the biggest one yet."
+      "lore": "Veyra hunts things that escape between worlds. The Crown is the biggest one yet.",
+      "lines": {
+        "buy": "Every world has a back door.",
+        "star": "I hunt in all of them now.",
+        "ult": "Between worlds!",
+        "win": "Caught."
+      }
     },
     {
       "id": "mother",
@@ -983,11 +1319,18 @@
         "ascendant",
         "summoner"
       ],
+      "role": "support",
       "ability": "LIFE ETERNAL",
       "star1": "The mother of forests, crowned in blossom.",
       "star2": "Her train is a meadow; deer of light follow her.",
       "star3": "A goddess of green whose every step is spring.",
-      "lore": "Every forest in every world is one of her children. She would like the Crown for the last one."
+      "lore": "Every forest in every world is one of her children. She would like the Crown for the last one.",
+      "lines": {
+        "buy": "Come, my children.",
+        "star": "Spring has no end.",
+        "ult": "Life eternal!",
+        "win": "Bloom again."
+      }
     },
     {
       "id": "crownless",
@@ -1001,11 +1344,18 @@
       "classes": [
         "ascendant"
       ],
+      "role": "fighter",
       "ability": "BREAK THE RULES",
       "star1": "A figure in broken regalia whose face is hidden.",
       "star2": "Cracks of Crown-light spread through the armour.",
       "star3": "The Crown's own power, worn as a body. Reality fractures around him.",
-      "lore": "Once, someone won the Crownfall. They refused the Crown. Nobody has explained why."
+      "lore": "Once, someone won the Crownfall. They refused the Crown. Nobody has explained why.",
+      "lines": {
+        "buy": "…",
+        "star": "The rules bend.",
+        "ult": "I refuse your rules.",
+        "win": "Still not taking it."
+      }
     }
   ]
 }

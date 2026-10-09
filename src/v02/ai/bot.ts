@@ -202,7 +202,16 @@ function chooseOption(s: GameState, p: PlayerIndex): string | null {
         return `u:${ranked[0].b.uid}`;
       }
       return `u:${champs.sort((a, b) => val(b) - val(a))[0].uid}`;
+    case 'readyOther':
+      return `u:${champs.sort((a, b) => val(b) - val(a))[0].uid}`;
+    case 'deployFromFallen': {
+      const pl = s.players[p];
+      return pend.options.map((o) => ({ key: o.key, d: champion(pl.fallen[Number(o.key.slice(2))]) })).sort((a, b) => b.d.cost - a.d.cost)[0].key;
+    }
     case 'buff': {
+      if (pend.item.effect.op === 'buff' && pend.item.effect.target === 'chooseRival') {
+        return `u:${champs.sort((a, b) => might(s, b) - might(s, a))[0].uid}`;
+      }
       // Swift buffs: the champion in the current clash on this player's side; otherwise the strongest own champion.
       const cbt = s.combat;
       const mineInClash = cbt ? [cbt.attacker, cbt.defender].map((u) => (u === null ? null : findChampion(s, u))).find((c) => c && c.owner === p) : null;

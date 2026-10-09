@@ -217,8 +217,14 @@ function choiceOptions(s: GameState, item: EffectItem): ChoiceOption[] | null {
   switch (e.op) {
     case 'scorch': return e.target === 'chooseRival' ? them.field.map(champOpt) : null;
     case 'shield':
+      if (e.target === 'self') return null;
       return me.field.filter((c) => !c.shield && (e.target === 'chooseOwn' || c.uid !== item.self)).map(champOpt);
-    case 'buff': return e.target === 'chooseAny' ? [...me.field, ...them.field].map(champOpt) : null;
+    case 'buff': return e.target === 'chooseAny' ? [...me.field, ...them.field].map(champOpt) : e.target === 'chooseRival' ? them.field.map(champOpt) : null;
+    case 'readyOther': return me.field.filter((c) => c.exhausted && c.uid !== item.self).map(champOpt);
+    case 'deployFromFallen':
+      if (me.field.length >= ZONES) return [];
+      return me.fallen.map((id, i) => ({ id, i })).filter(({ id }) => CARDS[id].kind === 'champion' && (CARDS[id] as ChampionCard).cost <= e.maxCost)
+        .map(({ id, i }) => ({ key: `f:${i}`, label: `${CARDS[id].name} ★ (from your Fallen pile, cost ${(CARDS[id] as ChampionCard).cost})` }));
     case 'returnFallen':
       return me.fallen.map((id, i) => ({ id, i })).filter(({ id }) => CARDS[id].kind === 'champion')
         .map(({ id, i }) => ({ key: `f:${i}`, label: `${CARDS[id].name} ★ (from your Fallen pile)` }));
@@ -244,6 +250,8 @@ const PROMPTS: Partial<Record<Effect['op'], string>> = {
   buff: 'Choose a champion.',
   returnFallen: 'Choose a ★ champion to return from your Fallen pile to your hand.',
   deployFree: 'Choose a ★ champion to deploy for free.',
+  deployFromFallen: 'Choose a ★ champion to deploy from your Fallen pile for free.',
+  readyOther: 'Choose one of your sideways champions to ready.',
   mend: 'Choose a card from your hand to become a new Crown Shard.',
   gateBlock: 'Choose a champion to ready and block the attack.',
 };
@@ -285,7 +293,7 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       return;
     }
     case 'shield': {
-      const t = byKey(key);
+      const t = e.target === 'self' ? (item.self !== undefined ? findChampion(s, item.self) : null) : byKey(key);
       if (!t) return;
       t.shield = true;
       log(s, 'effect', `${src}: ${champName(t)} gains a Shield.`, p);
@@ -306,7 +314,7 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       log(s, 'effect', `${src}: ${P(p)}'s other champions get +${e.might} Might this turn.`, p);
       return;
     case 'buff': {
-      const t = e.target === 'chooseAny' ? byKey(key) : ctxChamp(e.target);
+      const t = e.target === 'chooseAny' || e.target === 'chooseRival' ? byKey(key) : ctxChamp(e.target);
       if (!t) return;
       t.mods.might += e.might;
       t.mods.guard += e.guard;
@@ -330,6 +338,25 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       if (!key) return;
       const i = Number(key.slice(2));
       placeChampion(s, p, i, true);
+      return;
+    }
+    case 'deployFromFallen': {
+      if (!key) return;
+      placeChampion(s, p, Number(key.slice(2)), true, 'fallen');
+      return;
+    }
+    case 'readyOther': {
+      const t = byKey(key);
+      if (!t) return;
+      t.exhausted = false;
+      log(s, 'effect', `${src}: ${champName(t)} stands back up.`, p);
+      return;
+    }
+    case 'readySelf': {
+      const c = item.self !== undefined ? findChampion(s, item.self) : null;
+      if (!c) return;
+      c.exhausted = false;
+      log(s, 'effect', `${src}: ${champName(c)} ignores the rule and stays standing.`, p);
       return;
     }
     case 'mend': {
@@ -376,15 +403,15 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
   }
 }
 
-function placeChampion(s: GameState, p: PlayerIndex, handIndex: number, free: boolean) {
+function placeChampion(s: GameState, p: PlayerIndex, index: number, free: boolean, from: 'hand' | 'fallen' = 'hand') {
   const pl = s.players[p];
-  const [id] = pl.hand.splice(handIndex, 1);
+  const [id] = (from === 'hand' ? pl.hand : pl.fallen).splice(index, 1);
   const def = champion(id);
   if (!free) pl.command -= def.cost;
   const c: ChampionInPlay = { uid: s.nextUid++, owner: p, stack: [id], exhausted: false, arrivedTurn: s.turn, ascendedTurn: -1,
     shield: false, mods: { might: 0, guard: 0 }, blocking: false, noAttack: false, readiedTurn: -1 };
   pl.field.push(c);
-  log(s, 'play', `${P(p)} deploys ${def.name} ★ (Might ${def.might}, Guard ${def.guard})${free ? ' for free' : ` for ${def.cost} Command`}.`, p);
+  log(s, 'play', `${P(p)} deploys ${def.name} ★ (Might ${def.might}, Guard ${def.guard})${from === 'fallen' ? ' from the Fallen pile' : ''}${free ? ' for free' : ` for ${def.cost} Command`}.`, p);
   queueEffects(s, def.arrive, { controller: p, source: id, self: c.uid });
 }
 
@@ -414,16 +441,16 @@ function setBlocker(s: GameState, b: ChampionInPlay) {
   queueEffects(s, top(b).block, { controller: b.owner, source: b.stack[b.stack.length - 1], self: b.uid, ctx: { attacker: att.uid, defender: b.uid } });
 }
 
-function applyDefenderScorch(s: GameState) {
+function applyDefenderEffects(s: GameState) {
   const cbt = s.combat!;
-  if (!cbt.defenderScorch || cbt.defender === null) return;
-  const d = findChampion(s, cbt.defender);
+  if (!cbt.defenderEffects.length || cbt.defender === null) return;
   const a = findChampion(s, cbt.attacker);
-  if (d && a) {
-    d.mods.guard -= cbt.defenderScorch;
-    log(s, 'effect', `${champName(a)}: ${champName(d)} gets −${cbt.defenderScorch} Guard this turn (Scorch ${cbt.defenderScorch} the defender).`, a.owner);
+  const effects = cbt.defenderEffects;
+  cbt.defenderEffects = [];
+  if (!a) return;
+  for (const effect of effects) {
+    resolveEffect(s, { kind: 'effect', effect, controller: a.owner, source: a.stack[a.stack.length - 1], self: a.uid, ctx: { attacker: a.uid, defender: cbt.defender } }, null);
   }
-  cbt.defenderScorch = 0;
 }
 
 export function responseOptions(s: GameState, q: PlayerIndex): ChoiceOption[] {
@@ -480,14 +507,14 @@ function stepCombat(s: GameState) {
       cbt.stage = 'respondDefender';
       return;
     case 'respondDefender': {
-      applyDefenderScorch(s);
+      applyDefenderEffects(s);
       cbt.stage = 'respondAttacker';
       const options = responseOptions(s, q);
       if (options.length) s.pending = { kind: 'respond', player: q, options };
       return;
     }
     case 'respondAttacker': {
-      applyDefenderScorch(s);
+      applyDefenderEffects(s);
       cbt.stage = 'clash';
       const options = responseOptions(s, cbt.attackerOwner);
       if (options.length) s.pending = { kind: 'respond', player: cbt.attackerOwner, options };
@@ -694,10 +721,10 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
       const t = action.target === 'crown' ? null : findChampion(s, action.target)!;
       a.exhausted = true;
       s.combat = { attacker: a.uid, attackerOwner: player, target: action.target, defender: null, stage: 'declared',
-        targetWasExhausted: !!t?.exhausted, defenderScorch: 0 };
+        targetWasExhausted: !!t?.exhausted, defenderEffects: [] };
       log(s, 'attack', `${champName(a)} (Might ${might(s, a)}) attacks ${t ? `${champName(t)} (Guard ${guard(s, t)})` : `${P(rival(player))}'s Crown`}.`, player);
       for (const e of top(a).attack ?? []) {
-        if (e.op === 'scorch' && e.target === 'defender') s.combat.defenderScorch += e.n;
+        if ('target' in e && e.target === 'defender') s.combat.defenderEffects.push(e);
         else queueEffects(s, [e], { controller: player, source: a.stack[a.stack.length - 1], self: a.uid, ctx: { attacker: a.uid } });
       }
       break;
