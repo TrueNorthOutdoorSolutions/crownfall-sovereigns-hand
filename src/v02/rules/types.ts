@@ -17,6 +17,10 @@ export interface ChampionInPlay {
   blocking: boolean;
   noAttack: boolean;
   readiedTurn: number;
+  /** Attached Relic card id. */
+  relic?: string | null;
+  /** Summoned token: it vanishes when defeated instead of going to the Fallen pile. */
+  token?: boolean;
 }
 
 export interface SetScheme { sid: number; card: string; setTurn: number }
@@ -34,6 +38,9 @@ export interface PlayerState {
   commandMax: number;
   ascendedOnTurn: number;
   mulliganed: boolean;
+  /** The Edict this player owns that is currently in play. */
+  edictCard?: string | null;
+  cycledOnTurn?: number;
 }
 
 export type CombatStage = 'declared' | 'block' | 'respondDefender' | 'respondAttacker' | 'clash';
@@ -105,6 +112,10 @@ export interface GameState {
   nextUid: number;
   log: LogEntry[];
   lastClash: ClashReport | null;
+  /** The shared Edict in play. */
+  edict?: { card: string; owner: PlayerIndex } | null;
+  /** Turn on which War Banners last paid out. */
+  bannerTurn?: number;
   /** Shards broken this game by each player's attacks (for the results screen). */
   stats: { shardsBroken: [number, number]; ascends: [number, number]; schemes: [number, number] };
 }
@@ -114,6 +125,9 @@ export type Action =
   | { type: 'deploy'; handIndex: number }
   | { type: 'cast'; handIndex: number }
   | { type: 'setScheme'; handIndex: number }
+  | { type: 'equip'; handIndex: number; uid: number }
+  | { type: 'playEdict'; handIndex: number }
+  | { type: 'cycle'; handIndex: number }
   | { type: 'ascend'; uid: number }
   | { type: 'toBattle' }
   | { type: 'attack'; uid: number; target: 'crown' | number }

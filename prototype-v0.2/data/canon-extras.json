@@ -1,0 +1,1660 @@
+{
+  "source": "Desktop/Crownfall",
+  "commit": "dc59846b3d44782a1ea1ce92bc5ee0f9472247a7",
+  "readAt": "2026-10-09",
+  "schools": {
+    "war": {
+      "name": "War Crown",
+      "color": "#ff6b5a",
+      "glyph": "⚔",
+      "blurb": "Combat power"
+    },
+    "fortune": {
+      "name": "Fortune Crown",
+      "color": "#ffd66b",
+      "glyph": "◉",
+      "blurb": "Economy"
+    },
+    "evolution": {
+      "name": "Evolution Crown",
+      "color": "#7dd35a",
+      "glyph": "✧",
+      "blurb": "Upgrades & levels"
+    },
+    "chaos": {
+      "name": "Chaos Crown",
+      "color": "#ff5ae0",
+      "glyph": "✺",
+      "blurb": "High-risk randomness"
+    },
+    "creation": {
+      "name": "Creation Crown",
+      "color": "#6fd8ff",
+      "glyph": "✥",
+      "blurb": "Summons & crests"
+    },
+    "void": {
+      "name": "Void Crown",
+      "color": "#a67cff",
+      "glyph": "☾",
+      "blurb": "Sacrifice for power"
+    }
+  },
+  "powers": [
+    {
+      "id": "sharpened_steel",
+      "name": "Sharpened Steel",
+      "school": "war",
+      "rarity": "common",
+      "desc": "Your army gains 10% attack damage."
+    },
+    {
+      "id": "reserve_guard",
+      "name": "Reserve Guard",
+      "school": "war",
+      "rarity": "common",
+      "desc": "Your army gains 45 health for every champion waiting on your bench."
+    },
+    {
+      "id": "empty_throne",
+      "name": "The Empty Throne",
+      "school": "war",
+      "rarity": "rare",
+      "desc": "If you leave at least one board slot empty, your army deals 25% more damage and gains 250 health."
+    },
+    {
+      "id": "battle_hymn",
+      "name": "Battle Hymn",
+      "school": "war",
+      "rarity": "rare",
+      "desc": "Your army gains 15% attack speed."
+    },
+    {
+      "id": "front_doctrine",
+      "name": "Frontline Doctrine",
+      "school": "war",
+      "rarity": "rare",
+      "desc": "Champions in your front two rows gain 300 health."
+    },
+    {
+      "id": "back_doctrine",
+      "name": "Backline Doctrine",
+      "school": "war",
+      "rarity": "rare",
+      "desc": "Champions in your back two rows deal 18% more damage."
+    },
+    {
+      "id": "executioner",
+      "name": "Executioner's Oath",
+      "school": "war",
+      "rarity": "epic",
+      "desc": "Your army executes enemies below 10% health."
+    },
+    {
+      "id": "opening_salvo",
+      "name": "Opening Salvo",
+      "school": "war",
+      "rarity": "epic",
+      "desc": "Your army starts combat with 30 extra energy."
+    },
+    {
+      "id": "fallen_crown",
+      "name": "Crown of the Fallen",
+      "school": "war",
+      "rarity": "rare",
+      "desc": "Your army deals 1% more damage for every 3 health your Sovereign is missing."
+    },
+    {
+      "id": "wildkin_pact",
+      "name": "Wildkin Pact",
+      "school": "war",
+      "rarity": "epic",
+      "desc": "Your army counts one extra Wildkin, and Wildkin turn feral below 70% health instead of 50%."
+    },
+    {
+      "id": "royal_treasury",
+      "name": "Royal Treasury",
+      "school": "fortune",
+      "rarity": "epic",
+      "desc": "Interest is paid for every 8 Crowns you hold instead of every 10 (still at most +5)."
+    },
+    {
+      "id": "forge_masters_favor",
+      "name": "Forge Master's Favor",
+      "school": "evolution",
+      "rarity": "rare",
+      "desc": "Gain a random component now. Every Boss encounter gives you one extra component."
+    },
+    {
+      "id": "overflowing_bench",
+      "name": "Overflowing Bench",
+      "school": "evolution",
+      "rarity": "common",
+      "desc": "Your bench holds 2 more champions. Gain 3 Crowns."
+    },
+    {
+      "id": "crowns_favor",
+      "name": "Crown's Favor",
+      "school": "creation",
+      "rarity": "epic",
+      "desc": "Gain a Crown Shard now, and every Boss encounter gives you another."
+    },
+    {
+      "id": "last_stand",
+      "name": "Last Stand",
+      "school": "war",
+      "rarity": "epic",
+      "desc": "Whenever an ally dies, your surviving army gains 8% attack speed (stacking)."
+    },
+    {
+      "id": "crown_of_war",
+      "name": "Crown of War",
+      "school": "war",
+      "rarity": "exalted",
+      "desc": "Your army gains 20% attack damage, 20 ability power and 15% attack speed."
+    },
+    {
+      "id": "golden_parting",
+      "name": "Golden Parting",
+      "school": "fortune",
+      "rarity": "common",
+      "desc": "Gain 5 Crowns now. Selling a ★★ champion gives 3 extra Crowns; a ★★★ gives 10 extra."
+    },
+    {
+      "id": "steady_coffers",
+      "name": "Steady Coffers",
+      "school": "fortune",
+      "rarity": "common",
+      "desc": "Gain 1 extra Crown every round."
+    },
+    {
+      "id": "crown_bond",
+      "name": "Crown Bond",
+      "school": "fortune",
+      "rarity": "epic",
+      "desc": "Invest up to 20 of your Crowns now. After 5 more rounds, the bond pays out 2.5× what you invested. Buying XP costs 3 Crowns."
+    },
+    {
+      "id": "deep_vault",
+      "name": "Deep Vault",
+      "school": "fortune",
+      "rarity": "rare",
+      "desc": "While you hold 50 or more Crowns at the start of a round, gain 2 bonus Crowns."
+    },
+    {
+      "id": "free_rolls",
+      "name": "Free Rolls",
+      "school": "fortune",
+      "rarity": "rare",
+      "desc": "Gain 1 free reroll every round."
+    },
+    {
+      "id": "victors_spoils",
+      "name": "Victor's Spoils",
+      "school": "fortune",
+      "rarity": "rare",
+      "desc": "Gain 2 Crowns after every combat you win."
+    },
+    {
+      "id": "windfall",
+      "name": "Windfall",
+      "school": "fortune",
+      "rarity": "epic",
+      "desc": "Gain 18 Crowns."
+    },
+    {
+      "id": "merchant_prince",
+      "name": "Merchant Prince",
+      "school": "fortune",
+      "rarity": "epic",
+      "desc": "Rerolls cost 1 Crown."
+    },
+    {
+      "id": "consolation",
+      "name": "Consolation Prize",
+      "school": "fortune",
+      "rarity": "epic",
+      "desc": "After each loss, gain 3 Crowns and 2 XP."
+    },
+    {
+      "id": "golden_crown",
+      "name": "Golden Crown",
+      "school": "fortune",
+      "rarity": "exalted",
+      "desc": "Gain 2 extra Crowns every round, and 3 more while you hold 50 or more."
+    },
+    {
+      "id": "tempered_victory",
+      "name": "Tempered by Victory",
+      "school": "evolution",
+      "rarity": "rare",
+      "desc": "Gain 4 XP. After every 2 PvP victories, a component held by one of your fielded champions evolves into a completed item."
+    },
+    {
+      "id": "lucky_draw",
+      "name": "Lucky Draw",
+      "school": "evolution",
+      "rarity": "common",
+      "desc": "Gain a random Tier III champion."
+    },
+    {
+      "id": "mirror_shard",
+      "name": "Mirror Shard",
+      "school": "evolution",
+      "rarity": "common",
+      "desc": "Gain a copy of the champion you own the most copies of (a random Tier I champion if you own none)."
+    },
+    {
+      "id": "studious",
+      "name": "Studious",
+      "school": "evolution",
+      "rarity": "rare",
+      "desc": "Gain 2 extra XP every round."
+    },
+    {
+      "id": "twin_blessing",
+      "name": "Twin Blessing",
+      "school": "evolution",
+      "rarity": "rare",
+      "desc": "Gain 2 copies of a random Tier II champion you own (or any Tier II if you own none)."
+    },
+    {
+      "id": "higher_calling",
+      "name": "Higher Calling",
+      "school": "evolution",
+      "rarity": "rare",
+      "desc": "Gain 10 XP."
+    },
+    {
+      "id": "fourth_crown",
+      "name": "Oath of the Fourth Crown",
+      "school": "evolution",
+      "rarity": "exalted",
+      "desc": "Swear to the Tier II champion you own the most copies of. Gain 2 copies of it now and 1 more every round for the rest of the match, beyond ★★★: three ★★★ ascend to ★★★★."
+    },
+    {
+      "id": "ascension_rite",
+      "name": "Ascension Rite",
+      "school": "evolution",
+      "rarity": "epic",
+      "desc": "A random ★ champion on your board ascends to ★★."
+    },
+    {
+      "id": "star_touched",
+      "name": "Star-Touched",
+      "school": "evolution",
+      "rarity": "epic",
+      "desc": "Your ★★ and ★★★ champions gain 15% health and deal 15% more damage."
+    },
+    {
+      "id": "prodigy_path",
+      "name": "Prodigy's Path",
+      "school": "evolution",
+      "rarity": "epic",
+      "desc": "You can field 1 more champion."
+    },
+    {
+      "id": "apex_ascension",
+      "name": "Apex Ascension",
+      "school": "evolution",
+      "rarity": "exalted",
+      "desc": "You can field 1 more champion. Gain 10 XP."
+    },
+    {
+      "id": "pandora",
+      "name": "Pandora's Satchel",
+      "school": "chaos",
+      "rarity": "common",
+      "desc": "Gain 2 random item components."
+    },
+    {
+      "id": "wild_gift",
+      "name": "Wild Gift",
+      "school": "chaos",
+      "rarity": "common",
+      "desc": "Gain a random champion of Tier I to IV."
+    },
+    {
+      "id": "coin_flip",
+      "name": "Coin Flip",
+      "school": "chaos",
+      "rarity": "common",
+      "desc": "Heads: gain 12 Crowns. Tails: gain 4 Crowns and a component."
+    },
+    {
+      "id": "roll_of_fate",
+      "name": "Roll of Fate",
+      "school": "chaos",
+      "rarity": "rare",
+      "desc": "Every round, gain 0 to 4 Crowns at random."
+    },
+    {
+      "id": "chaotic_surge",
+      "name": "Chaotic Surge",
+      "school": "chaos",
+      "rarity": "rare",
+      "desc": "At combat start, a random ally gains 60% attack damage, 60 ability power and 60% attack speed."
+    },
+    {
+      "id": "grand_convergence",
+      "name": "Grand Convergence",
+      "school": "chaos",
+      "rarity": "exalted",
+      "desc": "Every trait you have at least one champion in counts one extra champion. Gain 3 free rerolls."
+    },
+    {
+      "id": "mystery_box",
+      "name": "Mystery Box",
+      "school": "chaos",
+      "rarity": "epic",
+      "desc": "Gain a random completed item."
+    },
+    {
+      "id": "crownfall_dice",
+      "name": "Dice of the Crownfall",
+      "school": "chaos",
+      "rarity": "epic",
+      "desc": "At combat start, each ally gains one random buff: +20% attack speed, +25 ability power, +20% attack damage, +200 health or +25 armour and resistance."
+    },
+    {
+      "id": "wildfire",
+      "name": "Wildfire",
+      "school": "chaos",
+      "rarity": "epic",
+      "desc": "At combat start, 3 random enemy champions burn for true damage equal to 20% of their max health over 5s."
+    },
+    {
+      "id": "crown_of_chaos",
+      "name": "Crown of Chaos",
+      "school": "chaos",
+      "rarity": "exalted",
+      "desc": "Gain 2 random completed items and a random Tier IV champion."
+    },
+    {
+      "id": "training_dummy",
+      "name": "Crown Dummy",
+      "school": "creation",
+      "rarity": "common",
+      "desc": "At combat start, summon a Crown Dummy with 700 health in your front line."
+    },
+    {
+      "id": "crest_kingdom",
+      "name": "Crest of the Kingdom",
+      "school": "creation",
+      "rarity": "rare",
+      "desc": "Your army counts as having 1 extra Kingdom champion."
+    },
+    {
+      "id": "crest_gearbound",
+      "name": "Crest of Gears",
+      "school": "creation",
+      "rarity": "rare",
+      "desc": "Your army counts as having 1 extra Gearbound champion."
+    },
+    {
+      "id": "crest_astral",
+      "name": "Crest of the Stars",
+      "school": "creation",
+      "rarity": "rare",
+      "desc": "Your army counts as having 1 extra Astral champion."
+    },
+    {
+      "id": "crest_verdant",
+      "name": "Crest of the Grove",
+      "school": "creation",
+      "rarity": "rare",
+      "desc": "Your army counts as having 1 extra Verdant champion."
+    },
+    {
+      "id": "crest_riftborn",
+      "name": "Crest of the Rift",
+      "school": "creation",
+      "rarity": "rare",
+      "desc": "Your army counts as having 1 extra Riftborn champion."
+    },
+    {
+      "id": "crest_duelist",
+      "name": "Crest of Blades",
+      "school": "creation",
+      "rarity": "rare",
+      "desc": "Your army counts as having 1 extra Duelist champion."
+    },
+    {
+      "id": "rebirth_rite",
+      "name": "Rebirth Rite",
+      "school": "creation",
+      "rarity": "epic",
+      "desc": "The first of your champions to fall each combat returns 2s later at full health, dealing 50% more damage."
+    },
+    {
+      "id": "summoners_pact",
+      "name": "Summoner's Pact",
+      "school": "creation",
+      "rarity": "epic",
+      "desc": "Your summons gain 40% health and attack damage."
+    },
+    {
+      "id": "living_arena",
+      "name": "Living Arena",
+      "school": "creation",
+      "rarity": "exalted",
+      "desc": "At combat start, summon 2 Treants with 800 health. Your army gains 200 health."
+    },
+    {
+      "id": "blood_price",
+      "name": "Blood Price",
+      "school": "void",
+      "rarity": "common",
+      "desc": "Lose 8 health. Gain 12 Crowns."
+    },
+    {
+      "id": "crimson_augury",
+      "name": "Crimson Augury",
+      "school": "void",
+      "rarity": "rare",
+      "desc": "Your shop rolls as if you were one level higher, but every paid reroll costs 2 health."
+    },
+    {
+      "id": "dark_bargain",
+      "name": "Dark Bargain",
+      "school": "void",
+      "rarity": "rare",
+      "desc": "Lose 12 health. Gain a random Tier IV champion and 6 XP."
+    },
+    {
+      "id": "soul_tax",
+      "name": "Soul Tax",
+      "school": "void",
+      "rarity": "rare",
+      "desc": "Every round, lose 1 health and gain 3 Crowns."
+    },
+    {
+      "id": "sacrificial_rite",
+      "name": "Sacrificial Rite",
+      "school": "void",
+      "rarity": "rare",
+      "desc": "Lose 10 health. A random ★ champion on your board ascends to ★★."
+    },
+    {
+      "id": "void_pact",
+      "name": "Void Pact",
+      "school": "void",
+      "rarity": "epic",
+      "desc": "Your army deals 25% more damage, but you take 3 extra damage when you lose."
+    },
+    {
+      "id": "glass_crown",
+      "name": "Glass Crown",
+      "school": "void",
+      "rarity": "epic",
+      "desc": "Your army gains 30% attack damage and 30 ability power but has 20% less health."
+    },
+    {
+      "id": "abyssal_hunger",
+      "name": "Abyssal Hunger",
+      "school": "void",
+      "rarity": "epic",
+      "desc": "Your army heals for 20% of all damage dealt."
+    },
+    {
+      "id": "crown_of_nothing",
+      "name": "Crown of Nothing",
+      "school": "void",
+      "rarity": "exalted",
+      "desc": "Lose 20 health. Your army deals 40% more damage."
+    },
+    {
+      "id": "unmaking_pact",
+      "name": "Unmaking Pact",
+      "school": "void",
+      "rarity": "exalted",
+      "desc": "Lose 15 health. You can field 2 more champions."
+    }
+  ],
+  "items": [
+    {
+      "id": "fallen_kings_blade",
+      "name": "The Fallen King's Blade",
+      "kind": "artifact",
+      "effect": "Every takedown grants the holder 15% attack damage and 15% attack speed for the rest of combat.",
+      "stats": {
+        "adPct": 20
+      },
+      "users": "Carries that snowball"
+    },
+    {
+      "id": "first_realm_crown",
+      "name": "Crown of the First Realm",
+      "kind": "artifact",
+      "effect": "Each of the holder's origins counts one extra champion for your traits.",
+      "stats": {
+        "hp": 200
+      },
+      "users": "Trait builds"
+    },
+    {
+      "id": "hourglass_of_ash",
+      "name": "Hourglass of Ash",
+      "kind": "artifact",
+      "effect": "Once per combat, when the holder would drop below 25% health, time rewinds: it becomes untargetable for 1.5s and heals to 60% health.",
+      "stats": {
+        "armor": 20,
+        "mr": 20
+      },
+      "users": "Carries under focus"
+    },
+    {
+      "id": "titans_last_heart",
+      "name": "Titan's Last Heart",
+      "kind": "artifact",
+      "effect": "When the holder falls, every ally gains a shield equal to 25% of the holder's max health for 4s.",
+      "stats": {
+        "hp": 800
+      },
+      "users": "Tanks"
+    },
+    {
+      "id": "starless_tome",
+      "name": "The Starless Tome",
+      "kind": "artifact",
+      "effect": "Every second ability the holder casts is echoed 0.6s later at full power.",
+      "stats": {
+        "ap": 30
+      },
+      "users": "Casters"
+    },
+    {
+      "id": "colossus_edge",
+      "name": "Colossus Edge",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "blade"
+      ],
+      "effect": "Attacks deal bonus physical damage equal to 3% of the target's maximum health.",
+      "stats": {
+        "adPct": 30
+      },
+      "users": "Physical carries vs. tanks"
+    },
+    {
+      "id": "frenzy_fang",
+      "name": "Crownreaper",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "feather"
+      ],
+      "effect": "Each attack grants 5% attack speed, stacking up to 10 times. Takedowns refresh the stacks to maximum. A second Crownreaper doubles it.",
+      "stats": {
+        "adPct": 15,
+        "asPct": 15
+      },
+      "users": "Sustained attackers"
+    },
+    {
+      "id": "spellforged",
+      "name": "Spellforged Saber",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "crystal"
+      ],
+      "effect": "Abilities can critically strike.",
+      "stats": {
+        "adPct": 15,
+        "ap": 15,
+        "crit": 10
+      },
+      "users": "Hybrid casters"
+    },
+    {
+      "id": "crownsworn",
+      "name": "Crownsworn Blade",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "tear"
+      ],
+      "effect": "Deal 12% more damage. Gain 15 energy on takedown.",
+      "stats": {
+        "adPct": 15,
+        "mana": 15,
+        "amp": 12
+      },
+      "users": "Carries that finish fights"
+    },
+    {
+      "id": "oathkeeper",
+      "name": "Kingsblood Edge",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "plate"
+      ],
+      "effect": "The first time the holder drops below 40% health, gain a shield equal to 30% of max health for 5s.",
+      "stats": {
+        "adPct": 15,
+        "armor": 20
+      },
+      "users": "Frontline fighters"
+    },
+    {
+      "id": "veilpiercer",
+      "name": "Veilpiercer",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "cloak"
+      ],
+      "effect": "Attacks reduce the target's resistance by 35% for 4s.",
+      "stats": {
+        "adPct": 15,
+        "mr": 20
+      },
+      "users": "Teams with magic damage"
+    },
+    {
+      "id": "bloodoath",
+      "name": "Bloodoath Blade",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "core"
+      ],
+      "effect": "Heal for 22% of all damage dealt.",
+      "stats": {
+        "adPct": 15,
+        "hp": 160
+      },
+      "users": "Melee carries"
+    },
+    {
+      "id": "deadeye",
+      "name": "Deadeye Edge",
+      "kind": "completed",
+      "recipe": [
+        "blade",
+        "lens"
+      ],
+      "effect": "Critical strikes deal much more damage.",
+      "stats": {
+        "adPct": 15,
+        "crit": 15,
+        "critDmg": 45
+      },
+      "users": "Critical carries"
+    },
+    {
+      "id": "gale_talons",
+      "name": "Tempest Engine",
+      "kind": "completed",
+      "recipe": [
+        "feather",
+        "feather"
+      ],
+      "effect": "Gains 4% attack speed every second of combat (up to 60%). Every 5th attack strikes twice.",
+      "stats": {
+        "asPct": 30
+      },
+      "users": "On-hit carries"
+    },
+    {
+      "id": "storm_engine",
+      "name": "Storm Engine",
+      "kind": "completed",
+      "recipe": [
+        "feather",
+        "crystal"
+      ],
+      "effect": "Every third attack releases chain lightning dealing 70 magic damage to up to 3 enemies.",
+      "stats": {
+        "asPct": 15,
+        "ap": 15
+      },
+      "users": "Fast attackers"
+    },
+    {
+      "id": "chrono_band",
+      "name": "Chrono Band",
+      "kind": "completed",
+      "recipe": [
+        "feather",
+        "tear"
+      ],
+      "effect": "After casting, gain 40% attack speed for 3s.",
+      "stats": {
+        "asPct": 15,
+        "mana": 15
+      },
+      "users": "Attack-casters"
+    },
+    {
+      "id": "resolute_buckler",
+      "name": "Resolute Buckler",
+      "kind": "completed",
+      "recipe": [
+        "feather",
+        "plate"
+      ],
+      "effect": "When hit, gain 2 armour and 2% attack speed, stacking up to 15 times.",
+      "stats": {
+        "asPct": 15,
+        "armor": 20
+      },
+      "users": "Fighting tanks"
+    },
+    {
+      "id": "phase_mantle",
+      "name": "Phase Mantle",
+      "kind": "completed",
+      "recipe": [
+        "feather",
+        "cloak"
+      ],
+      "effect": "25% chance to dodge attacks.",
+      "stats": {
+        "asPct": 15,
+        "mr": 20,
+        "dodge": 25
+      },
+      "users": "Carries vs. attackers"
+    },
+    {
+      "id": "quickened_heart",
+      "name": "Quickened Heart",
+      "kind": "completed",
+      "recipe": [
+        "feather",
+        "core"
+      ],
+      "effect": "Attacks heal the holder for 2% of max health.",
+      "stats": {
+        "asPct": 15,
+        "hp": 160
+      },
+      "users": "Duelists"
+    },
+    {
+      "id": "falconeye",
+      "name": "Falconeye Bow",
+      "kind": "completed",
+      "recipe": [
+        "feather",
+        "lens"
+      ],
+      "effect": "Attacks also strike a second nearby enemy for 50% damage.",
+      "stats": {
+        "asPct": 15,
+        "crit": 15
+      },
+      "users": "Ranged carries"
+    },
+    {
+      "id": "astral_diadem",
+      "name": "Astral Diadem",
+      "kind": "completed",
+      "recipe": [
+        "crystal",
+        "crystal"
+      ],
+      "effect": "A large amount of ability power.",
+      "stats": {
+        "ap": 75
+      },
+      "users": "Primary casters"
+    },
+    {
+      "id": "tidecaller",
+      "name": "Starfire Codex",
+      "kind": "completed",
+      "recipe": [
+        "crystal",
+        "tear"
+      ],
+      "effect": "Attacks restore 5 extra energy. Each cast grants 10 ability power for the rest of combat.",
+      "stats": {
+        "ap": 15,
+        "mana": 15
+      },
+      "users": "Casters who cast often"
+    },
+    {
+      "id": "aegis_codex",
+      "name": "Aegis Codex",
+      "kind": "completed",
+      "recipe": [
+        "crystal",
+        "plate"
+      ],
+      "effect": "Combat start: the holder and adjacent allies gain 25 armour and resistance.",
+      "stats": {
+        "ap": 15,
+        "armor": 20
+      },
+      "users": "Frontline supports"
+    },
+    {
+      "id": "hexflame_orb",
+      "name": "Hexflame Orb",
+      "kind": "completed",
+      "recipe": [
+        "crystal",
+        "cloak"
+      ],
+      "effect": "Ability damage burns for 20% of the damage over 3s and reduces the target's healing by 40% for 3s.",
+      "stats": {
+        "ap": 15,
+        "mr": 20
+      },
+      "users": "Casters vs. healing"
+    },
+    {
+      "id": "verdant_chalice",
+      "name": "Verdant Chalice",
+      "kind": "completed",
+      "recipe": [
+        "crystal",
+        "core"
+      ],
+      "effect": "Every 3s, heal the lowest-health ally for 70 (+ability power).",
+      "stats": {
+        "ap": 15,
+        "hp": 160
+      },
+      "users": "Supports and tanks"
+    },
+    {
+      "id": "seers_prism",
+      "name": "Seer's Prism",
+      "kind": "completed",
+      "recipe": [
+        "crystal",
+        "lens"
+      ],
+      "effect": "After casting, the next 3 attacks deal 45 bonus magic damage.",
+      "stats": {
+        "ap": 15,
+        "crit": 15
+      },
+      "users": "Attack-casters"
+    },
+    {
+      "id": "wellspring",
+      "name": "Wellspring Circlet",
+      "kind": "completed",
+      "recipe": [
+        "tear",
+        "tear"
+      ],
+      "effect": "After casting, restore 20 energy.",
+      "stats": {
+        "mana": 30
+      },
+      "users": "Primary casters"
+    },
+    {
+      "id": "rally_standard",
+      "name": "Rallying Standard",
+      "kind": "completed",
+      "recipe": [
+        "tear",
+        "plate"
+      ],
+      "effect": "Combat start: allies in the holder's row gain a 200 shield for 6s.",
+      "stats": {
+        "mana": 15,
+        "armor": 20
+      },
+      "users": "Frontline"
+    },
+    {
+      "id": "spell_shroud",
+      "name": "Spell Shroud",
+      "kind": "completed",
+      "recipe": [
+        "tear",
+        "cloak"
+      ],
+      "effect": "Blocks the first 3 instances of ability damage.",
+      "stats": {
+        "mana": 15,
+        "mr": 20
+      },
+      "users": "Carries vs. burst"
+    },
+    {
+      "id": "phoenix_crown",
+      "name": "Phoenix Plume",
+      "kind": "completed",
+      "recipe": [
+        "tear",
+        "core"
+      ],
+      "effect": "The first time the holder dies, it revives after 2s with 40% health.",
+      "stats": {
+        "mana": 15,
+        "hp": 160
+      },
+      "users": "Key carries"
+    },
+    {
+      "id": "fatebinder",
+      "name": "Fatebinder",
+      "kind": "completed",
+      "recipe": [
+        "tear",
+        "lens"
+      ],
+      "effect": "After casting, the holder's next 2 attacks are guaranteed critical strikes.",
+      "stats": {
+        "mana": 15,
+        "crit": 15
+      },
+      "users": "Attack-casters"
+    },
+    {
+      "id": "thornward",
+      "name": "Thornward Mail",
+      "kind": "completed",
+      "recipe": [
+        "plate",
+        "plate"
+      ],
+      "effect": "When attacked, deal 35 magic damage back to the attacker.",
+      "stats": {
+        "armor": 55
+      },
+      "users": "Tanks vs. attackers"
+    },
+    {
+      "id": "twin_aegis",
+      "name": "Twin Aegis",
+      "kind": "completed",
+      "recipe": [
+        "plate",
+        "cloak"
+      ],
+      "effect": "Immune to stun, root and hex.",
+      "stats": {
+        "armor": 30,
+        "mr": 30
+      },
+      "users": "Tanks vs. crowd control"
+    },
+    {
+      "id": "bastion_heart",
+      "name": "Bastion of the Deep",
+      "kind": "completed",
+      "recipe": [
+        "plate",
+        "core"
+      ],
+      "effect": "Combat start: gain a shield equal to 30% of max health for 8s.",
+      "stats": {
+        "armor": 20,
+        "hp": 160
+      },
+      "users": "Tanks"
+    },
+    {
+      "id": "watchward",
+      "name": "Watchward Visor",
+      "kind": "completed",
+      "recipe": [
+        "plate",
+        "lens"
+      ],
+      "effect": "The holder and adjacent allies cannot be critically struck.",
+      "stats": {
+        "armor": 20,
+        "crit": 15
+      },
+      "users": "Counter to critical builds"
+    },
+    {
+      "id": "starveil",
+      "name": "Starveil Cloak",
+      "kind": "completed",
+      "recipe": [
+        "cloak",
+        "cloak"
+      ],
+      "effect": "Take 30% less magic damage.",
+      "stats": {
+        "mr": 40
+      },
+      "users": "Tanks vs. magic"
+    },
+    {
+      "id": "sanctified_mantle",
+      "name": "Sanctified Mantle",
+      "kind": "completed",
+      "recipe": [
+        "cloak",
+        "core"
+      ],
+      "effect": "Every 4s, cleanse crowd control and heal 5% max health.",
+      "stats": {
+        "mr": 20,
+        "hp": 160
+      },
+      "users": "Tanks vs. crowd control"
+    },
+    {
+      "id": "nullifier",
+      "name": "Nullifier Grip",
+      "kind": "completed",
+      "recipe": [
+        "cloak",
+        "lens"
+      ],
+      "effect": "Attacks drain 10 energy from the target.",
+      "stats": {
+        "mr": 20,
+        "crit": 15
+      },
+      "users": "Counter to casters"
+    },
+    {
+      "id": "giant_heartstone",
+      "name": "Mountainheart",
+      "kind": "completed",
+      "recipe": [
+        "core",
+        "core"
+      ],
+      "effect": "+25% maximum health. Regenerate 1% max health per second.",
+      "stats": {
+        "hp": 320
+      },
+      "users": "Tanks"
+    },
+    {
+      "id": "reapers_lens",
+      "name": "Reaper's Grasp",
+      "kind": "completed",
+      "recipe": [
+        "core",
+        "lens"
+      ],
+      "effect": "Attacks and abilities execute enemies below 12% health.",
+      "stats": {
+        "hp": 160,
+        "crit": 15
+      },
+      "users": "Finishers"
+    },
+    {
+      "id": "true_sight",
+      "name": "Fate's Edge",
+      "kind": "completed",
+      "recipe": [
+        "lens",
+        "lens"
+      ],
+      "effect": "Critical strikes ignore 50% of armour.",
+      "stats": {
+        "crit": 60
+      },
+      "users": "Critical carries"
+    },
+    {
+      "id": "blade",
+      "name": "Royal Blade",
+      "kind": "component",
+      "stats": {
+        "adPct": 15
+      },
+      "users": "Physical attackers"
+    },
+    {
+      "id": "feather",
+      "name": "Quicksteel Bow",
+      "kind": "component",
+      "stats": {
+        "asPct": 15
+      },
+      "users": "Attackers"
+    },
+    {
+      "id": "crystal",
+      "name": "Arcane Ember",
+      "kind": "component",
+      "stats": {
+        "ap": 15
+      },
+      "users": "Casters"
+    },
+    {
+      "id": "tear",
+      "name": "Crown Tear",
+      "kind": "component",
+      "stats": {
+        "mana": 15
+      },
+      "users": "Casters"
+    },
+    {
+      "id": "plate",
+      "name": "Iron Plate",
+      "kind": "component",
+      "stats": {
+        "armor": 20
+      },
+      "users": "Tanks"
+    },
+    {
+      "id": "cloak",
+      "name": "Warding Cloak",
+      "kind": "component",
+      "stats": {
+        "mr": 20
+      },
+      "users": "Tanks vs. magic"
+    },
+    {
+      "id": "core",
+      "name": "Titan Heart",
+      "kind": "component",
+      "stats": {
+        "hp": 160
+      },
+      "users": "Anyone"
+    },
+    {
+      "id": "lens",
+      "name": "Fate Gauntlet",
+      "kind": "component",
+      "stats": {
+        "crit": 15
+      },
+      "users": "Critical attackers"
+    },
+    {
+      "id": "unbinding_charm",
+      "name": "Unbinding Charm",
+      "kind": "consumable",
+      "effect": "Use on a champion to return all of its items to your item bench.",
+      "stats": {},
+      "users": "Re-itemising"
+    },
+    {
+      "id": "kingdom_emblem",
+      "name": "Kingdom Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "blade"
+      ],
+      "effect": "The holder gains the Kingdom trait and counts toward it.",
+      "stats": {
+        "adPct": 15
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "wildkin_emblem",
+      "name": "Wildkin Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "feather"
+      ],
+      "effect": "The holder gains the Wildkin trait and counts toward it.",
+      "stats": {
+        "asPct": 15
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "astral_emblem",
+      "name": "Astral Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "crystal"
+      ],
+      "effect": "The holder gains the Astral trait and counts toward it.",
+      "stats": {
+        "ap": 15
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "hollow_emblem",
+      "name": "Hollow Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "tear"
+      ],
+      "effect": "The holder gains the Hollow trait and counts toward it.",
+      "stats": {
+        "mana": 15
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "gearbound_emblem",
+      "name": "Gearbound Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "plate"
+      ],
+      "effect": "The holder gains the Gearbound trait and counts toward it.",
+      "stats": {
+        "armor": 20
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "umbral_emblem",
+      "name": "Umbral Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "cloak"
+      ],
+      "effect": "The holder gains the Umbral trait and counts toward it.",
+      "stats": {
+        "mr": 20
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "verdant_emblem",
+      "name": "Verdant Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "core"
+      ],
+      "effect": "The holder gains the Verdant trait and counts toward it.",
+      "stats": {
+        "hp": 160
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "riftborn_emblem",
+      "name": "Riftborn Emblem",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "lens"
+      ],
+      "effect": "The holder gains the Riftborn trait and counts toward it.",
+      "stats": {
+        "crit": 15
+      },
+      "users": "Anyone who lacks the trait"
+    },
+    {
+      "id": "shard",
+      "name": "Crown Shard",
+      "kind": "special",
+      "effect": "A fragment of the Crown. Combine with a component to forge an Emblem, or with another Crown Shard to forge the Sovereign Crown.",
+      "stats": {},
+      "users": "Trait builds"
+    },
+    {
+      "id": "sovereign_crown",
+      "name": "Sovereign Crown",
+      "kind": "emblem",
+      "recipe": [
+        "shard",
+        "shard"
+      ],
+      "effect": "While the holder is on your board, you can field one more champion.",
+      "stats": {},
+      "users": "Anyone on the board"
+    }
+  ],
+  "edicts": [
+    {
+      "id": "edict_crowns_bounty",
+      "name": "Crown's Bounty",
+      "category": "start",
+      "hostChampionId": "aurelia",
+      "proclamation": "The Crown pays its soldiers before the first battle.",
+      "description": "Every contender begins the match with 4 Crowns.",
+      "effect": {
+        "startCrowns": 4
+      }
+    },
+    {
+      "id": "edict_open_market",
+      "name": "The Open Market",
+      "category": "shop",
+      "hostChampionId": "maeve",
+      "proclamation": "Every bargain is open today. Look again — and again.",
+      "description": "Shop rerolls cost 1 Crown instead of 2 for the whole match.",
+      "effect": {
+        "rerollCost": 1
+      }
+    },
+    {
+      "id": "edict_scholars_ascent",
+      "name": "Scholar's Ascent",
+      "category": "leveling",
+      "hostChampionId": "elysian",
+      "proclamation": "Climb, and the Firmament will lift you higher.",
+      "description": "Buying XP grants 2 extra XP (6 XP for the usual price).",
+      "effect": {
+        "xpPerBuyBonus": 2
+      }
+    },
+    {
+      "id": "edict_relic_tide",
+      "name": "Relic Tide",
+      "category": "items",
+      "hostChampionId": "unwritten",
+      "proclamation": "The forgotten kings have left their treasures unguarded.",
+      "description": "Bosses are twice as likely to drop a Crown Artifact.",
+      "effect": {
+        "artifactChanceMult": 2
+      }
+    },
+    {
+      "id": "edict_shard_season",
+      "name": "Shard Season",
+      "category": "crown_draft",
+      "hostChampionId": "zyrak",
+      "proclamation": "The Lattice is breaking. Catch the pieces.",
+      "description": "From Stage 2, every Crown Draft offers one Crown Shard platform.",
+      "effect": {
+        "draftShardFromStage": 2
+      }
+    },
+    {
+      "id": "edict_monster_tithe",
+      "name": "Monster Tithe",
+      "category": "pve",
+      "hostChampionId": "dreadmouth",
+      "proclamation": "The beasts carry more than their bones.",
+      "description": "Winning a monster round grants an extra item component.",
+      "effect": {
+        "pveWinComponents": 1
+      }
+    },
+    {
+      "id": "edict_war_banners",
+      "name": "War Banners",
+      "category": "economy",
+      "hostChampionId": "varr",
+      "proclamation": "Hold the line, or break it — either way, the banners fly.",
+      "description": "Win and loss streaks of 2 or more pay 1 extra Crown. Interest is unchanged.",
+      "effect": {
+        "streakBonus": 1
+      }
+    },
+    {
+      "id": "edict_first_armoury",
+      "name": "The First Armoury",
+      "category": "start",
+      "hostChampionId": "borin",
+      "proclamation": "The forges were lit before dawn. Take a blade.",
+      "description": "Every contender begins the match with one random item component.",
+      "effect": {
+        "startComponents": 1
+      }
+    },
+    {
+      "id": "edict_exalted_dawn",
+      "name": "Exalted Dawn",
+      "category": "crown_powers",
+      "hostChampionId": "sol",
+      "proclamation": "The first light shines brightest on the Crown.",
+      "description": "Crown Power offers are rarer, as if they came two stages later. Selection rules are unchanged.",
+      "effect": {
+        "crownRarityStageShift": 2
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "mite",
+      "name": "Crystal Mite",
+      "tags": [
+        "monster"
+      ],
+      "ability": "—",
+      "abilityDesc": "No ability."
+    },
+    {
+      "id": "shardling",
+      "name": "Shardling",
+      "tags": [
+        "monster"
+      ],
+      "ability": "—",
+      "abilityDesc": "No ability."
+    },
+    {
+      "id": "hound",
+      "name": "Rift Hound",
+      "tags": [
+        "monster"
+      ],
+      "ability": "—",
+      "abilityDesc": "No ability."
+    },
+    {
+      "id": "alpha",
+      "name": "Rift Alpha",
+      "tags": [
+        "monster"
+      ],
+      "ability": "—",
+      "abilityDesc": "No ability."
+    },
+    {
+      "id": "golem",
+      "name": "Crystal Golem",
+      "tags": [
+        "monster",
+        "boss"
+      ],
+      "ability": "Shatter Slam",
+      "abilityDesc": "Slams the ground, dealing {dmg} damage around it and stunning for {dur}s."
+    },
+    {
+      "id": "spiderqueen",
+      "name": "Void Spider Queen",
+      "tags": [
+        "monster",
+        "boss"
+      ],
+      "ability": "Brood Call",
+      "abilityDesc": "Summons {count} spiderlings."
+    },
+    {
+      "id": "spiderling",
+      "name": "Void Spider",
+      "tags": [
+        "monster"
+      ],
+      "ability": "—",
+      "abilityDesc": "No ability."
+    },
+    {
+      "id": "hydra",
+      "name": "Clockwork Hydra Head",
+      "tags": [
+        "monster",
+        "boss",
+        "splitOnDeath"
+      ],
+      "ability": "Steam Gout",
+      "abilityDesc": "Breathes scalding steam in a line for {dmg} magic damage."
+    },
+    {
+      "id": "hydralet",
+      "name": "Hydra Hatchling",
+      "tags": [
+        "monster"
+      ],
+      "ability": "—",
+      "abilityDesc": "No ability."
+    },
+    {
+      "id": "treant",
+      "name": "Ancient Treant",
+      "tags": [
+        "monster",
+        "boss",
+        "regen"
+      ],
+      "ability": "Forest Wrath",
+      "abilityDesc": "Roots burst from the ground within 2 hexes: {dmg} damage and root for {dur}s."
+    },
+    {
+      "id": "sapling",
+      "name": "Wild Sapling",
+      "tags": [
+        "monster"
+      ],
+      "ability": "—",
+      "abilityDesc": "No ability."
+    },
+    {
+      "id": "sentinel",
+      "name": "Celestial Sentinel",
+      "tags": [
+        "monster",
+        "boss",
+        "phaseShield"
+      ],
+      "ability": "Judgment Ray",
+      "abilityDesc": "Fires a ray of judgment for {dmg} magic damage. Becomes invulnerable briefly at 66% and 33% health."
+    },
+    {
+      "id": "guardian",
+      "name": "Crown Guardian",
+      "tags": [
+        "monster",
+        "boss",
+        "enrage"
+      ],
+      "ability": "Crownbreaker",
+      "abilityDesc": "Brings its blade down within 2 hexes for {dmg} damage and stuns for {dur}s. Enrages below 50% health."
+    }
+  ],
+  "waves": [
+    {
+      "id": "mites",
+      "name": "Crystal Mites"
+    },
+    {
+      "id": "shardlings",
+      "name": "Shardlings",
+      "mechanics": "Each Shardling drops 1 Crown."
+    },
+    {
+      "id": "hounds",
+      "name": "Rift Hounds"
+    },
+    {
+      "id": "golem",
+      "name": "Crystal Golem",
+      "boss": "golem",
+      "mechanics": "The Golem stuns everything around it."
+    },
+    {
+      "id": "spiders",
+      "name": "Void Spider Brood",
+      "boss": "spiderqueen",
+      "mechanics": "The Queen keeps summoning spiderlings: kill her fast."
+    },
+    {
+      "id": "hydra",
+      "name": "Clockwork Hydra",
+      "boss": "hydra",
+      "mechanics": "When both heads are destroyed they regrow together: four hatchlings at once."
+    },
+    {
+      "id": "treant",
+      "name": "Ancient Treant",
+      "boss": "treant",
+      "mechanics": "The Treant regenerates and roots everything within 2 hexes."
+    },
+    {
+      "id": "sentinel",
+      "name": "Celestial Sentinel",
+      "boss": "sentinel",
+      "mechanics": "The Sentinel turns invulnerable for 2.5s and heals 5% at 66% and 33% health."
+    },
+    {
+      "id": "guardian",
+      "name": "Crown Guardian",
+      "boss": "guardian",
+      "mechanics": "The Guardian enrages below 50% health: +50% attack speed and damage."
+    }
+  ],
+  "summons": [
+    {
+      "id": "starling",
+      "name": "Starling",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "turret",
+      "name": "Arc Turret",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "skeleton",
+      "name": "Risen Soldier",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "shadow",
+      "name": "Court Shade",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "grove_treant",
+      "name": "Treant",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "fallen",
+      "name": "Fallen Warrior",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "crownling",
+      "name": "Crownling",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "dummy",
+      "name": "Crown Dummy",
+      "origins": [],
+      "ability": "—"
+    },
+    {
+      "id": "construct",
+      "name": "Guardian Construct",
+      "origins": [],
+      "ability": "—"
+    }
+  ],
+  "guardianLines": {
+    "golem": "The Crystal Golem. The ground remembers its weight.",
+    "spiders": "The Void Spider Brood. They never stop coming.",
+    "hydra": "The Clockwork Hydra. Cut one head, and two return.",
+    "treant": "The Ancient Treant. The forest heals itself.",
+    "sentinel": "The Celestial Sentinel. The heavens refuse to fall.",
+    "guardian": "The Crown Guardian. The Crown defends itself."
+  }
+}

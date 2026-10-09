@@ -1,5 +1,5 @@
 import React from 'react';
-import { CARDS, DECKS, ORIGIN_COLORS, isChampionCard } from '../content/cards';
+import { CARDS, DECKS, ORIGIN_COLORS, isChampionCard, isEdictCard, isRelicCard } from '../content/cards';
 import type { Card, ChampionCard } from '../content/cards';
 import { guard, hasKeyword, might, top } from '../rules/engine';
 import type { ChampionInPlay, GameState } from '../rules/types';
@@ -38,6 +38,29 @@ function deckStyle(c: Card): React.CSSProperties {
 /** A full card face, used in hand, inspector and choices. */
 export function CardFace({ id, size = 'md', live }: { id: string; size?: 'sm' | 'md' | 'lg'; live?: { might: number; guard: number } }) {
   const c = CARDS[id];
+  if (isRelicCard(c)) {
+    const stat = [c.might ? `+${c.might} Might` : '', c.guard ? `+${c.guard} Guard` : ''].filter(Boolean).join(' · ');
+    return (
+      <div className={`cardface spell relic ${size}`} style={deckStyle(c)}>
+        <div className="cf-head"><div className="cf-name">{c.name}</div><div className="cf-cost">{c.cost}</div></div>
+        <div className="cf-sigil"><span>⚜</span>{c.legendary && <i className="cf-sf">Crown Artifact</i>}</div>
+        <div className="cf-type">Relic{c.relicType === 'emblem' ? ' · Emblem' : c.relicType === 'component' ? ' · Component' : ''}</div>
+        <div className="cf-text">{c.keywords?.length ? <div className="cf-kw">{c.keywords.join(' · ')}</div> : null}
+          {stat && <div className="cf-abil">{stat}</div>}<RulesText text={c.text} />
+          <div className="cf-note">Attach to a champion you control. One Relic per champion; it stays when the champion Ascends.</div></div>
+      </div>
+    );
+  }
+  if (isEdictCard(c)) {
+    return (
+      <div className={`cardface spell edict ${size}`} style={deckStyle(c)}>
+        <div className="cf-head"><div className="cf-name">{c.name}</div><div className="cf-cost">{c.cost}</div></div>
+        <div className="cf-art" style={{ backgroundImage: `url(${artUrl(c.host, 1)})` }}><span className="cf-ascband">Edict</span></div>
+        <div className="cf-type">Edict · proclaimed by {CARDS[c.host]?.name ?? c.host}</div>
+        <div className="cf-text"><RulesText text={c.text} /><div className="cf-note">Stays in play for both players. A new Edict replaces it.</div></div>
+      </div>
+    );
+  }
   if (!isChampionCard(c)) {
     const type = c.kind === 'scheme' ? 'Scheme' : c.swift ? 'Swift Tactic' : 'Tactic';
     return (

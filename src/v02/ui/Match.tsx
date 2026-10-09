@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { CARDS, DECKS, champion, isChampionCard } from '../content/cards';
+import { CARDS, DECKS, champion, isChampionCard, isSpellCard } from '../content/cards';
 import type { DeckId } from '../content/cards';
 import {
   actor, apply, ascendBlockReason, newGame, attackBlockReason, canAttack, canBlock, findChampion, guard, handPlayability, might, nextAscension,
@@ -389,8 +389,8 @@ function KeywordHelp({ id }: { id: string }) {
   const words = new Set<string>();
   if (isChampionCard(c)) c.keywords.forEach((k) => words.add(k));
   for (const k of Object.keys(GLOSSARY)) if (c.text.includes(k)) words.add(k);
-  if (!isChampionCard(c) && c.shardfall) words.add('Shardfall');
-  if (!isChampionCard(c) && c.swift) words.add('Swift');
+  if (isSpellCard(c) && c.shardfall) words.add('Shardfall');
+  if (isSpellCard(c) && c.swift) words.add('Swift');
   if (!words.size) return null;
   return <dl className="kwhelp">{[...words].map((w) => <React.Fragment key={w}><dt>{w}</dt><dd>{GLOSSARY[w]}</dd></React.Fragment>)}</dl>;
 }

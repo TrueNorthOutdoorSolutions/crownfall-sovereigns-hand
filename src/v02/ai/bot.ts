@@ -1,7 +1,7 @@
 // AI opponent for The Shattered Crown. It chooses one legal action at a time from the visible state only:
 // its own hand, Schemes and Ascension Pile, and the public board. It never reads the rival's hand,
 // Crown Shards, Schemes or deck order. Same heuristics as the paper balance bot.
-import { CARDS, champion, isChampionCard, spell } from '../content/cards';
+import { CARDS, champion, isChampionCard, isSpellCard, spell } from '../content/cards';
 import type { ChampionCard, Card } from '../content/cards';
 import {
   actor, apply, ascendBlockReason, behind, canAttack, canBlock, findChampion, guard, handPlayability, hasKeyword, legalActions,
@@ -11,11 +11,11 @@ import type { Action, ChampionInPlay, GameState, PlayerIndex } from '../rules/ty
 
 const baseVal = (d: ChampionCard) => d.might + d.guard + (d.star - 1) * 3 + (d.keywords.includes('Ascendant') ? 4 : 0);
 const val = (c: ChampionInPlay) => baseVal(top(c)) + (c.shield ? 2 : 0);
-const cardWorth = (d: Card) => (isChampionCard(d) ? d.might + d.guard : d.kind === 'scheme' ? 3 : 2) + (!isChampionCard(d) && d.shardfall ? -1 : 0);
+const cardWorth = (d: Card) => (isChampionCard(d) ? d.might + d.guard : d.kind === 'scheme' ? 3 : 2) + (isSpellCard(d) && d.shardfall ? -1 : 0);
 
 function tacticUseful(s: GameState, p: PlayerIndex, id: string): boolean {
   const d = CARDS[id];
-  if (isChampionCard(d)) return false;
+  if (!isSpellCard(d)) return false;
   const me = s.players[p], them = s.players[rival(p)];
   const eff = d.effects[0];
   switch (eff.op) {
@@ -54,6 +54,14 @@ function mainAction(s: GameState, p: PlayerIndex): Action {
     const i = me.hand.findIndex((id, k) => play[k].action === 'cast' && !isChampionCard(CARDS[id]) && !spell(id).swift
       && spell(id).effects[0].op === op && tacticUseful(s, p, id));
     if (i >= 0) return { type: 'cast', handIndex: i };
+  }
+  // 3b. Proclaim an Edict when none of ours is in play; attach Relics to the strongest champion without one.
+  const edictIdx = me.hand.findIndex((_, i) => play[i].action === 'playEdict');
+  if (edictIdx >= 0 && s.edict?.owner !== p) return { type: 'playEdict', handIndex: edictIdx };
+  const relicIdx = me.hand.findIndex((_, i) => play[i].action === 'equip');
+  if (relicIdx >= 0) {
+    const holder = me.field.filter((c) => !c.relic).sort((a, b) => val(b) - val(a))[0];
+    if (holder) return { type: 'equip', handIndex: relicIdx, uid: holder.uid };
   }
   // 4. Greedy value per Command over deploys and one pre-battle Ascend (only when its Ascend effect helps now).
   const reserve = me.schemes.some((x) => spell(x.card).cost > 0) && me.commandMax >= 4 ? 1 : 0;
@@ -202,6 +210,10 @@ function chooseOption(s: GameState, p: PlayerIndex): string | null {
         return `u:${ranked[0].b.uid}`;
       }
       return `u:${champs.sort((a, b) => val(b) - val(a))[0].uid}`;
+    case 'unequip': {
+      const theirs = champs.filter((c) => c.owner !== p);
+      return `u:${(theirs.length ? theirs : champs).sort((a, b) => val(b) - val(a))[0].uid}`;
+    }
     case 'readyOther':
       return `u:${champs.sort((a, b) => val(b) - val(a))[0].uid}`;
     case 'deployFromFallen': {

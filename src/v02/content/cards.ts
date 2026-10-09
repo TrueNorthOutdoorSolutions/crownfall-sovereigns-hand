@@ -7,10 +7,15 @@
 // are card-game design (PROPOSED). Tactic and Scheme names are working names, not canon.
 
 import { SET1_LINES } from './set1';
+import { SET1_TOKENS, SET1_SPELLS, SET1_EDICTS } from './set1-extras';
+import { SET2_LINES, SET2_SPELLS, SET2_RELICS, SET2_EDICTS } from './set2';
 
 export const RULES_VERSION = '0.2-paper-1';
 
-export type Keyword = 'Charge' | 'Bulwark' | 'Ambush' | 'Flight' | 'Reach' | 'Ascendant';
+export type Keyword = 'Charge' | 'Bulwark' | 'Ambush' | 'Flight' | 'Reach' | 'Ascendant' | 'Guardian';
+
+/** Which set a card belongs to. */
+export type SetId = 1 | 2;
 
 /** Who an effect points at. `choose*` targets are picked by the controlling player when the effect resolves. */
 export type Effect =
@@ -21,7 +26,11 @@ export type Effect =
   | { op: 'buffAll'; might: number; extraIfBehind?: number }
   | { op: 'buffOthers'; might: number }
   | { op: 'buff'; might: number; guard: number; target: 'chooseAny' | 'chooseRival' | 'attacker' | 'defender' }
-  | { op: 'draw'; n: number }
+  | { op: 'draw'; n: number; who?: 'self' | 'rival' }
+  | { op: 'command'; n: number; who?: 'self' | 'rival' }
+  | { op: 'summon'; token: string; count: number }
+  | { op: 'buffRivals'; might: number; guard?: number }
+  | { op: 'unequip' }
   | { op: 'returnFallen'; optional: boolean }
   | { op: 'deployFree'; maxCost: number }
   | { op: 'deployFromFallen'; maxCost: number }
@@ -39,6 +48,8 @@ export interface Statics {
   mightWhileBlocking?: number;
   auraMight?: number;
   auraGuard?: number;
+  /** Your other champions of this Origin have +might/+guard. */
+  originAura?: { origin: string; might?: number; guard?: number };
 }
 
 export interface ChampionForm {
@@ -56,24 +67,94 @@ export interface ChampionForm {
   block?: Effect[];
   attacked?: Effect[];
   defeats?: Effect[];
+  /** When this champion is defeated (any way). */
+  defeated?: Effect[];
+  /** At the start of its controller's turn. */
+  rise?: Effect[];
   statics?: Statics;
 }
 
 export interface ChampionLine {
+  /** Crownfall id of the champion, monster or summon this card depicts. */
   canonId: string;
+  /** Unique id of this card line; defaults to canonId. Set 2 versions use "<canonId>@2". */
+  lineId?: string;
+  /** champion = one of the 55; monster/guardian = Crownfall monsters and bosses; token = a summon. */
+  family?: 'champion' | 'monster' | 'guardian' | 'token';
+  set?: SetId;
   name: string;
+  /** Canonical title, or for Set 2 versions the PROPOSED epithet. */
   title: string;
+  /** Set 2 epithets are new text awaiting approval. */
+  epithetProposed?: boolean;
   tier: 1 | 2 | 3 | 4 | 5;
   origins: string[];
   classes: string[];
   forms: ChampionForm[];
 }
 
+/** Equipment attached to a champion. Crown Artifacts are legendary: one copy per deck. */
+export interface RelicDef {
+  id: string;
+  kind: 'relic';
+  set: SetId;
+  /** Crownfall item id the card is based on. */
+  canonId: string;
+  name: string;
+  cost: number;
+  text: string;
+  relicType: 'component' | 'completed' | 'emblem' | 'artifact' | 'crown';
+  might?: number;
+  guard?: number;
+  keywords?: Keyword[];
+  /** Emblems: the champion also counts as this Origin. */
+  origin?: string;
+  /** Sovereign Crown: you have one more Champion Zone while it is in play. */
+  extraZone?: boolean;
+  attack?: Effect[];
+  block?: Effect[];
+  defeats?: Effect[];
+  defeated?: Effect[];
+  rise?: Effect[];
+  statics?: Statics;
+  legendary?: boolean;
+  deck?: DeckId;
+}
+
+/** A shared rule card. Playing one replaces the Edict already in play. */
+export interface EdictRule {
+  commandBonus?: number;
+  ascendDiscount?: number;
+  star3Discount?: number;
+  shardDraw?: boolean;
+  attackShardCommand?: boolean;
+  cycle?: boolean;
+  relicDiscount?: number;
+  monsterDraw?: boolean;
+  relicReturn?: boolean;
+}
+export interface EdictDef {
+  id: string;
+  kind: 'edict';
+  set: SetId;
+  canonId: string;
+  name: string;
+  cost: number;
+  /** Crownfall champion who proclaims it (canon). */
+  host: string;
+  text: string;
+  rule: EdictRule;
+  deck?: DeckId;
+}
+
 export type SchemeTrigger = 'rivalAttacks' | 'crownAttacked' | 'crownUnblocked' | 'clash';
 
 export interface SpellDef {
   id: string;
-  deck: DeckId;
+  set?: SetId;
+  /** Crownfall Crown Power id the card is named after, when it has one. */
+  canonId?: string;
+  deck?: DeckId;
   kind: 'tactic' | 'scheme';
   name: string;
   cost: number;
@@ -84,7 +165,7 @@ export interface SpellDef {
   when?: SchemeTrigger;
 }
 
-export type DeckId = 'banner' | 'ember';
+export type DeckId = string;
 
 const scorchRivals = (n: number): Effect => ({ op: 'scorchAll', n });
 
@@ -267,8 +348,8 @@ export const CHAMPION_LINES: ChampionLine[] = [
   },
 ];
 
-/** Every Crownfall champion: the 15 starter-deck lines above plus the rest of Set 1. */
-export const ALL_LINES: ChampionLine[] = [...CHAMPION_LINES, ...SET1_LINES];
+/** Every champion, monster, Guardian and token line across both sets. */
+export const ALL_LINES: ChampionLine[] = [...CHAMPION_LINES, ...SET1_LINES, ...SET1_TOKENS, ...SET2_LINES];
 
 export const SPELLS: SpellDef[] = [
   // Banner
@@ -315,6 +396,11 @@ export const SPELLS: SpellDef[] = [
     text: 'Spring when a rival champion attacks your Crown: that attack ends. No shards break.', effects: [{ op: 'cancelAttack' }] },
 ];
 
+/** Set 1 and Set 2 Tactics and Schemes beyond the starter-deck spells above. */
+export const EXTRA_SPELLS: SpellDef[] = [...SET1_SPELLS, ...SET2_SPELLS];
+export const RELICS: RelicDef[] = [...SET2_RELICS];
+export const EDICTS: EdictDef[] = [...SET1_EDICTS, ...SET2_EDICTS];
+
 export interface DeckDef {
   name: string;
   origins: string;
@@ -347,10 +433,13 @@ export const DECKS: Record<DeckId, DeckDef> = {
 // ── Flat card index ────────────────────────────────────────────────────────────
 export interface ChampionCard extends ChampionForm {
   id: string;
-  kind: 'champion' | 'ascension';
+  kind: 'champion' | 'ascension' | 'token';
   name: string;
   title: string;
   canonId: string;
+  lineId: string;
+  family: 'champion' | 'monster' | 'guardian' | 'token';
+  set: SetId;
   line: ChampionLine;
   /** Starter deck this champion belongs to; undefined for set cards not yet in a deck. */
   deck?: DeckId;
@@ -358,24 +447,39 @@ export interface ChampionCard extends ChampionForm {
   crown: 1 | 2;
 }
 export type SpellCard = SpellDef;
-export type Card = ChampionCard | SpellCard;
+export type RelicCard = RelicDef;
+export type EdictCard = EdictDef;
+export type Card = ChampionCard | SpellCard | RelicCard | EdictCard;
 
 const deckOfLine: Record<string, DeckId> = {};
-for (const [deckId, d] of Object.entries(DECKS) as [DeckId, DeckDef][]) for (const [id] of d.main) deckOfLine[id] = deckId;
+for (const [deckId, d] of Object.entries(DECKS) as [DeckId, DeckDef][]) for (const [id] of d.main) deckOfLine[id] ??= deckId;
 
 export const CARDS: Record<string, Card> = {};
 for (const line of ALL_LINES) {
+  const lineId = line.lineId ?? line.canonId;
+  const family = line.family ?? 'champion';
   for (const f of line.forms) {
-    const id = f.star === 1 ? line.canonId : `${line.canonId}-${f.star}`;
+    const id = f.star === 1 ? lineId : `${lineId}-${f.star}`;
+    if (CARDS[id]) throw new Error(`Duplicate card id ${id}`);
     CARDS[id] = {
-      ...f, id, kind: f.star === 1 ? 'champion' : 'ascension', name: line.name, title: line.title,
-      canonId: line.canonId, line, deck: deckOfLine[line.canonId], crown: f.star === 3 ? 2 : 1,
+      ...f, id, kind: family === 'token' ? 'token' : f.star === 1 ? 'champion' : 'ascension', name: line.name, title: line.title,
+      canonId: line.canonId, lineId, family, set: line.set ?? 1, line, deck: deckOfLine[lineId], crown: f.star === 3 ? 2 : 1,
     };
   }
 }
-for (const s of SPELLS) CARDS[s.id] = s;
+for (const s of [...SPELLS, ...EXTRA_SPELLS]) {
+  if (CARDS[s.id]) throw new Error(`Duplicate card id ${s.id}`);
+  CARDS[s.id] = { set: 1, ...s, deck: s.deck ?? deckOfLine[s.id] };
+}
+for (const r of [...RELICS, ...EDICTS]) {
+  if (CARDS[r.id]) throw new Error(`Duplicate card id ${r.id}`);
+  CARDS[r.id] = { ...r, deck: r.deck ?? deckOfLine[r.id] };
+}
 
-export const isChampionCard = (c: Card): c is ChampionCard => c.kind === 'champion' || c.kind === 'ascension';
+export const isChampionCard = (c: Card): c is ChampionCard => c.kind === 'champion' || c.kind === 'ascension' || c.kind === 'token';
+export const isSpellCard = (c: Card): c is SpellCard => c.kind === 'tactic' || c.kind === 'scheme';
+export const isRelicCard = (c: Card): c is RelicCard => c.kind === 'relic';
+export const isEdictCard = (c: Card): c is EdictCard => c.kind === 'edict';
 export const card = (id: string): Card => {
   const c = CARDS[id];
   if (!c) throw new Error(`Unknown card ${id}`);
@@ -388,7 +492,17 @@ export const champion = (id: string): ChampionCard => {
 };
 export const spell = (id: string): SpellCard => {
   const c = card(id);
-  if (isChampionCard(c)) throw new Error(`${id} is not a spell`);
+  if (!isSpellCard(c)) throw new Error(`${id} is not a Tactic or Scheme`);
+  return c;
+};
+export const relic = (id: string): RelicCard => {
+  const c = card(id);
+  if (!isRelicCard(c)) throw new Error(`${id} is not a Relic`);
+  return c;
+};
+export const edict = (id: string): EdictCard => {
+  const c = card(id);
+  if (!isEdictCard(c)) throw new Error(`${id} is not an Edict`);
   return c;
 };
 
