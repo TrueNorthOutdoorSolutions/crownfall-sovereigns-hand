@@ -1,0 +1,72 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S2-097 (097)
+Cost: 5 (GREEN gem)
+Name: General Varr
+Title: Holder of the Gate
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Kingdom | Commander · Vanguard | TIER IV
+Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet; Vanguard: gold shield
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. Your other Kingdom champions have +1 Might.
+Flavour: “Form up!”
+Crown 2: none
+Might | Guard: 4 | 6
+Footer: 097/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Holding the last gate between the Arena and what lies beneath. Canon look for this form: A grizzled kingdom commander with a tower shield.
+
+Card number: S2-098 (098)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: General Varr
+Title: Holder of the Gate
+Stars: ★★
+Ascension band: ASCENSION • from General Varr ★
+Origin | Class | Tier: Kingdom | Commander · Vanguard | TIER IV
+Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet; Vanguard: gold shield
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. Your other Kingdom champions have +1 Might and +1 Guard.
+3. **Block:** The attacker gets −2 Might this turn.
+Flavour: “Line held.”
+Crown 2: none
+Might | Guard: 7 | 9
+Footer: 098/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Holding the last gate between the Arena and what lies beneath. Canon look for this form: Medals of every war and a banner-spear.
+
+Card number: S2-099 (099)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: General Varr
+Title: Holder of the Gate
+Stars: ★★★
+Ascension band: ASCENSION • from General Varr ★★
+Origin | Class | Tier: Kingdom | Commander · Vanguard | TIER IV
+Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet; Vanguard: gold shield
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Ascend: Shield** each champion you control.
+3. Your other Kingdom champions have +2 Might and +1 Guard.
+Flavour: “Hold the line!”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 12
+Footer: 099/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Holding the last gate between the Arena and what lies beneath. Canon look for this form: A legend of the line, flanked by phantom shieldbearers.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 097: unlisted traits use the official sheet; never invent icons.
+- 098 ★★: up-arrow 1, not up-arrow 0.
+- 098: unlisted traits use the official sheet; never invent icons.
+- 099: unlisted traits use the official sheet; never invent icons.

@@ -1,0 +1,80 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S1-148 (148)
+Cost: 6 (GREEN gem)
+Name: ATLAS-Ω
+Title: Final-Generation War Machine
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Gearbound | Ascendant · Warden | TIER V
+Trait icons: Gearbound: gold gear; Ascendant: use its icon from the official sheet; Warden: green square-in-square
+Keywords: Ascendant *(One per deck.)* · Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Bulwark *(Blocking doesn't turn it sideways.)*
+3. **OMEGA PROTOCOL.**
+4. **Arrival: Shield** ATLAS-Ω.
+Flavour: “ATLAS-Ω was built to end a war. It did. It is still waiting for its next order.”
+Crown 2: none
+Might | Guard: 4 | 10
+Footer: 148/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: A gigantic final-generation war machine.
+
+Card number: S1-149 (149)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: ATLAS-Ω
+Title: Final-Generation War Machine
+Stars: ★★
+Ascension band: ASCENSION • from ATLAS-Ω ★
+Origin | Class | Tier: Gearbound | Ascendant · Warden | TIER V
+Trait icons: Gearbound: gold gear; Ascendant: use its icon from the official sheet; Warden: green square-in-square
+Keywords: Ascendant *(One per deck.)* · Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Bulwark *(Blocking doesn't turn it sideways.)*
+3. Reach *(Can block Flight.)*
+4. **OMEGA PROTOCOL.**
+5. Your other champions have +1 Guard.
+Flavour: “Weapon systems expanded.”
+Crown 2: none
+Might | Guard: 7 | 13
+Footer: 149/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Shoulder cannons and a reactor halo.
+
+Card number: S1-150 (150)
+Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
+Name: ATLAS-Ω
+Title: Final-Generation War Machine
+Stars: ★★★
+Ascension band: ASCENSION • from ATLAS-Ω ★★
+Origin | Class | Tier: Gearbound | Ascendant · Warden | TIER V
+Trait icons: Gearbound: gold gear; Ascendant: use its icon from the official sheet; Warden: green square-in-square
+Keywords: Ascendant *(One per deck.)* · Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Bulwark *(Blocking doesn't turn it sideways.)*
+3. Reach *(Can block Flight.)*
+4. **OMEGA PROTOCOL.**
+5. **Ascend: Scorch 3** each rival champion.
+6. **Attack: Scorch 3** each rival champion.
+Flavour: “Omega protocol engaged.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 11 | 16
+Footer: 150/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: A titan of the last war: a sun burns in its chest.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 148: unlisted traits use the official sheet; never invent icons.
+- 149 ★★: up-arrow 2, not up-arrow 0.
+- 149: unlisted traits use the official sheet; never invent icons.
+- 150 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
+- 150: unlisted traits use the official sheet; never invent icons.

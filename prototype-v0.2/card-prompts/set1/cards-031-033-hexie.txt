@@ -1,0 +1,73 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S1-031 (031)
+Cost: 1 (GREEN gem)
+Name: Hexie
+Title: Apprentice of Mischief
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Hexbound | Arcanist | TIER I
+Trait icons: Hexbound: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Unstable Hex.**
+2. **Arrival:** A rival champion gets −2 Might this turn.
+Flavour: “Hexie is not supposed to be here. Neither was anything she has ever turned into a toad.”
+Crown 2: none
+Might | Guard: 1 | 2
+Footer: 031/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: An apprentice witch in an oversized hat.
+
+Card number: S1-032 (032)
+Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
+Name: Hexie
+Title: Apprentice of Mischief
+Stars: ★★
+Ascension band: ASCENSION • from Hexie ★
+Origin | Class | Tier: Hexbound | Arcanist | TIER I
+Trait icons: Hexbound: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Unstable Hex.**
+2. **Ascend:** A rival champion gets −3 Might this turn.
+Flavour: “My hat has opinions!”
+Crown 2: none
+Might | Guard: 3 | 5
+Footer: 032/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Her hat has grown eyes. Her staff has grown opinions.
+
+Card number: S1-033 (033)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Hexie
+Title: Apprentice of Mischief
+Stars: ★★★
+Ascension band: ASCENSION • from Hexie ★★
+Origin | Class | Tier: Hexbound | Arcanist | TIER I
+Trait icons: Hexbound: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Unstable Hex.**
+2. **Ascend:** A rival champion gets −4 Might this turn.
+3. **Attack: Scorch 1** the defender.
+Flavour: “Ribbit. Ha!”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 6 | 8
+Footer: 033/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: A chaos witch riding a floating cauldron, hexes orbiting like fireflies.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 031: no keyword; do not add a chip or reminder.
+- 031: unlisted traits use the official sheet; never invent icons.
+- 032: no keyword; do not add a chip or reminder.
+- 032: unlisted traits use the official sheet; never invent icons.
+- 033: no keyword; do not add a chip or reminder.
+- 033: unlisted traits use the official sheet; never invent icons.

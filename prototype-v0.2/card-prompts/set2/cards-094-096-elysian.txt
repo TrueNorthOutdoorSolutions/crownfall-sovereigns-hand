@@ -1,0 +1,71 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S2-094 (094)
+Cost: 5 (GREEN gem)
+Name: Elysian
+Title: Light of the Lost Halls
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Astral | Mystic | TIER IV
+Trait icons: Astral: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Arrival:** Return a ★ champion from your Fallen pile to your hand.
+Flavour: “No one dies today.”
+Crown 2: none
+Might | Guard: 3 | 6
+Footer: 094/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Descending into the forgotten halls to lift the fallen back to their feet. Canon look for this form: A serene celestial healer with feathered wings.
+
+Card number: S2-095 (095)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Elysian
+Title: Light of the Lost Halls
+Stars: ★★
+Ascension band: ASCENSION • from Elysian ★
+Origin | Class | Tier: Astral | Mystic | TIER IV
+Trait icons: Astral: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Ascend:** Deploy a ★ champion costing 3 or less from your Fallen pile for free.
+Flavour: “All of you, safe.”
+Crown 2: none
+Might | Guard: 6 | 9
+Footer: 095/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Descending into the forgotten halls to lift the fallen back to their feet. Canon look for this form: A second pair of wings and a halo of script.
+
+Card number: S2-096 (096)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Elysian
+Title: Light of the Lost Halls
+Stars: ★★★
+Ascension band: ASCENSION • from Elysian ★★
+Origin | Class | Tier: Astral | Mystic | TIER IV
+Trait icons: Astral: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Ascend:** Deploy a ★ champion costing 4 or less from your Fallen pile for free.
+3. Shield each champion you control.
+Flavour: “Not yet — live!”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 12
+Footer: 096/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Descending into the forgotten halls to lift the fallen back to their feet. Canon look for this form: A seraph of the firmament; her wings are made of dawn.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 094: unlisted traits use the official sheet; never invent icons.
+- 095 ★★: up-arrow 1, not up-arrow 0.
+- 095: unlisted traits use the official sheet; never invent icons.
+- 096: unlisted traits use the official sheet; never invent icons.

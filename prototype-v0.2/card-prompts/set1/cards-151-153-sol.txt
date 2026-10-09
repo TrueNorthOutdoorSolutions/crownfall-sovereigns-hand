@@ -1,0 +1,76 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S1-151 (151)
+Cost: 6 (GREEN gem)
+Name: Sol
+Title: The First Light
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
+Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **DAWN.**
+3. **Arrival: Shield** each champion you control.
+Flavour: “Before anything, there was Sol. Sol would like it back that way.”
+Crown 2: none
+Might | Guard: 5 | 7
+Footer: 151/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: The first light given a body.
+
+Card number: S1-152 (152)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Sol
+Title: The First Light
+Stars: ★★
+Ascension band: ASCENSION • from Sol ★
+Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
+Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **DAWN.**
+4. **Ascend: Shield** each champion you control.
+Flavour: “Brighter than the first morning.”
+Crown 2: none
+Might | Guard: 8 | 10
+Footer: 152/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: A corona and four wings of light.
+
+Card number: S1-153 (153)
+Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
+Name: Sol
+Title: The First Light
+Stars: ★★★
+Ascension band: ASCENSION • from Sol ★★
+Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
+Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **DAWN.**
+4. **Ascend: Scorch 3** each rival champion, then Mend 1.
+Flavour: “Let there be DAWN!”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 12 | 13
+Footer: 153/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: A miniature sun hangs above the arena.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 151: unlisted traits use the official sheet; never invent icons.
+- 152 ★★: up-arrow 2, not up-arrow 0.
+- 152: unlisted traits use the official sheet; never invent icons.
+- 153 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 153: unlisted traits use the official sheet; never invent icons.

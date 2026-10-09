@@ -1,0 +1,74 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S1-121 (121)
+Cost: 4 (GREEN gem)
+Name: Pyrax
+Title: Dragon-Blooded
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Elemental | Bruiser | TIER IV
+Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+No ability name is listed; start with the first rules line below. Do not invent one.
+Text box, line by line:
+Flavour: “Pyrax's grandmother was a dragon. Pyrax intends to be one too.”
+Crown 2: none
+Might | Guard: 5 | 4
+Footer: 121/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: A dragon-blooded warrior with ember scales on her arms.
+
+Card number: S1-122 (122)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Pyrax
+Title: Dragon-Blooded
+Stars: ★★
+Ascension band: ASCENSION • from Pyrax ★
+Origin | Class | Tier: Elemental | Bruiser | TIER IV
+Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Dragonheart.**
+2. **Ascend: Scorch 1** each rival champion.
+Flavour: “The dragon wakes.”
+Crown 2: none
+Might | Guard: 8 | 8
+Footer: 122/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Horns and a burning tail; half her body is scaled.
+
+Card number: S1-123 (123)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Pyrax
+Title: Dragon-Blooded
+Stars: ★★★
+Ascension band: ASCENSION • from Pyrax ★★
+Origin | Class | Tier: Elemental | Bruiser | TIER IV
+Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Dragonheart.**
+2. **Ascend: Scorch 2** each rival champion.
+3. **Attack: Scorch 2** the defender.
+Flavour: “Breathe fire!”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 11 | 11
+Footer: 123/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: She becomes a dragon in all but wings, and the wings are coming.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 121: no keyword; do not add a chip or reminder.
+- 121: unlisted traits use the official sheet; never invent icons.
+- 122 ★★: up-arrow 1, not up-arrow 0.
+- 122: no keyword; do not add a chip or reminder.
+- 122: unlisted traits use the official sheet; never invent icons.
+- 123: no keyword; do not add a chip or reminder.
+- 123: unlisted traits use the official sheet; never invent icons.
+- Mixed Scorch numbers: S1-121: none; S1-122: Scorch 1; S1-123: Scorch 2, Scorch 2.

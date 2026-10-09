@@ -1,0 +1,76 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S2-091 (091)
+Cost: 4 (GREEN gem)
+Name: Pyrax
+Title: Wyrm of the Deep Forge
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Elemental | Bruiser | TIER IV
+Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+No ability name is listed; start with the first rules line below. Do not invent one.
+Text box, line by line:
+1. **Arrival: Scorch 1** each rival champion.
+Flavour: “Grandmother would be proud.”
+Crown 2: none
+Might | Guard: 5 | 4
+Footer: 091/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Breathing fire across a molten forge-cavern, relic armour glowing on her scales. Canon look for this form: A dragon-blooded warrior with ember scales on her arms.
+
+Card number: S2-092 (092)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Pyrax
+Title: Wyrm of the Deep Forge
+Stars: ★★
+Ascension band: ASCENSION • from Pyrax ★
+Origin | Class | Tier: Elemental | Bruiser | TIER IV
+Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+No ability name is listed; start with the first rules line below. Do not invent one.
+Text box, line by line:
+1. +2 Might while Pyrax holds a Relic.
+2. **Attack: Scorch 1** each rival champion.
+Flavour: “Scorched.”
+Crown 2: none
+Might | Guard: 8 | 8
+Footer: 092/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Breathing fire across a molten forge-cavern, relic armour glowing on her scales. Canon look for this form: Horns and a burning tail; half her body is scaled.
+
+Card number: S2-093 (093)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Pyrax
+Title: Wyrm of the Deep Forge
+Stars: ★★★
+Ascension band: ASCENSION • from Pyrax ★★
+Origin | Class | Tier: Elemental | Bruiser | TIER IV
+Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+No ability name is listed; start with the first rules line below. Do not invent one.
+Text box, line by line:
+1. **Ascend: Scorch 2** each rival champion.
+2. **Attack: Scorch 2** the defender.
+Flavour: “Breathe fire!”
+Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Might | Guard: 11 | 11
+Footer: 093/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Breathing fire across a molten forge-cavern, relic armour glowing on her scales. Canon look for this form: She becomes a dragon in all but wings, and the wings are coming.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 091: no keyword; do not add a chip or reminder.
+- 091: unlisted traits use the official sheet; never invent icons.
+- 092 ★★: up-arrow 1, not up-arrow 0.
+- 092: no keyword; do not add a chip or reminder.
+- 092: unlisted traits use the official sheet; never invent icons.
+- 093: no keyword; do not add a chip or reminder.
+- 093: unlisted traits use the official sheet; never invent icons.
+- Mixed Scorch numbers: S2-091: Scorch 1; S2-092: Scorch 1; S2-093: Scorch 2, Scorch 2.
