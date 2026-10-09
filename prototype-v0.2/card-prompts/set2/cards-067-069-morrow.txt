@@ -4,7 +4,7 @@ References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE
 Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
 Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
 Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
-This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
 
 Card number: S2-067 (067)
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “Death is a waste of soldiers.”
 Crown 2: none
 Might | Guard: 2 | 3
-Footer: 067/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 067/236 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Raising the soldiers buried beneath the Arena from their stone tombs. Canon look for this form: A gaunt necromancer with a bone scythe.
 
 Card number: S2-068 (068)
@@ -40,7 +40,7 @@ Text box, line by line:
 Flavour: “My legion grows.”
 Crown 2: none
 Might | Guard: 5 | 6
-Footer: 068/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 068/236 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Raising the soldiers buried beneath the Arena from their stone tombs. Canon look for this form: Ghostlights orbit him and his robes are stitched from banners.
 
 Card number: S2-069 (069)
@@ -59,7 +59,7 @@ Text box, line by line:
 Flavour: “Rise, and rest.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
 Might | Guard: 8 | 9
-Footer: 069/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 069/236 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Raising the soldiers buried beneath the Arena from their stone tombs. Canon look for this form: A lord of the grave crowned in spectral candles.
 
 Check when it comes back:

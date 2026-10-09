@@ -4,7 +4,7 @@ References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE
 Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
 Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
 Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
-This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
 
 Card number: S1-043 (043)
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “Grizz does not understand the Crown. He understands that everyone wants it, and he likes a crowd.”
 Crown 2: none
 Might | Guard: 4 | 4
-Footer: 043/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 043/248 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: An enormous bear warrior with iron-shod claws.
 
 Card number: S1-044 (044)
@@ -41,7 +41,7 @@ Text box, line by line:
 Flavour: “BIGGER GRAHH!”
 Crown 2: none
 Might | Guard: 7 | 7
-Footer: 044/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 044/248 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: War-paint and a pauldron made from a mountain troll's skull.
 
 Card number: S1-045 (045)
@@ -60,7 +60,7 @@ Text box, line by line:
 Flavour: “Nap time.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 11 | 10
-Footer: 045/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 045/248 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: A primal bear-titan whose roar shakes the arena floor.
 
 Check when it comes back:

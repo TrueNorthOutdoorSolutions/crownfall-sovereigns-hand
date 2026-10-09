@@ -4,7 +4,7 @@ References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE
 Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
 Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
 Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
-This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
 
 Card number: S2-118 (118)
@@ -23,7 +23,7 @@ Text box, line by line:
 Flavour: “Awaiting orders.”
 Crown 2: none
 Might | Guard: 4 | 10
-Footer: 118/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 118/236 · M · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Woken in a sealed vault, relic weapons locking into its frame. Canon look for this form: A gigantic final-generation war machine.
 
 Card number: S2-119 (119)
@@ -44,7 +44,7 @@ Text box, line by line:
 Flavour: “War ended. Again.”
 Crown 2: none
 Might | Guard: 7 | 13
-Footer: 119/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 119/236 · M · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Woken in a sealed vault, relic weapons locking into its frame. Canon look for this form: Shoulder cannons and a reactor halo.
 
 Card number: S2-120 (120)
@@ -65,7 +65,7 @@ Text box, line by line:
 Flavour: “Omega protocol engaged.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 16
-Footer: 120/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 120/236 · M · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Woken in a sealed vault, relic weapons locking into its frame. Canon look for this form: A titan of the last war: a sun burns in its chest.
 
 Check when it comes back:

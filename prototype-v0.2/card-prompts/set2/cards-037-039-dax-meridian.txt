@@ -4,7 +4,7 @@ References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE
 Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
 Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
 Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
-This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
 
 Card number: S2-037 (037)
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “This isn't my first reality.”
 Crown 2: none
 Might | Guard: 3 | 2
-Footer: 037/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 037/236 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Taking aim at a towering Guardian through a rift in the cavern wall. Canon look for this form: A dimensional gunslinger in a dusty long coat.
 
 Card number: S2-038 (038)
@@ -42,7 +42,7 @@ Text box, line by line:
 Flavour: “Forty-two realities, one gun.”
 Crown 2: none
 Might | Guard: 6 | 4
-Footer: 038/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 038/236 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Taking aim at a towering Guardian through a rift in the cavern wall. Canon look for this form: Rift cracks glow along his revolver; his coat shows another sky.
 
 Card number: S2-039 (039)
@@ -61,7 +61,7 @@ Text box, line by line:
 Flavour: “Not the one I lose in.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 10 | 7
-Footer: 039/236 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 039/236 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Taking aim at a towering Guardian through a rift in the cavern wall. Canon look for this form: A drifter from every timeline at once: ghostly copies echo his shots.
 
 Check when it comes back:

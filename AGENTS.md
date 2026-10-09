@@ -49,6 +49,20 @@ For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, t
 
 Charge *(Can attack the turn it arrives.)* · Bulwark *(Blocking doesn't turn it sideways.)* · Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)* · Reach *(Can block Flight.)* · Ascendant *(One per deck.)* · Guardian *(One per deck.)*
 
+## Rarity letter (footer)
+
+The letter follows the champion's Crownfall tier, and all three forms of a champion share it (decided 2026-10-09):
+
+| Tier | Name | Letter |
+| --- | --- | --- |
+| I | Common | **C** |
+| II | Uncommon | **U** |
+| III | Elite | **E** |
+| IV | Epic | **P** |
+| V | Mythic | **M** |
+
+Collector printings (alt art, full art, holo) are a separate system, still to be designed.
+
 ## Numbering
 
 Set 1 is numbered out of **248**, Set 2 out of **236** (tokens are numbered separately). Numbers, text and stats come only from `MASTER_CARD_LIST_SET1.md` / `MASTER_CARD_LIST_SET2.md` (generated from `src/v02/content/cards.ts`).

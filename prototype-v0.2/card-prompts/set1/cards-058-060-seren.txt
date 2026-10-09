@@ -4,7 +4,7 @@ References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE
 Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
 Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
 Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
-This prompt uses the locked reference’s C (Core) printing; collector rarity is separate from champion tier.
+Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
 
 Card number: S1-058 (058)
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “Seren catches falling stars. Some of them want to fight.”
 Crown 2: none
 Might | Guard: 1 | 2
-Footer: 058/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 058/248 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: A star-child with a lantern staff.
 
 Card number: S1-059 (059)
@@ -41,7 +41,7 @@ Text box, line by line:
 Flavour: “More stars, more friends!”
 Crown 2: none
 Might | Guard: 3 | 5
-Footer: 059/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 059/248 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: A cloak of night sky and a lantern that holds a real star.
 
 Card number: S1-060 (060)
@@ -61,7 +61,7 @@ Text box, line by line:
 Flavour: “Twinkle, twinkle!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 6 | 8
-Footer: 060/248 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 060/248 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Constellations sketch themselves around her; a flock of light-birds circles overhead.
 
 Check when it comes back:
