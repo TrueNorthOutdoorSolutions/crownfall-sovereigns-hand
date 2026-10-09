@@ -22,6 +22,10 @@ export const GLOSSARY: Record<string, string> = {
   Mend: 'Put a card from your hand face-down into your Crown as a new shard (5 maximum).',
   Shardfall: 'If this breaks from your Crown, you may cast or set it for free right away.',
   Swift: "Can also be cast in a response window, on either player's turn.",
+  Guardian: 'A huge Monster. A deck holds only one.',
+  Summon: 'Put that token into one of your empty Champion Zones. Tokens vanish when defeated.',
+  Relic: 'Attach to one of your champions without a Relic. It adds its stats and text, and goes to the Fallen pile with the champion.',
+  Edict: 'Applies to both players. A new Edict replaces it.',
 };
 
 export function RulesText({ text }: { text: string }) {
@@ -117,12 +121,14 @@ export function ChampionToken({ s, c, selected, targetable, dim, onClick, onHove
   return (
     <button type="button" className={`token s${f.star} ${c.exhausted ? 'exhausted' : ''} ${selected ? 'selected' : ''} ${targetable ? 'targetable' : ''} ${dim ? 'dim' : ''} ${flash ? 'flash' : ''} ${c.shield ? 'shielded' : ''}`}
       style={deckStyle(f)} onClick={onClick} onMouseEnter={() => onHover?.(true)} onMouseLeave={() => onHover?.(false)}
-      aria-label={`${f.name} ${f.star} star, Might ${m}, Guard ${g}${c.exhausted ? ', sideways' : ''}${c.shield ? ', shielded' : ''}`}>
+      aria-label={`${f.name} ${f.star} star, Might ${m}, Guard ${g}${c.relic ? `, holding ${CARDS[c.relic].name}` : ''}${c.exhausted ? ', sideways' : ''}${c.shield ? ', shielded' : ''}`}>
       <div className="tk-art" style={{ backgroundImage: `url(${artUrl(f.canonId, f.star)})` }} />
       <div className="tk-top"><span className="tk-stars">{'★'.repeat(f.star)}</span>{c.shield && <span className="tk-shield" title="Shield: the next time it would be defeated, the Shield breaks instead">Shield</span>}</div>
       <div className="tk-name">{f.name}</div>
       {f.keywords.filter((k) => k !== 'Ascendant').length > 0 && <div className="tk-kw">{f.keywords.filter((k) => k !== 'Ascendant').join(' · ')}</div>}
       {hasKeyword(c, 'Ascendant') && <div className="tk-asc">Ascendant</div>}
+      {f.family !== 'champion' && <div className={`tk-family ${f.family}`}>{f.family === 'token' ? 'Token' : f.family === 'guardian' ? 'Guardian' : 'Monster'}</div>}
+      {c.relic && <div className="tk-relic" title={`Relic: ${CARDS[c.relic].name}`}>⚜ {CARDS[c.relic].name}</div>}
       <div className="tk-stats">
         <span className={m > f.might ? 'up' : m < f.might ? 'down' : ''}>⚔{m}</span>
         <span className={g > f.guard ? 'up' : g < f.guard ? 'down' : ''}>⛨{g}</span>

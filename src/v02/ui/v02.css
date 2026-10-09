@@ -36,7 +36,7 @@ a { color: var(--gold) }
 .btnrow { display: flex; gap: 10px; flex-wrap: wrap } .btnrow.center { justify-content: center; margin-top: 14px }
 
 /* ── Menu ── */
-.menu { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; padding-top: 70px; gap: 22px }
+.menu { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; padding-top: 40px; gap: 16px }
 .menu-bg { filter: saturate(1) brightness(.55) }
 .title { position: relative; text-align: center }
 .studio { font-family: var(--num); letter-spacing: .3em; text-transform: uppercase; color: var(--gold); font-size: 15px }
@@ -249,3 +249,17 @@ a { color: var(--gold) }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important }
 }
+
+/* ── Two sets, four decks ── */
+.setgroup { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px }
+.setname { font-family: var(--num); letter-spacing: .14em; text-transform: uppercase; color: var(--crown); font-size: 13px }
+.setgroup .deckpick { min-height: 150px }
+.setgroup .dp-body p { font-size: 14px }
+/* ── Relics, Edicts, Monsters ── */
+.tk-relic { position: absolute; left: 6px; right: 6px; top: 46px; font-size: 10px; font-weight: 800; color: #1b1307; background: linear-gradient(90deg, #e9c46a, #c9a36b); border-radius: 3px; padding: 1px 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-shadow: 0 1px 4px rgba(0,0,0,.6) }
+.tk-family { position: absolute; left: 6px; top: 26px; font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; padding: 1px 5px; border-radius: 3px; background: #2a2236; color: #d9c6ff; border: 1px solid #6a3fa0 }
+.tk-family.guardian { background: #6a3fa0; color: #fff }
+.tk-family.token { background: #333; color: #ccc; border-color: #666 }
+.edict-pill { margin-left: auto; font-family: var(--display); font-size: 14px; font-weight: 700; color: #1b1307; background: linear-gradient(90deg, #e9c46a, #f5dfa0); border: 0; border-radius: 999px; padding: 6px 14px; white-space: nowrap; cursor: help }
+.handcard.equipping { transform: translateY(-34px) !important; outline: 3px solid var(--crown); border-radius: 10px }
+.btnrow .secondary.on { outline: 2px solid var(--crown) }

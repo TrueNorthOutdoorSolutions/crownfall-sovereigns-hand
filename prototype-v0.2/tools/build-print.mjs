@@ -34,7 +34,7 @@ function rulesHtml(text) {
 }
 
 function championFace(def, deck, num, total) {
-  const d = DECKS[deck];
+  const d = deck ? DECKS[deck] : null;
   const line = def.line;
   const asc = def.kind === 'ascension';
   const stars = '★'.repeat(def.star);
@@ -42,25 +42,62 @@ function championFace(def, deck, num, total) {
   const classes = line.classes.map(cap).join(' · ');
   const kw = (def.keywords ?? []).join(' · ');
   const tierName = canon.tierNames[String(line.tier)];
-  const art = `../art/${line.canonId}/star_${def.star}.webp`;
-  return `<div class="card s${def.star}" style="--deck:${d.color};--acc:${d.accent}">
+  const family = line.family ?? 'champion';
+  const art = family === 'champion' ? `../art/${line.canonId}/star_${def.star}.webp` : '';
+  return `<div class="card s${def.star}" style="--deck:${d?.color ?? '#555'};--acc:${d?.accent ?? '#999'}">
     <div class="head">
       <div class="nm"><div class="name">${esc(def.name)}</div><div class="title">${esc(line.title)}</div></div>
-      <div class="${asc ? 'asc' : 'cost'}" title="${asc ? 'Ascend cost' : 'Command cost'}">${asc ? '↑' : ''}${def.cost}</div>
+      ${family === 'token' ? '' : `<div class="${asc ? 'asc' : 'cost'}" title="${asc ? 'Ascend cost' : 'Command cost'}">${asc ? '↑' : ''}${def.cost}</div>`}
     </div>
     <div class="art" style="background-image:url('${art}')">
-      <span class="stars">${stars}</span>${def.star === 3 ? '<span class="crowndmg">♛2</span>' : ''}
+      ${family === 'champion' ? `<span class="stars">${stars}</span>` : '<span class="artsoon">ART TO COME</span>'}${def.star === 3 ? '<span class="crowndmg">♛2</span>' : ''}
       ${asc ? `<span class="ascband">${def.star === 2 ? '★★' : '★★★'} ASCENSION · from ${esc(def.name)} ${'★'.repeat(def.star - 1)}</span>` : ''}
     </div>
-    <div class="tribe">Tier ${ROMAN[line.tier]} · ${esc(origins)} · ${esc(classes)}</div>
+    <div class="tribe">${family === 'champion' ? `Tier ${ROMAN[line.tier]} · ${esc(origins)} · ${esc(classes)}` : family === 'guardian' ? 'GUARDIAN · one per deck · Loot' : family === 'monster' ? 'MONSTER · Loot' : 'TOKEN · vanishes when defeated'}</div>
     <div class="box">
       ${kw ? `<div class="kw">${esc(kw)}</div>` : ''}
       ${def.ability && def.text ? `<div class="abil">${esc(def.ability)}</div>` : ''}
-      <div class="txt">${rulesHtml(def.text) || (kw ? '' : '<span class="vanilla">No ability. Strong for its cost.</span>')}</div>
+      <div class="txt">${rulesHtml(def.text) || (kw || family === 'token' ? '' : '<span class="vanilla">No ability. Strong for its cost.</span>')}</div>
     </div>
     <div class="stats"><span class="mt">⚔ ${def.might}</span><span class="gd">⛨ ${def.guard}</span></div>
-    <div class="foot"><span>${esc(d.name).toUpperCase()} ${String(num).padStart(2, '0')}/${total} · Tier ${ROMAN[line.tier]} ${esc(tierName)}</span><span>NOT FOR SALE</span></div>
+    <div class="foot"><span>${d ? `${esc(d.name).toUpperCase()} ${String(num).padStart(2, '0')}/${total}` : 'TOKEN'}${family === 'champion' ? ` · Tier ${ROMAN[line.tier]} ${esc(tierName)}` : ''}</span><span>NOT FOR SALE</span></div>
   </div>`;
+}
+
+function relicFace(def, deck, num, total) {
+  const d = DECKS[deck];
+  const stats = [def.might ? `+${def.might} Might` : '', def.guard ? `+${def.guard} Guard` : ''].filter(Boolean).join(' · ');
+  return `<div class="card spell relic" style="--deck:${d.color};--acc:${d.accent}">
+    <div class="head">
+      <div class="nm"><div class="name">${esc(def.name)}</div><div class="title">RELIC · ${esc(def.relicType.toUpperCase())}${def.legendary ? ' · LEGENDARY' : ''}</div></div>
+      <div class="cost">${def.cost}</div>
+    </div>
+    <div class="sigil"><span>⚜</span>${stats ? `<em class="sf">${stats.toUpperCase()}</em>` : ''}</div>
+    <div class="box big">${def.keywords?.length ? `<div class="kw">${esc(def.keywords.join(' · '))}</div>` : ''}<div class="txt">${rulesHtml(def.text)}</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>${esc(d.name).toUpperCase()} ${String(num).padStart(2, '0')}/${total} · Set 2</span><span>NOT FOR SALE</span></div>
+  </div>`;
+}
+
+function edictFace(def, deck, num, total) {
+  const d = DECKS[deck];
+  return `<div class="card spell edict" style="--deck:${d.color};--acc:${d.accent}">
+    <div class="head">
+      <div class="nm"><div class="name">${esc(def.name)}</div><div class="title">EDICT · ${esc(CARDS[def.host]?.name ?? def.host)}</div></div>
+      <div class="cost">${def.cost}</div>
+    </div>
+    <div class="sigil"><span>♛</span></div>
+    <div class="box big"><div class="txt">${rulesHtml(def.text)}</div>
+      <div class="note">Place it between both players. It applies to both of you. A new Edict replaces it (the old one goes to its owner's Fallen pile).</div></div>
+    <div class="foot"><span>${esc(d.name).toUpperCase()} ${String(num).padStart(2, '0')}/${total}</span><span>NOT FOR SALE</span></div>
+  </div>`;
+}
+
+function faceFor(def, deck, num, total) {
+  if (def.kind === 'champion' || def.kind === 'ascension' || def.kind === 'token') return championFace(def, deck, num, total);
+  if (def.kind === 'relic') return relicFace(def, deck, num, total);
+  if (def.kind === 'edict') return edictFace(def, deck, num, total);
+  return spellFace(def, deck, num, total);
 }
 
 function spellFace(def, deck, num, total) {
@@ -82,6 +119,14 @@ function spellFace(def, deck, num, total) {
 }
 
 function referenceFace(i) {
+  if (i === 3) return `<div class="card ref"><div class="refh">SET 2 CARD TYPES</div><dl>
+    <dt>Relic</dt><dd>Pay its cost; attach to your champion without a Relic. One per champion. Leaves with it.</dd>
+    <dt>Edict</dt><dd>Shared by both players. A new Edict replaces the old one.</dd>
+    <dt>Monster</dt><dd>A champion with no Origin. <b>Loot</b>: when defeated, its rival gets the reward.</dd>
+    <dt>Guardian</dt><dd>A huge Monster. One per deck.</dd>
+    <dt>Token</dt><dd>Made by Summon. Vanishes when defeated; never goes to a pile.</dd>
+    <dt>Emblem</dt><dd>The holder also has that Origin.</dd></dl>
+    <div class="foot"><span>REFERENCE</span><span></span><span>v${RULES_VERSION}</span></div></div>`;
   if (i === 0) return `<div class="card ref"><div class="refh">YOUR TURN</div><ol>
     <li><b>Rise</b>: ready all; Command +1 (max 8), refill. Round 10+: break 1 own shard.</li>
     <li><b>Draw</b> 1 (empty deck: break 1 own shard).</li>
@@ -145,6 +190,9 @@ const CARD_CSS = `
 .ref ol { margin: .5mm 0 0; padding-left: 3.6mm } .ref li { margin-bottom: .45mm } .ref p { margin: .6mm 0 0 }
 .ref dl { margin: .5mm 0 0; display: grid; grid-template-columns: auto 1fr; gap: .3mm 1.4mm } .ref dt { font-weight: 800 } .ref dd { margin: 0 }
 .ref .foot { margin-top: auto }
+.artsoon { position: absolute; inset: 0; display: grid; place-items: center; color: #999; font-size: 6pt; letter-spacing: .2em; font-weight: 700 }
+.spell.relic .sigil { background: radial-gradient(circle, color-mix(in srgb, var(--acc) 30%, #fff) 0, #fff 70%) }
+.spell.edict .sigil { background: linear-gradient(180deg, #f5dfa0, #fff) } .spell.edict .sigil span { color: #8a6a14 }
 .back { width: 63mm; height: 88mm; border-radius: 3mm; background: radial-gradient(circle at 50% 42%, #3b2f12 0, #15131c 62%); border: 2.6mm solid #15131c; display: grid; place-items: center; color: #e2b44c; text-align: center }
 .back b { display: block; font-family: Georgia, serif; font-size: 13pt; letter-spacing: .08em } .back i { font-size: 6pt; letter-spacing: .3em; color: #b89a5a }
 .back .crown { font-size: 34pt; line-height: 1 }
@@ -167,14 +215,17 @@ function deckCards(deckId) {
     const def = CARDS[id];
     for (let k = 0; k < copies; k++) {
       n++;
-      faces.push(def.kind === 'champion' ? championFace(def, deckId, n, total) : spellFace(def, deckId, n, total));
+      faces.push(faceFor(def, deckId, n, total));
     }
   }
   for (const id of d.ascension) { n++; faces.push(championFace(CARDS[id], deckId, n, total)); }
   return faces;
 }
 
-const faces = [...deckCards('banner'), ...deckCards('ember'), referenceFace(0), referenceFace(1), referenceFace(2)];
+const summoned = [...new Set(Object.values(DECKS).flatMap((d) => [...d.main.map(([id]) => id), ...d.ascension])
+  .flatMap((id) => [...JSON.stringify(CARDS[id]).matchAll(/"op":"summon","token":"([^"]+)"/g)].map((m) => m[1])))];
+const tokenFaces = summoned.flatMap((t) => Array.from({ length: t === 'token-spiderling' ? 6 : 3 }, () => championFace(CARDS[t], null, 0, 0)));
+const faces = [...Object.keys(DECKS).flatMap(deckCards), ...tokenFaces, referenceFace(0), referenceFace(1), referenceFace(2), referenceFace(3)];
 let pages = '';
 for (let i = 0; i < faces.length; i += 9) pages += `<section class="page">${cropMarks()}<div class="sheet">${faces.slice(i, i + 9).join('')}</div></section>`;
 const backs = Array.from({ length: 9 }, () => `<div class="back"><div><div class="crown">♛</div><b>SOVEREIGN'S HAND</b><i>CROWNFALL · PROTOTYPE</i></div></div>`).join('');
@@ -315,13 +366,17 @@ writeFileSync(join(out, 'feedback.html'), feedbackHtml);
 
 // ── decklists (Markdown) ──
 let dl = `# Starter decklists\n\nRules version ${RULES_VERSION}. Generated from \`src/v02/content/cards.ts\` (the same data the digital game uses); do not edit by hand.\nChampion names, titles, tiers, Origins and Classes come from Crownfall commit \`${canon.commit.slice(0, 7)}\`.\n`;
+const TYPE = (c) => c.kind === 'champion' ? (c.family === 'guardian' ? 'Guardian' : c.family === 'monster' ? 'Monster' : `★ Champion · Tier ${ROMAN[c.line.tier]}`)
+  : c.kind === 'relic' ? `Relic · ${cap(c.relicType)}` : c.kind === 'edict' ? 'Edict' : c.kind === 'scheme' ? 'Scheme' : c.swift ? 'Swift Tactic' : 'Tactic';
+let lastSet = 0;
 for (const [id, d] of Object.entries(DECKS)) {
+  if ((d.set ?? 1) !== lastSet) { lastSet = d.set ?? 1; dl += `\n# Set ${lastSet}: ${lastSet === 1 ? 'The Shattered Crown' : 'Beneath the Arena'}\n`; }
   dl += `\n## ${d.name} (${d.origins})\n\n${d.pitch}\n\n| # | Card | Type | Cost | Might / Guard | Text |\n| --- | --- | --- | --- | --- | --- |\n`;
   for (const [cid, n] of d.main) {
     const c = CARDS[cid];
-    const type = c.kind === 'champion' ? `★ Champion · Tier ${ROMAN[c.line.tier]}` : c.kind === 'scheme' ? 'Scheme' : c.swift ? 'Swift Tactic' : 'Tactic';
+    const type = TYPE(c);
     const text = [(c.keywords ?? []).join(', '), c.text, c.shardfall ? 'Shardfall.' : ''].filter(Boolean).join(' ');
-    dl += `| ${n} | ${c.name}${c.title && c.kind === 'champion' ? ` — ${c.title}` : ''} | ${type} | ${c.cost} | ${c.kind === 'champion' ? `${c.might} / ${c.guard}` : ''} | ${text} |\n`;
+    dl += `| ${n} | ${c.name}${c.title && c.kind === 'champion' ? ` — ${c.title}` : ''} | ${type} | ${c.cost} | ${c.kind === 'champion' ? `${c.might} / ${c.guard}` : c.kind === 'relic' ? [c.might ? `+${c.might}` : '', c.guard ? `+${c.guard}` : ''].filter(Boolean).join(' / ') : ''} | ${text} |\n`;
   }
   dl += `\n**Ascension Pile (8):**\n\n| Card | Ascend cost | Might / Guard | Text |\n| --- | --- | --- | --- |\n`;
   for (const aid of d.ascension) {

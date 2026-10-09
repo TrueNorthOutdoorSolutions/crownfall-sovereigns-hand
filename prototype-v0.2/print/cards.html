@@ -44,6 +44,9 @@ body { font-family: "Segoe UI", Arial, sans-serif }
 .ref ol { margin: .5mm 0 0; padding-left: 3.6mm } .ref li { margin-bottom: .45mm } .ref p { margin: .6mm 0 0 }
 .ref dl { margin: .5mm 0 0; display: grid; grid-template-columns: auto 1fr; gap: .3mm 1.4mm } .ref dt { font-weight: 800 } .ref dd { margin: 0 }
 .ref .foot { margin-top: auto }
+.artsoon { position: absolute; inset: 0; display: grid; place-items: center; color: #999; font-size: 6pt; letter-spacing: .2em; font-weight: 700 }
+.spell.relic .sigil { background: radial-gradient(circle, color-mix(in srgb, var(--acc) 30%, #fff) 0, #fff 70%) }
+.spell.edict .sigil { background: linear-gradient(180deg, #f5dfa0, #fff) } .spell.edict .sigil span { color: #8a6a14 }
 .back { width: 63mm; height: 88mm; border-radius: 3mm; background: radial-gradient(circle at 50% 42%, #3b2f12 0, #15131c 62%); border: 2.6mm solid #15131c; display: grid; place-items: center; color: #e2b44c; text-align: center }
 .back b { display: block; font-family: Georgia, serif; font-size: 13pt; letter-spacing: .08em } .back i { font-size: 6pt; letter-spacing: .3em; color: #b89a5a }
 .back .crown { font-size: 34pt; line-height: 1 }
@@ -287,7 +290,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BANNER OF THE REALM 14/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
     <div class="head">
-      <div class="nm"><div class="name">Rally the Banners</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Sharpened Steel</div><div class="title">TACTIC</div></div>
       <div class="cost">1</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -297,7 +300,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BANNER OF THE REALM 15/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
     <div class="head">
-      <div class="nm"><div class="name">Rally the Banners</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Sharpened Steel</div><div class="title">TACTIC</div></div>
       <div class="cost">1</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -307,7 +310,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BANNER OF THE REALM 16/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
     <div class="head">
-      <div class="nm"><div class="name">Reinforcements</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Reserve Guard</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
@@ -317,7 +320,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BANNER OF THE REALM 17/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
     <div class="head">
-      <div class="nm"><div class="name">Reinforcements</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Reserve Guard</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
@@ -347,7 +350,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BANNER OF THE REALM 20/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
     <div class="head">
-      <div class="nm"><div class="name">Shield Wall</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Frontline Doctrine</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -357,7 +360,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BANNER OF THE REALM 21/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#3d6fd8;--acc:#d9a92c">
     <div class="head">
-      <div class="nm"><div class="name">Shield Wall</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Frontline Doctrine</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -824,7 +827,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 15/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Firestorm</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Wildfire</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -834,7 +837,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 16/38 · working name</span><span>NOT FOR SALE</span></div>
   </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Firestorm</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Wildfire</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -844,7 +847,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 17/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Feral Howl</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Wildkin Pact</div><div class="title">TACTIC</div></div>
       <div class="cost">1</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -854,7 +857,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 18/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Feral Howl</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Wildkin Pact</div><div class="title">TACTIC</div></div>
       <div class="cost">1</div>
     </div>
     <div class="sigil"><span>✦</span></div>
@@ -864,7 +867,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 19/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Return to the Fire</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Rebirth Rite</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
@@ -874,7 +877,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 20/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Return to the Fire</div><div class="title">TACTIC</div></div>
+      <div class="nm"><div class="name">Rebirth Rite</div><div class="title">TACTIC</div></div>
       <div class="cost">2</div>
     </div>
     <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
@@ -884,7 +887,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 21/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Flare Up</div><div class="title">SWIFT TACTIC</div></div>
+      <div class="nm"><div class="name">Chaotic Surge</div><div class="title">SWIFT TACTIC</div></div>
       <div class="cost">1</div>
     </div>
     <div class="sigil"><span>⚡</span></div>
@@ -894,7 +897,7 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <div class="foot"><span>BLOOD &AMP; EMBER 22/38 · working name</span><span>NOT FOR SALE</span></div>
   </div><div class="card spell tactic" style="--deck:#c2451e;--acc:#e8a33a">
     <div class="head">
-      <div class="nm"><div class="name">Flare Up</div><div class="title">SWIFT TACTIC</div></div>
+      <div class="nm"><div class="name">Chaotic Surge</div><div class="title">SWIFT TACTIC</div></div>
       <div class="cost">1</div>
     </div>
     <div class="sigil"><span>⚡</span></div>
@@ -1108,6 +1111,1367 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     </div>
     <div class="stats"><span class="mt">⚔ 13</span><span class="gd">⛨ 12</span></div>
     <div class="foot"><span>BLOOD &AMP; EMBER 38/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Relic Seeker</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 2 or less from your hand to Kael for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>VAULT DELVERS 01/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Relic Seeker</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 2 or less from your hand to Kael for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>VAULT DELVERS 02/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Rowan</div><div class="title">Warden of the Deep Gate</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/rowan/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Ranger</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"><b>Block:</b> <i>Scorch 1</i> the attacker.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>VAULT DELVERS 03/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Rowan</div><div class="title">Warden of the Deep Gate</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/rowan/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Kingdom · Ranger</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"><b>Block:</b> <i>Scorch 1</i> the attacker.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>VAULT DELVERS 04/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Gearwick-9</div><div class="title">Relic Engineer</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/gearwick/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Gearbound · Artillerist</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 2 or less from your hand to Gearwick-9 for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>VAULT DELVERS 05/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Gearwick-9</div><div class="title">Relic Engineer</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/gearwick/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Gearbound · Artillerist</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 2 or less from your hand to Gearwick-9 for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>VAULT DELVERS 06/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Borin Ironbelly</div><div class="title">Forgemaster of the Deep</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/borin/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Titanborn · Bruiser</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Return a Relic from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>VAULT DELVERS 07/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Borin Ironbelly</div><div class="title">Forgemaster of the Deep</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/borin/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Titanborn · Bruiser</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Return a Relic from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>VAULT DELVERS 08/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Commander of the Descent</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      
+      <div class="txt">Your other Kingdom champions have +1 Might.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 5</span></div>
+    <div class="foot"><span>VAULT DELVERS 09/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Commander of the Descent</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      
+      <div class="txt">Your other Kingdom champions have +1 Might.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 5</span></div>
+    <div class="foot"><span>VAULT DELVERS 10/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">General Varr</div><div class="title">Holder of the Gate</div></div>
+      <div class="cost" title="Command cost">5</div>
+    </div>
+    <div class="art" style="background-image:url('../art/varr/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier IV · Kingdom · Commander · Vanguard</div>
+    <div class="box">
+      <div class="kw">Bulwark</div>
+      
+      <div class="txt">Your other Kingdom champions have +1 Might.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 4</span><span class="gd">⛨ 6</span></div>
+    <div class="foot"><span>VAULT DELVERS 11/38 · Tier IV Epic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">ATLAS-Ω</div><div class="title">The Vault Engine</div></div>
+      <div class="cost" title="Command cost">6</div>
+    </div>
+    <div class="art" style="background-image:url('../art/atlas/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier V · Gearbound · Ascendant · Warden</div>
+    <div class="box">
+      <div class="kw">Ascendant · Bulwark</div>
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 4 or less from your hand to ATLAS-Ω for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 4</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>VAULT DELVERS 12/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Crystal Golem</div><div class="title">Guardian</div></div>
+      <div class="cost" title="Command cost">7</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">GUARDIAN · one per deck · Loot</div>
+    <div class="box">
+      <div class="kw">Guardian · Bulwark</div>
+      <div class="abil">Shatter Slam</div>
+      <div class="txt"><b>Block:</b> Each rival champion gets −2 Might this turn. When Crystal Golem is defeated, its rival draws 2 cards.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 11</span></div>
+    <div class="foot"><span>VAULT DELVERS 13/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Professor Spark</div><div class="title">Relic Inventor</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/spark/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Gearbound · Summoner</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 2 or less from your hand to Professor Spark for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>VAULT DELVERS 14/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Professor Spark</div><div class="title">Relic Inventor</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/spark/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Gearbound · Summoner</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 2 or less from your hand to Professor Spark for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>VAULT DELVERS 15/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Knuckle</div><div class="title">King Under the Pit</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/knuckle/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Titanborn · Bruiser</div>
+    <div class="box">
+      
+      
+      <div class="txt">+2 Guard while Knuckle holds a Relic.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 5</span></div>
+    <div class="foot"><span>VAULT DELVERS 16/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Titan Rho</div><div class="title">Vault Bastion</div></div>
+      <div class="cost" title="Command cost">5</div>
+    </div>
+    <div class="art" style="background-image:url('../art/titanrho/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier IV · Gearbound · Warden</div>
+    <div class="box">
+      <div class="kw">Bulwark</div>
+      
+      <div class="txt"><b>Arrival:</b> Attach a Relic costing 3 or less from your hand to Titan Rho for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 8</span></div>
+    <div class="foot"><span>VAULT DELVERS 17/38 · Tier IV Epic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Royal Blade</div><div class="title">RELIC · COMPONENT</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+2 MIGHT</em></div>
+    <div class="box big"><div class="txt">+2 Might.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 18/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Royal Blade</div><div class="title">RELIC · COMPONENT</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+2 MIGHT</em></div>
+    <div class="box big"><div class="txt">+2 Might.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 19/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Iron Plate</div><div class="title">RELIC · COMPONENT</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+2 GUARD</em></div>
+    <div class="box big"><div class="txt">+2 Guard.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 20/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Colossus Edge</div><div class="title">RELIC · COMPLETED</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+3 MIGHT</em></div>
+    <div class="box big"><div class="txt">+3 Might.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 21/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Crownsworn Blade</div><div class="title">RELIC · COMPLETED</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+2 MIGHT</em></div>
+    <div class="box big"><div class="txt">+2 Might. When the holder defeats a champion on your turn, gain 1 Command.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 22/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Kingdom Emblem</div><div class="title">RELIC · EMBLEM</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+1 MIGHT</em></div>
+    <div class="box big"><div class="txt">+1 Might. The holder is also Kingdom.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 23/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Aegis Codex</div><div class="title">RELIC · COMPLETED</div></div>
+      <div class="cost">3</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+1 GUARD</em></div>
+    <div class="box big"><div class="txt">+1 Guard. Your other champions have +1 Guard.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 24/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">The Fallen King's Blade</div><div class="title">RELIC · ARTIFACT · LEGENDARY</div></div>
+      <div class="cost">4</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+2 MIGHT</em></div>
+    <div class="box big"><div class="txt">+2 Might. Once per turn, when the holder defeats a champion on your turn, ready it and draw a card.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>VAULT DELVERS 25/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Its Treasure Is Yours</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Return a Relic from your Fallen pile to your hand. Draw a card.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>VAULT DELVERS 26/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">The Vault Remembers</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span><em class="sf">SHARDFALL</em></div>
+    <div class="box big"><div class="txt">Return a Relic from your Fallen pile to your hand.</div>
+      <div class="sfnote"><b>Shardfall:</b> if this breaks from your Crown, you may cast or set it free right away.</div>
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>VAULT DELVERS 27/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Crown Hex: War</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your champions get +2 Might this turn.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>VAULT DELVERS 28/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Steel Will Answer</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks: it gets −3 Might this turn.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>VAULT DELVERS 29/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Unbinding Charm</div><div class="title">TACTIC</div></div>
+      <div class="cost">0</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Return a Relic to its owner’s hand.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>VAULT DELVERS 30/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Relic Seeker</div></div>
+      <div class="asc" title="Ascend cost">↑0</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Kael ★</span>
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt">+2 Might while Kael holds a Relic.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>VAULT DELVERS 31/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Kael</div><div class="title">Relic Seeker</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/kael/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Kael ★★</span>
+    </div>
+    <div class="tribe">Tier I · Kingdom · Duelist</div>
+    <div class="box">
+      
+      
+      <div class="txt">+2 Might while Kael holds a Relic. When Kael defeats a champion on your turn, draw a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 9</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>VAULT DELVERS 32/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s2" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Commander of the Descent</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Aurelia ★</span>
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      
+      <div class="txt">Your other Kingdom champions have +1 Might and +1 Guard.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 6</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>VAULT DELVERS 33/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Aurelia</div><div class="title">Commander of the Descent</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/aurelia/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Aurelia ★★</span>
+    </div>
+    <div class="tribe">Tier III · Kingdom · Commander</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Ascend:</b> Ready another champion you control. Your other Kingdom champions have +2 Might and +1 Guard.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 9</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>VAULT DELVERS 34/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Borin Ironbelly</div><div class="title">Forgemaster of the Deep</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/borin/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Borin Ironbelly ★</span>
+    </div>
+    <div class="tribe">Tier II · Titanborn · Bruiser</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Ascend:</b> Attach a Relic costing 3 or less from your hand to Borin Ironbelly for free. +2 Might while Borin Ironbelly holds a Relic.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 6</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>VAULT DELVERS 35/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">Borin Ironbelly</div><div class="title">Forgemaster of the Deep</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/borin/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Borin Ironbelly ★★</span>
+    </div>
+    <div class="tribe">Tier II · Titanborn · Bruiser</div>
+    <div class="box">
+      <div class="kw">Bulwark</div>
+      
+      <div class="txt">+2 Might while Borin Ironbelly holds a Relic. Your other Titanborn champions have +1 Guard.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 10</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>VAULT DELVERS 36/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">ATLAS-Ω</div><div class="title">The Vault Engine</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/atlas/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from ATLAS-Ω ★</span>
+    </div>
+    <div class="tribe">Tier V · Gearbound · Ascendant · Warden</div>
+    <div class="box">
+      <div class="kw">Ascendant · Bulwark · Reach</div>
+      
+      <div class="txt">+3 Might while ATLAS-Ω holds a Relic. Your other Gearbound champions have +1 Guard.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 7</span><span class="gd">⛨ 13</span></div>
+    <div class="foot"><span>VAULT DELVERS 37/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#c9a36b;--acc:#5b8cff">
+    <div class="head">
+      <div class="nm"><div class="name">ATLAS-Ω</div><div class="title">The Vault Engine</div></div>
+      <div class="asc" title="Ascend cost">↑3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/atlas/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from ATLAS-Ω ★★</span>
+    </div>
+    <div class="tribe">Tier V · Gearbound · Ascendant · Warden</div>
+    <div class="box">
+      <div class="kw">Ascendant · Bulwark · Reach</div>
+      
+      <div class="txt">+3 Might while ATLAS-Ω holds a Relic. <b>Attack:</b> <i>Scorch 3</i> each rival champion.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 11</span><span class="gd">⛨ 16</span></div>
+    <div class="foot"><span>VAULT DELVERS 38/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Crystal Mite</div><div class="title">Monster</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">MONSTER · Loot</div>
+    <div class="box">
+      
+      
+      <div class="txt">When Crystal Mite is defeated, its rival draws a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 01/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Crystal Mite</div><div class="title">Monster</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">MONSTER · Loot</div>
+    <div class="box">
+      
+      
+      <div class="txt">When Crystal Mite is defeated, its rival draws a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 02/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Rift Hound</div><div class="title">Monster</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">MONSTER · Loot</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      
+      <div class="txt">When Rift Hound is defeated, its rival draws a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 03/38</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Rift Hound</div><div class="title">Monster</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">MONSTER · Loot</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      
+      <div class="txt">When Rift Hound is defeated, its rival draws a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 04/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Rift Alpha</div><div class="title">Monster</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">MONSTER · Loot</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      
+      <div class="txt">Your other Monsters have +1 Might. When Rift Alpha is defeated, its rival draws a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 05/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Rift Alpha</div><div class="title">Monster</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">MONSTER · Loot</div>
+    <div class="box">
+      <div class="kw">Charge</div>
+      
+      <div class="txt">Your other Monsters have +1 Might. When Rift Alpha is defeated, its rival draws a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 06/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Shardling</div><div class="title">Monster</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">MONSTER · Loot</div>
+    <div class="box">
+      
+      
+      <div class="txt">When Shardling is defeated, its rival gains 1 Command.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 07/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Grimm</div><div class="title">The Last Sentry</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/grimm/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Hollow · Vanguard</div>
+    <div class="box">
+      <div class="kw">Bulwark</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 08/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Grimm</div><div class="title">The Last Sentry</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/grimm/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Hollow · Vanguard</div>
+    <div class="box">
+      <div class="kw">Bulwark</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 09/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Nyx</div><div class="title">Vault Thief</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/nyx/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Umbral · Assassin</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt">When Nyx defeats a champion on your turn, return a Relic from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 10/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Nyx</div><div class="title">Vault Thief</div></div>
+      <div class="cost" title="Command cost">1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/nyx/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier I · Umbral · Assassin</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt">When Nyx defeats a champion on your turn, return a Relic from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 11/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Shade</div><div class="title">Mask of the Depths</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/shade/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Umbral · Assassin</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"><b>Attack:</b> The defender gets −1 Might this turn.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 12/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Shade</div><div class="title">Mask of the Depths</div></div>
+      <div class="cost" title="Command cost">2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/shade/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier II · Umbral · Assassin</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"><b>Attack:</b> The defender gets −1 Might this turn.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 13/38 · Tier II Uncommon</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Morrow</div><div class="title">Lord of the Buried Halls</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/morrow/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Hollow · Summoner</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Summon a Risen Soldier.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 14/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Morrow</div><div class="title">Lord of the Buried Halls</div></div>
+      <div class="cost" title="Command cost">3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/morrow/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Hollow · Summoner</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Arrival:</b> Summon a Risen Soldier.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 15/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Dreadmouth</div><div class="title">Devourer of Guardians</div></div>
+      <div class="cost" title="Command cost">4</div>
+    </div>
+    <div class="art" style="background-image:url('../art/dreadmouth/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier III · Hollow · Bruiser</div>
+    <div class="box">
+      
+      
+      <div class="txt">When Dreadmouth defeats a champion on your turn, draw a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 4</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 16/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">The Unwritten King</div><div class="title">Lord of the Buried Crown</div></div>
+      <div class="cost" title="Command cost">6</div>
+    </div>
+    <div class="art" style="background-image:url('../art/unwritten/star_1.webp')">
+      <span class="stars">★</span>
+      
+    </div>
+    <div class="tribe">Tier V · Hollow · Ascendant · Summoner</div>
+    <div class="box">
+      <div class="kw">Ascendant</div>
+      
+      <div class="txt"><b>Arrival:</b> Deploy a ★ champion costing 3 or less from your Fallen pile for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 17/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Void Spider Queen</div><div class="title">Guardian</div></div>
+      <div class="cost" title="Command cost">6</div>
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">GUARDIAN · one per deck · Loot</div>
+    <div class="box">
+      <div class="kw">Guardian</div>
+      <div class="abil">Brood Call</div>
+      <div class="txt"><b>Arrival:</b> Summon two Void Spiders. At the start of your turn, Summon a Void Spider. When Void Spider Queen is defeated, its rival draws 2 cards.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 4</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 18/38</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Wild Encounter</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Deploy a Monster costing 3 or less from your hand for free.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 19/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Wild Encounter</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Deploy a Monster costing 3 or less from your hand for free.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 20/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Pack Leader</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your Wildkin champions and Monsters get +2 Might this turn.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 21/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card spell tactic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Pack Leader</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your Wildkin champions and Monsters get +2 Might this turn.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 22/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Boss Encounter</div><div class="title">TACTIC</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Your Monsters and Guardians get +2 Might and +2 Guard this turn. Draw a card.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 23/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell tactic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Something Stirs Beneath the Arena</div><div class="title">TACTIC</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>✦</span></div>
+    <div class="box big"><div class="txt">Return a ★ champion from your Fallen pile to your hand. Draw a card.</div>
+      
+      <div class="note">Cast on your turn.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 24/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">One Still Stands</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when one of your champions is attacked or blocks: it gets +2 Might and +2 Guard this turn.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 25/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">One Still Stands</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when one of your champions is attacked or blocks: it gets +2 Might and +2 Guard this turn.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 26/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell scheme" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Steady, Sovereign. Not Yet.</div><div class="title">SCHEME</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>◈</span></div>
+    <div class="box big"><div class="txt">Spring when a rival champion attacks your Crown and is not blocked: that attack ends. No shards break.</div>
+      
+      <div class="note">Set face-down for free. Spring it on your rival’s turn by paying its cost.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 27/38 · working name</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Hollow Emblem</div><div class="title">RELIC · EMBLEM</div></div>
+      <div class="cost">1</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+1 MIGHT</em></div>
+    <div class="box big"><div class="txt">+1 Might. The holder is also Hollow.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 28/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Bloodoath Blade</div><div class="title">RELIC · COMPLETED</div></div>
+      <div class="cost">3</div>
+    </div>
+    <div class="sigil"><span>⚜</span><em class="sf">+2 MIGHT</em></div>
+    <div class="box big"><div class="txt">+2 Might. When the holder defeats a champion on your turn, <i>Shield</i> it.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 29/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div><div class="card spell relic" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Nullifier Grip</div><div class="title">RELIC · COMPLETED</div></div>
+      <div class="cost">2</div>
+    </div>
+    <div class="sigil"><span>⚜</span></div>
+    <div class="box big"><div class="txt"><b>Attack:</b> The defender gets −3 Might this turn.</div>
+      <div class="note">Attach to one of your champions without a Relic. If that champion leaves play, the Relic goes to your Fallen pile.</div></div>
+    <div class="foot"><span>GUARDIANS' BROOD 30/38 · Set 2</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s2" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Nyx</div><div class="title">Vault Thief</div></div>
+      <div class="asc" title="Ascend cost">↑0</div>
+    </div>
+    <div class="art" style="background-image:url('../art/nyx/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Nyx ★</span>
+    </div>
+    <div class="tribe">Tier I · Umbral · Assassin</div>
+    <div class="box">
+      <div class="kw">Ambush · Flight</div>
+      
+      <div class="txt">When Nyx defeats a champion on your turn, return a Relic from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 6</span><span class="gd">⛨ 3</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 31/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Nyx</div><div class="title">Vault Thief</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/nyx/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Nyx ★★</span>
+    </div>
+    <div class="tribe">Tier I · Umbral · Assassin</div>
+    <div class="box">
+      <div class="kw">Ambush · Flight</div>
+      
+      <div class="txt"><b>Attack:</b> The defender gets −2 Might this turn. When Nyx defeats a champion on your turn, return a Relic from your Fallen pile to your hand.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 10</span><span class="gd">⛨ 5</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 32/38 · Tier I Common</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Morrow</div><div class="title">Lord of the Buried Halls</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/morrow/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Morrow ★</span>
+    </div>
+    <div class="tribe">Tier III · Hollow · Summoner</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Ascend:</b> Summon two Risen Soldiers.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 5</span><span class="gd">⛨ 6</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 33/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Morrow</div><div class="title">Lord of the Buried Halls</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/morrow/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Morrow ★★</span>
+    </div>
+    <div class="tribe">Tier III · Hollow · Summoner</div>
+    <div class="box">
+      
+      
+      <div class="txt"><b>Ascend:</b> Deploy a ★ champion costing 4 or less from your Fallen pile for free. Your other Hollow champions have +1 Might.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 8</span><span class="gd">⛨ 9</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 34/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Dreadmouth</div><div class="title">Devourer of Guardians</div></div>
+      <div class="asc" title="Ascend cost">↑1</div>
+    </div>
+    <div class="art" style="background-image:url('../art/dreadmouth/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from Dreadmouth ★</span>
+    </div>
+    <div class="tribe">Tier III · Hollow · Bruiser</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt">When Dreadmouth defeats a champion on your turn, draw a card.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 8</span><span class="gd">⛨ 7</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 35/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">Dreadmouth</div><div class="title">Devourer of Guardians</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/dreadmouth/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from Dreadmouth ★★</span>
+    </div>
+    <div class="tribe">Tier III · Hollow · Bruiser</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt">When Dreadmouth defeats a champion on your turn, draw a card and <i>Shield</i> Dreadmouth.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 12</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 36/38 · Tier III Elite</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s2" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">The Unwritten King</div><div class="title">Lord of the Buried Crown</div></div>
+      <div class="asc" title="Ascend cost">↑2</div>
+    </div>
+    <div class="art" style="background-image:url('../art/unwritten/star_2.webp')">
+      <span class="stars">★★</span>
+      <span class="ascband">★★ ASCENSION · from The Unwritten King ★</span>
+    </div>
+    <div class="tribe">Tier V · Hollow · Ascendant · Summoner</div>
+    <div class="box">
+      <div class="kw">Ascendant</div>
+      
+      <div class="txt"><b>Ascend:</b> Summon two Fallen Warriors. Your other Hollow champions have +1 Might and +1 Guard.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 8</span><span class="gd">⛨ 10</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 37/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s3" style="--deck:#6a3fa0;--acc:#8fd6bd">
+    <div class="head">
+      <div class="nm"><div class="name">The Unwritten King</div><div class="title">Lord of the Buried Crown</div></div>
+      <div class="asc" title="Ascend cost">↑3</div>
+    </div>
+    <div class="art" style="background-image:url('../art/unwritten/star_3.webp')">
+      <span class="stars">★★★</span><span class="crowndmg">♛2</span>
+      <span class="ascband">★★★ ASCENSION · from The Unwritten King ★★</span>
+    </div>
+    <div class="tribe">Tier V · Hollow · Ascendant · Summoner</div>
+    <div class="box">
+      <div class="kw">Ascendant</div>
+      
+      <div class="txt"><b>Ascend:</b> Deploy up to two ★ champions costing 3 or less from your Fallen pile for free.</div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 12</span><span class="gd">⛨ 13</span></div>
+    <div class="foot"><span>GUARDIANS' BROOD 38/38 · Tier V Mythic</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Arc Turret</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Arc Turret</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Arc Turret</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Reach</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Risen Soldier</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Risen Soldier</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Risen Soldier</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 2</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Fallen Warrior</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Fallen Warrior</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Fallen Warrior</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 3</span><span class="gd">⛨ 2</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Void Spider</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div></div></section><section class="page"><div class="crop" style="left:13.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:13.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:76.35000000000001mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:139.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;top:0;width:.2mm;height:5mm"></div><div class="crop" style="left:202.35mm;bottom:0;width:.2mm;height:5mm"></div><div class="crop" style="top:7.6000000000000005mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:7.6000000000000005mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:95.60000000000001mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:183.6mm;right:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;left:0;height:.2mm;width:9mm"></div><div class="crop" style="top:271.59999999999997mm;right:0;height:.2mm;width:9mm"></div><div class="sheet"><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Void Spider</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Void Spider</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Void Spider</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Void Spider</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
+  </div><div class="card s1" style="--deck:#555;--acc:#999">
+    <div class="head">
+      <div class="nm"><div class="name">Void Spider</div><div class="title">Token</div></div>
+      
+    </div>
+    <div class="art" style="background-image:url('')">
+      <span class="artsoon">ART TO COME</span>
+      
+    </div>
+    <div class="tribe">TOKEN · vanishes when defeated</div>
+    <div class="box">
+      <div class="kw">Ambush</div>
+      
+      <div class="txt"></div>
+    </div>
+    <div class="stats"><span class="mt">⚔ 1</span><span class="gd">⛨ 1</span></div>
+    <div class="foot"><span>TOKEN</span><span>NOT FOR SALE</span></div>
   </div><div class="card ref"><div class="refh">YOUR TURN</div><ol>
     <li><b>Rise</b>: ready all; Command +1 (max 8), refill. Round 10+: break 1 own shard.</li>
     <li><b>Draw</b> 1 (empty deck: break 1 own shard).</li>
@@ -1127,4 +2491,11 @@ body { font-family: "Segoe UI", Arial, sans-serif }
     <dt>Charge</dt><dd>May attack the turn it arrives.</dd><dt>Bulwark</dt><dd>Blocking doesn't turn it sideways.</dd>
     <dt>Ambush</dt><dd>Attacking a sideways champion: strikes first.</dd><dt>Flight / Reach</dt><dd>Flight is blocked only by Flight or Reach.</dd>
     <dt>Shardfall</dt><dd>Breaks from your Crown: cast/set free.</dd><dt>Ascendant</dt><dd>Tier V. One per deck.</dd></dl>
+    <div class="foot"><span>REFERENCE</span><span></span><span>v0.2-paper-1</span></div></div><div class="card ref"><div class="refh">SET 2 CARD TYPES</div><dl>
+    <dt>Relic</dt><dd>Pay its cost; attach to your champion without a Relic. One per champion. Leaves with it.</dd>
+    <dt>Edict</dt><dd>Shared by both players. A new Edict replaces the old one.</dd>
+    <dt>Monster</dt><dd>A champion with no Origin. <b>Loot</b>: when defeated, its rival gets the reward.</dd>
+    <dt>Guardian</dt><dd>A huge Monster. One per deck.</dd>
+    <dt>Token</dt><dd>Made by Summon. Vanishes when defeated; never goes to a pile.</dd>
+    <dt>Emblem</dt><dd>The holder also has that Origin.</dd></dl>
     <div class="foot"><span>REFERENCE</span><span></span><span>v0.2-paper-1</span></div></div></div></section></body></html>

@@ -11,7 +11,7 @@
     "test:browser": "playwright test",
     "print:cards": "tsx scripts/print.ts",
     "simulate": "tsx scripts/simulate.ts",
-    "sim:v02": "tsx scripts/v02-sim.ts 2000",
+    "sim:v02": "tsx scripts/v02-sim.ts 1000",
     "proto:validate": "tsx prototype-v0.2/tools/validate.mjs",
     "proto:print": "tsx prototype-v0.2/tools/build-print.mjs",
     "proto:snapshot": "tsx prototype-v0.2/tools/snapshot.mjs",

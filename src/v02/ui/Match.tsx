@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { CARDS, DECKS, champion, isChampionCard, isSpellCard } from '../content/cards';
 import type { DeckId } from '../content/cards';
 import {
-  actor, apply, ascendBlockReason, newGame, attackBlockReason, canAttack, canBlock, findChampion, guard, handPlayability, might, nextAscension,
+  actor, apply, ascendBlockReason, newGame, legalActions, zonesFor, attackBlockReason, canAttack, canBlock, findChampion, guard, handPlayability, might, nextAscension,
   predictClash, round, top,
 } from '../rules/engine';
 import type { Action, ChampionInPlay, GameState, LogEntry, PlayerIndex } from '../rules/types';
@@ -44,6 +44,9 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
   const [clash, setClash] = useState<GameState['lastClash']>(null);
   const [banner, setBanner] = useState<{ key: number; text: string; tone: 'ascend' | 'shard' | 'turn' | 'scheme' } | null>(null);
   const [flashUid, setFlashUid] = useState<number | null>(null);
+  /** Hand index of a Relic waiting for the champion to attach it to. */
+  const [equipping, setEquipping] = useState<number | null>(null);
+  const [cycling, setCycling] = useState(false);
   const lastLog = useRef(0);
 
   // React to new log entries: banners for Ascension, shard breaks, sprung Schemes and new turns.
@@ -89,12 +92,12 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
     return () => clearTimeout(t);
   }, [game, ready, fast, clash, autoplay]);
 
-  useEffect(() => { setSelected(null); }, [game.phase, game.turn]);
+  useEffect(() => { setSelected(null); setEquipping(null); setCycling(false); }, [game.phase, game.turn]);
 
   const act = (a: Action) => {
     const r = apply(game, ME, a);
     if (r.error) setToast(r.error);
-    else { setGame(r.state); if (a.type === 'attack') setSelected(null); }
+    else { setGame(r.state); setEquipping(null); setCycling(false); if (a.type === 'attack') setSelected(null); }
     return !r.error;
   };
 
@@ -113,14 +116,24 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
     if (pend?.kind === 'discard') return act({ type: 'discard', handIndex: i });
     if (pend?.kind === 'choose' && chooseKeys.has(`h:${i}`)) return act({ type: 'choose', key: `h:${i}` });
     if (pend) return setToast('Answer the decision in the panel first.');
+    if (cycling) return act({ type: 'cycle', handIndex: i });
     const pl = playability[i];
     if (!pl?.action) return setToast(pl?.reason ?? 'Not now.');
+    if (pl.action === 'equip') {
+      if (equipping === i) return setEquipping(null);
+      setEquipping(i);
+      return setToast(`Choose one of your champions to hold ${CARDS[me.hand[i]].name}.`);
+    }
     act({ type: pl.action, handIndex: i } as Action);
   };
   const clickMine = (c: ChampionInPlay) => {
     if (pend?.kind === 'choose' && chooseKeys.has(`u:${c.uid}`)) return act({ type: 'choose', key: `u:${c.uid}` });
     if (pend?.kind === 'block' && blockKeys.has(c.uid)) return act({ type: 'block', uid: c.uid });
     if (pend) return;
+    if (equipping !== null) {
+      if (c.relic) return setToast(`${top(c).name} already holds a Relic.`);
+      return act({ type: 'equip', handIndex: equipping, uid: c.uid });
+    }
     setSelected(selected === c.uid ? null : c.uid);
   };
   const clickTheirs = (c: ChampionInPlay) => {
@@ -155,7 +168,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
         <div className="schemes">{[0, 1, 2].map((i) => <div key={i} className={`scheme-slot ${them.schemes[i] ? 'set' : ''}`} title={them.schemes[i] ? 'A face-down Scheme' : 'Empty Scheme Zone'}>{them.schemes[i] ? '◈' : ''}</div>)}</div>
       </div>
       <div className="field rival">
-        {[0, 1, 2, 3].map((i) => {
+        {Array.from({ length: zonesFor(game, AI) }, (_, i) => {
           const c = them.field[i];
           return <div key={i} className="slot">{c && <ChampionToken s={game} c={c} flash={flashUid === c.uid}
             targetable={!!canAttackSel || chooseKeys.has(`u:${c.uid}`)} selected={attackerNow?.uid === c.uid}
@@ -165,14 +178,16 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
       {/* ── Middle band ── */}
       <div className="midband">
         <div className="phase-pill">{game.phase === 'over' ? 'Match over' : `Round ${round(game)} · ${game.active === ME ? 'Your turn' : "Rival's turn"} · ${game.phase === 'main' ? 'Main' : game.phase === 'battle' ? 'Battle' : game.phase === 'after' ? 'After battle' : 'Setup'}`}</div>
-        <div className="hint">{phaseHint(game)}</div>
+        <div className="hint">{equipping !== null ? `Attaching ${CARDS[me.hand[equipping]]?.name}: click one of your champions without a Relic (click the card again to cancel).` : cycling ? 'Cycle: click a card in your hand to put it on the bottom of your deck and draw.' : phaseHint(game)}</div>
+        {game.edict && <button type="button" className="edict-pill" onMouseEnter={() => setInspect({ kind: 'card', id: game.edict!.card })} onMouseLeave={() => setInspect(null)}
+          title="The Edict in play applies to both players. A new Edict replaces it.">Edict · {CARDS[game.edict.card].name}</button>}
       </div>
       <div className="field mine">
-        {[0, 1, 2, 3].map((i) => {
+        {Array.from({ length: zonesFor(game, ME) }, (_, i) => {
           const c = me.field[i];
           return <div key={i} className="slot">{c && <ChampionToken s={game} c={c} flash={flashUid === c.uid}
             selected={selected === c.uid || attackerNow?.uid === c.uid}
-            targetable={chooseKeys.has(`u:${c.uid}`) || blockKeys.has(c.uid) || (myTurnFree && game.phase === 'battle' && canAttack(game, c))}
+            targetable={chooseKeys.has(`u:${c.uid}`) || blockKeys.has(c.uid) || (equipping !== null && !c.relic) || (myTurnFree && game.phase === 'battle' && canAttack(game, c))}
             onClick={() => clickMine(c)} onHover={(on) => inspectChamp(on ? c : null)} />}</div>;
         })}
       </div>
@@ -202,7 +217,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
           const choosable = pend?.kind === 'choose' && chooseKeys.has(`h:${i}`);
           const playable = !pend && !!pl?.action;
           return (
-            <button type="button" key={`${id}-${i}`} className={`handcard ${playable ? 'playable' : ''} ${choosable || pend?.kind === 'discard' ? 'choosable' : ''}`}
+            <button type="button" key={`${id}-${i}`} className={`handcard ${playable ? 'playable' : ''} ${choosable || pend?.kind === 'discard' || cycling ? 'choosable' : ''} ${equipping === i ? 'equipping' : ''}`}
               style={{ ['--i' as string]: i, ['--n' as string]: me.hand.length }} onClick={() => clickHand(i)}
               onMouseEnter={() => setInspect({ kind: 'card', id })} onMouseLeave={() => setInspect(null)}
               aria-label={`${CARDS[id].name}. ${pl?.reason ?? ''}`}>
@@ -226,6 +241,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
             {selChamp && selChamp.owner === ME && <SelectedPanel game={game} c={selChamp} act={act} onAttackCrown={attackCrown} onClear={() => setSelected(null)} />}
             <div className="btnrow">
               {game.phase === 'main' && <button type="button" className="primary" onClick={() => act({ type: 'toBattle' })}>To battle ⚔</button>}
+              {game.phase === 'main' && legalActions(game).some((a) => a.type === 'cycle') && <button type="button" className={`secondary ${cycling ? 'on' : ''}`} onClick={() => setCycling(!cycling)} title="Edict: once per turn, pay 1 Command to put a card from your hand on the bottom of your deck and draw a card.">{cycling ? 'Cancel cycle' : 'Cycle (1)'}</button>}
               {game.phase === 'battle' && <button type="button" className="primary" onClick={() => act({ type: 'endBattle' })}>End battle</button>}
               <button type="button" className={game.phase === 'after' ? 'primary' : 'secondary'} onClick={() => act({ type: 'endTurn' })}>End turn</button>
             </div>
@@ -391,6 +407,8 @@ function KeywordHelp({ id }: { id: string }) {
   for (const k of Object.keys(GLOSSARY)) if (c.text.includes(k)) words.add(k);
   if (isSpellCard(c) && c.shardfall) words.add('Shardfall');
   if (isSpellCard(c) && c.swift) words.add('Swift');
+  if (c.kind === 'relic') { words.add('Relic'); (c.keywords ?? []).forEach((k) => GLOSSARY[k] && words.add(k)); }
+  if (c.kind === 'edict') words.add('Edict');
   if (!words.size) return null;
   return <dl className="kwhelp">{[...words].map((w) => <React.Fragment key={w}><dt>{w}</dt><dd>{GLOSSARY[w]}</dd></React.Fragment>)}</dl>;
 }

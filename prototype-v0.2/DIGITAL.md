@@ -1,6 +1,6 @@
 # Sovereign's Hand V0.2: digital vertical slice
 
-A playable controlled experiment of **The Shattered Crown**: you against an AI, with the two canonical starter decks.
+A playable controlled experiment: you against an AI, with the four starter decks from Set 1 (The Shattered Crown) and Set 2 (Beneath the Arena).
 It is not the collectible game. There is no online play, collection, packs, trading or purchases.
 
 ## Play it
@@ -10,7 +10,10 @@ npm ci
 npm run dev        # then open the address Vite prints
 ```
 
-- **Menu:** pick Banner of the Realm or Blood & Ember, then **Play vs AI**. **How to play** shows the quick rules.
+- **Menu:** pick one of the four decks, then **Play vs AI**. The AI plays the other starter deck from the same set. **How to play** shows the quick rules.
+- **Relics:** click a Relic in your hand, then click the champion to attach it to (click the Relic again to cancel). The champion shows a gold Relic badge.
+- **Edicts:** the Edict in play shows as a gold pill in the middle of the board; hover it to read it. If it allows Cycling, a **Cycle (1)** button appears in your Main step.
+- Monsters, Guardians and tokens carry a label on the board. Tokens vanish when defeated.
 - **Hand:** gold-outlined cards are playable now. Hover a card to see it full size, along with why it can or can't be played.
 - **Battle:** press **To battle**, click one of your ready champions, then pick a target in the right-hand panel. Each target shows the predicted clash before you commit.
 - **Ascend:** click your champion and the panel shows its next form, cost and effect, or the reason it can't Ascend yet.
@@ -35,7 +38,7 @@ No rule was changed. One wording was resolved in the printed text's favour:
 | Rules engine | `src/v02/rules/engine.ts`, `types.ts` | Pure TypeScript with no DOM, clock or `Math.random`. `apply(state, player, action)` validates against `legalActions` and returns a new state. Seeded RNG is stored in the state. Every step is logged in plain language with clash reports. |
 | AI | `src/v02/ai/bot.ts` | Chooses one legal action at a time from information a player at the table would have. The same heuristics balanced the paper decks. |
 | UI | `src/v02/ui/*` | React. Reads state and sends actions; it never decides outcomes. A fixed 1600×900 stage scales to the window. |
-| Tests | `tests/v02/engine.test.ts` | 28 gameplay tests (see VALIDATION.md). |
+| Tests | `tests/v02/*.test.ts` | 52 gameplay tests across the core rules, Set 1 effects and the Set 2 card types (see VALIDATION.md). |
 | Balance run | `scripts/v02-sim.ts` | `npm run sim:v02`. |
 
 The same `apply` contract is what a future server would validate for online play. That isn't built.
@@ -45,4 +48,4 @@ The same `apply` contract is what a future server would validate for online play
 - Designed for desktop and tablet in landscape. On a phone it fits but is small.
 - Single AI difficulty. The AI is cautious with Ascending and doesn't bluff.
 - No sound yet, and no saving a match in progress (closing the tab ends it).
-- The art is the 256 px game portraits from Crownfall, so cards look slightly soft when zoomed.
+- The art is the 256 px game portraits from Crownfall, so cards look slightly soft when zoomed. Set 2 champions reuse those portraits until the new art exists; Monsters, Guardians, Relics and tokens have no art yet.

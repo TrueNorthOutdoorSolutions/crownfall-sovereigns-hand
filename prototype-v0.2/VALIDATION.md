@@ -40,7 +40,7 @@ node prototype-v0.2/tools/build-print.mjs   # print kit + PDFs
 **Balance changes made from the data:**
 - Evolution forms: about +3/+3 per star, and Ascend costs −1.
 - Aurex ★: 6/6 → 7/8.
-- Firestorm: cost 3 → 2.
+- Firestorm (now named Wildfire): cost 3 → 2.
 - Second player: draws 6 cards at setup.
 - Extra Tier V shard penalty: removed.
 
@@ -73,3 +73,11 @@ node prototype-v0.2/tools/build-print.mjs   # print kit + PDFs
 - `npm run proto:validate` now runs **2,604 checks**: canon (names, titles, tiers, Origins, Classes, ability names) for all 55, each form stronger than the last, every printed effect implemented and every implemented effect printed.
 - `tests/v02/set1.test.ts` (9 tests) covers the new effects (Shield itself, weaken a rival, effects on "the defender" including blockers, deploy from the Fallen pile, ready another champion, Crownless staying standing, Dreadmouth's Shield) and plays full AI games with test decks that use all 165 champion cards.
 - Set 1 cards outside the starter decks are **drafts**: playable, but their numbers are not yet balance-tested in a deck.
+
+## 7. Two sets and four starter decks
+
+- **Content.** Set 1 (The Shattered Crown) is 256 card faces and Set 2 (Beneath the Arena) is 240; see `SETS.md`. All of it is in the game's card data and playable by the engine and AI.
+- **`npm run proto:validate`: 7,194 checks, 0 failed.** New coverage: canon for both sets (Set 2 champions keep name, tier, Origins and Classes, and carry a new PROPOSED epithet and art scene); Monsters, Guardians and tokens are canonical Crownfall units with their canonical abilities; every one of the 67 canonical Crown Powers is used; Relics cover every canonical item except the Crown Shard; Edicts and hosts are canonical. Set 1 starter decks still match the paper-tested cards rule for rule (seven spells were renamed to canonical Crown Powers; their rules are identical). Deck legality covers Guardians and Legendary Relics. Every printed effect is implemented and every implemented effect is printed, for all cards. Determinism and card conservation hold for every deck pairing.
+- **Mutation test.** Deliberately breaking three Set 2 card texts (Kael's Arrival, Iron Plate's Guard, Crystal Mite's Loot) made the validator fail on exactly those three cards (four checks). Restoring them returned it to zero failures.
+- **Gameplay tests: 52 for V0.2 (69 including the unchanged V0.1 suite).** `tests/v02/sets.test.ts` (15 new): Relics attach, add stats and follow the champion to the Fallen pile; one per champion; Emblems and the Crown of the First Realm add Origins; the Sovereign Crown adds a Champion Zone; free attach on Arrival; Edicts apply to both players and replace each other; tokens vanish; Monster Loot; the Clockwork Hydra splits; the Spider Queen summons each turn; Void can't break your last shard; Ascension Rite; Prodigy's Path; seeded coin flips; Crests. It also plays full AI games for all 16 deck pairings.
+- **Balance run** (`npm run sim:v02`, 1,000 games per pairing, 6,000 total, `validation/engine-sim.json`): Banner 51.0 vs Ember 49.0; Vault 54.5 vs Brood 45.5. Cross-set the spread is wider (Ember beats Brood 59.5%). Overall: Ember 55.1, Vault 49.3, Banner 48.3, Brood 47.3. First player 47–51% in every pairing. 0 conservation failures. The full table is in `SETS.md`.

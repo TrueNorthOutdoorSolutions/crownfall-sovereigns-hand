@@ -3,6 +3,7 @@
 const VERBS: Record<string, string> = {
   keeps: 'keep', shuffles: 'shuffle', deploys: 'deploy', casts: 'cast', sets: 'set', springs: 'spring', moves: 'move',
   ASCENDS: 'ASCEND', goes: 'go', gets: 'get', draws: 'draw', discards: 'discard', does: 'do', chooses: 'choose', breaks: 'break', wins: 'win',
+  adds: 'add', attaches: 'attach', controls: 'control', gains: 'gain', has: 'have', proclaims: 'proclaim', puts: 'put', summons: 'summon', cycles: 'cycle',
 };
 
 export function humanize(text: string): string {

@@ -119,3 +119,32 @@ Take the top shard into your **hand**. It was always one of your own cards. If i
 - **Does damage stay on a champion?** No. Every clash is a fresh comparison.
 - **Can a champion that just arrived block?** Yes.
 - **Who acts first in a response window?** The defender, then the attacker. Each side gets one response per attack.
+
+## Expansion rules: Set 1 extras and Set 2 (PROPOSED)
+
+These add new card types. They don't change anything above. The two Set 1 starter decks don't use them, so a first game can ignore this section.
+
+**Building a deck.** 30 cards, at most 2 copies of any card, at most 1 Ascendant, at most 1 **Guardian**, and only 1 copy of each **Legendary** Relic. You also have an Ascension Pile of up to 8 cards (at most 2 per form). A champion can only Ascend into forms with the same name **and** the same title: Kael, Relic Seeker (Set 2) Ascends into Kael, Relic Seeker ★★, never into Set 1 Kael's forms.
+
+**Relics.** In your Main step, pay a Relic's cost and attach it to one of your champions that has no Relic. A champion holds at most one. The Relic adds its Might, Guard, keywords and text to that champion, including after it Ascends. If the champion is defeated, the Relic goes to your Fallen pile (or wherever a card says). **Emblems** give the holder that Origin as well as its own. The **Crown of the First Realm** makes its holder count as every Origin. The **Sovereign Crown** gives you a fifth Champion Zone while it is in play.
+
+**Edicts.** In your Main step, pay an Edict's cost and put it face-up between the two players. It applies to **both** players. Only one Edict is in play: a new one replaces it, and the old one goes to its owner's Fallen pile. Some Edicts let you **Cycle**: once per turn, pay 1 Command to put a card from your hand on the bottom of your deck, then draw a card.
+
+**Monsters and Guardians.** These are champions with no Origin or Class. Deploy and fight with them as normal; they can't Ascend. Most have **Loot**: when they are defeated, their owner's rival gets a reward (the card says what). A **Guardian** is a huge Monster, limited to one per deck.
+
+**Summon and tokens.** "Summon a Void Spider" means: put that token into one of your empty Champion Zones. If none are empty, nothing happens. A token arrives like a deployed champion (no attacking this turn unless it has Charge). It isn't a card: when it is defeated or leaves play, remove it from the game. It never goes to a pile or your hand.
+
+**Breaking your own shard.** Some Void cards say "break one of your shards". It returns to your hand like any broken shard, and Shardfall still works. You **can't** play a card that would break your last shard.
+
+**Coin flips.** "Flip a coin" means a real coin (heads or tails). The digital game uses its seeded shuffle, so a replay always flips the same way.
+
+**"Ascend it now".** Some Evolution cards Ascend a champion immediately. It is free and turns the champion sideways (unless the card says it stays standing). It doesn't count as your one Ascend for the turn, and it ignores "on the field since your turn began".
+
+| Term | Meaning |
+| --- | --- |
+| **Guardian** | A huge Monster. One per deck. |
+| **Loot** | When this is defeated, its rival gets the listed reward. |
+| **Summon X** | Put an X token into an empty Champion Zone of yours. |
+| **Token** | Not a card. Removed from the game when defeated. |
+| **Relic / Emblem** | Attaches to a champion. An Emblem adds an Origin. |
+| **Edict** | Shared by both players. Replaced by the next Edict. |

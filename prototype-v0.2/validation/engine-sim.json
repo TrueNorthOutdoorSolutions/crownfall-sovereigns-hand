@@ -1,20 +1,100 @@
 {
   "engine": "src/v02/rules/engine.ts",
-  "games": 4000,
-  "seeds": "20000..23999",
-  "winRate": {
-    "banner": 51.6,
-    "ember": 48.5
+  "gamesPerPairing": 1000,
+  "totalGames": 6000,
+  "seeds": "20000..25999",
+  "overallWinRate": {
+    "banner": 48.3,
+    "ember": 55.1,
+    "vault": 49.3,
+    "brood": 47.3
   },
-  "firstPlayerWinRate": 50.5,
-  "rounds": {
-    "median": 7,
-    "p90": 10,
-    "max": 12
+  "conservationFailures": 0,
+  "pairings": {
+    "banner vs ember": {
+      "bannerWinRate": 51,
+      "emberWinRate": 49,
+      "firstPlayerWinRate": 51.2,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 5.9,
+      "playersReachingStar2": 66,
+      "playersReachingStar3": 42.4,
+      "ascendsPerGame": 2.8
+    },
+    "banner vs vault": {
+      "bannerWinRate": 49.8,
+      "vaultWinRate": 50.2,
+      "firstPlayerWinRate": 47.2,
+      "rounds": {
+        "median": 8,
+        "p90": 10,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 7.5,
+      "playersReachingStar2": 74.2,
+      "playersReachingStar3": 46.5,
+      "ascendsPerGame": 3.2
+    },
+    "banner vs brood": {
+      "bannerWinRate": 44.2,
+      "broodWinRate": 55.8,
+      "firstPlayerWinRate": 47.4,
+      "rounds": {
+        "median": 6,
+        "p90": 9,
+        "max": 11
+      },
+      "endedByRound10OrDeckOut": 2.9,
+      "playersReachingStar2": 60.9,
+      "playersReachingStar3": 39.9,
+      "ascendsPerGame": 2.6
+    },
+    "ember vs vault": {
+      "emberWinRate": 56.8,
+      "vaultWinRate": 43.2,
+      "firstPlayerWinRate": 51,
+      "rounds": {
+        "median": 9,
+        "p90": 11,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 19.3,
+      "playersReachingStar2": 69.6,
+      "playersReachingStar3": 41.4,
+      "ascendsPerGame": 2.9
+    },
+    "ember vs brood": {
+      "emberWinRate": 59.5,
+      "broodWinRate": 40.5,
+      "firstPlayerWinRate": 50.7,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 12.2,
+      "playersReachingStar2": 55.3,
+      "playersReachingStar3": 34.2,
+      "ascendsPerGame": 2.1
+    },
+    "vault vs brood": {
+      "vaultWinRate": 54.5,
+      "broodWinRate": 45.5,
+      "firstPlayerWinRate": 49.5,
+      "rounds": {
+        "median": 8,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 10,
+      "playersReachingStar2": 64.6,
+      "playersReachingStar3": 36.1,
+      "ascendsPerGame": 2.5
+    }
   },
-  "endedByRound10OrDeckOut": 6.2,
-  "playersReachingStar2": 65.6,
-  "playersReachingStar3": 41.7,
-  "ascendsPerGame": 2.8,
-  "msPerGame": 9
+  "msPerGame": 8.9
 }
