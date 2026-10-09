@@ -38,14 +38,22 @@ export const top = (c: ChampionInPlay): ChampionCard => champion(c.stack[c.stack
 export const relicOf = (c: ChampionInPlay): RelicCard | null => (c.relic ? relic(c.relic) : null);
 export const hasKeyword = (c: ChampionInPlay, k: Keyword) => top(c).keywords.includes(k) || !!relicOf(c)?.keywords?.includes(k);
 /** Origins of a champion in play: its own plus an Emblem's. */
-export const originsOf = (c: ChampionInPlay): string[] => [...top(c).line.origins, ...(relicOf(c)?.origin ? [relicOf(c)!.origin!] : [])];
+export const ALL_ORIGINS = ['kingdom', 'gearbound', 'astral', 'verdant', 'hollow', 'umbral', 'elemental', 'wildkin', 'voltborn', 'riftborn', 'dawnforged', 'hexbound', 'titanborn', 'wyrmblood', 'crownless'];
+export const originsOf = (c: ChampionInPlay): string[] => relicOf(c)?.allOrigins ? ALL_ORIGINS
+  : [...top(c).line.origins, ...(relicOf(c)?.origin ? [relicOf(c)!.origin!] : [])];
 const staticsOf = (c: ChampionInPlay): Statics[] => [top(c).statics, relicOf(c)?.statics].filter((x): x is Statics => !!x);
 type TriggerKey = 'attack' | 'block' | 'attacked' | 'defeats' | 'defeated' | 'rise';
 /** A champion's trigger effects, including its Relic's. */
 const triggers = (c: ChampionInPlay, key: TriggerKey): Effect[] => [...((top(c) as ChampionForm)[key] ?? []), ...((relicOf(c) as Record<string, Effect[] | undefined> | null)?.[key] ?? [])];
 export const edictRule = (s: GameState): EdictRule => (s.edict ? edict(s.edict.card).rule : {});
 /** Champion Zones available: 4, or 5 with the Sovereign Crown. */
-export const zonesFor = (s: GameState, p: PlayerIndex) => ZONES + (s.players[p].field.some((c) => relicOf(c)?.extraZone) ? 1 : 0);
+export const zonesFor = (s: GameState, p: PlayerIndex) => ZONES + (s.players[p].extraZones ?? 0) + (s.players[p].field.some((c) => relicOf(c)?.extraZone) ? 1 : 0);
+/** A champion in play matches a trait: an Origin, a Class, 'token', or 'ascended' (★★ or ★★★). */
+export const hasTrait = (c: ChampionInPlay, trait: string) => trait === 'token' ? !!c.token : trait === 'ascended' ? c.stack.length > 1
+  : trait === 'monster' ? top(c).family === 'monster' || top(c).family === 'guardian' : trait === 'relic' ? !!c.relic
+  : originsOf(c).includes(trait) || top(c).line.classes.includes(trait);
+/** Effects that break your own shards can't be used if they would break your last one. */
+export const selfShardCost = (effects: Effect[]) => effects.reduce((n, e) => n + (e.op === 'selfShard' ? e.n : 0), 0);
 export const relicCost = (s: GameState, r: RelicCard) => Math.max(0, r.cost - (edictRule(s).relicDiscount ?? 0));
 export const ascendCost = (s: GameState, next: ChampionCard) => Math.max(0, next.cost - (edictRule(s).ascendDiscount ?? 0) - (next.star === 3 ? edictRule(s).star3Discount ?? 0 : 0));
 export const stars = (n: number) => '★'.repeat(n);
@@ -61,25 +69,27 @@ export function might(s: GameState, c: ChampionInPlay): number {
   for (const st of staticsOf(c)) {
     if (st.mightIfBehind && behind(s, c.owner)) m += st.mightIfBehind;
     if (st.mightWhileBlocking && c.blocking) m += st.mightWhileBlocking;
+    if (st.mightIfRelic && c.relic) m += st.mightIfRelic;
   }
   const mine = originsOf(c);
   for (const a of s.players[c.owner].field) {
     if (a === c) continue;
     for (const st of staticsOf(a)) {
       m += st.auraMight ?? 0;
-      if (st.originAura && mine.includes(st.originAura.origin)) m += st.originAura.might ?? 0;
+      if (st.originAura && hasTrait(c, st.originAura.origin)) m += st.originAura.might ?? 0;
     }
   }
   return Math.max(0, m);
 }
 export function guard(s: GameState, c: ChampionInPlay): number {
   let g = top(c).guard + (relicOf(c)?.guard ?? 0) + c.mods.guard;
+  for (const st of staticsOf(c)) if (st.guardIfRelic && c.relic) g += st.guardIfRelic;
   const mine = originsOf(c);
   for (const a of s.players[c.owner].field) {
     if (a === c) continue;
     for (const st of staticsOf(a)) {
       g += st.auraGuard ?? 0;
-      if (st.originAura && mine.includes(st.originAura.origin)) g += st.originAura.guard ?? 0;
+      if (st.originAura && hasTrait(c, st.originAura.origin)) g += st.originAura.guard ?? 0;
     }
   }
   return Math.max(0, g);
@@ -211,16 +221,16 @@ function runItem(s: GameState, item: QueueItem) {
   }
 }
 
-function breakShard(s: GameState, player: PlayerIndex, reason: 'attack' | 'breakthrough' | 'stall' | 'deckout') {
+function breakShard(s: GameState, player: PlayerIndex, reason: 'attack' | 'breakthrough' | 'stall' | 'deckout' | 'sacrifice') {
   const pl = s.players[player];
   const c = pl.crown.pop();
   if (c === undefined) return;
   pl.hand.push(c);
   if (reason === 'attack' || reason === 'breakthrough') s.stats.shardsBroken[rival(player)]++;
-  const why = { attack: 'an unblocked attack', breakthrough: 'Breakthrough', stall: 'the round-10 rule', deckout: 'an empty deck' }[reason];
+  const why = { attack: 'an unblocked attack', breakthrough: 'Breakthrough', stall: 'the round-10 rule', deckout: 'an empty deck', sacrifice: 'a Void sacrifice' }[reason];
   log(s, 'shard', `${P(player)}'s Crown Shard breaks (${why}). ${pl.crown.length} left. It returns to their hand: ${CARDS[c].name}.`, player);
   if (!pl.crown.length) {
-    gameOver(s, rival(player), reason === 'stall' || reason === 'deckout'
+    gameOver(s, rival(player), reason === 'stall' || reason === 'deckout' || reason === 'sacrifice'
       ? `${P(player)}'s last shard broke to ${why}.` : `${P(rival(player))} broke all five of ${P(player)}'s Crown Shards.`);
     return;
   }
@@ -261,13 +271,26 @@ function choiceOptions(s: GameState, item: EffectItem): ChoiceOption[] | null {
       if (me.field.length >= zonesFor(s, item.controller)) return [];
       return me.fallen.map((id, i) => ({ id, i })).filter(({ id }) => CARDS[id].kind === 'champion' && (CARDS[id] as ChampionCard).cost <= e.maxCost)
         .map(({ id, i }) => ({ key: `f:${i}`, label: `${CARDS[id].name} ★ (from your Fallen pile, cost ${(CARDS[id] as ChampionCard).cost})` }));
+    case 'equipFree': {
+      const holder = item.self !== undefined ? findChampion(s, item.self) : null;
+      if (!holder || holder.relic) return [];
+      return me.hand.map((id, i) => ({ id, i })).filter(({ id }) => isRelicCard(CARDS[id]) && (CARDS[id] as RelicCard).cost <= e.maxCost)
+        .map(({ id, i }) => ({ key: `h:${i}`, label: `${CARDS[id].name} (attach for free)` }));
+    }
     case 'returnFallen':
+      if (e.what === 'relic') return me.fallen.map((id, i) => ({ id, i })).filter(({ id }) => isRelicCard(CARDS[id]))
+        .map(({ id, i }) => ({ key: `f:${i}`, label: `${CARDS[id].name} (Relic, from your Fallen pile)` }));
       return me.fallen.map((id, i) => ({ id, i })).filter(({ id }) => CARDS[id].kind === 'champion')
         .map(({ id, i }) => ({ key: `f:${i}`, label: `${CARDS[id].name} ★ (from your Fallen pile)` }));
     case 'unequip': return [...me.field, ...them.field].filter((c) => c.relic).map(champOpt);
+    case 'ascendNow':
+      return me.field.filter((c) => nextAscension(s, c) && top(c).star <= (e.maxStar ?? 2)).map(champOpt);
+    case 'tuck':
+      return me.hand.map((id, i) => ({ key: `h:${i}`, label: `${CARDS[id].name} (to the bottom of your deck)` }));
     case 'deployFree':
       if (me.field.length >= zonesFor(s, item.controller)) return [];
-      return me.hand.map((id, i) => ({ id, i })).filter(({ id }) => CARDS[id].kind === 'champion' && (CARDS[id] as ChampionCard).cost <= e.maxCost)
+      return me.hand.map((id, i) => ({ id, i })).filter(({ id }) => CARDS[id].kind === 'champion' && (CARDS[id] as ChampionCard).cost <= e.maxCost
+        && (!e.family || (CARDS[id] as ChampionCard).family === 'monster' || (CARDS[id] as ChampionCard).family === 'guardian'))
         .map(({ id, i }) => ({ key: `h:${i}`, label: `${CARDS[id].name} ★ (cost ${(CARDS[id] as ChampionCard).cost})` }));
     case 'mend':
       if (me.crown.length >= SHARDS) return [];
@@ -288,12 +311,19 @@ const PROMPTS: Partial<Record<Effect['op'], string>> = {
   returnFallen: 'Choose a ★ champion to return from your Fallen pile to your hand.',
   deployFree: 'Choose a ★ champion to deploy for free.',
   deployFromFallen: 'Choose a ★ champion to deploy from your Fallen pile for free.',
+  equipFree: 'Choose a Relic from your hand to attach for free.',
   readyOther: 'Choose one of your sideways champions to ready.',
+  ascendNow: 'Choose one of your champions to Ascend for free.',
+  tuck: 'Choose a card from your hand to put on the bottom of your deck.',
+  unequip: 'Choose a champion whose Relic returns to its owner\'s hand.',
   mend: 'Choose a card from your hand to become a new Crown Shard.',
   gateBlock: 'Choose a champion to ready and block the attack.',
 };
 
 function runEffect(s: GameState, item: EffectItem) {
+  const cond = item.effect.when;
+  if (cond === 'behind' && !behind(s, item.controller)) return;
+  if (cond === 'ahead' && !(s.players[item.controller].crown.length > s.players[rival(item.controller)].crown.length)) return;
   const options = choiceOptions(s, item);
   if (options !== null) {
     const optional = 'optional' in item.effect ? !!item.effect.optional : false;
@@ -341,9 +371,50 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       log(s, 'effect', `${src}: every champion ${P(p)} controls gains a Shield.`, p);
       return;
     case 'buffAll': {
+      if (e.maxField !== undefined && me.field.length > e.maxField) { log(s, 'effect', `${src}: you control more than ${e.maxField} champions, so it does nothing.`, p); return; }
       const m = e.might + (e.extraIfBehind && behind(s, p) ? e.extraIfBehind : 0);
-      for (const c of me.field) c.mods.might += m;
-      log(s, 'effect', `${src}: ${P(p)}'s champions get +${m} Might this turn.`, p);
+      for (const c of me.field) { c.mods.might += m; c.mods.guard += e.guard ?? 0; }
+      log(s, 'effect', `${src}: ${P(p)}'s champions get ${m >= 0 ? '+' : ''}${m} Might${e.guard ? ` and ${e.guard > 0 ? '+' : ''}${e.guard} Guard` : ''} this turn.`, p);
+      return;
+    }
+    case 'buffTrait': {
+      const hit = me.field.filter((c) => hasTrait(c, e.trait));
+      for (const c of hit) { c.mods.might += e.might; c.mods.guard += e.guard ?? 0; }
+      log(s, 'effect', `${src}: ${hit.length} champion${hit.length === 1 ? '' : 's'} (${e.trait}) get +${e.might} Might${e.guard ? ` and +${e.guard} Guard` : ''} this turn.`, p);
+      return;
+    }
+    case 'selfShard':
+      for (let k = 0; k < e.n; k++) s.queue.unshift({ kind: 'breakShard', player: p, reason: 'sacrifice' });
+      log(s, 'effect', `${src}: ${P(p)} breaks ${e.n === 1 ? 'one' : e.n} of their own shards.`, p);
+      return;
+    case 'extraZone':
+      me.extraZones = (me.extraZones ?? 0) + e.n;
+      log(s, 'effect', `${src}: ${P(p)} has ${zonesFor(s, p)} Champion Zones for the rest of the game.`, p);
+      return;
+    case 'coinFlip': {
+      const heads = nextRandom(s) < 0.5;
+      log(s, 'effect', `${src}: the coin lands ${heads ? 'heads' : 'tails'}.`, p);
+      queueEffects(s, heads ? e.heads : e.tails, { controller: p, source: item.source, self: item.self, ctx: item.ctx }, true);
+      return;
+    }
+    case 'tuck': {
+      if (!key) return;
+      const [id] = me.hand.splice(Number(key.slice(2)), 1);
+      me.deck.unshift(id);
+      log(s, 'effect', `${src}: ${P(p)} puts a card on the bottom of their deck.`, p);
+      return;
+    }
+    case 'ascendNow': {
+      const c = byKey(key);
+      const next = c ? nextAscension(s, c) : null;
+      if (!c || !next) return;
+      me.ascension.splice(me.ascension.indexOf(next.id), 1);
+      c.stack.push(next.id);
+      c.ascendedTurn = s.turn;
+      if (!e.stayReady) c.exhausted = true;
+      s.stats.ascends[p]++;
+      log(s, 'ascend', `${P(p)} ASCENDS ${next.name} to ${stars(next.star)} for free (${src}).${e.stayReady ? ' It stays standing.' : ' It turns sideways.'}`, p);
+      queueEffects(s, next.ascend, { controller: p, source: next.id, self: c.uid }, true);
       return;
     }
     case 'buffOthers':
@@ -409,6 +480,14 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       if (!key) return;
       const i = Number(key.slice(2));
       placeChampion(s, p, i, true);
+      return;
+    }
+    case 'equipFree': {
+      const holder = item.self !== undefined ? findChampion(s, item.self) : null;
+      if (!key || !holder) return;
+      const [id] = me.hand.splice(Number(key.slice(2)), 1);
+      holder.relic = id;
+      log(s, 'effect', `${src}: ${CARDS[id].name} is attached to ${champName(holder)} for free.`, p);
       return;
     }
     case 'deployFromFallen': {
@@ -713,6 +792,7 @@ export function handPlayability(s: GameState, p: PlayerIndex): { action: 'deploy
       return { action: 'setScheme', reason: `Set face-down for free. Spring it on your rival's turn for ${d.cost} Command.` };
     }
     if (pl.command < d.cost) return { action: null, reason: `Needs ${d.cost} Command (you have ${pl.command}).` };
+    if (isSpellCard(d) && selfShardCost(d.effects) >= pl.crown.length) return { action: null, reason: 'It would break your last shard.' };
     return { action: 'cast', reason: `Cast for ${d.cost} Command.` };
   });
 }

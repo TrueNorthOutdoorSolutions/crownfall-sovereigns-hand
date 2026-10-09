@@ -25,6 +25,7 @@ const ready: Effect = { op: 'readyOncePerTurn' };
 const readyOther: Effect = { op: 'readyOther' };
 const readySelf: Effect = { op: 'readySelf' };
 const stop: Effect = { op: 'stopOthersAttacking' };
+const summon = (token: string, count = 1): Effect => ({ op: 'summon', token: `token-${token}`, count });
 const again = (name: string) => `Once per turn, when ${name} defeats a champion on your turn, ready ${name}.`;
 
 export const SET1_LINES: ChampionLine[] = [
@@ -132,11 +133,10 @@ export const SET1_LINES: ChampionLine[] = [
   {
     canonId: 'seren', name: 'Seren', title: 'Keeper of Starlings', tier: 2, origins: ['astral'], classes: ['summoner'],
     forms: [
-      { star: 1, cost: 2, might: 1, guard: 2, keywords: [], ability: 'Starling', text: 'Arrival: Draw a card.', arrive: [draw(1)] },
-      { star: 2, cost: 1, might: 3, guard: 5, keywords: ['Flight'], ability: 'Starling',
-        text: 'Ascend: Deploy a ★ champion costing 2 or less from your hand for free.', ascend: [fromHand(2)] },
+      { star: 1, cost: 2, might: 1, guard: 2, keywords: [], ability: 'Starling', text: 'Arrival: Summon a Starling.', arrive: [summon('starling')] },
+      { star: 2, cost: 1, might: 3, guard: 5, keywords: ['Flight'], ability: 'Starling', text: 'Ascend: Summon two Starlings.', ascend: [summon('starling', 2)] },
       { star: 3, cost: 2, might: 6, guard: 8, keywords: ['Flight'], ability: 'Starling',
-        text: 'Ascend: Deploy a ★ champion costing 3 or less from your hand for free. Draw a card.', ascend: [fromHand(3), draw(1)] },
+        text: 'Ascend: Summon two Starlings. Draw a card.', ascend: [summon('starling', 2), draw(1)] },
     ],
   },
   {
@@ -199,13 +199,10 @@ export const SET1_LINES: ChampionLine[] = [
   {
     canonId: 'spark', name: 'Professor Spark', title: 'Arc-Engineer Extraordinaire', tier: 3, origins: ['gearbound'], classes: ['summoner'],
     forms: [
-      { star: 1, cost: 3, might: 2, guard: 3, keywords: [], ability: 'Deploy Turret',
-        text: 'Arrival: Deploy a ★ champion costing 1 or less from your hand for free.', arrive: [fromHand(1)] },
-      { star: 2, cost: 1, might: 5, guard: 6, keywords: [], ability: 'Deploy Turret',
-        text: 'Ascend: Deploy a ★ champion costing 2 or less from your hand for free.', ascend: [fromHand(2)] },
+      { star: 1, cost: 3, might: 2, guard: 3, keywords: [], ability: 'Deploy Turret', text: 'Arrival: Summon an Arc Turret.', arrive: [summon('turret')] },
+      { star: 2, cost: 1, might: 5, guard: 6, keywords: [], ability: 'Deploy Turret', text: 'Ascend: Summon an Arc Turret.', ascend: [summon('turret')] },
       { star: 3, cost: 2, might: 8, guard: 9, keywords: ['Bulwark'], ability: 'Deploy Turret',
-        text: 'Ascend: Deploy a ★ champion costing 3 or less from your hand for free. Your other champions have +1 Guard.',
-        ascend: [fromHand(3)], statics: { auraGuard: 1 } },
+        text: 'Ascend: Summon two Arc Turrets. Your other champions have +1 Guard.', ascend: [summon('turret', 2)], statics: { auraGuard: 1 } },
     ],
   },
   {
@@ -240,13 +237,12 @@ export const SET1_LINES: ChampionLine[] = [
   {
     canonId: 'morrow', name: 'Morrow', title: 'The Gravecaller', tier: 3, origins: ['hollow'], classes: ['summoner'],
     forms: [
-      { star: 1, cost: 3, might: 2, guard: 3, keywords: [], ability: 'Raise Fallen',
-        text: 'Arrival: Return a ★ champion from your Fallen pile to your hand.', arrive: [ret] },
+      { star: 1, cost: 3, might: 2, guard: 3, keywords: [], ability: 'Raise Fallen', text: 'Arrival: Summon a Risen Soldier.', arrive: [summon('skeleton')] },
       { star: 2, cost: 1, might: 5, guard: 6, keywords: [], ability: 'Raise Fallen',
         text: 'Ascend: Deploy a ★ champion costing 2 or less from your Fallen pile for free.', ascend: [fromFallen(2)] },
       { star: 3, cost: 2, might: 8, guard: 9, keywords: [], ability: 'Raise Fallen',
-        text: 'Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Return a ★ champion from your Fallen pile to your hand.',
-        ascend: [fromFallen(3), retOpt] },
+        text: 'Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Summon two Risen Soldiers.',
+        ascend: [fromFallen(3), summon('skeleton', 2)] },
     ],
   },
   {
@@ -289,14 +285,11 @@ export const SET1_LINES: ChampionLine[] = [
   {
     canonId: 'vespera', name: 'Queen Vespera', title: 'Monarch of the Umbral Court', tier: 4, origins: ['umbral'], classes: ['summoner'],
     forms: [
-      { star: 1, cost: 4, might: 3, guard: 4, keywords: [], ability: 'Court of Shadows',
-        text: 'Arrival: Deploy a ★ champion costing 2 or less from your hand for free.', arrive: [fromHand(2)] },
+      { star: 1, cost: 4, might: 3, guard: 4, keywords: [], ability: 'Court of Shadows', text: 'Arrival: Summon two Court Shades.', arrive: [summon('shadow', 2)] },
       { star: 2, cost: 1, might: 6, guard: 7, keywords: [], ability: 'Court of Shadows',
-        text: 'Ascend: Deploy a ★ champion costing 3 or less from your hand for free. Your other champions have +1 Might.',
-        ascend: [fromHand(3)], statics: { auraMight: 1 } },
+        text: 'Ascend: Summon a Court Shade. Your other champions have +1 Might.', ascend: [summon('shadow')], statics: { auraMight: 1 } },
       { star: 3, cost: 2, might: 9, guard: 10, keywords: [], ability: 'Court of Shadows',
-        text: 'Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Your other champions have +1 Might.',
-        ascend: [fromFallen(3)], statics: { auraMight: 1 } },
+        text: 'Ascend: Summon two Court Shades. Your other champions have +1 Might.', ascend: [summon('shadow', 2)], statics: { auraMight: 1 } },
     ],
   },
   {
@@ -385,12 +378,12 @@ export const SET1_LINES: ChampionLine[] = [
     canonId: 'unwritten', name: 'The Unwritten King', title: 'Lord of the Forgotten', tier: 5, origins: ['hollow'], classes: ['ascendant', 'summoner'],
     forms: [
       { star: 1, cost: 6, might: 5, guard: 7, keywords: ['Ascendant'], ability: 'THE FORGOTTEN LEGION',
-        text: 'Arrival: Deploy a ★ champion costing 3 or less from your Fallen pile for free.', arrive: [fromFallen(3)] },
+        text: 'Arrival: Summon two Fallen Warriors.', arrive: [summon('fallen', 2)] },
       { star: 2, cost: 2, might: 8, guard: 10, keywords: ['Ascendant'], ability: 'THE FORGOTTEN LEGION',
         text: 'Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free.', ascend: [fromFallen(3)] },
       { star: 3, cost: 3, might: 12, guard: 13, keywords: ['Ascendant'], ability: 'THE FORGOTTEN LEGION',
-        text: 'Ascend: Deploy a ★ champion costing 4 or less from your Fallen pile for free. Your other champions have +1 Might.',
-        ascend: [fromFallen(4)], statics: { auraMight: 1 } },
+        text: 'Ascend: Deploy a ★ champion costing 4 or less from your Fallen pile for free. Summon a Fallen Warrior. Your other champions have +1 Might.',
+        ascend: [fromFallen(4), summon('fallen')], statics: { auraMight: 1 } },
     ],
   },
   {
@@ -405,9 +398,10 @@ export const SET1_LINES: ChampionLine[] = [
   {
     canonId: 'mother', name: 'Mother Verdant', title: 'Life Eternal', tier: 5, origins: ['verdant'], classes: ['ascendant', 'summoner'],
     forms: [
-      { star: 1, cost: 6, might: 4, guard: 9, keywords: ['Ascendant'], ability: 'LIFE ETERNAL', text: 'Arrival: Shield each champion you control.', arrive: [shAll] },
+      { star: 1, cost: 6, might: 4, guard: 9, keywords: ['Ascendant'], ability: 'LIFE ETERNAL',
+        text: 'Arrival: Summon a Treant. Shield each champion you control.', arrive: [summon('grove_treant'), shAll] },
       { star: 2, cost: 2, might: 7, guard: 12, keywords: ['Ascendant'], ability: 'LIFE ETERNAL',
-        text: 'Ascend: Return up to two ★ champions from your Fallen pile to your hand.', ascend: [retOpt, retOpt] },
+        text: 'Ascend: Summon two Treants. Return a ★ champion from your Fallen pile to your hand.', ascend: [summon('grove_treant', 2), retOpt] },
       { star: 3, cost: 3, might: 10, guard: 15, keywords: ['Ascendant'], ability: 'LIFE ETERNAL',
         text: 'Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Shield each champion you control. Mend 1.',
         ascend: [fromFallen(3), shAll, { op: 'mend' }] },

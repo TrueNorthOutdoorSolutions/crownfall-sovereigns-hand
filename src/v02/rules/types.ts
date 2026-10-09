@@ -40,6 +40,8 @@ export interface PlayerState {
   mulliganed: boolean;
   /** The Edict this player owns that is currently in play. */
   edictCard?: string | null;
+  /** Extra Champion Zones gained this game (Prodigy's Path and similar). */
+  extraZones?: number;
   cycledOnTurn?: number;
 }
 
@@ -62,7 +64,7 @@ export interface EffectContext { attacker?: number; defender?: number }
 /** A step waiting in the effect queue: a card effect, or an internal turn step. */
 export type QueueItem =
   | { kind: 'effect'; effect: Effect; controller: PlayerIndex; source: string; self?: number; ctx?: EffectContext }
-  | { kind: 'breakShard'; player: PlayerIndex; reason: 'attack' | 'breakthrough' | 'stall' | 'deckout' }
+  | { kind: 'breakShard'; player: PlayerIndex; reason: 'attack' | 'breakthrough' | 'stall' | 'deckout' | 'sacrifice' }
   | { kind: 'draw'; player: PlayerIndex }
   | { kind: 'refill'; player: PlayerIndex }
   | { kind: 'enterMain' };

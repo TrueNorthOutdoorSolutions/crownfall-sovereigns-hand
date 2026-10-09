@@ -93,7 +93,7 @@ describe('Set 1 effects', () => {
 
 describe('every Set 1 card is playable by the engine and AI', () => {
   // Build test decks that cycle through all 55 champion lines, each with its ★★ and ★★★ forms in the Ascension Pile.
-  const lines = ALL_LINES.map((l) => l.canonId);
+  const lines = ALL_LINES.filter((l) => (l.set ?? 1) === 1 && (l.family ?? 'champion') === 'champion').map((l) => l.canonId);
   const decks: DeckDef[] = [];
   for (let i = 0; i < lines.length; i += 4) {
     const group = lines.slice(i, i + 4);

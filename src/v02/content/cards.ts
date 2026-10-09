@@ -17,13 +17,21 @@ export type Keyword = 'Charge' | 'Bulwark' | 'Ambush' | 'Flight' | 'Reach' | 'As
 /** Which set a card belongs to. */
 export type SetId = 1 | 2;
 
-/** Who an effect points at. `choose*` targets are picked by the controlling player when the effect resolves. */
-export type Effect =
+/** Who an effect points at. `choose*` targets are picked by the controlling player when the effect resolves.
+ *  Any effect may carry `when: 'behind' | 'ahead'` (only resolves if you have fewer / more shards than your rival). */
+export type Effect = EffectBody & { when?: 'behind' | 'ahead' };
+type EffectBody =
   | { op: 'scorch'; n: number; target: 'chooseRival' | 'attacker' | 'defender' }
   | { op: 'scorchAll'; n: number }
   | { op: 'shield'; target: 'chooseOwn' | 'chooseOwnOther' | 'self'; optional?: boolean }
   | { op: 'shieldAll' }
-  | { op: 'buffAll'; might: number; extraIfBehind?: number }
+  | { op: 'buffAll'; might: number; guard?: number; extraIfBehind?: number; maxField?: number }
+  | { op: 'buffTrait'; trait: string; might: number; guard?: number }
+  | { op: 'selfShard'; n: number }
+  | { op: 'ascendNow'; maxStar?: 1 | 2; stayReady?: boolean }
+  | { op: 'extraZone'; n: number }
+  | { op: 'coinFlip'; heads: Effect[]; tails: Effect[] }
+  | { op: 'tuck' }
   | { op: 'buffOthers'; might: number }
   | { op: 'buff'; might: number; guard: number; target: 'chooseAny' | 'chooseRival' | 'attacker' | 'defender' }
   | { op: 'draw'; n: number; who?: 'self' | 'rival' }
@@ -31,8 +39,9 @@ export type Effect =
   | { op: 'summon'; token: string; count: number }
   | { op: 'buffRivals'; might: number; guard?: number }
   | { op: 'unequip' }
-  | { op: 'returnFallen'; optional: boolean }
-  | { op: 'deployFree'; maxCost: number }
+  | { op: 'returnFallen'; optional: boolean; what?: 'champion' | 'relic' }
+  | { op: 'deployFree'; maxCost: number; family?: 'monster' }
+  | { op: 'equipFree'; maxCost: number }
   | { op: 'deployFromFallen'; maxCost: number }
   | { op: 'readyOther' }
   | { op: 'readySelf' }
@@ -50,6 +59,9 @@ export interface Statics {
   auraGuard?: number;
   /** Your other champions of this Origin have +might/+guard. */
   originAura?: { origin: string; might?: number; guard?: number };
+  /** While this champion holds a Relic. */
+  mightIfRelic?: number;
+  guardIfRelic?: number;
 }
 
 export interface ChampionForm {
@@ -87,6 +99,8 @@ export interface ChampionLine {
   title: string;
   /** Set 2 epithets are new text awaiting approval. */
   epithetProposed?: boolean;
+  /** PROPOSED art setting for a new version (Set 2), combined with each form's canonical look. */
+  scene?: string;
   tier: 1 | 2 | 3 | 4 | 5;
   origins: string[];
   classes: string[];
@@ -111,6 +125,8 @@ export interface RelicDef {
   origin?: string;
   /** Sovereign Crown: you have one more Champion Zone while it is in play. */
   extraZone?: boolean;
+  /** Crown of the First Realm: the holder counts as every Origin. */
+  allOrigins?: boolean;
   attack?: Effect[];
   block?: Effect[];
   defeats?: Effect[];
@@ -119,6 +135,8 @@ export interface RelicDef {
   statics?: Statics;
   legendary?: boolean;
   deck?: DeckId;
+  /** PROPOSED art brief. */
+  art?: string;
 }
 
 /** A shared rule card. Playing one replaces the Edict already in play. */
@@ -145,6 +163,7 @@ export interface EdictDef {
   text: string;
   rule: EdictRule;
   deck?: DeckId;
+  art?: string;
 }
 
 export type SchemeTrigger = 'rivalAttacks' | 'crownAttacked' | 'crownUnblocked' | 'clash';
@@ -163,6 +182,9 @@ export interface SpellDef {
   swift?: boolean;
   shardfall?: boolean;
   when?: SchemeTrigger;
+  /** PROPOSED art brief; flavour from a canonical announcer line when the name comes from one. */
+  art?: string;
+  flavour?: string;
 }
 
 export type DeckId = string;
@@ -353,13 +375,13 @@ export const ALL_LINES: ChampionLine[] = [...CHAMPION_LINES, ...SET1_LINES, ...S
 
 export const SPELLS: SpellDef[] = [
   // Banner
-  { id: 'rally-banners', deck: 'banner', kind: 'tactic', name: 'Rally the Banners', cost: 1,
+  { id: 'rally-banners', canonId: 'sharpened_steel', deck: 'banner', kind: 'tactic', name: 'Sharpened Steel', cost: 1,
     text: 'Your champions get +1 Might this turn.', effects: [{ op: 'buffAll', might: 1 }] },
-  { id: 'reinforcements', deck: 'banner', kind: 'tactic', name: 'Reinforcements', cost: 2, shardfall: true,
+  { id: 'reinforcements', canonId: 'reserve_guard', deck: 'banner', kind: 'tactic', name: 'Reserve Guard', cost: 2, shardfall: true,
     text: 'Deploy a ★ champion costing 2 or less from your hand for free.', effects: [{ op: 'deployFree', maxCost: 2 }] },
   { id: 'royal-dispatch', deck: 'banner', kind: 'tactic', name: 'Royal Dispatch', cost: 2,
     text: 'Draw 2 cards.', effects: [{ op: 'draw', n: 2 }] },
-  { id: 'shield-wall', deck: 'banner', kind: 'tactic', name: 'Shield Wall', cost: 2,
+  { id: 'shield-wall', canonId: 'front_doctrine', deck: 'banner', kind: 'tactic', name: 'Frontline Doctrine', cost: 2,
     text: 'Shield up to two champions you control.',
     effects: [{ op: 'shield', target: 'chooseOwn', optional: true }, { op: 'shield', target: 'chooseOwn', optional: true }] },
   { id: 'first-light', deck: 'banner', kind: 'tactic', name: 'First Light', cost: 1, swift: true,
@@ -375,15 +397,15 @@ export const SPELLS: SpellDef[] = [
   // Ember
   { id: 'firebolt', deck: 'ember', kind: 'tactic', name: 'Firebolt', cost: 1,
     text: 'Scorch 2 a rival champion.', effects: [{ op: 'scorch', n: 2, target: 'chooseRival' }] },
-  { id: 'firestorm', deck: 'ember', kind: 'tactic', name: 'Firestorm', cost: 2,
+  { id: 'firestorm', canonId: 'wildfire', deck: 'ember', kind: 'tactic', name: 'Wildfire', cost: 2,
     text: 'Scorch 1 each rival champion. Draw a card.', effects: [scorchRivals(1), { op: 'draw', n: 1 }] },
-  { id: 'feral-howl', deck: 'ember', kind: 'tactic', name: 'Feral Howl', cost: 1,
+  { id: 'feral-howl', canonId: 'wildkin_pact', deck: 'ember', kind: 'tactic', name: 'Wildkin Pact', cost: 1,
     text: 'Your champions get +1 Might this turn, or +2 if you have fewer shards than your rival.',
     effects: [{ op: 'buffAll', might: 1, extraIfBehind: 1 }] },
-  { id: 'return-to-fire', deck: 'ember', kind: 'tactic', name: 'Return to the Fire', cost: 2, shardfall: true,
+  { id: 'return-to-fire', canonId: 'rebirth_rite', deck: 'ember', kind: 'tactic', name: 'Rebirth Rite', cost: 2, shardfall: true,
     text: 'Return up to two ★ champions from your Fallen pile to your hand.',
     effects: [{ op: 'returnFallen', optional: true }, { op: 'returnFallen', optional: true }] },
-  { id: 'flare-up', deck: 'ember', kind: 'tactic', name: 'Flare Up', cost: 1, swift: true,
+  { id: 'flare-up', canonId: 'chaotic_surge', deck: 'ember', kind: 'tactic', name: 'Chaotic Surge', cost: 1, swift: true,
     text: 'A champion gets +2 Might this turn.', effects: [{ op: 'buff', might: 2, guard: 0, target: 'chooseAny' }] },
   { id: 'kindling', deck: 'ember', kind: 'tactic', name: 'Kindling', cost: 0, shardfall: true,
     text: 'Draw a card.', effects: [{ op: 'draw', n: 1 }] },
@@ -402,6 +424,8 @@ export const RELICS: RelicDef[] = [...SET2_RELICS];
 export const EDICTS: EdictDef[] = [...SET1_EDICTS, ...SET2_EDICTS];
 
 export interface DeckDef {
+  /** Set the deck belongs to (Set 1 if omitted). */
+  set?: SetId;
   name: string;
   origins: string;
   color: string;
@@ -427,6 +451,25 @@ export const DECKS: Record<DeckId, DeckDef> = {
       ['firebolt', 2], ['firestorm', 2], ['feral-howl', 2], ['return-to-fire', 2], ['flare-up', 2], ['kindling', 1],
       ['bloodscent', 2], ['ember-trap', 2], ['cinder-veil', 2]],
     ascension: ['fen-2', 'fen-3', 'ignara-2', 'ignara-3', 'pyrax-2', 'pyrax-3', 'aurex-2', 'aurex-3'],
+  },
+  // ── Set 2 starter decks (DRAFT, simulator-balanced only) ──
+  vault: {
+    set: 2, name: 'Vault Delvers', origins: 'Kingdom · Gearbound · Titanborn', color: '#c9a36b', accent: '#5b8cff',
+    pitch: 'Arm your champions with Relics from the Vault and hold the line with the Crystal Golem. ATLAS-Ω is your Ascendant.',
+    main: [['kael@2', 2], ['rowan@2', 2], ['gearwick@2', 2], ['borin@2', 2], ['aurelia@2', 2], ['varr@2', 1], ['atlas@2', 1], ['guardian-golem', 1],
+      ['spark@2', 2], ['knuckle@2', 1], ['titanrho@2', 1],
+      ['relic-blade', 2], ['relic-plate', 1], ['relic-colossus_edge', 1], ['relic-crownsworn', 1], ['relic-kingdom_emblem', 1], ['relic-aegis_codex', 1], ['relic-fallen_kings_blade', 1],
+      ['treasure_is_yours', 1], ['vault_remembers', 1], ['hex_war', 1], ['steel_will_answer', 1], ['unbinding_charm', 1]],
+    ascension: ['kael@2-2', 'kael@2-3', 'aurelia@2-2', 'aurelia@2-3', 'borin@2-2', 'borin@2-3', 'atlas@2-2', 'atlas@2-3'],
+  },
+  brood: {
+    set: 2, name: "Guardians' Brood", origins: 'Monsters · Hollow · Umbral', color: '#6a3fa0', accent: '#8fd6bd',
+    pitch: 'Flood the Arena with Monsters and Void Spiders, then raise the fallen. The Unwritten King is your Ascendant.',
+    main: [['monster-mite', 2], ['monster-hound', 2], ['monster-alpha', 2], ['monster-shardling', 1],
+      ['grimm@2', 2], ['nyx@2', 2], ['shade@2', 2], ['morrow@2', 2], ['dreadmouth@2', 1], ['unwritten@2', 1], ['guardian-spiderqueen', 1],
+      ['wild_encounter', 2], ['pack_leader', 2], ['boss_encounter', 1], ['stirs_beneath', 1], ['one_still_stands', 2], ['not_yet', 1],
+      ['relic-hollow_emblem', 1], ['relic-bloodoath', 1], ['relic-nullifier', 1]],
+    ascension: ['nyx@2-2', 'nyx@2-3', 'morrow@2-2', 'morrow@2-3', 'dreadmouth@2-2', 'dreadmouth@2-3', 'unwritten@2-2', 'unwritten@2-3'],
   },
 };
 

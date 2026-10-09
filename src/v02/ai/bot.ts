@@ -4,7 +4,7 @@
 import { CARDS, champion, isChampionCard, isSpellCard, spell } from '../content/cards';
 import type { ChampionCard, Card } from '../content/cards';
 import {
-  actor, apply, ascendBlockReason, behind, canAttack, canBlock, findChampion, guard, handPlayability, hasKeyword, legalActions,
+  actor, apply, ascendBlockReason, behind, canAttack, hasTrait, zonesFor, canBlock, findChampion, guard, handPlayability, hasKeyword, legalActions,
   might, nextAscension, predictClash, rival, top,
 } from '../rules/engine';
 import type { Action, ChampionInPlay, GameState, PlayerIndex } from '../rules/types';
@@ -25,7 +25,18 @@ function tacticUseful(s: GameState, p: PlayerIndex, id: string): boolean {
     case 'shield': return me.field.filter((c) => !c.shield).length >= 2;
     case 'scorchAll': return them.field.length >= 2;
     case 'scorch': return them.field.length >= 1 && me.field.some((c) => canAttack(s, c));
-    case 'buffAll': return s.active === p && s.phase !== 'after' && me.field.filter((c) => canAttack(s, c)).length >= 2;
+    case 'buffAll': return s.active === p && s.phase !== 'after' && me.field.filter((c) => canAttack(s, c)).length >= 2 && (eff.maxField === undefined || me.field.length <= eff.maxField);
+    case 'buffTrait': return s.active === p && me.field.filter((c) => canAttack(s, c) && hasTrait(c, eff.trait)).length >= 1;
+    case 'buff': return s.active === p && me.field.some((c) => canAttack(s, c));
+    case 'command': return me.hand.some((x) => CARDS[x].kind === 'champion' && champion(x).cost > me.command - d.cost);
+    case 'summon': return me.field.length < zonesFor(s, p);
+    case 'ascendNow': return me.field.some((c) => nextAscension(s, c));
+    case 'extraZone': return me.field.length >= zonesFor(s, p) - 1;
+    case 'selfShard': return me.crown.length >= them.crown.length && me.crown.length > eff.n + 2;
+    case 'coinFlip': case 'tuck': case 'mend': return true;
+    case 'defeatGuardAtMost': return them.field.length > 0;
+    case 'readyOther': return me.field.some((c) => c.exhausted && c.arrivedTurn < s.turn);
+    case 'unequip': return them.field.some((c) => c.relic);
     default: return false;
   }
 }
@@ -50,7 +61,7 @@ function mainAction(s: GameState, p: PlayerIndex): Action {
   const asd = me.hand.findIndex((id, i) => play[i].action === 'deploy' && champion(id).keywords.includes('Ascendant'));
   if (asd >= 0) return { type: 'deploy', handIndex: asd };
   // 3. Bodies and cards.
-  for (const op of ['deployFree', 'returnFallen', 'draw']) {
+  for (const op of ['command', 'selfShard', 'deployFree', 'returnFallen', 'draw', 'tuck', 'coinFlip', 'summon', 'extraZone', 'ascendNow', 'mend']) {
     const i = me.hand.findIndex((id, k) => play[k].action === 'cast' && !isChampionCard(CARDS[id]) && !spell(id).swift
       && spell(id).effects[0].op === op && tacticUseful(s, p, id));
     if (i >= 0) return { type: 'cast', handIndex: i };
@@ -86,7 +97,7 @@ function mainAction(s: GameState, p: PlayerIndex): Action {
   const pick = options.find((o) => o.cost <= budget);
   if (pick) return pick.act;
   // 5. Removal, protection and buffs right before battle.
-  for (const op of ['scorchAll', 'scorch', 'shield', 'buffAll']) {
+  for (const op of ['scorchAll', 'scorch', 'defeatGuardAtMost', 'unequip', 'shield', 'readyOther', 'buffTrait', 'buff', 'buffAll']) {
     const i = me.hand.findIndex((id, k) => play[k].action === 'cast' && !isChampionCard(CARDS[id]) && !spell(id).swift
       && spell(id).effects[0].op === op && tacticUseful(s, p, id));
     if (i >= 0) return { type: 'cast', handIndex: i };
@@ -214,8 +225,16 @@ function chooseOption(s: GameState, p: PlayerIndex): string | null {
       const theirs = champs.filter((c) => c.owner !== p);
       return `u:${(theirs.length ? theirs : champs).sort((a, b) => val(b) - val(a))[0].uid}`;
     }
-    case 'readyOther':
+    case 'readyOther': case 'ascendNow':
       return `u:${champs.sort((a, b) => val(b) - val(a))[0].uid}`;
+    case 'tuck': {
+      const pl = s.players[p];
+      return pend.options.map((o) => ({ key: o.key, w: cardWorth(CARDS[pl.hand[Number(o.key.slice(2))]]) })).sort((a, b) => a.w - b.w)[0].key;
+    }
+    case 'equipFree': {
+      const pl = s.players[p];
+      return pend.options.map((o) => ({ key: o.key, c: CARDS[pl.hand[Number(o.key.slice(2))]] as { cost: number } })).sort((a, b) => b.c.cost - a.c.cost)[0].key;
+    }
     case 'deployFromFallen': {
       const pl = s.players[p];
       return pend.options.map((o) => ({ key: o.key, d: champion(pl.fallen[Number(o.key.slice(2))]) })).sort((a, b) => b.d.cost - a.d.cost)[0].key;
@@ -233,7 +252,7 @@ function chooseOption(s: GameState, p: PlayerIndex): string | null {
     }
     case 'returnFallen': {
       const pl = s.players[p];
-      const opts = pend.options.map((o) => ({ key: o.key, d: champion(pl.fallen[Number(o.key.slice(2))]) })).sort((a, b) => b.d.cost - a.d.cost);
+      const opts = pend.options.map((o) => ({ key: o.key, d: CARDS[pl.fallen[Number(o.key.slice(2))]] as { cost: number } })).sort((a, b) => b.d.cost - a.d.cost);
       return opts[0]?.key ?? null;
     }
     case 'deployFree': {
