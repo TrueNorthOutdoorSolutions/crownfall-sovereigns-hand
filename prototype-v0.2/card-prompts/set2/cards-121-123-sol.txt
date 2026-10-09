@@ -1,0 +1,75 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S2-121 (121)
+Cost: 6 (GREEN gem)
+Name: Sol
+Title: Dawn Beneath the World
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
+Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **Arrival:** Mend 1.
+Flavour: “Before anything, there was me.”
+Crown 2: none
+Might | Guard: 5 | 7
+Footer: 121/236 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: The first light rising inside the deepest cavern, turning the dark to gold. Canon look for this form: The first light given a body.
+
+Card number: S2-122 (122)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Sol
+Title: Dawn Beneath the World
+Stars: ★★
+Ascension band: ASCENSION • from Sol ★
+Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
+Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **Ascend: Shield** each champion you control.
+4. Your other Dawnforged champions have +1 Might.
+Flavour: “The light endures.”
+Crown 2: none
+Might | Guard: 8 | 10
+Footer: 122/236 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: The first light rising inside the deepest cavern, turning the dark to gold. Canon look for this form: A corona and four wings of light.
+
+Card number: S2-123 (123)
+Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
+Name: Sol
+Title: Dawn Beneath the World
+Stars: ★★★
+Ascension band: ASCENSION • from Sol ★★
+Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
+Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **Ascend: Shield** each champion you control.
+4. Your champions get +3 Might this turn.
+Flavour: “Let there be DAWN!”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 12 | 13
+Footer: 123/236 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: The first light rising inside the deepest cavern, turning the dark to gold. Canon look for this form: A miniature sun hangs above the arena.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 121: unlisted traits use the official sheet; never invent icons.
+- 122 ★★: up-arrow 2, not up-arrow 0.
+- 122: unlisted traits use the official sheet; never invent icons.
+- 123 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 123: unlisted traits use the official sheet; never invent icons.

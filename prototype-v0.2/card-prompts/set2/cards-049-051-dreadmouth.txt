@@ -1,0 +1,71 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
+Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard.
+
+Card number: S2-049 (049)
+Cost: 4 (GREEN gem)
+Name: Dreadmouth
+Title: Devourer of Guardians
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Hollow | Bruiser | TIER III
+Trait icons: Hollow: teal skull; Bruiser: use its icon from the official sheet
+Keywords: none (text box starts with the ability name)
+No ability name is listed; start with the first rules line below. Do not invent one.
+Text box, line by line:
+1. When Dreadmouth defeats a champion on your turn, draw a card.
+Flavour: “Hungry…”
+Crown 2: none
+Might | Guard: 5 | 4
+Footer: 049/236 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Rising from black water with a Guardian’s armour still in its teeth. Canon look for this form: An enormous hollow creature that is mostly jaw.
+
+Card number: S2-050 (050)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Dreadmouth
+Title: Devourer of Guardians
+Stars: ★★
+Ascension band: ASCENSION • from Dreadmouth ★
+Origin | Class | Tier: Hollow | Bruiser | TIER III
+Trait icons: Hollow: teal skull; Bruiser: use its icon from the official sheet
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. When Dreadmouth defeats a champion on your turn, draw a card.
+Flavour: “MORE TEETH.”
+Crown 2: none
+Might | Guard: 8 | 7
+Footer: 050/236 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Rising from black water with a Guardian’s armour still in its teeth. Canon look for this form: Bone plates, a second jaw, and ghostfire in its throat.
+
+Card number: S2-051 (051)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Dreadmouth
+Title: Devourer of Guardians
+Stars: ★★★
+Ascension band: ASCENSION • from Dreadmouth ★★
+Origin | Class | Tier: Hollow | Bruiser | TIER III
+Trait icons: Hollow: teal skull; Bruiser: use its icon from the official sheet
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. When Dreadmouth defeats a champion on your turn, draw a card and Shield Dreadmouth.
+Flavour: “Delicious.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 12 | 10
+Footer: 051/236 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: Rising from black water with a Guardian’s armour still in its teeth. Canon look for this form: A leviathan of the dead: an entire graveyard of teeth.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 049: no keyword; do not add a chip or reminder.
+- 049: unlisted traits use the official sheet; never invent icons.
+- 050 ★★: up-arrow 1, not up-arrow 0.
+- 050: unlisted traits use the official sheet; never invent icons.
+- 051: unlisted traits use the official sheet; never invent icons.
