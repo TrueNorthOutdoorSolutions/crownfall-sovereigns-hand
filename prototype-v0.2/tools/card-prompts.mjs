@@ -104,7 +104,12 @@ for (const set of [1, 2]) {
     const scorch = [...group.matchAll(/Scorch (\d+)/g)].map(m => m[1]);
     if (new Set(scorch).size > 1) risks.push(`Mixed Scorch numbers: ${rows.map(r => `${r[0]}: ${[...r[4].matchAll(/Scorch \d+/g)].map(m => m[0]).join(', ') || 'none'}`).join('; ')}.`);
     prompt.push('Check when it comes back:', ...[...new Set(risks)].map(r => `- ${r}`));
-    writeFileSync(join(outputDir, `${filename}.txt`), prompt.join('\n') + '\n');
+    const promptText = prompt.join('\n') + '\n';
+    const footerLetters = [...promptText.matchAll(/^Footer: \d+\/\d+ · ([CUEPM]) ·/gm)].map(m => m[1]);
+    assert.equal(footerLetters.length, 3, `${filename}: each form must have a footer`);
+    assert(footerLetters.every(letter => letter === rarityLetter),
+      `${filename}: every footer must match champion tier ${line.tier} (${rarityLetter})`);
+    writeFileSync(join(outputDir, `${filename}.txt`), promptText);
     const range = `${numbers[0]}–${numbers[2]}`;
     const status = set === 1 && Number(numbers[0]) <= 7 ? 'Approved' : set === 1 && numbers[0] === '010' ? 'Redo: frame drift (chevron band, empty band on ★, wrong crest)' : oldStatuses.get(`${set}:${range}`) ?? 'Not started';
     tracker.push(`| ${set} | ${line.name} | ${range} | set${set}/${filename}.jpg | ${status} |`);
