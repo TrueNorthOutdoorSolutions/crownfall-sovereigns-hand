@@ -96,3 +96,27 @@ Set 1 is numbered out of **248**, Set 2 out of **236** (tokens are numbered sepa
 - Ascend costs are not always ↑0 on ★★ (Pip ★★ is ↑1).
 - Frame drift: chevron Ascension band, plain black border, different bottom crest, or an empty band on a ★ card.
 - Invented trait icons.
+
+## Spell card template (LOCKED 2026-10-10)
+
+Reference: `spell-template.jpg` (Set 1 cards 166 Sharpened Steel, 170 First Light, 171 Dawnward Oath). Same frame, parchment, fonts, crest and footer as the champion template, with these differences:
+
+| Area | Spell card |
+| --- | --- |
+| Top-left gem | **Green** hexagon with the Command cost (every spell). |
+| Name bar | Name large; card type in small caps underneath (TACTIC / SWIFT TACTIC / SCHEME). |
+| Top-right | Gold type symbol instead of stars: ✦ Tactic, ⚡ Swift Tactic, ◈ Scheme. |
+| Art | **Taller** than champion art (no Might/Guard shields on spells). |
+| Type band under the art | Same shape and laurels as the Ascension band. Tactic = dark green "TACTIC • Cast on your turn"; Swift Tactic = deep blue "SWIFT TACTIC • Cast on your turn or in a fight"; Scheme = deep purple "SCHEME • Set face-down for free • spring on your rival's turn". |
+| Trait bar | Left: Crown Power school icon + name (empty if the spell has no school). Right: RARITY word (COMMON / RARE / EPIC / EXALTED). Never repeat the card type here. |
+| Text box | Keyword chips (e.g. Shardfall) with reminder text if any, rules text, thin divider, italic centred flavour in curly quotes. |
+| Stats | None. |
+| Footer | `###/248 · rarity letter · Northern Summit Studios · Art: Jerian Latawiec`. |
+
+Crown Power school icons: War Crown = red sword (⚔) · Fortune Crown = gold coin (◉) · Evolution Crown = green sparkle (✧) · Chaos Crown = pink burst (✺) · Creation Crown = cyan cross-flower (✥) · Void Crown = violet crescent (☾).
+
+Spell rarity: the canon Crown Power rarity; non-canon spells are COMMON. Footer letter (PROPOSED): Common C · Rare R · Epic P · Exalted X.
+
+Shardfall reminder: *(If this breaks from your Crown, cast or set it for free.)*
+
+Spell flavour lines have no canon source; they are written by Claude and marked PROPOSED until Jerian approves them.
