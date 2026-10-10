@@ -14,7 +14,7 @@ Title: Spark That Learned to Speak
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Arcanist | TIER I
-Trait icons: Elemental: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Kindle.**
@@ -32,7 +32,7 @@ Title: Spark That Learned to Speak
 Stars: ★★
 Ascension band: ASCENSION • from Emberling ★
 Origin | Class | Tier: Elemental | Arcanist | TIER I
-Trait icons: Elemental: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Kindle.**
@@ -51,7 +51,7 @@ Title: Spark That Learned to Speak
 Stars: ★★★
 Ascension band: ASCENSION • from Emberling ★★
 Origin | Class | Tier: Elemental | Arcanist | TIER I
-Trait icons: Elemental: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Kindle.**
@@ -67,9 +67,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 025: no keyword; do not add a chip or reminder.
-- 025: unlisted traits use the official sheet; never invent icons.
 - 026: no keyword; do not add a chip or reminder.
-- 026: unlisted traits use the official sheet; never invent icons.
 - 027: no keyword; do not add a chip or reminder.
-- 027: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S1-025: Scorch 2; S1-026: Scorch 2, Scorch 1; S1-027: Scorch 2, Scorch 2.

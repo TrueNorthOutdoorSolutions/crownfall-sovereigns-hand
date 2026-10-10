@@ -14,7 +14,7 @@ Title: Shadow Beneath the Crown
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Umbral | Ascendant · Arcanist | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: Shadow Beneath the Crown
 Stars: ★★
 Ascension band: ASCENSION • from Noctara ★
 Origin | Class | Tier: Umbral | Ascendant · Arcanist | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -52,7 +52,7 @@ Title: Shadow Beneath the Crown
 Stars: ★★★
 Ascension band: ASCENSION • from Noctara ★★
 Origin | Class | Tier: Umbral | Ascendant · Arcanist | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*

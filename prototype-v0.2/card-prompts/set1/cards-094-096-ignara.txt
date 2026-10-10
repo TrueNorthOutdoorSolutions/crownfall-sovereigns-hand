@@ -14,7 +14,7 @@ Title: The Living Pyre
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Vanguard | TIER III
-Trait icons: Elemental: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Elemental: orange flame; Vanguard: gold shield
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Inferno Shell.**
@@ -32,7 +32,7 @@ Title: The Living Pyre
 Stars: ★★
 Ascension band: ASCENSION • from Ignara ★
 Origin | Class | Tier: Elemental | Vanguard | TIER III
-Trait icons: Elemental: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Elemental: orange flame; Vanguard: gold shield
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Inferno Shell.**
@@ -50,7 +50,7 @@ Title: The Living Pyre
 Stars: ★★★
 Ascension band: ASCENSION • from Ignara ★★
 Origin | Class | Tier: Elemental | Vanguard | TIER III
-Trait icons: Elemental: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Elemental: orange flame; Vanguard: gold shield
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -67,9 +67,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 094: no keyword; do not add a chip or reminder.
-- 094: unlisted traits use the official sheet; never invent icons.
 - 095 ★★: up-arrow 1, not up-arrow 0.
 - 095: no keyword; do not add a chip or reminder.
-- 095: unlisted traits use the official sheet; never invent icons.
 - 096 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 096: unlisted traits use the official sheet; never invent icons.

@@ -14,7 +14,7 @@ Title: Heart of the Forge
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Vanguard | TIER III
-Trait icons: Elemental: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Elemental: orange flame; Vanguard: gold shield
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -32,7 +32,7 @@ Title: Heart of the Forge
 Stars: ★★
 Ascension band: ASCENSION • from Ignara ★
 Origin | Class | Tier: Elemental | Vanguard | TIER III
-Trait icons: Elemental: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Elemental: orange flame; Vanguard: gold shield
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -51,7 +51,7 @@ Title: Heart of the Forge
 Stars: ★★★
 Ascension band: ASCENSION • from Ignara ★★
 Origin | Class | Tier: Elemental | Vanguard | TIER III
-Trait icons: Elemental: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Elemental: orange flame; Vanguard: gold shield
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -67,9 +67,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 064: no keyword; do not add a chip or reminder.
-- 064: unlisted traits use the official sheet; never invent icons.
 - 065 ★★: up-arrow 1, not up-arrow 0.
 - 065: no keyword; do not add a chip or reminder.
-- 065: unlisted traits use the official sheet; never invent icons.
-- 066: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-064: Scorch 1; S2-065: Scorch 2; S2-066: Scorch 2.

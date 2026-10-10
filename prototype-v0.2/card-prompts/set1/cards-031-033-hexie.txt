@@ -14,7 +14,7 @@ Title: Apprentice of Mischief
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Hexbound | Arcanist | TIER I
-Trait icons: Hexbound: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Hexbound: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Unstable Hex.**
@@ -32,7 +32,7 @@ Title: Apprentice of Mischief
 Stars: ★★
 Ascension band: ASCENSION • from Hexie ★
 Origin | Class | Tier: Hexbound | Arcanist | TIER I
-Trait icons: Hexbound: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Hexbound: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Unstable Hex.**
@@ -50,7 +50,7 @@ Title: Apprentice of Mischief
 Stars: ★★★
 Ascension band: ASCENSION • from Hexie ★★
 Origin | Class | Tier: Hexbound | Arcanist | TIER I
-Trait icons: Hexbound: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Hexbound: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Unstable Hex.**

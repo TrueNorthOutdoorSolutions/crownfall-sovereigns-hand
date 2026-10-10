@@ -14,7 +14,7 @@ Title: Wyrm of the Deep Forge
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Bruiser | TIER IV
-Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -32,7 +32,7 @@ Title: Wyrm of the Deep Forge
 Stars: ★★
 Ascension band: ASCENSION • from Pyrax ★
 Origin | Class | Tier: Elemental | Bruiser | TIER IV
-Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -51,7 +51,7 @@ Title: Wyrm of the Deep Forge
 Stars: ★★★
 Ascension band: ASCENSION • from Pyrax ★★
 Origin | Class | Tier: Elemental | Bruiser | TIER IV
-Trait icons: Elemental: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:

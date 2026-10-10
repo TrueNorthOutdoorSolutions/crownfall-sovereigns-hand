@@ -14,7 +14,7 @@ Title: Voice of the Tides
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Mystic | TIER II
-Trait icons: Elemental: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Elemental: orange flame; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tidal Veil.**
@@ -32,7 +32,7 @@ Title: Voice of the Tides
 Stars: ★★
 Ascension band: ASCENSION • from Mirella ★
 Origin | Class | Tier: Elemental | Mystic | TIER II
-Trait icons: Elemental: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Elemental: orange flame; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tidal Veil.**
@@ -50,7 +50,7 @@ Title: Voice of the Tides
 Stars: ★★★
 Ascension band: ASCENSION • from Mirella ★★
 Origin | Class | Tier: Elemental | Mystic | TIER II
-Trait icons: Elemental: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Elemental: orange flame; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tidal Veil.**
@@ -66,9 +66,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 049: no keyword; do not add a chip or reminder.
-- 049: unlisted traits use the official sheet; never invent icons.
 - 050 ★★: up-arrow 1, not up-arrow 0.
 - 050: no keyword; do not add a chip or reminder.
-- 050: unlisted traits use the official sheet; never invent icons.
 - 051: no keyword; do not add a chip or reminder.
-- 051: unlisted traits use the official sheet; never invent icons.

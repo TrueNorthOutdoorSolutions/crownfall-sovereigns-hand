@@ -14,7 +14,7 @@ Title: Shard of the Broken Vault
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Arcanist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -32,7 +32,7 @@ Title: Shard of the Broken Vault
 Stars: ★★
 Ascension band: ASCENSION • from Zyrak ★
 Origin | Class | Tier: Riftborn | Arcanist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -50,7 +50,7 @@ Title: Shard of the Broken Vault
 Stars: ★★★
 Ascension band: ASCENSION • from Zyrak ★★
 Origin | Class | Tier: Riftborn | Arcanist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Arcanist: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Arcanist: blue starburst
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
