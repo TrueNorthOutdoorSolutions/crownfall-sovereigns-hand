@@ -14,7 +14,7 @@ Title: Dragon-Blooded
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Bruiser | TIER IV
-Trait icons: Elemental: orange flame; Bruiser: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -31,7 +31,7 @@ Title: Dragon-Blooded
 Stars: ★★
 Ascension band: ASCENSION • from Pyrax ★
 Origin | Class | Tier: Elemental | Bruiser | TIER IV
-Trait icons: Elemental: orange flame; Bruiser: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Dragonheart.**
@@ -49,7 +49,7 @@ Title: Dragon-Blooded
 Stars: ★★★
 Ascension band: ASCENSION • from Pyrax ★★
 Origin | Class | Tier: Elemental | Bruiser | TIER IV
-Trait icons: Elemental: orange flame; Bruiser: use its icon from the official sheet
+Trait icons: Elemental: orange flame; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Dragonheart.**
@@ -65,10 +65,7 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 121: no keyword; do not add a chip or reminder.
-- 121: unlisted traits use the official sheet; never invent icons.
 - 122 ★★: up-arrow 1, not up-arrow 0.
 - 122: no keyword; do not add a chip or reminder.
-- 122: unlisted traits use the official sheet; never invent icons.
 - 123: no keyword; do not add a chip or reminder.
-- 123: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S1-121: none; S1-122: Scorch 1; S1-123: Scorch 2, Scorch 2.

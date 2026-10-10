@@ -14,7 +14,7 @@ Title: Bane of the Guardians
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: Bane of the Guardians
 Stars: ★★
 Ascension band: ASCENSION • from Aurex ★
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -53,7 +53,7 @@ Title: Bane of the Guardians
 Stars: ★★★
 Ascension band: ASCENSION • from Aurex ★★
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*

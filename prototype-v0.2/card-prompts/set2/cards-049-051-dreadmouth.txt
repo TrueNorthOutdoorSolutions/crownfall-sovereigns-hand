@@ -14,7 +14,7 @@ Title: Devourer of Guardians
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Hollow | Bruiser | TIER III
-Trait icons: Hollow: teal skull; Bruiser: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -32,7 +32,7 @@ Title: Devourer of Guardians
 Stars: ★★
 Ascension band: ASCENSION • from Dreadmouth ★
 Origin | Class | Tier: Hollow | Bruiser | TIER III
-Trait icons: Hollow: teal skull; Bruiser: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Bruiser: orange fist
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -50,7 +50,7 @@ Title: Devourer of Guardians
 Stars: ★★★
 Ascension band: ASCENSION • from Dreadmouth ★★
 Origin | Class | Tier: Hollow | Bruiser | TIER III
-Trait icons: Hollow: teal skull; Bruiser: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Bruiser: orange fist
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -65,7 +65,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 049: no keyword; do not add a chip or reminder.
-- 049: unlisted traits use the official sheet; never invent icons.
 - 050 ★★: up-arrow 1, not up-arrow 0.
-- 050: unlisted traits use the official sheet; never invent icons.
-- 051: unlisted traits use the official sheet; never invent icons.

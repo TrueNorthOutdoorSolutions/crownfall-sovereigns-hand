@@ -14,7 +14,7 @@ Title: Breaker of Beasts
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Wildkin | Bruiser | TIER II
-Trait icons: Wildkin: gold paw print; Bruiser: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -32,7 +32,7 @@ Title: Breaker of Beasts
 Stars: ★★
 Ascension band: ASCENSION • from Grizz ★
 Origin | Class | Tier: Wildkin | Bruiser | TIER II
-Trait icons: Wildkin: gold paw print; Bruiser: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -51,7 +51,7 @@ Title: Breaker of Beasts
 Stars: ★★★
 Ascension band: ASCENSION • from Grizz ★★
 Origin | Class | Tier: Wildkin | Bruiser | TIER II
-Trait icons: Wildkin: gold paw print; Bruiser: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -67,9 +67,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 022: no keyword; do not add a chip or reminder.
-- 022: unlisted traits use the official sheet; never invent icons.
 - 023 ★★: up-arrow 1, not up-arrow 0.
 - 023: no keyword; do not add a chip or reminder.
-- 023: unlisted traits use the official sheet; never invent icons.
 - 024: no keyword; do not add a chip or reminder.
-- 024: unlisted traits use the official sheet; never invent icons.

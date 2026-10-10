@@ -14,7 +14,7 @@ Title: Forgekin Hearthbreaker
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Titanborn | Bruiser | TIER II
-Trait icons: Titanborn: peach-orange triangle; Bruiser: use its icon from the official sheet
+Trait icons: Titanborn: peach-orange triangle; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Molten Hammer.**
@@ -32,7 +32,7 @@ Title: Forgekin Hearthbreaker
 Stars: ★★
 Ascension band: ASCENSION • from Borin Ironbelly ★
 Origin | Class | Tier: Titanborn | Bruiser | TIER II
-Trait icons: Titanborn: peach-orange triangle; Bruiser: use its icon from the official sheet
+Trait icons: Titanborn: peach-orange triangle; Bruiser: orange fist
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Molten Hammer.**
@@ -50,7 +50,7 @@ Title: Forgekin Hearthbreaker
 Stars: ★★★
 Ascension band: ASCENSION • from Borin Ironbelly ★★
 Origin | Class | Tier: Titanborn | Bruiser | TIER II
-Trait icons: Titanborn: peach-orange triangle; Bruiser: use its icon from the official sheet
+Trait icons: Titanborn: peach-orange triangle; Bruiser: orange fist
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -66,9 +66,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 055: no keyword; do not add a chip or reminder.
-- 055: unlisted traits use the official sheet; never invent icons.
 - 056 ★★: up-arrow 1, not up-arrow 0.
 - 056: no keyword; do not add a chip or reminder.
-- 056: unlisted traits use the official sheet; never invent icons.
-- 057: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S1-055: Scorch 1; S1-056: Scorch 1; S1-057: Scorch 2.
