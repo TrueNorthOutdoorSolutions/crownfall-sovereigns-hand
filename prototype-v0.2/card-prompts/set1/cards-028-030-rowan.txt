@@ -14,7 +14,7 @@ Title: Longbow of the Realm
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Ranger | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Kingdom: blue crown; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -31,7 +31,7 @@ Title: Longbow of the Realm
 Stars: ★★
 Ascension band: ASCENSION • from Rowan ★
 Origin | Class | Tier: Kingdom | Ranger | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Kingdom: blue crown; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -50,7 +50,7 @@ Title: Longbow of the Realm
 Stars: ★★★
 Ascension band: ASCENSION • from Rowan ★★
 Origin | Class | Tier: Kingdom | Ranger | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Kingdom: blue crown; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -66,7 +66,4 @@ Art brief: A legendary marksman: arrows of light, a lion cloak and a falcon fami
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 028: unlisted traits use the official sheet; never invent icons.
-- 029: unlisted traits use the official sheet; never invent icons.
 - 030 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 030: unlisted traits use the official sheet; never invent icons.

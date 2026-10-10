@@ -14,7 +14,7 @@ Title: Healer of the Fallen Deep
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Mystic | TIER II
-Trait icons: Kingdom: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Kingdom: blue crown; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -33,7 +33,7 @@ Title: Healer of the Fallen Deep
 Stars: ★★
 Ascension band: ASCENSION • from Elara ★
 Origin | Class | Tier: Kingdom | Mystic | TIER II
-Trait icons: Kingdom: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Kingdom: blue crown; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -51,7 +51,7 @@ Title: Healer of the Fallen Deep
 Stars: ★★★
 Ascension band: ASCENSION • from Elara ★★
 Origin | Class | Tier: Kingdom | Mystic | TIER II
-Trait icons: Kingdom: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Kingdom: blue crown; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -66,9 +66,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 040: no keyword; do not add a chip or reminder.
-- 040: unlisted traits use the official sheet; never invent icons.
 - 041 ★★: up-arrow 1, not up-arrow 0.
 - 041: no keyword; do not add a chip or reminder.
-- 041: unlisted traits use the official sheet; never invent icons.
 - 042: no keyword; do not add a chip or reminder.
-- 042: unlisted traits use the official sheet; never invent icons.

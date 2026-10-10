@@ -14,7 +14,7 @@ Title: Holder of the Gate
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Commander · Vanguard | TIER IV
-Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet; Vanguard: gold shield
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -32,7 +32,7 @@ Title: Holder of the Gate
 Stars: ★★
 Ascension band: ASCENSION • from General Varr ★
 Origin | Class | Tier: Kingdom | Commander · Vanguard | TIER IV
-Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet; Vanguard: gold shield
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -51,7 +51,7 @@ Title: Holder of the Gate
 Stars: ★★★
 Ascension band: ASCENSION • from General Varr ★★
 Origin | Class | Tier: Kingdom | Commander · Vanguard | TIER IV
-Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet; Vanguard: gold shield
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*

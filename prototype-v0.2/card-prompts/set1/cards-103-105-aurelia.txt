@@ -14,7 +14,7 @@ Title: Crown Commander
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Commander | TIER III
-Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet
+Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rally the Crown.**
@@ -32,7 +32,7 @@ Title: Crown Commander
 Stars: ★★
 Ascension band: ASCENSION • from Aurelia ★
 Origin | Class | Tier: Kingdom | Commander | TIER III
-Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet
+Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rally the Crown.**
@@ -50,7 +50,7 @@ Title: Crown Commander
 Stars: ★★★
 Ascension band: ASCENSION • from Aurelia ★★
 Origin | Class | Tier: Kingdom | Commander | TIER III
-Trait icons: Kingdom: use its icon from the official sheet; Commander: use its icon from the official sheet
+Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rally the Crown.**

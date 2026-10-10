@@ -14,7 +14,7 @@ Title: Warden of the Deep Gate
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Ranger | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Kingdom: blue crown; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -32,7 +32,7 @@ Title: Warden of the Deep Gate
 Stars: ★★
 Ascension band: ASCENSION • from Rowan ★
 Origin | Class | Tier: Kingdom | Ranger | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Kingdom: blue crown; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)* · Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -51,7 +51,7 @@ Title: Warden of the Deep Gate
 Stars: ★★★
 Ascension band: ASCENSION • from Rowan ★★
 Origin | Class | Tier: Kingdom | Ranger | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Kingdom: blue crown; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)* · Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -67,8 +67,5 @@ Art brief: Holding the great gate to the under-halls, bow drawn into the dark. C
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 013: unlisted traits use the official sheet; never invent icons.
-- 014: unlisted traits use the official sheet; never invent icons.
 - 015 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 015: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-013: Scorch 1; S2-014: Scorch 2; S2-015: Scorch 2.

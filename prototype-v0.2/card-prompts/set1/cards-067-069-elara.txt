@@ -14,7 +14,7 @@ Title: Field Surgeon of the Realm
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Mystic | TIER II
-Trait icons: Kingdom: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Kingdom: blue crown; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Last Light.**
@@ -32,7 +32,7 @@ Title: Field Surgeon of the Realm
 Stars: ★★
 Ascension band: ASCENSION • from Elara ★
 Origin | Class | Tier: Kingdom | Mystic | TIER II
-Trait icons: Kingdom: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Kingdom: blue crown; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Last Light.**
@@ -50,7 +50,7 @@ Title: Field Surgeon of the Realm
 Stars: ★★★
 Ascension band: ASCENSION • from Elara ★★
 Origin | Class | Tier: Kingdom | Mystic | TIER II
-Trait icons: Kingdom: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Kingdom: blue crown; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Last Light.**
@@ -66,9 +66,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 067: no keyword; do not add a chip or reminder.
-- 067: unlisted traits use the official sheet; never invent icons.
 - 068 ★★: up-arrow 1, not up-arrow 0.
 - 068: no keyword; do not add a chip or reminder.
-- 068: unlisted traits use the official sheet; never invent icons.
 - 069: no keyword; do not add a chip or reminder.
-- 069: unlisted traits use the official sheet; never invent icons.

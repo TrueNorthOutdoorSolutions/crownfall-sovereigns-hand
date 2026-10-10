@@ -14,7 +14,7 @@ Title: Relic Seeker
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Duelist | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Kingdom: blue crown; Duelist: orange crossed swords
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -32,7 +32,7 @@ Title: Relic Seeker
 Stars: ★★
 Ascension band: ASCENSION • from Kael ★
 Origin | Class | Tier: Kingdom | Duelist | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Kingdom: blue crown; Duelist: orange crossed swords
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -50,7 +50,7 @@ Title: Relic Seeker
 Stars: ★★★
 Ascension band: ASCENSION • from Kael ★★
 Origin | Class | Tier: Kingdom | Duelist | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Kingdom: blue crown; Duelist: orange crossed swords
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -66,8 +66,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 016: no keyword; do not add a chip or reminder.
-- 016: unlisted traits use the official sheet; never invent icons.
 - 017: no keyword; do not add a chip or reminder.
-- 017: unlisted traits use the official sheet; never invent icons.
 - 018: no keyword; do not add a chip or reminder.
-- 018: unlisted traits use the official sheet; never invent icons.

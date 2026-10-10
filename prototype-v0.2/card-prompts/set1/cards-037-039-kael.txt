@@ -14,7 +14,7 @@ Title: Seeker of the Crown
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Duelist | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Kingdom: blue crown; Duelist: orange crossed swords
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -31,7 +31,7 @@ Title: Seeker of the Crown
 Stars: ★★
 Ascension band: ASCENSION • from Kael ★
 Origin | Class | Tier: Kingdom | Duelist | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Kingdom: blue crown; Duelist: orange crossed swords
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Crescent Slash.**
@@ -49,7 +49,7 @@ Title: Seeker of the Crown
 Stars: ★★★
 Ascension band: ASCENSION • from Kael ★★
 Origin | Class | Tier: Kingdom | Duelist | TIER I
-Trait icons: Kingdom: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Kingdom: blue crown; Duelist: orange crossed swords
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Crescent Slash.**
@@ -65,8 +65,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 037: no keyword; do not add a chip or reminder.
-- 037: unlisted traits use the official sheet; never invent icons.
 - 038: no keyword; do not add a chip or reminder.
-- 038: unlisted traits use the official sheet; never invent icons.
 - 039: no keyword; do not add a chip or reminder.
-- 039: unlisted traits use the official sheet; never invent icons.

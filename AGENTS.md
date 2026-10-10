@@ -51,6 +51,7 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Assassin | lilac four-pointed star |
 | Elemental | orange flame |
 | Arcanist | blue starburst |
+| Kingdom | blue crown |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
