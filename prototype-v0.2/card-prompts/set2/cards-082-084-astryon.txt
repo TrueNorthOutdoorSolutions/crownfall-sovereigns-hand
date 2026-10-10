@@ -14,7 +14,7 @@ Title: Blade That Fell Beneath
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Duelist | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Astral: blue four-pointed sparkle; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -32,7 +32,7 @@ Title: Blade That Fell Beneath
 Stars: ★★
 Ascension band: ASCENSION • from Astryon ★
 Origin | Class | Tier: Astral | Duelist | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Astral: blue four-pointed sparkle; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -51,7 +51,7 @@ Title: Blade That Fell Beneath
 Stars: ★★★
 Ascension band: ASCENSION • from Astryon ★★
 Origin | Class | Tier: Astral | Duelist | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
+Trait icons: Astral: blue four-pointed sparkle; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -66,7 +66,4 @@ Art brief: Seven blades orbiting him in the dark like fallen stars. Canon look f
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 082: unlisted traits use the official sheet; never invent icons.
 - 083 ★★: up-arrow 1, not up-arrow 0.
-- 083: unlisted traits use the official sheet; never invent icons.
-- 084: unlisted traits use the official sheet; never invent icons.

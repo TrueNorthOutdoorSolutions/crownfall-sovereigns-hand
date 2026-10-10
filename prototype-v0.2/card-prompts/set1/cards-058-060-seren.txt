@@ -14,7 +14,7 @@ Title: Keeper of Starlings
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Summoner | TIER II
-Trait icons: Astral: use its icon from the official sheet; Summoner: use its icon from the official sheet
+Trait icons: Astral: blue four-pointed sparkle; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Starling.**
@@ -32,7 +32,7 @@ Title: Keeper of Starlings
 Stars: ★★
 Ascension band: ASCENSION • from Seren ★
 Origin | Class | Tier: Astral | Summoner | TIER II
-Trait icons: Astral: use its icon from the official sheet; Summoner: use its icon from the official sheet
+Trait icons: Astral: blue four-pointed sparkle; Summoner: green four-leaf clover
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -51,7 +51,7 @@ Title: Keeper of Starlings
 Stars: ★★★
 Ascension band: ASCENSION • from Seren ★★
 Origin | Class | Tier: Astral | Summoner | TIER II
-Trait icons: Astral: use its icon from the official sheet; Summoner: use its icon from the official sheet
+Trait icons: Astral: blue four-pointed sparkle; Summoner: green four-leaf clover
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -68,8 +68,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 058: no keyword; do not add a chip or reminder.
-- 058: unlisted traits use the official sheet; never invent icons.
 - 059 ★★: up-arrow 1, not up-arrow 0.
-- 059: unlisted traits use the official sheet; never invent icons.
 - 060 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 060: unlisted traits use the official sheet; never invent icons.

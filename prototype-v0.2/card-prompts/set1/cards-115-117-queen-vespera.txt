@@ -14,7 +14,7 @@ Title: Monarch of the Umbral Court
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Umbral | Summoner | TIER IV
-Trait icons: Umbral: lilac crescent moon; Summoner: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Court of Shadows.**
@@ -32,7 +32,7 @@ Title: Monarch of the Umbral Court
 Stars: ★★
 Ascension band: ASCENSION • from Queen Vespera ★
 Origin | Class | Tier: Umbral | Summoner | TIER IV
-Trait icons: Umbral: lilac crescent moon; Summoner: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Court of Shadows.**
@@ -51,7 +51,7 @@ Title: Monarch of the Umbral Court
 Stars: ★★★
 Ascension band: ASCENSION • from Queen Vespera ★★
 Origin | Class | Tier: Umbral | Summoner | TIER IV
-Trait icons: Umbral: lilac crescent moon; Summoner: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Court of Shadows.**
@@ -67,9 +67,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 115: no keyword; do not add a chip or reminder.
-- 115: unlisted traits use the official sheet; never invent icons.
 - 116 ★★: up-arrow 1, not up-arrow 0.
 - 116: no keyword; do not add a chip or reminder.
-- 116: unlisted traits use the official sheet; never invent icons.
 - 117: no keyword; do not add a chip or reminder.
-- 117: unlisted traits use the official sheet; never invent icons.

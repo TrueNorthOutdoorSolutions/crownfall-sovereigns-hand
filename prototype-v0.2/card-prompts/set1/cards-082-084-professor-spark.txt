@@ -14,7 +14,7 @@ Title: Arc-Engineer Extraordinaire
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Gearbound | Summoner | TIER III
-Trait icons: Gearbound: gold gear; Summoner: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Deploy Turret.**
@@ -32,7 +32,7 @@ Title: Arc-Engineer Extraordinaire
 Stars: ★★
 Ascension band: ASCENSION • from Professor Spark ★
 Origin | Class | Tier: Gearbound | Summoner | TIER III
-Trait icons: Gearbound: gold gear; Summoner: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Deploy Turret.**
@@ -50,7 +50,7 @@ Title: Arc-Engineer Extraordinaire
 Stars: ★★★
 Ascension band: ASCENSION • from Professor Spark ★★
 Origin | Class | Tier: Gearbound | Summoner | TIER III
-Trait icons: Gearbound: gold gear; Summoner: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Summoner: green four-leaf clover
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -67,9 +67,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 082: no keyword; do not add a chip or reminder.
-- 082: unlisted traits use the official sheet; never invent icons.
 - 083 ★★: up-arrow 1, not up-arrow 0.
 - 083: no keyword; do not add a chip or reminder.
-- 083: unlisted traits use the official sheet; never invent icons.
 - 084 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 084: unlisted traits use the official sheet; never invent icons.

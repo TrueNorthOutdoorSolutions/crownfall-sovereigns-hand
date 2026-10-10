@@ -14,7 +14,7 @@ Title: Lord of the Buried Halls
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Hollow | Summoner | TIER III
-Trait icons: Hollow: teal skull; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -32,7 +32,7 @@ Title: Lord of the Buried Halls
 Stars: ★★
 Ascension band: ASCENSION • from Morrow ★
 Origin | Class | Tier: Hollow | Summoner | TIER III
-Trait icons: Hollow: teal skull; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -50,7 +50,7 @@ Title: Lord of the Buried Halls
 Stars: ★★★
 Ascension band: ASCENSION • from Morrow ★★
 Origin | Class | Tier: Hollow | Summoner | TIER III
-Trait icons: Hollow: teal skull; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -66,9 +66,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 067: no keyword; do not add a chip or reminder.
-- 067: unlisted traits use the official sheet; never invent icons.
 - 068 ★★: up-arrow 1, not up-arrow 0.
 - 068: no keyword; do not add a chip or reminder.
-- 068: unlisted traits use the official sheet; never invent icons.
 - 069: no keyword; do not add a chip or reminder.
-- 069: unlisted traits use the official sheet; never invent icons.

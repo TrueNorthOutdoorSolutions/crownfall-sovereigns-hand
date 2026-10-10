@@ -51,6 +51,8 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Hexbound | purple star outline |
 | Bruiser | orange fist |
 | Artillerist | yellow sunburst |
+| Astral | blue four-pointed sparkle |
+| Summoner | green four-leaf clover |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

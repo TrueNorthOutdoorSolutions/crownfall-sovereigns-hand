@@ -14,7 +14,7 @@ Title: The Gravecaller
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Hollow | Summoner | TIER III
-Trait icons: Hollow: teal skull; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Raise Fallen.**
@@ -32,7 +32,7 @@ Title: The Gravecaller
 Stars: ★★
 Ascension band: ASCENSION • from Morrow ★
 Origin | Class | Tier: Hollow | Summoner | TIER III
-Trait icons: Hollow: teal skull; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Raise Fallen.**
@@ -50,7 +50,7 @@ Title: The Gravecaller
 Stars: ★★★
 Ascension band: ASCENSION • from Morrow ★★
 Origin | Class | Tier: Hollow | Summoner | TIER III
-Trait icons: Hollow: teal skull; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Raise Fallen.**
@@ -66,9 +66,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 097: no keyword; do not add a chip or reminder.
-- 097: unlisted traits use the official sheet; never invent icons.
 - 098 ★★: up-arrow 1, not up-arrow 0.
 - 098: no keyword; do not add a chip or reminder.
-- 098: unlisted traits use the official sheet; never invent icons.
 - 099: no keyword; do not add a chip or reminder.
-- 099: unlisted traits use the official sheet; never invent icons.

@@ -14,7 +14,7 @@ Title: Relic Inventor
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Gearbound | Summoner | TIER III
-Trait icons: Gearbound: gold gear; Summoner: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -32,7 +32,7 @@ Title: Relic Inventor
 Stars: ★★
 Ascension band: ASCENSION • from Professor Spark ★
 Origin | Class | Tier: Gearbound | Summoner | TIER III
-Trait icons: Gearbound: gold gear; Summoner: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -51,7 +51,7 @@ Title: Relic Inventor
 Stars: ★★★
 Ascension band: ASCENSION • from Professor Spark ★★
 Origin | Class | Tier: Gearbound | Summoner | TIER III
-Trait icons: Gearbound: gold gear; Summoner: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Summoner: green four-leaf clover
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -67,8 +67,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 052: no keyword; do not add a chip or reminder.
-- 052: unlisted traits use the official sheet; never invent icons.
 - 053 ★★: up-arrow 1, not up-arrow 0.
 - 053: no keyword; do not add a chip or reminder.
-- 053: unlisted traits use the official sheet; never invent icons.
-- 054: unlisted traits use the official sheet; never invent icons.

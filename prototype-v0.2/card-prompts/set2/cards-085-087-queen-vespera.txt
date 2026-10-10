@@ -14,7 +14,7 @@ Title: Empress of the Underhalls
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Umbral | Summoner | TIER IV
-Trait icons: Umbral: lilac crescent moon; Summoner: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -33,7 +33,7 @@ Title: Empress of the Underhalls
 Stars: ★★
 Ascension band: ASCENSION • from Queen Vespera ★
 Origin | Class | Tier: Umbral | Summoner | TIER IV
-Trait icons: Umbral: lilac crescent moon; Summoner: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -52,7 +52,7 @@ Title: Empress of the Underhalls
 Stars: ★★★
 Ascension band: ASCENSION • from Queen Vespera ★★
 Origin | Class | Tier: Umbral | Summoner | TIER IV
-Trait icons: Umbral: lilac crescent moon; Summoner: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Summoner: green four-leaf clover
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -68,9 +68,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 085: no keyword; do not add a chip or reminder.
-- 085: unlisted traits use the official sheet; never invent icons.
 - 086 ★★: up-arrow 1, not up-arrow 0.
 - 086: no keyword; do not add a chip or reminder.
-- 086: unlisted traits use the official sheet; never invent icons.
 - 087: no keyword; do not add a chip or reminder.
-- 087: unlisted traits use the official sheet; never invent icons.

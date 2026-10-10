@@ -14,7 +14,7 @@ Title: Lord of the Forgotten
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Hollow | Ascendant · Summoner | TIER V
-Trait icons: Hollow: teal skull; Ascendant: use its icon from the official sheet; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: Lord of the Forgotten
 Stars: ★★
 Ascension band: ASCENSION • from The Unwritten King ★
 Origin | Class | Tier: Hollow | Ascendant · Summoner | TIER V
-Trait icons: Hollow: teal skull; Ascendant: use its icon from the official sheet; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -52,7 +52,7 @@ Title: Lord of the Forgotten
 Stars: ★★★
 Ascension band: ASCENSION • from The Unwritten King ★★
 Origin | Class | Tier: Hollow | Ascendant · Summoner | TIER V
-Trait icons: Hollow: teal skull; Ascendant: use its icon from the official sheet; Summoner: use its icon from the official sheet
+Trait icons: Hollow: teal skull; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*

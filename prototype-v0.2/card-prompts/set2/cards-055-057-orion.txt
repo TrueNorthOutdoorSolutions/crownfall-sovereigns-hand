@@ -14,7 +14,7 @@ Title: Star-Charter of the Deep
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Ranger | TIER III
-Trait icons: Astral: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Astral: blue four-pointed sparkle; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -32,7 +32,7 @@ Title: Star-Charter of the Deep
 Stars: ★★
 Ascension band: ASCENSION • from Orion ★
 Origin | Class | Tier: Astral | Ranger | TIER III
-Trait icons: Astral: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Astral: blue four-pointed sparkle; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -51,7 +51,7 @@ Title: Star-Charter of the Deep
 Stars: ★★★
 Ascension band: ASCENSION • from Orion ★★
 Origin | Class | Tier: Astral | Ranger | TIER III
-Trait icons: Astral: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Astral: blue four-pointed sparkle; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -66,8 +66,5 @@ Art brief: Charting constellations painted on a cavern ceiling, bow resting on h
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 055: unlisted traits use the official sheet; never invent icons.
 - 056 ★★: up-arrow 1, not up-arrow 0.
-- 056: unlisted traits use the official sheet; never invent icons.
-- 057: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-055: none; S2-056: Scorch 2; S2-057: Scorch 3.

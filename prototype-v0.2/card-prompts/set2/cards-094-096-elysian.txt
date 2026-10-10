@@ -14,7 +14,7 @@ Title: Light of the Lost Halls
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Mystic | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Astral: blue four-pointed sparkle; Mystic: cyan ring
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -32,7 +32,7 @@ Title: Light of the Lost Halls
 Stars: ★★
 Ascension band: ASCENSION • from Elysian ★
 Origin | Class | Tier: Astral | Mystic | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Astral: blue four-pointed sparkle; Mystic: cyan ring
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -50,7 +50,7 @@ Title: Light of the Lost Halls
 Stars: ★★★
 Ascension band: ASCENSION • from Elysian ★★
 Origin | Class | Tier: Astral | Mystic | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Astral: blue four-pointed sparkle; Mystic: cyan ring
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -65,7 +65,4 @@ Art brief: Descending into the forgotten halls to lift the fallen back to their 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 094: unlisted traits use the official sheet; never invent icons.
 - 095 ★★: up-arrow 1, not up-arrow 0.
-- 095: unlisted traits use the official sheet; never invent icons.
-- 096: unlisted traits use the official sheet; never invent icons.
