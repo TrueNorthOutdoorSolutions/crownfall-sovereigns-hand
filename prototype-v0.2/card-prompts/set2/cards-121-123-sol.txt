@@ -14,7 +14,7 @@ Title: Dawn Beneath the World
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
-Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Dawnforged: gold-orange sunburst; Ascendant: use its icon from the official sheet; Mystic: cyan ring
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -32,7 +32,7 @@ Title: Dawn Beneath the World
 Stars: ★★
 Ascension band: ASCENSION • from Sol ★
 Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
-Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Dawnforged: gold-orange sunburst; Ascendant: use its icon from the official sheet; Mystic: cyan ring
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -52,7 +52,7 @@ Title: Dawn Beneath the World
 Stars: ★★★
 Ascension band: ASCENSION • from Sol ★★
 Origin | Class | Tier: Dawnforged | Ascendant · Mystic | TIER V
-Trait icons: Dawnforged: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Dawnforged: gold-orange sunburst; Ascendant: use its icon from the official sheet; Mystic: cyan ring
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*

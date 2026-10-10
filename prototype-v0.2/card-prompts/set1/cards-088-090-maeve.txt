@@ -14,7 +14,7 @@ Title: The Old Bargain
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Verdant · Hexbound | Mystic | TIER III
-Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Nature's Bargain.**
@@ -33,7 +33,7 @@ Title: The Old Bargain
 Stars: ★★
 Ascension band: ASCENSION • from Maeve ★
 Origin | Class | Tier: Verdant · Hexbound | Mystic | TIER III
-Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Nature's Bargain.**
@@ -52,7 +52,7 @@ Title: The Old Bargain
 Stars: ★★★
 Ascension band: ASCENSION • from Maeve ★★
 Origin | Class | Tier: Verdant · Hexbound | Mystic | TIER III
-Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Nature's Bargain.**

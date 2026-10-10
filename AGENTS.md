@@ -42,6 +42,8 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Vanguard | gold shield |
 | Gearbound | gold gear |
 | Saboteur | green spiky burst |
+| Dawnforged | gold-orange sunburst |
+| Mystic | cyan ring |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

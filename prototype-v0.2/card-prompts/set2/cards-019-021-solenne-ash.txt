@@ -14,7 +14,7 @@ Title: Lantern of the Underways
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Dawnforged | Vanguard | TIER II
-Trait icons: Dawnforged: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Dawnforged: gold-orange sunburst; Vanguard: gold shield
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -32,7 +32,7 @@ Title: Lantern of the Underways
 Stars: ★★
 Ascension band: ASCENSION • from Solenne Ash ★
 Origin | Class | Tier: Dawnforged | Vanguard | TIER II
-Trait icons: Dawnforged: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Dawnforged: gold-orange sunburst; Vanguard: gold shield
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -51,7 +51,7 @@ Title: Lantern of the Underways
 Stars: ★★★
 Ascension band: ASCENSION • from Solenne Ash ★★
 Origin | Class | Tier: Dawnforged | Vanguard | TIER II
-Trait icons: Dawnforged: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Dawnforged: gold-orange sunburst; Vanguard: gold shield
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -66,8 +66,5 @@ Art brief: Her blade lights the tunnels as shadows flee from the dawnfire. Canon
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 019: unlisted traits use the official sheet; never invent icons.
 - 020 ★★: up-arrow 1, not up-arrow 0.
-- 020: unlisted traits use the official sheet; never invent icons.
-- 021: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-019: Scorch 1; S2-020: Scorch 1; S2-021: Scorch 2.

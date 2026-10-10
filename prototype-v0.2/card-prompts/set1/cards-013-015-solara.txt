@@ -14,7 +14,7 @@ Title: Novice of the Dawn
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Dawnforged | Mystic | TIER I
-Trait icons: Dawnforged: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Dawnforged: gold-orange sunburst; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Sun Mend.**
@@ -32,7 +32,7 @@ Title: Novice of the Dawn
 Stars: ★★
 Ascension band: ASCENSION • from Solara ★
 Origin | Class | Tier: Dawnforged | Mystic | TIER I
-Trait icons: Dawnforged: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Dawnforged: gold-orange sunburst; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Sun Mend.**
@@ -50,7 +50,7 @@ Title: Novice of the Dawn
 Stars: ★★★
 Ascension band: ASCENSION • from Solara ★★
 Origin | Class | Tier: Dawnforged | Mystic | TIER I
-Trait icons: Dawnforged: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Dawnforged: gold-orange sunburst; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Sun Mend.**
@@ -66,8 +66,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 013: no keyword; do not add a chip or reminder.
-- 013: unlisted traits use the official sheet; never invent icons.
 - 014: no keyword; do not add a chip or reminder.
-- 014: unlisted traits use the official sheet; never invent icons.
 - 015: no keyword; do not add a chip or reminder.
-- 015: unlisted traits use the official sheet; never invent icons.

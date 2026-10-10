@@ -14,7 +14,7 @@ Title: Voice of the Tides
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Mystic | TIER II
-Trait icons: Elemental: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Elemental: use its icon from the official sheet; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tidal Veil.**
@@ -32,7 +32,7 @@ Title: Voice of the Tides
 Stars: ★★
 Ascension band: ASCENSION • from Mirella ★
 Origin | Class | Tier: Elemental | Mystic | TIER II
-Trait icons: Elemental: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Elemental: use its icon from the official sheet; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tidal Veil.**
@@ -50,7 +50,7 @@ Title: Voice of the Tides
 Stars: ★★★
 Ascension band: ASCENSION • from Mirella ★★
 Origin | Class | Tier: Elemental | Mystic | TIER II
-Trait icons: Elemental: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Elemental: use its icon from the official sheet; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tidal Veil.**

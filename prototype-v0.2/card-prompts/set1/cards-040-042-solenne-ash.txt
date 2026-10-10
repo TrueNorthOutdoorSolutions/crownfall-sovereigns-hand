@@ -14,7 +14,7 @@ Title: Knight of the Burning Dawn
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Dawnforged | Vanguard | TIER II
-Trait icons: Dawnforged: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Dawnforged: gold-orange sunburst; Vanguard: gold shield
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -31,7 +31,7 @@ Title: Knight of the Burning Dawn
 Stars: ★★
 Ascension band: ASCENSION • from Solenne Ash ★
 Origin | Class | Tier: Dawnforged | Vanguard | TIER II
-Trait icons: Dawnforged: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Dawnforged: gold-orange sunburst; Vanguard: gold shield
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -50,7 +50,7 @@ Title: Knight of the Burning Dawn
 Stars: ★★★
 Ascension band: ASCENSION • from Solenne Ash ★★
 Origin | Class | Tier: Dawnforged | Vanguard | TIER II
-Trait icons: Dawnforged: use its icon from the official sheet; Vanguard: gold shield
+Trait icons: Dawnforged: gold-orange sunburst; Vanguard: gold shield
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -65,7 +65,4 @@ Art brief: Sun-forged armour, blazing wings and a trail of dawnfire.
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 040: unlisted traits use the official sheet; never invent icons.
 - 041 ★★: up-arrow 1, not up-arrow 0.
-- 041: unlisted traits use the official sheet; never invent icons.
-- 042: unlisted traits use the official sheet; never invent icons.

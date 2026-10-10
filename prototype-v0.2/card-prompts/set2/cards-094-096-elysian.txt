@@ -14,7 +14,7 @@ Title: Light of the Lost Halls
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Mystic | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Mystic: cyan ring
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -32,7 +32,7 @@ Title: Light of the Lost Halls
 Stars: ★★
 Ascension band: ASCENSION • from Elysian ★
 Origin | Class | Tier: Astral | Mystic | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Mystic: cyan ring
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -50,7 +50,7 @@ Title: Light of the Lost Halls
 Stars: ★★★
 Ascension band: ASCENSION • from Elysian ★★
 Origin | Class | Tier: Astral | Mystic | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Mystic: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Mystic: cyan ring
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
