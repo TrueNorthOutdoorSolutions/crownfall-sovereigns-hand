@@ -14,7 +14,7 @@ Title: The One Who Refused
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Crownless | Ascendant | TIER V
-Trait icons: Crownless: use its icon from the official sheet; Ascendant: use its icon from the official sheet
+Trait icons: Crownless: use its icon from the official sheet; Ascendant: gold crown (distinct from the blue Kingdom crown)
 Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -32,7 +32,7 @@ Title: The One Who Refused
 Stars: ★★
 Ascension band: ASCENSION • from Crownless ★
 Origin | Class | Tier: Crownless | Ascendant | TIER V
-Trait icons: Crownless: use its icon from the official sheet; Ascendant: use its icon from the official sheet
+Trait icons: Crownless: use its icon from the official sheet; Ascendant: gold crown (distinct from the blue Kingdom crown)
 Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -53,7 +53,7 @@ Title: The One Who Refused
 Stars: ★★★
 Ascension band: ASCENSION • from Crownless ★★
 Origin | Class | Tier: Crownless | Ascendant | TIER V
-Trait icons: Crownless: use its icon from the official sheet; Ascendant: use its icon from the official sheet
+Trait icons: Crownless: use its icon from the official sheet; Ascendant: gold crown (distinct from the blue Kingdom crown)
 Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*

@@ -14,7 +14,7 @@ Title: Root of All Things
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Verdant | Ascendant · Summoner | TIER V
-Trait icons: Verdant: green antlers; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -32,7 +32,7 @@ Title: Root of All Things
 Stars: ★★
 Ascension band: ASCENSION • from Mother Verdant ★
 Origin | Class | Tier: Verdant | Ascendant · Summoner | TIER V
-Trait icons: Verdant: green antlers; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -51,7 +51,7 @@ Title: Root of All Things
 Stars: ★★★
 Ascension band: ASCENSION • from Mother Verdant ★★
 Origin | Class | Tier: Verdant | Ascendant · Summoner | TIER V
-Trait icons: Verdant: green antlers; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -66,7 +66,4 @@ Art brief: The forest growing upward through the Arena’s foundations around he
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 130: unlisted traits use the official sheet; never invent icons.
 - 131 ★★: up-arrow 2, not up-arrow 0.
-- 131: unlisted traits use the official sheet; never invent icons.
-- 132: unlisted traits use the official sheet; never invent icons.

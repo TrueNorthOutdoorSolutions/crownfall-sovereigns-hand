@@ -14,7 +14,7 @@ Title: Shadow Beneath the Crown
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Umbral | Ascendant · Arcanist | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: blue starburst
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Arcanist: blue starburst
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: Shadow Beneath the Crown
 Stars: ★★
 Ascension band: ASCENSION • from Noctara ★
 Origin | Class | Tier: Umbral | Ascendant · Arcanist | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: blue starburst
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Arcanist: blue starburst
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -52,7 +52,7 @@ Title: Shadow Beneath the Crown
 Stars: ★★★
 Ascension band: ASCENSION • from Noctara ★★
 Origin | Class | Tier: Umbral | Ascendant · Arcanist | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: use its icon from the official sheet; Arcanist: blue starburst
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Arcanist: blue starburst
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -68,8 +68,5 @@ Art brief: A black hole opening in the cavern ceiling directly beneath the Crown
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 115: unlisted traits use the official sheet; never invent icons.
 - 116 ★★: up-arrow 2, not up-arrow 0.
-- 116: unlisted traits use the official sheet; never invent icons.
 - 117 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 117: unlisted traits use the official sheet; never invent icons.

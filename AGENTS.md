@@ -59,6 +59,8 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Summoner | green four-leaf clover |
 | Riftborn | pink diamond-in-a-diamond |
 | Commander | yellow flag |
+| Wyrmblood | orange trident |
+| Ascendant | gold crown (distinct from the blue Kingdom crown) |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

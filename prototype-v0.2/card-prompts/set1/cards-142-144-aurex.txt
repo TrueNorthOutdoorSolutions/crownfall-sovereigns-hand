@@ -14,7 +14,7 @@ Title: The Last Dragon
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: The Last Dragon
 Stars: ★★
 Ascension band: ASCENSION • from Aurex ★
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -53,7 +53,7 @@ Title: The Last Dragon
 Stars: ★★★
 Ascension band: ASCENSION • from Aurex ★★
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -70,8 +70,5 @@ Art brief: A full celestial dragon. The sky turns red and flames surround the ar
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 142: unlisted traits use the official sheet; never invent icons.
 - 143 ★★: up-arrow 2, not up-arrow 0.
-- 143: unlisted traits use the official sheet; never invent icons.
 - 144 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
-- 144: unlisted traits use the official sheet; never invent icons.

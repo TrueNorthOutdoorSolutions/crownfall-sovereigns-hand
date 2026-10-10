@@ -14,7 +14,7 @@ Title: Life Eternal
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Verdant | Ascendant · Summoner | TIER V
-Trait icons: Verdant: green antlers; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -34,7 +34,7 @@ Title: Life Eternal
 Stars: ★★
 Ascension band: ASCENSION • from Mother Verdant ★
 Origin | Class | Tier: Verdant | Ascendant · Summoner | TIER V
-Trait icons: Verdant: green antlers; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -54,7 +54,7 @@ Title: Life Eternal
 Stars: ★★★
 Ascension band: ASCENSION • from Mother Verdant ★★
 Origin | Class | Tier: Verdant | Ascendant · Summoner | TIER V
-Trait icons: Verdant: green antlers; Ascendant: use its icon from the official sheet; Summoner: green four-leaf clover
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Summoner: green four-leaf clover
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -71,8 +71,5 @@ Art brief: A goddess of green whose every step is spring.
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 160: unlisted traits use the official sheet; never invent icons.
 - 161 ★★: up-arrow 2, not up-arrow 0.
-- 161: unlisted traits use the official sheet; never invent icons.
 - 162 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
-- 162: unlisted traits use the official sheet; never invent icons.

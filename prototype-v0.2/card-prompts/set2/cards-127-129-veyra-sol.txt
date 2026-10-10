@@ -14,7 +14,7 @@ Title: Hunter of Guardians
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -34,7 +34,7 @@ Title: Hunter of Guardians
 Stars: ★★
 Ascension band: ASCENSION • from Veyra Sol ★
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -54,7 +54,7 @@ Title: Hunter of Guardians
 Stars: ★★★
 Ascension band: ASCENSION • from Veyra Sol ★★
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -71,9 +71,6 @@ Art brief: Stepping through a portal onto a Guardian’s back, blade raised. Can
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 127: unlisted traits use the official sheet; never invent icons.
 - 128 ★★: up-arrow 2, not up-arrow 0.
-- 128: unlisted traits use the official sheet; never invent icons.
 - 129 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
-- 129: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-127: Scorch 2; S2-128: none; S2-129: Scorch 3.

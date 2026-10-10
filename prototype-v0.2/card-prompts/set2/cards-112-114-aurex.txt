@@ -14,7 +14,7 @@ Title: Bane of the Guardians
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: Bane of the Guardians
 Stars: ★★
 Ascension band: ASCENSION • from Aurex ★
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -53,7 +53,7 @@ Title: Bane of the Guardians
 Stars: ★★★
 Ascension band: ASCENSION • from Aurex ★★
 Origin | Class | Tier: Wyrmblood | Ascendant · Bruiser | TIER V
-Trait icons: Wyrmblood: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Bruiser: orange fist
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Bruiser: orange fist
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -69,9 +69,6 @@ Art brief: The last dragon in the Guardians’ lair, a fallen Guardian beneath h
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 112: unlisted traits use the official sheet; never invent icons.
 - 113 ★★: up-arrow 2, not up-arrow 0.
-- 113: unlisted traits use the official sheet; never invent icons.
 - 114 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 114: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-112: Scorch 2; S2-113: Scorch 3; S2-114: Scorch 4.

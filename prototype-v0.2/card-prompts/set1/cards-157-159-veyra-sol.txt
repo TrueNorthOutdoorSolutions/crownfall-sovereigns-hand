@@ -14,7 +14,7 @@ Title: Reality Hunter
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: Reality Hunter
 Stars: ★★
 Ascension band: ASCENSION • from Veyra Sol ★
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -54,7 +54,7 @@ Title: Reality Hunter
 Stars: ★★★
 Ascension band: ASCENSION • from Veyra Sol ★★
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -72,8 +72,5 @@ Art brief: She exists in every reality at once, and all of them are hunting.
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 157: unlisted traits use the official sheet; never invent icons.
 - 158 ★★: up-arrow 2, not up-arrow 0.
-- 158: unlisted traits use the official sheet; never invent icons.
 - 159 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
-- 159: unlisted traits use the official sheet; never invent icons.
