@@ -115,7 +115,7 @@ Reference: `spell-template.jpg` (Set 1 cards 166 Sharpened Steel, 170 First Ligh
 
 Crown Power school icons: War Crown = red sword (⚔) · Fortune Crown = gold coin (◉) · Evolution Crown = green sparkle (✧) · Chaos Crown = pink burst (✺) · Creation Crown = cyan cross-flower (✥) · Void Crown = violet crescent (☾).
 
-Spell rarity: the canon Crown Power rarity; non-canon spells are COMMON. Footer letter (PROPOSED): Common C · Rare R · Epic P · Exalted X.
+Spell rarity: the canon Crown Power rarity; non-canon spells are COMMON. Rarity label colours (locked): COMMON plain, RARE blue, EPIC purple, EXALTED gold with dark text. Footer letter (PROPOSED): Common C · Rare R · Epic P · Exalted X.
 
 Shardfall reminder: *(If this breaks from your Crown, cast or set it for free.)*
 
