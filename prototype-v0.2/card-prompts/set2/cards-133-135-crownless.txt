@@ -14,7 +14,7 @@ Title: The Unbound
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Crownless | Ascendant | TIER V
-Trait icons: Crownless: use its icon from the official sheet; Ascendant: gold crown (distinct from the blue Kingdom crown)
+Trait icons: Crownless: grey crossed-out crown; Ascendant: gold crown (distinct from the blue Kingdom crown)
 Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -33,7 +33,7 @@ Title: The Unbound
 Stars: ★★
 Ascension band: ASCENSION • from Crownless ★
 Origin | Class | Tier: Crownless | Ascendant | TIER V
-Trait icons: Crownless: use its icon from the official sheet; Ascendant: gold crown (distinct from the blue Kingdom crown)
+Trait icons: Crownless: grey crossed-out crown; Ascendant: gold crown (distinct from the blue Kingdom crown)
 Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -53,7 +53,7 @@ Title: The Unbound
 Stars: ★★★
 Ascension band: ASCENSION • from Crownless ★★
 Origin | Class | Tier: Crownless | Ascendant | TIER V
-Trait icons: Crownless: use its icon from the official sheet; Ascendant: gold crown (distinct from the blue Kingdom crown)
+Trait icons: Crownless: grey crossed-out crown; Ascendant: gold crown (distinct from the blue Kingdom crown)
 Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -71,8 +71,5 @@ Art brief: Standing in the empty vault where the Crown once rested, refusing it 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 133: unlisted traits use the official sheet; never invent icons.
 - 134 ★★: up-arrow 2, not up-arrow 0.
-- 134: unlisted traits use the official sheet; never invent icons.
 - 135 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
-- 135: unlisted traits use the official sheet; never invent icons.

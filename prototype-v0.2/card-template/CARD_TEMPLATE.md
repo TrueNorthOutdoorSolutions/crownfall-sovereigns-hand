@@ -57,6 +57,7 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Commander | yellow flag |
 | Wyrmblood | orange trident |
 | Ascendant | gold crown (distinct from the blue Kingdom crown) |
+| Crownless | grey crossed-out crown |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
