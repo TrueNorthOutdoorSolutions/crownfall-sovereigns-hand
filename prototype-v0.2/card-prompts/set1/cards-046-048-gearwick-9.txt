@@ -14,7 +14,7 @@ Title: Siege Calculator
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -33,7 +33,7 @@ Title: Siege Calculator
 Stars: ★★
 Ascension band: ASCENSION • from Gearwick-9 ★
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -53,7 +53,7 @@ Title: Siege Calculator
 Stars: ★★★
 Ascension band: ASCENSION • from Gearwick-9 ★★
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -68,8 +68,5 @@ Art brief: A walking siege tower with a rotary mortar crown.
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 046: unlisted traits use the official sheet; never invent icons.
 - 047 ★★: up-arrow 1, not up-arrow 0.
-- 047: unlisted traits use the official sheet; never invent icons.
-- 048: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S1-046: Scorch 1; S1-047: Scorch 1, Scorch 1; S1-048: Scorch 2.

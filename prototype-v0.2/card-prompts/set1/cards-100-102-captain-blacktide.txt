@@ -14,7 +14,7 @@ Title: Terror of the Rift Seas
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Artillerist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Artillerist: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -33,7 +33,7 @@ Title: Terror of the Rift Seas
 Stars: ★★
 Ascension band: ASCENSION • from Captain Blacktide ★
 Origin | Class | Tier: Riftborn | Artillerist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Artillerist: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -52,7 +52,7 @@ Title: Terror of the Rift Seas
 Stars: ★★★
 Ascension band: ASCENSION • from Captain Blacktide ★★
 Origin | Class | Tier: Riftborn | Artillerist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Artillerist: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*

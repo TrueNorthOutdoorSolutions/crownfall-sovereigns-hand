@@ -14,7 +14,7 @@ Title: Relic Engineer
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -32,7 +32,7 @@ Title: Relic Engineer
 Stars: ★★
 Ascension band: ASCENSION • from Gearwick-9 ★
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -51,7 +51,7 @@ Title: Relic Engineer
 Stars: ★★★
 Ascension band: ASCENSION • from Gearwick-9 ★★
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: use its icon from the official sheet
+Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -66,8 +66,5 @@ Art brief: Bolting a recovered relic into its siege frame in an underground work
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 025: unlisted traits use the official sheet; never invent icons.
 - 026 ★★: up-arrow 1, not up-arrow 0.
-- 026: unlisted traits use the official sheet; never invent icons.
-- 027: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-025: none; S2-026: Scorch 1; S2-027: Scorch 2.
