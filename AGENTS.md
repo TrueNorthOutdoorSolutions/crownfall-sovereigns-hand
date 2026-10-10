@@ -57,6 +57,7 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Artillerist | yellow sunburst |
 | Astral | blue four-pointed sparkle |
 | Summoner | green four-leaf clover |
+| Riftborn | pink diamond-in-a-diamond |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

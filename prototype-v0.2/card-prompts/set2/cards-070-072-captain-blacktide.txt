@@ -14,7 +14,7 @@ Title: Plunderer of the Vault
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Artillerist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Artillerist: yellow sunburst
+Trait icons: Riftborn: pink diamond-in-a-diamond; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -32,7 +32,7 @@ Title: Plunderer of the Vault
 Stars: ★★
 Ascension band: ASCENSION • from Captain Blacktide ★
 Origin | Class | Tier: Riftborn | Artillerist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Artillerist: yellow sunburst
+Trait icons: Riftborn: pink diamond-in-a-diamond; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -51,7 +51,7 @@ Title: Plunderer of the Vault
 Stars: ★★★
 Ascension band: ASCENSION • from Captain Blacktide ★★
 Origin | Class | Tier: Riftborn | Artillerist | TIER III
-Trait icons: Riftborn: use its icon from the official sheet; Artillerist: yellow sunburst
+Trait icons: Riftborn: pink diamond-in-a-diamond; Artillerist: yellow sunburst
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -66,8 +66,5 @@ Art brief: His ship wedged in a rift above a Guardian’s treasure hoard. Canon 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 070: unlisted traits use the official sheet; never invent icons.
 - 071 ★★: up-arrow 1, not up-arrow 0.
-- 071: unlisted traits use the official sheet; never invent icons.
-- 072: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-070: none; S2-071: Scorch 1; S2-072: Scorch 2.

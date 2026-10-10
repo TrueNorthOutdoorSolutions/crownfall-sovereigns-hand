@@ -14,7 +14,7 @@ Title: The Rift Below
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Assassin | TIER IV
-Trait icons: Riftborn: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Assassin: lilac four-pointed star
 Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -33,7 +33,7 @@ Title: The Rift Below
 Stars: ★★
 Ascension band: ASCENSION • from Veilwalker ★
 Origin | Class | Tier: Riftborn | Assassin | TIER IV
-Trait icons: Riftborn: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Assassin: lilac four-pointed star
 Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -53,7 +53,7 @@ Title: The Rift Below
 Stars: ★★★
 Ascension band: ASCENSION • from Veilwalker ★★
 Origin | Class | Tier: Riftborn | Assassin | TIER IV
-Trait icons: Riftborn: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Assassin: lilac four-pointed star
 Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -69,9 +69,6 @@ Art brief: Stepping out of a tear in the cavern air behind a Guardian. Canon loo
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 100: unlisted traits use the official sheet; never invent icons.
 - 101 ★★: up-arrow 1, not up-arrow 0.
-- 101: unlisted traits use the official sheet; never invent icons.
 - 102 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 102: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S2-100: Scorch 1; S2-101: Scorch 2; S2-102: Scorch 2.

@@ -14,7 +14,7 @@ Title: Hunter of Guardians
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -34,7 +34,7 @@ Title: Hunter of Guardians
 Stars: ★★
 Ascension band: ASCENSION • from Veyra Sol ★
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
@@ -54,7 +54,7 @@ Title: Hunter of Guardians
 Stars: ★★★
 Ascension band: ASCENSION • from Veyra Sol ★★
 Origin | Class | Tier: Riftborn | Ascendant · Assassin | TIER V
-Trait icons: Riftborn: use its icon from the official sheet; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: use its icon from the official sheet; Assassin: lilac four-pointed star
 Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*

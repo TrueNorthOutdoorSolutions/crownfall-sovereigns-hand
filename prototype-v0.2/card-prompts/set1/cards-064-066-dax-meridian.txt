@@ -14,7 +14,7 @@ Title: The Gun Between Worlds
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Ranger | TIER II
-Trait icons: Riftborn: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ranger: yellow arrow
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -33,7 +33,7 @@ Title: The Gun Between Worlds
 Stars: ★★
 Ascension band: ASCENSION • from Dax Meridian ★
 Origin | Class | Tier: Riftborn | Ranger | TIER II
-Trait icons: Riftborn: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ranger: yellow arrow
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -52,7 +52,7 @@ Title: The Gun Between Worlds
 Stars: ★★★
 Ascension band: ASCENSION • from Dax Meridian ★★
 Origin | Class | Tier: Riftborn | Ranger | TIER II
-Trait icons: Riftborn: use its icon from the official sheet; Ranger: yellow arrow
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ranger: yellow arrow
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -67,8 +67,5 @@ Art brief: A drifter from every timeline at once: ghostly copies echo his shots.
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 064: unlisted traits use the official sheet; never invent icons.
 - 065 ★★: up-arrow 1, not up-arrow 0.
-- 065: unlisted traits use the official sheet; never invent icons.
-- 066: unlisted traits use the official sheet; never invent icons.
 - Mixed Scorch numbers: S1-064: Scorch 1; S1-065: Scorch 1; S1-066: Scorch 2.
