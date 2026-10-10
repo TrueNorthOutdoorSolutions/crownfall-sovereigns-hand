@@ -61,6 +61,10 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
+## Star symbol in rules text
+
+When rules text mentions a star rank (for example "Return a ★ champion"), draw the ★ as a small solid **gold** star, the same gold as the rank stars in the name bar (decided 2026-10-09).
+
 ## Keyword reminder text (exact wording)
 
 Charge *(Can attack the turn it arrives.)* · Bulwark *(Blocking doesn't turn it sideways.)* · Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)* · Reach *(Can block Flight.)* · Ascendant *(One per deck.)* · Guardian *(One per deck.)*
