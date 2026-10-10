@@ -117,7 +117,7 @@ function build(set) {
       const id = l.lineId;
       const gl = fam === 'guardian' ? extras.guardianLines[GUARDIAN_LINE_KEY[l.canonId] ?? l.canonId] : undefined;
       rows.push({
-        no: nextNo(), id, section: fam === 'monster' ? 'Monsters' : fam === 'guardian' ? 'Guardians' : 'Tokens', name: l.name, title: '', form: '',
+        no: fam === 'token' ? 'TOKEN' : nextNo(), id, section: fam === 'monster' ? 'Monsters' : fam === 'guardian' ? 'Guardians' : 'Tokens', name: l.name, title: '', form: '',
         type: cap(fam), status: fam === 'token' ? 'Token (made by other cards; not in decks)' : status(id), tier: '', origins: '', classes: '',
         cost: fam === 'token' ? '' : String(f.cost), might: String(f.might), guard: String(f.guard), keywords: f.keywords.join(', '),
         ability: f.ability ?? '', text: f.text ?? '', crown: '',
@@ -161,6 +161,9 @@ function build(set) {
       file: `set${set}/edicts/${e.canonId}.png`,
     });
   }
+  // Tokens are numbered separately (T01, T02 …) and never count toward the set total.
+  let t = 0;
+  for (const r of rows) if (r.no === 'TOKEN') r.no = `S${set}-T${String(++t).padStart(2, '0')}`;
   return rows;
 }
 

@@ -441,114 +441,114 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Card | Type | Cost | Stats | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S2-146 | Void Spider | Token |  | 1 / 1 | **Ambush** | — | A single small void spider, shadowy and fast, mid-leap. | Token |
-| S2-147 | Hydra Hatchling | Token |  | 2 / 2 |  | — | A small clockwork hydra hatchling, one brass head, sparks flying. | Token |
-| S2-148 | Wild Sapling | Token |  | 1 / 3 | **Bulwark** | — | A wild sapling with a bark shield, standing firm in the arena dirt. | Token |
-| S2-149 | Guardian Construct | Token |  | 3 / 4 |  | — | A plain stone-and-crystal guardian construct, arms raised to block. | Token |
+| S2-T01 | Void Spider | Token |  | 1 / 1 | **Ambush** | — | A single small void spider, shadowy and fast, mid-leap. | Token |
+| S2-T02 | Hydra Hatchling | Token |  | 2 / 2 |  | — | A small clockwork hydra hatchling, one brass head, sparks flying. | Token |
+| S2-T03 | Wild Sapling | Token |  | 1 / 3 | **Bulwark** | — | A wild sapling with a bark shield, standing firm in the arena dirt. | Token |
+| S2-T04 | Guardian Construct | Token |  | 3 / 4 |  | — | A plain stone-and-crystal guardian construct, arms raised to block. | Token |
 
 ## Tactics and Schemes (30)
 
 | No. | Card | Type | Cost | Stats | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S2-150 | Unbinding Charm | Tactic | 0 |  | Return a Relic to its owner’s hand. | — | A silver charm unpicking the bindings of a relic. | Starter deck: Vault Delvers |
-| S2-151 | Crown Hex: War | Tactic | 2 |  | Your champions get +2 Might this turn. | — | A golden hex blazing red beneath an army’s feet. | Starter deck: Vault Delvers |
-| S2-152 | Crown Hex: Fortune | Tactic | 1 |  | Shield a champion you control. Gain 2 Command. | — | A golden hex scattering coins and a glowing shield. | Draft |
-| S2-153 | Crown Hex: Creation | Tactic | 2 |  | Summon two Crownlings. | — | A golden hex from which small crowned creatures spring. | Draft |
-| S2-154 | Crown Hex: Void | Tactic | 0 |  | Break one of your own shards. Your champions get +3 Might this turn. | — | A golden hex cracking into violet void. | Draft |
-| S2-155 | Crown Hex: Evolution | Tactic | 2 |  | Ascend one of your ★ champions to ★★ for free. | — | A golden hex lifting a champion into its next form. | Draft |
-| S2-156 | Wild Encounter | Tactic | 2 |  | Deploy a Monster costing 3 or less from your hand for free. | — | Wild monsters bursting from a cavern into the Arena. | Starter deck: Guardians' Brood |
-| S2-157 | Boss Encounter | Tactic | 2 |  | Your Monsters and Guardians get +2 Might and +2 Guard this turn. Draw a card. | — | A Guardian rising through the Arena floor as Sovereigns brace. | Starter deck: Guardians' Brood |
-| S2-158 | Pack Leader | Tactic | 1 |  | Your Wildkin champions and Monsters get +2 Might this turn. | — | A Rift Alpha howling at the head of its pack. | Starter deck: Guardians' Brood |
-| S2-159 | Clash of Sovereigns | Tactic | 2 |  | Ready another champion you control. Your champions get +1 Might this turn. | "The Clash of Sovereigns begins." | Two Sovereigns’ banners crashing together over the Arena. | Draft |
-| S2-160 | Something Stirs Beneath the Arena | Tactic | 1 |  | Return a ★ champion from your Fallen pile to your hand. Draw a card. | "Something stirs beneath the Arena." | Cracks spreading across the Arena sand as something huge moves below. | Starter deck: Guardians' Brood |
-| S2-161 | A Guardian Approaches | Tactic | 2 |  | Summon a Guardian Construct. | "A guardian approaches." | The silhouette of a Guardian Construct stepping out of a dark tunnel. | Draft |
-| S2-162 | The Guardian Falls | Tactic | 3 |  | Defeat each rival champion with Guard 3 or less. | "The guardian falls." | A colossal Guardian toppling onto the Arena sand. | Draft |
-| S2-163 | Its Treasure Is Yours | Tactic | 1 |  | Return a Relic from your Fallen pile to your hand. Draw a card. | "Its treasure is yours." | A heap of relics spilling from a fallen Guardian’s chest. | Starter deck: Vault Delvers |
-| S2-164 | The Arena Yields Its Prize | Tactic | 2 |  | Draw 2 cards. Gain 1 Command. | "The Arena yields its prize." | A golden chest rising from the Arena floor. | Draft |
-| S2-165 | The Vault Remembers | Tactic | 1 |  | **Shardfall** · Return a Relic from your Fallen pile to your hand. | "The Vault remembers this relic." | Relics re-forming on their pedestals in the Ascension Vault. | Starter deck: Vault Delvers |
-| S2-166 | Old Power, Newly Yours | Tactic | 1 |  | Return a Relic from your Fallen pile to your hand. Gain 2 Command. | "A Crown Artifact. Old power, newly yours." | A champion lifting an ancient artifact, light pouring from it. | Draft |
-| S2-167 | The Ascension Vault Opens | Tactic | 2 |  | Draw 3 cards, then put a card from your hand on the bottom of your deck. | "The Ascension Vault opens." | The great doors of the Ascension Vault swinging open. | Draft |
-| S2-168 | The Wounded Choose First | Tactic | 1 |  | **Shardfall** · If you have fewer shards than your rival, draw 2 cards. | "The Crown Draft begins. The wounded choose first." | A battered Sovereign reaching first into the Vault. | Draft |
-| S2-169 | The Crown Is Divided | Tactic | 2 |  | Mend 1. Draw a card. | "The Crown is divided. Come and claim your share." | Shards of the Crown hanging in the air above the Arena. | Draft |
-| S2-170 | The Guardian Enrages | Swift Tactic | 1 |  | A champion gets +4 Might this turn. | "The Guardian enrages." | The Crown Guardian’s eyes burning red as it enrages. | Draft |
-| S2-171 | A Head Splits | Tactic | 2 |  | Summon two Hydra Hatchlings. | "A head splits." | A clockwork hydra head splitting into snapping hatchlings. | Draft |
-| S2-172 | Even Crowns Are Forged in Fire | Tactic | 2 |  | Return a ★ champion and a Relic from your Fallen pile to your hand. | "Even crowns are forged in fire." | A crown glowing white-hot on an anvil. | Draft |
-| S2-173 | The Tide Will Turn | Tactic | 0 |  | If you have fewer shards than your rival, draw 2 cards. | "The tide will turn." | A wave of light rolling back across a losing battlefield. | Draft |
-| S2-174 | Your Crown Is in Danger | Tactic | 2 |  | If you have fewer shards than your rival, Mend 1. | "Your Crown is in danger." | A cracked Crown Shard glowing as it begins to mend. | Draft |
-| S2-175 | Steel Will Answer | Scheme | 1 |  | Spring when a rival champion attacks: it gets −3 Might this turn. | "Steel will answer." | A wall of raised steel meeting a charge. | Starter deck: Vault Delvers |
-| S2-176 | It Cannot Be Touched | Scheme | 1 |  | Spring when one of your champions is attacked or blocks: Shield one of your champions. | "It cannot be touched. Wait." | A Celestial Sentinel wrapped in an untouchable golden shell. | Draft |
-| S2-177 | One Still Stands | Scheme | 1 |  | Spring when one of your champions is attacked or blocks: it gets +2 Might and +2 Guard this turn. | "One still stands." | A lone champion standing amid the fallen. | Starter deck: Guardians' Brood |
-| S2-178 | The Guardian Keeps Its Treasure | Scheme | 1 |  | Spring when one of your champions is attacked or blocks: it gets +3 Guard this turn. | "The guardian keeps its treasure." | A Guardian curled around its hoard, refusing to yield. | Draft |
-| S2-179 | Steady, Sovereign. Not Yet. | Scheme | 1 |  | Spring when a rival champion attacks your Crown and is not blocked: that attack ends. No shards break. | "Steady, Sovereign. Not yet." | A Sovereign’s hand raised as an attack freezes mid-air. | Starter deck: Guardians' Brood |
+| S2-146 | Unbinding Charm | Tactic | 0 |  | Return a Relic to its owner’s hand. | — | A silver charm unpicking the bindings of a relic. | Starter deck: Vault Delvers |
+| S2-147 | Crown Hex: War | Tactic | 2 |  | Your champions get +2 Might this turn. | — | A golden hex blazing red beneath an army’s feet. | Starter deck: Vault Delvers |
+| S2-148 | Crown Hex: Fortune | Tactic | 1 |  | Shield a champion you control. Gain 2 Command. | — | A golden hex scattering coins and a glowing shield. | Draft |
+| S2-149 | Crown Hex: Creation | Tactic | 2 |  | Summon two Crownlings. | — | A golden hex from which small crowned creatures spring. | Draft |
+| S2-150 | Crown Hex: Void | Tactic | 0 |  | Break one of your own shards. Your champions get +3 Might this turn. | — | A golden hex cracking into violet void. | Draft |
+| S2-151 | Crown Hex: Evolution | Tactic | 2 |  | Ascend one of your ★ champions to ★★ for free. | — | A golden hex lifting a champion into its next form. | Draft |
+| S2-152 | Wild Encounter | Tactic | 2 |  | Deploy a Monster costing 3 or less from your hand for free. | — | Wild monsters bursting from a cavern into the Arena. | Starter deck: Guardians' Brood |
+| S2-153 | Boss Encounter | Tactic | 2 |  | Your Monsters and Guardians get +2 Might and +2 Guard this turn. Draw a card. | — | A Guardian rising through the Arena floor as Sovereigns brace. | Starter deck: Guardians' Brood |
+| S2-154 | Pack Leader | Tactic | 1 |  | Your Wildkin champions and Monsters get +2 Might this turn. | — | A Rift Alpha howling at the head of its pack. | Starter deck: Guardians' Brood |
+| S2-155 | Clash of Sovereigns | Tactic | 2 |  | Ready another champion you control. Your champions get +1 Might this turn. | "The Clash of Sovereigns begins." | Two Sovereigns’ banners crashing together over the Arena. | Draft |
+| S2-156 | Something Stirs Beneath the Arena | Tactic | 1 |  | Return a ★ champion from your Fallen pile to your hand. Draw a card. | "Something stirs beneath the Arena." | Cracks spreading across the Arena sand as something huge moves below. | Starter deck: Guardians' Brood |
+| S2-157 | A Guardian Approaches | Tactic | 2 |  | Summon a Guardian Construct. | "A guardian approaches." | The silhouette of a Guardian Construct stepping out of a dark tunnel. | Draft |
+| S2-158 | The Guardian Falls | Tactic | 3 |  | Defeat each rival champion with Guard 3 or less. | "The guardian falls." | A colossal Guardian toppling onto the Arena sand. | Draft |
+| S2-159 | Its Treasure Is Yours | Tactic | 1 |  | Return a Relic from your Fallen pile to your hand. Draw a card. | "Its treasure is yours." | A heap of relics spilling from a fallen Guardian’s chest. | Starter deck: Vault Delvers |
+| S2-160 | The Arena Yields Its Prize | Tactic | 2 |  | Draw 2 cards. Gain 1 Command. | "The Arena yields its prize." | A golden chest rising from the Arena floor. | Draft |
+| S2-161 | The Vault Remembers | Tactic | 1 |  | **Shardfall** · Return a Relic from your Fallen pile to your hand. | "The Vault remembers this relic." | Relics re-forming on their pedestals in the Ascension Vault. | Starter deck: Vault Delvers |
+| S2-162 | Old Power, Newly Yours | Tactic | 1 |  | Return a Relic from your Fallen pile to your hand. Gain 2 Command. | "A Crown Artifact. Old power, newly yours." | A champion lifting an ancient artifact, light pouring from it. | Draft |
+| S2-163 | The Ascension Vault Opens | Tactic | 2 |  | Draw 3 cards, then put a card from your hand on the bottom of your deck. | "The Ascension Vault opens." | The great doors of the Ascension Vault swinging open. | Draft |
+| S2-164 | The Wounded Choose First | Tactic | 1 |  | **Shardfall** · If you have fewer shards than your rival, draw 2 cards. | "The Crown Draft begins. The wounded choose first." | A battered Sovereign reaching first into the Vault. | Draft |
+| S2-165 | The Crown Is Divided | Tactic | 2 |  | Mend 1. Draw a card. | "The Crown is divided. Come and claim your share." | Shards of the Crown hanging in the air above the Arena. | Draft |
+| S2-166 | The Guardian Enrages | Swift Tactic | 1 |  | A champion gets +4 Might this turn. | "The Guardian enrages." | The Crown Guardian’s eyes burning red as it enrages. | Draft |
+| S2-167 | A Head Splits | Tactic | 2 |  | Summon two Hydra Hatchlings. | "A head splits." | A clockwork hydra head splitting into snapping hatchlings. | Draft |
+| S2-168 | Even Crowns Are Forged in Fire | Tactic | 2 |  | Return a ★ champion and a Relic from your Fallen pile to your hand. | "Even crowns are forged in fire." | A crown glowing white-hot on an anvil. | Draft |
+| S2-169 | The Tide Will Turn | Tactic | 0 |  | If you have fewer shards than your rival, draw 2 cards. | "The tide will turn." | A wave of light rolling back across a losing battlefield. | Draft |
+| S2-170 | Your Crown Is in Danger | Tactic | 2 |  | If you have fewer shards than your rival, Mend 1. | "Your Crown is in danger." | A cracked Crown Shard glowing as it begins to mend. | Draft |
+| S2-171 | Steel Will Answer | Scheme | 1 |  | Spring when a rival champion attacks: it gets −3 Might this turn. | "Steel will answer." | A wall of raised steel meeting a charge. | Starter deck: Vault Delvers |
+| S2-172 | It Cannot Be Touched | Scheme | 1 |  | Spring when one of your champions is attacked or blocks: Shield one of your champions. | "It cannot be touched. Wait." | A Celestial Sentinel wrapped in an untouchable golden shell. | Draft |
+| S2-173 | One Still Stands | Scheme | 1 |  | Spring when one of your champions is attacked or blocks: it gets +2 Might and +2 Guard this turn. | "One still stands." | A lone champion standing amid the fallen. | Starter deck: Guardians' Brood |
+| S2-174 | The Guardian Keeps Its Treasure | Scheme | 1 |  | Spring when one of your champions is attacked or blocks: it gets +3 Guard this turn. | "The guardian keeps its treasure." | A Guardian curled around its hoard, refusing to yield. | Draft |
+| S2-175 | Steady, Sovereign. Not Yet. | Scheme | 1 |  | Spring when a rival champion attacks your Crown and is not blocked: that attack ends. No shards break. | "Steady, Sovereign. Not yet." | A Sovereign’s hand raised as an attack freezes mid-air. | Starter deck: Guardians' Brood |
 
 ## Relics (58)
 
 | No. | Card | Type | Cost | Stats | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S2-180 | Royal Blade<br>*Component* | Relic | 1 | +2 / 0 | +2 Might. | — | A plain royal longsword on a velvet cushion in a vault. | Starter deck: Vault Delvers |
-| S2-181 | Quicksteel Bow<br>*Component* | Relic | 1 |  | **Charge** · Charge. | — | A light silver bow that seems to hum in the hand. | Draft |
-| S2-182 | Arcane Ember<br>*Component* | Relic | 1 |  | Attack: Scorch 1 the defender. | — | A floating ember of violet arcane fire. | Draft |
-| S2-183 | Crown Tear<br>*Component* | Relic | 2 |  | At the start of your turn, gain 1 Command. | — | A single crystal tear fallen from the Crown, glowing gold. | Draft |
-| S2-184 | Iron Plate<br>*Component* | Relic | 1 | 0 / +2 | +2 Guard. | — | A dented iron breastplate on an armour stand. | Starter deck: Vault Delvers |
-| S2-185 | Warding Cloak<br>*Component* | Relic | 1 | 0 / +1 | +1 Guard. Block: Scorch 1 the attacker. | — | A deep blue cloak stitched with warding runes. | Draft |
-| S2-186 | Titan Heart<br>*Component* | Relic | 2 | 0 / +3 | +3 Guard. | — | A slow-beating stone heart the size of a shield. | Draft |
-| S2-187 | Fate Gauntlet<br>*Component* | Relic | 1 | +1 / 0 | **Ambush** · +1 Might. Ambush. | — | A clawed gauntlet with a glowing lens set in the palm. | Draft |
-| S2-188 | Colossus Edge<br>*Completed* | Relic | 2 | +3 / 0 | +3 Might. | — | A greatsword taller than its wielder, notched from felling giants. | Starter deck: Vault Delvers |
-| S2-189 | Crownreaper<br>*Completed* | Relic | 3 | +1 / 0 | +1 Might. Once per turn, when the holder defeats a champion on your turn, ready it. | — | A curved crimson blade that drinks the light around it. | Draft |
-| S2-190 | Spellforged Saber<br>*Completed* | Relic | 2 | +1 / 0 | +1 Might. Attack: Scorch 1 each rival champion. | — | A saber with runes burning along the edge. | Draft |
-| S2-191 | Crownsworn Blade<br>*Completed* | Relic | 2 | +2 / 0 | +2 Might. When the holder defeats a champion on your turn, gain 1 Command. | — | A knight’s blade engraved with an oath to the Crown. | Starter deck: Vault Delvers |
-| S2-192 | Kingsblood Edge<br>*Completed* | Relic | 2 | 0 / +2 | +2 Guard. Block: Shield the holder. | — | A royal sword whose blade bleeds a protective red light. | Draft |
-| S2-193 | Veilpiercer<br>*Completed* | Relic | 2 | +1 / 0 | +1 Might. Attack: Scorch 2 the defender. | — | A needle-thin rapier that cuts through enchantments. | Draft |
-| S2-194 | Bloodoath Blade<br>*Completed* | Relic | 3 | +2 / 0 | +2 Might. When the holder defeats a champion on your turn, Shield it. | — | A black blade wrapped in red cloth soaked in an old oath. | Starter deck: Guardians' Brood |
-| S2-195 | Deadeye Edge<br>*Completed* | Relic | 2 | +2 / 0 | **Ambush** · +2 Might. Ambush. | — | A sniper’s dagger with a crosshair etched on the blade. | Draft |
-| S2-196 | Tempest Engine<br>*Completed* | Relic | 3 | +1 / 0 | **Charge, Ambush** · +1 Might. Charge. Ambush. | — | A whirring clockwork bracer spinning with storm wind. | Draft |
-| S2-197 | Storm Engine<br>*Completed* | Relic | 3 | +1 / 0 | +1 Might. Attack: Scorch 1 each rival champion. | — | A brass engine crackling with chained lightning. | Draft |
-| S2-198 | Chrono Band<br>*Completed* | Relic | 2 | +1 / 0 | **Charge** · +1 Might. Charge. | — | A wristband of turning hourglass gears. | Draft |
-| S2-199 | Resolute Buckler<br>*Completed* | Relic | 2 | 0 / +2 | +2 Guard. +2 Might while blocking. | — | A battered buckler covered in the marks of every blow it stopped. | Draft |
-| S2-200 | Phase Mantle<br>*Completed* | Relic | 2 | 0 / +1 | **Flight** · +1 Guard. Flight. | — | A shimmering mantle that blurs in and out of sight. | Draft |
-| S2-201 | Quickened Heart<br>*Completed* | Relic | 2 | +1 / +2 | +1 Might and +2 Guard. | — | A glowing heart-shaped amulet with a racing pulse. | Draft |
-| S2-202 | Falconeye Bow<br>*Completed* | Relic | 2 |  | **Reach** · Reach. Attack: Scorch 2 a rival champion. | — | A longbow with a falcon’s eye set in its grip. | Draft |
-| S2-203 | Astral Diadem<br>*Completed* | Relic | 3 | +2 / 0 | **Flight** · +2 Might. Flight. | — | A diadem of floating star fragments. | Draft |
-| S2-204 | Starfire Codex<br>*Completed* | Relic | 3 |  | At the start of your turn, draw a card. | — | A spellbook whose pages burn with starfire. | Draft |
-| S2-205 | Aegis Codex<br>*Completed* | Relic | 3 | 0 / +1 | +1 Guard. Your other champions have +1 Guard. | — | A shield-shaped tome radiating a protective dome. | Starter deck: Vault Delvers |
-| S2-206 | Hexflame Orb<br>*Completed* | Relic | 2 |  | Attack: Scorch 2 the defender. The defender gets −1 Might this turn. | — | An orb of green hexfire caged in black iron. | Draft |
-| S2-207 | Verdant Chalice<br>*Completed* | Relic | 3 |  | At the start of your turn, Shield a champion you control. | — | A living wooden chalice overflowing with healing sap. | Draft |
-| S2-208 | Seer's Prism<br>*Completed* | Relic | 2 | +2 / 0 | +2 Might. Attack: Scorch 1 the defender. | — | A prism throwing rainbow light into a seer’s eyes. | Draft |
-| S2-209 | Wellspring Circlet<br>*Completed* | Relic | 4 |  | At the start of your turn, gain 2 Command. | — | A circlet with a spring of clear water at its centre. | Draft |
-| S2-210 | Rallying Standard<br>*Completed* | Relic | 3 |  | Your other champions have +1 Might. | — | A war banner that seems to stand taller in battle. | Draft |
-| S2-211 | Spell Shroud<br>*Completed* | Relic | 2 | 0 / +3 | +3 Guard. | — | A veil that turns spells aside like rain off glass. | Draft |
-| S2-212 | Phoenix Plume<br>*Completed* | Relic | 2 |  | When the holder is defeated, return a ★ champion from your Fallen pile to your hand. | — | A burning feather that never stops glowing. | Draft |
-| S2-213 | Fatebinder<br>*Completed* | Relic | 2 | +2 / 0 | +2 Might. Attack: The defender gets −2 Might this turn. | — | Golden chains of fate wrapped around a fist. | Draft |
-| S2-214 | Thornward Mail<br>*Completed* | Relic | 2 | 0 / +2 | +2 Guard. Block: Scorch 2 the attacker. | — | Armour bristling with iron thorns. | Draft |
-| S2-215 | Twin Aegis<br>*Completed* | Relic | 2 | 0 / +2 | **Bulwark** · +2 Guard. Bulwark. | — | Two interlocking shields bearing the same crest. | Draft |
-| S2-216 | Bastion of the Deep<br>*Completed* | Relic | 3 | 0 / +4 | +4 Guard. | — | A tower shield carved from the rock of the Deep. | Draft |
-| S2-217 | Watchward Visor<br>*Completed* | Relic | 2 | 0 / +2 | **Reach** · +2 Guard. Reach. | — | A visored helm with a watchful eye painted above the slit. | Draft |
-| S2-218 | Starveil Cloak<br>*Completed* | Relic | 2 | 0 / +2 | **Flight** · +2 Guard. Flight. | — | A cloak woven from the night sky. | Draft |
-| S2-219 | Sanctified Mantle<br>*Completed* | Relic | 2 |  | At the start of your turn, Shield the holder. | — | A white mantle glowing with holy light. | Draft |
-| S2-220 | Nullifier Grip<br>*Completed* | Relic | 2 |  | Attack: The defender gets −3 Might this turn. | — | A heavy gauntlet that drains the magic from whatever it grips. | Starter deck: Guardians' Brood |
-| S2-221 | Mountainheart<br>*Completed* | Relic | 3 | 0 / +4 | +4 Guard. | — | A stone heart carved from a mountain’s core. | Draft |
-| S2-222 | Reaper's Grasp<br>*Completed* | Relic | 3 |  | Attack: Defeat each rival champion with Guard 1 or less. | — | A skeletal hand clutching a cold lens. | Draft |
-| S2-223 | Fate's Edge<br>*Completed* | Relic | 3 | +3 / 0 | +3 Might. Attack: Scorch 1 the defender. | — | A blade whose edge follows the thread of fate. | Draft |
-| S2-224 | Kingdom Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Kingdom. | — | A royal blue emblem stamped with the Kingdom crest. | Starter deck: Vault Delvers |
-| S2-225 | Wildkin Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Wildkin. | — | A claw-marked emblem strung on a leather cord. | Draft |
-| S2-226 | Astral Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Astral. | — | A star-shaped emblem glowing with soft silver light. | Draft |
-| S2-227 | Hollow Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Hollow. | — | A pale bone emblem with ghost-light in its hollows. | Starter deck: Guardians' Brood |
-| S2-228 | Gearbound Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Gearbound. | — | A brass cog emblem that slowly turns on its own. | Draft |
-| S2-229 | Umbral Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Umbral. | — | A crescent emblem of polished shadow. | Draft |
-| S2-230 | Verdant Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Verdant. | — | A living leaf emblem with roots curling from its edge. | Draft |
-| S2-231 | Riftborn Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Riftborn. | — | An emblem with a tiny tear in reality at its centre. | Draft |
-| S2-232 | Sovereign Crown<br>*Crown* | Relic | 3 | +1 / +1 | +1 Might and +1 Guard. You have one more Champion Zone while it is in play. | — | A small golden crown forged from two Crown Shards. | Draft |
-| S2-233 | The Fallen King's Blade<br>*Artifact · Legendary* | Relic | 4 | +2 / 0 | +2 Might. Once per turn, when the holder defeats a champion on your turn, ready it and draw a card. | — | The blade of a forgotten king, still sharp, still hungry. | Starter deck: Vault Delvers |
-| S2-234 | Crown of the First Realm<br>*Artifact · Legendary* | Relic | 4 | +1 / +1 | +1 Might and +1 Guard. The holder counts as every Origin. | — | An ancient crown of the first realm, older than the Crownfall. | Draft |
-| S2-235 | Hourglass of Ash<br>*Artifact · Legendary* | Relic | 4 | 0 / +2 | +2 Guard. At the start of your turn, Shield the holder. | — | An hourglass of grey ash that flows upward. | Draft |
-| S2-236 | Titan's Last Heart<br>*Artifact · Legendary* | Relic | 4 | 0 / +4 | +4 Guard. When the holder is defeated, Shield each champion you control. | — | The final heart of the last titan, cracked but still beating. | Draft |
-| S2-237 | The Starless Tome<br>*Artifact · Legendary* | Relic | 4 |  | At the start of your turn, draw a card and gain 1 Command. | — | A black book whose pages hold no stars at all. | Draft |
+| S2-176 | Royal Blade<br>*Component* | Relic | 1 | +2 / 0 | +2 Might. | — | A plain royal longsword on a velvet cushion in a vault. | Starter deck: Vault Delvers |
+| S2-177 | Quicksteel Bow<br>*Component* | Relic | 1 |  | **Charge** · Charge. | — | A light silver bow that seems to hum in the hand. | Draft |
+| S2-178 | Arcane Ember<br>*Component* | Relic | 1 |  | Attack: Scorch 1 the defender. | — | A floating ember of violet arcane fire. | Draft |
+| S2-179 | Crown Tear<br>*Component* | Relic | 2 |  | At the start of your turn, gain 1 Command. | — | A single crystal tear fallen from the Crown, glowing gold. | Draft |
+| S2-180 | Iron Plate<br>*Component* | Relic | 1 | 0 / +2 | +2 Guard. | — | A dented iron breastplate on an armour stand. | Starter deck: Vault Delvers |
+| S2-181 | Warding Cloak<br>*Component* | Relic | 1 | 0 / +1 | +1 Guard. Block: Scorch 1 the attacker. | — | A deep blue cloak stitched with warding runes. | Draft |
+| S2-182 | Titan Heart<br>*Component* | Relic | 2 | 0 / +3 | +3 Guard. | — | A slow-beating stone heart the size of a shield. | Draft |
+| S2-183 | Fate Gauntlet<br>*Component* | Relic | 1 | +1 / 0 | **Ambush** · +1 Might. Ambush. | — | A clawed gauntlet with a glowing lens set in the palm. | Draft |
+| S2-184 | Colossus Edge<br>*Completed* | Relic | 2 | +3 / 0 | +3 Might. | — | A greatsword taller than its wielder, notched from felling giants. | Starter deck: Vault Delvers |
+| S2-185 | Crownreaper<br>*Completed* | Relic | 3 | +1 / 0 | +1 Might. Once per turn, when the holder defeats a champion on your turn, ready it. | — | A curved crimson blade that drinks the light around it. | Draft |
+| S2-186 | Spellforged Saber<br>*Completed* | Relic | 2 | +1 / 0 | +1 Might. Attack: Scorch 1 each rival champion. | — | A saber with runes burning along the edge. | Draft |
+| S2-187 | Crownsworn Blade<br>*Completed* | Relic | 2 | +2 / 0 | +2 Might. When the holder defeats a champion on your turn, gain 1 Command. | — | A knight’s blade engraved with an oath to the Crown. | Starter deck: Vault Delvers |
+| S2-188 | Kingsblood Edge<br>*Completed* | Relic | 2 | 0 / +2 | +2 Guard. Block: Shield the holder. | — | A royal sword whose blade bleeds a protective red light. | Draft |
+| S2-189 | Veilpiercer<br>*Completed* | Relic | 2 | +1 / 0 | +1 Might. Attack: Scorch 2 the defender. | — | A needle-thin rapier that cuts through enchantments. | Draft |
+| S2-190 | Bloodoath Blade<br>*Completed* | Relic | 3 | +2 / 0 | +2 Might. When the holder defeats a champion on your turn, Shield it. | — | A black blade wrapped in red cloth soaked in an old oath. | Starter deck: Guardians' Brood |
+| S2-191 | Deadeye Edge<br>*Completed* | Relic | 2 | +2 / 0 | **Ambush** · +2 Might. Ambush. | — | A sniper’s dagger with a crosshair etched on the blade. | Draft |
+| S2-192 | Tempest Engine<br>*Completed* | Relic | 3 | +1 / 0 | **Charge, Ambush** · +1 Might. Charge. Ambush. | — | A whirring clockwork bracer spinning with storm wind. | Draft |
+| S2-193 | Storm Engine<br>*Completed* | Relic | 3 | +1 / 0 | +1 Might. Attack: Scorch 1 each rival champion. | — | A brass engine crackling with chained lightning. | Draft |
+| S2-194 | Chrono Band<br>*Completed* | Relic | 2 | +1 / 0 | **Charge** · +1 Might. Charge. | — | A wristband of turning hourglass gears. | Draft |
+| S2-195 | Resolute Buckler<br>*Completed* | Relic | 2 | 0 / +2 | +2 Guard. +2 Might while blocking. | — | A battered buckler covered in the marks of every blow it stopped. | Draft |
+| S2-196 | Phase Mantle<br>*Completed* | Relic | 2 | 0 / +1 | **Flight** · +1 Guard. Flight. | — | A shimmering mantle that blurs in and out of sight. | Draft |
+| S2-197 | Quickened Heart<br>*Completed* | Relic | 2 | +1 / +2 | +1 Might and +2 Guard. | — | A glowing heart-shaped amulet with a racing pulse. | Draft |
+| S2-198 | Falconeye Bow<br>*Completed* | Relic | 2 |  | **Reach** · Reach. Attack: Scorch 2 a rival champion. | — | A longbow with a falcon’s eye set in its grip. | Draft |
+| S2-199 | Astral Diadem<br>*Completed* | Relic | 3 | +2 / 0 | **Flight** · +2 Might. Flight. | — | A diadem of floating star fragments. | Draft |
+| S2-200 | Starfire Codex<br>*Completed* | Relic | 3 |  | At the start of your turn, draw a card. | — | A spellbook whose pages burn with starfire. | Draft |
+| S2-201 | Aegis Codex<br>*Completed* | Relic | 3 | 0 / +1 | +1 Guard. Your other champions have +1 Guard. | — | A shield-shaped tome radiating a protective dome. | Starter deck: Vault Delvers |
+| S2-202 | Hexflame Orb<br>*Completed* | Relic | 2 |  | Attack: Scorch 2 the defender. The defender gets −1 Might this turn. | — | An orb of green hexfire caged in black iron. | Draft |
+| S2-203 | Verdant Chalice<br>*Completed* | Relic | 3 |  | At the start of your turn, Shield a champion you control. | — | A living wooden chalice overflowing with healing sap. | Draft |
+| S2-204 | Seer's Prism<br>*Completed* | Relic | 2 | +2 / 0 | +2 Might. Attack: Scorch 1 the defender. | — | A prism throwing rainbow light into a seer’s eyes. | Draft |
+| S2-205 | Wellspring Circlet<br>*Completed* | Relic | 4 |  | At the start of your turn, gain 2 Command. | — | A circlet with a spring of clear water at its centre. | Draft |
+| S2-206 | Rallying Standard<br>*Completed* | Relic | 3 |  | Your other champions have +1 Might. | — | A war banner that seems to stand taller in battle. | Draft |
+| S2-207 | Spell Shroud<br>*Completed* | Relic | 2 | 0 / +3 | +3 Guard. | — | A veil that turns spells aside like rain off glass. | Draft |
+| S2-208 | Phoenix Plume<br>*Completed* | Relic | 2 |  | When the holder is defeated, return a ★ champion from your Fallen pile to your hand. | — | A burning feather that never stops glowing. | Draft |
+| S2-209 | Fatebinder<br>*Completed* | Relic | 2 | +2 / 0 | +2 Might. Attack: The defender gets −2 Might this turn. | — | Golden chains of fate wrapped around a fist. | Draft |
+| S2-210 | Thornward Mail<br>*Completed* | Relic | 2 | 0 / +2 | +2 Guard. Block: Scorch 2 the attacker. | — | Armour bristling with iron thorns. | Draft |
+| S2-211 | Twin Aegis<br>*Completed* | Relic | 2 | 0 / +2 | **Bulwark** · +2 Guard. Bulwark. | — | Two interlocking shields bearing the same crest. | Draft |
+| S2-212 | Bastion of the Deep<br>*Completed* | Relic | 3 | 0 / +4 | +4 Guard. | — | A tower shield carved from the rock of the Deep. | Draft |
+| S2-213 | Watchward Visor<br>*Completed* | Relic | 2 | 0 / +2 | **Reach** · +2 Guard. Reach. | — | A visored helm with a watchful eye painted above the slit. | Draft |
+| S2-214 | Starveil Cloak<br>*Completed* | Relic | 2 | 0 / +2 | **Flight** · +2 Guard. Flight. | — | A cloak woven from the night sky. | Draft |
+| S2-215 | Sanctified Mantle<br>*Completed* | Relic | 2 |  | At the start of your turn, Shield the holder. | — | A white mantle glowing with holy light. | Draft |
+| S2-216 | Nullifier Grip<br>*Completed* | Relic | 2 |  | Attack: The defender gets −3 Might this turn. | — | A heavy gauntlet that drains the magic from whatever it grips. | Starter deck: Guardians' Brood |
+| S2-217 | Mountainheart<br>*Completed* | Relic | 3 | 0 / +4 | +4 Guard. | — | A stone heart carved from a mountain’s core. | Draft |
+| S2-218 | Reaper's Grasp<br>*Completed* | Relic | 3 |  | Attack: Defeat each rival champion with Guard 1 or less. | — | A skeletal hand clutching a cold lens. | Draft |
+| S2-219 | Fate's Edge<br>*Completed* | Relic | 3 | +3 / 0 | +3 Might. Attack: Scorch 1 the defender. | — | A blade whose edge follows the thread of fate. | Draft |
+| S2-220 | Kingdom Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Kingdom. | — | A royal blue emblem stamped with the Kingdom crest. | Starter deck: Vault Delvers |
+| S2-221 | Wildkin Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Wildkin. | — | A claw-marked emblem strung on a leather cord. | Draft |
+| S2-222 | Astral Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Astral. | — | A star-shaped emblem glowing with soft silver light. | Draft |
+| S2-223 | Hollow Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Hollow. | — | A pale bone emblem with ghost-light in its hollows. | Starter deck: Guardians' Brood |
+| S2-224 | Gearbound Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Gearbound. | — | A brass cog emblem that slowly turns on its own. | Draft |
+| S2-225 | Umbral Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Umbral. | — | A crescent emblem of polished shadow. | Draft |
+| S2-226 | Verdant Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Verdant. | — | A living leaf emblem with roots curling from its edge. | Draft |
+| S2-227 | Riftborn Emblem<br>*Emblem* | Relic | 1 | +1 / 0 | +1 Might. The holder is also Riftborn. | — | An emblem with a tiny tear in reality at its centre. | Draft |
+| S2-228 | Sovereign Crown<br>*Crown* | Relic | 3 | +1 / +1 | +1 Might and +1 Guard. You have one more Champion Zone while it is in play. | — | A small golden crown forged from two Crown Shards. | Draft |
+| S2-229 | The Fallen King's Blade<br>*Artifact · Legendary* | Relic | 4 | +2 / 0 | +2 Might. Once per turn, when the holder defeats a champion on your turn, ready it and draw a card. | — | The blade of a forgotten king, still sharp, still hungry. | Starter deck: Vault Delvers |
+| S2-230 | Crown of the First Realm<br>*Artifact · Legendary* | Relic | 4 | +1 / +1 | +1 Might and +1 Guard. The holder counts as every Origin. | — | An ancient crown of the first realm, older than the Crownfall. | Draft |
+| S2-231 | Hourglass of Ash<br>*Artifact · Legendary* | Relic | 4 | 0 / +2 | +2 Guard. At the start of your turn, Shield the holder. | — | An hourglass of grey ash that flows upward. | Draft |
+| S2-232 | Titan's Last Heart<br>*Artifact · Legendary* | Relic | 4 | 0 / +4 | +4 Guard. When the holder is defeated, Shield each champion you control. | — | The final heart of the last titan, cracked but still beating. | Draft |
+| S2-233 | The Starless Tome<br>*Artifact · Legendary* | Relic | 4 |  | At the start of your turn, draw a card and gain 1 Command. | — | A black book whose pages hold no stars at all. | Draft |
 
 ## Edicts (3)
 
 | No. | Card | Type | Cost | Stats | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S2-238 | Relic Tide<br>*Proclaimed by The Unwritten King* | Edict | 2 |  | When a champion holding a Relic is defeated, the Relic returns to its owner’s hand. | "The forgotten kings have left their treasures unguarded." | The Unwritten King proclaiming the Edict from the royal box, the arena crowd below. | Draft |
-| S2-239 | Monster Tithe<br>*Proclaimed by Dreadmouth* | Edict | 2 |  | Whenever a Monster or Guardian is defeated, its rival draws a card. | "The beasts carry more than their bones." | Dreadmouth proclaiming the Edict from the royal box, the arena crowd below. | Draft |
-| S2-240 | The First Armoury<br>*Proclaimed by Borin Ironbelly* | Edict | 2 |  | Relics cost 1 less (minimum 0). | "The forges were lit before dawn. Take a blade." | Borin Ironbelly proclaiming the Edict from the royal box, the arena crowd below. | Draft |
+| S2-234 | Relic Tide<br>*Proclaimed by The Unwritten King* | Edict | 2 |  | When a champion holding a Relic is defeated, the Relic returns to its owner’s hand. | "The forgotten kings have left their treasures unguarded." | The Unwritten King proclaiming the Edict from the royal box, the arena crowd below. | Draft |
+| S2-235 | Monster Tithe<br>*Proclaimed by Dreadmouth* | Edict | 2 |  | Whenever a Monster or Guardian is defeated, its rival draws a card. | "The beasts carry more than their bones." | Dreadmouth proclaiming the Edict from the royal box, the arena crowd below. | Draft |
+| S2-236 | The First Armoury<br>*Proclaimed by Borin Ironbelly* | Edict | 2 |  | Relics cost 1 less (minimum 0). | "The forges were lit before dawn. Take a blade." | Borin Ironbelly proclaiming the Edict from the royal box, the arena crowd below. | Draft |
 
