@@ -46,6 +46,7 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Mystic | cyan ring |
 | Wildkin | gold paw print |
 | Duelist | orange crossed swords |
+| Titanborn | peach-orange triangle |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

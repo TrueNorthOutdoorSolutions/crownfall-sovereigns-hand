@@ -14,7 +14,7 @@ Title: Shield of the Deep
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Titanborn | Warden | TIER I
-Trait icons: Titanborn: use its icon from the official sheet; Warden: green square-in-square
+Trait icons: Titanborn: peach-orange triangle; Warden: green square-in-square
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -31,7 +31,7 @@ Title: Shield of the Deep
 Stars: ★★
 Ascension band: ASCENSION • from Torren ★
 Origin | Class | Tier: Titanborn | Warden | TIER I
-Trait icons: Titanborn: use its icon from the official sheet; Warden: green square-in-square
+Trait icons: Titanborn: peach-orange triangle; Warden: green square-in-square
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -50,7 +50,7 @@ Title: Shield of the Deep
 Stars: ★★★
 Ascension band: ASCENSION • from Torren ★★
 Origin | Class | Tier: Titanborn | Warden | TIER I
-Trait icons: Titanborn: use its icon from the official sheet; Warden: green square-in-square
+Trait icons: Titanborn: peach-orange triangle; Warden: green square-in-square
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
@@ -66,7 +66,4 @@ Art brief: A mountain made small: crystal spires grow from his shoulders and the
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 019: unlisted traits use the official sheet; never invent icons.
-- 020: unlisted traits use the official sheet; never invent icons.
 - 021 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 021: unlisted traits use the official sheet; never invent icons.

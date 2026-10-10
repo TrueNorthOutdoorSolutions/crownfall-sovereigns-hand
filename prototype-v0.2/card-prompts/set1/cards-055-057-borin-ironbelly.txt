@@ -14,7 +14,7 @@ Title: Forgekin Hearthbreaker
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Titanborn | Bruiser | TIER II
-Trait icons: Titanborn: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Titanborn: peach-orange triangle; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Molten Hammer.**
@@ -32,7 +32,7 @@ Title: Forgekin Hearthbreaker
 Stars: ★★
 Ascension band: ASCENSION • from Borin Ironbelly ★
 Origin | Class | Tier: Titanborn | Bruiser | TIER II
-Trait icons: Titanborn: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Titanborn: peach-orange triangle; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Molten Hammer.**
@@ -50,7 +50,7 @@ Title: Forgekin Hearthbreaker
 Stars: ★★★
 Ascension band: ASCENSION • from Borin Ironbelly ★★
 Origin | Class | Tier: Titanborn | Bruiser | TIER II
-Trait icons: Titanborn: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Titanborn: peach-orange triangle; Bruiser: use its icon from the official sheet
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
