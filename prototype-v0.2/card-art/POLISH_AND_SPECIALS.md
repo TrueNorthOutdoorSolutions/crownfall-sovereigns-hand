@@ -18,6 +18,7 @@ Every sheet below was approved because the text and numbers are correct, but eac
 | 157–159 Veyra Sol | Art window shorter than the template (pushed up by long text). |
 | 172 Hold the Gate | "Crown" bolded. |
 | 181 Ember Trap | Stray divider line in the empty trait bar. |
+| 202–204 Evolution spells | Frame darker/plainer than template (less green vine). |
 | All | Check each card's text box spacing, icon colours and band text size against the locked templates. |
 
 ## 2. Special printings (ideas to keep, design later)
