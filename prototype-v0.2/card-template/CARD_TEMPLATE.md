@@ -48,6 +48,7 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Elemental | orange flame |
 | Arcanist | blue starburst |
 | Kingdom | blue crown |
+| Hexbound | purple star outline |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

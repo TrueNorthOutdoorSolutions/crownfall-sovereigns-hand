@@ -14,7 +14,7 @@ Title: Alchemist of Relics
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Hexbound | Saboteur | TIER IV
-Trait icons: Hexbound: use its icon from the official sheet; Saboteur: green spiky burst
+Trait icons: Hexbound: purple star outline; Saboteur: green spiky burst
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -33,7 +33,7 @@ Title: Alchemist of Relics
 Stars: ★★
 Ascension band: ASCENSION • from Vessimer ★
 Origin | Class | Tier: Hexbound | Saboteur | TIER IV
-Trait icons: Hexbound: use its icon from the official sheet; Saboteur: green spiky burst
+Trait icons: Hexbound: purple star outline; Saboteur: green spiky burst
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -52,7 +52,7 @@ Title: Alchemist of Relics
 Stars: ★★★
 Ascension band: ASCENSION • from Vessimer ★★
 Origin | Class | Tier: Hexbound | Saboteur | TIER IV
-Trait icons: Hexbound: use its icon from the official sheet; Saboteur: green spiky burst
+Trait icons: Hexbound: purple star outline; Saboteur: green spiky burst
 Keywords: none (text box starts with the ability name)
 No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
@@ -68,9 +68,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 109: no keyword; do not add a chip or reminder.
-- 109: unlisted traits use the official sheet; never invent icons.
 - 110 ★★: up-arrow 1, not up-arrow 0.
 - 110: no keyword; do not add a chip or reminder.
-- 110: unlisted traits use the official sheet; never invent icons.
 - 111: no keyword; do not add a chip or reminder.
-- 111: unlisted traits use the official sheet; never invent icons.

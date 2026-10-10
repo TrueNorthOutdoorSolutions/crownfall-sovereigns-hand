@@ -14,7 +14,7 @@ Title: Apprentice of Mischief
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Hexbound | Arcanist | TIER I
-Trait icons: Hexbound: use its icon from the official sheet; Arcanist: blue starburst
+Trait icons: Hexbound: purple star outline; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Unstable Hex.**
@@ -32,7 +32,7 @@ Title: Apprentice of Mischief
 Stars: ★★
 Ascension band: ASCENSION • from Hexie ★
 Origin | Class | Tier: Hexbound | Arcanist | TIER I
-Trait icons: Hexbound: use its icon from the official sheet; Arcanist: blue starburst
+Trait icons: Hexbound: purple star outline; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Unstable Hex.**
@@ -50,7 +50,7 @@ Title: Apprentice of Mischief
 Stars: ★★★
 Ascension band: ASCENSION • from Hexie ★★
 Origin | Class | Tier: Hexbound | Arcanist | TIER I
-Trait icons: Hexbound: use its icon from the official sheet; Arcanist: blue starburst
+Trait icons: Hexbound: purple star outline; Arcanist: blue starburst
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Unstable Hex.**
@@ -66,8 +66,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 031: no keyword; do not add a chip or reminder.
-- 031: unlisted traits use the official sheet; never invent icons.
 - 032: no keyword; do not add a chip or reminder.
-- 032: unlisted traits use the official sheet; never invent icons.
 - 033: no keyword; do not add a chip or reminder.
-- 033: unlisted traits use the official sheet; never invent icons.

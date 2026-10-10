@@ -14,7 +14,7 @@ Title: The Old Bargain
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Verdant · Hexbound | Mystic | TIER III
-Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Nature's Bargain.**
@@ -33,7 +33,7 @@ Title: The Old Bargain
 Stars: ★★
 Ascension band: ASCENSION • from Maeve ★
 Origin | Class | Tier: Verdant · Hexbound | Mystic | TIER III
-Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Nature's Bargain.**
@@ -52,7 +52,7 @@ Title: The Old Bargain
 Stars: ★★★
 Ascension band: ASCENSION • from Maeve ★★
 Origin | Class | Tier: Verdant · Hexbound | Mystic | TIER III
-Trait icons: Verdant: green antlers; Hexbound: use its icon from the official sheet; Mystic: cyan ring
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Mystic: cyan ring
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Nature's Bargain.**
@@ -68,9 +68,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 088: no keyword; do not add a chip or reminder.
-- 088: unlisted traits use the official sheet; never invent icons.
 - 089 ★★: up-arrow 1, not up-arrow 0.
 - 089: no keyword; do not add a chip or reminder.
-- 089: unlisted traits use the official sheet; never invent icons.
 - 090: no keyword; do not add a chip or reminder.
-- 090: unlisted traits use the official sheet; never invent icons.

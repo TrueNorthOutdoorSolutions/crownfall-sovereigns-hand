@@ -52,6 +52,7 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Elemental | orange flame |
 | Arcanist | blue starburst |
 | Kingdom | blue crown |
+| Hexbound | purple star outline |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
