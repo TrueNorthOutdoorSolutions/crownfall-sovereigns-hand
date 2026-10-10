@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Wildkin | Duelist | TIER I
 Trait icons: Wildkin: use its icon from the official sheet; Duelist: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +1 Might while you have fewer shards than your rival.
+1. **Red Moon Pounce.**
+2. +1 Might while you have fewer shards than your rival.
 Flavour: “Fen tracks weakness. He learned it from the winters, and the winters were thorough.”
 Crown 2: none
 Might | Guard: 2 | 1

@@ -287,7 +287,7 @@ export const CHAMPION_LINES: ChampionLine[] = [
   {
     canonId: 'fen', name: 'Fen', title: 'Blood of the Pack', tier: 1, origins: ['wildkin'], classes: ['duelist'],
     forms: [
-      { star: 1, cost: 1, might: 2, guard: 1, keywords: [],
+      { star: 1, cost: 1, might: 2, guard: 1, keywords: [], ability: 'Red Moon Pounce',
         text: '+1 Might while you have fewer shards than your rival.', statics: { mightIfBehind: 1 } },
       { star: 2, cost: 0, might: 5, guard: 4, keywords: ['Ambush'], ability: 'Red Moon Pounce',
         text: '+1 Might while you have fewer shards than your rival.', statics: { mightIfBehind: 1 } },

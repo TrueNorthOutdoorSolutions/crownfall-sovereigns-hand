@@ -61,7 +61,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-016 | ★ | 1 | 2 / 1 | +1 Might while you have fewer shards than your rival. | "Fen tracks weakness. He learned it from the winters, and the winters were thorough." | A lean grey wolf warrior with bone-hilted claws. | Starter deck: Blood & Ember |
+| S1-016 | ★ | 1 | 2 / 1 | *Red Moon Pounce* · +1 Might while you have fewer shards than your rival. | "Fen tracks weakness. He learned it from the winters, and the winters were thorough." | A lean grey wolf warrior with bone-hilted claws. | Starter deck: Blood & Ember |
 | S1-017 | ★★ | ↑0 | 5 / 4 | **Ambush** · *Red Moon Pounce* · +1 Might while you have fewer shards than your rival. | "The pack grows." | Scarred and armoured in hide, crimson war paint glowing on his muzzle. | Starter deck: Blood & Ember |
 | S1-018 | ★★★ | ↑1 | 9 / 7 | **Ambush** · *Red Moon Pounce* · +1 Might while you have fewer shards than your rival. Once per turn, when Fen defeats a champion on your turn, ready Fen. · ♛2 | "Good hunt." | An alpha of the blood moon; a red spirit-wolf runs beside every leap. | Starter deck: Blood & Ember |
 
