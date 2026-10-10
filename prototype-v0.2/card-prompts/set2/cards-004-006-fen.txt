@@ -14,7 +14,7 @@ Title: Pack Hunter
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Wildkin | Duelist | TIER I
-Trait icons: Wildkin: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Duelist: orange crossed swords
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -32,7 +32,7 @@ Title: Pack Hunter
 Stars: ★★
 Ascension band: ASCENSION • from Fen ★
 Origin | Class | Tier: Wildkin | Duelist | TIER I
-Trait icons: Wildkin: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Duelist: orange crossed swords
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -51,7 +51,7 @@ Title: Pack Hunter
 Stars: ★★★
 Ascension band: ASCENSION • from Fen ★★
 Origin | Class | Tier: Wildkin | Duelist | TIER I
-Trait icons: Wildkin: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Duelist: orange crossed swords
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -66,6 +66,3 @@ Art brief: Running the dark tunnels under the Arena with the scent of a monster 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 004: unlisted traits use the official sheet; never invent icons.
-- 005: unlisted traits use the official sheet; never invent icons.
-- 006: unlisted traits use the official sheet; never invent icons.

@@ -14,7 +14,7 @@ Title: The Mountain That Walks
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Wildkin | Bruiser | TIER II
-Trait icons: Wildkin: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Maul.**
@@ -32,7 +32,7 @@ Title: The Mountain That Walks
 Stars: ★★
 Ascension band: ASCENSION • from Grizz ★
 Origin | Class | Tier: Wildkin | Bruiser | TIER II
-Trait icons: Wildkin: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Maul.**
@@ -51,7 +51,7 @@ Title: The Mountain That Walks
 Stars: ★★★
 Ascension band: ASCENSION • from Grizz ★★
 Origin | Class | Tier: Wildkin | Bruiser | TIER II
-Trait icons: Wildkin: use its icon from the official sheet; Bruiser: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Bruiser: use its icon from the official sheet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Maul.**

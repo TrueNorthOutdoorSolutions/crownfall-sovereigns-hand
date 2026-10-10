@@ -14,7 +14,7 @@ Title: Judge of the Depths
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Duelist | TIER III
-Trait icons: Astral: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -32,7 +32,7 @@ Title: Judge of the Depths
 Stars: ★★
 Ascension band: ASCENSION • from Valkara ★
 Origin | Class | Tier: Astral | Duelist | TIER III
-Trait icons: Astral: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -50,7 +50,7 @@ Title: Judge of the Depths
 Stars: ★★★
 Ascension band: ASCENSION • from Valkara ★★
 Origin | Class | Tier: Astral | Duelist | TIER III
-Trait icons: Astral: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*

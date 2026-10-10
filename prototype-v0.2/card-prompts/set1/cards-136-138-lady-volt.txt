@@ -14,7 +14,7 @@ Title: Thunder in Heels
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Voltborn | Duelist | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Duelist: use its icon from the official sheet
+Trait icons: Voltborn: blue lightning bolt; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -33,7 +33,7 @@ Title: Thunder in Heels
 Stars: ★★
 Ascension band: ASCENSION • from Lady Volt ★
 Origin | Class | Tier: Voltborn | Duelist | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Duelist: use its icon from the official sheet
+Trait icons: Voltborn: blue lightning bolt; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -53,7 +53,7 @@ Title: Thunder in Heels
 Stars: ★★★
 Ascension band: ASCENSION • from Lady Volt ★★
 Origin | Class | Tier: Voltborn | Duelist | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Duelist: use its icon from the official sheet
+Trait icons: Voltborn: blue lightning bolt; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -69,8 +69,5 @@ Art brief: She is lightning with a sword; thunder arrives a heartbeat after her.
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 136: unlisted traits use the official sheet; never invent icons.
 - 137 ★★: up-arrow 1, not up-arrow 0.
-- 137: unlisted traits use the official sheet; never invent icons.
 - 138 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 138: unlisted traits use the official sheet; never invent icons.

@@ -14,7 +14,7 @@ Title: Blade Beneath the Arena
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Voltborn | Duelist | TIER III
-Trait icons: Voltborn: blue lightning bolt; Duelist: use its icon from the official sheet
+Trait icons: Voltborn: blue lightning bolt; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -32,7 +32,7 @@ Title: Blade Beneath the Arena
 Stars: ★★
 Ascension band: ASCENSION • from Ronin Zero ★
 Origin | Class | Tier: Voltborn | Duelist | TIER III
-Trait icons: Voltborn: blue lightning bolt; Duelist: use its icon from the official sheet
+Trait icons: Voltborn: blue lightning bolt; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -51,7 +51,7 @@ Title: Blade Beneath the Arena
 Stars: ★★★
 Ascension band: ASCENSION • from Ronin Zero ★★
 Origin | Class | Tier: Voltborn | Duelist | TIER III
-Trait icons: Voltborn: blue lightning bolt; Duelist: use its icon from the official sheet
+Trait icons: Voltborn: blue lightning bolt; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -67,8 +67,5 @@ Art brief: A lone frame crackling with current in a flooded tunnel, a relic swor
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 061: unlisted traits use the official sheet; never invent icons.
 - 062 ★★: up-arrow 1, not up-arrow 0.
-- 062: unlisted traits use the official sheet; never invent icons.
 - 063 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 063: unlisted traits use the official sheet; never invent icons.

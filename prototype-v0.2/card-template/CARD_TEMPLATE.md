@@ -40,6 +40,8 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Saboteur | green spiky burst |
 | Dawnforged | gold-orange sunburst |
 | Mystic | cyan ring |
+| Wildkin | gold paw print |
+| Duelist | orange crossed swords |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

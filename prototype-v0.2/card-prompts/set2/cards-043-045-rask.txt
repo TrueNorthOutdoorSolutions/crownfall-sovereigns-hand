@@ -14,7 +14,7 @@ Title: Champion of the Underpits
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Wildkin | Duelist | TIER II
-Trait icons: Wildkin: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -31,7 +31,7 @@ Title: Champion of the Underpits
 Stars: ★★
 Ascension band: ASCENSION • from Rask ★
 Origin | Class | Tier: Wildkin | Duelist | TIER II
-Trait icons: Wildkin: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -49,7 +49,7 @@ Title: Champion of the Underpits
 Stars: ★★★
 Ascension band: ASCENSION • from Rask ★★
 Origin | Class | Tier: Wildkin | Duelist | TIER II
-Trait icons: Wildkin: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Wildkin: gold paw print; Duelist: orange crossed swords
 Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -64,7 +64,4 @@ Art brief: Roaring in the blood-sand of the Underpits, a monster’s skull at hi
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 043: unlisted traits use the official sheet; never invent icons.
 - 044 ★★: up-arrow 1, not up-arrow 0.
-- 044: unlisted traits use the official sheet; never invent icons.
-- 045: unlisted traits use the official sheet; never invent icons.

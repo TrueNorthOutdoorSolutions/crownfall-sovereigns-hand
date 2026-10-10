@@ -14,7 +14,7 @@ Title: Blade That Fell Beneath
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Duelist | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -32,7 +32,7 @@ Title: Blade That Fell Beneath
 Stars: ★★
 Ascension band: ASCENSION • from Astryon ★
 Origin | Class | Tier: Astral | Duelist | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -51,7 +51,7 @@ Title: Blade That Fell Beneath
 Stars: ★★★
 Ascension band: ASCENSION • from Astryon ★★
 Origin | Class | Tier: Astral | Duelist | TIER IV
-Trait icons: Astral: use its icon from the official sheet; Duelist: use its icon from the official sheet
+Trait icons: Astral: use its icon from the official sheet; Duelist: orange crossed swords
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
