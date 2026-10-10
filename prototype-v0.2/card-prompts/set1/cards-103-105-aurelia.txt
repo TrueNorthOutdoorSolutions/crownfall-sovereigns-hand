@@ -14,7 +14,7 @@ Title: Crown Commander
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Kingdom | Commander | TIER III
-Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet
+Trait icons: Kingdom: blue crown; Commander: yellow flag
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rally the Crown.**
@@ -32,7 +32,7 @@ Title: Crown Commander
 Stars: ★★
 Ascension band: ASCENSION • from Aurelia ★
 Origin | Class | Tier: Kingdom | Commander | TIER III
-Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet
+Trait icons: Kingdom: blue crown; Commander: yellow flag
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rally the Crown.**
@@ -50,7 +50,7 @@ Title: Crown Commander
 Stars: ★★★
 Ascension band: ASCENSION • from Aurelia ★★
 Origin | Class | Tier: Kingdom | Commander | TIER III
-Trait icons: Kingdom: blue crown; Commander: use its icon from the official sheet
+Trait icons: Kingdom: blue crown; Commander: yellow flag
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rally the Crown.**
@@ -65,9 +65,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 103: no keyword; do not add a chip or reminder.
-- 103: unlisted traits use the official sheet; never invent icons.
 - 104 ★★: up-arrow 1, not up-arrow 0.
 - 104: no keyword; do not add a chip or reminder.
-- 104: unlisted traits use the official sheet; never invent icons.
 - 105: no keyword; do not add a chip or reminder.
-- 105: unlisted traits use the official sheet; never invent icons.

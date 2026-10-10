@@ -54,6 +54,7 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Astral | blue four-pointed sparkle |
 | Summoner | green four-leaf clover |
 | Riftborn | pink diamond-in-a-diamond |
+| Commander | yellow flag |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
