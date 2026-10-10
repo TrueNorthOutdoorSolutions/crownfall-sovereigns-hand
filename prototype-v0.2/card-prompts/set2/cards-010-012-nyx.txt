@@ -14,7 +14,7 @@ Title: Vault Thief
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Umbral | Assassin | TIER I
-Trait icons: Umbral: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Assassin: lilac four-pointed star
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -32,7 +32,7 @@ Title: Vault Thief
 Stars: ★★
 Ascension band: ASCENSION • from Nyx ★
 Origin | Class | Tier: Umbral | Assassin | TIER I
-Trait icons: Umbral: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Assassin: lilac four-pointed star
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -51,7 +51,7 @@ Title: Vault Thief
 Stars: ★★★
 Ascension band: ASCENSION • from Nyx ★★
 Origin | Class | Tier: Umbral | Assassin | TIER I
-Trait icons: Umbral: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Assassin: lilac four-pointed star
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -67,7 +67,4 @@ Art brief: Slipping between treasure piles in a Guardian’s lair, a stolen reli
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 010: unlisted traits use the official sheet; never invent icons.
-- 011: unlisted traits use the official sheet; never invent icons.
 - 012 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 012: unlisted traits use the official sheet; never invent icons.

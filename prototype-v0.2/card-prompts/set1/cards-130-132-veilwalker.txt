@@ -14,7 +14,7 @@ Title: The Anomaly
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Riftborn | Assassin | TIER IV
-Trait icons: Riftborn: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Assassin: lilac four-pointed star
 Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -32,7 +32,7 @@ Title: The Anomaly
 Stars: ★★
 Ascension band: ASCENSION • from Veilwalker ★
 Origin | Class | Tier: Riftborn | Assassin | TIER IV
-Trait icons: Riftborn: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Assassin: lilac four-pointed star
 Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
@@ -52,7 +52,7 @@ Title: The Anomaly
 Stars: ★★★
 Ascension band: ASCENSION • from Veilwalker ★★
 Origin | Class | Tier: Riftborn | Assassin | TIER IV
-Trait icons: Riftborn: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Riftborn: use its icon from the official sheet; Assassin: lilac four-pointed star
 Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*

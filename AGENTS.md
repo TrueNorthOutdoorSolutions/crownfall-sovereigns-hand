@@ -47,6 +47,8 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Wildkin | gold paw print |
 | Duelist | orange crossed swords |
 | Titanborn | peach-orange triangle |
+| Umbral | lilac crescent moon |
+| Assassin | lilac four-pointed star |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

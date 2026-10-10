@@ -14,7 +14,7 @@ Title: The Mask With No Face
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Umbral | Assassin | TIER II
-Trait icons: Umbral: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Assassin: lilac four-pointed star
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -31,7 +31,7 @@ Title: The Mask With No Face
 Stars: ★★
 Ascension band: ASCENSION • from Shade ★
 Origin | Class | Tier: Umbral | Assassin | TIER II
-Trait icons: Umbral: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Assassin: lilac four-pointed star
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -50,7 +50,7 @@ Title: The Mask With No Face
 Stars: ★★★
 Ascension band: ASCENSION • from Shade ★★
 Origin | Class | Tier: Umbral | Assassin | TIER II
-Trait icons: Umbral: use its icon from the official sheet; Assassin: use its icon from the official sheet
+Trait icons: Umbral: lilac crescent moon; Assassin: lilac four-pointed star
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
@@ -66,8 +66,5 @@ Art brief: A wraith of ribbons and knives; the mask floats in front of an empty 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 052: unlisted traits use the official sheet; never invent icons.
 - 053 ★★: up-arrow 1, not up-arrow 0.
-- 053: unlisted traits use the official sheet; never invent icons.
 - 054 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- 054: unlisted traits use the official sheet; never invent icons.

@@ -43,6 +43,8 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Wildkin | gold paw print |
 | Duelist | orange crossed swords |
 | Titanborn | peach-orange triangle |
+| Umbral | lilac crescent moon |
+| Assassin | lilac four-pointed star |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
