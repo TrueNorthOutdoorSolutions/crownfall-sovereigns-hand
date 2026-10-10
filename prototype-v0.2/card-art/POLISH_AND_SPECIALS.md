@@ -26,8 +26,10 @@ The base set stays at 248. Special printings are extra versions of existing card
 
 | Printing | What it is | Proposed numbering | How rare |
 | --- | --- | --- | --- |
-| **Extended / Full Art** | Border removed, art extends to the card edges, text and stats stay. Possible for every card. | `001a/248` (Jerian's example) | Rarer than the base card |
-| **Alternate Art** | A brand-new illustration of the card, normal frame. Only a handful of cards. | e.g. `001b/248` or a separate `AA01` series | Rare |
-| **Masterwork** | ~10 cards. Foreign-style (e.g. Chinese ink / brush painting) full-art masterpieces, signed by the artist, serial-numbered. | e.g. `MW01/10`, each copy stamped `1/100` | Chase cards |
+| **Extended / Full Art** | Border removed, art extends to the card edges, text and stats stay. A full parallel set. | `001a/248` … `248a/248` (248 cards) | Rarer than the base card |
+| **Alternate Art** | A brand-new illustration in the normal frame, numbered past the set total ("secret rare" style). | `249/248` … `300/248` (52 cards), bringing the set to exactly 300 | Rare |
+| **Masterwork** | 10 foreign-style (e.g. Chinese ink / brush painting) full-art masterpieces, signed by the artist, serial-numbered. | `MW01/10` … `MW10/10`, each copy stamped `1/100` | Chase cards |
+
+Agreed numbering (Jerian, 2026-10-10): base 001–248, full art 001a–248a, alternate art 249–300, Masterwork MW01–MW10.
 
 Open questions for later: final numbering scheme, pull rates, which cards get Alternate Art and Masterwork, foil/holo finishes (see the earlier collector-rarity proposal in DESIGN_ANSWERS.md), and whether the digital game shows these versions.
