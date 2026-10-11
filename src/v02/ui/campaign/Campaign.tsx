@@ -81,7 +81,7 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
               </div>
             </div>
           ))}
-          <div className="camp-later note">Chapters VII–VIII (Storm and Rift · The One Who Refused) are being written.</div>
+          <div className="camp-later note">Chapter VIII (The One Who Refused) is being written.</div>
         </div>
       </div>
 

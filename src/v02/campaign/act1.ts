@@ -665,5 +665,100 @@ export const CHAPTER_VI: Chapter = {
   ],
 };
 
-export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV, CHAPTER_V, CHAPTER_VI] };
+// ════════════════════════ Chapter VII · Storm and Rift ════════════════════════
+const D7 = {
+  player: deck('c7-player', 'Storm and Rift', 'Voltborn · Riftborn', [['kira', 2], ['ronin', 2], ['ladyvolt', 1], ['dax', 2], ['blacktide', 1], ['zyrak', 2], ['veilwalker', 1],
+    ['crest_riftborn', 2], ['firebolt', 2], ['firestorm', 2], ['flare-up', 2], ['back_doctrine', 2], ['royal-dispatch', 2], ['opening_salvo', 2], ['arrow-volley', 2], ['battle_hymn', 2], ['kindling', 1]],
+    ['kira-2', 'kira-3', 'ronin-2', 'ronin-3', 'dax-2', 'dax-3', 'zyrak-2', 'zyrak-3']),
+  volts: deck('c7-volts', 'The Storm Front', 'Voltborn · Dawnforged · Wildkin', [['kira', 2], ['ronin', 2], ['ladyvolt', 1], ['solenne', 2], ['fen', 2], ['rask', 2],
+    ['firebolt', 2], ['firestorm', 2], ['flare-up', 2], ['rally-banners', 2], ['opening_salvo', 2], ['feral-howl', 2], ['fallen_crown', 2], ['back_doctrine', 2], ['glass_crown', 2], ['crown_of_war', 1]],
+    ['kira-2', 'kira-3', 'ronin-2', 'ronin-3']),
+  duelists: deck('c7-duelists', 'Several Duels at Once', 'Voltborn · Astral · Kingdom', [['ronin', 2], ['ladyvolt', 1], ['astryon', 1], ['kael', 2], ['rask', 2], ['valkara', 2],
+    ['crest_duelist', 2], ['back_doctrine', 2], ['executioner', 2], ['battle_hymn', 2], ['flare-up', 2], ['last_stand', 2], ['glass_crown', 2], ['opening_salvo', 2], ['royal-dispatch', 2], ['tempered_victory', 2]],
+    ['ronin-2', 'ronin-3', 'valkara-2', 'valkara-3']),
+  rangers: deck('c7-rangers', 'Forty-One Realities', 'Riftborn · Voltborn · Kingdom', [['dax', 2], ['blacktide', 1], ['kira', 2], ['rowan', 2], ['orion', 2], ['gearwick', 2],
+    ['firestorm', 2], ['firebolt', 2], ['arrow-volley', 2], ['crest_riftborn', 2], ['royal-dispatch', 2], ['ember-trap', 2], ['golden_parting', 2], ['victors_spoils', 2], ['kindling', 2], ['crown_of_war', 1]],
+    ['dax-2', 'dax-3', 'gearwick-2', 'gearwick-3']),
+  rift: deck('c7-rift', 'The Thin Places', 'Riftborn · Astral · Umbral', [['zyrak', 2], ['veilwalker', 1], ['nyx', 2], ['seren', 2], ['valkara', 2], ['astryon', 1],
+    ['crest_riftborn', 2], ['crest_astral', 2], ['firebolt', 2], ['crown_of_chaos', 2], ['royal-dispatch', 2], ['star_touched', 2], ['ascension_rite', 2], ['kindling', 2], ['lucky_draw', 2], ['glass_crown', 2]],
+    ['zyrak-2', 'zyrak-3', 'seren-2', 'seren-3']),
+  veyra: deck('c7-veyra', 'Between Worlds', 'Riftborn · Voltborn', [['veyra', 1], ['veilwalker', 1], ['zyrak', 2], ['dax', 2], ['blacktide', 1], ['nyx', 2], ['ronin', 2], ['ladyvolt', 1],
+    ['crest_riftborn', 2], ['firebolt', 2], ['back_doctrine', 2], ['executioner', 2], ['royal-dispatch', 2], ['glass_crown', 2], ['crown_of_war', 1], ['grand_convergence', 1], ['firestorm', 2], ['fourth_crown', 2]],
+    ['veyra-2', 'veyra-3', 'zyrak-2', 'zyrak-3', 'dax-2', 'dax-3', 'ronin-2', 'ronin-3']),
+};
+Object.assign(CAMPAIGN_DECKS, D7);
+
+export const CHAPTER_VII: Chapter = {
+  id: 'c7', numeral: 'VII', title: 'Storm and Rift', legend: 'veyra', playerDeck: D7.player, playerDeckName: 'Storm and Rift',
+  trials: ['Lightning Over the Arena', 'Tests of Storm and Rift', 'Between Worlds'],
+  intro: [
+    S('Narration', 'A storm rolls over the Crownfall, and with it come travellers who did not arrive by any road: duelists made of lightning, and wanderers who step out of thin air.'),
+    S('Narration', 'Veyra hunts things that escape between worlds. The Crown is the biggest one yet.', true),
+    S('Narration', 'The storm and the rift lend you their banner. Be fast. Be everywhere.'),
+  ],
+  bouts: [
+    // ── Trial 1 · Lightning Over the Arena ──
+    { id: 'c7-t1-b1', trial: 1, bout: 1, title: 'Charged and Ready', portrait: 'kira', rival: 'The Storm Front', deck: D7.volts,
+      story: [S('Narration', 'Kira rebuilt her first pistol from a lightning rod. She intends to rebuild the Crown the same way.', true), S('Kira Volt', 'Charged and ready!', true)],
+      setup: { rivalCrown: 3 }, objective: win, rules: 'The Storm Front has only 3 shards, but it charges in fast.', reward: { valor: 120, cards: ['kira'] } },
+    { id: 'c7-t1-b2', trial: 1, bout: 2, title: 'Frame Ready', portrait: 'ronin', rival: 'Several Duels at Once', deck: D7.duelists,
+      story: [S('Narration', 'Ronin Zero forgot his master’s name. He did not forget the technique.', true), S('Ronin Zero', 'Frame ready.', true)],
+      objective: win, reward: { valor: 120, cards: ['ronin'] } },
+    { id: 'c7-t1-b3', trial: 1, bout: 3, title: 'Shall We Duel?', portrait: 'ladyvolt', rival: 'Several Duels at Once', deck: D7.duelists,
+      story: [S('Narration', 'Lady Volt has never lost a duel. She considers most battles to be several duels at once.', true), S('Lady Volt', 'Shall we duel?', true)],
+      objective: { kind: 'keepShards', n: 3 }, rules: 'Win with at least 3 shards.', reward: { valor: 120, cards: ['ladyvolt'] } },
+    { id: 'c7-t1-b4', trial: 1, bout: 4, title: 'Not My First Reality', portrait: 'dax', rival: 'Forty-One Realities', deck: D7.rangers,
+      story: [S('Narration', 'Dax has fought in forty-one realities. He lost in one, and he is still annoyed about it.', true), S('Dax Meridian', "This isn't my first reality.", true)],
+      objective: win, reward: { valor: 120, cards: ['dax'] } },
+    { id: 'c7-t1-b5', trial: 1, bout: 5, title: 'Toll’s Due', portrait: 'blacktide', rival: 'Forty-One Realities', deck: D7.rangers,
+      story: [S('Narration', 'Blacktide sails seas that exist only between realities. He charges tolls.', true), S('Captain Blacktide', "Toll's due, landlubber.", true),
+        S('Narration', 'He has decided your banner can pay later. For now, his cannons are yours. Hold until round 5.')],
+      setup: { myField: ['blacktide'] }, objective: { kind: 'survive', rounds: 5 }, rules: 'Captain Blacktide starts on your field. Survive until round 5 begins.', reward: { valor: 130, cards: ['blacktide'] } },
+    // ── Trial 2 · Tests of Storm and Rift ──
+    { id: 'c7-t2-b1', trial: 2, bout: 1, title: 'Double the Volts', portrait: 'kira', rival: 'The Storm Front', deck: D7.volts,
+      story: [S('Kira Volt', 'Double the volts!', true)],
+      setup: { edict: 'edict-war_banners' }, objective: win, rules: 'Edict in play: War Banners.', reward: { valor: 140 } },
+    { id: 'c7-t2-b2', trial: 2, bout: 2, title: 'Faster Than Memory', portrait: 'ronin', rival: 'Several Duels at Once', deck: D7.duelists,
+      story: [S('Ronin Zero', 'Faster than memory.', true)],
+      setup: { edict: 'edict-shard_season' }, objective: win, rules: 'Edict in play: Shard Season.', reward: { valor: 140 } },
+    { id: 'c7-t2-b3', trial: 2, bout: 3, title: 'Speaking in Light', portrait: 'zyrak', rival: 'The Thin Places', deck: D7.rift,
+      story: [S('Narration', 'Zyrak speaks in light. Most listeners go briefly blind; Zyrak considers this rude.', true), S('Zyrak', '* refracts politely *', true)],
+      objective: win, reward: { valor: 140, cards: ['zyrak'] } },
+    { id: 'c7-t2-b4', trial: 2, bout: 4, title: 'Forty-Two Realities', portrait: 'dax', rival: 'Forty-One Realities', deck: D7.rangers,
+      story: [S('Dax Meridian', 'Forty-two realities, one gun.', true)],
+      setup: { edict: 'edict-crowns_bounty' }, objective: win, rules: 'Edict in play: Crown’s Bounty.', reward: { valor: 140 } },
+    { id: 'c7-t2-b5', trial: 2, bout: 5, title: 'Crew, to the Cannons!', portrait: 'blacktide', rival: 'Forty-One Realities', deck: D7.rangers,
+      story: [S('Captain Blacktide', 'Crew, to the cannons!', true)],
+      objective: { kind: 'keepShards', n: 3 }, rules: 'Win with at least 3 shards.', reward: { valor: 150 } },
+    // ── Trial 3 · Between Worlds ──
+    { id: 'c7-t3-b1', trial: 3, bout: 1, title: 'The Air Tears Open', portrait: 'veilwalker', rival: 'The Thin Places', deck: D7.rift,
+      story: [S('Narration', 'The Veilwalker is what happens when a door between worlds learns to walk.', true), S('Veilwalker', '* the air tears open *', true)],
+      objective: win, reward: { valor: 150, cards: ['veilwalker'] } },
+    { id: 'c7-t3-b2', trial: 3, bout: 2, title: 'Thunderstep', portrait: 'ladyvolt', rival: 'The Storm Front', deck: D7.volts,
+      story: [S('Lady Volt', 'Thunderstep!', true), S('Narration', 'Lady Volt fights at your side. She calls it a duel. It is a war.')],
+      setup: { myField: ['ladyvolt'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Lady Volt starts on your field. Win with at least 3 shards.', reward: { valor: 150 } },
+    { id: 'c7-t3-b3', trial: 3, bout: 3, title: 'Two Storms', portrait: 'kira', rival: 'The Thin Places', deck: D7.rift,
+      story: [S('Narration', 'Kira and Ronin Zero take the field together, two kinds of lightning on one banner.')],
+      setup: { myField: ['kira', 'ronin'] }, objective: win, rules: 'Kira Volt and Ronin Zero start on your field.', reward: { valor: 150 } },
+    { id: 'c7-t3-b4', trial: 3, bout: 4, title: 'The Back Door', portrait: 'veyra', rival: 'The Thin Places', deck: D7.rift,
+      story: [S('Narration', 'Something slipped through the rift before you, and took one of your shards with it.')],
+      setup: { myCrown: 4, edict: 'edict-scholars_ascent' }, objective: win, rules: 'You start with 4 Crown Shards. Edict in play: Scholar’s Ascent.', reward: { valor: 160 } },
+    { id: 'c7-t3-b5', trial: 3, bout: 5, title: 'Every World Has a Back Door', portrait: 'veyra', rival: 'Several Duels at Once', deck: D7.duelists,
+      story: [S('Veyra Sol', 'Every world has a back door.', true), S('Narration', 'The Veilwalker and Dax hold the rift open for you. Hold it until round 6.')],
+      setup: { myField: ['veilwalker', 'dax'] }, objective: { kind: 'survive', rounds: 6 }, rules: 'The Veilwalker and Dax start on your field. Survive until round 6 begins.', reward: { valor: 160 } },
+    // ── The Crowning ──
+    { id: 'c7-crowning', trial: 4, bout: 1, title: 'The Crowning: Veyra Sol', portrait: 'veyra', rival: 'Veyra Sol', deck: D7.veyra,
+      story: [S('Narration', 'A door opens in the middle of the Arena, where no door is. Through it, a hunter steps out of a world that is not this one.'),
+        S('Veyra Sol', 'I hunt in all of them now.', true),
+        S('Veyra Sol', 'You are not my prey, Sovereign. But you are standing between me and it.')],
+      objective: win, rules: 'The Crowning. Veyra Sol is in the rival’s deck.', reward: { valor: 300, cards: ['veyra-2', 'veyra-3'] },
+      crowning: {
+        contender: { deck: D7.veyra, printing: 'base' },
+        masterwork: { deck: D7.veyra, printing: 'masterwork', setup: { edict: 'edict-war_banners' } },
+        omega: { deck: D7.veyra, printing: 'omega', setup: { edict: 'edict-war_banners', rivalField: ['veyra'] } },
+      } },
+  ],
+};
+
+export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV, CHAPTER_V, CHAPTER_VI, CHAPTER_VII] };
 export const ALL_BOUTS: Bout[] = ACT_I.chapters.flatMap((c) => c.bouts);
