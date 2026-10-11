@@ -571,5 +571,99 @@ export const CHAPTER_V: Chapter = {
   ],
 };
 
-export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV, CHAPTER_V] };
+// ════════════════════════ Chapter VI · The Court of Night ════════════════════════
+const D6 = {
+  player: deck('c6-player', 'The Court of Night', 'Umbral · Voltborn · Wildkin', [['nyx', 2], ['shade', 2], ['vespera', 1], ['veilwalker', 1], ['ronin', 2], ['fen', 2], ['maeve', 2],
+    ['bloodscent', 2], ['ember-trap', 2], ['back_doctrine', 2], ['executioner', 2], ['firebolt', 2], ['royal-dispatch', 2], ['glass_crown', 2], ['last_stand', 2], ['summoners_pact', 2]],
+    ['nyx-2', 'nyx-3', 'shade-2', 'shade-3', 'vespera-2', 'vespera-3']),
+  thieves: deck('c6-thieves', 'Thieves of the Star', 'Umbral · Riftborn · Voltborn', [['nyx', 2], ['shade', 2], ['veilwalker', 1], ['blacktide', 1], ['dax', 2], ['kira', 2],
+    ['bloodscent', 2], ['ember-trap', 2], ['firebolt', 2], ['flare-up', 2], ['back_doctrine', 2], ['kindling', 2], ['lucky_draw', 2], ['glass_crown', 2], ['golden_parting', 2], ['victors_spoils', 2]],
+    ['nyx-2', 'nyx-3', 'dax-2', 'dax-3']),
+  masks: deck('c6-masks', 'The Faces', 'Umbral · Voltborn · Astral', [['shade', 2], ['nyx', 2], ['ronin', 2], ['veilwalker', 1], ['astryon', 1], ['fen', 2],
+    ['executioner', 2], ['back_doctrine', 2], ['last_stand', 2], ['bloodscent', 2], ['crest_duelist', 2], ['glass_crown', 2], ['void_pact', 2], ['firebolt', 2], ['kindling', 2], ['opening_salvo', 2]],
+    ['shade-2', 'shade-3', 'ronin-2', 'ronin-3']),
+  court: deck('c6-court', 'The Unseen Court', 'Umbral · Hollow · Gearbound', [['vespera', 1], ['morrow', 2], ['seren', 2], ['spark', 2], ['hex3', 2], ['shade', 2],
+    ['summoners_pact', 2], ['training_dummy', 2], ['living_arena', 1], ['royal-dispatch', 2], ['shield-wall', 2], ['crown_bond', 2], ['tempered_victory', 2], ['crowns_favor', 2], ['dawnward-oath', 2], ['opening_salvo', 2]],
+    ['vespera-2', 'vespera-3', 'morrow-2', 'morrow-3']),
+  void: deck('c6-void', 'Where the Empire Was', 'Umbral · Riftborn · Hexbound', [['maeve', 2], ['shade', 2], ['nyx', 2], ['dreadmouth', 2], ['zyrak', 2], ['hexie', 2],
+    ['blood_price', 2], ['crimson_augury', 2], ['dark_bargain', 2], ['soul_tax', 2], ['crown_of_nothing', 2], ['abyssal_hunger', 2], ['void_pact', 2], ['executioner', 2], ['royal-dispatch', 2]],
+    ['zyrak-2', 'zyrak-3', 'maeve-2', 'maeve-3']),
+  noctara: deck('c6-noctara', 'Empress of Nothing', 'Umbral', [['noctara', 1], ['vespera', 1], ['shade', 2], ['nyx', 2], ['maeve', 2], ['zyrak', 2], ['veilwalker', 1],
+    ['crown_of_nothing', 2], ['void_pact', 2], ['executioner', 2], ['abyssal_hunger', 2], ['dark_bargain', 2], ['royal-dispatch', 2], ['shield-wall', 2], ['crown_of_war', 1], ['grand_convergence', 1], ['crimson_augury', 2], ['firebolt', 1]],
+    ['noctara-2', 'noctara-3', 'vespera-2', 'vespera-3', 'shade-2', 'shade-3', 'nyx-2', 'nyx-3']),
+};
+Object.assign(CAMPAIGN_DECKS, D6);
+
+export const CHAPTER_VI: Chapter = {
+  id: 'c6', numeral: 'VI', title: 'The Court of Night', legend: 'noctara', playerDeck: D6.player, playerDeckName: 'The Court of Night',
+  trials: ['Whispers After Dark', 'Tests of the Night', 'The Empire That Vanished'],
+  intro: [
+    S('Narration', 'When the Arena’s torches burn low, another Crownfall wakes: thieves on the rooftops, masks in the alleys, a court that meets only when no one is watching.'),
+    S('Narration', 'Noctara ruled an empire until it disappeared. She is not sure she did not do it.', true),
+    S('Narration', 'The night lends you its banner. Keep your Crown close.'),
+  ],
+  bouts: [
+    // ── Trial 1 · Whispers After Dark ──
+    { id: 'c6-t1-b1', trial: 1, bout: 1, title: 'You Didn’t See Me', portrait: 'nyx', rival: 'Thieves of the Star', deck: D6.thieves,
+      story: [S('Narration', 'Nyx stole a star once. She gave it back. Mostly.', true), S('Nyx', "You didn't see me.", true)],
+      setup: { rivalCrown: 3 }, objective: win, rules: 'The thieves have only 3 shards, but they strike from the shadows.', reward: { valor: 110, cards: ['nyx'] } },
+    { id: 'c6-t1-b2', trial: 1, bout: 2, title: 'She Gave It Back. Mostly.', portrait: 'nyx', rival: 'The Faces', deck: D6.masks,
+      story: [S('Narration', 'Nyx slips onto your side of the field. You did not see her arrive.')],
+      setup: { myField: ['nyx'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Nyx starts on your field. Win with at least 3 shards.', reward: { valor: 110 } },
+    { id: 'c6-t1-b3', trial: 1, bout: 3, title: 'A Mark Has Been Chosen', portrait: 'shade', rival: 'The Faces', deck: D6.masks,
+      story: [S('Narration', 'Shade has worn many faces. The mask is the only one that stayed.', true), S('Shade', 'A mark has been chosen.', true)],
+      objective: win, rules: 'A deck of Ambush assassins. Do not leave champions sideways.', reward: { valor: 110, cards: ['shade'] } },
+    { id: 'c6-t1-b4', trial: 1, bout: 4, title: 'The Mask Stays', portrait: 'shade', rival: 'Thieves of the Star', deck: D6.thieves,
+      story: [S('Narration', 'Shade stands with you tonight. Nobody knows why. Shade does not explain.')],
+      setup: { myField: ['shade'] }, objective: { kind: 'survive', rounds: 5 }, rules: 'Shade starts on your field. Survive until round 5 begins.', reward: { valor: 120 } },
+    { id: 'c6-t1-b5', trial: 1, bout: 5, title: 'Court Is in Session', portrait: 'vespera', rival: 'The Unseen Court', deck: D6.court,
+      story: [S('Narration', 'Vespera rules a court that exists only when no one is looking.', true), S('Queen Vespera', 'Court is in session.', true)],
+      objective: win, rules: 'The court fills the field with tokens.', reward: { valor: 120, cards: ['vespera'] } },
+    // ── Trial 2 · Tests of the Night ──
+    { id: 'c6-t2-b1', trial: 2, bout: 1, title: 'Quieter. Sharper.', portrait: 'nyx', rival: 'Thieves of the Star', deck: D6.thieves,
+      story: [S('Nyx', 'Quieter. Sharper.', true)],
+      setup: { edict: 'edict-war_banners' }, objective: win, rules: 'Edict in play: War Banners.', reward: { valor: 130 } },
+    { id: 'c6-t2-b2', trial: 2, bout: 2, title: 'The Mask Cracks', portrait: 'shade', rival: 'The Faces', deck: D6.masks,
+      story: [S('Shade', 'The mask cracks. Good.', true)],
+      setup: { edict: 'edict-shard_season' }, objective: win, rules: 'Edict in play: Shard Season.', reward: { valor: 130 } },
+    { id: 'c6-t2-b3', trial: 2, bout: 3, title: 'My Courtiers Grow Bold', portrait: 'vespera', rival: 'The Unseen Court', deck: D6.court,
+      story: [S('Queen Vespera', 'My courtiers grow bold.', true)],
+      setup: { edict: 'edict-crowns_bounty' }, objective: win, rules: 'Edict in play: Crown’s Bounty.', reward: { valor: 130 } },
+    { id: 'c6-t2-b4', trial: 2, bout: 4, title: 'When No One Is Looking', portrait: 'vespera', rival: 'The Unseen Court', deck: D6.court,
+      story: [S('Narration', 'The court only exists while no one is watching. Keep your eyes on your own Crown.')],
+      objective: { kind: 'keepShards', n: 3 }, rules: 'Win with at least 3 shards.', reward: { valor: 130 } },
+    { id: 'c6-t2-b5', trial: 2, bout: 5, title: 'The Void Deepens', portrait: 'noctara', rival: 'Where the Empire Was', deck: D6.void,
+      story: [S('Noctara', 'The void deepens.', true), S('Narration', 'The rival breaks its own shards to feed the void. It may break itself first, or break you.')],
+      objective: win, rules: 'A deck that breaks its own shards for power.', reward: { valor: 140 } },
+    // ── Trial 3 · The Empire That Vanished ──
+    { id: 'c6-t3-b1', trial: 3, bout: 1, title: 'Gone Before They Knew', portrait: 'nyx', rival: 'Where the Empire Was', deck: D6.void,
+      story: [S('Nyx', 'Gone before they knew.', true), S('Narration', 'Nyx and Shade take the field with you, side by side for the first time.')],
+      setup: { myField: ['nyx', 'shade'] }, objective: win, rules: 'Nyx and Shade start on your field.', reward: { valor: 140 } },
+    { id: 'c6-t3-b2', trial: 3, bout: 2, title: 'Rise, My Court!', portrait: 'vespera', rival: 'The Faces', deck: D6.masks,
+      story: [S('Queen Vespera', 'Rise, my court!', true)],
+      setup: { myField: ['vespera'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Queen Vespera starts on your field. Win with at least 3 shards.', reward: { valor: 140 } },
+    { id: 'c6-t3-b3', trial: 3, bout: 3, title: 'Dismissed', portrait: 'vespera', rival: 'The Unseen Court', deck: D6.court,
+      story: [S('Queen Vespera', 'Dismissed.', true), S('Queen Vespera', 'Or not. Show me.')],
+      setup: { edict: 'edict-scholars_ascent' }, objective: win, rules: 'Edict in play: Scholar’s Ascent.', reward: { valor: 140 } },
+    { id: 'c6-t3-b4', trial: 3, bout: 4, title: 'Where the Empire Was', portrait: 'noctara', rival: 'Where the Empire Was', deck: D6.void,
+      story: [S('Narration', 'You walk where a city once stood. Nothing is left, not even ruins. Something has already taken one of your shards.')],
+      setup: { myCrown: 4 }, objective: win, rules: 'You start with 4 Crown Shards.', reward: { valor: 150 } },
+    { id: 'c6-t3-b5', trial: 3, bout: 5, title: 'All Things End', portrait: 'noctara', rival: 'Where the Empire Was', deck: D6.void,
+      story: [S('Noctara', 'All things end in me.', true), S('Narration', 'Her voice comes from the empty air. Show her you will not end so easily.')],
+      objective: { kind: 'keepShards', n: 4 }, rules: 'Win with at least 4 shards.', reward: { valor: 150 } },
+    // ── The Crowning ──
+    { id: 'c6-crowning', trial: 4, bout: 1, title: 'The Crowning: Noctara', portrait: 'noctara', rival: 'Noctara, Empress of Nothing', deck: D6.noctara,
+      story: [S('Narration', 'The Arena’s lights go out one by one, until only the Crown’s shards are glowing. Then those go dark too.'),
+        S('Noctara', 'All things end in me.', true),
+        S('Noctara', 'Perhaps you will not. Perhaps you will be the first.')],
+      objective: win, rules: 'The Crowning. Noctara is in the rival’s deck.', reward: { valor: 300, cards: ['noctara-2', 'noctara-3'] },
+      crowning: {
+        contender: { deck: D6.noctara, printing: 'base' },
+        masterwork: { deck: D6.noctara, printing: 'masterwork', setup: { edict: 'edict-shard_season' } },
+        omega: { deck: D6.noctara, printing: 'omega', setup: { edict: 'edict-shard_season', rivalField: ['noctara'] } },
+      } },
+  ],
+};
+
+export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV, CHAPTER_V, CHAPTER_VI] };
 export const ALL_BOUTS: Bout[] = ACT_I.chapters.flatMap((c) => c.bouts);
