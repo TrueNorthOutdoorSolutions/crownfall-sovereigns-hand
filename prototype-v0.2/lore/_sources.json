@@ -1,0 +1,4943 @@
+{
+ "bramble": {
+  "canon": {
+   "id": "bramble",
+   "name": "Bramble",
+   "title": "Sapling of the Greenwall",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "verdant"
+   ],
+   "classes": [
+    "warden"
+   ],
+   "role": "tank",
+   "ability": "Rootslam",
+   "star1": "A small wooden creature wearing moss like armour, fists of knotted root.",
+   "star2": "Larger, plated in armoured bark with glowing green runes; flowers bloom along the shoulders and roots trail when he walks.",
+   "star3": "A miniature ancient world-tree warrior. Leaves orbit him, his eyes burn emerald, and Rootslam erupts as enormous spectral roots.",
+   "lore": "The Greenwall forests sent their smallest guardian into the Crownfall. The forest does not understand crowns. It understands roots.",
+   "lines": {
+    "buy": "Roots first. Then questions.",
+    "star": "I grew!",
+    "win": "The forest remembers."
+   }
+  },
+  "chapter": "Chapter IV · The Greenwall",
+  "boss": false,
+  "set1": {
+   "title": "Sapling of the Greenwall",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Rootslam",
+     "text": "Block: Scorch 1 the attacker.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Rootslam",
+     "text": "Block: Scorch 2 the attacker.",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Rootslam",
+     "text": "Ascend: Scorch 2 each rival champion. Block: Scorch 2 the attacker.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "The Rootbreaker",
+   "classes": [
+    "sapper"
+   ],
+   "scene": "Roots splitting the flagstones of a buried tunnel, rubble raining around him.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Rootbreak",
+     "text": "Arrival: Break one of your rival’s face-down Schemes.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Rootbreak",
+     "text": "Attack: Break a rival champion’s Relic.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Rootbreak",
+     "text": "Ascend: Scorch 2 each rival champion. Break every rival champion’s Relic and every face-down Scheme your rival has. Block: Scorch 2 the attacker.",
+     "keywords": [],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "kira": {
+  "canon": {
+   "id": "kira",
+   "name": "Kira Volt",
+   "title": "Arc-Tech Prodigy",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "voltborn"
+   ],
+   "classes": [
+    "ranger"
+   ],
+   "role": "marksman",
+   "ability": "Overcharged Round",
+   "star1": "A young arc-tech gunner with one compact energy pistol.",
+   "star2": "Dual energised pistols; her coat carries a glowing arc coil.",
+   "star3": "Floating arc batteries orbit her and every shot leaves a lightning trail.",
+   "lore": "Kira rebuilt her first pistol from a lightning rod. She intends to rebuild the Crown the same way.",
+   "lines": {
+    "buy": "Charged and ready!",
+    "star": "Double the volts!",
+    "win": "Nobody out-sparks me."
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": false,
+  "set1": {
+   "title": "Arc-Tech Prodigy",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Overcharged Round",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Overcharged Round",
+     "text": "Attack: Scorch 2 each rival champion.",
+     "keywords": [
+      "Charge"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "The Long Shot",
+   "classes": [
+    "sharpshooter"
+   ],
+   "scene": "Perched on a girder high above a flooded cavern, rifle charged and sighting far below.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Railshot",
+     "text": "Attack: Scorch 1 a rival champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Railshot",
+     "text": "Attack: Scorch 2 a rival champion.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Railshot",
+     "text": "Attack: Defeat a rival champion with Guard 4 or less.",
+     "keywords": [
+      "Charge",
+      "Reach"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "grimm": {
+  "canon": {
+   "id": "grimm",
+   "name": "Grimm",
+   "title": "The Soldier Who Stayed",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "hollow"
+   ],
+   "classes": [
+    "vanguard"
+   ],
+   "role": "tank",
+   "ability": "Refuse Death",
+   "star1": "A skeletal footsoldier in dented plate, ghost-light in his ribs.",
+   "star2": "Plate reforged with spectral seams; a tattered banner grows from his back.",
+   "star3": "A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate.",
+   "lore": "His war ended three centuries ago. Nobody told Grimm.",
+   "lines": {
+    "buy": "Reporting for duty. Again.",
+    "star": "Still haven't died properly.",
+    "win": "Another war ended."
+   }
+  },
+  "chapter": "Chapter V · The Unremembered",
+  "boss": false,
+  "set1": {
+   "title": "The Soldier Who Stayed",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Refuse Death",
+     "text": "Block: Shield Grimm.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Refuse Death",
+     "text": "Block: Shield Grimm. Ascend: Return a ★ champion from your Fallen pile to your hand.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Refuse Death",
+     "text": "Block: Shield Grimm. Ascend: Return a ★ champion from your Fallen pile to your hand.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "The Last Sentry",
+   "classes": [
+    "sentinel"
+   ],
+   "scene": "Still guarding a forgotten armoury deep under the Arena, centuries after the war.",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Last Watch",
+     "text": "Rival champions attacking your Crown get −1 Might.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Last Watch",
+     "text": "Rival champions attacking your Crown get −1 Might. When Grimm is defeated, Summon two Risen Soldiers.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "pip": {
+  "canon": {
+   "id": "pip",
+   "name": "Pip",
+   "title": "Demolitions Enthusiast",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "gearbound"
+   ],
+   "classes": [
+    "saboteur"
+   ],
+   "role": "caster",
+   "ability": "Special Delivery",
+   "star1": "A tiny goblin-like sapper with a satchel of fizzing bombs.",
+   "star2": "Goggles, a bandolier of bigger bombs and a smoking backpack launcher.",
+   "star3": "Pip rides a ridiculous miniature mechanical war machine with a bomb chute.",
+   "lore": "Pip was told the Crownfall was a place of great explosions. Pip was not told correctly, so Pip brought his own.",
+   "lines": {
+    "buy": "Pip brought explosives!",
+    "star": "BIGGER BOOM!",
+    "win": "Pip wants to go again!"
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Demolitions Enthusiast",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Special Delivery",
+     "text": "Arrival: Scorch 1 each rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Special Delivery",
+     "text": "Ascend: Scorch 1 each rival champion. Attack: Scorch 1 each rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Special Delivery",
+     "text": "Ascend: Scorch 2 each rival champion. Attack: Scorch 1 each rival champion.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Tunnel Blaster",
+   "classes": [
+    "sapper"
+   ],
+   "scene": "Lighting a fuse in a narrow mine tunnel, grinning, barrels stacked behind her.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Tunnel Charge",
+     "text": "Arrival: Break a rival champion’s Relic.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Tunnel Charge",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Tunnel Charge",
+     "text": "Ascend: Scorch 2 each rival champion. Break a rival champion’s Relic.",
+     "keywords": [],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "solara": {
+  "canon": {
+   "id": "solara",
+   "name": "Solara",
+   "title": "Novice of the Dawn",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "dawnforged"
+   ],
+   "classes": [
+    "mystic"
+   ],
+   "role": "support",
+   "ability": "Sun Mend",
+   "star1": "A novice sun priestess with a simple brass staff.",
+   "star2": "Gilded vestments and a sun-disc staff that hums with light.",
+   "star3": "Radiant robes, a floating halo of three suns and wings of morning light.",
+   "lore": "Her order believes the Crown is the first sunrise, stolen. She has come to return it.",
+   "lines": {
+    "buy": "The dawn walks with you.",
+    "star": "The light answers me now.",
+    "win": "Rest. The sun rises."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": false,
+  "set1": {
+   "title": "Novice of the Dawn",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Sun Mend",
+     "text": "Arrival: Shield another champion you control.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Sun Mend",
+     "text": "Ascend: Shield each champion you control.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Sun Mend",
+     "text": "Ascend: Shield each champion you control. Your other champions have +1 Guard.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Lamp of the Lost",
+   "classes": [
+    "restorer"
+   ],
+   "scene": "Holding a dawn-lamp over wounded explorers in a dark side-passage.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Lamplight",
+     "text": "Arrival: Shield another champion you control.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Lamplight",
+     "text": "Ascend: Mend 1.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Lamplight",
+     "text": "Ascend: Mend 1. Shield each champion you control.",
+     "keywords": [],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "fen": {
+  "canon": {
+   "id": "fen",
+   "name": "Fen",
+   "title": "Blood of the Pack",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "wildkin"
+   ],
+   "classes": [
+    "duelist"
+   ],
+   "role": "fighter",
+   "ability": "Red Moon Pounce",
+   "star1": "A lean grey wolf warrior with bone-hilted claws.",
+   "star2": "Scarred and armoured in hide, crimson war paint glowing on his muzzle.",
+   "star3": "An alpha of the blood moon; a red spirit-wolf runs beside every leap.",
+   "lore": "Fen tracks weakness. He learned it from the winters, and the winters were thorough.",
+   "lines": {
+    "buy": "I smell weakness.",
+    "star": "The pack grows.",
+    "win": "Good hunt."
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": false,
+  "set1": {
+   "title": "Blood of the Pack",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Red Moon Pounce",
+     "text": "+1 Might while you have fewer shards than your rival.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Red Moon Pounce",
+     "text": "+1 Might while you have fewer shards than your rival.",
+     "keywords": [
+      "Ambush"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Red Moon Pounce",
+     "text": "+1 Might while you have fewer shards than your rival. Once per turn, when Fen defeats a champion on your turn, ready Fen.",
+     "keywords": [
+      "Ambush"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Pack Hunter",
+   "classes": [
+    "hunter"
+   ],
+   "scene": "Running the dark tunnels under the Arena with the scent of a monster ahead.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Scent of Prey",
+     "text": "+1 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Scent of Prey",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Scent of Prey",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. When Fen defeats a champion on your turn, draw a card.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "torren": {
+  "canon": {
+   "id": "torren",
+   "name": "Torren",
+   "title": "Shield of the Deep",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "titanborn"
+   ],
+   "classes": [
+    "warden"
+   ],
+   "role": "tank",
+   "ability": "Stonewall",
+   "star1": "A stone-skinned bearer behind a slab shield.",
+   "star2": "The shield becomes a carved gate with glowing gold veins.",
+   "star3": "A mountain made small: crystal spires grow from his shoulders and the shield bears a living rune.",
+   "lore": "The Titanborn say a shield is a promise. Torren has never broken one.",
+   "lines": {
+    "buy": "Stand behind me.",
+    "star": "Stone endures.",
+    "win": "Promise kept."
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Shield of the Deep",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Stonewall",
+     "text": "Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Stonewall",
+     "text": "Ascend: Shield each champion you control. Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Keeper of the Deep Vault",
+   "classes": [
+    "sentinel"
+   ],
+   "scene": "Standing before a sealed vault door in the drowned halls of the Deep.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Vault Ward",
+     "text": "Rival champions attacking your Crown get −1 Might.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Vault Ward",
+     "text": "Rival champions attacking your Crown get −1 Might.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Vault Ward",
+     "text": "Rival champions attacking your Crown get −2 Might.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "nyx": {
+  "canon": {
+   "id": "nyx",
+   "name": "Nyx",
+   "title": "The Quiet Hand",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "umbral"
+   ],
+   "classes": [
+    "assassin"
+   ],
+   "role": "assassin",
+   "ability": "Fade",
+   "star1": "A hooded thief with two crooked daggers.",
+   "star2": "Her cloak drips living shadow; violet eyes glow beneath the hood.",
+   "star3": "Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night.",
+   "lore": "Nyx stole a star once. She gave it back. Mostly.",
+   "lines": {
+    "buy": "You didn't see me.",
+    "star": "Quieter. Sharper.",
+    "win": "Gone before they knew."
+   }
+  },
+  "chapter": "Chapter VI · The Court of Night",
+  "boss": false,
+  "set1": {
+   "title": "The Quiet Hand",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Ambush"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Fade",
+     "text": "Attack: Scorch 1 the defender.",
+     "keywords": [
+      "Ambush"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Fade",
+     "text": "Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Ambush",
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Vault Thief",
+   "classes": [
+    "rogue"
+   ],
+   "scene": "Slipping between treasure piles in a Guardian’s lair, a stolen relic in hand.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Light Fingers",
+     "text": "Attack: Take a Relic from a rival champion and attach it to Nyx.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "Light Fingers",
+     "text": "Attack: Take a Relic from a rival champion and attach it to Nyx.",
+     "keywords": [
+      "Ambush",
+      "Flight"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "Light Fingers",
+     "text": "Attack: Take a Relic from a rival champion and attach it to Nyx. When Nyx defeats a champion on your turn, your rival discards a card at random.",
+     "keywords": [
+      "Ambush",
+      "Flight"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "emberling": {
+  "canon": {
+   "id": "emberling",
+   "name": "Emberling",
+   "title": "Spark That Learned to Speak",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "elemental"
+   ],
+   "classes": [
+    "arcanist"
+   ],
+   "role": "caster",
+   "ability": "Kindle",
+   "star1": "A small living flame with curious coal eyes.",
+   "star2": "A crackling fire sprite crowned with blue-hot embers.",
+   "star3": "A miniature sun-spirit; the air warps around her and her fireballs leave spiralling trails.",
+   "lore": "She was a candle once. Then someone read a spell too close to her.",
+   "lines": {
+    "buy": "Can I burn something?",
+    "star": "I'm a real fire now!",
+    "win": "Warm, warm, warm!"
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": false,
+  "set1": {
+   "title": "Spark That Learned to Speak",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Kindle",
+     "text": "Arrival: Scorch 2 a rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Kindle",
+     "text": "Ascend: Scorch 2 a rival champion. Attack: Scorch 1 the defender.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Kindle",
+     "text": "Ascend: Scorch 2 each rival champion. Attack: Scorch 2 the defender.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Ember Conduit",
+   "classes": [
+    "channeler"
+   ],
+   "scene": "A living spark drifting through a forge-vent, sparks spiralling up into it.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Ember Echo",
+     "text": "Whenever you cast a Tactic, Scorch 1 a rival champion.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "Ember Echo",
+     "text": "Whenever you cast a Tactic, Scorch 1 a rival champion.",
+     "keywords": [],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "Ember Echo",
+     "text": "Whenever you cast a Tactic, Scorch 1 each rival champion.",
+     "keywords": [],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "rowan": {
+  "canon": {
+   "id": "rowan",
+   "name": "Rowan",
+   "title": "Longbow of the Realm",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "kingdom"
+   ],
+   "classes": [
+    "ranger"
+   ],
+   "role": "marksman",
+   "ability": "Kingsbolt",
+   "star1": "A kingdom archer with a yew longbow.",
+   "star2": "Royal green tabard and a silver-limbed bow.",
+   "star3": "A legendary marksman: arrows of light, a lion cloak and a falcon familiar.",
+   "lore": "Rowan has never missed at a hundred paces. At a thousand, he says, the wind argues.",
+   "lines": {
+    "buy": "The wind is kind today.",
+    "star": "A thousand paces, now.",
+    "win": "Clean shots."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": false,
+  "set1": {
+   "title": "Longbow of the Realm",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Kingsbolt",
+     "text": "Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Kingsbolt",
+     "text": "Ascend: Scorch 2 a rival champion. Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Reach"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Archer of the Deep Gate",
+   "classes": [
+    "sharpshooter"
+   ],
+   "scene": "Holding the great gate to the under-halls, bow drawn into the dark.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Gatewatch Volley",
+     "text": "Attack: Scorch 1 a rival champion.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Gatewatch Volley",
+     "text": "Attack: Scorch 1 a rival champion.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Gatewatch Volley",
+     "text": "Attack: Scorch 2 a rival champion.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "common"
+    }
+   ]
+  }
+ },
+ "hexie": {
+  "canon": {
+   "id": "hexie",
+   "name": "Hexie",
+   "title": "Apprentice of Mischief",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "hexbound"
+   ],
+   "classes": [
+    "arcanist"
+   ],
+   "role": "caster",
+   "ability": "Unstable Hex",
+   "star1": "An apprentice witch in an oversized hat.",
+   "star2": "Her hat has grown eyes. Her staff has grown opinions.",
+   "star3": "A chaos witch riding a floating cauldron, hexes orbiting like fireflies.",
+   "lore": "Hexie is not supposed to be here. Neither was anything she has ever turned into a toad.",
+   "lines": {
+    "buy": "Who wants to be a toad?",
+    "star": "My hat has opinions!",
+    "win": "Ribbit. Ha!"
+   }
+  },
+  "chapter": "Chapter IV · The Greenwall",
+  "boss": false,
+  "set1": {
+   "title": "Apprentice of Mischief",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Unstable Hex",
+     "text": "Arrival: A rival champion gets −2 Might this turn.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Unstable Hex",
+     "text": "Ascend: A rival champion gets −3 Might this turn.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Unstable Hex",
+     "text": "Ascend: A rival champion gets −4 Might this turn. Attack: Scorch 1 the defender.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Reader of Bones",
+   "classes": [
+    "seer"
+   ],
+   "scene": "Casting knucklebones across a cave floor; the bones glow with the rival’s next move.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Bone Reading",
+     "text": "Your Schemes cost 1 less to spring.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "Bone Reading",
+     "text": "Your Schemes cost 1 less to spring. Ascend: Draw a card.",
+     "keywords": [],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "Bone Reading",
+     "text": "Your Schemes cost nothing to spring, and you can spring them on the turn you set them. Ascend: Draw 2 cards.",
+     "keywords": [],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "bolt": {
+  "canon": {
+   "id": "bolt",
+   "name": "Bolt",
+   "title": "Unit B-07",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "gearbound"
+   ],
+   "classes": [
+    "vanguard"
+   ],
+   "role": "tank",
+   "ability": "Emergency Plating",
+   "star1": "A compact combat automaton with one amber eye.",
+   "star2": "Reinforced plating, piston fists and a spinning gear core.",
+   "star3": "A gleaming brass guardian with a reactor heart and folding shield vanes.",
+   "lore": "Bolt was built to guard a door. The door is gone. Bolt has decided you are the door now.",
+   "lines": {
+    "buy": "Unit B-07 online.",
+    "star": "Upgrade accepted.",
+    "win": "Door secured."
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Unit B-07",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Emergency Plating",
+     "text": "Arrival: Shield Bolt.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Emergency Plating",
+     "text": "Ascend: Shield Bolt.",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Emergency Plating",
+     "text": "Ascend: Shield Bolt. Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Scrap Smith",
+   "classes": [
+    "artificer"
+   ],
+   "scene": "Welding salvaged relic plates onto its own chassis in a scrapyard cave.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Scrapforge",
+     "text": "Your Relics cost 1 less.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Scrapforge",
+     "text": "Your Relics cost 1 less. +2 Guard while Bolt holds a Relic.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Scrapforge",
+     "text": "Ascend: Attach a Relic costing 3 or less from your hand to Bolt for free. +2 Guard while Bolt holds a Relic.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "kael": {
+  "canon": {
+   "id": "kael",
+   "name": "Kael",
+   "title": "Seeker of the Crown",
+   "tier": 1,
+   "tierName": "Common",
+   "origins": [
+    "kingdom"
+   ],
+   "classes": [
+    "duelist"
+   ],
+   "role": "fighter",
+   "ability": "Crescent Slash",
+   "star1": "A young swordsman in travelling leathers.",
+   "star2": "Blue-steel armour and a blade that leaves a crescent of light.",
+   "star3": "A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet.",
+   "lore": "Everyone in the Crownfall wants the Crown. Kael is the only one who wants to be worthy of it.",
+   "lines": {
+    "buy": "I will be worthy.",
+    "star": "Stronger — for the Crown.",
+    "win": "One step closer."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": false,
+  "set1": {
+   "title": "Seeker of the Crown",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Crescent Slash",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Crescent Slash",
+     "text": "Ascend: Scorch 1 each rival champion. Attack: Scorch 1 each rival champion.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Relic Seeker",
+   "classes": [
+    "delver"
+   ],
+   "scene": "Torchlit vaults beneath the Arena; he reaches for a relic blade on a broken plinth.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Delve",
+     "text": "Arrival: Draw a card, then put a card from your hand on the bottom of your deck.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Delve",
+     "text": "Ascend: Return a Relic from your Fallen pile to your hand.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Delve",
+     "text": "Ascend: Draw 2 cards.",
+     "keywords": [],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "solenne": {
+  "canon": {
+   "id": "solenne",
+   "name": "Solenne Ash",
+   "title": "Knight of the Burning Dawn",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "dawnforged"
+   ],
+   "classes": [
+    "vanguard"
+   ],
+   "role": "tank",
+   "ability": "Solar Charge",
+   "star1": "A flame knight in rose-gold plate.",
+   "star2": "Her plume becomes fire; her blade glows white-hot.",
+   "star3": "Sun-forged armour, blazing wings and a trail of dawnfire.",
+   "lore": "Solenne swore to burn away every shadow in the Crownfall. She has started a list.",
+   "lines": {
+    "buy": "Shadows, beware.",
+    "star": "The dawn burns brighter!",
+    "win": "Cleansed."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": false,
+  "set1": {
+   "title": "Knight of the Burning Dawn",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Solar Charge",
+     "text": "Ascend: Scorch 2 a rival champion.",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Solar Charge",
+     "text": "Ascend: Scorch 2 each rival champion.",
+     "keywords": [
+      "Charge"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Lantern of the Underways",
+   "classes": [
+    "delver"
+   ],
+   "scene": "Her blade lights the tunnels as shadows flee from the dawnfire.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Lantern Path",
+     "text": "Arrival: Draw a card.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Lantern Path",
+     "text": "Ascend: Draw a card.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Lantern Path",
+     "text": "Ascend: Draw a card. Shield each champion you control.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "grizz": {
+  "canon": {
+   "id": "grizz",
+   "name": "Grizz",
+   "title": "The Mountain That Walks",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "wildkin"
+   ],
+   "classes": [
+    "bruiser"
+   ],
+   "role": "bruiser",
+   "ability": "Maul",
+   "star1": "An enormous bear warrior with iron-shod claws.",
+   "star2": "War-paint and a pauldron made from a mountain troll's skull.",
+   "star3": "A primal bear-titan whose roar shakes the arena floor.",
+   "lore": "Grizz does not understand the Crown. He understands that everyone wants it, and he likes a crowd.",
+   "lines": {
+    "buy": "GRAHH!",
+    "star": "BIGGER GRAHH!",
+    "win": "Nap time."
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": false,
+  "set1": {
+   "title": "The Mountain That Walks",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Maul",
+     "text": "+2 Might while blocking.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Maul",
+     "text": "+2 Might while blocking. Attack: Scorch 1 the defender.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Maul",
+     "text": "+3 Might while blocking. Attack: Scorch 2 the defender.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Breaker of Beasts",
+   "classes": [
+    "hunter"
+   ],
+   "scene": "Wrestling a monster twice his size in a cavern beneath the Arena.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Beastbreaker",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Beastbreaker",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. When Grizz defeats a champion on your turn, Shield Grizz.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Beastbreaker",
+     "text": "+3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. When Grizz defeats a champion on your turn, Shield Grizz.",
+     "keywords": [],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "gearwick": {
+  "canon": {
+   "id": "gearwick",
+   "name": "Gearwick-9",
+   "title": "Siege Calculator",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "gearbound"
+   ],
+   "classes": [
+    "artillerist"
+   ],
+   "role": "marksman",
+   "ability": "Mortar Protocol",
+   "star1": "A clockwork artillery robot with a brass mortar.",
+   "star2": "Twin barrels and a targeting monocle that clicks.",
+   "star3": "A walking siege tower with a rotary mortar crown.",
+   "lore": "Gearwick-9 has calculated the odds of winning the Crown. It will not tell you them.",
+   "lines": {
+    "buy": "Calculating trajectory.",
+    "star": "Additional barrels installed.",
+    "win": "Odds improved."
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Siege Calculator",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Mortar Protocol",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Mortar Protocol",
+     "text": "Ascend: Scorch 1 each rival champion. Attack: Scorch 1 each rival champion.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Mortar Protocol",
+     "text": "Attack: Scorch 2 each rival champion.",
+     "keywords": [
+      "Reach"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Relic Engineer",
+   "classes": [
+    "artificer"
+   ],
+   "scene": "Bolting a recovered relic into its siege frame in an underground workshop.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Relic Rig",
+     "text": "Arrival: Attach a Relic costing 2 or less from your hand to Gearwick-9 for free.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Relic Rig",
+     "text": "Your Relics cost 1 less. +2 Might while Gearwick-9 holds a Relic.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Relic Rig",
+     "text": "Your Relics cost 1 less. Ascend: Return a Relic from your Fallen pile to your hand. Attach a Relic costing 3 or less from your hand to Gearwick-9 for free.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "mirella": {
+  "canon": {
+   "id": "mirella",
+   "name": "Mirella",
+   "title": "Voice of the Tides",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "elemental"
+   ],
+   "classes": [
+    "mystic"
+   ],
+   "role": "support",
+   "ability": "Tidal Veil",
+   "star1": "A water mage with a swirling orb of seawater.",
+   "star2": "Robes of living foam and a coral circlet.",
+   "star3": "A tide queen: a ring of water orbits her and fish of light swim through it.",
+   "lore": "Mirella can hear every ocean. The Crownfall has none, and the silence frightens her.",
+   "lines": {
+    "buy": "The tide turns.",
+    "star": "Every ocean sings with me.",
+    "win": "Calm waters."
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": false,
+  "set1": {
+   "title": "Voice of the Tides",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Tidal Veil",
+     "text": "Arrival: Shield another champion you control.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Tidal Veil",
+     "text": "Ascend: Shield each champion you control.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Tidal Veil",
+     "text": "Ascend: Shield each champion you control. Draw a card.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Tide of the Sunken Halls",
+   "classes": [
+    "restorer"
+   ],
+   "scene": "Rising from an underground lake, healing water spilling up the stone stairs.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Sunken Tide",
+     "text": "Arrival: Shield another champion you control.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Sunken Tide",
+     "text": "Ascend: Shield each champion you control.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Sunken Tide",
+     "text": "Ascend: Shield each champion you control, then Mend 1.",
+     "keywords": [],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "shade": {
+  "canon": {
+   "id": "shade",
+   "name": "Shade",
+   "title": "The Mask With No Face",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "umbral"
+   ],
+   "classes": [
+    "assassin"
+   ],
+   "role": "assassin",
+   "ability": "Execution Mark",
+   "star1": "A masked assassin with a red-lacquered blade.",
+   "star2": "The mask cracks, revealing a crimson glow beneath.",
+   "star3": "A wraith of ribbons and knives; the mask floats in front of an empty hood.",
+   "lore": "Shade has worn many faces. The mask is the only one that stayed.",
+   "lines": {
+    "buy": "A mark has been chosen.",
+    "star": "The mask cracks. Good.",
+    "win": "Executed."
+   }
+  },
+  "chapter": "Chapter VI · The Court of Night",
+  "boss": false,
+  "set1": {
+   "title": "The Mask With No Face",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Ambush"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Execution Mark",
+     "text": "Once per turn, when Shade defeats a champion on your turn, ready Shade.",
+     "keywords": [
+      "Ambush"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Execution Mark",
+     "text": "Ascend: Defeat each rival champion with Guard 1 or less. Once per turn, when Shade defeats a champion on your turn, ready Shade.",
+     "keywords": [
+      "Ambush"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Mask of the Depths",
+   "classes": [
+    "rogue"
+   ],
+   "scene": "A faceless mask hanging in the dark of the lowest halls, blades already drawn.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Masked Theft",
+     "text": "When Shade defeats a champion on your turn, your rival discards a card at random.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Masked Theft",
+     "text": "When Shade defeats a champion on your turn, your rival discards a card at random.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Masked Theft",
+     "text": "Attack: Take a Relic from a rival champion and attach it to Shade. When Shade defeats a champion on your turn, your rival discards a card at random.",
+     "keywords": [
+      "Ambush",
+      "Flight"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "borin": {
+  "canon": {
+   "id": "borin",
+   "name": "Borin Ironbelly",
+   "title": "Forgekin Hearthbreaker",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "titanborn"
+   ],
+   "classes": [
+    "bruiser"
+   ],
+   "role": "bruiser",
+   "ability": "Molten Hammer",
+   "star1": "A broad Forgekin smith: basalt skin, braided beard of copper wire, a glowing hammer.",
+   "star2": "Magma veins open along his arms; his hammer head is a live forge.",
+   "star3": "Borin becomes a walking furnace; his beard is molten metal and every step leaves slag.",
+   "lore": "The Forgekin of Titan's Deep sing to metal until it agrees to become a hammer. Borin sings loudest.",
+   "lines": {
+    "buy": "The forge is hot!",
+    "star": "Hammer sings louder!",
+    "win": "Well struck."
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Forgekin Hearthbreaker",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Molten Hammer",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Molten Hammer",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Molten Hammer",
+     "text": "Attack: Scorch 2 each rival champion.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Forgemaster of the Deep",
+   "classes": [
+    "artificer"
+   ],
+   "scene": "At a roaring forge beneath the Arena, reforging a Guardian’s broken relic.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Deep Forge",
+     "text": "Arrival: Return a Relic from your Fallen pile to your hand.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Deep Forge",
+     "text": "+2 Might while Borin Ironbelly holds a Relic.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Deep Forge",
+     "text": "+2 Might and +2 Guard while Borin Ironbelly holds a Relic.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "seren": {
+  "canon": {
+   "id": "seren",
+   "name": "Seren",
+   "title": "Keeper of Starlings",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "astral"
+   ],
+   "classes": [
+    "summoner"
+   ],
+   "role": "caster",
+   "ability": "Starling",
+   "star1": "A star-child with a lantern staff.",
+   "star2": "A cloak of night sky and a lantern that holds a real star.",
+   "star3": "Constellations sketch themselves around her; a flock of light-birds circles overhead.",
+   "lore": "Seren catches falling stars. Some of them want to fight.",
+   "lines": {
+    "buy": "The starlings are hungry.",
+    "star": "More stars, more friends!",
+    "win": "Twinkle, twinkle!"
+   }
+  },
+  "chapter": "Chapter VIII · The One Who Refused",
+  "boss": false,
+  "set1": {
+   "title": "Keeper of Starlings",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Starling",
+     "text": "Arrival: Summon a Starling.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Starling",
+     "text": "Ascend: Summon two Starlings.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Starling",
+     "text": "Ascend: Summon two Starlings. Draw a card.",
+     "keywords": [
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Starlight in the Dark",
+   "classes": [
+    "delver"
+   ],
+   "scene": "Her Starlings light a vast underground cavern like a night sky.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Starlit Path",
+     "text": "Arrival: Draw a card.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Starlit Path",
+     "text": "Ascend: Draw a card. Summon a Starling.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Starlit Path",
+     "text": "Ascend: Draw 2 cards.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "thorn": {
+  "canon": {
+   "id": "thorn",
+   "name": "Thorn",
+   "title": "Blighted Bloom",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "verdant"
+   ],
+   "classes": [
+    "saboteur"
+   ],
+   "role": "caster",
+   "ability": "Toxic Bloom",
+   "star1": "A thorned plant warrior with a violet flower head.",
+   "star2": "Poison dripping from purple petals; a thorny spine along his back.",
+   "star3": "A carnivorous bloom colossus whose petals exhale toxic spores.",
+   "lore": "Not every forest wants visitors.",
+   "lines": {
+    "buy": "Step closer…",
+    "star": "In full bloom.",
+    "win": "The garden wins."
+   }
+  },
+  "chapter": "Chapter IV · The Greenwall",
+  "boss": false,
+  "set1": {
+   "title": "Blighted Bloom",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Toxic Bloom",
+     "text": "Arrival: Scorch 1 each rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Toxic Bloom",
+     "text": "Ascend: Scorch 1 each rival champion. Block: Scorch 2 the attacker.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Toxic Bloom",
+     "text": "Ascend: Scorch 2 each rival champion. Block: Scorch 2 the attacker.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Rot Beneath the Stone",
+   "classes": [
+    "sapper"
+   ],
+   "scene": "Blight creeping through cracks in a vault wall, the stone crumbling to green dust.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Creeping Rot",
+     "text": "Arrival: Break one of your rival’s face-down Schemes.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Creeping Rot",
+     "text": "Ascend: Break a rival champion’s Relic. Block: Scorch 2 the attacker.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Creeping Rot",
+     "text": "Ascend: Break one of your rival’s face-down Schemes. Break a rival champion’s Relic. Scorch 2 each rival champion.",
+     "keywords": [],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "dax": {
+  "canon": {
+   "id": "dax",
+   "name": "Dax Meridian",
+   "title": "The Gun Between Worlds",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "riftborn"
+   ],
+   "classes": [
+    "ranger"
+   ],
+   "role": "marksman",
+   "ability": "Ricochet",
+   "star1": "A dimensional gunslinger in a dusty long coat.",
+   "star2": "Rift cracks glow along his revolver; his coat shows another sky.",
+   "star3": "A drifter from every timeline at once: ghostly copies echo his shots.",
+   "lore": "Dax has fought in forty-one realities. He lost in one, and he is still annoyed about it.",
+   "lines": {
+    "buy": "This isn't my first reality.",
+    "star": "Forty-two realities, one gun.",
+    "win": "Not the one I lose in."
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": false,
+  "set1": {
+   "title": "The Gun Between Worlds",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Ricochet",
+     "text": "Attack: Scorch 1 a rival champion.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Ricochet",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Ricochet",
+     "text": "Attack: Scorch 2 each rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Guardian Hunter",
+   "classes": [
+    "hunter"
+   ],
+   "scene": "Taking aim at a towering Guardian through a rift in the cavern wall.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Rift Hunt",
+     "text": "+1 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. Attack: Scorch 1 the defender.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Rift Hunt",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. When Dax Meridian defeats a champion on your turn, draw a card.",
+     "keywords": [
+      "Reach",
+      "Flight"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Rift Hunt",
+     "text": "+3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. Attack: Scorch 2 the defender. When Dax Meridian defeats a champion on your turn, draw a card.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "elara": {
+  "canon": {
+   "id": "elara",
+   "name": "Elara",
+   "title": "Field Surgeon of the Realm",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "kingdom"
+   ],
+   "classes": [
+    "mystic"
+   ],
+   "role": "support",
+   "ability": "Last Light",
+   "star1": "A battlefield healer with a satchel of salves.",
+   "star2": "White-and-blue royal vestments; her tome glows.",
+   "star3": "An angel of the field hospital, light pouring from her open tome.",
+   "lore": "Elara has saved more soldiers than any general has led.",
+   "lines": {
+    "buy": "Who needs mending?",
+    "star": "No one falls today.",
+    "win": "Everyone accounted for."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": false,
+  "set1": {
+   "title": "Field Surgeon of the Realm",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Last Light",
+     "text": "Arrival: Return a ★ champion from your Fallen pile to your hand.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Last Light",
+     "text": "Ascend: Return a ★ champion from your Fallen pile to your hand.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Last Light",
+     "text": "Ascend: Return up to two ★ champions from your Fallen pile to your hand. Shield each champion you control.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Healer of the Fallen Deep",
+   "classes": [
+    "restorer"
+   ],
+   "scene": "Tending the wounded of the descent by lantern light in a collapsed hall.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Field Mending",
+     "text": "Arrival: Shield another champion you control.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Field Mending",
+     "text": "Ascend: Mend 1.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Field Mending",
+     "text": "Ascend: Mend 1. Return a ★ champion from your Fallen pile to your hand.",
+     "keywords": [],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "rask": {
+  "canon": {
+   "id": "rask",
+   "name": "Rask",
+   "title": "Pit Champion of Sszar",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "wildkin"
+   ],
+   "classes": [
+    "duelist"
+   ],
+   "role": "fighter",
+   "ability": "Predator's Rhythm",
+   "star1": "A reptilian gladiator with a notched gladius.",
+   "star2": "Gilded arena armour and a trophy belt.",
+   "star3": "The undefeated: golden scales and a cloak of every champion he has bested.",
+   "lore": "Rask counts in threes. So do his opponents, briefly.",
+   "lines": {
+    "buy": "One. Two. Three.",
+    "star": "The crowd chants my name.",
+    "win": "Undefeated."
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": false,
+  "set1": {
+   "title": "Pit Champion of Sszar",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Predator's Rhythm",
+     "text": "+1 Might while you have fewer shards than your rival.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Predator's Rhythm",
+     "text": "+1 Might while you have fewer shards than your rival. Once per turn, when Rask defeats a champion on your turn, ready Rask.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Predator's Rhythm",
+     "text": "+1 Might while you have fewer shards than your rival. Once per turn, when Rask defeats a champion on your turn, ready Rask.",
+     "keywords": [
+      "Ambush"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Champion of the Underpits",
+   "classes": [
+    "gladiator"
+   ],
+   "scene": "Roaring in the blood-sand of the Underpits, a monster’s skull at his feet.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Pit Fighter",
+     "text": "+1 Might while attacking a champion.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Pit Fighter",
+     "text": "+2 Might while attacking a champion. When Rask defeats a champion on your turn, Shield Rask.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Pit Fighter",
+     "text": "+2 Might while attacking a champion. Once per turn, when Rask defeats a champion on your turn, ready Rask.",
+     "keywords": [
+      "Charge",
+      "Ambush"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "hex3": {
+  "canon": {
+   "id": "hex3",
+   "name": "HEX-3",
+   "title": "Arcane Prototype",
+   "tier": 2,
+   "tierName": "Uncommon",
+   "origins": [
+    "gearbound"
+   ],
+   "classes": [
+    "arcanist"
+   ],
+   "role": "caster",
+   "ability": "Mana Reactor",
+   "star1": "An experimental robot with a glass mana chamber.",
+   "star2": "Rune-etched plating; the reactor glows violet.",
+   "star3": "A levitating arcane engine with three orbiting reactor cores.",
+   "lore": "Prototypes one and two exploded. HEX-3 is careful. HEX-3 is very, very careful.",
+   "lines": {
+    "buy": "Reactor stable. Mostly.",
+    "star": "Core output increased.",
+    "win": "Did not explode."
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Arcane Prototype",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Mana Reactor",
+     "text": "Attack: Scorch 2 the defender.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Mana Reactor",
+     "text": "Ascend: Scorch 1 each rival champion. Attack: Scorch 2 the defender.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Mana Reactor",
+     "text": "Attack: Scorch 3 the defender.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Core Conduit",
+   "classes": [
+    "channeler"
+   ],
+   "scene": "A humming core hanging in a cable-strung vault, arcs of power feeding its shell.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Core Surge",
+     "text": "Whenever you cast a Tactic, Shield HEX-3.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Core Surge",
+     "text": "Whenever you cast a Tactic, Shield HEX-3.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Core Surge",
+     "text": "Whenever you cast a Tactic, Shield HEX-3 and Scorch 1 each rival champion.",
+     "keywords": [],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "valkara": {
+  "canon": {
+   "id": "valkara",
+   "name": "Valkara",
+   "title": "Wing of Judgment",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "astral"
+   ],
+   "classes": [
+    "duelist"
+   ],
+   "role": "fighter",
+   "ability": "Judgment Dive",
+   "star1": "A winged celestial warrior with a spear-sword.",
+   "star2": "Wings of starlight and a gilded war-helm.",
+   "star3": "Six wings, a halo of blades and a dive that splits the sky.",
+   "lore": "Valkara judges. The verdict is usually \"from above\".",
+   "lines": {
+    "buy": "Judgment comes from above.",
+    "star": "My wings are sharper.",
+    "win": "The verdict stands."
+   }
+  },
+  "chapter": "Chapter VIII · The One Who Refused",
+  "boss": false,
+  "set1": {
+   "title": "Wing of Judgment",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Judgment Dive",
+     "text": "Ascend: Scorch 2 a rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Judgment Dive",
+     "text": "Ascend: Scorch 2 each rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Judge of the Depths",
+   "classes": [
+    "seer"
+   ],
+   "scene": "Diving from a cavern’s darkness, wings blazing, to pass judgment on a monster.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Foresight Verdict",
+     "text": "Your Schemes cost 1 less to spring.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Foresight Verdict",
+     "text": "Your Schemes cost 1 less to spring. Ascend: Defeat each rival champion with Guard 1 or less.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Foresight Verdict",
+     "text": "Your Schemes cost 1 less to spring. Ascend: Defeat each rival champion with Guard 2 or less.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "dreadmouth": {
+  "canon": {
+   "id": "dreadmouth",
+   "name": "Dreadmouth",
+   "title": "The Hunger Below",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "hollow"
+   ],
+   "classes": [
+    "bruiser"
+   ],
+   "role": "bruiser",
+   "ability": "Devour",
+   "star1": "An enormous hollow creature that is mostly jaw.",
+   "star2": "Bone plates, a second jaw, and ghostfire in its throat.",
+   "star3": "A leviathan of the dead: an entire graveyard of teeth.",
+   "lore": "It ate a kingdom once. It is still hungry.",
+   "lines": {
+    "buy": "Hungry…",
+    "star": "MORE TEETH.",
+    "win": "Delicious."
+   }
+  },
+  "chapter": "Chapter V · The Unremembered",
+  "boss": false,
+  "set1": {
+   "title": "The Hunger Below",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Devour",
+     "text": "When Dreadmouth defeats a champion on your turn, Shield Dreadmouth.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Devour",
+     "text": "When Dreadmouth defeats a champion on your turn, Shield Dreadmouth.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Devour",
+     "text": "When Dreadmouth defeats a champion on your turn, Shield Dreadmouth. Attack: Scorch 2 the defender.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Devourer of Guardians",
+   "classes": [
+    "hunter"
+   ],
+   "scene": "Rising from black water with a Guardian’s armour still in its teeth.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Guardian Feast",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Guardian Feast",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Guardian Feast",
+     "text": "+3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. When Dreadmouth defeats a champion on your turn, draw a card.",
+     "keywords": [
+      "Ambush"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "spark": {
+  "canon": {
+   "id": "spark",
+   "name": "Professor Spark",
+   "title": "Arc-Engineer Extraordinaire",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "gearbound"
+   ],
+   "classes": [
+    "summoner"
+   ],
+   "role": "caster",
+   "ability": "Deploy Turret",
+   "star1": "A wild-haired engineer with a wrench and a tool-pack.",
+   "star2": "A mechanical arm grows from the pack; goggles spark.",
+   "star3": "He sits in a walking workshop that builds turrets on the fly.",
+   "lore": "Professor Spark was expelled from four academies for \"excessive voltage\".",
+   "lines": {
+    "buy": "Excessive voltage? Never!",
+    "star": "Version two, even better!",
+    "win": "Science wins again!"
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Arc-Engineer Extraordinaire",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Deploy Turret",
+     "text": "Arrival: Summon an Arc Turret.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Deploy Turret",
+     "text": "Ascend: Summon an Arc Turret.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Deploy Turret",
+     "text": "Ascend: Summon two Arc Turrets. Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Relic Inventor",
+   "classes": [
+    "artificer"
+   ],
+   "scene": "Wiring a crackling relic into a new turret in a lamp-lit underground lab.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Prototype",
+     "text": "Arrival: Attach a Relic costing 2 or less from your hand to Professor Spark for free.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Prototype",
+     "text": "Your Relics cost 1 less. Ascend: Summon an Arc Turret.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Prototype",
+     "text": "Your Relics cost 1 less. Ascend: Summon two Arc Turrets.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "orion": {
+  "canon": {
+   "id": "orion",
+   "name": "Orion",
+   "title": "The Constellation Sniper",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "astral"
+   ],
+   "classes": [
+    "ranger"
+   ],
+   "role": "marksman",
+   "ability": "Constellation Shot",
+   "star1": "A star-powered sniper with a crescent longbow.",
+   "star2": "Constellations glow across his armour; his bow draws starlight.",
+   "star3": "A hunter of gods: his arrows are comets.",
+   "lore": "Orion names every star he fires. He is running out of names.",
+   "lines": {
+    "buy": "I have a star with your name.",
+    "star": "The constellations align.",
+    "win": "Named and claimed."
+   }
+  },
+  "chapter": "Chapter VIII · The One Who Refused",
+  "boss": false,
+  "set1": {
+   "title": "The Constellation Sniper",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Constellation Shot",
+     "text": "Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Constellation Shot",
+     "text": "Ascend: Scorch 3 a rival champion. Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Constellation Shot",
+     "text": "Ascend: Scorch 4 a rival champion. Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Reach"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Star-Charter of the Deep",
+   "classes": [
+    "sharpshooter"
+   ],
+   "scene": "Charting constellations painted on a cavern ceiling, bow resting on his shoulder.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Charted Shot",
+     "text": "Attack: Scorch 1 a rival champion.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Charted Shot",
+     "text": "Attack: Scorch 2 a rival champion.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Charted Shot",
+     "text": "Ascend: Scorch 2 each rival champion. Attack: Scorch 2 a rival champion.",
+     "keywords": [
+      "Reach",
+      "Flight"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "maeve": {
+  "canon": {
+   "id": "maeve",
+   "name": "Maeve",
+   "title": "The Old Bargain",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "verdant",
+    "hexbound"
+   ],
+   "classes": [
+    "mystic"
+   ],
+   "role": "support",
+   "ability": "Nature's Bargain",
+   "star1": "An ancient forest witch with a staff of living wood.",
+   "star2": "Antlers of bone and branch; her shadow is a tree.",
+   "star3": "The forest itself leans in to listen: moths of light circle her crown of antlers.",
+   "lore": "Maeve always keeps her bargains. That is what makes them frightening.",
+   "lines": {
+    "buy": "Every gift has a price.",
+    "star": "The old bargain holds.",
+    "win": "Debts collected."
+   }
+  },
+  "chapter": "Chapter IV · The Greenwall",
+  "boss": false,
+  "set1": {
+   "title": "The Old Bargain",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Nature's Bargain",
+     "text": "Arrival: A rival champion gets −2 Might this turn. Shield another champion you control.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Nature's Bargain",
+     "text": "Ascend: A rival champion gets −3 Might this turn. Shield a champion you control.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Nature's Bargain",
+     "text": "Ascend: Scorch 2 each rival champion. Shield each champion you control.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Broker of Relics",
+   "classes": [
+    "rogue"
+   ],
+   "scene": "Weighing two glowing relics in the roots of an underground grove.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Sleight of Thorns",
+     "text": "Arrival: Take a Relic from a rival champion and attach it to Maeve.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Sleight of Thorns",
+     "text": "Ascend: Your rival discards a card at random. Draw a card.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Sleight of Thorns",
+     "text": "Ascend: Take a Relic from a rival champion and attach it to Maeve. Your rival discards a card at random.",
+     "keywords": [],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "ronin": {
+  "canon": {
+   "id": "ronin",
+   "name": "Ronin Zero",
+   "title": "The Frame That Wanders",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "voltborn"
+   ],
+   "classes": [
+    "duelist"
+   ],
+   "role": "fighter",
+   "ability": "Zero Frame",
+   "star1": "A cybernetic wandering swordsman with a straw-coloured visor.",
+   "star2": "Arc lines trace his frame; his blade hums.",
+   "star3": "He moves faster than his own afterimages; a lightning scabbard crackles at his hip.",
+   "lore": "Ronin Zero forgot his master's name. He did not forget the technique.",
+   "lines": {
+    "buy": "Frame ready.",
+    "star": "Faster than memory.",
+    "win": "The technique remains."
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": false,
+  "set1": {
+   "title": "The Frame That Wanders",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Zero Frame",
+     "text": "Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Zero Frame",
+     "text": "Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.",
+     "keywords": [
+      "Charge",
+      "Ambush"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Blade Beneath the Arena",
+   "classes": [
+    "gladiator"
+   ],
+   "scene": "A lone frame crackling with current in a flooded tunnel, a relic sword drawn.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Arena Draw",
+     "text": "+1 Might while attacking a champion.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Arena Draw",
+     "text": "+2 Might while attacking a champion. Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Arena Draw",
+     "text": "+2 Might while attacking a champion. Attack: Scorch 1 the defender. Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.",
+     "keywords": [
+      "Charge",
+      "Ambush"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "ignara": {
+  "canon": {
+   "id": "ignara",
+   "name": "Ignara",
+   "title": "The Living Pyre",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "elemental"
+   ],
+   "classes": [
+    "vanguard"
+   ],
+   "role": "tank",
+   "ability": "Inferno Shell",
+   "star1": "A fire elemental warrior in cooling obsidian armour.",
+   "star2": "The armour cracks and roars with flame.",
+   "star3": "A pillar of fire in the shape of a woman; the air itself is burning.",
+   "lore": "Ignara was born in a volcano. She considers everywhere else cold.",
+   "lines": {
+    "buy": "Everywhere else is cold.",
+    "star": "Burn brighter!",
+    "win": "Only ash."
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": false,
+  "set1": {
+   "title": "The Living Pyre",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Inferno Shell",
+     "text": "Block: Scorch 2 the attacker.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Inferno Shell",
+     "text": "Block: Scorch 2 the attacker.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Inferno Shell",
+     "text": "Block: Scorch 2 the attacker. This also happens when Ignara is attacked.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Heart of the Forge",
+   "classes": [
+    "channeler"
+   ],
+   "scene": "Burning at the heart of the deep forges, molten relics floating around her.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Forgefire",
+     "text": "Whenever you cast a Tactic, Scorch 1 a rival champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Forgefire",
+     "text": "Whenever you cast a Tactic, Scorch 1 a rival champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Forgefire",
+     "text": "Whenever you cast a Tactic, Scorch 2 a rival champion.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "morrow": {
+  "canon": {
+   "id": "morrow",
+   "name": "Morrow",
+   "title": "The Gravecaller",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "hollow"
+   ],
+   "classes": [
+    "summoner"
+   ],
+   "role": "caster",
+   "ability": "Raise Fallen",
+   "star1": "A gaunt necromancer with a bone scythe.",
+   "star2": "Ghostlights orbit him and his robes are stitched from banners.",
+   "star3": "A lord of the grave crowned in spectral candles.",
+   "lore": "Morrow believes death is a waste of good soldiers.",
+   "lines": {
+    "buy": "Death is a waste of soldiers.",
+    "star": "My legion grows.",
+    "win": "Rise, and rest."
+   }
+  },
+  "chapter": "Chapter V · The Unremembered",
+  "boss": false,
+  "set1": {
+   "title": "The Gravecaller",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Raise Fallen",
+     "text": "Arrival: Summon a Risen Soldier.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Raise Fallen",
+     "text": "Ascend: Deploy a ★ champion costing 2 or less from your Fallen pile for free.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Raise Fallen",
+     "text": "Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Summon two Risen Soldiers.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Lord of the Buried Halls",
+   "classes": [
+    "binder"
+   ],
+   "scene": "Raising the soldiers buried beneath the Arena from their stone tombs.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Call of the Buried",
+     "text": "Arrival: Summon a Risen Soldier. Your tokens have +1 Might.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "Call of the Buried",
+     "text": "Your tokens have +1 Might and +1 Guard. Ascend: Summon two Risen Soldiers.",
+     "keywords": [],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "Call of the Buried",
+     "text": "Your tokens have +2 Might and +2 Guard. Ascend: Deploy up to two ★ champions costing 4 or less from your Fallen pile for free.",
+     "keywords": [],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "blacktide": {
+  "canon": {
+   "id": "blacktide",
+   "name": "Captain Blacktide",
+   "title": "Terror of the Rift Seas",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "riftborn"
+   ],
+   "classes": [
+    "artillerist"
+   ],
+   "role": "marksman",
+   "ability": "Broadside",
+   "star1": "A dimensional pirate captain with a hand cannon.",
+   "star2": "A spectral crew appears behind him; his coat drips seawater from nowhere.",
+   "star3": "A ghost galleon's figurehead rises behind him as he fires.",
+   "lore": "Blacktide sails seas that exist only between realities. He charges tolls.",
+   "lines": {
+    "buy": "Toll's due, landlubber.",
+    "star": "Crew, to the cannons!",
+    "win": "Plunder!"
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": false,
+  "set1": {
+   "title": "Terror of the Rift Seas",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Broadside",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Broadside",
+     "text": "Attack: Scorch 2 each rival champion.",
+     "keywords": [
+      "Reach"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Broadside",
+     "text": "Ascend: Scorch 2 each rival champion. Attack: Scorch 2 each rival champion.",
+     "keywords": [
+      "Reach"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Plunderer of the Vault",
+   "classes": [
+    "rogue"
+   ],
+   "scene": "His ship wedged in a rift above a Guardian’s treasure hoard.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Plunder",
+     "text": "Attack: Take a Relic from a rival champion and attach it to Captain Blacktide.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Plunder",
+     "text": "Attack: Take a Relic from a rival champion and attach it to Captain Blacktide. When Captain Blacktide defeats a champion on your turn, draw a card.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Plunder",
+     "text": "Ascend: Take a Relic from a rival champion and attach it to Captain Blacktide. Attack: Scorch 2 each rival champion.",
+     "keywords": [
+      "Reach"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "aurelia": {
+  "canon": {
+   "id": "aurelia",
+   "name": "Aurelia",
+   "title": "Crown Commander",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "kingdom"
+   ],
+   "classes": [
+    "commander"
+   ],
+   "role": "support",
+   "ability": "Rally the Crown",
+   "star1": "A royal battle commander in blue and gold.",
+   "star2": "A standard bearer marches behind her; her circlet glows.",
+   "star3": "Crowned in light, her banner becomes a column of gold.",
+   "lore": "Aurelia already has a crown. She wants to know why this one is bigger.",
+   "lines": {
+    "buy": "Rally to me!",
+    "star": "For the realm!",
+    "win": "Victory for the Crown."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": false,
+  "set1": {
+   "title": "Crown Commander",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Rally the Crown",
+     "text": "Attack: Your other champions get +1 Might this turn.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Rally the Crown",
+     "text": "Your other champions have +1 Might.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Rally the Crown",
+     "text": "Your other champions have +1 Might and +1 Guard.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Leader of the Descent",
+   "classes": [
+    "delver"
+   ],
+   "scene": "Leading the Kingdom’s banners down the great stair beneath the Arena.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Banner of the Descent",
+     "text": "Arrival: Draw a card. Your other Kingdom champions have +1 Might.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Banner of the Descent",
+     "text": "Ascend: Draw 2 cards.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Banner of the Descent",
+     "text": "Ascend: Draw 2 cards. Ready another champion you control.",
+     "keywords": [],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "knuckle": {
+  "canon": {
+   "id": "knuckle",
+   "name": "Knuckle",
+   "title": "Pit King",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "titanborn"
+   ],
+   "classes": [
+    "bruiser"
+   ],
+   "role": "bruiser",
+   "ability": "Arena Breaker",
+   "star1": "An enormous stone pit fighter with taped fists.",
+   "star2": "Championship belts and cracks of gold in his granite skin.",
+   "star3": "A living landslide with fists like siege rams.",
+   "lore": "Knuckle has never lost a fight in the Underpits. He is here to see if the surface is any harder.",
+   "lines": {
+    "buy": "Surface fighters. Cute.",
+    "star": "Champion of two worlds.",
+    "win": "Next!"
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "Pit King",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Arena Breaker",
+     "text": "Attack: The defender gets −2 Might this turn.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Arena Breaker",
+     "text": "Attack: The defender gets −3 Might this turn.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Arena Breaker",
+     "text": "Attack: The defender gets −4 Might this turn.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "King Under the Pit",
+   "classes": [
+    "gladiator"
+   ],
+   "scene": "Seated on a throne of Guardian bones in the deepest fighting pit.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Pit King’s Right",
+     "text": "+2 Might while attacking a champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Pit King’s Right",
+     "text": "+2 Might while attacking a champion.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Pit King’s Right",
+     "text": "+3 Might while attacking a champion. Block: The attacker gets −3 Might this turn.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "zyrak": {
+  "canon": {
+   "id": "zyrak",
+   "name": "Zyrak",
+   "title": "Shard of the Far Lattice",
+   "tier": 3,
+   "tierName": "Elite",
+   "origins": [
+    "riftborn"
+   ],
+   "classes": [
+    "arcanist"
+   ],
+   "role": "caster",
+   "ability": "Prismatic Collapse",
+   "star1": "A crystal alien with a floating prism.",
+   "star2": "More facets, more light; a halo of crystal shards.",
+   "star3": "A walking cathedral of prisms refracting impossible colours.",
+   "lore": "Zyrak speaks in light. Most listeners go briefly blind; Zyrak considers this rude.",
+   "lines": {
+    "buy": "* refracts politely *",
+    "star": "* shines brighter *",
+    "win": "* hums in triumph *"
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": false,
+  "set1": {
+   "title": "Shard of the Far Lattice",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Prismatic Collapse",
+     "text": "Arrival: Scorch 2 a rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Prismatic Collapse",
+     "text": "Ascend: Scorch 2 each rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Prismatic Collapse",
+     "text": "Ascend: Scorch 3 each rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Shard of the Broken Vault",
+   "classes": [
+    "channeler"
+   ],
+   "scene": "Humming among shattered vault crystals, each one a piece of the Lattice.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Shard Resonance",
+     "text": "Whenever you cast a Tactic, draw a card.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "Shard Resonance",
+     "text": "Whenever you cast a Tactic, draw a card.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "Shard Resonance",
+     "text": "Whenever you cast a Tactic, draw a card and Scorch 1 each rival champion. Ascend: Scorch 2 each rival champion.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "astryon": {
+  "canon": {
+   "id": "astryon",
+   "name": "Astryon",
+   "title": "The Seven-Star Blade",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "astral"
+   ],
+   "classes": [
+    "duelist"
+   ],
+   "role": "fighter",
+   "ability": "Seven-Star Dance",
+   "star1": "A silver celestial swordsman.",
+   "star2": "Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes.",
+   "star3": "Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space.",
+   "lore": "Astryon has cut down seven stars. He intends the Crown to be the eighth.",
+   "lines": {
+    "buy": "The eighth star awaits.",
+    "star": "My blades multiply.",
+    "ult": "Seven stars — fall!",
+    "win": "Another star cut down."
+   }
+  },
+  "chapter": "Chapter VIII · The One Who Refused",
+  "boss": false,
+  "set1": {
+   "title": "The Seven-Star Blade",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Seven-Star Dance",
+     "text": "Attack: Scorch 1 each rival champion.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Seven-Star Dance",
+     "text": "Attack: Scorch 1 each rival champion. Once per turn, when Astryon defeats a champion on your turn, ready Astryon.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Seven-Star Dance",
+     "text": "Attack: Scorch 2 each rival champion. Once per turn, when Astryon defeats a champion on your turn, ready Astryon.",
+     "keywords": [
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Blade That Fell Beneath",
+   "classes": [
+    "gladiator"
+   ],
+   "scene": "Seven blades orbiting him in the dark like fallen stars.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Starfall Duel",
+     "text": "+2 Might while attacking a champion.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Starfall Duel",
+     "text": "+2 Might while attacking a champion. When Astryon defeats a champion on your turn, draw a card.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Starfall Duel",
+     "text": "+3 Might while attacking a champion. Once per turn, when Astryon defeats a champion on your turn, ready Astryon.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "vespera": {
+  "canon": {
+   "id": "vespera",
+   "name": "Queen Vespera",
+   "title": "Monarch of the Umbral Court",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "umbral"
+   ],
+   "classes": [
+    "summoner"
+   ],
+   "role": "caster",
+   "ability": "Court of Shadows",
+   "star1": "A pale shadow monarch on invisible stairs.",
+   "star2": "Her train becomes a river of shadow courtiers.",
+   "star3": "A throne of night rises behind her; her crown is an eclipse.",
+   "lore": "Vespera rules a court that exists only when no one is looking.",
+   "lines": {
+    "buy": "Court is in session.",
+    "star": "My courtiers grow bold.",
+    "ult": "Rise, my court!",
+    "win": "Dismissed."
+   }
+  },
+  "chapter": "Chapter VI · The Court of Night",
+  "boss": false,
+  "set1": {
+   "title": "Monarch of the Umbral Court",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Court of Shadows",
+     "text": "Arrival: Summon two Court Shades.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Court of Shadows",
+     "text": "Ascend: Summon a Court Shade. Your other champions have +1 Might.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Court of Shadows",
+     "text": "Ascend: Summon two Court Shades. Your other champions have +1 Might.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Empress of the Underhalls",
+   "classes": [
+    "binder"
+   ],
+   "scene": "Holding court in a vast underground throne room of shadow.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Court of Shadows",
+     "text": "Arrival: Summon a Court Shade. Your tokens have +1 Might.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Court of Shadows",
+     "text": "Your tokens have +1 Might and +1 Guard. Ascend: Summon two Court Shades.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Court of Shadows",
+     "text": "Your tokens have +2 Might and +1 Guard. Ascend: Summon two Court Shades.",
+     "keywords": [],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "titanrho": {
+  "canon": {
+   "id": "titanrho",
+   "name": "Titan Rho",
+   "title": "The Last Fortress",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "gearbound"
+   ],
+   "classes": [
+    "warden"
+   ],
+   "role": "tank",
+   "ability": "Fortress Mode",
+   "star1": "An enormous ancient war machine on tread-legs.",
+   "star2": "Fold-out cannon towers and a reactor crown.",
+   "star3": "A walking citadel with a garrison of tiny brass drones.",
+   "lore": "Titan Rho guarded a city for ten thousand years. It does not know the city fell.",
+   "lines": {
+    "buy": "City status: unknown. Defending anyway.",
+    "star": "Fortress systems expanded.",
+    "ult": "Fortress mode.",
+    "win": "Perimeter held."
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": false,
+  "set1": {
+   "title": "The Last Fortress",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Bulwark",
+      "Reach"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Fortress Mode",
+     "text": "Ascend: Shield Titan Rho. Block: Scorch 2 the attacker.",
+     "keywords": [
+      "Bulwark",
+      "Reach"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Fortress Mode",
+     "text": "Ascend: Shield each champion you control. Block: Scorch 3 the attacker.",
+     "keywords": [
+      "Bulwark",
+      "Reach"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Vault Bastion",
+   "classes": [
+    "sentinel"
+   ],
+   "scene": "Its fortress body sealing a vault gate deep beneath the Arena.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Bastion Protocol",
+     "text": "Rival champions attacking your Crown get −1 Might.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Bastion Protocol",
+     "text": "Rival champions attacking your Crown get −1 Might.",
+     "keywords": [
+      "Bulwark",
+      "Reach"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Bastion Protocol",
+     "text": "Rival champions attacking your Crown get −2 Might. Ascend: Shield each champion you control.",
+     "keywords": [
+      "Bulwark",
+      "Reach"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "pyrax": {
+  "canon": {
+   "id": "pyrax",
+   "name": "Pyrax",
+   "title": "Dragon-Blooded",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "elemental"
+   ],
+   "classes": [
+    "bruiser"
+   ],
+   "role": "bruiser",
+   "ability": "Dragonheart",
+   "star1": "A dragon-blooded warrior with ember scales on her arms.",
+   "star2": "Horns and a burning tail; half her body is scaled.",
+   "star3": "She becomes a dragon in all but wings, and the wings are coming.",
+   "lore": "Pyrax's grandmother was a dragon. Pyrax intends to be one too.",
+   "lines": {
+    "buy": "Grandmother would be proud.",
+    "star": "The dragon wakes.",
+    "ult": "Breathe fire!",
+    "win": "Scorched."
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": false,
+  "set1": {
+   "title": "Dragon-Blooded",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Dragonheart",
+     "text": "Ascend: Scorch 1 each rival champion.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Dragonheart",
+     "text": "Ascend: Scorch 2 each rival champion. Attack: Scorch 2 the defender.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Wyrm of the Deep Forge",
+   "classes": [
+    "sapper"
+   ],
+   "scene": "Burrowing through a molten forge-cavern, the walls collapsing in her wake.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Undermine",
+     "text": "Arrival: Break a rival champion’s Relic.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Undermine",
+     "text": "Attack: Scorch 1 each rival champion. Break one of your rival’s face-down Schemes.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Undermine",
+     "text": "Ascend: Scorch 2 each rival champion. Break a rival champion’s Relic. Break one of your rival’s face-down Schemes.",
+     "keywords": [],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "elysian": {
+  "canon": {
+   "id": "elysian",
+   "name": "Elysian",
+   "title": "Grace of the Firmament",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "astral"
+   ],
+   "classes": [
+    "mystic"
+   ],
+   "role": "support",
+   "ability": "Divine Intervention",
+   "star1": "A serene celestial healer with feathered wings.",
+   "star2": "A second pair of wings and a halo of script.",
+   "star3": "A seraph of the firmament; her wings are made of dawn.",
+   "lore": "Elysian does not believe anyone deserves to die in the Crownfall. The Crownfall disagrees.",
+   "lines": {
+    "buy": "No one dies today.",
+    "star": "My wings shelter many.",
+    "ult": "Not yet — live!",
+    "win": "All of you, safe."
+   }
+  },
+  "chapter": "Chapter VIII · The One Who Refused",
+  "boss": false,
+  "set1": {
+   "title": "Grace of the Firmament",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Divine Intervention",
+     "text": "Arrival: Shield each champion you control.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Divine Intervention",
+     "text": "Ascend: Shield each champion you control. Your other champions have +1 Guard.",
+     "keywords": [
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Divine Intervention",
+     "text": "Ascend: Shield each champion you control, then Mend 1.",
+     "keywords": [
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Light of the Lost Halls",
+   "classes": [
+    "seer"
+   ],
+   "scene": "Descending into the forgotten halls, foreseeing every trap before it springs.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Prophecy",
+     "text": "Your Schemes cost 1 less to spring. Arrival: Draw a card.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Prophecy",
+     "text": "Your Schemes cost 1 less to spring. Ascend: Shield each champion you control.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Prophecy",
+     "text": "Your Schemes cost 2 less to spring. Ascend: Shield each champion you control.",
+     "keywords": [
+      "Flight"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "varr": {
+  "canon": {
+   "id": "varr",
+   "name": "General Varr",
+   "title": "The Unbroken Line",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "kingdom"
+   ],
+   "classes": [
+    "commander",
+    "vanguard"
+   ],
+   "role": "tank",
+   "ability": "Hold the Line",
+   "star1": "A grizzled kingdom commander with a tower shield.",
+   "star2": "Medals of every war and a banner-spear.",
+   "star3": "A legend of the line, flanked by phantom shieldbearers.",
+   "lore": "Varr has held every line he was given. He was never given the Crown.",
+   "lines": {
+    "buy": "Form up!",
+    "star": "The line does not break.",
+    "ult": "Hold the line!",
+    "win": "Line held."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": false,
+  "set1": {
+   "title": "The Unbroken Line",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Hold the Line",
+     "text": "Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Hold the Line",
+     "text": "Ascend: Shield each champion you control. Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Hold the Line",
+     "text": "Ascend: Shield each champion you control. Your other champions have +2 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Holder of the Gate",
+   "classes": [
+    "sentinel"
+   ],
+   "scene": "Holding the last gate between the Arena and what lies beneath.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Last Gate",
+     "text": "Rival champions attacking your Crown get −1 Might. Your other Kingdom champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Last Gate",
+     "text": "Rival champions attacking your Crown get −1 Might. Block: The attacker gets −2 Might this turn.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Last Gate",
+     "text": "Rival champions attacking your Crown get −2 Might. Ascend: Shield each champion you control.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "veilwalker": {
+  "canon": {
+   "id": "veilwalker",
+   "name": "Veilwalker",
+   "title": "The Anomaly",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "riftborn"
+   ],
+   "classes": [
+    "assassin"
+   ],
+   "role": "assassin",
+   "ability": "Reality Cut",
+   "star1": "A living dimensional anomaly in a tattered shape.",
+   "star2": "Its edges tear into other skies.",
+   "star3": "A hole in the world holding a blade.",
+   "lore": "The Veilwalker is what happens when a door between worlds learns to walk.",
+   "lines": {
+    "buy": "* the air tears open *",
+    "star": "* more of the world goes missing *",
+    "ult": "Between here — and there.",
+    "win": "* closes *"
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": false,
+  "set1": {
+   "title": "The Anomaly",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Flight",
+      "Ambush"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Reality Cut",
+     "text": "Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Flight",
+      "Ambush"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Reality Cut",
+     "text": "Ascend: Defeat each rival champion with Guard 2 or less. Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Flight",
+      "Ambush"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "The Rift Below",
+   "classes": [
+    "rogue"
+   ],
+   "scene": "Stepping out of a tear in the cavern air behind a Guardian.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Between the Veils",
+     "text": "Attack: Your rival discards a card at random.",
+     "keywords": [
+      "Flight",
+      "Ambush"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Between the Veils",
+     "text": "Attack: Your rival discards a card at random.",
+     "keywords": [
+      "Flight",
+      "Ambush"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Between the Veils",
+     "text": "Attack: Your rival discards a card at random. Take a Relic from a rival champion and attach it to Veilwalker.",
+     "keywords": [
+      "Flight",
+      "Ambush"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "gaia": {
+  "canon": {
+   "id": "gaia",
+   "name": "Gaia Prime",
+   "title": "The Worldroot",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "verdant"
+   ],
+   "classes": [
+    "warden"
+   ],
+   "role": "tank",
+   "ability": "Worldroot",
+   "star1": "An ancient living tree titan.",
+   "star2": "Blossoms and a canopy crown; birds nest in her shoulders.",
+   "star3": "A walking forest; the ground turns green where she stands.",
+   "lore": "Gaia Prime was old when the Crownfall was built. She remembers who built it.",
+   "lines": {
+    "buy": "I remember who built this place.",
+    "star": "The forest walks with me.",
+    "ult": "Worldroot!",
+    "win": "Grow."
+   }
+  },
+  "chapter": "Chapter IV · The Greenwall",
+  "boss": false,
+  "set1": {
+   "title": "The Worldroot",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Worldroot",
+     "text": "Arrival: Scorch 2 each rival champion.",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Worldroot",
+     "text": "Ascend: Scorch 2 each rival champion. Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Worldroot",
+     "text": "Ascend: Scorch 3 each rival champion. Your other champions have +1 Guard.",
+     "keywords": [
+      "Bulwark"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Root of the Arena",
+   "classes": [
+    "restorer"
+   ],
+   "scene": "Her roots wrapped around the Arena’s foundations, mending the cracked stone.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Deep Roots",
+     "text": "Arrival: Mend 1.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Deep Roots",
+     "text": "Ascend: Shield each champion you control.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 3,
+     "ability": "Deep Roots",
+     "text": "Ascend: Mend 1. Shield each champion you control.",
+     "keywords": [
+      "Bulwark"
+     ],
+     "rarity": "uncommon"
+    }
+   ]
+  }
+ },
+ "ladyvolt": {
+  "canon": {
+   "id": "ladyvolt",
+   "name": "Lady Volt",
+   "title": "Thunder in Heels",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "voltborn"
+   ],
+   "classes": [
+    "duelist"
+   ],
+   "role": "fighter",
+   "ability": "Thunderstep",
+   "star1": "An elite lightning duelist with a rapier.",
+   "star2": "Storm-silver armour; her hair crackles.",
+   "star3": "She is lightning with a sword; thunder arrives a heartbeat after her.",
+   "lore": "Lady Volt has never lost a duel. She considers most battles to be several duels at once.",
+   "lines": {
+    "buy": "Shall we duel?",
+    "star": "Lightning, en garde.",
+    "ult": "Thunderstep!",
+    "win": "Touché."
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": false,
+  "set1": {
+   "title": "Thunder in Heels",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Thunderstep",
+     "text": "Once per turn, when Lady Volt defeats a champion on your turn, ready Lady Volt.",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "Thunderstep",
+     "text": "Attack: Scorch 1 each rival champion. Once per turn, when Lady Volt defeats a champion on your turn, ready Lady Volt.",
+     "keywords": [
+      "Charge"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "Thunderstep",
+     "text": "Ascend: Ready another champion you control. Once per turn, when Lady Volt defeats a champion on your turn, ready Lady Volt.",
+     "keywords": [
+      "Charge"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Storm in the Deep",
+   "classes": [
+    "sharpshooter"
+   ],
+   "scene": "Lightning arcing off flooded cavern walls as she strikes from across the dark.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Chain Lightning",
+     "text": "Attack: Scorch 2 a rival champion.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Chain Lightning",
+     "text": "Attack: Scorch 2 a rival champion.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Chain Lightning",
+     "text": "Attack: Scorch 2 a rival champion, then Scorch 2 a rival champion.",
+     "keywords": [
+      "Charge"
+     ],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "vessimer": {
+  "canon": {
+   "id": "vessimer",
+   "name": "Vessimer",
+   "title": "The Tinctor",
+   "tier": 4,
+   "tierName": "Epic",
+   "origins": [
+    "hexbound"
+   ],
+   "classes": [
+    "saboteur"
+   ],
+   "role": "caster",
+   "ability": "Grand Experiment",
+   "star1": "A masked chemist with a bandolier of vials.",
+   "star2": "Brass apparatus hisses on his back.",
+   "star3": "A mobile laboratory of floating flasks and glowing tubes.",
+   "lore": "Nobody has seen Vessimer's face. Vessimer is not sure he still has one.",
+   "lines": {
+    "buy": "A new experiment!",
+    "star": "The formula improves.",
+    "ult": "Tinctures — away!",
+    "win": "Results: conclusive."
+   }
+  },
+  "chapter": "Chapter IV · The Greenwall",
+  "boss": false,
+  "set1": {
+   "title": "The Tinctor",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Grand Experiment",
+     "text": "Arrival: Scorch 2 a rival champion. A rival champion gets −2 Might this turn.",
+     "keywords": []
+    },
+    {
+     "star": 2,
+     "ability": "Grand Experiment",
+     "text": "Ascend: Scorch 2 each rival champion. Shield a champion you control.",
+     "keywords": []
+    },
+    {
+     "star": 3,
+     "ability": "Grand Experiment",
+     "text": "Ascend: Scorch 2 each rival champion. Shield each champion you control. Draw a card.",
+     "keywords": []
+    }
+   ]
+  },
+  "set2": {
+   "title": "Alchemist of Relics",
+   "classes": [
+    "artificer"
+   ],
+   "scene": "Dissolving a relic into a bubbling tincture in a hidden laboratory.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "Transmute",
+     "text": "Your Relics cost 1 less. Arrival: Return a Relic from your Fallen pile to your hand.",
+     "keywords": [],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "Transmute",
+     "text": "Your Relics cost 1 less. Ascend: Attach a Relic costing 3 or less from your hand to Vessimer for free.",
+     "keywords": [],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "Transmute",
+     "text": "Your Relics cost 2 less. Ascend: Return a Relic from your Fallen pile to your hand. Draw a card.",
+     "keywords": [],
+     "rarity": "elite"
+    }
+   ]
+  }
+ },
+ "aurex": {
+  "canon": {
+   "id": "aurex",
+   "name": "Aurex",
+   "title": "The Last Dragon",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "wyrmblood"
+   ],
+   "classes": [
+    "ascendant",
+    "bruiser"
+   ],
+   "role": "bruiser",
+   "ability": "WORLD IN FLAMES",
+   "star1": "A massive dragon warrior.",
+   "star2": "Molten armour grows over his wings; fire leaks from every seam.",
+   "star3": "A full celestial dragon. The sky turns red and flames surround the arena.",
+   "lore": "Every dragon died for the Crown. Aurex is here to find out whether it was worth it.",
+   "lines": {
+    "buy": "The last dragon answers.",
+    "star": "My wings remember the sky.",
+    "ult": "Let the world burn!",
+    "win": "Worth it? Perhaps."
+   }
+  },
+  "chapter": "Chapter II · Blood and Ember",
+  "boss": true,
+  "set1": {
+   "title": "The Last Dragon",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "WORLD IN FLAMES",
+     "text": "Arrival: Scorch 2 each rival champion.",
+     "keywords": [
+      "Ascendant"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "WORLD IN FLAMES",
+     "text": "Attack: Scorch 2 the defender.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "WORLD IN FLAMES",
+     "text": "Ascend: Defeat each rival champion with Guard 3 or less. Your other champions can’t attack this turn.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Bane of the Guardians",
+   "classes": [
+    "ascendant",
+    "hunter"
+   ],
+   "scene": "The last dragon in the Guardians’ lair, a fallen Guardian beneath his claws.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "GUARDIAN’S BANE",
+     "text": "Arrival: Scorch 2 each rival champion. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "GUARDIAN’S BANE",
+     "text": "+3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. Attack: Scorch 3 the defender.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "GUARDIAN’S BANE",
+     "text": "+3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. Ascend: Scorch 3 each rival champion. Defeat each rival champion with Guard 3 or less. Your other champions can’t attack this turn.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "noctara": {
+  "canon": {
+   "id": "noctara",
+   "name": "Noctara",
+   "title": "Empress of Nothing",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "umbral"
+   ],
+   "classes": [
+    "ascendant",
+    "arcanist"
+   ],
+   "role": "caster",
+   "ability": "THE UNMAKING",
+   "star1": "An empress robed in the space between stars.",
+   "star2": "Her crown becomes an eclipse; small voids orbit her.",
+   "star3": "She is a doorway to nothing. The battlefield becomes the void.",
+   "lore": "Noctara ruled an empire until it disappeared. She is not sure she did not do it.",
+   "lines": {
+    "buy": "All things end in me.",
+    "star": "The void deepens.",
+    "ult": "Be unmade.",
+    "win": "Nothing remains."
+   }
+  },
+  "chapter": "Chapter VI · The Court of Night",
+  "boss": true,
+  "set1": {
+   "title": "Empress of Nothing",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "THE UNMAKING",
+     "text": "Arrival: Scorch 2 each rival champion.",
+     "keywords": [
+      "Ascendant"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "THE UNMAKING",
+     "text": "Ascend: A rival champion gets −4 Might this turn. Scorch 3 a rival champion.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "THE UNMAKING",
+     "text": "Ascend: Defeat each rival champion with Guard 4 or less. Your other champions can’t attack this turn.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Shadow Beneath the Crown",
+   "classes": [
+    "ascendant",
+    "seer"
+   ],
+   "scene": "A black hole opening in the cavern ceiling directly beneath the Crown.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "ECLIPSE SIGHT",
+     "text": "Your Schemes cost 1 less to spring. Arrival: Break one of your rival’s face-down Schemes.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "ECLIPSE SIGHT",
+     "text": "Your Schemes cost 1 less to spring. Ascend: Defeat each rival champion with Guard 2 or less.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "ECLIPSE SIGHT",
+     "text": "Your Schemes cost nothing to spring. Ascend: Defeat each rival champion with Guard 4 or less. Break every face-down Scheme your rival has.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "atlas": {
+  "canon": {
+   "id": "atlas",
+   "name": "ATLAS-Ω",
+   "title": "Final-Generation War Machine",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "gearbound"
+   ],
+   "classes": [
+    "ascendant",
+    "warden"
+   ],
+   "role": "tank",
+   "ability": "OMEGA PROTOCOL",
+   "star1": "A gigantic final-generation war machine.",
+   "star2": "Shoulder cannons and a reactor halo.",
+   "star3": "A titan of the last war: a sun burns in its chest.",
+   "lore": "ATLAS-Ω was built to end a war. It did. It is still waiting for its next order.",
+   "lines": {
+    "buy": "Awaiting orders.",
+    "star": "Weapon systems expanded.",
+    "ult": "Omega protocol engaged.",
+    "win": "War ended. Again."
+   }
+  },
+  "chapter": "Chapter III · The Iron Covenant",
+  "boss": true,
+  "set1": {
+   "title": "Final-Generation War Machine",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "OMEGA PROTOCOL",
+     "text": "Arrival: Shield ATLAS-Ω.",
+     "keywords": [
+      "Ascendant",
+      "Bulwark"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "OMEGA PROTOCOL",
+     "text": "Your other champions have +1 Guard.",
+     "keywords": [
+      "Ascendant",
+      "Bulwark",
+      "Reach"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "OMEGA PROTOCOL",
+     "text": "Ascend: Scorch 3 each rival champion. Attack: Scorch 3 each rival champion.",
+     "keywords": [
+      "Ascendant",
+      "Bulwark",
+      "Reach"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "The Vault Engine",
+   "classes": [
+    "ascendant",
+    "sentinel"
+   ],
+   "scene": "Woken in a sealed vault, its frame locking across the vault door.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "VAULT PROTOCOL",
+     "text": "Rival champions attacking your Crown get −1 Might.",
+     "keywords": [
+      "Ascendant",
+      "Bulwark"
+     ],
+     "rarity": "common"
+    },
+    {
+     "star": 2,
+     "ability": "VAULT PROTOCOL",
+     "text": "Rival champions attacking your Crown get −2 Might. Your other Gearbound champions have +1 Guard.",
+     "keywords": [
+      "Ascendant",
+      "Bulwark",
+      "Reach"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 3,
+     "ability": "VAULT PROTOCOL",
+     "text": "Rival champions attacking your Crown get −2 Might. Attack: Scorch 3 each rival champion.",
+     "keywords": [
+      "Ascendant",
+      "Bulwark",
+      "Reach"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "sol": {
+  "canon": {
+   "id": "sol",
+   "name": "Sol",
+   "title": "The First Light",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "dawnforged"
+   ],
+   "classes": [
+    "ascendant",
+    "mystic"
+   ],
+   "role": "support",
+   "ability": "DAWN",
+   "star1": "The first light given a body.",
+   "star2": "A corona and four wings of light.",
+   "star3": "A miniature sun hangs above the arena.",
+   "lore": "Before anything, there was Sol. Sol would like it back that way.",
+   "lines": {
+    "buy": "Before anything, there was me.",
+    "star": "Brighter than the first morning.",
+    "ult": "Let there be DAWN!",
+    "win": "The light endures."
+   }
+  },
+  "chapter": "Chapter I · The First Light",
+  "boss": true,
+  "set1": {
+   "title": "The First Light",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "DAWN",
+     "text": "Arrival: Shield each champion you control.",
+     "keywords": [
+      "Ascendant"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "DAWN",
+     "text": "Ascend: Shield each champion you control.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "DAWN",
+     "text": "Ascend: Scorch 3 each rival champion, then Mend 1.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Dawn Beneath the World",
+   "classes": [
+    "ascendant",
+    "restorer"
+   ],
+   "scene": "The first light rising inside the deepest cavern, turning the dark to gold.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "SECOND DAWN",
+     "text": "Arrival: Mend 1.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "SECOND DAWN",
+     "text": "Ascend: Mend 1. Shield each champion you control.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "SECOND DAWN",
+     "text": "Ascend: Mend 1, then Mend 1. Shield each champion you control. Your champions get +3 Might this turn.",
+     "keywords": [
+      "Ascendant",
+      "Flight"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "unwritten": {
+  "canon": {
+   "id": "unwritten",
+   "name": "The Unwritten King",
+   "title": "Lord of the Forgotten",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "hollow"
+   ],
+   "classes": [
+    "ascendant",
+    "summoner"
+   ],
+   "role": "caster",
+   "ability": "THE FORGOTTEN LEGION",
+   "star1": "A skeletal king on a throne of shields.",
+   "star2": "A spectral legion stands behind him.",
+   "star3": "He remembers his name, and the dead answer it.",
+   "lore": "His name was erased from every record. He wants the Crown to write it back.",
+   "lines": {
+    "buy": "Remember my name.",
+    "star": "The forgotten answer.",
+    "ult": "Legion — rise!",
+    "win": "Write it down."
+   }
+  },
+  "chapter": "Chapter V · The Unremembered",
+  "boss": true,
+  "set1": {
+   "title": "Lord of the Forgotten",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "THE FORGOTTEN LEGION",
+     "text": "Arrival: Summon two Fallen Warriors.",
+     "keywords": [
+      "Ascendant"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "THE FORGOTTEN LEGION",
+     "text": "Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free.",
+     "keywords": [
+      "Ascendant"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "THE FORGOTTEN LEGION",
+     "text": "Ascend: Deploy a ★ champion costing 4 or less from your Fallen pile for free. Summon a Fallen Warrior. Your other champions have +1 Might.",
+     "keywords": [
+      "Ascendant"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Lord of the Buried Crown",
+   "classes": [
+    "ascendant",
+    "binder"
+   ],
+   "scene": "Enthroned in a buried throne room, an erased crown upon his head.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "BURIED LEGION",
+     "text": "Arrival: Summon two Fallen Warriors. Your tokens have +1 Might.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 2,
+     "ability": "BURIED LEGION",
+     "text": "Your tokens have +1 Might and +1 Guard. Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "epic"
+    },
+    {
+     "star": 3,
+     "ability": "BURIED LEGION",
+     "text": "Your tokens have +2 Might and +1 Guard. Ascend: Summon two Fallen Warriors. Deploy up to two ★ champions costing 4 or less from your Fallen pile for free.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "veyra": {
+  "canon": {
+   "id": "veyra",
+   "name": "Veyra Sol",
+   "title": "Reality Hunter",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "riftborn"
+   ],
+   "classes": [
+    "ascendant",
+    "assassin"
+   ],
+   "role": "assassin",
+   "ability": "BETWEEN WORLDS",
+   "star1": "A huntress with portal-rings on her wrists.",
+   "star2": "Her cloak is a window into other worlds.",
+   "star3": "She exists in every reality at once, and all of them are hunting.",
+   "lore": "Veyra hunts things that escape between worlds. The Crown is the biggest one yet.",
+   "lines": {
+    "buy": "Every world has a back door.",
+    "star": "I hunt in all of them now.",
+    "ult": "Between worlds!",
+    "win": "Caught."
+   }
+  },
+  "chapter": "Chapter VII · Storm and Rift",
+  "boss": true,
+  "set1": {
+   "title": "Reality Hunter",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Ascendant",
+      "Flight",
+      "Ambush"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "BETWEEN WORLDS",
+     "text": "Once per turn, when Veyra Sol defeats a champion on your turn, ready Veyra Sol.",
+     "keywords": [
+      "Ascendant",
+      "Flight",
+      "Ambush"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "BETWEEN WORLDS",
+     "text": "Attack: Scorch 3 the defender. Once per turn, when Veyra Sol defeats a champion on your turn, ready Veyra Sol.",
+     "keywords": [
+      "Ascendant",
+      "Flight",
+      "Ambush"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Hunter of Guardians",
+   "classes": [
+    "ascendant",
+    "hunter"
+   ],
+   "scene": "Stepping through a portal onto a Guardian’s back, blade raised.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "THE HUNT ETERNAL",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+     "keywords": [
+      "Ascendant",
+      "Flight",
+      "Ambush"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "THE HUNT ETERNAL",
+     "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. When Veyra Sol defeats a champion on your turn, draw a card.",
+     "keywords": [
+      "Ascendant",
+      "Flight",
+      "Ambush"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "THE HUNT ETERNAL",
+     "text": "+3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion. Once per turn, when Veyra Sol defeats a champion on your turn, ready Veyra Sol.",
+     "keywords": [
+      "Ascendant",
+      "Flight",
+      "Ambush"
+     ],
+     "rarity": "epic"
+    }
+   ]
+  }
+ },
+ "mother": {
+  "canon": {
+   "id": "mother",
+   "name": "Mother Verdant",
+   "title": "Life Eternal",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "verdant"
+   ],
+   "classes": [
+    "ascendant",
+    "summoner"
+   ],
+   "role": "support",
+   "ability": "LIFE ETERNAL",
+   "star1": "The mother of forests, crowned in blossom.",
+   "star2": "Her train is a meadow; deer of light follow her.",
+   "star3": "A goddess of green whose every step is spring.",
+   "lore": "Every forest in every world is one of her children. She would like the Crown for the last one.",
+   "lines": {
+    "buy": "Come, my children.",
+    "star": "Spring has no end.",
+    "ult": "Life eternal!",
+    "win": "Bloom again."
+   }
+  },
+  "chapter": "Chapter IV · The Greenwall",
+  "boss": true,
+  "set1": {
+   "title": "Life Eternal",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "LIFE ETERNAL",
+     "text": "Arrival: Summon a Treant. Shield each champion you control.",
+     "keywords": [
+      "Ascendant"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "LIFE ETERNAL",
+     "text": "Ascend: Summon two Treants. Return a ★ champion from your Fallen pile to your hand.",
+     "keywords": [
+      "Ascendant"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "LIFE ETERNAL",
+     "text": "Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Shield each champion you control. Mend 1.",
+     "keywords": [
+      "Ascendant"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "Root of All Things",
+   "classes": [
+    "ascendant",
+    "binder"
+   ],
+   "scene": "The forest growing upward through the Arena’s foundations around her.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "EVERGROWTH",
+     "text": "Arrival: Summon two Wild Saplings. Your tokens have +1 Guard.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "uncommon"
+    },
+    {
+     "star": 2,
+     "ability": "EVERGROWTH",
+     "text": "Your tokens have +1 Might and +1 Guard. Ascend: Summon two Wild Saplings.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 3,
+     "ability": "EVERGROWTH",
+     "text": "Your tokens have +2 Might and +2 Guard. Ascend: Summon two Treants. Shield each champion you control, then Mend 1.",
+     "keywords": [
+      "Ascendant"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ },
+ "crownless": {
+  "canon": {
+   "id": "crownless",
+   "name": "Crownless",
+   "title": "The One Who Refused",
+   "tier": 5,
+   "tierName": "Mythic",
+   "origins": [
+    "crownless"
+   ],
+   "classes": [
+    "ascendant"
+   ],
+   "role": "fighter",
+   "ability": "BREAK THE RULES",
+   "star1": "A figure in broken regalia whose face is hidden.",
+   "star2": "Cracks of Crown-light spread through the armour.",
+   "star3": "The Crown's own power, worn as a body. Reality fractures around him.",
+   "lore": "Once, someone won the Crownfall. They refused the Crown. Nobody has explained why.",
+   "lines": {
+    "buy": "…",
+    "star": "The rules bend.",
+    "ult": "I refuse your rules.",
+    "win": "Still not taking it."
+   }
+  },
+  "chapter": "Chapter VIII · The One Who Refused",
+  "boss": true,
+  "set1": {
+   "title": "The One Who Refused",
+   "forms": [
+    {
+     "star": 1,
+     "text": "",
+     "keywords": [
+      "Ascendant",
+      "Charge"
+     ]
+    },
+    {
+     "star": 2,
+     "ability": "BREAK THE RULES",
+     "text": "Ascend: Ready Crownless. (It ignores the rule that Ascending turns a champion sideways.)",
+     "keywords": [
+      "Ascendant",
+      "Charge",
+      "Ambush"
+     ]
+    },
+    {
+     "star": 3,
+     "ability": "BREAK THE RULES",
+     "text": "Ascend: Ready Crownless.",
+     "keywords": [
+      "Ascendant",
+      "Charge",
+      "Ambush",
+      "Flight"
+     ]
+    }
+   ]
+  },
+  "set2": {
+   "title": "The Unbound",
+   "classes": [
+    "ascendant"
+   ],
+   "scene": "Standing in the empty vault where the Crown once rested, refusing it still.",
+   "forms": [
+    {
+     "star": 1,
+     "ability": "UNBOUND",
+     "text": "Arrival: Each rival champion gets −2 Might this turn.",
+     "keywords": [
+      "Ascendant",
+      "Charge"
+     ],
+     "rarity": "elite"
+    },
+    {
+     "star": 2,
+     "ability": "UNBOUND",
+     "text": "Ascend: Ready Crownless.",
+     "keywords": [
+      "Ascendant",
+      "Charge",
+      "Flight"
+     ],
+     "rarity": "epic"
+    },
+    {
+     "star": 3,
+     "ability": "UNBOUND",
+     "text": "Ascend: Ready Crownless. Your other champions get +2 Might this turn. Attack: Scorch 3 the defender.",
+     "keywords": [
+      "Ascendant",
+      "Charge",
+      "Flight",
+      "Ambush"
+     ],
+     "rarity": "mythic"
+    }
+   ]
+  }
+ }
+}
