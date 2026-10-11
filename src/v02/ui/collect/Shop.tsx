@@ -61,7 +61,7 @@ export function Shop({ onBack, onOpened }: { onBack: () => void; onOpened: (pack
               <div className="sx-boost">{boostLine(b)}</div>
               <div className="sx-guar">{b.guarantee ? `Guaranteed ${GUARANTEE_TEXT[b.guarantee]}` : ''}</div>
               <div className="sx-art">
-                <PackFan n={[3, 5, 7, 7, 9, 9, 11][i] ?? 7} />
+                {PACK_ART.has(b.packs) ? <img src={`${B}v02/shop/pack-${b.packs}.webp`} alt="" /> : <PackFan n={[3, 5, 7, 7, 9, 9, 11][i] ?? 7} />}
               </div>
               <div className="sx-buy">
                 <button type="button" className="sx-btn valor" disabled={profile.valor < PACK_PRICE.valor * b.packs} onClick={() => buy(b.packs, 'valor')}>✧ {(PACK_PRICE.valor * b.packs).toLocaleString()}</button>
@@ -88,6 +88,9 @@ export function Shop({ onBack, onOpened }: { onBack: () => void; onOpened: (pack
     </div>
   );
 }
+
+/** Bundles with the owner's pack art in public/v02/shop/ (cut from Templates\Shop Packs Template.png). */
+const PACK_ART = new Set([1, 5, 10, 25, 50, 100]);
 
 /** A fan of card backs standing in for bundle art until the owner's images arrive. */
 function PackFan({ n }: { n: number }) {

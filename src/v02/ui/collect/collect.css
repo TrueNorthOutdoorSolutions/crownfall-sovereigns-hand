@@ -261,3 +261,5 @@
 .sx-btn:disabled { filter: saturate(.55) brightness(.78) }
 .sx-ribbon { width: 104px; font-size: 15px } .sx-stones-h { margin-top: 12px } .sx-foot { margin-top: 6px; line-height: 1.35 }
 .sx-bundle { height: 228px } .sx-bundle.t4, .sx-bundle.t5, .sx-bundle.t6 { height: 242px } .sx-offer { height: 136px }
+.sx-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain }
+.sx-bundle .sx-art:has(img) { filter: none; margin: 2px 0 6px }
