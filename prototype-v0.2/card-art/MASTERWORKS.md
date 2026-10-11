@@ -33,3 +33,5 @@ Owner direction 2026-10-11: the same ten champions in the same order, repainted 
 | OM10 | 165 Crownless | #8 (crown) |
 
 Signature #5 is spare.
+
+Omega layout (owner, 2026-10-11): NO borders, frames, panels, bars, boxes or chip outlines anywhere. Text, icons, gems, stars and shields float directly on the black-and-gold art: super clean, minimal, gallery-print feel.
