@@ -46,3 +46,4 @@ Open questions for later: final numbering scheme, pull rates, which cards get Al
 - Sheet order: [247, 248, Ref A] → [Ref B, T01, T02] → [T03, T04, T05] → [T06, T07, T08].
 - Deferred to the polish pass: Ember Trap (181) trait-bar divider redo.
 
+- Set 2 001-003 Bramble: the small white studio mountain logo under the bottom-centre symbol is missing (the Set 2 arch replaced it). Add back in polish; later Set 2 prompts ask for it.

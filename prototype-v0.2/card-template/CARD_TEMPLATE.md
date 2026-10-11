@@ -80,7 +80,7 @@ Every set has its own symbol so a card's set is clear at a glance (owner rule 20
 | Set | Symbol |
 | --- | --- |
 | Set 1 · The Shattered Crown | bronze faceted shield crest with a cracked, shattered pattern |
-| Set 2 · Beneath the Arena | bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it (PROPOSED) |
+| Set 2 · Beneath the Arena | bronze round-topped arched gateway with a glowing teal keyhole and steps leading down into it (LOCKED from the approved Bramble sheet, 2026-10-11). Keep the small white studio mountain logo below it, as on Set 1. |
 
 Set 2 art is brand-new artwork, not a repaint of Set 1: same character, new design, outfit, pose and palette, set beneath the Arena (darker underground light, teal and violet glow, amber lantern and forge light). Each Set 2 prompt carries the character's redesign.
 
