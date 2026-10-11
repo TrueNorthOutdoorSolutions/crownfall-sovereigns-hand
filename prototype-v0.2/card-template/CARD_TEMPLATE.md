@@ -120,3 +120,7 @@ Spell rarity: the canon Crown Power rarity; non-canon spells are COMMON. Rarity 
 Shardfall reminder: *(If this breaks from your Crown, cast or set it for free.)*
 
 Spell flavour lines have no canon source; they are written by Claude and marked PROPOSED until Jerian approves them.
+
+## Edict card template (LOCKED 2026-10-10)
+
+Reference: `edict-template.jpg` (right-hand card, 243 Crown's Bounty). Same frame as the spell template, with: green cost gem; gold ♛ crown top-right; "EDICT" under the name; a ROYAL GOLD type band with laurels and dark text "EDICT • Stays in play for both players"; trait bar left "Proclaimed by <host champion>", right the rarity (Edicts are RARE, footer R); rules text, then the small italic reminder "(A new Edict replaces this one.)"; flavour = the canonical Crownfall Edict proclamation; art = the host champion proclaiming the Edict.
