@@ -9,6 +9,8 @@ import type { Action, ChampionInPlay, GameState, LogEntry, PlayerIndex } from '.
 import { chooseAction } from '../ai/bot';
 import { CardFace, ChampionToken, GLOSSARY } from './cardview';
 import { humanize } from './text';
+import { AscendFx } from './AscendFx';
+import type { AscendMoment } from './AscendFx';
 import { rewardMatch } from '../economy/profile';
 
 const ME: PlayerIndex = 0;
@@ -45,10 +47,12 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
   const [clash, setClash] = useState<GameState['lastClash']>(null);
   const [banner, setBanner] = useState<{ key: number; text: string; tone: 'ascend' | 'shard' | 'turn' | 'scheme' } | null>(null);
   const [flashUid, setFlashUid] = useState<number | null>(null);
+  const [fx, setFx] = useState<AscendMoment | null>(null);
   /** Hand index of a Relic waiting for the champion to attach it to. */
   const [equipping, setEquipping] = useState<number | null>(null);
   const [cycling, setCycling] = useState(false);
   const lastLog = useRef(0);
+  const clearFx = React.useCallback(() => setFx(null), []);
 
   // React to new log entries: banners for Ascension, shard breaks, sprung Schemes and new turns.
   useEffect(() => {
@@ -62,12 +66,16 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
       const text = pick.kind === 'turn' ? (game.active === ME ? `Round ${round(game)} · Your turn` : `Round ${round(game)} · Rival's turn`)
         : pick.kind === 'ascend' ? humanize(pick.text).replace(/ for \d+ Command.*$/, '!')
         : pick.kind === 'shard' ? `${pick.player === ME ? 'Your' : "Rival's"} Crown Shard breaks!` : humanize(pick.text).replace(/!.*$/, '!');
-      setBanner({ key: pick.n, text, tone });
+      if (tone !== 'ascend') setBanner({ key: pick.n, text, tone });
     }
     const asc = [...fresh].reverse().find((e) => e.kind === 'ascend');
     if (asc) {
       const champ = game.players.flatMap((p) => p.field).sort((a, b) => b.ascendedTurn - a.ascendedTurn)[0];
-      if (champ) setFlashUid(champ.uid);
+      if (champ) {
+        setFlashUid(champ.uid);
+        const f = champ.stack[champ.stack.length - 1];
+        setFx({ key: asc.n, cardId: f, star: champion(f).star, mine: champ.owner === ME });
+      }
     }
   }, [game, ready]);
 
@@ -83,7 +91,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
   const autoplay = hash.includes('autoplay') || (hash.includes('autoturns') && !game.pending);
   useEffect(() => {
     const who = actor(game);
-    if (!ready || game.phase === 'over' || who === null || (who !== AI && !autoplay)) return;
+    if (!ready || fx || game.phase === 'over' || who === null || (who !== AI && !autoplay)) return;
     const justClashed = clash !== null;
     const delay = fast ? 260 : justClashed ? 1500 : game.pending ? 900 : 750;
     const t = setTimeout(() => {
@@ -91,7 +99,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
       if (!r.error) setGame(r.state);
     }, delay);
     return () => clearTimeout(t);
-  }, [game, ready, fast, clash, autoplay]);
+  }, [game, ready, fast, clash, autoplay, fx]);
 
   useEffect(() => { setSelected(null); setEquipping(null); setCycling(false); }, [game.phase, game.turn]);
 
@@ -263,6 +271,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
         </div>
       )}
       {banner && <div className={`banner ${banner.tone}`} key={banner.key}>{banner.text}</div>}
+      {fx && <AscendFx key={fx.key} m={fx} fast={fast} onDone={clearFx} />}
       {toast && <div className="toast" role="status">{toast}</div>}
       {pend?.kind === 'mulligan' && (
         <div className="overlay">

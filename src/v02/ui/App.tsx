@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { DECKS, RULES_VERSION } from '../content/cards';
+import { CARDS, DECKS, RULES_VERSION } from '../content/cards';
 import type { DeckId } from '../content/cards';
 import { Match, RulesModal } from './Match';
 import { artUrl } from './cardview';
@@ -8,6 +8,7 @@ import { Decks } from './collect/Decks';
 import { Opening } from './collect/Opening';
 import { Shop, Wallet } from './collect/Shop';
 import './collect/collect.css';
+import { AscendFx } from './AscendFx';
 import { getProfile } from '../economy/profile';
 import type { Pack } from '../economy/packs';
 
@@ -46,6 +47,12 @@ export function App() {
           onRematch={(swap) => setMatch({ decks: swap ? [match.decks[1], match.decks[0]] : match.decks, seed: newSeed() })} />
       </Stage>
     );
+  }
+  // Test aid: #fx=<card id> previews that card's Ascension celebration (e.g. #fx=crownless-3, #fx=bramble-2).
+  const fxPreview = typeof location !== 'undefined' ? /#fx=([\w@-]+)/.exec(location.hash)?.[1] : undefined;
+  if (fxPreview && CARDS[fxPreview]) {
+    const star = (CARDS[fxPreview] as { star?: number }).star ?? 2;
+    return <Stage><div className="menu"><div className="arena-bg menu-bg" /><AscendFx m={{ key: 1, cardId: fxPreview, star, mine: true }} fast={false} hold onDone={() => { location.hash = ''; location.reload(); }} /></div></Stage>;
   }
   if (opening) return <Stage><Opening packs={opening} onDone={() => { setOpening(null); setScreen('collection'); }} /></Stage>;
   if (screen === 'shop') return <Stage><Shop onBack={() => setScreen('menu')} onOpened={setOpening} /></Stage>;

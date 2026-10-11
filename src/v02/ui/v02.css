@@ -272,3 +272,44 @@ a { color: var(--gold) }
 .ci-live { position: absolute; bottom: 9%; padding: 2px 8px; border-radius: 999px; font-weight: 800; font-size: 1.25em; background: rgba(10,8,14,.88); border: 2px solid currentColor }
 .ci-live.m { left: 4% } .ci-live.g { right: 4% }
 .ci-live.up { color: #7dff9a } .ci-live.down { color: #ff7b7b }
+
+/* ---------- Ascension celebrations ---------- */
+.afx { position: absolute; inset: 0; z-index: 60; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden }
+.afx2 { pointer-events: none; animation: afx-fade var(--afx-ms) ease-in-out forwards }
+.afx2 .afx-card { width: 230px; border-radius: 12px; box-shadow: 0 0 0 3px #f0c95a, 0 0 50px rgba(240,201,90,.7); animation: afx2-card var(--afx-ms) cubic-bezier(.2,.8,.2,1) forwards }
+.afx2.theirs .afx-card { box-shadow: 0 0 0 3px #ff8a6a, 0 0 50px rgba(255,120,90,.6) }
+.afx2 .afx-title { margin-top: 14px; font-family: 'Cinzel', serif; font-size: 34px; color: #fff3cf; text-shadow: 0 0 18px rgba(240,201,90,.9), 0 2px 6px #000 }
+.afx2 .afx-title .stars { color: #f0c95a }
+.afx-ring { position: absolute; width: 120px; height: 120px; border-radius: 50%; border: 4px solid rgba(255,225,140,.9); animation: afx-ring 1.1s ease-out forwards }
+.afx-ring.r2 { animation-delay: .18s; border-color: rgba(255,255,255,.7) }
+.afx-sparks { position: absolute; width: 0; height: 0 }
+.afx-sparks i { position: absolute; width: 6px; height: 22px; border-radius: 3px; background: linear-gradient(#fff, #f0c95a); transform: rotate(var(--a)) translateY(-40px); opacity: 0; animation: afx-spark .9s ease-out .05s forwards }
+@keyframes afx-fade { 0% { opacity: 0 } 10% { opacity: 1 } 80% { opacity: 1 } 100% { opacity: 0 } }
+@keyframes afx2-card { 0% { transform: scale(.55) rotateY(80deg); filter: brightness(3) } 25% { transform: scale(1.06) rotateY(0); filter: brightness(1.4) } 40%, 100% { transform: scale(1); filter: brightness(1) } }
+@keyframes afx-ring { from { transform: scale(.2); opacity: 1 } to { transform: scale(6); opacity: 0 } }
+@keyframes afx-spark { 0% { opacity: 1; transform: rotate(var(--a)) translateY(-40px) } 100% { opacity: 0; transform: rotate(var(--a)) translateY(-260px) } }
+
+.afx3 { background: radial-gradient(circle at 50% 45%, rgba(60,40,10,.75), rgba(4,3,8,.96) 65%); cursor: pointer; animation: afx3-in .45s ease-out }
+.afx3.theirs { background: radial-gradient(circle at 50% 45%, rgba(70,15,10,.75), rgba(4,3,8,.96) 65%) }
+.afx-rays { position: absolute; width: 1800px; height: 1800px; background: repeating-conic-gradient(rgba(255,215,120,.16) 0 6deg, transparent 6deg 15deg); animation: spin-rays-afx 14s linear infinite; mask: radial-gradient(circle, #000 20%, transparent 60%) }
+.afx-glow { position: absolute; width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(255,220,140,.55), transparent 65%); animation: afx-pulse 1.6s ease-in-out infinite }
+.afx-motes { position: absolute; inset: 0 }
+.afx-motes i { position: absolute; bottom: -20px; left: var(--x); width: 5px; height: 5px; border-radius: 50%; background: #ffe7a6; box-shadow: 0 0 10px #ffd36b; animation: afx-mote 3.2s linear var(--d) infinite }
+.afx-stars { display: flex; gap: 22px; font-size: 76px; color: #ffd86b; text-shadow: 0 0 26px rgba(255,200,80,.95), 0 0 4px #fff; height: 96px; z-index: 1 }
+.afx-stars span { opacity: 0; transform: scale(3); animation: afx-star .45s cubic-bezier(.2,1.6,.4,1) forwards }
+.afx3 .afx-card { width: 300px; border-radius: 16px; margin-top: 8px; z-index: 1; box-shadow: 0 0 0 3px #ffd86b, 0 0 80px rgba(255,210,100,.85); animation: afx3-card 1.2s cubic-bezier(.2,.9,.2,1) .2s both }
+.afx-name { z-index: 1; margin-top: 16px; font-family: 'Cinzel', serif; font-size: 50px; color: #fff4d6; text-align: center; line-height: 1; text-shadow: 0 0 22px rgba(255,200,90,.9), 0 3px 8px #000; animation: afx-rise .7s ease-out .9s both }
+.afx-name small { display: block; font-size: 22px; color: #f0c95a; margin-top: 6px }
+.afx-quote { z-index: 1; margin-top: 12px; font-style: italic; font-size: 24px; color: #efe6d2; text-shadow: 0 2px 6px #000; animation: afx-rise .7s ease-out 1.4s both }
+.afx-skip { position: absolute; bottom: 26px; color: #b9ad95; font-size: 15px; z-index: 1 }
+@keyframes afx3-in { from { opacity: 0 } }
+@keyframes spin-rays-afx { to { transform: rotate(360deg) } }
+@keyframes afx-pulse { 50% { transform: scale(1.12); opacity: .8 } }
+@keyframes afx-mote { from { transform: translateY(0); opacity: 0 } 15% { opacity: 1 } to { transform: translateY(-960px); opacity: 0 } }
+@keyframes afx-star { to { opacity: 1; transform: scale(1) } }
+@keyframes afx3-card { 0% { transform: translateY(260px) scale(.5); filter: brightness(4) blur(4px); opacity: 0 } 60% { transform: translateY(-14px) scale(1.04); filter: brightness(1.5); opacity: 1 } 100% { transform: none; filter: none; opacity: 1 } }
+@keyframes afx-rise { from { opacity: 0; transform: translateY(18px) } }
+@media (prefers-reduced-motion: reduce) {
+  .afx *, .afx { animation-duration: .01s !important; animation-iteration-count: 1 !important; animation-delay: 0s !important }
+  .afx-stars span, .afx-name, .afx-quote, .afx3 .afx-card { opacity: 1; transform: none }
+}
