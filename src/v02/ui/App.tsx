@@ -69,7 +69,6 @@ export function App() {
   if (screen === 'campaign') return <Stage><Campaign onBack={() => setScreen('menu')} onStart={(b) => setMatch({ decks: [b.playerDeck, b.bout.crowning ? b.bout.crowning[b.difficulty].deck : b.bout.deck], seed: newSeed(), bout: b })} /></Stage>;
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   if (screen === 'menu') {
-    const img = (n: string) => `url(${import.meta.env.BASE_URL}v02/home-${n}.webp)`;
     const tile = (label: string, art: string, go?: () => void, badge?: boolean) => (
       <button type="button" className="home-tile" aria-label={label} onClick={go ?? (() => setSoon(label))}><img src={`${import.meta.env.BASE_URL}v02/menu/${art}.webp`} alt="" />{badge && <i className="home-badge" aria-hidden="true">!</i>}</button>
     );
@@ -84,10 +83,7 @@ export function App() {
           <div className="home-modes">
             <button type="button" className="home-panel" aria-label="Campaign — Continue" onClick={() => setScreen('campaign')}><img src={`${import.meta.env.BASE_URL}v02/home-campaign-panel.webp`} alt="" /></button>
             <button type="button" className="home-panel" aria-label="Play vs AI — Play Battle" onClick={() => setScreen('arena')}><img src={`${import.meta.env.BASE_URL}v02/home-ai-panel.webp`} alt="" /></button>
-            <button type="button" className="home-mode wide" onClick={() => setSoon('Arena of Ascension')}>
-              <span className="hm-art" style={{ backgroundImage: img('arena') }} />
-              <span className="hm-text"><b>Arena of Ascension</b><small>Compete against other players.<br />Build, adapt, and claim the Crown.</small><span className="hm-btn dark"><em>👥</em> Enter Arena <em>›</em></span></span>
-            </button>
+            <button type="button" className="home-panel wide" aria-label="Arena of Ascension — Enter Arena" onClick={() => setSoon('Arena of Ascension')}><img src={`${import.meta.env.BASE_URL}v02/home-arena-panel.webp`} alt="" /></button>
           </div>
           <nav className="home-tiles">
             {tile('Collection', 'collection', () => setScreen('collection'))}

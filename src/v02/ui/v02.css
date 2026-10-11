@@ -564,3 +564,8 @@ a { color: var(--gold) }
 .home-badge { top: 18px; right: 6px; z-index: 1 }
 .home-howto { top: auto; bottom: 26px }
 .home-tiles { top: 700px; gap: 10px } .home-tile { width: 106px; height: 168px } .home-badge { top: 15px; right: 4px }
+.home-title { width: 600px; top: 12px }
+.home-modes { top: 224px; width: 746px; grid-template-columns: 361px 361px; gap: 0 24px }
+.home-panel { height: 241px }
+.home-panel.wide { grid-column: 1 / -1; height: 249px }
+.home-tiles { top: 728px } .home-tile { width: 100px; height: 158px } .home-badge { top: 13px }
