@@ -35,3 +35,10 @@ The base set stays at 248. Special printings are extra versions of existing card
 Agreed numbering (Jerian, 2026-10-10): base 001–248, full art 001a–248a, alternate art 249–300, Masterwork MW01–MW10.
 
 Open questions for later: final numbering scheme, pull rates, which cards get Alternate Art and Masterwork, foil/holo finishes (see the earlier collector-rarity proposal in DESIGN_ANSWERS.md), and whether the digital game shows these versions.
+
+## 3. Pack inserts and tokens (agreed 2026-10-10)
+
+- **Reference card A (Keywords)** and **Reference card B (Effects and timing)** are unnumbered pack inserts. They alternate: every other pack gets A, the rest get B, so opening two packs usually gives both.
+- **Tokens T01–T08** (Starling, Arc Turret, Risen Soldier, Court Shade, Treant, Fallen Warrior, Crownling, Crown Dummy) are numbered separately from the 248.
+- Sheet order: [247, 248, Ref A] → [Ref B, T01, T02] → [T03, T04, T05] → [T06, T07, T08].
+- Deferred to the polish pass: Ember Trap (181) trait-bar divider redo.
