@@ -1,8 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { DECKS, RULES_VERSION } from '../content/cards';
+import { CARDS, DECKS, RULES_VERSION } from '../content/cards';
 import type { DeckId } from '../content/cards';
 import { Match, RulesModal } from './Match';
 import { artUrl } from './cardview';
+import { Collection } from './collect/Collection';
+import { Decks } from './collect/Decks';
+import { Opening } from './collect/Opening';
+import { Shop, Wallet } from './collect/Shop';
+import './collect/collect.css';
+import { AscendFx } from './AscendFx';
+import { getProfile } from '../economy/profile';
+import type { Pack } from '../economy/packs';
 
 const W = 1600, H = 900;
 
@@ -26,6 +34,9 @@ export function App() {
   const [match, setMatch] = useState<{ decks: [DeckId, DeckId]; seed: number } | null>(null);
   const [mine, setMine] = useState<DeckId>('banner');
   const [rules, setRules] = useState(false);
+  const [screen, setScreen] = useState<'menu' | 'shop' | 'collection' | 'decks'>('menu');
+  // A pack opening interrupted by a refresh resumes where it left off.
+  const [opening, setOpening] = useState<Pack[] | null>(() => getProfile().lastOpening);
   // The AI plays the other starter deck of the same set.
   const other = (d: DeckId): DeckId => (Object.keys(DECKS) as DeckId[]).find((x) => x !== d && (DECKS[x].set ?? 1) === (DECKS[d].set ?? 1)) ?? d;
 
@@ -37,9 +48,20 @@ export function App() {
       </Stage>
     );
   }
+  // Test aid: #fx=<card id> previews that card's Ascension celebration (e.g. #fx=crownless-3, #fx=bramble-2).
+  const fxPreview = typeof location !== 'undefined' ? /#fx=([\w@-]+)/.exec(location.hash)?.[1] : undefined;
+  if (fxPreview && CARDS[fxPreview]) {
+    const star = (CARDS[fxPreview] as { star?: number }).star ?? 2;
+    return <Stage><div className="menu"><div className="arena-bg menu-bg" /><AscendFx m={{ key: 1, cardId: fxPreview, star, mine: true }} fast={false} hold onDone={() => { location.hash = ''; location.reload(); }} /></div></Stage>;
+  }
+  if (opening) return <Stage><Opening packs={opening} onDone={() => { setOpening(null); setScreen('collection'); }} /></Stage>;
+  if (screen === 'shop') return <Stage><Shop onBack={() => setScreen('menu')} onOpened={setOpening} /></Stage>;
+  if (screen === 'collection') return <Stage><Collection onBack={() => setScreen('menu')} /></Stage>;
+  if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   return (
     <Stage>
       <div className="menu">
+        <div className="menu-wallet"><Wallet /><button type="button" className="btn gold" onClick={() => setScreen('shop')}>Shop</button><button type="button" className="btn" onClick={() => setScreen('collection')}>Collection</button><button type="button" className="btn" onClick={() => setScreen('decks')}>Decks</button></div>
         <div className="arena-bg menu-bg" />
         <header className="title">
           <div className="studio">Northern Summit Studios · Crownfall</div>

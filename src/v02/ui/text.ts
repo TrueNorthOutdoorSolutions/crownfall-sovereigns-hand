@@ -1,3 +1,6 @@
+import { isChampionCard } from '../content/cards';
+import type { Card } from '../content/cards';
+
 // The engine logs in neutral "P1/P2" form (it is shared with the paper simulator).
 // In this app the human is always P1, so these turn it into second person for display.
 const VERBS: Record<string, string> = {
@@ -22,4 +25,16 @@ export function humanize(text: string): string {
     })
     .join(' ')
     .replace(/(^|[.!:] )(Your|you)'s\b/g, '$1Your');
+}
+
+
+/** Plain-text reading of a card, used as the alt text on printed card art (screen readers, failed image loads). */
+export function cardText(c: Card): string {
+  if (isChampionCard(c)) {
+    const head = `${c.name}, ${c.title}, ${'★'.repeat(c.star)}, ${c.kind === 'ascension' ? `Ascend cost ${c.cost}` : `cost ${c.cost}`}`;
+    const kw = c.keywords.length ? ` Keywords: ${c.keywords.join(', ')}.` : '';
+    const ab = c.text ? ` ${c.ability ? `${c.ability}. ` : ''}${c.text}` : '';
+    return `${head}. Might ${c.might}, Guard ${c.guard}.${kw}${ab}`;
+  }
+  return `${c.name}, cost ${c.cost}. ${c.text}`;
 }
