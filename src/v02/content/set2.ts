@@ -181,6 +181,31 @@ const FLAVOUR: Record<string, [string | undefined, string]> = {
 /** PROPOSED Set 2 card scenes (owner-approved approach, Bramble v4, 2026-10-11): one cinematic scene per form, off-centre,
  *  new camera and mood, never the Set 1 composition. Champions without scenes yet fall back to LOOK. [★, ★★, ★★★] */
 const SCENES: Record<string, [string, string, string]> = {
+  solara: [
+    'close side view in a dark collapsed side-passage: Solara kneels over a wounded explorer, her small hands glowing warm gold as the light seeps into the cracks of the stone around them; cold blue shadows, the only warmth is her light',
+    'high angle looking down a flooded stair: Solara wades down the steps holding her light above her head, the glow spreading across the water and lifting the fallen around her',
+    'low wide shot of a vast dark cathedral-like cavern: Solara small in the centre-left as a dome of dawn light blooms outward from her, cracked pillars knitting back together, every shadow pushed to the edges',
+  ],
+  fen: [
+    'ground-level view through tall cave fungus: Fen crouched low and motionless, ears forward, eyes fixed on the huge shadow of a monster moving across the cavern beyond; cool teal light, one warm glint in his eyes',
+    'dynamic side view mid-leap: Fen springing off a rock ledge across a chasm toward an unseen beast, claws out, his shadow stretched long on the wall by a warm torch below',
+    'over-the-shoulder from behind Fen’s pack on a ridge at night underground: Fen at the front howling, a giant fallen monster below them, a red moon-like crystal glowing in the cavern roof',
+  ],
+  torren: [
+    'low angle from beside a gigantic sealed vault door: Torren stands with his back to it, arms folded, small against the door’s scale, a single lantern above, the corridor fading into cold blue dark',
+    'tight side view: Torren braces both hands and shoulder against the vault door as it bulges and cracks from blows on the other side, dust shaking from the hinges, warm light leaking through the seams',
+    'wide shot from the far end of a great hall: colossal Torren has become part of the vault wall itself, stone fused to his body, the whole door glowing with locking runes as an army halts before him',
+  ],
+  nyx: [
+    'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
+    'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',
+    'wide shot of a vault ceiling: Nyx upside-down on a chain high above, silhouetted against a glowing skylight, a bag of stolen relics over her shoulder, the guards far below searching the wrong way',
+  ],
+  emberling: [
+    'extreme close-up: tiny Emberling hovering over an unrolled glowing spell scroll in a dark forge, drinking a ribbon of fire from the script, its face lit from below',
+    'side view in a forge library: Emberling swirling through floating open spellbooks, each page catching fire and feeding it, sparks trailing like a comet tail, cool blue stacks behind',
+    'low wide shot of a deep forge cavern: a towering pillar of flame rising from Emberling as dozens of floating spell scrolls burn around it in a ring, the whole cavern lit orange against a cold blue ceiling',
+  ],
   bramble: [
     'a narrow ancient brick tunnel seen from a low side angle; small Bramble squeezes out through a crack in the wall, his roots prising the bricks apart, mortar dust drifting in a single beam of amber light from above; small, sneaky and determined',
     'three-quarter rear view: Bramble shoulder-charges through a crumbling stone wall into a hidden treasure vault beyond, bricks bursting outward toward the viewer; the vault glows warm amber inside while the tunnel behind him is cool blue',

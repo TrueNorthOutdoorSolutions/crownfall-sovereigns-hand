@@ -24,7 +24,7 @@ Flavour: “You didn't see me.”
 Crown 2: none
 Might | Guard: 2 | 1
 Footer: 022/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A hooded thief with two crooked daggers. NEW pose and action, never the Set 1 pose or composition: mid-leap between treasure piles, snatching a glowing relic from beside a sleeping Guardian. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A hooded thief with two crooked daggers. SCENE: top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-023 (023)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
@@ -44,7 +44,7 @@ Flavour: “Finders keepers.”
 Crown 2: none
 Might | Guard: 5 | 3
 Footer: 023/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her cloak drips living shadow; violet eyes glow beneath the hood. NEW pose and action, never the Set 1 pose or composition: mid-leap between treasure piles, snatching a glowing relic from beside a sleeping Guardian. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her cloak drips living shadow; violet eyes glow beneath the hood. SCENE: fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-024 (024)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -65,7 +65,7 @@ Flavour: “Guardians sleep. I don’t.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 5
 Footer: 024/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night. NEW pose and action, never the Set 1 pose or composition: mid-leap between treasure piles, snatching a glowing relic from beside a sleeping Guardian. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night. SCENE: wide shot of a vault ceiling: Nyx upside-down on a chain high above, silhouetted against a glowing skylight, a bag of stolen relics over her shoulder, the guards far below searching the wrong way. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

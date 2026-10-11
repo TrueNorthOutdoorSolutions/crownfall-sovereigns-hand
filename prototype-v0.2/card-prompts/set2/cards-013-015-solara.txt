@@ -23,7 +23,7 @@ Flavour: “The dawn walks with you.”
 Crown 2: none
 Might | Guard: 1 | 3
 Footer: 013/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A novice sun priestess with a simple brass staff. NEW pose and action, never the Set 1 pose or composition: kneeling beside a cracked glowing crystal in a dim tunnel, golden light flowing from her hands to mend the crack. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A novice sun priestess with a simple brass staff. SCENE: close side view in a dark collapsed side-passage: Solara kneels over a wounded explorer, her small hands glowing warm gold as the light seeps into the cracks of the stone around them; cold blue shadows, the only warmth is her light. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-014 (014)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -41,7 +41,7 @@ Flavour: “Hold on. The light’s coming.”
 Crown 2: none
 Might | Guard: 3 | 6
 Footer: 014/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Gilded vestments and a sun-disc staff that hums with light. NEW pose and action, never the Set 1 pose or composition: kneeling beside a cracked glowing crystal in a dim tunnel, golden light flowing from her hands to mend the crack. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gilded vestments and a sun-disc staff that hums with light. SCENE: high angle looking down a flooded stair: Solara wades down the steps holding her light above her head, the glow spreading across the water and lifting the fallen around her. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-015 (015)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -60,7 +60,7 @@ Flavour: “Nothing down here stays broken.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 6 | 9
 Footer: 015/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Radiant robes, a floating halo of three suns and wings of morning light. NEW pose and action, never the Set 1 pose or composition: kneeling beside a cracked glowing crystal in a dim tunnel, golden light flowing from her hands to mend the crack. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Radiant robes, a floating halo of three suns and wings of morning light. SCENE: low wide shot of a vast dark cathedral-like cavern: Solara small in the centre-left as a dome of dawn light blooms outward from her, cracked pillars knitting back together, every shadow pushed to the edges. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

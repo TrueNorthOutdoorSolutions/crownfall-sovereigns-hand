@@ -23,7 +23,7 @@ Flavour: “Stand behind me.”
 Crown 2: none
 Might | Guard: 1 | 5
 Footer: 019/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A stone-skinned bearer behind a slab shield. NEW pose and action, never the Set 1 pose or composition: his back against a massive vault door, arms spread, bracing it shut while something pounds on the other side. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A stone-skinned bearer behind a slab shield. SCENE: low angle from beside a gigantic sealed vault door: Torren stands with his back to it, arms folded, small against the door’s scale, a single lantern above, the corridor fading into cold blue dark. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-020 (020)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
@@ -42,7 +42,7 @@ Flavour: “This door stays shut.”
 Crown 2: none
 Might | Guard: 3 | 8
 Footer: 020/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The shield becomes a carved gate with glowing gold veins. NEW pose and action, never the Set 1 pose or composition: his back against a massive vault door, arms spread, bracing it shut while something pounds on the other side. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The shield becomes a carved gate with glowing gold veins. SCENE: tight side view: Torren braces both hands and shoulder against the vault door as it bulges and cracks from blows on the other side, dust shaking from the hinges, warm light leaking through the seams. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-021 (021)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -61,7 +61,7 @@ Flavour: “Knock all you like.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 6 | 11
 Footer: 021/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A mountain made small: crystal spires grow from his shoulders and the shield bears a living rune. NEW pose and action, never the Set 1 pose or composition: his back against a massive vault door, arms spread, bracing it shut while something pounds on the other side. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A mountain made small: crystal spires grow from his shoulders and the shield bears a living rune. SCENE: wide shot from the far end of a great hall: colossal Torren has become part of the vault wall itself, stone fused to his body, the whole door glowing with locking runes as an army halts before him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

@@ -58,7 +58,7 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Wyrmblood | orange trident |
 | Ascendant | gold crown (distinct from the blue Kingdom crown) |
 | Crownless | grey crossed-out crown |
-| Sharpshooter | white eye with a single sight line (Set 2 class, approved 2026-10-11) |
+| Sharpshooter | white eye with a single sight line (locked from the approved Kira Volt sheet) |
 | Hunter | red three-slash claw mark |
 | Artificer | bronze anvil |
 | Sentinel | grey stone watchtower |

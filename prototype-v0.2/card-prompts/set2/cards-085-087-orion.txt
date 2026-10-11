@@ -14,7 +14,7 @@ Title: Star-Charter of the Deep
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Astral | Sharpshooter | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
+Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -33,7 +33,7 @@ Title: Star-Charter of the Deep
 Stars: ★★
 Ascension band: ASCENSION • from Orion ★
 Origin | Class | Tier: Astral | Sharpshooter | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
+Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -52,7 +52,7 @@ Title: Star-Charter of the Deep
 Stars: ★★★
 Ascension band: ASCENSION • from Orion ★★
 Origin | Class | Tier: Astral | Sharpshooter | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
+Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
 Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*

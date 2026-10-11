@@ -23,7 +23,7 @@ Flavour: “Can I burn something?”
 Crown 2: none
 Might | Guard: 1 | 2
 Footer: 025/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A small living flame with curious coal eyes. NEW pose and action, never the Set 1 pose or composition: hovering over an unrolled spell scroll, drinking streams of fire from its glowing script and growing brighter. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A small living flame with curious coal eyes. SCENE: extreme close-up: tiny Emberling hovering over an unrolled glowing spell scroll in a dark forge, drinking a ribbon of fire from the script, its face lit from below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-026 (026)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
@@ -41,7 +41,7 @@ Flavour: “More! Read me more!”
 Crown 2: none
 Might | Guard: 4 | 4
 Footer: 026/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A crackling fire sprite crowned with blue-hot embers. NEW pose and action, never the Set 1 pose or composition: hovering over an unrolled spell scroll, drinking streams of fire from its glowing script and growing brighter. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A crackling fire sprite crowned with blue-hot embers. SCENE: side view in a forge library: Emberling swirling through floating open spellbooks, each page catching fire and feeding it, sparks trailing like a comet tail, cool blue stacks behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-027 (027)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -59,7 +59,7 @@ Flavour: “Every spell is kindling.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 7 | 7
 Footer: 027/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A miniature sun-spirit; the air warps around her and her fireballs leave spiralling trails. NEW pose and action, never the Set 1 pose or composition: hovering over an unrolled spell scroll, drinking streams of fire from its glowing script and growing brighter. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A miniature sun-spirit; the air warps around her and her fireballs leave spiralling trails. SCENE: low wide shot of a deep forge cavern: a towering pillar of flame rising from Emberling as dozens of floating spell scrolls burn around it in a ring, the whole cavern lit orange against a cold blue ceiling. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

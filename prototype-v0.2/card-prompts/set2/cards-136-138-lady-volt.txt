@@ -14,7 +14,7 @@ Title: Storm in the Deep
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -33,7 +33,7 @@ Title: Storm in the Deep
 Stars: ★★
 Ascension band: ASCENSION • from Lady Volt ★
 Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
@@ -52,7 +52,7 @@ Title: Storm in the Deep
 Stars: ★★★
 Ascension band: ASCENSION • from Lady Volt ★★
 Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
