@@ -1,7 +1,7 @@
 Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
 
-References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md; approved sheets in prototype-v0.2/card-art/set1/. Attach those references and the official trait sheet when pasting this prompt.
-Use the same proportions, green-vine gold border, bottom-centre shield crest, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons, plain black frame, or substituted crest.
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: brand-new artwork, NOT a repaint of the Set 1 cards. Same character (recognisable species and identity) in a completely new design, outfit, pose and colour palette, set in the vaults, tunnels, forges and sunken halls beneath the Arena: darker, moodier underground lighting, teal and violet glow, amber lantern and forge light, deep shadows, rim light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it. Never the Set 1 faceted shield crest.
 Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
 Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
 Footer rarity letter for this champion: C (Set 2 rarity is chosen by role, not tier: C Common, U Uncommon, E Elite, P Epic, M Mythic). All three forms share the letter. The trait bar still shows its TIER.
@@ -23,7 +23,7 @@ Flavour: “The forge is hot!”
 Crown 2: none
 Might | Guard: 3 | 4
 Footer: 055/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: At a roaring forge beneath the Arena, reforging a Guardian’s broken relic. Canon look for this form: A broad Forgekin smith: basalt skin, braided beard of copper wire, a glowing hammer.
+Art brief: SET 2 REDESIGN (do not copy the Set 1 card art): a stout titan forge-smith with a stone beard, molten-glowing hammer and a leather apron covered in rune burns; palette stone grey, molten orange, leather. ★ form: the new design at its simplest, smaller and lightly equipped. Scene: At a roaring forge beneath the Arena, reforging a Guardian’s broken relic.
 
 Card number: S2-056 (056)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -41,7 +41,7 @@ Flavour: “Hammer sings louder!”
 Crown 2: none
 Might | Guard: 6 | 7
 Footer: 056/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: At a roaring forge beneath the Arena, reforging a Guardian’s broken relic. Canon look for this form: Magma veins open along his arms; his hammer head is a live forge.
+Art brief: SET 2 REDESIGN (do not copy the Set 1 card art): a stout titan forge-smith with a stone beard, molten-glowing hammer and a leather apron covered in rune burns; palette stone grey, molten orange, leather. ★★ form: the same new design, bigger and better equipped, its class gear upgraded and glowing. Scene: At a roaring forge beneath the Arena, reforging a Guardian’s broken relic.
 
 Card number: S2-057 (057)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -60,7 +60,7 @@ Flavour: “Well struck.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 10
 Footer: 057/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: At a roaring forge beneath the Arena, reforging a Guardian’s broken relic. Canon look for this form: Borin becomes a walking furnace; his beard is molten metal and every step leaves slag.
+Art brief: SET 2 REDESIGN (do not copy the Set 1 card art): a stout titan forge-smith with a stone beard, molten-glowing hammer and a leather apron covered in rune burns; palette stone grey, molten orange, leather. ★★★ form: the same new design at full power, dramatic scale, its signature effect filling the scene. Scene: At a roaring forge beneath the Arena, reforging a Guardian’s broken relic.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

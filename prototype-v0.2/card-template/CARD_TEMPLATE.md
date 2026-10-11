@@ -73,6 +73,17 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
+## Set symbols (bottom centre, between the Might and Guard shields)
+
+Every set has its own symbol so a card's set is clear at a glance (owner rule 2026-10-11). The rest of the frame stays the same.
+
+| Set | Symbol |
+| --- | --- |
+| Set 1 · The Shattered Crown | bronze faceted shield crest with a cracked, shattered pattern |
+| Set 2 · Beneath the Arena | bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it (PROPOSED) |
+
+Set 2 art is brand-new artwork, not a repaint of Set 1: same character, new design, outfit, pose and palette, set beneath the Arena (darker underground light, teal and violet glow, amber lantern and forge light). Each Set 2 prompt carries the character's redesign.
+
 ## Star symbol in rules text
 
 When rules text mentions a star rank (for example "Return a ★ champion"), draw the ★ as a small solid **gold** star, the same gold as the rank stars in the name bar (decided 2026-10-09).

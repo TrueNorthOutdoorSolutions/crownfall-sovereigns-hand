@@ -84,6 +84,13 @@ function status(id) {
   return d ? `Starter deck: ${d.name} (playtested)` : 'Draft (playable, not yet balance-tested in a deck)';
 }
 
+/** How a Set 2 redesign grows across its three forms. */
+const STAR_STEP = {
+  1: '★ form: the new design at its simplest, smaller and lightly equipped.',
+  2: '★★ form: the same new design, bigger and better equipped, its class gear upgraded and glowing.',
+  3: '★★★ form: the same new design at full power, dramatic scale, its signature effect filling the scene.',
+};
+
 function build(set) {
   const rows = [];
   let no = 0;
@@ -105,8 +112,10 @@ function build(set) {
         cost: f.star === 1 ? String(f.cost) : `↑${f.cost}`, might: String(f.might), guard: String(f.guard),
         keywords: f.keywords.join(', '), ability: f.text ? f.ability ?? '' : '', text: f.text, crown: f.star === 3 ? 'Breaks 2 shards' : '',
         flavour, flavourSource,
-        art: set === 1 ? cc[`star${f.star}`] : `${l.scene} Canon look for this form: ${cc[`star${f.star}`]}`,
-        artSource: set === 1 ? `Crownfall star ${f.star} description` : 'PROPOSED Set 2 scene + Crownfall star-form description',
+        art: set === 1 ? cc[`star${f.star}`] : l.look
+          ? `SET 2 REDESIGN (do not copy the Set 1 card art): ${l.look}. ${STAR_STEP[f.star]} Scene: ${l.scene}`
+          : `${l.scene} Canon look for this form: ${cc[`star${f.star}`]}`,
+        artSource: set === 1 ? `Crownfall star ${f.star} description` : l.look ? 'PROPOSED Set 2 redesign + scene' : 'PROPOSED Set 2 scene + Crownfall star-form description',
         file: `set${set}/champions/${l.canonId}/star_${f.star}.png`,
       });
     }

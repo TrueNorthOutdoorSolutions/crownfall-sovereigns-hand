@@ -123,6 +123,8 @@ export interface ChampionLine {
   abilityProposed?: boolean;
   /** PROPOSED art setting for a new version (Set 2), combined with each form's canonical look. */
   scene?: string;
+  /** Set 2+: PROPOSED redesign of the character (new outfit, style and palette) used INSTEAD of the Set 1 canon look. */
+  look?: string;
   tier: 1 | 2 | 3 | 4 | 5;
   /** Set 2+: collector rarity chosen by role, not tier (Set 1 derives it from tier). */
   rarity?: 'common' | 'uncommon' | 'elite' | 'epic' | 'mythic';
