@@ -154,7 +154,17 @@ def main():
             save_pdf(extra_pages, os.path.join(out, f"Set {set_no} Inserts and Tokens.pdf"))
             # The master file holds everything in one continuous run: the numbered cards, then straight on
             # into the inserts and tokens with no blank slots between them.
-            run = [cards[n] for n in order] + extras
+            # Alternate Art (249/248 onward): single-card PNGs named by number in "Alternate Art".
+            alt_dir = os.path.join(set_dir, "Alternate Art")
+            alts = []
+            if os.path.isdir(alt_dir):
+                alt_names = sorted(n for n in os.listdir(alt_dir) if re.fullmatch(r"\d{3}\.png", n))
+                alts = [Image.open(os.path.join(alt_dir, n)).convert("RGB").resize((CARD_W, CARD_H), Image.LANCZOS) for n in alt_names]
+                if alts:
+                    save_pdf([page(alts[i:i + 9], label=f"Set {set_no} Alternate Art · print at 100% (Actual size)") for i in range(0, len(alts), 9)],
+                             os.path.join(out, f"Set {set_no} Alternate Art.pdf"))
+                    print(f"Alternate Art: {len(alts)} cards ({alt_names[0][:3]}–{alt_names[-1][:3]})")
+            run = [cards[n] for n in order] + extras + alts
             master = [page(run[i:i + 9], label=f"Sovereign's Hand Set {set_no} · master sheet {i // 9 + 1} · print at 100% (Actual size)")
                       for i in range(0, len(run), 9)]
             save_pdf(master, os.path.join(out, f"Set {set_no} Card Fronts.pdf"))
