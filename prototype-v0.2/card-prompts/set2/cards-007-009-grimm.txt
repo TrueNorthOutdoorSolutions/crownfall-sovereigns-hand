@@ -22,7 +22,7 @@ Flavour: “Reporting for duty. Again.”
 Crown 2: none
 Might | Guard: 1 | 4
 Footer: 007/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A skeletal footsoldier in dented plate, ghost-light in his ribs. NEW pose and action, never the Set 1 pose or composition: standing motionless guard before a sealed iron vault door, shield planted, his head just turning toward something approaching out of the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A skeletal footsoldier in dented plate, ghost-light in his ribs. SCENE: a long lantern-lit corridor in deep perspective, Grimm small at the far end standing guard before a sealed iron vault door, seen as an intruder would see him; cold teal light, one warm lantern above the door. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-008 (008)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
@@ -41,7 +41,7 @@ Flavour: “Nobody gets past. That’s the job.”
 Crown 2: none
 Might | Guard: 4 | 7
 Footer: 008/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Plate reforged with spectral seams; a tattered banner grows from his back. NEW pose and action, never the Set 1 pose or composition: standing motionless guard before a sealed iron vault door, shield planted, his head just turning toward something approaching out of the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Plate reforged with spectral seams; a tattered banner grows from his back. SCENE: close, low angle at Grimm’s side as he braces behind his shield in a narrow doorway, sparks and arrows glancing off it; the reforged plate and tattered banner lit by torchlight, the corridor beyond in cool shadow. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-009 (009)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -61,7 +61,7 @@ Flavour: “Still on watch. Always on watch.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 7 | 10
 Footer: 009/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate. NEW pose and action, never the Set 1 pose or composition: standing motionless guard before a sealed iron vault door, shield planted, his head just turning toward something approaching out of the dark. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate. SCENE: high angle looking down a grand stair into a vault: Grimm alone on the bottom step holding the line against a tide of shadowy invaders, spectral light pouring from his ribs and banner, the treasure door glowing amber behind him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

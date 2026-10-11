@@ -23,7 +23,7 @@ Flavour: “Charged and ready!”
 Crown 2: none
 Might | Guard: 2 | 1
 Footer: 004/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A young arc-tech gunner with one compact energy pistol. NEW pose and action, never the Set 1 pose or composition: lying prone on a high girder, steadying her arm for one precise long-range shot at a target far below in a dark flooded cavern; side profile, one eye on her sights. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A young arc-tech gunner with one compact energy pistol. SCENE: over-the-shoulder view from just behind Kira lying prone on a rusted iron girder high above a flooded cavern, her compact energy pistol braced on her forearm, aiming at a tiny target far below; cool blue mist, one distant warm lantern. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-005 (005)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
@@ -41,7 +41,7 @@ Flavour: “Hold still. Thank you.”
 Crown 2: none
 Might | Guard: 4 | 3
 Footer: 005/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Dual energised pistols; her coat carries a glowing arc coil. NEW pose and action, never the Set 1 pose or composition: lying prone on a high girder, steadying her arm for one precise long-range shot at a target far below in a dark flooded cavern; side profile, one eye on her sights. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Dual energised pistols; her coat carries a glowing arc coil. SCENE: low tilted (Dutch) angle: Kira slides along a wet stone walkway on one knee, both energised pistols firing across the frame at a target off the card, bright tracer lines crossing the dark and reflecting in the flood water; her coat’s arc coil glowing. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Card number: S2-006 (006)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -60,7 +60,7 @@ Flavour: “One shot. One spark. One less problem.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 7 | 6
 Footer: 006/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Floating arc batteries orbit her and every shot leaves a lightning trail. NEW pose and action, never the Set 1 pose or composition: lying prone on a high girder, steadying her arm for one precise long-range shot at a target far below in a dark flooded cavern; side profile, one eye on her sights. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Floating arc batteries orbit her and every shot leaves a lightning trail. SCENE: wide shot from across a vast cavern: Kira small on a high ledge, silhouetted against the ring of floating arc batteries orbiting her, a single lightning-trail shot crossing the whole cavern to strike a distant target, lighting the cavern for one instant. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

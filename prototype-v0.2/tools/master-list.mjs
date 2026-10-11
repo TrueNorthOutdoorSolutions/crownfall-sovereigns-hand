@@ -84,6 +84,9 @@ function status(id) {
   return d ? `Starter deck: ${d.name} (playtested)` : 'Draft (playable, not yet balance-tested in a deck)';
 }
 
+/** Set 2 art style (approved with Bramble v4, 2026-10-11). */
+const SET2_STYLE = 'Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.';
+
 /** How a Set 2 redesign grows across its three forms. */
 const STAR_STEP = {
   1: 'Same pose idea at ★ scale.',
@@ -113,10 +116,12 @@ function build(set) {
         cost: f.star === 1 ? String(f.cost) : `↑${f.cost}`, might: String(f.might), guard: String(f.guard),
         keywords: f.keywords.join(', '), ability: f.text ? f.ability ?? '' : '', text: f.text, crown: f.star === 3 ? 'Breaks 2 shards' : '',
         flavour, flavourSource,
-        art: set === 1 ? cc[`star${f.star}`] : l.look
+        art: set === 1 ? cc[`star${f.star}`] : l.scenes
+          ? `SET 2 ART. Keep this look, recognisable at a glance: ${cc[`star${f.star}`]} SCENE: ${l.scenes[f.star - 1]}. ${SET2_STYLE}`
+          : l.look
           ? `SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): ${cc[`star${f.star}`]} NEW pose and action, never the Set 1 pose or composition: ${l.look}. ${STAR_STEP[f.star]} Show the class through the action; no extra costume props. Darker underground lighting.`
           : `${l.scene} Canon look for this form: ${cc[`star${f.star}`]}`,
-        artSource: set === 1 ? `Crownfall star ${f.star} description` : l.look ? 'Crownfall star-form look + PROPOSED Set 2 pose' : 'PROPOSED Set 2 scene + Crownfall star-form description',
+        artSource: set === 1 ? `Crownfall star ${f.star} description` : l.scenes ? 'Crownfall star-form look + PROPOSED Set 2 scene (v4 approach)' : l.look ? 'Crownfall star-form look + PROPOSED Set 2 pose' : 'PROPOSED Set 2 scene + Crownfall star-form description',
         file: `set${set}/champions/${l.canonId}/star_${f.star}.png`,
       });
     }

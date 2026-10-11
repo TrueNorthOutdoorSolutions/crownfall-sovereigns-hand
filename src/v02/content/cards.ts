@@ -125,6 +125,8 @@ export interface ChampionLine {
   scene?: string;
   /** Set 2+: PROPOSED new pose and action for the card art (the character keeps its Crownfall appearance). */
   look?: string;
+  /** Set 2+: PROPOSED cinematic scene for each star form [★, ★★, ★★★]; preferred over `look`. */
+  scenes?: [string, string, string];
   /** Set 2+: PROPOSED flavour per star form where no unused Crownfall line exists. */
   flavour?: Partial<Record<1 | 2 | 3, string>>;
   tier: 1 | 2 | 3 | 4 | 5;

@@ -410,3 +410,12 @@ a { color: var(--gold) }
 /* Intro background: the owner's courtyard painting (public/v02/menu-bg.webp) once supplied; the arena until then. */
 .menu.intro .menu-bg { background-image: url(/v02/menu-bg.webp), url(/v02/arena-1440.webp); background-position: center; background-size: cover; filter: none }
 .menu.intro .menu-bg::after { background: radial-gradient(ellipse 46% 62% at 50% 46%, rgba(7,6,11,.55) 0%, rgba(7,6,11,.25) 60%, transparent 100%) }
+/* readable bands over the bright courtyard (as in the mockup) */
+.menu.intro .sub, .menu.intro .goal, .menu.intro .setname { position: relative; z-index: 2; padding: 4px 60px; background: linear-gradient(90deg, transparent, rgba(8,10,16,.78) 14%, rgba(8,10,16,.78) 86%, transparent) }
+.menu.intro .goal { padding: 6px 70px; text-shadow: 0 1px 3px #000 }
+.menu.intro .setname { padding: 3px 80px }
+.intro-brand, .menu.intro .studio { text-shadow: 0 2px 6px #000, 0 0 2px #000 }
+.intro-brand { background: linear-gradient(90deg, rgba(8,10,16,.75), transparent); padding: 4px 20px 4px 10px; border-radius: 4px }
+.menu.intro .title h1 { filter: drop-shadow(0 3px 0 #2a1d06) drop-shadow(0 0 3px #000) drop-shadow(0 0 22px rgba(0,0,0,.6)) }
+.intro-steps { background: linear-gradient(90deg, transparent, rgba(8,10,16,.88) 10%, rgba(8,10,16,.88) 90%, transparent) }
+.menu.intro .menu-foot { padding: 2px 16px; background: rgba(8,10,16,.6); border-radius: 4px }

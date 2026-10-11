@@ -178,6 +178,30 @@ const FLAVOUR: Record<string, [string | undefined, string]> = {
   mother: [undefined, 'Everything grows back.'],
   crownless: [undefined, 'No crown. No chains. No rules.'],
 };
+/** PROPOSED Set 2 card scenes (owner-approved approach, Bramble v4, 2026-10-11): one cinematic scene per form, off-centre,
+ *  new camera and mood, never the Set 1 composition. Champions without scenes yet fall back to LOOK. [★, ★★, ★★★] */
+const SCENES: Record<string, [string, string, string]> = {
+  bramble: [
+    'a narrow ancient brick tunnel seen from a low side angle; small Bramble squeezes out through a crack in the wall, his roots prising the bricks apart, mortar dust drifting in a single beam of amber light from above; small, sneaky and determined',
+    'three-quarter rear view: Bramble shoulder-charges through a crumbling stone wall into a hidden treasure vault beyond, bricks bursting outward toward the viewer; the vault glows warm amber inside while the tunnel behind him is cool blue',
+    'extreme low angle from far below: towering Bramble wraps thick roots around a massive carved stone pillar in a vast underground hall and tears it apart; the ceiling cracks open and a shaft of daylight pours down through the dust; tiny soldiers scatter at his feet for scale',
+  ],
+  kira: [
+    'over-the-shoulder view from just behind Kira lying prone on a rusted iron girder high above a flooded cavern, her compact energy pistol braced on her forearm, aiming at a tiny target far below; cool blue mist, one distant warm lantern',
+    'low tilted (Dutch) angle: Kira slides along a wet stone walkway on one knee, both energised pistols firing across the frame at a target off the card, bright tracer lines crossing the dark and reflecting in the flood water; her coat’s arc coil glowing',
+    'wide shot from across a vast cavern: Kira small on a high ledge, silhouetted against the ring of floating arc batteries orbiting her, a single lightning-trail shot crossing the whole cavern to strike a distant target, lighting the cavern for one instant',
+  ],
+  grimm: [
+    'a long lantern-lit corridor in deep perspective, Grimm small at the far end standing guard before a sealed iron vault door, seen as an intruder would see him; cold teal light, one warm lantern above the door',
+    'close, low angle at Grimm’s side as he braces behind his shield in a narrow doorway, sparks and arrows glancing off it; the reforged plate and tattered banner lit by torchlight, the corridor beyond in cool shadow',
+    'high angle looking down a grand stair into a vault: Grimm alone on the bottom step holding the line against a tide of shadowy invaders, spectral light pouring from his ribs and banner, the treasure door glowing amber behind him',
+  ],
+  pip: [
+    'fish-eye view from inside a mine tunnel as Pip lights a fuse with a grin, her face lit orange by the spark, the tunnel stretching away into cool blue darkness behind her',
+    'side-on action shot: Pip leaping away from a wall at the moment it blows apart, debris and dust filling the frame, warm blast light against a cold blue tunnel',
+    'aerial view straight down into a huge cavern: Pip on a ledge at the edge of a massive blast crater she has just made, a crowd of tiny figures staring up, dust clouds rolling outward in rings, warm firelight in the crater',
+  ],
+};
 const ABILITY: Record<string, string> = {
   bramble: 'Rootbreak',
   kira: 'Railshot',
@@ -237,7 +261,7 @@ const ABILITY: Record<string, string> = {
 };
 const back = (canonId: string, name: string, epithet: string, tier: ChampionLine['tier'], origins: string[], classes: string[], scene: string, f1: F, f2: F, f3: F,
   rarity: NonNullable<ChampionLine['rarity']>): ChampionLine => ({
-  canonId, lineId: `${canonId}@2`, family: 'champion', set: 2, name, title: epithet, epithetProposed: true, abilityProposed: true, tier, rarity, origins, classes, scene, look: LOOK[canonId], flavour: { 2: FLAVOUR[canonId]?.[0], 3: FLAVOUR[canonId]?.[1] },
+  canonId, lineId: `${canonId}@2`, family: 'champion', set: 2, name, title: epithet, epithetProposed: true, abilityProposed: true, tier, rarity, origins, classes, scene, look: LOOK[canonId], scenes: SCENES[canonId], flavour: { 2: FLAVOUR[canonId]?.[0], 3: FLAVOUR[canonId]?.[1] },
   forms: [f1, f2, f3].map((f, i) => ({ star: (i + 1) as 1 | 2 | 3, ...f, ...(f.text ? { ability: ABILITY[canonId] } : {}) })),
 });
 const f = (cost: number, might: number, guard: number, keywords: ChampionForm['keywords'], text: string, rest: Partial<ChampionForm> = {}): F =>
