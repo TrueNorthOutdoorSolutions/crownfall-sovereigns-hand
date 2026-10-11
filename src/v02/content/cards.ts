@@ -55,7 +55,12 @@ type EffectBody =
   | { op: 'breakRelic' }
   | { op: 'breakScheme' }
   | { op: 'stealRelic' }
-  | { op: 'rivalDiscard'; n: number };
+  | { op: 'rivalDiscard'; n: number }
+  /** Defeat one chosen rival champion with Guard n or less (Set 2 Mythic). */
+  | { op: 'defeatOne'; n: number }
+  /** Break every rival champion's Relic / every rival face-down Scheme (Set 2 Mythic). */
+  | { op: 'breakAllRelics' }
+  | { op: 'breakAllSchemes' };
 
 export interface Statics {
   mightIfBehind?: number;
@@ -80,6 +85,8 @@ export interface Statics {
   schemeDiscount?: number;
   /** Artificer: your Relics cost less to attach (minimum 0). */
   relicDiscount?: number;
+  /** Seer Mythic: your Schemes can be sprung on the turn they are set. */
+  schemeHaste?: boolean;
 }
 
 export interface ChampionForm {
@@ -104,6 +111,8 @@ export interface ChampionForm {
   /** Channeler: whenever its controller casts a Tactic (Swift included). */
   cast?: Effect[];
   statics?: Statics;
+  /** Set 2+: this card's own rarity (owner rule 2026-10-11: rarity is per card, by impact, not by tier). */
+  rarity?: 'common' | 'uncommon' | 'elite' | 'epic' | 'mythic';
 }
 
 export interface ChampionLine {

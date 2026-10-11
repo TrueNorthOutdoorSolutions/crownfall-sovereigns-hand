@@ -136,6 +136,7 @@ const PHRASE = {
   tuck: /bottom of your deck/, equipFree: /Attach a Relic costing \d or less/,
   breakRelic: /Break a rival champion.s Relic/, breakScheme: /Break one of your rival.s face-down Schemes/, stealRelic: /Take a Relic from a rival champion/,
   rivalDiscard: /discards a card at random/,
+  defeatOne: /Defeat a rival champion with Guard \d or less/, breakAllRelics: /Break every rival champion.s Relic/, breakAllSchemes: /every face-down Scheme your rival has/,
 };
 for (const c of Object.values(CARDS)) {
   const t = c.text ?? '';
@@ -159,7 +160,7 @@ for (const c of Object.values(CARDS)) {
     check(/while fighting a Monster/.test(t) === !!st.huntMight, `truth: ${c.id} Hunter text ⇔ effect`);
     check(/while attacking a champion/.test(t) === !!st.duelMight, `truth: ${c.id} Gladiator text ⇔ effect`);
     check(/attacking your Crown get −\d Might/.test(t) === !!st.crownWard, `truth: ${c.id} Sentinel text ⇔ effect`);
-    check(/Schemes cost \d less/.test(t) === !!st.schemeDiscount, `truth: ${c.id} Seer text ⇔ effect`);
+    check(/Schemes cost (\d less|nothing)/.test(t) === !!st.schemeDiscount, `truth: ${c.id} Seer text ⇔ effect`);
     check(/Relics cost \d less/.test(t) === !!st.relicDiscount, `truth: ${c.id} Artificer text ⇔ effect`);
     check(/Whenever you cast a Tactic/.test(t) === !!c.cast?.length, `truth: ${c.id} Channeler text ⇔ effect`);
     check(/fewer shards than your rival\./.test(t.replace(/, or \+\d if you have fewer shards than your rival/, '')) === !!st.mightIfBehind || /Might while you have fewer shards/.test(t) === !!st.mightIfBehind, `truth: ${c.id} "fewer shards" text ⇔ effect`);

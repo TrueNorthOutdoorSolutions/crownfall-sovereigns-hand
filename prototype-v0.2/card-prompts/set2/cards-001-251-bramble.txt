@@ -1,0 +1,72 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep the character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition, never the Set 1 one. Show the new class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+Card number: S2-001 (001)
+Cost: 2 (GREEN gem)
+Name: Bramble
+Title: The Rootbreaker
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Verdant | Sapper | TIER I
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Rootbreak.**
+2. **Arrival:** Break one of your rival’s face-down Schemes.
+Flavour: “Roots first. Then questions.”
+Crown 2: none
+Might | Guard: 1 | 3
+Footer: 001/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A small wooden creature wearing moss like armour, fists of knotted root. SCENE: a narrow ancient brick tunnel seen from a low side angle; small Bramble squeezes out through a crack in the wall, his roots prising the bricks apart, mortar dust drifting in a single beam of amber light from above; small, sneaky and determined. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-002 (002)
+Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
+Name: Bramble
+Title: The Rootbreaker
+Stars: ★★
+Ascension band: ASCENSION • from Bramble ★
+Origin | Class | Tier: Verdant | Sapper | TIER I
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Rootbreak.**
+2. **Attack:** Break a rival champion’s Relic.
+Flavour: “Stone cracks. I don’t.”
+Crown 2: none
+Might | Guard: 4 | 5
+Footer: 002/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Larger, plated in armoured bark with glowing green runes; flowers bloom along the shoulders and roots trail when he walks. SCENE: three-quarter rear view: Bramble shoulder-charges through a crumbling stone wall into a hidden treasure vault beyond, bricks bursting outward toward the viewer; the vault glows warm amber inside while the tunnel behind him is cool blue. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-251 (251)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Bramble
+Title: The Rootbreaker
+Stars: ★★★
+Ascension band: ASCENSION • from Bramble ★★
+Origin | Class | Tier: Verdant | Sapper | TIER I
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Rootbreak.**
+2. **Ascend: Scorch 2** each rival champion.
+3. Break every rival champion’s Relic and every face-down Scheme your rival has.
+4. **Block: Scorch 2** the attacker.
+Flavour: “Every wall has a root in it somewhere.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 7 | 9
+Footer: 251/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A miniature ancient world-tree warrior. Leaves orbit him, his eyes burn emerald, and Rootslam erupts as enormous spectral roots. SCENE: extreme low angle from far below: towering Bramble wraps thick roots around a massive carved stone pillar in a vast underground hall and tears it apart; the ceiling cracks open and a shaft of daylight pours down through the dust; tiny soldiers scatter at his feet for scale. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 001: no keyword; do not add a chip or reminder.
+- 002: no keyword; do not add a chip or reminder.
+- 251: no keyword; do not add a chip or reminder.
+- 251 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

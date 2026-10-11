@@ -48,7 +48,10 @@ for (const set of [1, 2]) {
     const metadata = group.split(/\r?\n/)[1].replace(/^\*|\*$/g, '').split(' · ');
     const [tier] = metadata;
     // Footer letter: Set 1 follows champion tier; Set 2+ uses the line's own rarity (owner rule 2026-10-11). All three forms share it.
-    const rarityLetter = line.rarity ? { common: 'C', uncommon: 'U', elite: 'E', epic: 'P', mythic: 'M' }[line.rarity] : ['', 'C', 'U', 'E', 'P', 'M'][line.tier];
+    const LETTER = { common: 'C', uncommon: 'U', elite: 'E', epic: 'P', mythic: 'M' };
+    // Set 2+: every card has its own rarity letter; Set 1 follows champion tier.
+    const letters = line.forms.map((f) => (f.rarity ?? line.rarity) ? LETTER[f.rarity ?? line.rarity] : ['', 'C', 'U', 'E', 'P', 'M'][line.tier]);
+    const rarityLetter = letters[0];
     assert(rarityLetter, `Unknown champion tier: ${line.tier}`);
     // The master-list writer escapes literal pipes inside fields.
     const rows = group.split(/\r?\n/).filter(l => /^\| S[12]-\d+ \|/.test(l)).map(l =>
@@ -65,7 +68,7 @@ for (const set of [1, 2]) {
         : 'Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.',
       'Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.',
       'Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.',
-      line.rarity ? `Footer rarity letter for this champion: ${rarityLetter} (Set 2 rarity is chosen by role, not tier: C Common, U Uncommon, E Elite, P Epic, M Mythic). All three forms share the letter. The trait bar still shows its TIER.`
+      line.rarity ? `Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.`
         : 'Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.',
       'Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.', '',
     ];
@@ -99,7 +102,7 @@ for (const set of [1, 2]) {
         `Flavour: “${flavour.slice(1, -1)}”`,
         f.star === 3 ? `Crown 2: crown icon + 2 at the right end of the first text-box line (${keywordLines.length ? 'keyword' : abilityLines.length ? 'ability' : 'rules'} line).` : 'Crown 2: none',
         `Might | Guard: ${f.might} | ${f.guard}`,
-        `Footer: ${numbers[i]}/${SET_TOTAL[set]} · ${rarityLetter} · Northern Summit Studios · Art: Jerian Latawiec`,
+        `Footer: ${numbers[i]}/${SET_TOTAL[set]} · ${letters[i]} · Northern Summit Studios · Art: Jerian Latawiec`,
         `Art brief: ${row[6]}`, '',
       );
       if (f.star === 2 && f.cost !== 0) risks.push(`${numbers[i]} ★★: up-arrow ${f.cost}, not up-arrow 0.`);
@@ -113,7 +116,7 @@ for (const set of [1, 2]) {
     const promptText = prompt.join('\n') + '\n';
     const footerLetters = [...promptText.matchAll(/^Footer: \d+\/\d+ · ([CUEPM]) ·/gm)].map(m => m[1]);
     assert.equal(footerLetters.length, 3, `${filename}: each form must have a footer`);
-    assert(footerLetters.every(letter => letter === rarityLetter),
+    assert(footerLetters.every((letter, k) => letter === letters[k]),
       `${filename}: every footer must match the line's rarity letter (${rarityLetter})`);
     writeFileSync(join(outputDir, `${filename}.txt`), promptText);
     const range = `${numbers[0]}–${numbers[2]}`;

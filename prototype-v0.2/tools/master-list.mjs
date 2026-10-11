@@ -85,7 +85,7 @@ function status(id) {
 }
 
 /** Set 2 art style (approved with Bramble v4, 2026-10-11). */
-const SET2_STYLE = 'Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props.';
+const SET2_STYLE = 'Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.';
 
 /** How a Set 2 redesign grows across its three forms. */
 const STAR_STEP = {
@@ -111,7 +111,7 @@ function build(set) {
       const [flavour, flavourSource] = own ? [own, 'PROPOSED Set 2 line (differs from Set 1)'] : flavourFor(cc, f.star, set);
       rows.push({
         no: nextNo(), id, section: 'Champions', name: l.name, title: l.title + (l.epithetProposed ? ' (PROPOSED epithet)' : ''), form: stars(f.star),
-        type: f.star === 1 ? 'Champion' : 'Ascension', status: status(id), tier: `Tier ${ROMAN[l.tier]} · ${l.rarity ? cap(l.rarity) : cc.tierName}`,
+        type: f.star === 1 ? 'Champion' : 'Ascension', status: status(id), tier: `Tier ${ROMAN[l.tier]} · ${(f.rarity ?? l.rarity) ? cap(f.rarity ?? l.rarity) : cc.tierName}`, rarity: f.rarity ?? l.rarity,
         origins: l.origins.map(cap).join(' · '), classes: l.classes.map(cap).join(' · '),
         cost: f.star === 1 ? String(f.cost) : `↑${f.cost}`, might: String(f.might), guard: String(f.guard),
         keywords: f.keywords.join(', '), ability: f.text ? f.ability ?? '' : '', text: f.text, crown: f.star === 3 ? 'Breaks 2 shards' : '',
@@ -134,6 +134,7 @@ function build(set) {
       rows.push({
         no: fam === 'token' ? 'TOKEN' : nextNo(), id, section: fam === 'monster' ? 'Monsters' : fam === 'guardian' ? 'Guardians' : 'Tokens', name: l.name, title: '', form: '',
         type: cap(fam), status: fam === 'token' ? 'Token (made by other cards; not in decks)' : status(id), tier: '', origins: '', classes: '',
+        rarity: fam === 'guardian' ? 'epic' : fam === 'monster' ? (f.cost <= 1 ? 'common' : f.cost === 2 ? 'uncommon' : 'elite') : undefined,
         cost: fam === 'token' ? '' : String(f.cost), might: String(f.might), guard: String(f.guard), keywords: f.keywords.join(', '),
         ability: f.ability ?? '', text: f.text ?? '', crown: '',
         flavour: gl ?? '', flavourSource: gl ? 'Crownfall announcer line (Guardian round)' : 'None (no canon line)',
@@ -149,6 +150,7 @@ function build(set) {
     rows.push({
       no: nextNo(), id: sp.id, section: 'Tactics and Schemes', name: sp.name, title: pw ? `${extras.schools[school].name} · ${cap(pw.rarity)}` : '', form: '',
       type: sp.kind === 'scheme' ? 'Scheme' : sp.swift ? 'Swift Tactic' : 'Tactic', status: status(sp.id), tier: '', origins: '', classes: '',
+      rarity: pw ? ({ common: 'common', rare: 'uncommon', epic: 'epic', exalted: 'mythic' })[pw.rarity] ?? 'common' : sp.cost <= 1 ? 'common' : sp.cost === 2 ? 'uncommon' : sp.cost === 3 ? 'elite' : 'epic',
       cost: String(sp.cost), might: '', guard: '', keywords: sp.shardfall ? 'Shardfall' : '', ability: '', text: sp.text, crown: '',
       flavour: sp.flavour ?? '', flavourSource: sp.flavour ? 'Crownfall announcer line' : pw ? `None yet. Crownfall effect for reference: “${pw.desc}”` : 'None yet',
       art: sp.art ?? SPELL_ART[sp.id] ?? (school ? SCHOOL_ART[school](sp.name) : ''),
@@ -160,6 +162,7 @@ function build(set) {
     const it = itemById[r.canonId];
     rows.push({
       no: nextNo(), id: r.id, section: 'Relics', name: r.name, title: `${cap(r.relicType)}${r.legendary ? ' · Legendary' : ''}`, form: '', type: 'Relic',
+      rarity: r.legendary || r.relicType === 'artifact' ? 'mythic' : r.relicType === 'crown' || r.extraZone ? 'epic' : r.relicType === 'component' || r.cost <= 2 ? 'common' : r.relicType === 'emblem' || r.cost === 3 ? 'uncommon' : r.cost === 4 ? 'elite' : 'epic',
       status: status(r.id), tier: '', origins: '', classes: '', cost: String(r.cost), might: r.might ? `+${r.might}` : '', guard: r.guard ? `+${r.guard}` : '',
       keywords: (r.keywords ?? []).join(', '), ability: '', text: r.text, crown: '',
       flavour: '', flavourSource: it ? `None yet. Crownfall item for reference: “${it.effect}”` : 'None yet',
@@ -169,12 +172,21 @@ function build(set) {
   for (const e of EDICTS.filter((x) => x.set === set)) {
     const ce = edictById[e.canonId];
     rows.push({
-      no: nextNo(), id: e.id, section: 'Edicts', name: e.name, title: `Proclaimed by ${byId[e.host]?.name ?? e.host}`, form: '', type: 'Edict',
+      no: nextNo(), id: e.id, section: 'Edicts', name: e.name, title: `Proclaimed by ${byId[e.host]?.name ?? e.host}`, form: '', type: 'Edict', rarity: 'uncommon',
       status: status(e.id), tier: '', origins: '', classes: '', cost: String(e.cost), might: '', guard: '', keywords: '', ability: '', text: e.text, crown: '',
       flavour: ce?.proclamation ?? '', flavourSource: ce ? 'Crownfall Edict proclamation' : 'None',
       art: `${byId[e.host]?.name ?? e.host} proclaiming the Edict from the royal box, the arena crowd below.`, artSource: 'PROPOSED (host is canon)',
       file: `set${set}/edicts/${e.canonId}.png`,
     });
+  }
+  // Set 2+: cards are numbered by rarity, Commons first and Mythics last (owner rule 2026-10-11); within a rarity the
+  // order stays champions (tier order), Monsters, Guardians, Tactics and Schemes, Relics, Edicts.
+  if (set >= 2) {
+    const RANK = { common: 0, uncommon: 1, elite: 2, epic: 3, mythic: 4 };
+    const numbered = rows.filter((r) => r.no !== 'TOKEN');
+    for (const r of numbered) if (!(r.rarity in RANK)) throw new Error(`no rarity for ${r.id}`);
+    numbered.map((r, i) => ({ r, i })).sort((a, b) => RANK[a.r.rarity] - RANK[b.r.rarity] || a.i - b.i)
+      .forEach(({ r }, k) => { r.no = `S${set}-${String(k + 1).padStart(3, '0')}`; });
   }
   // Tokens are numbered separately (T01, T02 …) and never count toward the set total.
   let t = 0;
@@ -185,14 +197,15 @@ function build(set) {
 const COLS = [['no', 'No.'], ['id', 'Card ID'], ['name', 'Card name'], ['title', 'Title / subtype'], ['form', 'Star form'], ['type', 'Card type'], ['status', 'Status'],
   ['tier', 'Champion tier'], ['origins', 'Origins'], ['classes', 'Classes'], ['cost', 'Cost (↑ = Ascend cost)'], ['might', 'Might'], ['guard', 'Guard'],
   ['keywords', 'Keywords'], ['ability', 'Ability name'], ['text', 'Rules text'], ['crown', 'Crown damage'], ['flavour', 'Flavour text'], ['flavourSource', 'Flavour source'],
-  ['art', 'Art brief'], ['artSource', 'Art brief source'], ['file', 'Final art file (suggested)'], ['variants', 'Variants (alt art / full art — fill in the studio)']];
+  ['art', 'Art brief'], ['artSource', 'Art brief source'], ['file', 'Final art file (suggested)'], ['variants', 'Variants (alt art / full art — fill in the studio)'], ['rarity', 'Rarity']];
 const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
 const esc = (v) => String(v ?? '').replace(/\|/g, '\\|');
 
 const summary = [];
 for (const set of [1, 2]) {
   const rows = build(set);
-  const csv = '﻿' + [COLS.map(([, h]) => q(h)).join(','), ...rows.map((r) => COLS.map(([k]) => q(r[k])).join(','))].join('\r\n') + '\r\n';
+  const inOrder = [...rows].sort((a, b) => String(a.no).localeCompare(String(b.no)));
+  const csv = '﻿' + [COLS.map(([, h]) => q(h)).join(','), ...inOrder.map((r) => COLS.map(([k]) => q(r[k])).join(','))].join('\r\n') + '\r\n';
   writeFileSync(join(root, `master-card-list-set${set}.csv`), csv);
 
   const count = (sec) => rows.filter((r) => r.section === sec).length;

@@ -310,6 +310,7 @@ function choiceOptions(s: GameState, item: EffectItem): ChoiceOption[] | null {
         .map(({ id, i }) => ({ key: `f:${i}`, label: `${CARDS[id].name} ★ (from your Fallen pile)` }));
     case 'unequip': return [...me.field, ...them.field].filter((c) => c.relic).map(champOpt);
     case 'breakRelic': return them.field.filter((c) => c.relic).map(champOpt);
+    case 'defeatOne': return them.field.filter((c) => guard(s, c) <= e.n).map(champOpt);
     case 'stealRelic': {
       const taker = item.self !== undefined ? findChampion(s, item.self) : null;
       if (!taker || taker.relic) return [];
@@ -598,6 +599,30 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       log(s, 'effect', `${src}: takes ${CARDS[id].name} from ${champName(t)} and attaches it to ${champName(taker)}. It still belongs to ${P(home)}.`, p);
       return;
     }
+    case 'defeatOne': {
+      const t = byKey(key);
+      if (!t || guard(s, t) > e.n) return;
+      log(s, 'effect', `${src}: ${champName(t)} (Guard ${guard(s, t)}) is defeated.`, p);
+      tryDefeat(s, t, `${src}`);
+      return;
+    }
+    case 'breakAllRelics': {
+      for (const t of s.players[rival(p)].field) {
+        if (!t.relic) continue;
+        log(s, 'effect', `${src}: ${CARDS[t.relic].name} on ${champName(t)} breaks.`, p);
+        s.players[relicHome(t)].fallen.push(t.relic);
+        t.relic = null;
+        t.relicOwner = undefined;
+      }
+      return;
+    }
+    case 'breakAllSchemes': {
+      const them = s.players[rival(p)];
+      if (!them.schemes.length) return;
+      log(s, 'effect', `${src}: all ${them.schemes.length} of ${P(rival(p))}'s face-down Schemes break.`, p);
+      for (const sc of them.schemes.splice(0)) them.fallen.push(sc.card);
+      return;
+    }
     case 'breakScheme': {
       const them = s.players[rival(p)];
       if (!them.schemes.length) return;
@@ -700,7 +725,8 @@ export function responseOptions(s: GameState, q: PlayerIndex): ChoiceOption[] {
   if (defending) {
     for (const sc of pl.schemes) {
       const d = spell(sc.card);
-      if (sc.setTurn >= s.turn || schemeCost(s, q, d) > pl.command) continue;
+      const haste = pl.field.some((c) => staticsOf(c).some((st) => st.schemeHaste));
+      if ((sc.setTurn >= s.turn && !haste) || schemeCost(s, q, d) > pl.command) continue;
       const ok = d.when === 'rivalAttacks' || (d.when === 'crownAttacked' && cbt.target === 'crown')
         || (d.when === 'crownUnblocked' && cbt.target === 'crown' && cbt.defender === null)
         || (d.when === 'clash' && cbt.defender !== null);

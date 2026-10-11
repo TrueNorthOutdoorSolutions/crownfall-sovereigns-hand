@@ -1,0 +1,74 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep the character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition, never the Set 1 one. Show the new class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+Card number: S2-030 (030)
+Cost: 2 (GREEN gem)
+Name: Thorn
+Title: Rot Beneath the Stone
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Verdant | Sapper | TIER II
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Creeping Rot.**
+2. **Arrival:** Break one of your rival’s face-down Schemes.
+Flavour: “Step closer…”
+Crown 2: none
+Might | Guard: 2 | 3
+Footer: 030/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A thorned plant warrior with a violet flower head. NEW pose and action, never the Set 1 pose or composition: his vines forcing their way through a cracked vault wall from inside, the stone crumbling around him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+Card number: S2-136 (136)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Thorn
+Title: Rot Beneath the Stone
+Stars: ★★
+Ascension band: ASCENSION • from Thorn ★
+Origin | Class | Tier: Verdant | Sapper | TIER II
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Creeping Rot.**
+2. **Ascend:** Break a rival champion’s Relic.
+3. **Block: Scorch 2** the attacker.
+Flavour: “Your walls are already rotting.”
+Crown 2: none
+Might | Guard: 5 | 5
+Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Poison dripping from purple petals; a thorny spine along his back. NEW pose and action, never the Set 1 pose or composition: his vines forcing their way through a cracked vault wall from inside, the stone crumbling around him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+Card number: S2-233 (233)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Thorn
+Title: Rot Beneath the Stone
+Stars: ★★★
+Ascension band: ASCENSION • from Thorn ★★
+Origin | Class | Tier: Verdant | Sapper | TIER II
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Creeping Rot.**
+2. **Ascend:** Break one of your rival’s face-down Schemes.
+3. Break a rival champion’s Relic.
+4. Scorch 2 each rival champion.
+Flavour: “I grow in the cracks you can’t see.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 8 | 8
+Footer: 233/266 · P · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A carnivorous bloom colossus whose petals exhale toxic spores. NEW pose and action, never the Set 1 pose or composition: his vines forcing their way through a cracked vault wall from inside, the stone crumbling around him. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 030: no keyword; do not add a chip or reminder.
+- 136 ★★: up-arrow 1, not up-arrow 0.
+- 136: no keyword; do not add a chip or reminder.
+- 233: no keyword; do not add a chip or reminder.
+- 233 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
