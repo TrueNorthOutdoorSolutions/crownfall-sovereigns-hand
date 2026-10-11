@@ -35,17 +35,17 @@ const drainResponses = (t: GameState) => {
 describe('Relics', () => {
   it('attach to a champion, add stats and keywords, and follow it to the Fallen pile', () => {
     const s = board();
-    const k = put(s, 0, ['kael@2', 'kael@2-2']);
+    const k = put(s, 0, ['borin@2', 'borin@2-2']);
     s.players[0].hand = ['relic-blade', 'relic-feather'];
     let t = ok(s, 0, { type: 'equip', handIndex: 0, uid: k });
     expect(find(t, k).relic).toBe('relic-blade');
-    expect(might(t, find(t, k))).toBe(5 + 2 + 2); // ★★ base 5, Royal Blade +2, Kael ★★: +2 Might while holding a Relic
+    expect(might(t, find(t, k))).toBe(6 + 2 + 2); // ★★ base 6, Royal Blade +2, Borin ★★: +2 Might while holding a Relic
     expect(legalActions(t).some((a) => a.type === 'equip' && a.uid === k)).toBe(false); // one Relic per champion
     const g = put(t, 1, ['grizz@2']);
     t.players[1].field.find((c) => c.uid === g)!.mods.might = 20;
     t = ok(t, 0, { type: 'toBattle' });
     t = drainResponses(ok(t, 0, { type: 'attack', uid: k, target: g }));
-    expect(t.players[0].fallen).toEqual(expect.arrayContaining(['kael@2', 'kael@2-2', 'relic-blade']));
+    expect(t.players[0].fallen).toEqual(expect.arrayContaining(['borin@2', 'borin@2-2', 'relic-blade']));
   });
   it('Emblems add an Origin, and the Crown of the First Realm counts as every Origin', () => {
     const s = board();
@@ -70,7 +70,7 @@ describe('Relics', () => {
   });
   it('"Attach a Relic … for free" on Arrival', () => {
     const s = board();
-    s.players[0].hand = ['kael@2', 'relic-plate'];
+    s.players[0].hand = ['gearwick@2', 'relic-plate']; // Gearwick-9 ★ (cost 2): Arrival attaches a Relic costing 2 or less for free
     let t = ok(s, 0, { type: 'deploy', handIndex: 0 });
     expect(t.players[0].field[0].relic).toBe('relic-plate');
     expect(t.players[0].command).toBe(6);

@@ -19,6 +19,8 @@ export interface ChampionInPlay {
   readiedTurn: number;
   /** Attached Relic card id. */
   relic?: string | null;
+  /** Owner of the Relic when it was taken from the rival (Rogue); otherwise the champion's owner. */
+  relicOwner?: PlayerIndex;
   /** Summoned token: it vanishes when defeated instead of going to the Fallen pile. */
   token?: boolean;
 }
@@ -130,7 +132,7 @@ export type Action =
   | { type: 'equip'; handIndex: number; uid: number }
   | { type: 'playEdict'; handIndex: number }
   | { type: 'cycle'; handIndex: number }
-  | { type: 'ascend'; uid: number }
+  | { type: 'ascend'; uid: number; card?: string }
   | { type: 'toBattle' }
   | { type: 'attack'; uid: number; target: 'crown' | number }
   | { type: 'endBattle' }

@@ -18,6 +18,10 @@ export function checkDeck(main: [string, number][], ascension: string[], owned?:
   const mainCount = main.reduce((n, [, c]) => n + c, 0);
   if (mainCount !== DECK_SIZE) errors.push(`The deck needs exactly ${DECK_SIZE} cards (it has ${mainCount}).`);
   let ascendants = 0, guardians = 0;
+  // Owner rule 2026-10-11: at most 2 champions of the same NAME across every set (one Bramble line or a mix).
+  const byName: Record<string, number> = {};
+  for (const [id, n] of main) { const c = CARDS[id]; if (c && isChampionCard(c) && c.family === 'champion') byName[c.name] = (byName[c.name] ?? 0) + n; }
+  for (const [name, n] of Object.entries(byName)) if (n > MAX_COPIES) errors.push(`At most ${MAX_COPIES} ${name} in a deck, counting every set (it has ${n}).`);
   for (const [id, n] of main) {
     const c = CARDS[id];
     if (!c) { errors.push(`Unknown card ${id}.`); continue; }
@@ -33,14 +37,18 @@ export function checkDeck(main: [string, number][], ascension: string[], owned?:
 
   if (ascension.length > ASCENSION_MAX) errors.push(`The Ascension Pile holds at most ${ASCENSION_MAX} cards (it has ${ascension.length}).`);
   const perForm: Record<string, number> = {};
+  const perNameStar: Record<string, number> = {};
   for (const id of ascension) {
     const c = CARDS[id];
     if (!c || !isChampionCard(c) || c.kind !== 'ascension') { errors.push(`${c?.name ?? id} is not a ★★ or ★★★ card.`); continue; }
     perForm[id] = (perForm[id] ?? 0) + 1;
-    if (!main.some(([m]) => m === c.lineId)) warnings.push(`${c.name} ${'★'.repeat(c.star)} has no ${c.name} ★ in the deck to Ascend from.`);
+    const k = `${c.name} ${'★'.repeat(c.star)}`;
+    perNameStar[k] = (perNameStar[k] ?? 0) + 1;
+    // Ascension goes by name across sets, so any ★ of that name can climb into it.
+    if (!main.some(([m]) => { const b = CARDS[m]; return b && isChampionCard(b) && b.name === c.name; })) warnings.push(`${k} has no ${c.name} ★ in the deck to Ascend from.`);
   }
+  for (const [k, n] of Object.entries(perNameStar)) if (n > ASCENSION_COPIES) errors.push(`At most ${ASCENSION_COPIES} ${k} in the Ascension Pile, counting every set (it has ${n}).`);
   for (const [id, n] of Object.entries(perForm)) {
-    if (n > ASCENSION_COPIES) errors.push(`At most ${ASCENSION_COPIES} copies of ${CARDS[id].name} ${'★'.repeat((CARDS[id] as { star: number }).star)} in the Ascension Pile.`);
     if (owned && owned(id) < n) errors.push(`You own ${owned(id)} of ${CARDS[id].name} ${'★'.repeat((CARDS[id] as { star: number }).star)} (pile uses ${n}).`);
   }
   return { ok: errors.length === 0, errors, warnings: [...new Set(warnings)], mainCount, ascCount: ascension.length };

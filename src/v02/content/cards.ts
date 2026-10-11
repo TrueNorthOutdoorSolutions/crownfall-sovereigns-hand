@@ -50,7 +50,12 @@ type EffectBody =
   | { op: 'stopOthersAttacking' }
   | { op: 'readyOncePerTurn' }
   | { op: 'gateBlock' }
-  | { op: 'cancelAttack' };
+  | { op: 'cancelAttack' }
+  // Set 2 (Season 1 remix, owner-approved 2026-10-11)
+  | { op: 'breakRelic' }
+  | { op: 'breakScheme' }
+  | { op: 'stealRelic' }
+  | { op: 'rivalDiscard'; n: number };
 
 export interface Statics {
   mightIfBehind?: number;
@@ -62,6 +67,19 @@ export interface Statics {
   /** While this champion holds a Relic. */
   mightIfRelic?: number;
   guardIfRelic?: number;
+  // Set 2 class mechanics (owner-approved 2026-10-11)
+  /** Hunter: +Might while fighting a Monster, a Guardian or an Ascended (★★/★★★) champion. */
+  huntMight?: number;
+  /** Gladiator: +Might while it attacks a champion. */
+  duelMight?: number;
+  /** Sentinel: rival champions attacking your Crown get −Might. */
+  crownWard?: number;
+  /** Binder: your tokens have +Might/+Guard. */
+  tokenAura?: { might?: number; guard?: number };
+  /** Seer: your Schemes cost less to spring (minimum 0). */
+  schemeDiscount?: number;
+  /** Artificer: your Relics cost less to attach (minimum 0). */
+  relicDiscount?: number;
 }
 
 export interface ChampionForm {
@@ -83,6 +101,8 @@ export interface ChampionForm {
   defeated?: Effect[];
   /** At the start of its controller's turn. */
   rise?: Effect[];
+  /** Channeler: whenever its controller casts a Tactic (Swift included). */
+  cast?: Effect[];
   statics?: Statics;
 }
 
@@ -102,6 +122,8 @@ export interface ChampionLine {
   /** PROPOSED art setting for a new version (Set 2), combined with each form's canonical look. */
   scene?: string;
   tier: 1 | 2 | 3 | 4 | 5;
+  /** Set 2+: collector rarity chosen by role, not tier (Set 1 derives it from tier). */
+  rarity?: 'common' | 'uncommon' | 'elite' | 'epic' | 'mythic';
   origins: string[];
   classes: string[];
   forms: ChampionForm[];
