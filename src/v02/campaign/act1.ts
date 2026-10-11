@@ -476,5 +476,100 @@ export const CHAPTER_IV: Chapter = {
   ],
 };
 
-export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV] };
+// ════════════════════════ Chapter V · The Unremembered ════════════════════════
+const D5 = {
+  player: deck('c5-player', 'The Unremembered', 'Hollow · Kingdom · Umbral', [['grimm', 2], ['morrow', 2], ['dreadmouth', 2], ['elara', 2], ['torren', 2], ['shade', 2], ['nyx', 2],
+    ['return-to-fire', 2], ['forge_masters_favor', 2], ['mirror_shard', 2], ['summoners_pact', 2], ['shield-wall', 2], ['royal-dispatch', 2], ['last_stand', 2], ['dawnward-oath', 1], ['crowns_favor', 1]],
+    ['grimm-2', 'grimm-3', 'morrow-2', 'morrow-3', 'dreadmouth-2', 'dreadmouth-3', 'elara-2', 'elara-3']),
+  sentry: deck('c5-sentry', 'The Old Guard', 'Hollow · Gearbound · Kingdom', [['grimm', 2], ['bolt', 2], ['torren', 2], ['varr', 1], ['titanrho', 1], ['rowan', 2],
+    ['shield-wall', 2], ['hold-the-gate', 2], ['last_stand', 2], ['dawnward-oath', 2], ['first-light', 2], ['cinder-veil', 2], ['crowns_favor', 2], ['steady_coffers', 2], ['royal-dispatch', 2], ['studious', 2]],
+    ['grimm-2', 'grimm-3', 'bolt-2', 'bolt-3']),
+  maw: deck('c5-maw', 'The Gullet', 'Hollow · Wildkin · Titanborn', [['dreadmouth', 2], ['grizz', 2], ['rask', 2], ['fen', 2], ['knuckle', 2], ['shade', 2],
+    ['feral-howl', 2], ['fallen_crown', 2], ['executioner', 2], ['crown_of_war', 2], ['flare-up', 2], ['back_doctrine', 2], ['blood_price', 2], ['soul_tax', 2], ['glass_crown', 2]],
+    ['dreadmouth-2', 'dreadmouth-3', 'knuckle-2', 'knuckle-3']),
+  legion: deck('c5-legion', 'The Waiting Legion', 'Hollow · Astral · Umbral', [['morrow', 2], ['seren', 2], ['spark', 2], ['vespera', 1], ['elara', 2], ['grimm', 2],
+    ['summoners_pact', 2], ['training_dummy', 2], ['return-to-fire', 2], ['mirror_shard', 2], ['forge_masters_favor', 2], ['living_arena', 1], ['royal-dispatch', 2], ['shield-wall', 2], ['crowns_favor', 2], ['tempered_victory', 2]],
+    ['morrow-2', 'morrow-3', 'seren-2', 'seren-3']),
+  crypt: deck('c5-crypt', 'The Buried Fields', 'Hollow · Umbral · Hexbound', [['grimm', 2], ['dreadmouth', 2], ['morrow', 2], ['nyx', 2], ['shade', 2], ['maeve', 2],
+    ['crimson_augury', 2], ['dark_bargain', 2], ['abyssal_hunger', 2], ['void_pact', 2], ['return-to-fire', 2], ['executioner', 2], ['firebolt', 2], ['royal-dispatch', 2], ['kindling', 2]],
+    ['dreadmouth-2', 'dreadmouth-3', 'morrow-2', 'morrow-3']),
+  unwritten: deck('c5-unwritten', 'The Forgotten Legion', 'Hollow', [['unwritten', 1], ['morrow', 2], ['grimm', 2], ['dreadmouth', 2], ['vespera', 1], ['shade', 2], ['elara', 2],
+    ['summoners_pact', 2], ['return-to-fire', 2], ['mirror_shard', 2], ['forge_masters_favor', 2], ['abyssal_hunger', 2], ['shield-wall', 2], ['royal-dispatch', 2], ['crown_of_war', 1], ['grand_convergence', 1], ['crowns_favor', 2]],
+    ['unwritten-2', 'unwritten-3', 'morrow-2', 'morrow-3', 'grimm-2', 'grimm-3', 'dreadmouth-2', 'dreadmouth-3']),
+};
+Object.assign(CAMPAIGN_DECKS, D5);
+
+export const CHAPTER_V: Chapter = {
+  id: 'c5', numeral: 'V', title: 'The Unremembered', legend: 'unwritten', playerDeck: D5.player, playerDeckName: 'The Unremembered',
+  trials: ['The Buried Fields', 'Tests of the Forgotten', 'The Unwritten Road'],
+  intro: [
+    S('Narration', 'Some of the Crownfall’s champions are older than its stones. A few of them should not be walking at all.'),
+    S('Narration', 'His name was erased from every record. He wants the Crown to write it back.', true),
+    S('Narration', 'The forgotten answer only to those who remember them. Take up their banner, and learn their names.'),
+  ],
+  bouts: [
+    // ── Trial 1 · The Buried Fields ──
+    { id: 'c5-t1-b1', trial: 1, bout: 1, title: 'Reporting for Duty', portrait: 'grimm', rival: 'The Old Guard', deck: D5.sentry,
+      story: [S('Narration', 'His war ended three centuries ago. Nobody told Grimm.', true), S('Grimm', 'Reporting for duty. Again.', true)],
+      setup: { rivalCrown: 3 }, objective: win, rules: 'The Old Guard has only 3 shards, but it blocks everything.', reward: { valor: 100, cards: ['grimm'] } },
+    { id: 'c5-t1-b2', trial: 1, bout: 2, title: 'Nobody Told Grimm', portrait: 'grimm', rival: 'The Buried Fields', deck: D5.crypt,
+      story: [S('Narration', 'Grimm takes his post at your side. Nobody asked him to. Nobody needed to.')],
+      setup: { myField: ['grimm'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Grimm starts on your field. Win with at least 3 shards.', reward: { valor: 100 } },
+    { id: 'c5-t1-b3', trial: 1, bout: 3, title: 'Hungry…', portrait: 'dreadmouth', rival: 'The Gullet', deck: D5.maw,
+      story: [S('Narration', 'It ate a kingdom once. It is still hungry.', true), S('Dreadmouth', 'Hungry…', true)],
+      objective: win, rules: 'A deck that grows stronger as it eats your champions.', reward: { valor: 100, cards: ['dreadmouth'] } },
+    { id: 'c5-t1-b4', trial: 1, bout: 4, title: 'Death Is a Waste of Soldiers', portrait: 'morrow', rival: 'The Waiting Legion', deck: D5.legion,
+      story: [S('Narration', 'Morrow believes death is a waste of good soldiers.', true), S('Morrow', 'Death is a waste of soldiers.', true),
+        S('Narration', 'Every champion you defeat may come back. Keep pressing.')],
+      objective: win, rules: 'The Legion keeps bringing champions back from the Fallen pile.', reward: { valor: 100, cards: ['morrow'] } },
+    { id: 'c5-t1-b5', trial: 1, bout: 5, title: 'The Gullet', portrait: 'dreadmouth', rival: 'The Gullet', deck: D5.maw,
+      story: [S('Narration', 'Dreadmouth has decided you are more interesting than food. For now. It stands with you in the valley of teeth.')],
+      setup: { myField: ['dreadmouth'] }, objective: { kind: 'survive', rounds: 5 }, rules: 'Dreadmouth starts on your field. Survive until round 5 begins.', reward: { valor: 110 } },
+    // ── Trial 2 · Tests of the Forgotten ──
+    { id: 'c5-t2-b1', trial: 2, bout: 1, title: 'Still Haven’t Died Properly', portrait: 'grimm', rival: 'The Old Guard', deck: D5.sentry,
+      story: [S('Grimm', "Still haven't died properly.", true)],
+      setup: { edict: 'edict-crowns_bounty' }, objective: win, rules: 'Edict in play: Crown’s Bounty.', reward: { valor: 120 } },
+    { id: 'c5-t2-b2', trial: 2, bout: 2, title: 'MORE TEETH', portrait: 'dreadmouth', rival: 'The Gullet', deck: D5.maw,
+      story: [S('Dreadmouth', 'MORE TEETH.', true)],
+      setup: { edict: 'edict-war_banners' }, objective: win, rules: 'Edict in play: War Banners.', reward: { valor: 120 } },
+    { id: 'c5-t2-b3', trial: 2, bout: 3, title: 'My Legion Grows', portrait: 'morrow', rival: 'The Waiting Legion', deck: D5.legion,
+      story: [S('Morrow', 'My legion grows.', true)],
+      setup: { edict: 'edict-scholars_ascent' }, objective: win, rules: 'Edict in play: Scholar’s Ascent.', reward: { valor: 120 } },
+    { id: 'c5-t2-b4', trial: 2, bout: 4, title: 'The Graves Answer', portrait: 'morrow', rival: 'The Buried Fields', deck: D5.crypt,
+      story: [S('Narration', 'The Buried Fields break their own shards for power. Every shard that breaks hands its owner a card.')],
+      setup: { edict: 'edict-shard_season' }, objective: win, rules: 'Edict in play: Shard Season.', reward: { valor: 120 } },
+    { id: 'c5-t2-b5', trial: 2, bout: 5, title: 'Another War Ended', portrait: 'grimm', rival: 'The Old Guard', deck: D5.sentry,
+      story: [S('Grimm', 'Another war ended.', true), S('Grimm', 'Probably.')],
+      objective: { kind: 'keepShards', n: 3 }, rules: 'Win with at least 3 shards.', reward: { valor: 130 } },
+    // ── Trial 3 · The Unwritten Road ──
+    { id: 'c5-t3-b1', trial: 3, bout: 1, title: 'Delicious', portrait: 'dreadmouth', rival: 'The Buried Fields', deck: D5.crypt,
+      story: [S('Dreadmouth', 'Delicious.', true), S('Narration', 'You arrive with one shard already gone. Something in the Fields took a bite.')],
+      setup: { myCrown: 4 }, objective: win, rules: 'You start with 4 Crown Shards.', reward: { valor: 130 } },
+    { id: 'c5-t3-b2', trial: 3, bout: 2, title: 'Rise, and Rest', portrait: 'morrow', rival: 'The Buried Fields', deck: D5.crypt,
+      story: [S('Morrow', 'Rise, and rest.', true), S('Narration', 'Morrow and Grimm take the field with you. The old soldiers know this ground.')],
+      setup: { myField: ['morrow', 'grimm'] }, objective: win, rules: 'Morrow and Grimm start on your field.', reward: { valor: 130 } },
+    { id: 'c5-t3-b3', trial: 3, bout: 3, title: 'The Missing Page', portrait: 'morrow', rival: 'The Waiting Legion', deck: D5.legion,
+      story: [S('Narration', 'Every record of one name has been scraped clean. The Legion guards the place where the page was torn out.')],
+      setup: { edict: 'edict-open_market' }, objective: { kind: 'keepShards', n: 3 }, rules: 'Edict in play: The Open Market. Win with at least 3 shards.', reward: { valor: 130 } },
+    { id: 'c5-t3-b4', trial: 3, bout: 4, title: 'Hold the Grave', portrait: 'grimm', rival: 'The Gullet', deck: D5.maw,
+      story: [S('Narration', 'Grimm and Dreadmouth stand at the mouth of the grave road. Something is coming up it. Hold until round 6.')],
+      setup: { myField: ['grimm', 'dreadmouth'] }, objective: { kind: 'survive', rounds: 6 }, rules: 'Grimm and Dreadmouth start on your field. Survive until round 6 begins.', reward: { valor: 140 } },
+    { id: 'c5-t3-b5', trial: 3, bout: 5, title: 'Remember My Name', portrait: 'unwritten', rival: 'The Waiting Legion', deck: D5.legion,
+      story: [S('The Unwritten King', 'Remember my name.', true), S('Narration', 'The voice comes from beyond the last gate. Nobody in the Legion will say who it belongs to.')],
+      objective: { kind: 'keepShards', n: 4 }, rules: 'Win with at least 4 shards.', reward: { valor: 140 } },
+    // ── The Crowning ──
+    { id: 'c5-crowning', trial: 4, bout: 1, title: 'The Crowning: The Unwritten King', portrait: 'unwritten', rival: 'The Unwritten King', deck: D5.unwritten,
+      story: [S('Narration', 'A throne of grey stone stands where no throne is recorded. On it sits a king no record remembers.'),
+        S('The Unwritten King', 'The forgotten answer.', true),
+        S('The Unwritten King', 'Win, Sovereign, and perhaps you will be the one to write it down.')],
+      objective: win, rules: 'The Crowning. The Unwritten King is in the rival’s deck.', reward: { valor: 300, cards: ['unwritten-2', 'unwritten-3'] },
+      crowning: {
+        contender: { deck: D5.unwritten, printing: 'base' },
+        masterwork: { deck: D5.unwritten, printing: 'masterwork', setup: { edict: 'edict-shard_season' } },
+        omega: { deck: D5.unwritten, printing: 'omega', setup: { edict: 'edict-shard_season', rivalField: ['unwritten'] } },
+      } },
+  ],
+};
+
+export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV, CHAPTER_V] };
 export const ALL_BOUTS: Bout[] = ACT_I.chapters.flatMap((c) => c.bouts);
