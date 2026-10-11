@@ -9,6 +9,7 @@ import type { Action, ChampionInPlay, GameState, LogEntry, PlayerIndex } from '.
 import { chooseAction } from '../ai/bot';
 import { CardFace, ChampionToken, GLOSSARY } from './cardview';
 import { humanize } from './text';
+import { rewardMatch } from '../economy/profile';
 
 const ME: PlayerIndex = 0;
 const AI: PlayerIndex = 1;
@@ -468,10 +469,18 @@ export function RulesModal({ onClose }: { onClose: () => void }) {
   );
 }
 
+// Valor is paid once per finished match (the seed identifies the match; guards against double renders).
+const rewarded = new Map<number, ReturnType<typeof rewardMatch>>();
+function rewardOnce(seed: number, won: boolean) {
+  if (!rewarded.has(seed)) rewarded.set(seed, rewardMatch(won));
+  return rewarded.get(seed)!;
+}
+
 function Results({ game, onRematch, onExit }: { game: GameState; onRematch: (swap: boolean) => void; onExit: () => void }) {
   const won = game.winner === ME;
   const reason = humanize(game.endReason ?? '');
   const lastClashes = game.log.filter((e) => e.kind === 'shard' || e.kind === 'ascend' || e.kind === 'scheme').slice(-5);
+  const [reward] = useState(() => rewardOnce(game.seed, won));
   return (
     <div className="overlay results">
       <div className={`modal ${won ? 'victory' : 'defeat'}`}>
@@ -484,6 +493,7 @@ function Results({ game, onRematch, onExit }: { game: GameState; onRematch: (swa
           <div><b>{game.stats.ascends[ME]}</b><span>your Ascensions</span></div>
           <div><b>{game.stats.schemes[ME]}</b><span>Schemes you sprang</span></div>
         </div>
+        {reward && <div className="valor-reward" aria-label="Valor earned"><b>+{reward.total} ✧ Valor</b>{reward.lines.map(([l, n]) => <span key={l}>{l} +{n}</span>)}</div>}
         <h3>How it ended</h3>
         <ol className="res-log">{lastClashes.map((e) => <li key={e.n}>{humanize(e.text)}</li>)}</ol>
         <div className="btnrow center">

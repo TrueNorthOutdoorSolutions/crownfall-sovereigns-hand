@@ -3,6 +3,12 @@ import { DECKS, RULES_VERSION } from '../content/cards';
 import type { DeckId } from '../content/cards';
 import { Match, RulesModal } from './Match';
 import { artUrl } from './cardview';
+import { Collection } from './collect/Collection';
+import { Opening } from './collect/Opening';
+import { Shop, Wallet } from './collect/Shop';
+import './collect/collect.css';
+import { getProfile } from '../economy/profile';
+import type { Pack } from '../economy/packs';
 
 const W = 1600, H = 900;
 
@@ -26,6 +32,9 @@ export function App() {
   const [match, setMatch] = useState<{ decks: [DeckId, DeckId]; seed: number } | null>(null);
   const [mine, setMine] = useState<DeckId>('banner');
   const [rules, setRules] = useState(false);
+  const [screen, setScreen] = useState<'menu' | 'shop' | 'collection'>('menu');
+  // A pack opening interrupted by a refresh resumes where it left off.
+  const [opening, setOpening] = useState<Pack[] | null>(() => getProfile().lastOpening);
   // The AI plays the other starter deck of the same set.
   const other = (d: DeckId): DeckId => (Object.keys(DECKS) as DeckId[]).find((x) => x !== d && (DECKS[x].set ?? 1) === (DECKS[d].set ?? 1)) ?? d;
 
@@ -37,9 +46,13 @@ export function App() {
       </Stage>
     );
   }
+  if (opening) return <Stage><Opening packs={opening} onDone={() => { setOpening(null); setScreen('collection'); }} /></Stage>;
+  if (screen === 'shop') return <Stage><Shop onBack={() => setScreen('menu')} onOpened={setOpening} /></Stage>;
+  if (screen === 'collection') return <Stage><Collection onBack={() => setScreen('menu')} /></Stage>;
   return (
     <Stage>
       <div className="menu">
+        <div className="menu-wallet"><Wallet /><button type="button" className="btn gold" onClick={() => setScreen('shop')}>Shop</button><button type="button" className="btn" onClick={() => setScreen('collection')}>Collection</button></div>
         <div className="arena-bg menu-bg" />
         <header className="title">
           <div className="studio">Northern Summit Studios · Crownfall</div>
