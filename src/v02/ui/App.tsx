@@ -67,7 +67,22 @@ export function App() {
         <div className="arena-bg menu-bg" />
         <header className="title">
           <div className="studio"><span className="ribbon">⟶</span> Northern Summit Studios <span className="ribbon">⟵</span></div>
-          <div className="title-crown" aria-hidden="true">♛</div>
+          <svg className="title-crown" viewBox="0 0 120 84" aria-hidden="true">
+            <defs>
+              <linearGradient id="crownGold" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stopColor="#fff6d2" /><stop offset=".45" stopColor="#f2c95a" /><stop offset=".75" stopColor="#b98318" /><stop offset="1" stopColor="#f6dc8e" />
+              </linearGradient>
+            </defs>
+            <path fill="url(#crownGold)" stroke="#5a3a08" strokeWidth="2" strokeLinejoin="round"
+              d="M10 66 L4 22 L30 42 L42 12 L52 34 L60 2 L68 34 L78 12 L90 42 L116 22 L110 66 Z" />
+            <rect x="10" y="64" width="100" height="14" rx="3" fill="url(#crownGold)" stroke="#5a3a08" strokeWidth="2" />
+            <circle cx="60" cy="71" r="4" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
+            <circle cx="36" cy="71" r="3" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
+            <circle cx="84" cy="71" r="3" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
+            <circle cx="60" cy="4" r="4" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
+            <circle cx="42" cy="13" r="3.4" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
+            <circle cx="78" cy="13" r="3.4" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
+          </svg>
           <h1>Sovereign's Hand</h1>
           <div className="sub">Two sets · four starter decks · playable prototype V0.2</div>
         </header>
