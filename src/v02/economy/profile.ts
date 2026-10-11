@@ -45,6 +45,8 @@ export interface Profile {
   purchases: { id: string; stones: number; price: number; at: number; simulated: boolean }[];
   /** The Set 1 starter decks are given free to every player, once. */
   starterGranted?: boolean;
+  /** Campaign: Bouts cleared (first clear gives the Bout's reward). */
+  campaign?: Record<string, { cleared: true; at: number }>;
 }
 
 /** Every player owns the two Set 1 starter decks (standard finish), so they can play and build from day one. */
@@ -156,3 +158,16 @@ export function deleteDeck(id: string) { save({ ...current, decks: current.decks
 export function clearLastOpening() { save({ ...current, lastOpening: null }); }
 /** Development helper: top up the wallet for testing. */
 export function devGrant(valor: number, starstones: number) { save({ ...current, valor: current.valor + valor, starstones: current.starstones + starstones }); }
+
+/** Campaign: record a cleared Bout. The first clear pays its Valor and grants its cards (standard finish). */
+export function clearBout(boutId: string, reward: { valor: number; cards?: string[] }): { first: boolean } {
+  const done = current.campaign?.[boutId];
+  if (done) return { first: false };
+  const owned = { ...current.owned };
+  for (const cardId of reward.cards ?? []) {
+    const pr = BASE_PRINTING[cardId];
+    if (pr) owned[ownKey(pr, 'normal')] = (owned[ownKey(pr, 'normal')] ?? 0) + 1;
+  }
+  save({ ...current, valor: current.valor + reward.valor, owned, campaign: { ...(current.campaign ?? {}), [boutId]: { cleared: true, at: Date.now() } } });
+  return { first: true };
+}

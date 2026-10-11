@@ -143,3 +143,42 @@
 .mini:disabled { opacity: .35; cursor: not-allowed }
 .checks { margin: 10px 0; display: flex; flex-direction: column; gap: 4px; font-size: 13px }
 .checks .err { color: #ff9c9c } .checks .warn { color: #ffd27a } .checks .okmsg { color: #7dff9a; font-weight: 700 }
+
+/* ---------- campaign ---------- */
+.campaign .camp-bg { position: absolute; inset: 0; background: url(/v02/menu-bg.webp) center / cover; filter: brightness(.38) saturate(.9) }
+.campaign .screen-top, .campaign .screen-body { position: relative; z-index: 1 }
+.camp-body { display: flex; justify-content: center }
+.camp-chapter { width: 1380px; display: flex; flex-direction: column; gap: 14px }
+.camp-head { display: flex; align-items: baseline; gap: 16px }
+.camp-head h3 { margin: 0; font-family: 'Cinzel', serif; font-size: 36px; color: #f6e3a8 }
+.camp-num { font-family: 'Cinzel', serif; font-size: 14px; letter-spacing: .2em; text-transform: uppercase; color: #c9a24a }
+.camp-trial { background: rgba(10,10,16,.72); border: 1px solid rgba(201,162,74,.4); border-radius: 12px; padding: 10px 14px }
+.camp-trial-name { font-family: 'Cinzel', serif; color: #f2d58a; font-size: 16px; letter-spacing: .08em; margin-bottom: 8px }
+.camp-nodes { display: flex; gap: 12px }
+.camp-node { position: relative; width: 256px; height: 116px; border-radius: 10px; overflow: hidden; border: 2px solid rgba(201,162,74,.7); padding: 0; background: #0b0910; text-align: left; cursor: pointer; color: #fff }
+.camp-node .cn-art { position: absolute; inset: 0; background: center 22% / cover; filter: brightness(.55) }
+.camp-node .cn-label, .camp-node b { position: relative; display: block; padding: 0 10px; text-shadow: 0 1px 3px #000 }
+.camp-node .cn-label { margin-top: 56px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: #f2d58a }
+.camp-node b { font-family: 'Cinzel', serif; font-size: 17px }
+.camp-node:hover:not(:disabled) { border-color: #f6dd8f; box-shadow: 0 0 18px rgba(242,201,90,.45) }
+.camp-node.won { border-color: #7dff9a }
+.camp-node.locked { filter: grayscale(1) brightness(.6); cursor: not-allowed }
+.camp-node.crowning { width: 540px; border-color: #f6dd8f; box-shadow: 0 0 24px rgba(242,201,90,.35) }
+.camp-node.crowning .cn-art { filter: brightness(.7) }
+.camp-node.crowning b { font-size: 24px }
+.cn-done { position: absolute; top: 6px; right: 10px; color: #7dff9a; font-size: 22px; font-weight: 800; text-shadow: 0 1px 3px #000 }
+.cn-lock { position: absolute; top: 6px; right: 10px; font-size: 18px }
+.camp-later { text-align: center }
+.story-panel { display: flex; width: 1200px; max-height: 760px; background: #120f1a; border: 2px solid #c9a24a; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,.7) }
+.sp-art { width: 420px; flex: none; background: center 20% / cover }
+.sp-art.wide { width: 520px }
+.sp-text { flex: 1; padding: 26px 30px; display: flex; flex-direction: column; gap: 12px; overflow: auto }
+.sp-text h3 { margin: 0; font-family: 'Cinzel', serif; font-size: 34px; color: #f6e3a8 }
+.story-lines { display: flex; flex-direction: column; gap: 10px }
+.story-lines p { margin: 0; font-size: 18px; line-height: 1.45 }
+.story-lines .narration { font-style: italic; color: #cfc3aa }
+.story-lines .speech b { display: block; font-family: 'Cinzel', serif; color: #f2d58a; font-size: 14px; letter-spacing: .08em }
+.sp-rules { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-radius: 10px; background: rgba(0,0,0,.35); border: 1px solid rgba(201,162,74,.35); font-size: 15px }
+.sp-rules b { color: #f2d58a; margin-right: 6px }
+.sp-diff { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
+.sp-diff .note { width: 100% }

@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { CARDS, DECKS, RULES_VERSION } from '../content/cards';
+import { CARDS, DECKS, RULES_VERSION, STARTER_DECK_IDS } from '../content/cards';
 import type { DeckId } from '../content/cards';
 import { Match, RulesModal } from './Match';
 import { artUrl } from './cardview';
 import { Collection } from './collect/Collection';
+import { Campaign } from './campaign/Campaign';
+import type { StartBout } from './campaign/Campaign';
+import { clearBout } from '../economy/profile';
 import { Decks } from './collect/Decks';
 import { Opening } from './collect/Opening';
 import { Shop, Wallet } from './collect/Shop';
@@ -31,20 +34,25 @@ const SETS: [number, string][] = [[1, 'Set 1 · The Shattered Crown'], [2, 'Set 
 const newSeed = () => (Date.now() ^ Math.floor(Math.random() * 0x7fffffff)) >>> 0; // UI only: the engine itself never reads the clock
 
 export function App() {
-  const [match, setMatch] = useState<{ decks: [DeckId, DeckId]; seed: number } | null>(null);
+  const [match, setMatch] = useState<{ decks: [DeckId, DeckId]; seed: number; bout?: StartBout } | null>(null);
   const [mine, setMine] = useState<DeckId>('banner');
   const [rules, setRules] = useState(false);
-  const [screen, setScreen] = useState<'menu' | 'shop' | 'collection' | 'decks'>('menu');
+  const [screen, setScreen] = useState<'menu' | 'shop' | 'collection' | 'decks' | 'campaign'>('menu');
   // A pack opening interrupted by a refresh resumes where it left off.
   const [opening, setOpening] = useState<Pack[] | null>(() => getProfile().lastOpening);
   // The AI plays the other starter deck of the same set.
-  const other = (d: DeckId): DeckId => (Object.keys(DECKS) as DeckId[]).find((x) => x !== d && (DECKS[x].set ?? 1) === (DECKS[d].set ?? 1)) ?? d;
+  const other = (d: DeckId): DeckId => (STARTER_DECK_IDS as DeckId[]).find((x) => x !== d && (DECKS[x].set ?? 1) === (DECKS[d].set ?? 1)) ?? d;
 
   if (match) {
     return (
       <Stage>
         <Match key={match.seed} decks={match.decks} seed={match.seed} onExit={() => setMatch(null)}
-          onRematch={(swap) => setMatch({ decks: swap ? [match.decks[1], match.decks[0]] : match.decks, seed: newSeed() })} />
+          campaign={match.bout ? {
+            setup: match.bout.bout.crowning ? match.bout.bout.crowning[match.bout.difficulty].setup : match.bout.bout.setup,
+            objective: match.bout.bout.objective, rivalName: match.bout.bout.rival,
+            onResult: (won) => { if (won) clearBout(match.bout!.bout.id, match.bout!.bout.reward); },
+          } : undefined}
+          onRematch={(swap) => setMatch({ decks: swap && !match.bout ? [match.decks[1], match.decks[0]] : match.decks, seed: newSeed(), bout: match.bout })} />
       </Stage>
     );
   }
@@ -57,6 +65,7 @@ export function App() {
   if (opening) return <Stage><Opening packs={opening} onDone={() => { setOpening(null); setScreen('collection'); }} /></Stage>;
   if (screen === 'shop') return <Stage><Shop onBack={() => setScreen('menu')} onOpened={setOpening} /></Stage>;
   if (screen === 'collection') return <Stage><Collection onBack={() => setScreen('menu')} /></Stage>;
+  if (screen === 'campaign') return <Stage><Campaign onBack={() => setScreen('menu')} onStart={(b) => setMatch({ decks: ['banner', b.bout.crowning ? b.bout.crowning[b.difficulty].deck : b.bout.deck], seed: newSeed(), bout: b })} /></Stage>;
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   return (
     <Stage>
@@ -91,7 +100,7 @@ export function App() {
         <div className="setgroup" key={setNo}>
         <div className="setname"><span className="ribbon">⟶</span> {setName} <span className="ribbon">⟵</span></div>
         <div className="decks">
-          {(Object.keys(DECKS) as DeckId[]).filter((d) => (DECKS[d].set ?? 1) === setNo).map((d) => (
+          {(STARTER_DECK_IDS as DeckId[]).filter((d) => (DECKS[d].set ?? 1) === setNo).map((d) => (
             <button type="button" key={d} className={`deckpick ${mine === d ? 'on' : ''}`} style={{ ['--deck' as string]: DECKS[d].color, ['--acc' as string]: DECKS[d].accent }} onClick={() => setMine(d)}>
               <div className="dp-art" style={{ backgroundImage: `url(${artUrl(FACE[d][0], FACE[d][1])})` }} />
               <div className="dp-body"><b>{DECKS[d].name}</b><span>{DECKS[d].origins}</span><p>{DECKS[d].pitch}</p></div>
@@ -103,6 +112,7 @@ export function App() {
         ))}
         <div className="menu-actions">
           <button type="button" className="primary big" onClick={() => setMatch({ decks: [mine, other(mine)], seed: newSeed() })}><span aria-hidden="true">⚔</span> Play vs AI ({DECKS[other(mine)].name})</button>
+          <button type="button" className="secondary" onClick={() => setScreen('campaign')}><span aria-hidden="true">♛</span> Campaign</button>
           <button type="button" className="secondary" onClick={() => setRules(true)}><span aria-hidden="true">📖</span> How to play</button>
         </div>
         <ol className="intro-steps" aria-label="Turn steps">

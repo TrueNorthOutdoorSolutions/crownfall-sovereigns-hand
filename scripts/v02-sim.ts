@@ -3,11 +3,11 @@
 import { writeFileSync } from 'node:fs';
 import { cardsInZones, newGame, round } from '../src/v02/rules/engine';
 import { playOut } from '../src/v02/ai/bot';
-import { DECKS } from '../src/v02/content/cards';
+import { DECKS, STARTER_DECK_IDS } from '../src/v02/content/cards';
 import type { DeckId } from '../src/v02/content/cards';
 
 const N = Number(process.argv[2] ?? 1000);
-const ids = Object.keys(DECKS) as DeckId[];
+const ids = STARTER_DECK_IDS as DeckId[];
 const pct = (x: number, n: number) => Math.round((1000 * x) / n) / 10;
 const t0 = Date.now();
 let total = 0, conservationFailures = 0;

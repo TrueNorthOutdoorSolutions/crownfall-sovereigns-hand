@@ -474,6 +474,8 @@ export interface DeckDef {
   ascension: string[];
 }
 
+/** The playable starter decks (campaign and saved decks are also registered in DECKS at run time). */
+export const STARTER_DECK_IDS = ['banner', 'ember', 'vault', 'brood'];
 export const DECKS: Record<DeckId, DeckDef> = {
   banner: {
     name: 'Banner of the Realm', origins: 'Kingdom · Dawnforged', color: '#3d6fd8', accent: '#d9a92c',

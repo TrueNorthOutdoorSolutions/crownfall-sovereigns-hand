@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { CARDS, DECKS, isChampionCard, isEdictCard } from '../../content/cards';
+import { CARDS, DECKS, STARTER_DECK_IDS, isChampionCard, isEdictCard } from '../../content/cards';
 import type { Rarity } from '../../content/printings';
 import { ASCENSION_MAX, DECK_SIZE, checkDeck, fromStarter, registerDeck } from '../../economy/decks';
 import { RARITIES, RARITY_NAMES } from '../../economy/odds';
@@ -16,7 +16,7 @@ const KIND_NAMES: Record<Kind, string> = { champion: '★ Champions', ascension:
 const label = (id: string) => { const c = CARDS[id]; return isChampionCard(c) ? `${c.name} ${'★'.repeat(c.star)}` : c.name; };
 const costOf = (id: string) => (CARDS[id] as { cost: number }).cost;
 const newId = () => Math.random().toString(36).slice(2, 10);
-const OPPONENTS = Object.keys(DECKS).filter((d) => (DECKS[d].set ?? 1) === 1 && !d.startsWith('custom-'));
+const OPPONENTS = STARTER_DECK_IDS.filter((d) => (DECKS[d].set ?? 1) === 1);
 
 export function Decks({ onBack, onPlay }: { onBack: () => void; onPlay: (deckId: string, opponent: string) => void }) {
   const profile = useProfile();

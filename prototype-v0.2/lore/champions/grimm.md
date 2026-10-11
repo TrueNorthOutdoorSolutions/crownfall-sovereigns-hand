@@ -75,7 +75,7 @@ Grimm speaks like a soldier giving a report: short, clear, faintly weary, always
 
 In Act II Grimm becomes **The Last Sentry**, a **Sentinel**. [canon scene] He is found "still guarding a forgotten armoury deep under the Arena, centuries after the war."
 
-[PROPOSED] When the Sovereigns' champions first break into the vaults below the Crownfall, they find a skeleton in dented plate, standing at a door that leads to an armoury nobody has opened in three hundred years. It is Grimm. Or rather, it is the part of Grimm that never stopped standing there; the champion in the Arena above had no idea he had left himself behind on duty. The two halves meet, and the sentry asks the champion for the password. The champion does not know it either.
+[PROPOSED] When the Sovereigns' champions break into the vaults below the Crownfall, they find a door to an armoury nobody has opened in three hundred years, and Grimm already standing in front of it. Nobody sent him. He says he heard there was an old post down here with no one on it, and that was reason enough. He asks every champion who comes down the stair for the password. Nobody knows it. He lets them pass anyway, slowly, after a long look.
 
 His Set 2 ability, **Last Watch**, makes rival champions weaker when they attack your Crown: Grimm on guard makes anyone think twice. When he finally falls at his fullest, two Risen Soldiers step up to take his place, because a good sentry never leaves a post empty. **Bulwark** stays with him in every form. Grimm has always been a wall.
 

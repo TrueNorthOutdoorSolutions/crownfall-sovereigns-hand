@@ -1,6 +1,6 @@
 // Balance bench: how does one deck (optionally modified) do against every other starter deck?
 // Usage: npx tsx scripts/v02-tune.ts <deckId> [gamesPerPairing=300] [variant JSON: {"swap":[["out","in",n]],"main":[...]}]
-import { DECKS } from '../src/v02/content/cards';
+import { DECKS, STARTER_DECK_IDS } from '../src/v02/content/cards';
 import type { DeckId } from '../src/v02/content/cards';
 import { newGame } from '../src/v02/rules/engine';
 import { playOut } from '../src/v02/ai/bot';
@@ -22,7 +22,7 @@ const total = DECKS[deck].main.reduce((a, [, n]) => a + n, 0);
 if (total !== 30) throw new Error(`deck has ${total} cards`);
 const rows: [string, number][] = [];
 let seed = 90000;
-for (const opp of Object.keys(DECKS) as DeckId[]) {
+for (const opp of STARTER_DECK_IDS as DeckId[]) {
   if (opp === deck || opp.startsWith('custom-')) continue;
   let wins = 0;
   for (let k = 0; k < N; k++) {

@@ -12,6 +12,9 @@ import { humanize } from './text';
 import { AscendFx } from './AscendFx';
 import type { AscendMoment } from './AscendFx';
 import { rewardMatch } from '../economy/profile';
+import { applySetup, judge } from '../campaign/setup';
+import type { Verdict } from '../campaign/setup';
+import type { BoutSetup, Objective } from '../campaign/act1';
 
 const ME: PlayerIndex = 0;
 const AI: PlayerIndex = 1;
@@ -35,8 +38,19 @@ function phaseHint(s: GameState): string {
   return 'After battle: you may Ascend a champion that was here when your turn began (even if it attacked). Then end your turn.';
 }
 
-export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, DeckId]; seed: number; onExit: () => void; onRematch: (swap: boolean) => void }) {
-  const [game, setGame] = useState<GameState>(() => newGame({ seed, decks }));
+export interface CampaignHooks { setup?: BoutSetup; objective: Objective; rivalName: string; onResult: (won: boolean) => void }
+export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [DeckId, DeckId]; seed: number; onExit: () => void; onRematch: (swap: boolean) => void; campaign?: CampaignHooks }) {
+  const [game, setGame] = useState<GameState>(() => applySetup(newGame({ seed, decks }), campaign?.setup));
+  const [verdict, setVerdict] = useState<Verdict>({ done: false });
+  // Campaign objectives: judged after every change; a met survive goal ends the match as a win.
+  useEffect(() => {
+    if (!campaign || verdict.done) return;
+    const v = judge(game, campaign.objective);
+    if (!v.done) return;
+    setVerdict(v);
+    campaign.onResult(v.won);
+    if (game.phase !== 'over') setGame({ ...game, phase: 'over', winner: 0, endReason: v.reason, pending: null, combat: null });
+  }, [game, campaign, verdict.done]);
   const ready = true;
   const [selected, setSelected] = useState<number | null>(null);
   const [inspect, setInspect] = useState<Inspect>(null);
@@ -165,7 +179,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
       <div className="arena-bg" />
       {/* ── Rival bar ── */}
       <div className="pbar rival">
-        <div className="who"><b>Rival · AI</b><span>{DECKS[them.deckId].name}</span></div>
+        <div className="who"><b>{campaign ? campaign.rivalName : 'Rival · AI'}</b><span>{DECKS[them.deckId].name}</span></div>
         <Crown count={them.crown.length} onClick={attackCrown} targetable={!!canAttackSel} label="Rival Crown" />
         <div className="pstats">
           <Stat label="Command" value={`${them.command}/${them.commandMax}`} />
@@ -295,7 +309,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
       )}
       {view && <PileView game={game} view={view} onClose={() => setView(null)} />}
       {showRules && <RulesModal onClose={() => setShowRules(false)} />}
-      {game.phase === 'over' && <Results game={game} onRematch={onRematch} onExit={onExit} />}
+      {game.phase === 'over' && <Results game={game} onRematch={onRematch} onExit={onExit} campaign={campaign ? verdict : undefined} />}
     </div>
   );
 }
@@ -532,16 +546,16 @@ function rewardOnce(seed: number, won: boolean) {
   return rewarded.get(seed)!;
 }
 
-function Results({ game, onRematch, onExit }: { game: GameState; onRematch: (swap: boolean) => void; onExit: () => void }) {
-  const won = game.winner === ME;
+function Results({ game, onRematch, onExit, campaign }: { game: GameState; onRematch: (swap: boolean) => void; onExit: () => void; campaign?: Verdict }) {
+  const won = campaign?.done ? campaign.won : game.winner === ME;
   const reason = humanize(game.endReason ?? '');
   const lastClashes = game.log.filter((e) => e.kind === 'shard' || e.kind === 'ascend' || e.kind === 'scheme').slice(-5);
-  const [reward] = useState(() => rewardOnce(game.seed, won));
+  const [reward] = useState(() => (campaign ? null : rewardOnce(game.seed, won)));
   return (
     <div className="overlay results">
       <div className={`modal ${won ? 'victory' : 'defeat'}`}>
         <h1>{won ? 'Victory' : 'Defeat'}</h1>
-        <p className="lead">{reason}</p>
+        <p className="lead">{campaign?.done ? campaign.reason : reason}</p>
         <div className="res-stats">
           <div><b>{round(game)}</b><span>rounds</span></div>
           <div><b>{game.stats.shardsBroken[ME]}</b><span>shards you broke</span></div>
@@ -553,9 +567,14 @@ function Results({ game, onRematch, onExit }: { game: GameState; onRematch: (swa
         <h3>How it ended</h3>
         <ol className="res-log">{lastClashes.map((e) => <li key={e.n}>{humanize(e.text)}</li>)}</ol>
         <div className="btnrow center">
-          <button type="button" className="primary big" onClick={() => onRematch(false)}>Rematch</button>
-          <button type="button" className="secondary" onClick={() => onRematch(true)}>Rematch with decks swapped</button>
-          <button type="button" className="secondary" onClick={onExit}>Menu</button>
+          {campaign ? <>
+            <button type="button" className="primary big" onClick={onExit}>{won ? 'Continue' : 'Back to the campaign'}</button>
+            <button type="button" className="secondary" onClick={() => onRematch(false)}>Retry Bout</button>
+          </> : <>
+            <button type="button" className="primary big" onClick={() => onRematch(false)}>Rematch</button>
+            <button type="button" className="secondary" onClick={() => onRematch(true)}>Rematch with decks swapped</button>
+            <button type="button" className="secondary" onClick={onExit}>Menu</button>
+          </>}
         </div>
         <p className="note">Seed {game.seed} · rules {game.rulesVersion}</p>
       </div>

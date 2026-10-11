@@ -88,3 +88,10 @@ This is how the Masterwork and Omega art debuts in game: the player first sees i
 ## 8. Mysteries that stay unanswered
 
 From Crownfall's prologue canon: the true nature of the Crown; the full truth of the Crownfall and who built it; the Unwritten King and Crownless; Mother Verdant's ancient knowledge; Aurex and the dragons; Noctara and the Nothing; who built ATLAS-Ω before; Sol and the First Light; Veyra Sol and other realities; the true purpose of Ascension; who the announcer is.
+
+## 9. Decisions (Jerian, 2026-10-11)
+
+- All proposed place names in the champion lore are approved (Dawn Temple, Dawn Wardens, Mount Kharr, the Tidelands, Sszar's desert, the Brasslands, the Hexmire, the Gullet, the Buried Fields).
+- The belief that "the Crown is the first sunrise, stolen" belongs to **Solara** and the Dawn Wardens (as in the game data). Crownfall's PROLOGUE_CANON.md says "Elara's order"; that note should be corrected in Crownfall when convenient (not edited from here).
+- Bolt, HEX-3 and Zyrak are "it" unless canon later says otherwise.
+- Grimm in Set 2 is simply Grimm, guarding the old armoury post (no second Grimm).
