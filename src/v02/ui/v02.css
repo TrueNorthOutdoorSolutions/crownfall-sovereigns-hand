@@ -355,3 +355,55 @@ a { color: var(--gold) }
 .tk-live:not(.up):not(.down) { visibility: hidden }
 .tk-shield-printed { position: absolute; top: 26%; left: 50%; transform: translateX(-50%); z-index: 3 }
 .tk-relic-printed { top: auto; bottom: 26%; z-index: 3 }
+
+
+/* ---------- Intro screen (owner mockup, 2026-10-11) ---------- */
+.menu.intro { padding-top: 26px; gap: 10px }
+.menu.intro .menu-bg { filter: saturate(1.05) brightness(.62) }
+.intro-frame { position: absolute; inset: 10px; border: 2px solid rgba(201,162,74,.75); border-radius: 14px; pointer-events: none; z-index: 1;
+  box-shadow: inset 0 0 0 6px rgba(12,10,16,.55), inset 0 0 0 7px rgba(201,162,74,.35), inset 0 0 60px rgba(0,0,0,.55) }
+.intro-frame::before, .intro-frame::after { content: '◆'; position: absolute; top: -12px; color: #f2d58a; font-size: 18px; text-shadow: 0 0 10px rgba(242,213,138,.7) }
+.intro-frame::before { left: 22px } .intro-frame::after { right: 22px }
+.intro-brand { position: absolute; top: 26px; left: 44px; z-index: 2; font-family: var(--display); font-size: 26px; letter-spacing: .3em; text-transform: uppercase; color: #f2d58a; text-shadow: 0 2px 6px #000 }
+.menu.intro .menu-wallet { top: 24px; right: 34px; z-index: 3 }
+.menu.intro .title { z-index: 2 }
+.menu.intro .studio { font-family: var(--display); font-size: 15px; letter-spacing: .32em; color: #f2d58a; display: inline-flex; align-items: center; gap: 14px; padding: 6px 22px; border-top: 1px solid rgba(201,162,74,.6); border-bottom: 1px solid rgba(201,162,74,.6); background: linear-gradient(90deg, transparent, rgba(12,10,16,.75) 20%, rgba(12,10,16,.75) 80%, transparent) }
+.ribbon { color: rgba(242,213,138,.75); letter-spacing: 0 }
+.title-crown { font-size: 64px; line-height: 1; margin-top: 4px; color: #f2c95a; text-shadow: 0 0 22px rgba(255,200,90,.65), 0 3px 0 #6b4b10 }
+.menu.intro .title h1 { font-size: 98px; margin: -6px 0 0; background: linear-gradient(180deg, #fff1bf 0%, #f2c95a 45%, #b9861f 75%, #f6dd8f 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 4px 0 #3b2a0c) drop-shadow(0 0 24px rgba(240,201,90,.35)) }
+.menu.intro .sub { font-family: var(--display); font-size: 17px; letter-spacing: .22em; text-transform: uppercase; color: #f2d58a; opacity: 1 }
+.menu.intro .goal { font-size: 18px; z-index: 2 }
+.menu.intro .setname { font-family: var(--display); font-size: 15px; letter-spacing: .22em; color: #f2d58a; display: flex; gap: 12px; align-items: center }
+.menu.intro .setgroup { z-index: 2; gap: 6px }
+.menu.intro .deckpick { border: 2px solid rgba(201,162,74,.8); background: linear-gradient(180deg, rgba(14,18,24,.92), rgba(10,10,16,.95)); border-radius: 8px;
+  box-shadow: inset 0 0 0 4px rgba(10,10,16,.9), inset 0 0 0 5px rgba(201,162,74,.35), 0 8px 26px rgba(0,0,0,.55) }
+.menu.intro .deckpick.on { border-color: #f6dd8f; box-shadow: inset 0 0 0 4px rgba(10,10,16,.9), inset 0 0 0 5px rgba(242,213,138,.6), 0 0 26px rgba(242,201,90,.45) }
+.menu.intro .dp-body b { color: #f6e3a8; font-size: 22px; text-transform: uppercase; letter-spacing: .03em }
+.menu.intro .dp-tag { background: linear-gradient(180deg, #f6d977, #c9982d); color: #1a1206; left: 50%; right: auto; transform: translateX(-50%); bottom: 8px; padding: 3px 18px; border-radius: 4px }
+.menu.intro .menu-actions { z-index: 2; margin-top: 4px }
+.menu.intro .primary.big { font-size: 22px; padding: 14px 44px; border-radius: 4px; display: inline-flex; gap: 12px; align-items: center; box-shadow: 0 0 0 2px rgba(255,233,168,.6), 0 6px 26px rgba(240,201,90,.35) }
+.menu.intro .secondary { padding: 12px 22px; border-radius: 4px; display: inline-flex; gap: 10px; align-items: center; font-family: var(--display) }
+.intro-steps { position: absolute; bottom: 52px; left: 50%; transform: translateX(-50%); z-index: 2; display: flex; align-items: center; gap: 4px; margin: 0; padding: 10px 26px; list-style: none;
+  font-family: var(--display); font-size: 15px; letter-spacing: .14em; text-transform: uppercase; color: #f2d58a; background: linear-gradient(90deg, transparent, rgba(10,10,16,.82) 12%, rgba(10,10,16,.82) 88%, transparent);
+  border-top: 1px solid rgba(201,162,74,.5); border-bottom: 1px solid rgba(201,162,74,.5) }
+.intro-steps li { display: flex; align-items: center; gap: 8px }
+.intro-steps i { font-style: normal; font-size: 20px; color: #f2c95a }
+.intro-steps .arrow { margin: 0 14px; opacity: .7 }
+.intro-studio { position: absolute; right: 34px; bottom: 24px; z-index: 2; display: flex; flex-direction: column; align-items: center; font-size: 12px; color: #fff; text-shadow: 0 1px 3px #000 }
+.intro-studio span { font-size: 26px; line-height: 1 }
+.menu.intro .menu-foot { z-index: 2; bottom: 22px }
+/* intro: fit everything above the turn strip */
+.menu.intro { gap: 6px; padding-top: 20px }
+.title-crown { font-size: 52px }
+.menu.intro .title h1 { font-size: 84px }
+.menu.intro .goal { font-size: 17px; line-height: 1.4 }
+.menu.intro .setgroup .deckpick { min-height: 128px }
+.menu.intro .setgroup .dp-body { padding: 12px 16px }
+.menu.intro .setgroup .dp-body p { font-size: 13.5px; margin-top: 4px }
+.intro-steps { bottom: 46px; padding: 8px 26px; font-size: 14px }
+.menu.intro .menu-foot { bottom: 18px }
+.menu.intro .studio { letter-spacing: .24em; padding: 5px 14px; font-size: 14px }
+.menu.intro .deckpick.on .dp-body { padding-bottom: 34px }
+.menu.intro .deckpick.on .dp-body p { -webkit-line-clamp: 3; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden }
+.menu.intro .studio { letter-spacing: .16em; font-size: 13px; gap: 8px }

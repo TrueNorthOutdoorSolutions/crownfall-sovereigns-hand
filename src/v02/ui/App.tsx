@@ -60,18 +60,21 @@ export function App() {
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   return (
     <Stage>
-      <div className="menu">
+      <div className="menu intro">
+        <div className="intro-frame" aria-hidden="true" />
+        <div className="intro-brand">Crownfall</div>
         <div className="menu-wallet"><Wallet /><button type="button" className="btn gold" onClick={() => setScreen('shop')}>Shop</button><button type="button" className="btn" onClick={() => setScreen('collection')}>Collection</button><button type="button" className="btn" onClick={() => setScreen('decks')}>Decks</button></div>
         <div className="arena-bg menu-bg" />
         <header className="title">
-          <div className="studio">Northern Summit Studios · Crownfall</div>
+          <div className="studio"><span className="ribbon">⟶</span> Northern Summit Studios <span className="ribbon">⟵</span></div>
+          <div className="title-crown" aria-hidden="true">♛</div>
           <h1>Sovereign's Hand</h1>
           <div className="sub">Two sets · four starter decks · playable prototype V0.2</div>
         </header>
         <p className="goal">Break all five of your rival's <b>Crown Shards</b>. Deploy champions, Ascend them from ★ to ★★★, and strike — but every champion that attacks can't guard your Crown.</p>
         {SETS.map(([setNo, setName]) => (
         <div className="setgroup" key={setNo}>
-        <div className="setname">{setName}</div>
+        <div className="setname"><span className="ribbon">⟶</span> {setName} <span className="ribbon">⟵</span></div>
         <div className="decks">
           {(Object.keys(DECKS) as DeckId[]).filter((d) => (DECKS[d].set ?? 1) === setNo).map((d) => (
             <button type="button" key={d} className={`deckpick ${mine === d ? 'on' : ''}`} style={{ ['--deck' as string]: DECKS[d].color, ['--acc' as string]: DECKS[d].accent }} onClick={() => setMine(d)}>
@@ -84,9 +87,15 @@ export function App() {
         </div>
         ))}
         <div className="menu-actions">
-          <button type="button" className="primary big" onClick={() => setMatch({ decks: [mine, other(mine)], seed: newSeed() })}>Play vs AI ({DECKS[other(mine)].name})</button>
-          <button type="button" className="secondary" onClick={() => setRules(true)}>How to play</button>
+          <button type="button" className="primary big" onClick={() => setMatch({ decks: [mine, other(mine)], seed: newSeed() })}><span aria-hidden="true">⚔</span> Play vs AI ({DECKS[other(mine)].name})</button>
+          <button type="button" className="secondary" onClick={() => setRules(true)}><span aria-hidden="true">📖</span> How to play</button>
         </div>
+        <ol className="intro-steps" aria-label="Turn steps">
+          {[['⧗', 'Ready'], ['🂠', 'Draw'], ['☀', 'Main'], ['⚔', 'Battle'], ['⚑', 'End']].map(([icon, label], i) => (
+            <li key={label}>{i > 0 && <span className="arrow" aria-hidden="true">⟶</span>}<i aria-hidden="true">{icon}</i>{label}</li>
+          ))}
+        </ol>
+        <div className="intro-studio" aria-hidden="true"><span>⛰</span>Northern Summit Studios</div>
         <footer className="menu-foot">Prototype for playtesting only · rules {RULES_VERSION} · same rules as the printed kit · <a href={`${import.meta.env.BASE_URL}v0.1.html`}>V0.1 archive</a></footer>
         {rules && <RulesModal onClose={() => setRules(false)} />}
       </div>
