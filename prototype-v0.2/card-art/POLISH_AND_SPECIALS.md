@@ -22,6 +22,7 @@ Every sheet below was approved because the text and numbers are correct, but eac
 | 214 Apex Ascension | Flavour quote overlaps the bottom crest slightly. |
 | 046–048 Gearwick-9, 100–102 Captain Blacktide | Artillerist icon must change to the new orange-red crosshair (was a yellow sunburst, too close to Arcanist). |
 | 267 Captain Blacktide (Alt Art) | Treasure map is see-through (make it solid parchment); Artillerist icon → orange-red crosshair. |
+| 282 ATLAS-Ω, 284 The Unwritten King (Alt Art) | Bottom rules line runs into the Might shield (tight text box). |
 | All | Check each card's text box spacing, icon colours and band text size against the locked templates. |
 
 ## 2. Special printings (ideas to keep, design later)
