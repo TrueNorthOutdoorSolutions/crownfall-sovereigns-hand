@@ -150,8 +150,10 @@ def main():
                        key=lambda n: (0 if n.startswith("Reference") else 1, n))
         extras = [Image.open(os.path.join(extra_dir, n)).convert("RGB").resize((CARD_W, CARD_H), Image.LANCZOS) for n in names]
         if extras:
-            save_pdf([page(extras[i:i + 9], label="Inserts and tokens · print at 100% (Actual size)") for i in range(0, len(extras), 9)],
-                     os.path.join(out, f"Set {set_no} Inserts and Tokens.pdf"))
+            extra_pages = [page(extras[i:i + 9], label="Inserts and tokens · print at 100% (Actual size)") for i in range(0, len(extras), 9)]
+            save_pdf(extra_pages, os.path.join(out, f"Set {set_no} Inserts and Tokens.pdf"))
+            # The master file holds everything: the numbered cards first, then the inserts and tokens.
+            save_pdf(pages + extra_pages, os.path.join(out, f"Set {set_no} Card Fronts.pdf"))
             print(f"Inserts and tokens: {len(extras)} cards ({', '.join(n[:-4] for n in names)})")
 
     missing = [n for n in range(1, total + 1) if n not in cards]
