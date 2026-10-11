@@ -86,9 +86,9 @@ function status(id) {
 
 /** How a Set 2 redesign grows across its three forms. */
 const STAR_STEP = {
-  1: '★ form: the new design at its simplest, smaller and lightly equipped.',
-  2: '★★ form: the same new design, bigger and better equipped, its class gear upgraded and glowing.',
-  3: '★★★ form: the same new design at full power, dramatic scale, its signature effect filling the scene.',
+  1: 'Same pose idea at ★ scale.',
+  2: 'Same pose idea, bigger and more powerful at ★★.',
+  3: 'Same pose idea at full ★★★ power: dramatic scale, the action filling the scene.',
 };
 
 function build(set) {
@@ -104,7 +104,8 @@ function build(set) {
     for (const f of l.forms) {
       const id = f.star === 1 ? base : `${base}-${f.star}`;
       if (!CARDS[id]) throw new Error(`missing card ${id}`);
-      const [flavour, flavourSource] = flavourFor(cc, f.star, set);
+      const own = l.flavour?.[f.star];
+      const [flavour, flavourSource] = own ? [own, 'PROPOSED Set 2 line (differs from Set 1)'] : flavourFor(cc, f.star, set);
       rows.push({
         no: nextNo(), id, section: 'Champions', name: l.name, title: l.title + (l.epithetProposed ? ' (PROPOSED epithet)' : ''), form: stars(f.star),
         type: f.star === 1 ? 'Champion' : 'Ascension', status: status(id), tier: `Tier ${ROMAN[l.tier]} · ${l.rarity ? cap(l.rarity) : cc.tierName}`,
@@ -113,9 +114,9 @@ function build(set) {
         keywords: f.keywords.join(', '), ability: f.text ? f.ability ?? '' : '', text: f.text, crown: f.star === 3 ? 'Breaks 2 shards' : '',
         flavour, flavourSource,
         art: set === 1 ? cc[`star${f.star}`] : l.look
-          ? `SET 2 REDESIGN (do not copy the Set 1 card art): ${l.look}. ${STAR_STEP[f.star]} Scene: ${l.scene}`
+          ? `SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): ${cc[`star${f.star}`]} NEW pose and action, never the Set 1 pose or composition: ${l.look}. ${STAR_STEP[f.star]} Show the class through the action; no extra costume props. Darker underground lighting.`
           : `${l.scene} Canon look for this form: ${cc[`star${f.star}`]}`,
-        artSource: set === 1 ? `Crownfall star ${f.star} description` : l.look ? 'PROPOSED Set 2 redesign + scene' : 'PROPOSED Set 2 scene + Crownfall star-form description',
+        artSource: set === 1 ? `Crownfall star ${f.star} description` : l.look ? 'Crownfall star-form look + PROPOSED Set 2 pose' : 'PROPOSED Set 2 scene + Crownfall star-form description',
         file: `set${set}/champions/${l.canonId}/star_${f.star}.png`,
       });
     }

@@ -1,6 +1,6 @@
 Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
 
-References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: brand-new artwork, NOT a repaint of the Set 1 cards. Same character (recognisable species and identity) in a completely new design, outfit, pose and colour palette, set in the vaults, tunnels, forges and sunken halls beneath the Arena: darker, moodier underground lighting, teal and violet glow, amber lantern and forge light, deep shadows, rim light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep the character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition, never the Set 1 one. Show the new class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
 Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
 Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
 Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
@@ -24,7 +24,7 @@ Flavour: “Before anything, there was me.”
 Crown 2: none
 Might | Guard: 5 | 7
 Footer: 151/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 REDESIGN (do not copy the Set 1 card art): a radiant restorer, a second sun rising inside a cavern, warm light mending stone and people; palette white gold, warm orange, rose. ★ form: the new design at its simplest, smaller and lightly equipped. Scene: The first light rising inside the deepest cavern, turning the dark to gold.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The first light given a body. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-152 (152)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -45,7 +45,7 @@ Flavour: “The light endures.”
 Crown 2: none
 Might | Guard: 8 | 10
 Footer: 152/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 REDESIGN (do not copy the Set 1 card art): a radiant restorer, a second sun rising inside a cavern, warm light mending stone and people; palette white gold, warm orange, rose. ★★ form: the same new design, bigger and better equipped, its class gear upgraded and glowing. Scene: The first light rising inside the deepest cavern, turning the dark to gold.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A corona and four wings of light. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-153 (153)
 Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
@@ -63,11 +63,11 @@ Text box, line by line:
 4. **Ascend:** Mend 1.
 5. Shield each champion you control.
 6. Your champions get +2 Might this turn.
-Flavour: “Let there be DAWN!”
+Flavour: “A second dawn, beneath the world.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 13
 Footer: 153/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 REDESIGN (do not copy the Set 1 card art): a radiant restorer, a second sun rising inside a cavern, warm light mending stone and people; palette white gold, warm orange, rose. ★★★ form: the same new design at full power, dramatic scale, its signature effect filling the scene. Scene: The first light rising inside the deepest cavern, turning the dark to gold.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A miniature sun hangs above the arena. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
