@@ -54,7 +54,7 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Kingdom | blue crown |
 | Hexbound | purple star outline |
 | Bruiser | orange fist |
-| Artillerist | yellow sunburst |
+| Artillerist | orange-red crosshair target (changed 2026-10-10 so it never looks like Arcanist) |
 | Astral | blue four-pointed sparkle |
 | Summoner | green four-leaf clover |
 | Riftborn | pink diamond-in-a-diamond |

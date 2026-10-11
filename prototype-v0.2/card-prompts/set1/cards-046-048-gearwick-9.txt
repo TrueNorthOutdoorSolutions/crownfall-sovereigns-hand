@@ -14,7 +14,7 @@ Title: Siege Calculator
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
+Trait icons: Gearbound: gold gear; Artillerist: orange-red crosshair target (changed 2026-10-10 so it never looks like Arcanist)
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -33,7 +33,7 @@ Title: Siege Calculator
 Stars: ★★
 Ascension band: ASCENSION • from Gearwick-9 ★
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
+Trait icons: Gearbound: gold gear; Artillerist: orange-red crosshair target (changed 2026-10-10 so it never looks like Arcanist)
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
@@ -53,7 +53,7 @@ Title: Siege Calculator
 Stars: ★★★
 Ascension band: ASCENSION • from Gearwick-9 ★★
 Origin | Class | Tier: Gearbound | Artillerist | TIER II
-Trait icons: Gearbound: gold gear; Artillerist: yellow sunburst
+Trait icons: Gearbound: gold gear; Artillerist: orange-red crosshair target (changed 2026-10-10 so it never looks like Arcanist)
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*

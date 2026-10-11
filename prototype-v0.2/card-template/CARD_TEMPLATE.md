@@ -50,7 +50,7 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Kingdom | blue crown |
 | Hexbound | purple star outline |
 | Bruiser | orange fist |
-| Artillerist | yellow sunburst |
+| Artillerist | orange-red crosshair target (changed 2026-10-10 so it never looks like Arcanist) |
 | Astral | blue four-pointed sparkle |
 | Summoner | green four-leaf clover |
 | Riftborn | pink diamond-in-a-diamond |
