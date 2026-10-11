@@ -69,42 +69,48 @@ export function App() {
   if (screen === 'campaign') return <Stage><Campaign onBack={() => setScreen('menu')} onStart={(b) => setMatch({ decks: [b.playerDeck, b.bout.crowning ? b.bout.crowning[b.difficulty].deck : b.bout.deck], seed: newSeed(), bout: b })} /></Stage>;
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   if (screen === 'menu') {
-    const tile = (label: string, icon: string, go?: () => void) => (
-      <button type="button" className="home-tile" onClick={go ?? (() => setSoon(label))}><span aria-hidden="true">{icon}</span>{label}</button>
+    const img = (n: string) => `url(${import.meta.env.BASE_URL}v02/home-${n}.webp)`;
+    const tile = (label: string, icon: string, go?: () => void, badge?: boolean) => (
+      <button type="button" className="home-tile" onClick={go ?? (() => setSoon(label))}><span aria-hidden="true">{icon}</span>{label}{badge && <i className="home-badge" aria-hidden="true">!</i>}</button>
     );
     return (
       <Stage>
         <div className="home">
           <div className="arena-bg menu-bg" />
           <div className="intro-frame" aria-hidden="true" />
-          <div className="menu-wallet"><Wallet /><button type="button" className="btn gold" onClick={() => setScreen('shop')}>Shop</button></div>
+          <div className="home-plaque">Crownfall</div>
+          <div className="menu-wallet"><Wallet /><button type="button" className="btn gold" onClick={() => setScreen('shop')}>🛒 Shop</button></div>
           <header className="title home-title">
-            <div className="home-brand"><span className="ribbon">⟶</span> Crownfall <span className="ribbon">⟵</span></div>
             <TitleCrown />
             <h1>Sovereign's Hand</h1>
-            <div className="home-tag"><span className="ribbon">⟶</span> Command · Outplay · Ascend <span className="ribbon">⟵</span></div>
+            <div className="home-tag"><span>◆</span> Command · Outplay · Ascend <span>◆</span></div>
           </header>
           <div className="home-modes">
-            <button type="button" className="home-mode glow" onClick={() => setScreen('campaign')}>
-              <span className="hm-art" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}v02/home-campaign.webp)` }} />
-              <span className="hm-text"><b>Campaign</b><small>Forge your deck. Command your champions. Uncover the truth behind the Crown.</small></span>
+            <button type="button" className="home-mode" onClick={() => setScreen('campaign')}>
+              <span className="hm-art" style={{ backgroundImage: img('campaign') }} />
+              <span className="hm-text"><b>Campaign</b><small>Forge your deck. Command your champions.<br />Uncover the truth behind the Crown.</small><span className="hm-btn">Continue <em>›</em></span></span>
             </button>
             <button type="button" className="home-mode" onClick={() => setScreen('arena')}>
-              <span className="hm-art" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}v02/home-arena.webp)` }} />
-              <span className="hm-text"><b>Arena of Ascension</b><small>Test your deck. Climb the ranks. Prove your mastery.</small></span>
+              <span className="hm-art" style={{ backgroundImage: img('ai') }} />
+              <span className="hm-text"><b>Play vs AI</b><small>Choose a deck. Face powerful rivals.<br />Hone your strategy and master your champions.</small><span className="hm-btn"><em>⚔</em> Play Battle <em>›</em></span></span>
+            </button>
+            <button type="button" className="home-mode wide" onClick={() => setSoon('Arena of Ascension')}>
+              <span className="hm-art" style={{ backgroundImage: img('arena') }} />
+              <span className="hm-text"><b>Arena of Ascension</b><small>Compete against other players.<br />Build, adapt, and claim the Crown.</small><span className="hm-btn dark"><em>👥</em> Enter Arena <em>›</em></span></span>
             </button>
           </div>
           <nav className="home-tiles">
             {tile('Collection', '🂡', () => setScreen('collection'))}
             {tile('Decks', '🂠', () => setScreen('decks'))}
             {tile('Codex', '📖')}
-            {tile('Challenges', '🏆')}
+            {tile('Challenges', '🏆', undefined, true)}
+            {tile('Achievements', '🛡')}
+            {tile('Shop', '🛒', () => setScreen('shop'))}
             {tile('Settings', '⚙')}
           </nav>
           <button type="button" className="home-howto" onClick={() => setRules(true)}>How to play</button>
-          <div className="intro-studio" aria-hidden="true"><span>⛰</span>Northern Summit Studios</div>
           {rules && <RulesModal onClose={() => setRules(false)} />}
-          {soon && <div className="modal-back" onClick={() => setSoon(null)}><div className="soon" role="dialog">{soon}<small>Coming soon.</small><button type="button" className="btn gold" onClick={() => setSoon(null)}>OK</button></div></div>}
+          {soon && <div className="modal-back" onClick={() => setSoon(null)}><div className="soon" role="dialog">{soon}<small>{soon === 'Arena of Ascension' ? 'Online play against other players is coming soon.' : 'Coming soon.'}</small><button type="button" className="btn gold" onClick={() => setSoon(null)}>OK</button></div></div>}
         </div>
       </Stage>
     );
@@ -136,7 +142,7 @@ export function App() {
             <circle cx="42" cy="13" r="3.4" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
             <circle cx="78" cy="13" r="3.4" fill="#fff3c4" stroke="#5a3a08" strokeWidth="1.5" />
           </svg>
-          <h1>Arena of Ascension</h1>
+          <h1>Play vs AI</h1>
           <div className="sub">Choose your deck · face the AI</div>
         </header>
         <p className="goal">Break all five of your rival's <b>Crown Shards</b>. Deploy champions, Ascend them from ★ to ★★★, and strike — but every champion that attacks can't guard your Crown.</p>
