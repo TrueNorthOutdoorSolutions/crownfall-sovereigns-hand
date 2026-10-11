@@ -222,7 +222,7 @@ const SCENES: Record<string, [string, string, string]> = {
     'high angle looking down a grand stair into a vault: Grimm alone on the bottom step holding the line against a tide of shadowy invaders, spectral light pouring from his ribs and banner, the treasure door glowing amber behind him',
   ],
   pip: [
-    'fish-eye view from inside a mine tunnel as Pip lights a fuse with a grin, her face lit orange by the spark, the tunnel stretching away into cool blue darkness behind her',
+    'fish-eye view from inside a mine tunnel as Pip lights a fuse with a grin, his face lit orange by the spark, the tunnel stretching away into cool blue darkness behind him',
     'side-on action shot: Pip leaping away from a wall at the moment it blows apart, debris and dust filling the frame, warm blast light against a cold blue tunnel',
     'aerial view straight down into a huge cavern: Pip on a ledge at the edge of a massive blast crater she has just made, a crowd of tiny figures staring up, dust clouds rolling outward in rings, warm firelight in the crater',
   ],
@@ -381,7 +381,7 @@ export const SET2_LINES: ChampionLine[] = [
     f(2, 1, 4, ['Bulwark'], ''),
     f(0, 4, 7, ['Bulwark'], ward1Text, { statics: { crownWard: 1 } }),
     f(1, 7, 10, ['Bulwark'], `${ward1Text} When Grimm is defeated, Summon two Risen Soldiers.`, { statics: { crownWard: 1 }, defeated: [summon('skeleton', 2)] }), 'common'),
-  back('pip', 'Pip', 'Tunnel Blaster', 1, ['gearbound'], ['sapper'], 'Lighting a fuse in a narrow mine tunnel, grinning, barrels stacked behind her.',
+  back('pip', 'Pip', 'Tunnel Blaster', 1, ['gearbound'], ['sapper'], 'Lighting a fuse in a narrow mine tunnel, grinning, barrels stacked behind him.',
     f(1, 2, 1, [], 'Arrival: Break a rival champion’s Relic.', { arrive: [breakRelic] }),
     f(0, 5, 4, [], 'Attack: Scorch 1 each rival champion.', { attack: [scAll(1)] }),
     f(1, 8, 7, [], 'Ascend: Scorch 2 each rival champion. Break a rival champion’s Relic.', { ascend: [scAll(2), breakRelic] }), 'common'),
