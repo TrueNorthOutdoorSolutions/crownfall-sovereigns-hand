@@ -130,3 +130,7 @@ Reference: `edict-template.jpg` (right-hand card, 243 Crown's Bounty). Same fram
 Reference: `token-template.jpg` (cards T01 Starling, T02 Arc Turret; left card is Reference B). Champion frame with: GREY hexagon reading "TOKEN" instead of a cost; no stars; grey laurel band "TOKEN • Vanishes when defeated"; trait bar left "Summoned by <card>", right grey "TOKEN" label; keyword chip + reminder only (no flavour); Might/Guard shields; footer `T##/T08 · Northern Summit Studios · Art: Jerian Latawiec`.
 
 Reference inserts (A Keywords, B Effects & Timing): no gem, no stars, no number, short art strip, tall parchment glossary panel, footer "Reference A/B · Northern Summit Studios".
+
+## Alternate Art template (LOCKED 2026-10-10)
+
+Reference: `alt-art-template.jpg` (249 Bramble, 250 Grimm, 251 Pip). Identical to the base card's template (champion, spell, Edict) in every text, gem, stat, band and icon, with: an ornate GOLD FILIGREE border instead of green vines; footer `###/248 · AA · Northern Summit Studios · Art: Jerian Latawiec`; a small gold "ALTERNATE ART" tag under the footer; a NEW illustration of the same on-model character in a different moment. List: card-art/ALT_ART_LIST.md (249–300). Each later also gets a Full Art version numbered `###a/248a`.
