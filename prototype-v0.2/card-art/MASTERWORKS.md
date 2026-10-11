@@ -17,7 +17,7 @@ Agreed 2026-10-11. Full-art, borderless, East Asian painting styles (Chinese ink
 
 ## Omega Masterworks — the ultimate chase (OM01–OM10, X/10)
 
-Owner direction 2026-10-11: the same ten champions in the same order, repainted in the same Japanese / East Asian styles but **black and gold only** (white outlining allowed, no other colour). Each carries one of Jerian's signatures (card-template/signatures/, numbered guide: signatures-numbered.png), rendered in gold. Footer `OM##/10 · X/10`, tag **OMEGA**. Serial numbers stay X/10 until real printing.
+Owner direction 2026-10-11: the same ten champions in the same order, repainted in the same Japanese / East Asian styles but **black and gold only** (white outlining allowed, no other colour). Each carries one of Jerian's signatures (card-template/signatures/, numbered guide: signatures-numbered.png), rendered in polished white/silver (owner, 2026-10-11; the only non-gold element). Footer `OM##/10 · X/10`, tag **OMEGA**. Serial numbers stay X/10 until real printing.
 
 | # | Card | Signature |
 |---|---|---|

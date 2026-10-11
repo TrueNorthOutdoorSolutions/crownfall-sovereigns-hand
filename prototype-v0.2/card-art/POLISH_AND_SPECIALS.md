@@ -46,4 +46,4 @@ Open questions for later: final numbering scheme, pull rates, which cards get Al
 - Sheet order: [247, 248, Ref A] → [Ref B, T01, T02] → [T03, T04, T05] → [T06, T07, T08].
 - Deferred to the polish pass: Ember Trap (181) trait-bar divider redo.
 
-- Omega OM01–OM03: signatures are AI re-drawn, not Jerian's exact handwriting; OM03 Thorn's is faint. Fix in polish by compositing the real signature (card-template/signatures/) in gold.
+- Omega OM01–OM03: signatures are AI re-drawn, not Jerian's exact handwriting; OM03 Thorn's is faint. Fix in polish by compositing the real signature (card-template/signatures/) in white/silver.
