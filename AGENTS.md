@@ -138,3 +138,7 @@ Reference inserts (A Keywords, B Effects & Timing): no gem, no stars, no number,
 ## Alternate Art template (LOCKED 2026-10-10)
 
 Reference: `alt-art-template.jpg` (249 Bramble, 250 Grimm, 251 Pip). Identical to the base card's template (champion, spell, Edict) in every text, gem, stat, band and icon, with: an ornate GOLD FILIGREE border instead of green vines; footer `###/248 · AA · Northern Summit Studios · Art: Jerian Latawiec`; a small gold "ALTERNATE ART" tag under the footer; a NEW illustration of the same on-model character in a different moment. List: card-art/ALT_ART_LIST.md (249–300). Each later also gets a Full Art version numbered `###a/248a`.
+
+## Masterwork template (LOCKED 2026-10-11)
+
+Reference: `masterwork-template.jpg` (MW01 Kira Volt ukiyo-e, MW02 Fen Chinese ink, MW03 Thorn Korean minhwa). Full art, borderless: a genuine East Asian painting fills the card edge to edge. The champion template's game elements stay (gems, ★★★, Might/Guard shields, icons, keyword chips) but the name bar, Ascension band, trait bar and text box are translucent cream rice-paper panels with thin black-lacquer edges. Small red square artist's seal with the studio crest near the bottom; footer `MW##/10 · X/100 · Northern Summit Studios · Art: Jerian Latawiec` with a black-and-gold MASTERWORK tag. List: card-art/MASTERWORKS.md.
