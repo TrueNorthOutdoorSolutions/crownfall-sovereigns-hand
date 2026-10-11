@@ -433,3 +433,63 @@ a { color: var(--gold) }
 .menu.intro .title h1 { font-size: 96px; line-height: 1 }
 .menu.intro { gap: 4px; padding-top: 14px }
 .menu.intro .setgroup .deckpick { min-height: 118px }
+
+
+/* ================= Battlefield layout from the owner's mockup (2026-10-11) =================
+   Stage 1600x900: board 0-1320, side panel 1320-1600. Left column: Crowns. Right column: piles. */
+.match .arena-bg { background-image: url(/v02/battle-bg.webp), url(/v02/arena-1440.webp); background-position: center 40%; background-size: cover; filter: saturate(1.02) brightness(.88) }
+.match .arena-bg::after { background: radial-gradient(ellipse 60% 70% at 46% 50%, rgba(7,6,11,.12) 0%, rgba(7,6,11,.35) 70%, rgba(7,6,11,.6) 100%) }
+.side { width: 280px }
+.pbar { left: 236px; width: 852px; height: 50px }
+.pbar.rival { top: 8px }
+.pbar.mine { top: 574px }
+.pbar .crown { display: none }
+.field { left: 236px; width: 852px; height: 166px; gap: 14px }
+.field.rival { top: 64px } .field.mine { top: 350px }
+.slot { width: 154px; height: 160px }
+.slot .token { transform-origin: center; scale: .84 }
+.slot .token.exhausted { scale: .84 }
+.zone-mark { font-size: 12px } .zone-mark i { font-size: 34px }
+.scheme-row { position: absolute; left: 236px; width: 852px; display: flex; justify-content: center; gap: 16px; height: 48px }
+.scheme-row.rival { top: 234px } .scheme-row.mine { top: 520px }
+.scheme-row .scheme-slot { width: 150px; height: 48px; display: flex; gap: 8px; align-items: center; justify-content: center; font-size: 12px }
+.scheme-row .scheme-slot > span { font-family: var(--display); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,213,138,.55) }
+.scheme-row .scheme-slot.set > span { display: none }
+.scheme-row .scheme-slot.mine.set { width: 150px }
+.midband { left: 236px; width: 852px; top: 286px; height: 58px; flex-wrap: wrap; row-gap: 2px; justify-content: center }
+.midband .hint { width: 100%; text-align: center; font-size: 13px }
+.hand { left: 236px; width: 852px; top: 628px }
+.inspector { right: 292px }
+
+/* Crown fans (left column) */
+.crownfan { position: absolute; left: 14px; width: 210px; height: 190px; padding: 0; border: 0; background: none; cursor: default }
+.crownfan.rival { top: 60px } .crownfan.mine { top: 360px }
+.crownfan:not(:disabled) { cursor: pointer }
+.fan-card { position: absolute; left: calc(12px + var(--k) * 26px); top: calc(6px + var(--k) * 18px); width: 62px; height: 88px; border-radius: 7px;
+  border: 2px solid #c9a24a; transform: rotate(calc(-14deg + var(--k) * 9deg)); display: flex; align-items: flex-end; justify-content: center;
+  font: 700 14px var(--display); color: #f2d58a; padding-bottom: 4px; box-shadow: 0 4px 10px rgba(0,0,0,.6) }
+.crownfan.rival .fan-card { background: linear-gradient(160deg, #5a1414, #2a0808) } .crownfan.mine .fan-card { background: linear-gradient(160deg, #142a5a, #08142a) }
+.fan-card i { position: absolute; top: 18px; left: 50%; width: 26px; height: 34px; transform: translateX(-50%); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  background: linear-gradient(160deg, #fff4c8, #f0c95a 50%, #9b6e12); filter: drop-shadow(0 0 6px rgba(240,201,90,.8)) }
+.fan-card.broken { filter: grayscale(.9) brightness(.45); border-color: #4a4152 }
+.fan-card.broken i { background: #3b3342; filter: none }
+.crownfan b { position: absolute; left: 24px; bottom: 0; font: 700 15px var(--display); letter-spacing: .14em; text-transform: uppercase; color: #f2d58a; text-shadow: 0 2px 4px #000 }
+.crownfan em { position: absolute; left: 0; right: 0; top: -2px; text-align: center; font-style: normal; font-size: 12px; font-weight: 800; color: var(--enemy); text-transform: uppercase; letter-spacing: .06em }
+.crownfan.targetable .fan-card.whole { box-shadow: 0 0 0 2px var(--enemy), 0 0 16px rgba(255,90,90,.6); animation: pulse 1.2s ease-in-out infinite }
+
+/* Piles (right column) */
+.piles { position: absolute; left: 1100px; width: 206px; display: flex; flex-direction: column; gap: 8px }
+.piles.rival { top: 64px } .piles.mine { top: 350px }
+.pile-tile { height: 70px; display: grid; grid-template-columns: 44px 1fr; grid-template-rows: 1fr 1fr; align-items: center; column-gap: 8px; padding: 6px 12px; border-radius: 10px;
+  background: var(--mat-panel); border: 2px solid rgba(201,162,74,.6); color: #f2d58a; text-align: left; box-shadow: inset 0 0 18px rgba(0,0,0,.5) }
+.pile-tile:disabled { cursor: default }
+.pile-tile:not(:disabled):hover { border-color: #f2d58a }
+.pile-tile .pt-icon { grid-row: 1 / 3; font-size: 30px; text-align: center; color: #f2c95a }
+.pile-tile b { font: 700 22px var(--num); color: #fff3cf; line-height: 1 }
+.pile-tile small { font: 700 11px var(--display); letter-spacing: .14em; text-transform: uppercase; color: rgba(242,213,138,.8) }
+.pbar .pstats .statbtn { display: none }
+.crownfan { width: 220px; height: 230px }
+.crownfan.rival { top: 52px } .crownfan.mine { top: 336px }
+.fan-card { width: 74px; height: 104px; left: calc(8px + var(--k) * 28px); top: calc(4px + var(--k) * 20px); font-size: 16px }
+.fan-card i { top: 22px; width: 30px; height: 40px }
+.crownfan b { bottom: 4px }

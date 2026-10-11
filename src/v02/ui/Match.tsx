@@ -174,7 +174,6 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
           <Stat label="Ascension" value={them.ascension.length} />
           <button type="button" className="statbtn" onClick={() => setView('aiFallen')}>Fallen {them.fallen.length}</button>
         </div>
-        <div className="schemes">{[0, 1, 2].map((i) => <div key={i} className={`scheme-slot ${them.schemes[i] ? 'set' : ''}`} title={them.schemes[i] ? 'A face-down Scheme' : 'Empty Scheme Zone'}>{them.schemes[i] ? '◈' : <SchemeMark />}</div>)}</div>
       </div>
       <div className="field rival">
         {Array.from({ length: zonesFor(game, AI) }, (_, i) => {
@@ -184,6 +183,12 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
             onClick={() => clickTheirs(c)} onHover={(on) => inspectChamp(on ? c : null)} />}</div>;
         })}
       </div>
+      <div className="scheme-row rival">{[0, 1, 2].map((i) => <div key={i} className={`scheme-slot ${them.schemes[i] ? 'set' : ''}`} title={them.schemes[i] ? 'A face-down Scheme' : 'Empty Scheme Zone'}>{them.schemes[i] ? '◈' : <SchemeMark />}<span>Scheme Zone</span></div>)}</div>
+      {/* ── Game-mat side columns: Crowns on the left, piles on the right ── */}
+      <CrownFan count={them.crown.length} side="rival" onClick={attackCrown} targetable={!!canAttackSel} />
+      <CrownFan count={me.crown.length} side="mine" />
+      <Piles side="rival" deck={them.deck.length} asc={them.ascension.length} fallen={them.fallen.length} onFallen={() => setView('aiFallen')} />
+      <Piles side="mine" deck={me.deck.length} asc={me.ascension.length} fallen={me.fallen.length} onAsc={() => setView('myAsc')} onFallen={() => setView('myFallen')} />
       {/* ── Middle band ── */}
       <div className="midband">
         <div className="phase-pill">{game.phase === 'over' ? 'Match over' : `Round ${round(game)} · ${game.active === ME ? 'Your turn' : "Rival's turn"}`}</div>
@@ -216,12 +221,13 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
           <button type="button" className="statbtn" onClick={() => setView('myAsc')}>Ascension {me.ascension.length}</button>
           <button type="button" className="statbtn" onClick={() => setView('myFallen')}>Fallen {me.fallen.length}</button>
         </div>
-        <div className="schemes">{[0, 1, 2].map((i) => {
+
+      </div>
+      <div className="scheme-row mine"><>{[0, 1, 2].map((i) => {
           const sc = me.schemes[i];
           return <div key={i} className={`scheme-slot mine ${sc ? 'set' : ''}`} onMouseEnter={() => sc && setInspect({ kind: 'card', id: sc.card })} onMouseLeave={() => setInspect(null)}
-            title={sc ? (sc.setTurn >= game.turn ? 'Set this turn: ready from your rival\'s next turn' : 'Ready to spring') : 'Empty Scheme Zone'}>{sc ? CARDS[sc.card].name : <SchemeMark />}</div>;
-        })}</div>
-      </div>
+            title={sc ? (sc.setTurn >= game.turn ? 'Set this turn: ready from your rival\'s next turn' : 'Ready to spring') : 'Empty Scheme Zone'}>{sc ? CARDS[sc.card].name : <><SchemeMark /><span>Scheme Zone</span></>}</div>;
+        })}</></div>
       {/* ── Hand ── */}
       <div className="hand">
         {me.hand.map((id, i) => {
@@ -312,6 +318,27 @@ function TurnStrip({ phase }: { phase: string }) {
     <ol className="turnstrip" aria-label="Turn steps">
       {STEPS.map(([k, label], i) => <li key={k} className={now === k ? 'now' : ''} aria-current={now === k ? 'step' : undefined}>{i > 0 && <span className="arrow">→</span>}{label}</li>)}
     </ol>
+  );
+}
+
+/** Game-mat Crown: five numbered shard cards fanned out (rival red, yours blue); broken shards dim. */
+function CrownFan({ count, side, onClick, targetable }: { count: number; side: 'rival' | 'mine'; onClick?: () => void; targetable?: boolean }) {
+  return (
+    <button type="button" className={`crownfan ${side} ${targetable ? 'targetable' : ''}`} onClick={onClick} disabled={!onClick}
+      aria-label={`${side === 'rival' ? 'Rival' : 'Your'} Crown: ${count} of 5 shards${targetable ? '. Click to attack it.' : ''}`}>
+      {[0, 1, 2, 3, 4].map((i) => <span key={i} className={`fan-card ${i < count ? 'whole' : 'broken'}`} style={{ ['--k' as string]: i }}><i />{i + 1}</span>)}
+      <b>Crown</b>{targetable && <em>Attack the Crown</em>}
+    </button>
+  );
+}
+/** Game-mat piles: Deck, Ascension Pile and Fallen for one player. */
+function Piles({ side, deck, asc, fallen, onAsc, onFallen }: { side: 'rival' | 'mine'; deck: number; asc: number; fallen: number; onAsc?: () => void; onFallen?: () => void }) {
+  return (
+    <div className={`piles ${side}`}>
+      <div className="pile-tile" title="Deck"><span className="pt-icon">🂠</span><b>{deck}</b><small>Deck</small></div>
+      <button type="button" className="pile-tile" onClick={onAsc} disabled={!onAsc} title="Ascension Pile: face-down, never drawn"><span className="pt-icon">♛</span><b>{asc}</b><small>Ascension</small></button>
+      <button type="button" className="pile-tile" onClick={onFallen} disabled={!onFallen} title="Fallen pile"><span className="pt-icon">☠</span><b>{fallen}</b><small>Fallen</small></button>
+    </div>
   );
 }
 
