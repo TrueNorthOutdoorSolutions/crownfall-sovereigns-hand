@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { BUNDLES, FINISH_NAMES, GUARANTEE_TEXT, PACK_PRICE, PACK_SIZE, RARITIES, RARITY_NAMES, packOdds } from '../../economy/odds';
 import { STARSTONE_OFFERS, buyPacks, buyStarstones, useProfile } from '../../economy/profile';
 import type { Pack } from '../../economy/packs';
+import { cardBackUrl } from '../cardart';
 
 const seed = () => (crypto.getRandomValues(new Uint32Array(1))[0] ^ Date.now()) >>> 0;
 const pct = (x: number) => (x >= 0.1 ? `${(x * 100).toFixed(0)}%` : x >= 0.01 ? `${(x * 100).toFixed(1)}%` : `${(x * 100).toFixed(2)}%`);
@@ -29,46 +30,74 @@ export function Shop({ onBack, onOpened }: { onBack: () => void; onOpened: (pack
     const r = buyPacks(n, cur, seed());
     if ('error' in r) setMsg(r.error); else onOpened(r.packs);
   };
+  const B = import.meta.env.BASE_URL;
+  const boostLine = (b: (typeof BUNDLES)[number]) => b.boost > 1 ? <><span>Odds boost ×{b.boost.toFixed(2)}</span><span>on Epic, Mythic and specials</span></> : <span>Standard odds</span>;
   return (
-    <div className="screen">
-      <div className="screen-top"><button type="button" className="btn" onClick={onBack}>← Menu</button><h2>Shop</h2><div className="spacer" /><Wallet /></div>
-      <div className="screen-body">
-        <div className="shop">
-          <div>
-            <PackArt />
-            <p className="note" style={{ textAlign: 'center' }}>5 Commons · 3 Uncommons · 1 Hero card (Elite or better) · 1 guaranteed foil.<br />{PACK_PRICE.valor} ✧ Valor or {PACK_PRICE.starstones} ✦ Starstones per pack.</p>
-            <div style={{ textAlign: 'center' }}><button type="button" className="btn" onClick={() => setOdds(true)}>See the odds</button></div>
-          </div>
-          <div>
-            <div className="section-h" style={{ marginTop: 0 }}>The Shattered Crown packs</div>
-            <div className="bundles">
-              {BUNDLES.map((b) => (
-                <div className="bundle" key={b.packs}>
-                  <h3>{b.packs} {b.packs === 1 ? 'pack' : 'packs'}</h3>
-                  <div className="boost">{b.boost > 1 ? `Odds boost ×${b.boost.toFixed(2)} on Epic, Mythic and specials` : 'Standard odds'}</div>
-                  <div className="guar">{b.guarantee ? `Guaranteed ${GUARANTEE_TEXT[b.guarantee]}` : ''}</div>
-                  <div className="buy">
-                    <button type="button" className="btn gold" disabled={profile.valor < PACK_PRICE.valor * b.packs} onClick={() => buy(b.packs, 'valor')}>✧ {(PACK_PRICE.valor * b.packs).toLocaleString()}</button>
-                    <button type="button" className="btn stone" disabled={profile.starstones < PACK_PRICE.starstones * b.packs} onClick={() => buy(b.packs, 'starstones')}>✦ {(PACK_PRICE.starstones * b.packs).toLocaleString()}</button>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="section-h">Starstones</div>
-            <p className="note">Development build: these purchases are simulated and no payment is taken. Real payments switch on only after a payment provider is connected and the launch review is done.</p>
-            <div className="offers">
-              {STARSTONE_OFFERS.map((o) => (
-                <div className="offer" key={o.id}><b>✦ {o.stones.toLocaleString()}</b><div className="note">≈ {Math.floor(o.stones / PACK_PRICE.starstones)} packs</div>
-                  <button type="button" className="btn stone" style={{ marginTop: 8 }} onClick={() => { buyStarstones(o.id); setMsg(`Added ${o.stones} Starstones (simulated purchase).`); }}>${o.price.toFixed(2)} CAD</button></div>
-              ))}
-            </div>
-            <p className="note" style={{ marginTop: 14 }}>Every standard card can also be forged directly with Valor in your Collection, so no card is only available by chance.</p>
-          </div>
+    <div className="shopx">
+      <div className="shopx-bg" style={{ backgroundImage: `url(${B}v02/menu-bg.webp)` }} />
+      <button type="button" className="shopx-back" onClick={onBack}>← Menu</button>
+      <h2 className="shopx-title"><span className="sx-orn" aria-hidden="true">⟜◆</span><span className="sx-crown" aria-hidden="true">♛</span><span className="sx-word">Shop</span><span className="sx-orn" aria-hidden="true">◆⟞</span></h2>
+      <div className="shopx-wallet"><span className="valor">✧ {profile.valor.toLocaleString()} Valor</span><span className="stones">✦ {profile.starstones.toLocaleString()} Starstones</span></div>
+
+      <aside className="shopx-feature">
+        <div className="sf-art" style={{ backgroundImage: `url(${B}v02/art/crownless/star_3.webp)` }} />
+        <div className="sf-name">The Shattered Crown</div>
+        <div className="sf-foot">
+          <b>Set 1 • {PACK_SIZE} Cards</b>
+          <small>5 Commons • 3 Uncommons • 1 Hero Card (Elite or better) • 1 Guaranteed Foil!</small>
+          <small>{PACK_PRICE.valor} Valor or {PACK_PRICE.starstones} Starstones per pack.</small>
+          <button type="button" className="sf-odds" onClick={() => setOdds(true)}><i>i</i> See the Odds</button>
         </div>
-      </div>
+      </aside>
+
+      <section className="shopx-main">
+        <h3 className="sx-h">The Shattered Crown Packs</h3>
+        <p className="sx-sub">Expand your collection with powerful cards from Set 1.</p>
+        <div className="sx-bundles">
+          {BUNDLES.map((b, i) => (
+            <div className={`sx-bundle t${i}`} key={b.packs}>
+              {b.boost > 1 && <span className="sx-ribbon">+{Math.round((b.boost - 1) * 100)}%</span>}
+              <h4>{b.packs} {b.packs === 1 ? 'Pack' : 'Packs'}</h4>
+              <div className="sx-boost">{boostLine(b)}</div>
+              <div className="sx-guar">{b.guarantee ? `Guaranteed ${GUARANTEE_TEXT[b.guarantee]}` : ''}</div>
+              <div className="sx-art">
+                <PackFan n={[3, 5, 7, 7, 9, 9, 11][i] ?? 7} />
+              </div>
+              <div className="sx-buy">
+                <button type="button" className="sx-btn valor" disabled={profile.valor < PACK_PRICE.valor * b.packs} onClick={() => buy(b.packs, 'valor')}>✧ {(PACK_PRICE.valor * b.packs).toLocaleString()}</button>
+                <button type="button" className="sx-btn stone" disabled={profile.starstones < PACK_PRICE.starstones * b.packs} onClick={() => buy(b.packs, 'starstones')}>✦ {(PACK_PRICE.starstones * b.packs).toLocaleString()}</button>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="sx-stones-h"><h3 className="sx-h">Starstones</h3><span>Purchase Starstones to unlock packs, cosmetics and more.</span></div>
+        <div className="sx-offers">
+          {STARSTONE_OFFERS.map((o, i) => (
+            <div className="sx-offer" key={o.id}>
+              <b>✦ {o.stones.toLocaleString()}</b>
+              <small>≈ {Math.floor(o.stones / PACK_PRICE.starstones)} packs</small>
+              <div className="sx-gems">{'✦'.repeat(i + 2)}</div>
+              <button type="button" className="sx-btn price" onClick={() => { buyStarstones(o.id); setMsg(`Added ${o.stones} Starstones (simulated purchase, no payment taken).`); }}>${o.price.toFixed(2)} CAD</button>
+            </div>
+          ))}
+        </div>
+        <p className="sx-foot">Every standard card can also be forged directly with Valor in your Collection, so no card is only available by chance.<br /><em>Development build: Starstone purchases are simulated and no payment is taken.</em></p>
+      </section>
       {odds && <OddsModal onClose={() => setOdds(false)} />}
       {msg && <div className="toast" role="status">{msg}</div>}
     </div>
+  );
+}
+
+/** A fan of card backs standing in for bundle art until the owner's images arrive. */
+function PackFan({ n }: { n: number }) {
+  const mid = (n - 1) / 2;
+  return (
+    <span className="sx-fan" aria-hidden="true">
+      {Array.from({ length: n }, (_, k) => (
+        <img key={k} src={cardBackUrl} alt="" style={{ transform: `translateX(${(k - mid) * 15}px) rotate(${(k - mid) * 7}deg)`, zIndex: n - Math.abs(Math.round(k - mid)) }} />
+      ))}
+    </span>
   );
 }
 
