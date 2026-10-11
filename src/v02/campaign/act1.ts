@@ -760,5 +760,100 @@ export const CHAPTER_VII: Chapter = {
   ],
 };
 
-export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV, CHAPTER_V, CHAPTER_VI, CHAPTER_VII] };
+// ════════════════════════ Chapter VIII · The One Who Refused ════════════════════════
+const D8 = {
+  player: deck('c8-player', 'Starfall', 'Astral · Dawnforged · Kingdom', [['seren', 2], ['valkara', 2], ['orion', 2], ['astryon', 1], ['elysian', 1], ['solara', 2], ['rowan', 2],
+    ['crest_astral', 2], ['star_touched', 2], ['ascension_rite', 2], ['firebolt', 2], ['royal-dispatch', 2], ['shield-wall', 2], ['dawnward-oath', 2], ['opening_salvo', 2], ['tempered_victory', 2]],
+    ['seren-2', 'seren-3', 'valkara-2', 'valkara-3', 'orion-2', 'orion-3', 'astryon-2', 'astryon-3']),
+  starlings: deck('c8-starlings', 'The Starling Flock', 'Astral · Riftborn · Umbral', [['seren', 2], ['valkara', 2], ['zyrak', 2], ['dax', 2], ['nyx', 2],
+    ['summoners_pact', 2], ['training_dummy', 2], ['crest_astral', 2], ['firebolt', 2], ['royal-dispatch', 2], ['star_touched', 2], ['kindling', 2], ['lucky_draw', 2], ['opening_salvo', 2], ['first-light', 2]],
+    ['seren-2', 'seren-3', 'zyrak-2', 'zyrak-3']),
+  judges: deck('c8-judges', 'Judgment From Above', 'Astral · Umbral · Voltborn', [['valkara', 2], ['astryon', 1], ['orion', 2], ['shade', 2], ['ronin', 2], ['kael', 2],
+    ['executioner', 2], ['crest_astral', 2], ['back_doctrine', 2], ['battle_hymn', 2], ['glass_crown', 2], ['firebolt', 2], ['star_touched', 2], ['tempered_victory', 2], ['royal-dispatch', 2], ['crown_of_war', 1]],
+    ['valkara-2', 'valkara-3', 'orion-2', 'orion-3']),
+  constellation: deck('c8-constellation', 'The Named Stars', 'Astral · Riftborn · Voltborn', [['orion', 2], ['rowan', 2], ['dax', 2], ['kira', 2], ['seren', 2], ['gearwick', 2],
+    ['arrow-volley', 2], ['firestorm', 2], ['firebolt', 2], ['crest_astral', 2], ['royal-dispatch', 2], ['ember-trap', 2], ['golden_parting', 2], ['victors_spoils', 2], ['kindling', 2]],
+    ['orion-2', 'orion-3', 'dax-2', 'dax-3']),
+  sanctuary: deck('c8-sanctuary', 'The Sanctuary', 'Astral · Dawnforged · Elemental', [['elysian', 1], ['solara', 2], ['elara', 2], ['mirella', 2], ['seren', 2], ['torren', 2], ['grimm', 1],
+    ['shield-wall', 2], ['dawnward-oath', 2], ['crowns_favor', 2], ['first-light', 2], ['return-to-fire', 2], ['mirror_shard', 2], ['royal-dispatch', 2], ['hold-the-gate', 2], ['studious', 2]],
+    ['solara-2', 'solara-3', 'elara-2', 'elara-3']),
+  crownless: deck('c8-crownless', 'The One Who Refused', 'Crownless · Astral · Voltborn', [['crownless', 1], ['astryon', 1], ['elysian', 1], ['valkara', 2], ['orion', 2], ['veilwalker', 1], ['ronin', 2], ['ladyvolt', 1], ['seren', 2],
+    ['fourth_crown', 2], ['crown_of_war', 1], ['grand_convergence', 1], ['back_doctrine', 2], ['executioner', 2], ['royal-dispatch', 2], ['star_touched', 2], ['shield-wall', 2], ['firebolt', 2], ['ascension_rite', 1]],
+    ['crownless-2', 'crownless-3', 'valkara-2', 'valkara-3', 'orion-2', 'orion-3', 'ronin-2', 'ronin-3']),
+};
+Object.assign(CAMPAIGN_DECKS, D8);
+
+export const CHAPTER_VIII: Chapter = {
+  id: 'c8', numeral: 'VIII', title: 'The One Who Refused', legend: 'crownless', playerDeck: D8.player, playerDeckName: 'Starfall',
+  trials: ['Falling Stars', 'Tests of the Sky', 'The One Who Refused'],
+  intro: [
+    S('Narration', 'Seven legends have tested your banner. The Arena grows quiet, the way a crowd goes quiet before the last act.'),
+    S('Narration', 'Once, someone won the Crownfall. They refused the Crown. Nobody has explained why.', true),
+    S('Narration', 'The stars come down to stand with you. Above them all, someone is waiting who has already said no once.'),
+  ],
+  bouts: [
+    // ── Trial 1 · Falling Stars ──
+    { id: 'c8-t1-b1', trial: 1, bout: 1, title: 'The Starlings Are Hungry', portrait: 'seren', rival: 'The Starling Flock', deck: D8.starlings,
+      story: [S('Narration', 'Seren catches falling stars. Some of them want to fight.', true), S('Seren', 'The starlings are hungry.', true)],
+      setup: { rivalCrown: 3 }, objective: win, rules: 'The flock has only 3 shards, but it fills the sky with tokens.', reward: { valor: 130, cards: ['seren'] } },
+    { id: 'c8-t1-b2', trial: 1, bout: 2, title: 'Judgment Comes From Above', portrait: 'valkara', rival: 'Judgment From Above', deck: D8.judges,
+      story: [S('Narration', 'Valkara judges. The verdict is usually "from above".', true), S('Valkara', 'Judgment comes from above.', true)],
+      objective: win, reward: { valor: 130, cards: ['valkara'] } },
+    { id: 'c8-t1-b3', trial: 1, bout: 3, title: 'A Star With Your Name', portrait: 'orion', rival: 'The Named Stars', deck: D8.constellation,
+      story: [S('Narration', 'Orion names every star he fires. He is running out of names.', true), S('Orion', 'I have a star with your name.', true)],
+      objective: { kind: 'keepShards', n: 3 }, rules: 'Win with at least 3 shards.', reward: { valor: 130, cards: ['orion'] } },
+    { id: 'c8-t1-b4', trial: 1, bout: 4, title: 'The Eighth Star', portrait: 'astryon', rival: 'Judgment From Above', deck: D8.judges,
+      story: [S('Narration', 'Astryon has cut down seven stars. He intends the Crown to be the eighth.', true), S('Astryon', 'The eighth star awaits.', true)],
+      objective: win, reward: { valor: 130, cards: ['astryon'] } },
+    { id: 'c8-t1-b5', trial: 1, bout: 5, title: 'No One Dies Today', portrait: 'elysian', rival: 'The Named Stars', deck: D8.constellation,
+      story: [S('Narration', 'Elysian does not believe anyone deserves to die in the Crownfall. The Crownfall disagrees.', true), S('Elysian', 'No one dies today.', true)],
+      setup: { myField: ['elysian'] }, objective: { kind: 'survive', rounds: 5 }, rules: 'Elysian starts on your field. Survive until round 5 begins.', reward: { valor: 140, cards: ['elysian'] } },
+    // ── Trial 2 · Tests of the Sky ──
+    { id: 'c8-t2-b1', trial: 2, bout: 1, title: 'More Stars, More Friends', portrait: 'seren', rival: 'The Starling Flock', deck: D8.starlings,
+      story: [S('Seren', 'More stars, more friends!', true)],
+      setup: { edict: 'edict-crowns_bounty' }, objective: win, rules: 'Edict in play: Crown’s Bounty.', reward: { valor: 150 } },
+    { id: 'c8-t2-b2', trial: 2, bout: 2, title: 'My Wings Are Sharper', portrait: 'valkara', rival: 'Judgment From Above', deck: D8.judges,
+      story: [S('Valkara', 'My wings are sharper.', true)],
+      setup: { edict: 'edict-war_banners' }, objective: win, rules: 'Edict in play: War Banners.', reward: { valor: 150 } },
+    { id: 'c8-t2-b3', trial: 2, bout: 3, title: 'The Constellations Align', portrait: 'orion', rival: 'The Named Stars', deck: D8.constellation,
+      story: [S('Orion', 'The constellations align.', true)],
+      setup: { edict: 'edict-shard_season' }, objective: win, rules: 'Edict in play: Shard Season.', reward: { valor: 150 } },
+    { id: 'c8-t2-b4', trial: 2, bout: 4, title: 'My Blades Multiply', portrait: 'astryon', rival: 'Judgment From Above', deck: D8.judges,
+      story: [S('Astryon', 'My blades multiply.', true)],
+      objective: { kind: 'keepShards', n: 3 }, rules: 'Win with at least 3 shards.', reward: { valor: 150 } },
+    { id: 'c8-t2-b5', trial: 2, bout: 5, title: 'My Wings Shelter Many', portrait: 'elysian', rival: 'The Sanctuary', deck: D8.sanctuary,
+      story: [S('Elysian', 'My wings shelter many.', true), S('Narration', 'The Sanctuary shields and heals everything it touches. Break through it.')],
+      objective: win, reward: { valor: 160 } },
+    // ── Trial 3 · The One Who Refused ──
+    { id: 'c8-t3-b1', trial: 3, bout: 1, title: 'Seven Stars — Fall!', portrait: 'astryon', rival: 'The Named Stars', deck: D8.constellation,
+      story: [S('Astryon', 'Seven stars — fall!', true), S('Narration', 'Astryon fights at your side. He has decided the eighth star can wait.')],
+      setup: { myField: ['astryon'] }, objective: win, rules: 'Astryon starts on your field.', reward: { valor: 160 } },
+    { id: 'c8-t3-b2', trial: 3, bout: 2, title: 'Not Yet — Live!', portrait: 'elysian', rival: 'Judgment From Above', deck: D8.judges,
+      story: [S('Elysian', 'Not yet — live!', true), S('Narration', 'Elysian and Seren stand with you against the judges.')],
+      setup: { myField: ['elysian', 'seren'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Elysian and Seren start on your field. Win with at least 3 shards.', reward: { valor: 160 } },
+    { id: 'c8-t3-b3', trial: 3, bout: 3, title: 'The Verdict Stands', portrait: 'valkara', rival: 'The Starling Flock', deck: D8.starlings,
+      story: [S('Valkara', 'The verdict stands.', true), S('Narration', 'You arrive with a shard already cracked. The sky does not wait for anyone.')],
+      setup: { myCrown: 4, edict: 'edict-scholars_ascent' }, objective: win, rules: 'You start with 4 Crown Shards. Edict in play: Scholar’s Ascent.', reward: { valor: 170 } },
+    { id: 'c8-t3-b4', trial: 3, bout: 4, title: 'The Rules Bend', portrait: 'crownless', rival: 'The Sanctuary', deck: D8.sanctuary,
+      story: [S('Crownless', 'The rules bend.', true), S('Narration', 'Valkara and Orion hold the stair to the last gate. Hold it with them until round 6.')],
+      setup: { myField: ['valkara', 'orion'] }, objective: { kind: 'survive', rounds: 6 }, rules: 'Valkara and Orion start on your field. Survive until round 6 begins.', reward: { valor: 170 } },
+    { id: 'c8-t3-b5', trial: 3, bout: 5, title: 'Still Not Taking It', portrait: 'crownless', rival: 'Judgment From Above', deck: D8.judges,
+      story: [S('Crownless', 'Still not taking it.', true), S('Narration', 'Nobody has seen Crownless arrive. Everybody has heard him.')],
+      objective: { kind: 'keepShards', n: 4 }, rules: 'Win with at least 4 shards.', reward: { valor: 180 } },
+    // ── The Crowning (Act I finale) ──
+    { id: 'c8-crowning', trial: 4, bout: 1, title: 'The Crowning: Crownless', portrait: 'crownless', rival: 'Crownless, The One Who Refused', deck: D8.crownless,
+      story: [S('Narration', 'The shards around the Crown stop turning. For the first time anyone can remember, the Arena is completely silent.'),
+        S('Crownless', '…', true),
+        S('Narration', 'Someone walks out onto the sand without a banner, without a Sovereign, and without a crown.'),
+        S('Crownless', 'I refuse your rules.', true)],
+      objective: win, rules: 'The final Crowning of Act I. Crownless is in the rival’s deck.', reward: { valor: 500, cards: ['crownless-2', 'crownless-3'] },
+      crowning: {
+        contender: { deck: D8.crownless, printing: 'base' },
+        masterwork: { deck: D8.crownless, printing: 'masterwork', setup: { edict: 'edict-exalted_dawn' } },
+        omega: { deck: D8.crownless, printing: 'omega', setup: { edict: 'edict-exalted_dawn', rivalField: ['crownless'] } },
+      } },
+  ],
+};
+
+export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III, CHAPTER_IV, CHAPTER_V, CHAPTER_VI, CHAPTER_VII, CHAPTER_VIII] };
 export const ALL_BOUTS: Bout[] = ACT_I.chapters.flatMap((c) => c.bouts);

@@ -81,7 +81,7 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
               </div>
             </div>
           ))}
-          <div className="camp-later note">Chapter VIII (The One Who Refused) is being written.</div>
+          <div className="camp-later note">{cleared('c8-crowning') ? 'Act I complete. Act II · Beneath the Arena is coming, and with it the Masterwork and Omega Crownings.' : 'Act II · Beneath the Arena follows Act I.'}</div>
         </div>
       </div>
 

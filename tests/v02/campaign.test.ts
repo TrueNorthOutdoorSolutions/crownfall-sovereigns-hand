@@ -16,6 +16,14 @@ describe('Campaign Act I', () => {
     }
     expect(new Set(ALL_BOUTS.map((b) => b.id)).size).toBe(ALL_BOUTS.length);
   });
+  it('Act I meets all 55 champions: each is a Bout reward or a Crowning legend', () => {
+    const met = new Set<string>();
+    for (const b of ALL_BOUTS) for (const id of b.reward.cards ?? []) met.add((CARDS[id] as { canonId: string }).canonId);
+    for (const c of ACT_I.chapters) met.add(c.legend);
+    const set1 = new Set(Object.values(CARDS).filter((c) => (c as { kind: string }).kind === 'champion' && (c as { set: number }).set === 1 && (c as { family: string }).family === 'champion').map((c) => (c as { canonId: string }).canonId));
+    expect(set1.size).toBe(55);
+    expect([...set1].filter((id) => !met.has(id))).toEqual([]);
+  });
   it('every enemy deck is legal', () => {
     for (const id of Object.values(CAMPAIGN_DECKS)) expect(checkDeck(DECKS[id].main, DECKS[id].ascension).errors, id).toEqual([]);
   });
