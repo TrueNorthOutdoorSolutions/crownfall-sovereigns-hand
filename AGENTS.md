@@ -128,3 +128,9 @@ Spell flavour lines have no canon source; they are written by Claude and marked 
 ## Edict card template (LOCKED 2026-10-10)
 
 Reference: `edict-template.jpg` (right-hand card, 243 Crown's Bounty). Same frame as the spell template, with: green cost gem; gold ♛ crown top-right; "EDICT" under the name; a ROYAL GOLD type band with laurels and dark text "EDICT • Stays in play for both players"; trait bar left "Proclaimed by <host champion>", right the rarity (Edicts are RARE, footer R); rules text, then the small italic reminder "(A new Edict replaces this one.)"; flavour = the canonical Crownfall Edict proclamation; art = the host champion proclaiming the Edict.
+
+## Token card template (LOCKED 2026-10-10)
+
+Reference: `token-template.jpg` (cards T01 Starling, T02 Arc Turret; left card is Reference B). Champion frame with: GREY hexagon reading "TOKEN" instead of a cost; no stars; grey laurel band "TOKEN • Vanishes when defeated"; trait bar left "Summoned by <card>", right grey "TOKEN" label; keyword chip + reminder only (no flavour); Might/Guard shields; footer `T##/T08 · Northern Summit Studios · Art: Jerian Latawiec`.
+
+Reference inserts (A Keywords, B Effects & Timing): no gem, no stars, no number, short art strip, tall parchment glossary panel, footer "Reference A/B · Northern Summit Studios".

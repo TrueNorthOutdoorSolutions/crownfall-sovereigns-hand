@@ -143,6 +143,17 @@ def main():
     else:
         back_note = "No card back yet (00 Templates/Card Back (LOCKED).png) — backs skipped."
 
+    # Inserts and tokens: every single-card PNG in "Inserts and Tokens" (reference cards first, then T01, T02 ...)
+    extra_dir = os.path.join(set_dir, "Inserts and Tokens")
+    if os.path.isdir(extra_dir):
+        names = sorted([n for n in os.listdir(extra_dir) if n.lower().endswith(".png") and not n.startswith("Sheet")],
+                       key=lambda n: (0 if n.startswith("Reference") else 1, n))
+        extras = [Image.open(os.path.join(extra_dir, n)).convert("RGB").resize((CARD_W, CARD_H), Image.LANCZOS) for n in names]
+        if extras:
+            save_pdf([page(extras[i:i + 9], label="Inserts and tokens · print at 100% (Actual size)") for i in range(0, len(extras), 9)],
+                     os.path.join(out, f"Set {set_no} Inserts and Tokens.pdf"))
+            print(f"Inserts and tokens: {len(extras)} cards ({', '.join(n[:-4] for n in names)})")
+
     missing = [n for n in range(1, total + 1) if n not in cards]
     print(f"{len(order)} cards -> {len(pages)} front pages. {back_note}")
     print(f"Missing from Set {set_no}: {len(missing)} of {total}" + (f" (next: {missing[0]:03d})" if missing else ""))
