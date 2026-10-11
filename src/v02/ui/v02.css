@@ -342,3 +342,16 @@ a { color: var(--gold) }
 .edict-pill small { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: rgba(242,213,138,.7) }
 .edict-pill.empty { color: rgba(242,213,138,.45); border-color: rgba(201,162,74,.4); box-shadow: none; cursor: default; font-weight: 400; font-size: 12px }
 .pbar { border-color: rgba(201,162,74,.35) }
+
+
+/* Printed card on the field (Set 1 art); live stats sit over the printed Might/Guard shields */
+.token.printed { border: 0; background: #0b0910; border-radius: 8px }
+.token.printed .tk-card { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: inherit; user-select: none }
+.token.printed.s3 { box-shadow: 0 0 16px rgba(240,201,90,.55) }
+.tk-live { position: absolute; bottom: 7%; width: 30%; height: 15%; display: grid; place-items: center; font-family: var(--num); font-weight: 800; font-size: 22px; color: #fff; text-shadow: 0 1px 3px #000, 0 0 2px #000; border-radius: 50%; pointer-events: none }
+.tk-live.m { left: 1.5% } .tk-live.g { right: 1.5% }
+.tk-live.up, .tk-live.down { background: rgba(8,6,12,.82); box-shadow: 0 0 0 2px currentColor }
+.tk-live.up { color: #7dff9a } .tk-live.down { color: #ff7b7b }
+.tk-live:not(.up):not(.down) { visibility: hidden }
+.tk-shield-printed { position: absolute; top: 26%; left: 50%; transform: translateX(-50%); z-index: 3 }
+.tk-relic-printed { top: auto; bottom: 26%; z-index: 3 }

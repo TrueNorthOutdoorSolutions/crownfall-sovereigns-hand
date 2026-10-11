@@ -133,6 +133,22 @@ export function ChampionToken({ s, c, selected, targetable, dim, onClick, onHove
 }) {
   const f = top(c);
   const m = might(s, c), g = guard(s, c);
+  const printed = cardImage(f.id);
+  if (printed) {
+    // The printed card itself sits in the Champion Zone. Live Might/Guard sit over the printed shields
+    // (green up, red down) so changes in a fight stay readable; Shield, Relic and sideways status overlay it.
+    return (
+      <button type="button" className={`token printed s${f.star} ${c.exhausted ? 'exhausted' : ''} ${selected ? 'selected' : ''} ${targetable ? 'targetable' : ''} ${dim ? 'dim' : ''} ${flash ? 'flash' : ''} ${c.shield ? 'shielded' : ''}`}
+        style={deckStyle(f)} onClick={onClick} onMouseEnter={() => onHover?.(true)} onMouseLeave={() => onHover?.(false)}
+        aria-label={`${f.name} ${f.star} star, Might ${m}, Guard ${g}${c.relic ? `, holding ${CARDS[c.relic].name}` : ''}${c.exhausted ? ', sideways' : ''}${c.shield ? ', shielded' : ''}`}>
+        <img className="tk-card" src={printed} alt="" draggable={false} />
+        {c.shield && <span className="tk-shield tk-shield-printed" title="Shield: the next time it would be defeated, the Shield breaks instead">Shield</span>}
+        {c.relic && <div className="tk-relic tk-relic-printed" title={`Relic: ${CARDS[c.relic].name}`}>⚜ {CARDS[c.relic].name}</div>}
+        <span className={`tk-live m ${m > f.might ? 'up' : m < f.might ? 'down' : ''}`}>{m}</span>
+        <span className={`tk-live g ${g > f.guard ? 'up' : g < f.guard ? 'down' : ''}`}>{g}</span>
+      </button>
+    );
+  }
   return (
     <button type="button" className={`token s${f.star} ${c.exhausted ? 'exhausted' : ''} ${selected ? 'selected' : ''} ${targetable ? 'targetable' : ''} ${dim ? 'dim' : ''} ${flash ? 'flash' : ''} ${c.shield ? 'shielded' : ''}`}
       style={deckStyle(f)} onClick={onClick} onMouseEnter={() => onHover?.(true)} onMouseLeave={() => onHover?.(false)}
