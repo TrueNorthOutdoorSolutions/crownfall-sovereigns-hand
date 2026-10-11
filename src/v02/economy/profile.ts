@@ -1,6 +1,7 @@
 // The player's profile: wallet (Valor / Starstones), card collection and saved decks.
 // Stored in localStorage as a development stand-in for a server account (same approach as Crownfall's commerce).
 import { useSyncExternalStore } from 'react';
+import { DECKS } from '../content/cards';
 import { SET1_PRINTINGS } from '../content/printings';
 import type { Printing, Rarity } from '../content/printings';
 import { PACK_PRICE } from './odds';
@@ -42,6 +43,24 @@ export interface Profile {
   lastOpening: Pack[] | null;
   /** Running record of real-money purchases (simulated in development). */
   purchases: { id: string; stones: number; price: number; at: number; simulated: boolean }[];
+  /** The Set 1 starter decks are given free to every player, once. */
+  starterGranted?: boolean;
+}
+
+/** Every player owns the two Set 1 starter decks (standard finish), so they can play and build from day one. */
+const STARTER_DECKS = ['banner', 'ember'];
+const BASE_PRINTING: Record<string, string> = Object.fromEntries(SET1_PRINTINGS.filter((p) => p.kind === 'base').map((p) => [p.cardId, p.id]));
+function grantStarters(p: Profile): Profile {
+  if (p.starterGranted) return p;
+  const owned = { ...p.owned };
+  for (const d of STARTER_DECKS) {
+    const cards: [string, number][] = [...DECKS[d].main, ...DECKS[d].ascension.map((id) => [id, 1] as [string, number])];
+    for (const [cardId, n] of cards) {
+      const pr = BASE_PRINTING[cardId];
+      if (pr) owned[ownKey(pr, 'normal')] = (owned[ownKey(pr, 'normal')] ?? 0) + n;
+    }
+  }
+  return { ...p, owned, starterGranted: true };
 }
 
 const KEY = 'sovereigns-hand-profile-v1';
@@ -53,9 +72,9 @@ const listeners = new Set<() => void>();
 function load(): Profile {
   try {
     const raw = typeof localStorage !== 'undefined' ? localStorage.getItem(KEY) : null;
-    if (raw) return { ...fresh(), ...JSON.parse(raw) };
+    if (raw) return grantStarters({ ...fresh(), ...JSON.parse(raw) });
   } catch { /* private mode or blocked storage: play on with a fresh profile */ }
-  return fresh();
+  return grantStarters(fresh());
 }
 function save(next: Profile) {
   current = next;
