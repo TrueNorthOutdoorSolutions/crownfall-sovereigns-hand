@@ -273,5 +273,105 @@ export const CHAPTER_II: Chapter = {
   ],
 };
 
-export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II] };
+// ════════════════════════ Chapter III · The Iron Covenant ════════════════════════
+const D3 = {
+  player: deck('c3-player', 'Iron Covenant', 'Gearbound · Titanborn', [['pip', 2], ['bolt', 2], ['gearwick', 2], ['hex3', 2], ['spark', 2], ['torren', 2], ['borin', 2], ['knuckle', 2], ['titanrho', 1],
+    ['crest_gearbound', 2], ['shield-wall', 2], ['royal-dispatch', 2], ['firebolt', 2], ['hold-the-gate', 2], ['first-light', 1], ['crowns_favor', 2]],
+    ['gearwick-2', 'gearwick-3', 'spark-2', 'spark-3', 'borin-2', 'borin-3', 'torren-2', 'torren-3']),
+  blast: deck('c3-blast', 'Demolition Crew', 'Gearbound · Hexbound · Verdant', [['pip', 2], ['thorn', 2], ['vessimer', 1], ['hexie', 2], ['emberling', 2], ['kira', 2],
+    ['firebolt', 2], ['firestorm', 2], ['crown_of_chaos', 2], ['executioner', 2], ['ember-trap', 2], ['kindling', 2], ['opening_salvo', 2], ['coin_flip', 2], ['lucky_draw', 2], ['glass_crown', 1]],
+    ['pip-2', 'pip-3', 'hexie-2', 'hexie-3']),
+  door: deck('c3-door', 'The Door That Remains', 'Gearbound · Hollow · Titanborn', [['bolt', 2], ['grimm', 2], ['torren', 2], ['titanrho', 1], ['varr', 1], ['gaia', 1], ['rowan', 2],
+    ['shield-wall', 2], ['hold-the-gate', 2], ['dawnward-oath', 2], ['first-light', 2], ['cinder-veil', 2], ['last_stand', 2], ['crowns_favor', 2], ['steady_coffers', 2], ['royal-dispatch', 2], ['studious', 1]],
+    ['bolt-2', 'bolt-3', 'grimm-2', 'grimm-3']),
+  siege: deck('c3-siege', 'Siege Battery', 'Gearbound · Riftborn · Voltborn', [['gearwick', 2], ['blacktide', 1], ['dax', 2], ['kira', 2], ['rowan', 2], ['orion', 2],
+    ['firestorm', 2], ['firebolt', 2], ['arrow-volley', 2], ['royal-dispatch', 2], ['crest_gearbound', 2], ['opening_salvo', 2], ['crown_of_war', 1], ['ember-trap', 2], ['kindling', 2], ['golden_parting', 2]],
+    ['gearwick-2', 'gearwick-3', 'dax-2', 'dax-3']),
+  prototypes: deck('c3-prototypes', 'The Prototype Lab', 'Gearbound · Astral · Hollow', [['hex3', 2], ['spark', 2], ['seren', 2], ['morrow', 2], ['pip', 2],
+    ['training_dummy', 2], ['summoners_pact', 2], ['living_arena', 1], ['crest_gearbound', 2], ['royal-dispatch', 2], ['shield-wall', 2], ['crown_bond', 2], ['opening_salvo', 2], ['steady_coffers', 2], ['lucky_draw', 1], ['tempered_victory', 2]],
+    ['spark-2', 'spark-3', 'hex3-2', 'hex3-3']),
+  fortress: deck('c3-fortress', 'The Last Fortress', 'Gearbound · Titanborn', [['titanrho', 1], ['torren', 2], ['bolt', 2], ['borin', 2], ['grimm', 2], ['varr', 1], ['gaia', 1],
+    ['shield-wall', 2], ['hold-the-gate', 2], ['cinder-veil', 2], ['last_stand', 2], ['dawnward-oath', 2], ['first-light', 2], ['crowns_favor', 2], ['crown_of_war', 1], ['steady_coffers', 2], ['royal-dispatch', 2]],
+    ['torren-2', 'torren-3', 'borin-2', 'borin-3']),
+  forge: deck('c3-forge', 'Titan’s Deep', 'Titanborn · Wildkin', [['borin', 2], ['knuckle', 2], ['grizz', 2], ['rask', 2], ['torren', 2], ['kael', 2],
+    ['crown_of_war', 2], ['battle_hymn', 2], ['feral-howl', 2], ['flare-up', 2], ['back_doctrine', 2], ['last_stand', 2], ['royal-dispatch', 2], ['fallen_crown', 2], ['crest_duelist', 2]],
+    ['knuckle-2', 'knuckle-3', 'borin-2', 'borin-3']),
+  atlas: deck('c3-atlas', 'Omega Protocol', 'Gearbound', [['atlas', 1], ['titanrho', 1], ['gearwick', 2], ['spark', 2], ['hex3', 2], ['bolt', 2], ['torren', 2], ['borin', 2],
+    ['crest_gearbound', 2], ['shield-wall', 2], ['hold-the-gate', 2], ['crown_of_war', 1], ['grand_convergence', 1], ['royal-dispatch', 2], ['firestorm', 2], ['fourth_crown', 2], ['crowns_favor', 2]],
+    ['atlas-2', 'atlas-3', 'gearwick-2', 'gearwick-3', 'spark-2', 'spark-3', 'hex3-2', 'hex3-3']),
+};
+Object.assign(CAMPAIGN_DECKS, D3);
+
+export const CHAPTER_III: Chapter = {
+  id: 'c3', numeral: 'III', title: 'The Iron Covenant', legend: 'atlas', playerDeck: D3.player, playerDeckName: 'Iron Covenant',
+  trials: ['The Workshop Wakes', 'Tests of Iron', 'The Deep Forge'],
+  intro: [
+    S('Narration', 'Below the floating kingdom, workshops hum and forges never cool. The machines and the mountain-folk have watched your banner rise.'),
+    S('Narration', 'ATLAS-Ω was built to end a war. It did. It is still waiting for its next order.', true),
+    S('Narration', 'The Iron Covenant lends you its own deck. Prove you can run it, and the war machine will answer.'),
+  ],
+  bouts: [
+    // ── Trial 1 · The Workshop Wakes ──
+    { id: 'c3-t1-b1', trial: 1, bout: 1, title: 'Pip Brought Explosives', portrait: 'pip', rival: 'Demolition Crew', deck: D3.blast,
+      story: [S('Narration', 'Pip was told the Crownfall was a place of great explosions. Pip was not told correctly, so Pip brought his own.', true), S('Pip', 'Pip brought explosives!', true)],
+      setup: { rivalCrown: 3 }, objective: win, rules: 'The Demolition Crew has only 3 shards.', reward: { valor: 80, cards: ['pip'] } },
+    { id: 'c3-t1-b2', trial: 1, bout: 2, title: 'The Door Is Gone', portrait: 'bolt', rival: 'Demolition Crew', deck: D3.blast,
+      story: [S('Narration', 'Bolt was built to guard a door. The door is gone. Bolt has decided you are the door now.', true), S('Bolt', 'Unit B-07 online.', true)],
+      setup: { myField: ['bolt'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Bolt starts on your field. Win with at least 3 shards.', reward: { valor: 80, cards: ['bolt'] } },
+    { id: 'c3-t1-b3', trial: 1, bout: 3, title: 'Calculating Trajectory', portrait: 'gearwick', rival: 'Siege Battery', deck: D3.siege,
+      story: [S('Narration', 'Gearwick-9 has calculated the odds of winning the Crown. It will not tell you them.', true), S('Gearwick-9', 'Calculating trajectory.', true)],
+      objective: win, rules: 'A long-range deck that Scorches every rival champion.', reward: { valor: 80, cards: ['gearwick'] } },
+    { id: 'c3-t1-b4', trial: 1, bout: 4, title: 'Very, Very Careful', portrait: 'hex3', rival: 'The Prototype Lab', deck: D3.prototypes,
+      story: [S('Narration', 'Prototypes one and two exploded. HEX-3 is careful. HEX-3 is very, very careful.', true), S('HEX-3', 'Reactor stable. Mostly.', true)],
+      setup: { myField: ['hex3'] }, objective: { kind: 'survive', rounds: 5 }, rules: 'HEX-3 starts on your field. Survive until round 5 begins.', reward: { valor: 90, cards: ['hex3'] } },
+    { id: 'c3-t1-b5', trial: 1, bout: 5, title: 'Excessive Voltage', portrait: 'spark', rival: 'The Prototype Lab', deck: D3.prototypes,
+      story: [S('Narration', 'Professor Spark was expelled from four academies for "excessive voltage".', true), S('Professor Spark', 'Excessive voltage? Never!', true)],
+      setup: { edict: 'edict-crowns_bounty' }, objective: win, rules: 'Edict in play: Crown’s Bounty. Tokens everywhere.', reward: { valor: 90, cards: ['spark'] } },
+    // ── Trial 2 · Tests of Iron ──
+    { id: 'c3-t2-b1', trial: 2, bout: 1, title: 'BIGGER BOOM', portrait: 'pip', rival: 'Demolition Crew', deck: D3.blast,
+      story: [S('Pip', 'BIGGER BOOM!', true), S('Narration', 'Every shard that breaks hands its owner a card. Pip calls that "more ammunition".')],
+      setup: { edict: 'edict-shard_season' }, objective: win, rules: 'Edict in play: Shard Season.', reward: { valor: 100 } },
+    { id: 'c3-t2-b2', trial: 2, bout: 2, title: 'Upgrade Accepted', portrait: 'bolt', rival: 'The Door That Remains', deck: D3.door,
+      story: [S('Bolt', 'Upgrade accepted.', true), S('Narration', 'A deck of doors and walls. Find the hinge.')],
+      objective: win, reward: { valor: 100 } },
+    { id: 'c3-t2-b3', trial: 2, bout: 3, title: 'Additional Barrels', portrait: 'gearwick', rival: 'Siege Battery', deck: D3.siege,
+      story: [S('Gearwick-9', 'Additional barrels installed.', true)],
+      setup: { edict: 'edict-war_banners' }, objective: win, rules: 'Edict in play: War Banners.', reward: { valor: 100 } },
+    { id: 'c3-t2-b4', trial: 2, bout: 4, title: 'Core Output Increased', portrait: 'hex3', rival: 'The Prototype Lab', deck: D3.prototypes,
+      story: [S('HEX-3', 'Core output increased.', true), S('Narration', 'HEX-3 is still being careful. Its rivals are not.')],
+      objective: win, reward: { valor: 100 } },
+    { id: 'c3-t2-b5', trial: 2, bout: 5, title: 'Version Two', portrait: 'spark', rival: 'The Prototype Lab', deck: D3.prototypes,
+      story: [S('Professor Spark', 'Version two, even better!', true), S('Professor Spark', 'Ascending is cheaper today. I may have adjusted the Arena. Slightly.')],
+      setup: { edict: 'edict-scholars_ascent' }, objective: { kind: 'keepShards', n: 3 }, rules: 'Edict in play: Scholar’s Ascent. Win with at least 3 shards.', reward: { valor: 110 } },
+    // ── Trial 3 · The Deep Forge ──
+    { id: 'c3-t3-b1', trial: 3, bout: 1, title: 'Stand Behind Me', portrait: 'torren', rival: 'Titan’s Deep', deck: D3.forge,
+      story: [S('Narration', 'The Titanborn say a shield is a promise. Torren has never broken one.', true), S('Torren', 'Stand behind me.', true)],
+      setup: { myField: ['torren'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Torren starts on your field. Win with at least 3 shards.', reward: { valor: 110, cards: ['torren'] } },
+    { id: 'c3-t3-b2', trial: 3, bout: 2, title: 'The Forge Is Hot', portrait: 'borin', rival: 'Titan’s Deep', deck: D3.forge,
+      story: [S('Narration', 'The Forgekin of Titan’s Deep sing to metal until it agrees to become a hammer. Borin sings loudest.', true), S('Borin Ironbelly', 'The forge is hot!', true)],
+      objective: win, reward: { valor: 110, cards: ['borin'] } },
+    { id: 'c3-t3-b3', trial: 3, bout: 3, title: 'Surface Fighters', portrait: 'knuckle', rival: 'Titan’s Deep', deck: D3.forge,
+      story: [S('Narration', 'Knuckle has never lost a fight in the Underpits. He is here to see if the surface is any harder.', true), S('Knuckle', 'Surface fighters. Cute.', true)],
+      setup: { edict: 'edict-war_banners' }, objective: win, rules: 'Edict in play: War Banners.', reward: { valor: 110, cards: ['knuckle'] } },
+    { id: 'c3-t3-b4', trial: 3, bout: 4, title: 'City Status: Unknown', portrait: 'titanrho', rival: 'The Last Fortress', deck: D3.fortress,
+      story: [S('Narration', 'Titan Rho guarded a city for ten thousand years. It does not know the city fell.', true), S('Titan Rho', 'City status: unknown. Defending anyway.', true)],
+      objective: win, rules: 'The most defensive deck yet. Go wide, Scorch, and be patient.', reward: { valor: 120, cards: ['titanrho'] } },
+    { id: 'c3-t3-b5', trial: 3, bout: 5, title: 'Perimeter Held', portrait: 'titanrho', rival: 'Siege Battery', deck: D3.siege,
+      story: [S('Titan Rho', 'Fortress mode.', true), S('Narration', 'Titan Rho and Torren take the wall beside you while the siege guns open up. Hold until round 6.')],
+      setup: { myField: ['titanrho', 'torren'] }, objective: { kind: 'survive', rounds: 6 }, rules: 'Titan Rho and Torren start on your field. Survive until round 6 begins.', reward: { valor: 120 } },
+    // ── The Crowning ──
+    { id: 'c3-crowning', trial: 4, bout: 1, title: 'The Crowning: ATLAS-Ω', portrait: 'atlas', rival: 'ATLAS-Ω, Final-Generation War Machine', deck: D3.atlas,
+      story: [S('Narration', 'The workshop doors slide open. Something enormous has been standing in the dark, perfectly still, for a very long time.'),
+        S('ATLAS-Ω', 'Awaiting orders.', true),
+        S('ATLAS-Ω', 'New order received: test the Sovereign.')],
+      objective: win, rules: 'The Crowning. ATLAS-Ω is in the rival’s deck.', reward: { valor: 300, cards: ['atlas-2', 'atlas-3'] },
+      crowning: {
+        contender: { deck: D3.atlas, printing: 'base' },
+        masterwork: { deck: D3.atlas, printing: 'masterwork', setup: { edict: 'edict-crowns_bounty' } },
+        omega: { deck: D3.atlas, printing: 'omega', setup: { edict: 'edict-crowns_bounty', rivalField: ['atlas'] } },
+      } },
+  ],
+};
+
+export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II, CHAPTER_III] };
 export const ALL_BOUTS: Bout[] = ACT_I.chapters.flatMap((c) => c.bouts);
