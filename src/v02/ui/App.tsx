@@ -70,8 +70,8 @@ export function App() {
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   if (screen === 'menu') {
     const img = (n: string) => `url(${import.meta.env.BASE_URL}v02/home-${n}.webp)`;
-    const tile = (label: string, icon: string, go?: () => void, badge?: boolean) => (
-      <button type="button" className="home-tile" onClick={go ?? (() => setSoon(label))}><span aria-hidden="true">{icon}</span>{label}{badge && <i className="home-badge" aria-hidden="true">!</i>}</button>
+    const tile = (label: string, art: string, go?: () => void, badge?: boolean) => (
+      <button type="button" className="home-tile" aria-label={label} onClick={go ?? (() => setSoon(label))}><img src={`${import.meta.env.BASE_URL}v02/menu/${art}.webp`} alt="" />{badge && <i className="home-badge" aria-hidden="true">!</i>}</button>
     );
     return (
       <Stage>
@@ -80,33 +80,23 @@ export function App() {
           <div className="intro-frame" aria-hidden="true" />
           <div className="home-plaque">Crownfall</div>
           <div className="menu-wallet"><Wallet /><button type="button" className="btn gold" onClick={() => setScreen('shop')}>🛒 Shop</button></div>
-          <header className="title home-title">
-            <TitleCrown />
-            <h1>Sovereign's Hand</h1>
-            <div className="home-tag"><span>◆</span> Command · Outplay · Ascend <span>◆</span></div>
-          </header>
+          <h1 className="home-title"><img src={`${import.meta.env.BASE_URL}v02/home-title.webp`} alt="Sovereign's Hand — Command · Outplay · Ascend" /></h1>
           <div className="home-modes">
-            <button type="button" className="home-mode" onClick={() => setScreen('campaign')}>
-              <span className="hm-art" style={{ backgroundImage: img('campaign') }} />
-              <span className="hm-text"><b>Campaign</b><small>Forge your deck. Command your champions.<br />Uncover the truth behind the Crown.</small><span className="hm-btn">Continue <em>›</em></span></span>
-            </button>
-            <button type="button" className="home-mode" onClick={() => setScreen('arena')}>
-              <span className="hm-art" style={{ backgroundImage: img('ai') }} />
-              <span className="hm-text"><b>Play vs AI</b><small>Choose a deck. Face powerful rivals.<br />Hone your strategy and master your champions.</small><span className="hm-btn"><em>⚔</em> Play Battle <em>›</em></span></span>
-            </button>
+            <button type="button" className="home-panel" aria-label="Campaign — Continue" onClick={() => setScreen('campaign')}><img src={`${import.meta.env.BASE_URL}v02/home-campaign-panel.webp`} alt="" /></button>
+            <button type="button" className="home-panel" aria-label="Play vs AI — Play Battle" onClick={() => setScreen('arena')}><img src={`${import.meta.env.BASE_URL}v02/home-ai-panel.webp`} alt="" /></button>
             <button type="button" className="home-mode wide" onClick={() => setSoon('Arena of Ascension')}>
               <span className="hm-art" style={{ backgroundImage: img('arena') }} />
               <span className="hm-text"><b>Arena of Ascension</b><small>Compete against other players.<br />Build, adapt, and claim the Crown.</small><span className="hm-btn dark"><em>👥</em> Enter Arena <em>›</em></span></span>
             </button>
           </div>
           <nav className="home-tiles">
-            {tile('Collection', '🂡', () => setScreen('collection'))}
-            {tile('Decks', '🂠', () => setScreen('decks'))}
-            {tile('Codex', '📖')}
-            {tile('Challenges', '🏆', undefined, true)}
-            {tile('Achievements', '🛡')}
-            {tile('Shop', '🛒', () => setScreen('shop'))}
-            {tile('Settings', '⚙')}
+            {tile('Collection', 'collection', () => setScreen('collection'))}
+            {tile('Decks', 'decks', () => setScreen('decks'))}
+            {tile('Codex', 'codex')}
+            {tile('Challenges', 'challenges', undefined, true)}
+            {tile('Achievements', 'achievements')}
+            {tile('Shop', 'shop', () => setScreen('shop'))}
+            {tile('Settings', 'settings')}
           </nav>
           <button type="button" className="home-howto" onClick={() => setRules(true)}>How to play</button>
           {rules && <RulesModal onClose={() => setRules(false)} />}

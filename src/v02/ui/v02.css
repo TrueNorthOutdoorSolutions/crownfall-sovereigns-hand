@@ -548,3 +548,19 @@ a { color: var(--gold) }
 .home-tag { margin-top: 16px }
 .home-title h1 { line-height: 1.2 } .home-tag { margin-top: 6px }
 .home-tag { padding: 4px 22px; background: linear-gradient(90deg, transparent, rgba(8,10,22,.82) 18%, rgba(8,10,22,.82) 82%, transparent) }
+
+/* ---------- Home screen: owner art templates (2026-10-11) ---------- */
+.home-title { position: absolute; left: 50%; top: 18px; transform: translateX(-50%); width: 660px; margin: 0; z-index: 2; line-height: 0 }
+.home-title img { width: 100%; display: block }
+.home-modes { left: 50%; transform: translateX(-50%); top: 238px; width: 860px; gap: 4px 30px; grid-template-columns: 415px 415px; justify-content: center }
+.home-panel { position: relative; height: 277px; padding: 0; border: 0; background: none; cursor: pointer; transition: transform .18s, filter .18s }
+.home-panel img { width: 100%; height: 100%; object-fit: contain; display: block; filter: drop-shadow(0 10px 20px rgba(0,0,0,.6)) }
+.home-panel:hover, .home-panel:focus-visible { transform: translateY(-4px); outline: none; filter: drop-shadow(0 0 22px rgba(255,205,100,.5)) }
+.home-mode.wide { height: 146px; margin: 0 14px }
+.home-tiles { top: 682px; gap: 10px }
+.home-tile { width: 122px; height: 192px; padding: 0; border: 0; background: none; box-shadow: none; transition: transform .16s, filter .16s }
+.home-tile img { width: 100%; height: 100%; object-fit: contain; display: block; filter: drop-shadow(0 8px 14px rgba(0,0,0,.6)) }
+.home-tile:hover, .home-tile:focus-visible { transform: translateY(-5px); outline: none; border: 0; box-shadow: none; filter: drop-shadow(0 0 16px rgba(255,205,100,.55)) }
+.home-badge { top: 18px; right: 6px; z-index: 1 }
+.home-howto { top: auto; bottom: 26px }
+.home-tiles { top: 700px; gap: 10px } .home-tile { width: 106px; height: 168px } .home-badge { top: 15px; right: 4px }
