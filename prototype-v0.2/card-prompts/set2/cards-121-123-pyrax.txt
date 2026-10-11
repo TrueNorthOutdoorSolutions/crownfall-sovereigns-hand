@@ -14,7 +14,7 @@ Title: Wyrm of the Deep Forge
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Elemental | Sapper | TIER IV
-Trait icons: Elemental: orange flame; Sapper: black powder keg with a lit fuse
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Undermine.**
@@ -32,7 +32,7 @@ Title: Wyrm of the Deep Forge
 Stars: ★★
 Ascension band: ASCENSION • from Pyrax ★
 Origin | Class | Tier: Elemental | Sapper | TIER IV
-Trait icons: Elemental: orange flame; Sapper: black powder keg with a lit fuse
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Undermine.**
@@ -51,7 +51,7 @@ Title: Wyrm of the Deep Forge
 Stars: ★★★
 Ascension band: ASCENSION • from Pyrax ★★
 Origin | Class | Tier: Elemental | Sapper | TIER IV
-Trait icons: Elemental: orange flame; Sapper: black powder keg with a lit fuse
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Undermine.**

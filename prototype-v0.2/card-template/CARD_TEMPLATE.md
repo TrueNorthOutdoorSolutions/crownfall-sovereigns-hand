@@ -68,7 +68,7 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Binder | teal chain link |
 | Channeler | violet spiral |
 | Restorer | rose-pink lotus |
-| Sapper | black powder keg with a lit fuse |
+| Sapper | white powder keg with a lit orange fuse (locked from the approved Bramble sheet) |
 | Rogue | crimson domino mask |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.

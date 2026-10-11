@@ -73,7 +73,7 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Binder | teal chain link (Set 2) |
 | Channeler | violet spiral (Set 2) |
 | Restorer | rose-pink lotus (Set 2) |
-| Sapper | black powder keg with a lit fuse (Set 2) |
+| Sapper | white powder keg with a lit orange fuse (Set 2) |
 | Rogue | crimson domino mask (Set 2) |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.

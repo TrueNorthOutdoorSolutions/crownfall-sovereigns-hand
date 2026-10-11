@@ -14,7 +14,7 @@ Title: Tunnel Blaster
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Gearbound | Sapper | TIER I
-Trait icons: Gearbound: gold gear; Sapper: black powder keg with a lit fuse
+Trait icons: Gearbound: gold gear; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tunnel Charge.**
@@ -32,7 +32,7 @@ Title: Tunnel Blaster
 Stars: ★★
 Ascension band: ASCENSION • from Pip ★
 Origin | Class | Tier: Gearbound | Sapper | TIER I
-Trait icons: Gearbound: gold gear; Sapper: black powder keg with a lit fuse
+Trait icons: Gearbound: gold gear; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tunnel Charge.**
@@ -50,7 +50,7 @@ Title: Tunnel Blaster
 Stars: ★★★
 Ascension band: ASCENSION • from Pip ★★
 Origin | Class | Tier: Gearbound | Sapper | TIER I
-Trait icons: Gearbound: gold gear; Sapper: black powder keg with a lit fuse
+Trait icons: Gearbound: gold gear; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Tunnel Charge.**

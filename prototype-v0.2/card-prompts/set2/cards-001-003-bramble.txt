@@ -14,7 +14,7 @@ Title: The Rootbreaker
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Verdant | Sapper | TIER I
-Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rootbreak.**
@@ -32,7 +32,7 @@ Title: The Rootbreaker
 Stars: ★★
 Ascension band: ASCENSION • from Bramble ★
 Origin | Class | Tier: Verdant | Sapper | TIER I
-Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rootbreak.**
@@ -50,7 +50,7 @@ Title: The Rootbreaker
 Stars: ★★★
 Ascension band: ASCENSION • from Bramble ★★
 Origin | Class | Tier: Verdant | Sapper | TIER I
-Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Rootbreak.**

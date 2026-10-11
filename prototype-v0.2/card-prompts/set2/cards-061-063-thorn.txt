@@ -14,7 +14,7 @@ Title: Rot Beneath the Stone
 Stars: ★
 No Ascension band
 Origin | Class | Tier: Verdant | Sapper | TIER II
-Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Creeping Rot.**
@@ -32,7 +32,7 @@ Title: Rot Beneath the Stone
 Stars: ★★
 Ascension band: ASCENSION • from Thorn ★
 Origin | Class | Tier: Verdant | Sapper | TIER II
-Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Creeping Rot.**
@@ -51,7 +51,7 @@ Title: Rot Beneath the Stone
 Stars: ★★★
 Ascension band: ASCENSION • from Thorn ★★
 Origin | Class | Tier: Verdant | Sapper | TIER II
-Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
 1. **Creeping Rot.**
