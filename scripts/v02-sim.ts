@@ -21,7 +21,7 @@ function pairing(a: DeckId, b: DeckId, seedBase: number) {
     const decks: [DeckId, DeckId] = k % 2 ? [b, a] : [a, b];
     const s = playOut(newGame({ seed: seedBase + k, decks, first: (Math.floor(k / 2) % 2) as 0 | 1 }));
     total++;
-    if (s.players.some((p) => cardsInZones(p) !== 30 + DECKS[p.deckId].ascension.length)) conservationFailures++;
+    if (s.players.some((p, i) => cardsInZones(p, i, s.players) !== 30 + DECKS[p.deckId].ascension.length)) conservationFailures++;
     if (s.players[s.winner!].deckId === a) aWins++;
     if (s.winner === s.first) firstWins++;
     if (/round-10 rule|empty deck/.test(s.endReason ?? '')) stallEnds++;

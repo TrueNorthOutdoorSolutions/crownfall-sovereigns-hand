@@ -480,9 +480,10 @@ export const DECKS: Record<DeckId, DeckDef> = {
     pitch: 'Arm your champions with Relics from the Vault and hold the line with the Crystal Golem. ATLAS-Ω is your Ascendant.',
     main: [['kael@2', 2], ['rowan@2', 2], ['gearwick@2', 2], ['borin@2', 2], ['aurelia@2', 2], ['varr@2', 1], ['atlas@2', 1], ['guardian-golem', 1],
       ['spark@2', 2], ['knuckle@2', 1], ['titanrho@2', 1],
-      ['relic-blade', 2], ['relic-plate', 1], ['relic-colossus_edge', 1], ['relic-crownsworn', 1], ['relic-kingdom_emblem', 1], ['relic-aegis_codex', 1], ['relic-fallen_kings_blade', 1],
+      ['bolt@2', 2], // tuned 2026-10-11 for the Set 2 remix (was Crownsworn + Aegis Codex): Vault 37% -> 52% in simulation
+      ['relic-blade', 2], ['relic-plate', 1], ['relic-colossus_edge', 1], ['relic-kingdom_emblem', 1], ['relic-fallen_kings_blade', 1],
       ['treasure_is_yours', 1], ['vault_remembers', 1], ['hex_war', 1], ['steel_will_answer', 1], ['unbinding_charm', 1]],
-    ascension: ['kael@2-2', 'kael@2-3', 'aurelia@2-2', 'aurelia@2-3', 'borin@2-2', 'borin@2-3', 'atlas@2-2', 'atlas@2-3'],
+    ascension: ['gearwick@2-2', 'gearwick@2-3', 'varr@2-2', 'varr@2-3', 'borin@2-2', 'borin@2-3', 'atlas@2-2', 'atlas@2-3'],
   },
   brood: {
     set: 2, name: "Guardians' Brood", origins: 'Monsters · Hollow · Umbral', color: '#6a3fa0', accent: '#8fd6bd',
