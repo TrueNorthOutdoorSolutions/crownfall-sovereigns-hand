@@ -546,3 +546,5 @@ a { color: var(--gold) }
 .home-mode.wide .hm-text { width: 42% }
 .home-mode.wide .hm-text b { white-space: nowrap }
 .home-tag { margin-top: 16px }
+.home-title h1 { line-height: 1.2 } .home-tag { margin-top: 6px }
+.home-tag { padding: 4px 22px; background: linear-gradient(90deg, transparent, rgba(8,10,22,.82) 18%, rgba(8,10,22,.82) 82%, transparent) }
