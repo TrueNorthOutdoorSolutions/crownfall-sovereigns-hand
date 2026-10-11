@@ -152,8 +152,13 @@ def main():
         if extras:
             extra_pages = [page(extras[i:i + 9], label="Inserts and tokens · print at 100% (Actual size)") for i in range(0, len(extras), 9)]
             save_pdf(extra_pages, os.path.join(out, f"Set {set_no} Inserts and Tokens.pdf"))
-            # The master file holds everything: the numbered cards first, then the inserts and tokens.
-            save_pdf(pages + extra_pages, os.path.join(out, f"Set {set_no} Card Fronts.pdf"))
+            # The master file holds everything in one continuous run: the numbered cards, then straight on
+            # into the inserts and tokens with no blank slots between them.
+            run = [cards[n] for n in order] + extras
+            master = [page(run[i:i + 9], label=f"Sovereign's Hand Set {set_no} · master sheet {i // 9 + 1} · print at 100% (Actual size)")
+                      for i in range(0, len(run), 9)]
+            save_pdf(master, os.path.join(out, f"Set {set_no} Card Fronts.pdf"))
+            print(f"Master file: {len(run)} cards on {len(master)} pages")
             print(f"Inserts and tokens: {len(extras)} cards ({', '.join(n[:-4] for n in names)})")
 
     missing = [n for n in range(1, total + 1) if n not in cards]
