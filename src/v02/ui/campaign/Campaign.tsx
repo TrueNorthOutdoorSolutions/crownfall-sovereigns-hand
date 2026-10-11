@@ -7,7 +7,7 @@ import { useProfile } from '../../economy/profile';
 import { cardImage } from '../cardart';
 import { Wallet } from '../collect/Shop';
 
-export interface StartBout { bout: Bout; difficulty: Difficulty }
+export interface StartBout { bout: Bout; difficulty: Difficulty; playerDeck: string }
 
 const DIFF_NAMES: Record<Difficulty, string> = { contender: 'Contender', masterwork: 'Masterwork', omega: 'Omega' };
 const label = (b: Bout) => (b.crowning ? 'The Crowning' : `Trial ${b.trial} · Bout ${b.bout}`);
@@ -29,9 +29,14 @@ function Lines({ lines }: { lines: StoryLine[] }) {
 export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s: StartBout) => void }) {
   const profile = useProfile();
   const cleared = (id: string) => !!profile.campaign?.[id];
-  const [chapter] = useState<Chapter>(ACT_I.chapters[0]);
+  // A chapter opens once the previous chapter's Crowning is won; the screen opens on the furthest open chapter.
+  const chapterOpen = (i: number) => i === 0 || cleared(ACT_I.chapters[i - 1].bouts.at(-1)!.id);
+  const [chapterIdx, setChapterIdx] = useState(() => { let i = 0; while (i + 1 < ACT_I.chapters.length && chapterOpen(i + 1)) i++; return i; });
+  const chapter: Chapter = ACT_I.chapters[chapterIdx];
   const [open, setOpen] = useState<Bout | null>(null);
-  const [intro, setIntro] = useState(() => !chapter.bouts.some((b) => cleared(b.id)));
+  const [introFor, setIntroFor] = useState<number | null>(() => (chapter.bouts.some((b) => cleared(b.id)) ? null : chapterIdx));
+  const intro = introFor === chapterIdx;
+  const setIntro = (v: boolean) => setIntroFor(v ? chapterIdx : null);
   const unlocked = (b: Bout) => { const i = chapter.bouts.indexOf(b); return i === 0 || cleared(chapter.bouts[i - 1].id); };
   const done = chapter.bouts.filter((b) => cleared(b.id)).length;
   const act2Done = false; // Masterwork and Omega Crownings reopen once Act II is complete.
@@ -43,6 +48,13 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
         <h2>Act I · {ACT_I.title}</h2><div className="spacer" /><Wallet /></div>
       <div className="screen-body camp-body">
         <div className="camp-chapter">
+          <div className="camp-tabs">
+            {ACT_I.chapters.map((c, i) => (
+              <button type="button" key={c.id} className={`chip ${i === chapterIdx ? 'on' : ''}`} disabled={!chapterOpen(i)}
+                onClick={() => { setChapterIdx(i); if (!c.bouts.some((b) => cleared(b.id))) setIntroFor(i); }}>
+                Chapter {c.numeral} · {c.title}{chapterOpen(i) ? '' : ' 🔒'}</button>
+            ))}
+          </div>
           <div className="camp-head">
             <span className="camp-num">Chapter {chapter.numeral}</span>
             <h3>{chapter.title}</h3>
@@ -69,7 +81,7 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
               </div>
             </div>
           ))}
-          <div className="camp-later note">Chapters II–VIII (Blood and Ember · The Iron Covenant · The Greenwall · The Unremembered · The Court of Night · Storm and Rift · The One Who Refused) are being written.</div>
+          <div className="camp-later note">Chapters III–VIII (The Iron Covenant · The Greenwall · The Unremembered · The Court of Night · Storm and Rift · The One Who Refused) are being written.</div>
         </div>
       </div>
 
@@ -94,7 +106,7 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
               <div className="sp-rules">
                 <div><b>Objective</b> {objectiveText(open.objective)}</div>
                 {open.rules && <div><b>Rules</b> {open.rules}</div>}
-                <div><b>Rival</b> {open.rival} · <b>Your deck</b> Banner of the Realm</div>
+                <div><b>Rival</b> {open.rival} · <b>Your deck</b> {chapter.playerDeckName}</div>
                 <div><b>Reward</b> ✧ {open.reward.valor} Valor{open.reward.cards?.length ? ` · ${open.reward.cards.map((c) => `${CARDS[c].name}${(CARDS[c] as { star?: number }).star && (CARDS[c] as { star: number }).star > 1 ? ` ${'★'.repeat((CARDS[c] as { star: number }).star)}` : ''}`).join(', ')}` : ''}{cleared(open.id) ? ' (already claimed)' : ''}</div>
               </div>
               {open.crowning ? (
@@ -102,12 +114,12 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
                   {(['contender', 'masterwork', 'omega'] as Difficulty[]).map((d) => {
                     const locked = d !== 'contender' && !act2Done;
                     return <button type="button" key={d} className={`btn ${d === 'contender' ? 'gold' : ''}`} disabled={locked}
-                      title={locked ? 'Reopens once Act II is complete.' : ''} onClick={() => onStart({ bout: open, difficulty: d })}>
+                      title={locked ? 'Reopens once Act II is complete.' : ''} onClick={() => onStart({ bout: open, difficulty: d, playerDeck: chapter.playerDeck })}>
                       {DIFF_NAMES[d]}{locked ? ' 🔒' : ''}</button>;
                   })}
                   <p className="note">Masterwork and Omega Crownings reopen after Act II, with the legend’s Masterwork and Omega cards.</p>
                 </div>
-              ) : <button type="button" className="btn gold" onClick={() => onStart({ bout: open, difficulty: 'contender' })}>Begin Bout</button>}
+              ) : <button type="button" className="btn gold" onClick={() => onStart({ bout: open, difficulty: 'contender', playerDeck: chapter.playerDeck })}>Begin Bout</button>}
             </div>
           </div>
         </div>

@@ -65,7 +65,7 @@ export function App() {
   if (opening) return <Stage><Opening packs={opening} onDone={() => { setOpening(null); setScreen('collection'); }} /></Stage>;
   if (screen === 'shop') return <Stage><Shop onBack={() => setScreen('menu')} onOpened={setOpening} /></Stage>;
   if (screen === 'collection') return <Stage><Collection onBack={() => setScreen('menu')} /></Stage>;
-  if (screen === 'campaign') return <Stage><Campaign onBack={() => setScreen('menu')} onStart={(b) => setMatch({ decks: ['banner', b.bout.crowning ? b.bout.crowning[b.difficulty].deck : b.bout.deck], seed: newSeed(), bout: b })} /></Stage>;
+  if (screen === 'campaign') return <Stage><Campaign onBack={() => setScreen('menu')} onStart={(b) => setMatch({ decks: [b.playerDeck, b.bout.crowning ? b.bout.crowning[b.difficulty].deck : b.bout.deck], seed: newSeed(), bout: b })} /></Stage>;
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   return (
     <Stage>

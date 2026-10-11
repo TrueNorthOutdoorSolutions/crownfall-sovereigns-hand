@@ -44,7 +44,7 @@ export interface Bout {
   crowning?: Record<Difficulty, { setup?: BoutSetup; deck: string; printing: 'base' | 'masterwork' | 'omega' }>;
 }
 
-export interface Chapter { id: string; numeral: string; title: string; legend: string; intro: StoryLine[]; trials: string[]; bouts: Bout[] }
+export interface Chapter { id: string; numeral: string; title: string; legend: string; intro: StoryLine[]; trials: string[]; bouts: Bout[]; playerDeck: string; playerDeckName: string }
 
 // ---------- enemy decks (30 cards; legal by the deck rules) ----------
 const deck = (id: string, name: string, origins: string, main: [string, number][], ascension: string[]) => {
@@ -88,7 +88,7 @@ const win: Objective = { kind: 'win' };
 const S = (speaker: string, text: string, canon = false): StoryLine => ({ speaker, text, canon });
 
 export const CHAPTER_I: Chapter = {
-  id: 'c1', numeral: 'I', title: 'The First Light', legend: 'sol',
+  id: 'c1', numeral: 'I', title: 'The First Light', legend: 'sol', playerDeck: 'banner', playerDeckName: 'Banner of the Realm',
   trials: ['Meeting the Light', 'The Tests of the Realm', 'The Banners Gather'],
   intro: [
     S('Narration', 'Long ago, the Crown fell. Its pieces scattered across every realm.'),
@@ -166,5 +166,112 @@ export const CHAPTER_I: Chapter = {
   ],
 };
 
-export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I] };
+
+// ════════════════════════ Chapter II · Blood and Ember ════════════════════════
+const D2 = {
+  pack: deck('c2-pack', 'The Winter Pack', 'Wildkin · Umbral', [['fen', 2], ['rask', 2], ['grizz', 2], ['nyx', 2], ['shade', 2], ['ronin', 2],
+    ['feral-howl', 2], ['fallen_crown', 2], ['bloodscent', 2], ['last_stand', 2], ['firebolt', 2], ['flare-up', 2], ['back_doctrine', 2], ['opening_salvo', 2], ['kindling', 2]],
+    ['fen-2', 'fen-3', 'rask-2', 'rask-3']),
+  heavies: deck('c2-heavies', 'The Mountain Range', 'Wildkin · Titanborn · Verdant', [['grizz', 2], ['knuckle', 2], ['borin', 2], ['torren', 2], ['titanrho', 1], ['gaia', 1], ['bramble', 2],
+    ['shield-wall', 2], ['last_stand', 2], ['first-light', 2], ['crown_of_war', 2], ['crowns_favor', 2], ['royal-dispatch', 2], ['steady_coffers', 2], ['battle_hymn', 2], ['crest_verdant', 2]],
+    ['grizz-2', 'grizz-3', 'knuckle-2', 'knuckle-3']),
+  pit: deck('c2-pit', 'The Pits of Sszar', 'Wildkin · Voltborn · Astral', [['rask', 2], ['fen', 2], ['ronin', 2], ['astryon', 1], ['ladyvolt', 1], ['kael', 2], ['valkara', 2],
+    ['feral-howl', 2], ['fallen_crown', 2], ['executioner', 2], ['battle_hymn', 2], ['back_doctrine', 2], ['flare-up', 2], ['crest_duelist', 2], ['opening_salvo', 2], ['glass_crown', 2]],
+    ['rask-2', 'rask-3', 'ronin-2', 'ronin-3']),
+  sparks: deck('c2-sparks', 'Too Many Sparks', 'Elemental · Gearbound · Hexbound', [['emberling', 2], ['pip', 2], ['gearwick', 2], ['hexie', 2], ['zyrak', 2], ['ignara', 2],
+    ['firebolt', 2], ['firestorm', 2], ['kindling', 2], ['crown_of_chaos', 2], ['executioner', 2], ['opening_salvo', 2], ['lucky_draw', 2], ['ember-trap', 2], ['golden_parting', 2]],
+    ['emberling-2', 'emberling-3', 'pip-2', 'pip-3']),
+  tides: deck('c2-tides', 'The Silent Tide', 'Elemental · Dawnforged · Astral', [['mirella', 2], ['solara', 2], ['elysian', 1], ['elara', 2], ['seren', 2], ['torren', 2], ['grimm', 1],
+    ['shield-wall', 2], ['dawnward-oath', 2], ['royal-dispatch', 2], ['crown_bond', 2], ['crowns_favor', 2], ['first-light', 2], ['merchant_prince', 2], ['hold-the-gate', 2], ['studious', 2]],
+    ['mirella-2', 'mirella-3', 'seren-2', 'seren-3']),
+  pyre: deck('c2-pyre', 'The Living Pyre', 'Elemental · Verdant · Titanborn', [['ignara', 2], ['bramble', 2], ['thorn', 2], ['torren', 2], ['grimm', 2], ['varr', 1], ['gaia', 1],
+    ['cinder-veil', 2], ['ember-trap', 2], ['last_stand', 2], ['bloodscent', 2], ['firebolt', 2], ['shield-wall', 2], ['first-light', 2], ['royal-dispatch', 2], ['steady_coffers', 2]],
+    ['ignara-2', 'ignara-3', 'thorn-2', 'thorn-3']),
+  dragonfire: deck('c2-dragonfire', 'Dragon-Blooded', 'Elemental · Wildkin · Voltborn', [['pyrax', 2], ['emberling', 2], ['ignara', 2], ['fen', 2], ['kira', 2], ['solenne', 2],
+    ['firebolt', 2], ['firestorm', 2], ['feral-howl', 2], ['flare-up', 2], ['crown_of_war', 2], ['fallen_crown', 2], ['ascension_rite', 2], ['tempered_victory', 2], ['kindling', 2]],
+    ['pyrax-2', 'pyrax-3', 'emberling-2', 'emberling-3']),
+  aurex: deck('c2-aurex', 'The Last Dragon', 'Wyrmblood · Elemental · Wildkin', [['aurex', 1], ['pyrax', 2], ['ignara', 2], ['emberling', 2], ['fen', 2], ['grizz', 2], ['valkara', 2],
+    ['firebolt', 2], ['firestorm', 2], ['feral-howl', 2], ['flare-up', 2], ['crown_of_war', 1], ['ember-trap', 2], ['cinder-veil', 2], ['fourth_crown', 2], ['return-to-fire', 2]],
+    ['aurex-2', 'aurex-3', 'pyrax-2', 'pyrax-3', 'ignara-2', 'ignara-3', 'valkara-2', 'valkara-3']),
+};
+Object.assign(CAMPAIGN_DECKS, D2);
+
+export const CHAPTER_II: Chapter = {
+  id: 'c2', numeral: 'II', title: 'Blood and Ember', legend: 'aurex', playerDeck: 'ember', playerDeckName: 'Blood & Ember',
+  trials: ['The Hunt Begins', 'Tests of Fang and Flame', 'The Road to the Dragon'],
+  intro: [
+    S('Narration', 'Sol has seen what your banner can do. Word travels fast in the Crownfall, and it reaches the wild places first.'),
+    S('Narration', 'Every dragon died for the Crown. Aurex is here to find out whether it was worth it.', true),
+    S('Narration', 'Before the last dragon will face you, the beasts and the fires of the Crownfall want to see if you can keep up.'),
+  ],
+  bouts: [
+    // ── Trial 1 · The Hunt Begins ──
+    { id: 'c2-t1-b1', trial: 1, bout: 1, title: 'Red Moon Rising', portrait: 'fen', rival: 'The Winter Pack', deck: D2.pack,
+      story: [S('Narration', 'Fen tracks weakness. He learned it from the winters, and the winters were thorough.', true), S('Fen', 'I smell weakness.', true),
+        S('Fen', 'You start behind. Good. The pack hunts hardest when it is hungry.')],
+      setup: { myCrown: 3 }, objective: win, rules: 'You start with only 3 Crown Shards. Fen hits harder while you are behind.', reward: { valor: 70, cards: ['fen'] } },
+    { id: 'c2-t1-b2', trial: 1, bout: 2, title: 'The Mountain', portrait: 'grizz', rival: 'The Winter Pack', deck: D2.pack,
+      story: [S('Narration', 'Grizz does not understand the Crown. He understands that everyone wants it, and he likes a crowd.', true), S('Grizz', 'GRAHH!', true),
+        S('Narration', 'Grizz plants himself in front of your Crown. Let him block.')],
+      setup: { myField: ['grizz'] }, objective: { kind: 'keepShards', n: 3 }, rules: 'Grizz starts on your field. Win with at least 3 of your shards.', reward: { valor: 70, cards: ['grizz'] } },
+    { id: 'c2-t1-b3', trial: 1, bout: 3, title: 'One, Two, Three', portrait: 'rask', rival: 'Arena Sparring Ring', deck: D.training,
+      story: [S('Narration', 'Rask counts in threes. So do his opponents, briefly.', true), S('Rask', 'One. Two. Three.', true)],
+      setup: { myField: ['rask'], rivalCrown: 3 }, objective: win, rules: 'Rask starts on your field. The sparring ring has 3 shards.', reward: { valor: 70, cards: ['rask'] } },
+    { id: 'c2-t1-b4', trial: 1, bout: 4, title: 'Too Close to the Spell', portrait: 'emberling', rival: 'Too Many Sparks', deck: D2.sparks,
+      story: [S('Narration', 'She was a candle once. Then someone read a spell too close to her.', true), S('Emberling', 'Can I burn something?', true),
+        S('Emberling', 'Scorch takes away Guard. Little champions melt. Big ones get worried!')],
+      objective: win, rules: 'A deck full of small Scorch effects. Watch your champions’ Guard.', reward: { valor: 70, cards: ['emberling'] } },
+    { id: 'c2-t1-b5', trial: 1, bout: 5, title: 'The Silence', portrait: 'mirella', rival: 'Too Many Sparks', deck: D2.sparks,
+      story: [S('Narration', 'Mirella can hear every ocean. The Crownfall has none, and the silence frightens her.', true), S('Mirella', 'The tide turns.', true),
+        S('Mirella', 'Stand with me until the fire runs out.')],
+      setup: { myField: ['mirella'] }, objective: { kind: 'survive', rounds: 5 }, rules: 'Mirella starts on your field. Survive until round 5 begins.', reward: { valor: 80, cards: ['mirella'] } },
+    // ── Trial 2 · Tests of Fang and Flame ──
+    { id: 'c2-t2-b1', trial: 2, bout: 1, title: 'The Pack’s Test', portrait: 'fen', rival: 'The Winter Pack', deck: D2.pack,
+      story: [S('Fen', 'The pack grows.', true), S('Fen', 'Keep your blockers standing. We strike what is already tired.')],
+      objective: win, rules: 'An Ambush deck: champions that strike sideways targets first.', reward: { valor: 90 } },
+    { id: 'c2-t2-b2', trial: 2, bout: 2, title: 'The Bear’s Test', portrait: 'grizz', rival: 'The Mountain Range', deck: D2.heavies,
+      story: [S('Grizz', 'BIGGER GRAHH!', true), S('Narration', 'A wall of fur and stone. You will not push through it. Go around.')],
+      objective: win, reward: { valor: 90 } },
+    { id: 'c2-t2-b3', trial: 2, bout: 3, title: 'The Pit Champion’s Test', portrait: 'rask', rival: 'The Pits of Sszar', deck: D2.pit,
+      story: [S('Rask', 'The crowd chants my name.', true), S('Narration', 'The pits pay for every shard broken. Rask has never left them hungry.')],
+      setup: { edict: 'edict-war_banners' }, objective: win, rules: 'Edict in play: War Banners.', reward: { valor: 90 } },
+    { id: 'c2-t2-b4', trial: 2, bout: 4, title: 'The Spark’s Test', portrait: 'emberling', rival: 'Too Many Sparks', deck: D2.sparks,
+      story: [S('Emberling', "I'm a real fire now!", true), S('Emberling', 'Let’s see who burns out first!')],
+      objective: win, reward: { valor: 90 } },
+    { id: 'c2-t2-b5', trial: 2, bout: 5, title: 'The Tide’s Test', portrait: 'mirella', rival: 'The Silent Tide', deck: D2.tides,
+      story: [S('Mirella', 'Every ocean sings with me.', true), S('Narration', 'Shields rise like waves. Break them, or flow around them.')],
+      objective: win, rules: 'A deck of Shields and card draw.', reward: { valor: 100 } },
+    // ── Trial 3 · The Road to the Dragon ──
+    { id: 'c2-t3-b1', trial: 3, bout: 1, title: 'The Wall of Fire', portrait: 'ignara', rival: 'The Living Pyre', deck: D2.pyre,
+      story: [S('Narration', 'Ignara was born in a volcano. She considers everywhere else cold.', true), S('Ignara', 'Everywhere else is cold.', true),
+        S('Ignara', 'Attack me. Everyone does, once.')],
+      objective: { kind: 'keepShards', n: 3 }, rules: 'Blockers that burn their attackers. Win with at least 3 shards.', reward: { valor: 100, cards: ['ignara'] } },
+    { id: 'c2-t3-b2', trial: 3, bout: 2, title: 'The Pyre’s Test', portrait: 'ignara', rival: 'The Living Pyre', deck: D2.pyre,
+      story: [S('Ignara', 'Burn brighter!', true), S('Narration', 'Each shard that breaks feeds its owner a card. The fire spreads.')],
+      setup: { edict: 'edict-shard_season' }, objective: win, rules: 'Edict in play: Shard Season.', reward: { valor: 100 } },
+    { id: 'c2-t3-b3', trial: 3, bout: 3, title: 'Lizard With a Temper', portrait: 'pyrax', rival: 'Dragon-Blooded', deck: D2.dragonfire,
+      story: [S('Narration', "Pyrax's grandmother was a dragon. Pyrax intends to be one too.", true), S('Pyrax', 'Grandmother would be proud.', true),
+        S('Pyrax', 'You want to meet the last dragon? Get past the next one first.')],
+      objective: win, reward: { valor: 110, cards: ['pyrax'] } },
+    { id: 'c2-t3-b4', trial: 3, bout: 4, title: 'The Crowd Roars', portrait: 'grizz', rival: 'The Mountain Range', deck: D2.heavies,
+      story: [S('Narration', 'Grizz and Rask take the field together. The crowd loves it. So does the Arena, which pours Command into both sides.')],
+      setup: { myField: ['grizz', 'rask'], edict: 'edict-crowns_bounty' }, objective: win, rules: 'Grizz and Rask start on your field. Edict in play: Crown’s Bounty.', reward: { valor: 110 } },
+    { id: 'c2-t3-b5', trial: 3, bout: 5, title: 'Halfway', portrait: 'pyrax', rival: 'Dragon-Blooded', deck: D2.dragonfire,
+      story: [S('Pyrax', 'The dragon wakes.', true), S('Pyrax', 'He is just beyond that gate. Show him we are worth waking for.')],
+      setup: { myField: ['pyrax'], edict: 'edict-scholars_ascent' }, objective: { kind: 'keepShards', n: 3 }, rules: 'Pyrax starts on your field. Edict in play: Scholar’s Ascent. Win with at least 3 shards.', reward: { valor: 120 } },
+    // ── The Crowning ──
+    { id: 'c2-crowning', trial: 4, bout: 1, title: 'The Crowning: Aurex', portrait: 'aurex', rival: 'Aurex, The Last Dragon', deck: D2.aurex,
+      story: [S('Narration', 'The sky over the Arena turns the colour of embers. Something vast settles on the far wall.'),
+        S('Aurex', 'The last dragon answers.', true),
+        S('Aurex', 'Every dragon died for that Crown. Tell me, Sovereign. Was it worth it?')],
+      objective: win, rules: 'The Crowning. Aurex is in the rival’s deck.', reward: { valor: 300, cards: ['aurex-2', 'aurex-3'] },
+      crowning: {
+        contender: { deck: D2.aurex, printing: 'base' },
+        masterwork: { deck: D2.aurex, printing: 'masterwork', setup: { edict: 'edict-war_banners' } },
+        omega: { deck: D2.aurex, printing: 'omega', setup: { edict: 'edict-war_banners', rivalField: ['aurex'] } },
+      } },
+  ],
+};
+
+export const ACT_I = { id: 'act1', title: 'The Shattered Crown', chapters: [CHAPTER_I, CHAPTER_II] };
 export const ALL_BOUTS: Bout[] = ACT_I.chapters.flatMap((c) => c.bouts);

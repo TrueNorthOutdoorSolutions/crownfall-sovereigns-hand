@@ -1,16 +1,20 @@
 import { describe, expect, it } from 'vitest';
-import { ALL_BOUTS, CAMPAIGN_DECKS, CHAPTER_I } from '../../src/v02/campaign/act1';
+import { ACT_I, ALL_BOUTS, CAMPAIGN_DECKS } from '../../src/v02/campaign/act1';
 import { applySetup, judge } from '../../src/v02/campaign/setup';
 import { CARDS, DECKS } from '../../src/v02/content/cards';
 import { checkDeck } from '../../src/v02/economy/decks';
 import { newGame } from '../../src/v02/rules/engine';
 import { playOut } from '../../src/v02/ai/bot';
 
-describe('Campaign Act I · Chapter I', () => {
-  it('has 3 Trials of 5 Bouts and a Crowning against its legend', () => {
-    expect(CHAPTER_I.bouts).toHaveLength(16);
-    for (const t of [1, 2, 3]) expect(CHAPTER_I.bouts.filter((b) => b.trial === t)).toHaveLength(5);
-    expect(CHAPTER_I.bouts.at(-1)!.crowning).toBeDefined();
+describe('Campaign Act I', () => {
+  it('every chapter has 3 Trials of 5 Bouts and a Crowning against its legend', () => {
+    for (const c of ACT_I.chapters) {
+      expect(c.bouts, c.id).toHaveLength(16);
+      for (const t of [1, 2, 3]) expect(c.bouts.filter((b) => b.trial === t)).toHaveLength(5);
+      expect(c.bouts.at(-1)!.crowning).toBeDefined();
+      expect(c.bouts.at(-1)!.portrait).toBe(c.legend);
+    }
+    expect(new Set(ALL_BOUTS.map((b) => b.id)).size).toBe(ALL_BOUTS.length);
   });
   it('every enemy deck is legal', () => {
     for (const id of Object.values(CAMPAIGN_DECKS)) expect(checkDeck(DECKS[id].main, DECKS[id].ascension).errors, id).toEqual([]);
@@ -24,7 +28,8 @@ describe('Campaign Act I · Chapter I', () => {
   });
   it('every Bout plays to a result in the real engine', () => {
     for (const b of ALL_BOUTS) {
-      const s0 = applySetup(newGame({ seed: 11, decks: ['banner', b.deck] }), b.setup);
+      const pd = ACT_I.chapters.find((c) => c.bouts.includes(b))!.playerDeck;
+      const s0 = applySetup(newGame({ seed: 11, decks: [pd, b.deck] }), b.setup);
       if (b.setup?.rivalCrown) expect(s0.players[1].crown).toHaveLength(b.setup.rivalCrown);
       if (b.setup?.myField) expect(s0.players[0].field).toHaveLength(b.setup.myField.length);
       const end = playOut(s0);

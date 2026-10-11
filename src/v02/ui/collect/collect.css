@@ -182,3 +182,5 @@
 .sp-rules b { color: #f2d58a; margin-right: 6px }
 .sp-diff { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
 .sp-diff .note { width: 100% }
+
+.camp-tabs { display: flex; gap: 8px; flex-wrap: wrap }
