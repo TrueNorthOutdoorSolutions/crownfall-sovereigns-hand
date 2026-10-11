@@ -59,7 +59,7 @@ Rowan is relaxed, friendly and dryly funny. He speaks slowly and never wastes wo
 
 - **Kael** — Rowan and Kael are both humble Kingdom champions, and they became friends in their first week. Rowan thinks Kael takes everything too seriously. He follows him anyway, because someone should watch his back.
 - **General Varr** — Varr wants archers in rows. Rowan prefers to wander off and find a better angle. They argue every bout. Varr has never once said Rowan was wrong afterwards.
-- **Kira Volt** — A storm champion who can call the wind and lightning. Rowan finds her fascinating and slightly unfair. They have a standing contest about who can hit the farthest target.
+- **Kira Volt** — An arc-tech gunner who rebuilt her first pistol from a lightning rod. Rowan finds her pistol fascinating and slightly unfair. They have a standing contest about who can hit the farthest target.
 
 ## Beneath the Arena (Set 2)
 

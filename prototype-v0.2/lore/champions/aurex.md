@@ -15,7 +15,7 @@ He is not here for glory. He is here for an answer, and he is not sure he wants 
 
 Aurex comes from the Wyrmblood realm, the old home of the dragons: a land of high red peaks, great nests carved into mountains, and skies that were once full of wings.
 
-What happened to the other dragons is not something Aurex speaks of easily. All that is known is that every dragon died for the Crown. How, and why, and whether they chose it, Aurex will not say. The stories told in other realms disagree. Some say the dragons flew to the Crown together, long ago, and never came back. Aurex has heard all of these stories. He has not corrected any of them.
+What happened to the other dragons is not something Aurex speaks of easily. All that is known is that every dragon died for the Crown. How, and why, and whether they chose it, Aurex will not say. The stories told in other realms disagree. Some say the dragons flew to the Crown together, long ago, and never came back.
 
 ## Why they answered the call
 
@@ -65,7 +65,7 @@ Aurex is grave, proud, weary and quietly sorrowful. He speaks slowly and deeply,
 
 - **Pyrax** — The dragon-blooded warrior whose grandmother was a dragon. She has asked Aurex about her grandmother six times. Each time he goes silent and walks away. He has never told her to stop asking.
 - **Sol** — The other great legend of the first chapters. Aurex once said Sol "remembers too much and says too little." Sol said Aurex "says too much and remembers it all."
-- **General Varr** — The old soldier who has held every line and never been given the Crown. Aurex respects him more than almost any champion in the Arena.
+- **General Varr** — The old soldier who has held every line and never been given the Crown.
 
 ## Beneath the Arena (Set 2)
 

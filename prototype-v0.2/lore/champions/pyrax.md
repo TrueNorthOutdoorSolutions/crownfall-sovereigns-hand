@@ -9,7 +9,7 @@
 
 Pyrax is a dragon-blooded warrior with ember scales running up her arms, a wide grin and the confidence of someone who has decided exactly who she is going to be. She is strong, loud, quick to laugh and quicker to fight. She tries to breathe fire roughly twice a day.
 
-She is not a dragon yet. She is very clear that "yet" is the important word.
+She is not a dragon yet.
 
 ## Before the Crownfall
 

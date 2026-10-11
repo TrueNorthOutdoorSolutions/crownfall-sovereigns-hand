@@ -59,7 +59,7 @@ Some of the Sovereigns watching that day say Sol looked sad. Others say Sol look
 
 ## Voice and temperament
 
-Sol is calm, gentle, ancient and quietly unsettling. Sol rarely raises their voice and never seems hurried. Sol's greeting to a Sovereign is "Before anything, there was me." [canon] It is not quite a boast. It sounds more like a reminder.
+Sol is calm, gentle, ancient and quietly unsettling. Sol rarely raises their voice and never seems hurried. Sol's greeting to a Sovereign is "Before anything, there was me." [canon] It sounds more like a reminder.
 
 ## Bonds and rivalries
 

@@ -7,7 +7,7 @@
 
 "Fen tracks weakness. He learned it from the winters, and the winters were thorough." [canon]
 
-Fen is a lean grey wolf warrior with bone-hilted claws and eyes that never stop moving. When he finds a weakness, he goes for it. He does not apologise.
+Fen is a lean grey wolf warrior with bone-hilted claws and eyes that never stop moving.
 
 He is not cruel. To Fen, hunting is not about hate. It is about surviving, and about making sure the pack gets home.
 
@@ -15,7 +15,7 @@ He is not cruel. To Fen, hunting is not about hate. It is about surviving, and a
 
 Fen was born in the Wildkin realm, in the deep northern forests where winter lasts most of the year. His pack lived by the old rules: hunt together, eat together, leave no one behind. Fen was the runt of his litter, small and thin, and the winters nearly took him more than once.
 
-He survived by learning. He learned which deer were tired, which ice was thin, which storms would pass and which would kill. By the time he was grown, the pack followed his nose more than the alpha's.
+He survived by learning. He learned which deer were tired, which ice was thin, which storms would pass and which would kill.
 
 Then came the longest winter anyone remembered. Fen led the pack through it. Not all of them made it. He still counts the ones who did not.
 

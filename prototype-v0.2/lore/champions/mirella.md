@@ -7,9 +7,9 @@
 
 "Mirella can hear every ocean. The Crownfall has none, and the silence frightens her." [canon]
 
-Mirella is a water mage who carries a swirling orb of seawater in one hand, the way other people carry a lantern. That something is the sea. Every ocean in every realm sings to her, faintly, all the time.
+Mirella is a water mage who carries a swirling orb of seawater in one hand, the way other people carry a lantern. She is always listening to the sea. Every ocean in every realm sings to her, faintly, all the time.
 
-Except here. The floating kingdom of the Crownfall hangs high above everything, and no ocean's voice reaches it. For the first time in her life, Mirella hears silence. It frightens her more than any rival champion.
+Except here. The floating kingdom of the Crownfall hangs high above everything, and no ocean's voice reaches it. For the first time in her life, Mirella hears silence.
 
 ## Before the Crownfall
 
@@ -61,13 +61,11 @@ Mirella is gentle, thoughtful, a little shy and deeply caring. She speaks in cal
 
 - **Ignara** — Fire and water. Ignara considers everywhere else cold; Mirella finds everywhere Ignara goes far too dry. They argue constantly and fight brilliantly together.
 - **Emberling** — The little fire spark keeps three paces away from Mirella at all times. Mirella finds this very sweet and has been trying, gently, to close the gap.
-- **Captain Blacktide** — A sea captain from another realm. Mirella can hear Blacktide's home ocean faintly whenever the captain is near. It is the only ocean she hears in the Crownfall, and she has started standing near Blacktide just to listen.
+- **Captain Blacktide** — A pirate captain who sails seas that exist only between realities. Mirella can hear those strange seas faintly whenever he is near. They are the only waters she hears in the Crownfall, so she has started standing near Blacktide just to listen. He has not charged her a toll. Yet.
 
 ## Beneath the Arena (Set 2)
 
 When the banners went down beneath the Arena, Mirella heard something she had not heard since arriving: water. Deep under the Crownfall, there was an underground lake, still and dark and very old.
-
-She went down to it alone. She came back up changed.
 
 Below, she became the **Tide of the Sunken Halls**, a Restorer rising from the underground lake with healing water spilling up the stone stairs. Her ability, **Sunken Tide**, shields her friends as she arrives, and at her strongest she both shields and mends. The lake does not sing like the oceans do. It hums, low and slow.
 

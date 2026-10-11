@@ -7,13 +7,13 @@
 
 "Solenne swore to burn away every shadow in the Crownfall. She has started a list." [canon]
 
-Solenne Ash is a flame knight in rose-gold plate, and she is exactly as direct as she looks.
+Solenne Ash is a flame knight in rose-gold plate, and she is exactly as direct as she looks. She keeps her list in a small, battered notebook.
 
 She charges first and asks questions while she is charging.
 
 ## Before the Crownfall
 
-Solenne was born in the Dawnforged realm, in a border fort on the western cliffs where the sun sets and the night comes in from the sea.
+Solenne was born in the Dawnforged realm, in a border fort on the western cliffs where the sun sets and the night comes in from the sea. Her family were Dawn Wardens, who light the beacon fires there every dusk.
 
 She was the youngest Warden ever to stand a night watch alone. On that watch, something came out of the dark that the beacon could not frighten away. Solenne held the cliff until morning. She never said what it was. The next day, she bought the notebook.
 

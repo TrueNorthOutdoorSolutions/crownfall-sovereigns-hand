@@ -21,7 +21,7 @@ Then the Kingdom's scholars brought word of the Crown above the Arena: a crown t
 
 ## Why they answered the call
 
-Aurelia's council argued for weeks about whether the Kingdom should send a champion. Aurelia ended the argument by going herself. Her reason in private is the canon one. She wants to know why this crown is bigger. She wants to know if it judges the wearer. And she wants to know, though she has never said so aloud, whether hers would pass that test.
+Aurelia's council argued for weeks about whether the Kingdom should send a champion. Aurelia ended the argument by going herself. Her reason is simple. She wants to know why this crown is bigger. She wants to know if it judges the wearer. And she wants to know, though she has never said so aloud, whether hers would pass that test.
 
 ## The Ascension
 

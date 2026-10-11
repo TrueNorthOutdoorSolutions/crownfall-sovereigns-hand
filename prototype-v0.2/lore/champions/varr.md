@@ -15,7 +15,7 @@ General Varr is a grizzled kingdom commander with a tower shield, a grey beard a
 
 Varr was born in the Kingdom realm to a family of farmers. He joined the royal army at fifteen because the harvest had failed and the army paid in bread. He never left.
 
-He held the Bridge of Tolls for nine days against an army five times his size. Each time, he was given a medal, a handshake and a new line to hold.
+He held the Bridge of Tolls for nine days against an army five times his size, and a hundred lines after it. Each time, he was given a medal, a handshake and a new line to hold.
 
 He was never made a lord. He was never offered a crown. He says he never wanted one. People who know him well are not so sure.
 
@@ -23,7 +23,7 @@ He was never made a lord. He was never offered a crown. He says he never wanted 
 
 The Kingdom sent its best to the Crownfall, and Varr was among them, as always. Officially, he answered a Sovereign's call to protect Princess Aurelia and the Kingdom's younger champions.
 
-He has spent his whole life holding lines for crowns other people wore. Somewhere in the back of his mind, he wants to stand in front of the one crown that cannot be inherited and simply ask it: was that worth something? He has not decided if he wants to hear the answer.
+He has spent his whole life holding lines for crowns other people wore. Somewhere in the back of his mind, he wants to stand in front of the one crown that cannot be inherited and simply ask it: was that worth something?
 
 ## The Ascension
 

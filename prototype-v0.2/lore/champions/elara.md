@@ -13,7 +13,7 @@ She does not care much about the Crown. She cares about who is still standing wh
 
 ## Before the Crownfall
 
-Elara grew up in the Kingdom realm, the daughter of a village herbalist. When the Kingdom went to war on its northern border, she followed the army as a helper in the field tents, boiling water and rolling bandages. Within a year she was running the tents. Within three, the royal surgeons were asking her for advice.
+Elara grew up in the Kingdom realm, the daughter of a village herbalist. When the Kingdom went to war on its northern border, she followed the army as a helper in the field tents, boiling water and rolling bandages. Within a year she was running the tents.
 
 She learned her light magic late, from an old book left behind by a travelling healer.
 
@@ -21,7 +21,7 @@ The war ended. Elara did not go home. She went wherever soldiers still got hurt.
 
 ## Why they answered the call
 
-The Crownfall is full of champions who fight, fall and fight again. To Elara, it looked like the biggest field hospital in history, with no one properly in charge. She answered a Sovereign's call because she wanted a place on the field, not in the stands. Her greeting says it plainly: "Who needs mending?" [canon]
+The Crownfall is full of champions who fight, fall and fight again. To Elara, it looked like the biggest field hospital in history, with no one properly in charge. She answered a Sovereign's call because she wanted a place on the field, not in the stands.
 
 She also has a quieter reason. She has heard that the Crown can raise champions into more than they were. She wants to know if it can be taught to heal.
 

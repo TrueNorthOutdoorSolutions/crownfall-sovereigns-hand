@@ -19,7 +19,7 @@ He trained with an old wooden sword, then a real one bought with three summers o
 
 ## Why they answered the call
 
-He answered the call of a Sovereign because he believed the Crown should go to someone who deserves it, and that the only way to know what deserving looks like is to stand in the Arena and find out.
+Kael left home with a borrowed sword. He answered the call of a Sovereign because he believed the Crown should go to someone who deserves it, and that the only way to know what deserving looks like is to stand in the Arena and find out.
 
 He does not say whether he hopes it will be him. He says: "I will be worthy." [canon] It is not quite the same thing.
 

@@ -53,7 +53,7 @@ He smiled. He had come all this way to wonder that.
 
 His scales turned to gold, every one, gleaming like coins in the sun. Across his shoulders fell a long cloak, stitched from the colours of every champion he had ever bested, a patchwork of banners from every corner of the realms.
 
-He found the rhythm again. Not one, two, three. Something deeper, slower, older.
+He breathed slowly, in and out, and listened. He found the rhythm again. Not one, two, three. Something deeper, slower, older.
 
 When it was over, he bowed to his fallen rival, helped them up and walked off the sand to the roar of the crowd.
 

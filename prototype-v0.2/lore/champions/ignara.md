@@ -69,7 +69,7 @@ Ignara is calm, stoic and dryly funny. She speaks rarely and briefly. Her greeti
 
 When the banners went down beneath the Arena, Ignara felt it immediately: heat. Deep under the Crownfall were the deep forges, great furnaces older than any realm she knew, still burning after untold ages.
 
-For the first time since leaving the volcano, she was warm.
+For the first time in years, she did not feel cold at all.
 
 Below, she became the **Heart of the Forge**, a Channeler burning at the heart of the deep forges with molten relics floating around her. Her ability, **Forgefire**, sends a burst of flame at a rival every time her banner casts a Tactic. At her strongest, she stands as a wall again, hard to get past.
 
