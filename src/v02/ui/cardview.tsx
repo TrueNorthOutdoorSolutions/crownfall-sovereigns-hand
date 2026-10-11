@@ -3,6 +3,8 @@ import { CARDS, DECKS, ORIGIN_COLORS, isChampionCard, isEdictCard, isRelicCard }
 import type { Card, ChampionCard } from '../content/cards';
 import { guard, hasKeyword, might, top } from '../rules/engine';
 import type { ChampionInPlay, GameState } from '../rules/types';
+import { cardImage } from './cardart';
+import { cardText } from './text';
 
 export const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V'];
 export const TIER_NAMES = ['', 'Common', 'Uncommon', 'Elite', 'Epic', 'Mythic'];
@@ -40,8 +42,21 @@ function deckStyle(c: Card): React.CSSProperties {
 }
 
 /** A full card face, used in hand, inspector and choices. */
-export function CardFace({ id, size = 'md', live }: { id: string; size?: 'sm' | 'md' | 'lg'; live?: { might: number; guard: number } }) {
+export function CardFace({ id, size = 'md', live, img }: { id: string; size?: 'sm' | 'md' | 'lg'; live?: { might: number; guard: number }; img?: string }) {
   const c = CARDS[id];
+  const src = img ?? cardImage(id);
+  if (src) {
+    // Approved printed card art. Live Might/Guard changes in a match show as badges over the printed stats.
+    const champ = isChampionCard(c) ? c : null;
+    const m = champ && live ? live.might : undefined, g = champ && live ? live.guard : undefined;
+    return (
+      <div className={`cardface cardimg ${size}`} style={deckStyle(c)}>
+        <img src={src} alt={cardText(c)} draggable={false} />
+        {champ && m !== undefined && m !== champ.might && <span className={`ci-live m ${m > champ.might ? 'up' : 'down'}`}>⚔ {m}</span>}
+        {champ && g !== undefined && g !== champ.guard && <span className={`ci-live g ${g > champ.guard ? 'up' : 'down'}`}>⛨ {g}</span>}
+      </div>
+    );
+  }
   if (isRelicCard(c)) {
     const stat = [c.might ? `+${c.might} Might` : '', c.guard ? `+${c.guard} Guard` : ''].filter(Boolean).join(' · ');
     return (

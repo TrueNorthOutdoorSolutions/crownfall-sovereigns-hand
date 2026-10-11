@@ -263,3 +263,12 @@ a { color: var(--gold) }
 .edict-pill { margin-left: auto; font-family: var(--display); font-size: 14px; font-weight: 700; color: #1b1307; background: linear-gradient(90deg, #e9c46a, #f5dfa0); border: 0; border-radius: 999px; padding: 6px 14px; white-space: nowrap; cursor: help }
 .handcard.equipping { transform: translateY(-34px) !important; outline: 3px solid var(--crown); border-radius: 10px }
 .btnrow .secondary.on { outline: 2px solid var(--crown) }
+
+/* Printed card art (approved Set 1 images) */
+.cardface.cardimg { padding: 0; border: 0; background: #0b0910; position: relative; display: block; box-shadow: 0 6px 18px rgba(0,0,0,.55) }
+.cardface.cardimg > img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: inherit; user-select: none }
+.cardface.cardimg.lg { width: 340px; height: 474px; border-radius: 16px }
+.cardface.cardimg.s3, .cardface.cardimg.s2 { border: 0 }
+.ci-live { position: absolute; bottom: 9%; padding: 2px 8px; border-radius: 999px; font-weight: 800; font-size: 1.25em; background: rgba(10,8,14,.88); border: 2px solid currentColor }
+.ci-live.m { left: 4% } .ci-live.g { right: 4% }
+.ci-live.up { color: #7dff9a } .ci-live.down { color: #ff7b7b }
