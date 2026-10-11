@@ -174,27 +174,29 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
           <Stat label="Ascension" value={them.ascension.length} />
           <button type="button" className="statbtn" onClick={() => setView('aiFallen')}>Fallen {them.fallen.length}</button>
         </div>
-        <div className="schemes">{[0, 1, 2].map((i) => <div key={i} className={`scheme-slot ${them.schemes[i] ? 'set' : ''}`} title={them.schemes[i] ? 'A face-down Scheme' : 'Empty Scheme Zone'}>{them.schemes[i] ? '◈' : ''}</div>)}</div>
+        <div className="schemes">{[0, 1, 2].map((i) => <div key={i} className={`scheme-slot ${them.schemes[i] ? 'set' : ''}`} title={them.schemes[i] ? 'A face-down Scheme' : 'Empty Scheme Zone'}>{them.schemes[i] ? '◈' : <SchemeMark />}</div>)}</div>
       </div>
       <div className="field rival">
         {Array.from({ length: zonesFor(game, AI) }, (_, i) => {
           const c = them.field[i];
-          return <div key={i} className="slot">{c && <ChampionToken s={game} c={c} flash={flashUid === c.uid}
+          return <div key={i} className={`slot ${c ? '' : 'empty'} ${i >= 4 ? 'extra' : ''}`}>{!c && <ZoneMark extra={i >= 4} />}{c && <ChampionToken s={game} c={c} flash={flashUid === c.uid}
             targetable={!!canAttackSel || chooseKeys.has(`u:${c.uid}`)} selected={attackerNow?.uid === c.uid}
             onClick={() => clickTheirs(c)} onHover={(on) => inspectChamp(on ? c : null)} />}</div>;
         })}
       </div>
       {/* ── Middle band ── */}
       <div className="midband">
-        <div className="phase-pill">{game.phase === 'over' ? 'Match over' : `Round ${round(game)} · ${game.active === ME ? 'Your turn' : "Rival's turn"} · ${game.phase === 'main' ? 'Main' : game.phase === 'battle' ? 'Battle' : game.phase === 'after' ? 'After battle' : 'Setup'}`}</div>
+        <div className="phase-pill">{game.phase === 'over' ? 'Match over' : `Round ${round(game)} · ${game.active === ME ? 'Your turn' : "Rival's turn"}`}</div>
+        <TurnStrip phase={game.phase} />
         <div className="hint">{equipping !== null ? `Attaching ${CARDS[me.hand[equipping]]?.name}: click one of your champions without a Relic (click the card again to cancel).` : cycling ? 'Cycle: click a card in your hand to put it on the bottom of your deck and draw.' : phaseHint(game)}</div>
-        {game.edict && <button type="button" className="edict-pill" onMouseEnter={() => setInspect({ kind: 'card', id: game.edict!.card })} onMouseLeave={() => setInspect(null)}
-          title="The Edict in play applies to both players. A new Edict replaces it.">Edict · {CARDS[game.edict.card].name}</button>}
+        {game.edict ? <button type="button" className="edict-pill" onMouseEnter={() => setInspect({ kind: 'card', id: game.edict!.card })} onMouseLeave={() => setInspect(null)}
+          title="The Edict in play applies to both players. A new Edict replaces it."><small>Edict</small>{CARDS[game.edict.card].name}</button>
+          : <div className="edict-pill empty" title="No Edict in play. An Edict applies to both players."><small>Edict</small>Shared by both players</div>}
       </div>
       <div className="field mine">
         {Array.from({ length: zonesFor(game, ME) }, (_, i) => {
           const c = me.field[i];
-          return <div key={i} className="slot">{c && <ChampionToken s={game} c={c} flash={flashUid === c.uid}
+          return <div key={i} className={`slot ${c ? '' : 'empty'} ${i >= 4 ? 'extra' : ''}`}>{!c && <ZoneMark extra={i >= 4} />}{c && <ChampionToken s={game} c={c} flash={flashUid === c.uid}
             selected={selected === c.uid || attackerNow?.uid === c.uid}
             targetable={chooseKeys.has(`u:${c.uid}`) || blockKeys.has(c.uid) || (equipping !== null && !c.relic) || (myTurnFree && game.phase === 'battle' && canAttack(game, c))}
             onClick={() => clickMine(c)} onHover={(on) => inspectChamp(on ? c : null)} />}</div>;
@@ -206,8 +208,9 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
         <Crown count={me.crown.length} label="Your Crown" />
         <div className="pstats">
           <div className="command" title="Command: +1 each turn (max 8), refilled at the start of your turn. Unspent Command pays for Schemes and Swift Tactics on your rival's turn.">
-            {Array.from({ length: 8 }, (_, i) => <i key={i} className={i < me.command ? 'on' : i < me.commandMax ? 'spent' : ''} />)}
-            <b>{me.command}</b><span>Command</span>
+            <span>Command</span>
+            {Array.from({ length: 8 }, (_, i) => <i key={i} className={i < me.command ? 'on' : i < me.commandMax ? 'spent' : ''}>{i + 1}</i>)}
+            <b>{me.command}</b>
           </div>
           <Stat label="Deck" value={me.deck.length} />
           <button type="button" className="statbtn" onClick={() => setView('myAsc')}>Ascension {me.ascension.length}</button>
@@ -216,7 +219,7 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
         <div className="schemes">{[0, 1, 2].map((i) => {
           const sc = me.schemes[i];
           return <div key={i} className={`scheme-slot mine ${sc ? 'set' : ''}`} onMouseEnter={() => sc && setInspect({ kind: 'card', id: sc.card })} onMouseLeave={() => setInspect(null)}
-            title={sc ? (sc.setTurn >= game.turn ? 'Set this turn: ready from your rival\'s next turn' : 'Ready to spring') : 'Empty Scheme Zone'}>{sc ? CARDS[sc.card].name : ''}</div>;
+            title={sc ? (sc.setTurn >= game.turn ? 'Set this turn: ready from your rival\'s next turn' : 'Ready to spring') : 'Empty Scheme Zone'}>{sc ? CARDS[sc.card].name : <SchemeMark />}</div>;
         })}</div>
       </div>
       {/* ── Hand ── */}
@@ -293,6 +296,23 @@ export function Match({ decks, seed, onExit, onRematch }: { decks: [DeckId, Deck
 
 function Stat({ label, value }: { label: string; value: React.ReactNode }) {
   return <div className="stat"><b>{value}</b><span>{label}</span></div>;
+}
+
+/** Game-mat styling (starter-deck playmat, 2026-10-11): zone marks and the turn strip. */
+function ZoneMark({ extra }: { extra?: boolean }) {
+  return <span className="zone-mark" aria-hidden="true"><i>♛</i>{extra ? <>5th Zone<small>Sovereign Crown</small></> : <>Champion<br />Zone</>}</span>;
+}
+function SchemeMark() {
+  return <span className="scheme-mark" aria-hidden="true" />;
+}
+const STEPS: [string, string][] = [['ready', 'Ready'], ['draw', 'Draw'], ['main', 'Main'], ['battle', 'Battle'], ['end', 'End']];
+function TurnStrip({ phase }: { phase: string }) {
+  const now = phase === 'main' ? 'main' : phase === 'battle' ? 'battle' : phase === 'after' ? 'end' : phase === 'over' ? '' : 'ready';
+  return (
+    <ol className="turnstrip" aria-label="Turn steps">
+      {STEPS.map(([k, label], i) => <li key={k} className={now === k ? 'now' : ''} aria-current={now === k ? 'step' : undefined}>{i > 0 && <span className="arrow">→</span>}{label}</li>)}
+    </ol>
+  );
 }
 
 function Crown({ count, onClick, targetable, label }: { count: number; onClick?: () => void; targetable?: boolean; label: string }) {

@@ -313,3 +313,32 @@ a { color: var(--gold) }
   .afx *, .afx { animation-duration: .01s !important; animation-iteration-count: 1 !important; animation-delay: 0s !important }
   .afx-stars span, .afx-name, .afx-quote, .afx3 .afx-card { opacity: 1; transform: none }
 }
+
+
+/* ---------- Game-mat styling (from the starter-deck playmat, 2026-10-11) ---------- */
+:root { --mat-panel: rgba(12, 26, 30, .74); --mat-gold: #c9a24a; --mat-gold-hi: #f2d58a }
+.slot { border: 2px solid rgba(201,162,74,.55); background: var(--mat-panel); box-shadow: inset 0 0 0 1px rgba(242,213,138,.12), inset 0 0 24px rgba(0,0,0,.45), 0 0 14px rgba(201,162,74,.12); position: relative }
+.slot.extra { border-style: dashed }
+.zone-mark { display: flex; flex-direction: column; align-items: center; gap: 4px; font-family: var(--display); font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,213,138,.55); text-align: center; line-height: 1.15; pointer-events: none }
+.zone-mark i { font-style: normal; font-size: 46px; line-height: 1; color: rgba(242,213,138,.5); text-shadow: 0 0 12px rgba(242,213,138,.25) }
+.zone-mark small { display: block; font-size: 11px; text-transform: none; letter-spacing: .02em }
+.scheme-slot { border: 1.5px solid rgba(201,162,74,.5); background: var(--mat-panel); box-shadow: inset 0 0 12px rgba(0,0,0,.5) }
+.scheme-slot.set { border-color: var(--mat-gold); box-shadow: 0 0 10px rgba(242,213,138,.25) }
+.scheme-mark { width: 18px; height: 24px; border: 1.5px solid rgba(242,213,138,.45); border-radius: 3px; box-shadow: 4px -3px 0 -1px rgba(12,26,30,1), 4px -3px 0 0 rgba(242,213,138,.35) }
+.shard { width: 22px; height: 30px; clip-path: none; border-radius: 4px; border: 1.5px solid var(--mat-gold); background: var(--mat-panel); position: relative; filter: none; box-shadow: 0 0 6px rgba(242,213,138,.35) }
+.shard::after { content: ''; position: absolute; inset: 6px 5px; clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); background: linear-gradient(160deg, #fff4c8, #f0c95a 50%, #9b6e12) }
+.shard.broken { border-color: #4a4152; box-shadow: none; opacity: .55 }
+.shard.broken::after { background: #3b3342 }
+.command { gap: 5px; border-color: rgba(201,162,74,.55); background: var(--mat-panel) }
+.command span { margin-right: 4px }
+.command i { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-style: normal; font-family: var(--num); font-size: 12px; font-weight: 700; color: rgba(242,213,138,.45); background: transparent; border: 1.5px solid rgba(201,162,74,.4) }
+.command i.on { color: #1b1307; background: radial-gradient(circle at 35% 30%, #fff4c8, #e9c46a 55%, #a87a1c); border-color: #ffe9a8; box-shadow: 0 0 8px rgba(240,201,90,.55) }
+.command i.spent { color: rgba(242,213,138,.75); background: rgba(74,59,26,.6); border-color: #8a6d2a }
+.turnstrip { display: flex; align-items: center; gap: 2px; list-style: none; margin: 0; padding: 4px 12px; border-radius: 999px; background: var(--mat-panel); border: 1px solid rgba(201,162,74,.45); font-family: var(--display); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: rgba(242,213,138,.45); white-space: nowrap }
+.turnstrip li { display: flex; align-items: center; gap: 2px }
+.turnstrip .arrow { margin: 0 6px; opacity: .6 }
+.turnstrip li.now { color: var(--mat-gold-hi); text-shadow: 0 0 10px rgba(242,213,138,.7) }
+.edict-pill { display: flex; flex-direction: column; align-items: center; line-height: 1.05; padding: 4px 16px; border-radius: 10px; background: var(--mat-panel); color: var(--mat-gold-hi); border: 1.5px solid var(--mat-gold); box-shadow: 0 0 12px rgba(201,162,74,.25) }
+.edict-pill small { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: rgba(242,213,138,.7) }
+.edict-pill.empty { color: rgba(242,213,138,.45); border-color: rgba(201,162,74,.4); box-shadow: none; cursor: default; font-weight: 400; font-size: 12px }
+.pbar { border-color: rgba(201,162,74,.35) }
