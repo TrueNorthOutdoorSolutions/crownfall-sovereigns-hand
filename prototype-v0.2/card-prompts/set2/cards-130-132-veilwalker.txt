@@ -19,7 +19,8 @@ Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a 
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
 2. Ambush *(Attacking a sideways champion, it strikes first.)*
-3. **Attack:** Your rival discards a card at random.
+3. **Between the Veils.**
+4. **Attack:** Your rival discards a card at random.
 Flavour: “* the air tears open *”
 Crown 2: none
 Might | Guard: 6 | 3
@@ -38,7 +39,8 @@ Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a 
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
 2. Ambush *(Attacking a sideways champion, it strikes first.)*
-3. **Attack:** Your rival discards a card at random.
+3. **Between the Veils.**
+4. **Attack:** Your rival discards a card at random.
 Flavour: “* closes *”
 Crown 2: none
 Might | Guard: 9 | 5
@@ -57,8 +59,9 @@ Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a 
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
 2. Ambush *(Attacking a sideways champion, it strikes first.)*
-3. **Attack:** Your rival discards a card at random.
-4. Take a Relic from a rival champion and attach it to Veilwalker.
+3. **Between the Veils.**
+4. **Attack:** Your rival discards a card at random.
+5. Take a Relic from a rival champion and attach it to Veilwalker.
 Flavour: “Between here — and there.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 8
@@ -69,4 +72,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 131 ★★: up-arrow 1, not up-arrow 0.
-- 132 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 132 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.

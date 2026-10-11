@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Titanborn | Gladiator | TIER III
 Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +2 Might while attacking a champion.
+1. **Pit King’s Right.**
+2. +2 Might while attacking a champion.
 Flavour: “Surface fighters. Cute.”
 Crown 2: none
 Might | Guard: 5 | 5
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Knuckle ★
 Origin | Class | Tier: Titanborn | Gladiator | TIER III
 Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +2 Might while attacking a champion.
+1. **Pit King’s Right.**
+2. +2 Might while attacking a champion.
 Flavour: “Champion of two worlds.”
 Crown 2: none
 Might | Guard: 8 | 7
@@ -54,8 +54,9 @@ Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiat
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. +3 Might while attacking a champion.
-3. **Block:** The attacker gets −3 Might this turn.
+2. **Pit King’s Right.**
+3. +3 Might while attacking a champion.
+4. **Block:** The attacker gets −3 Might this turn.
 Flavour: “Next!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 10
@@ -68,3 +69,4 @@ Check when it comes back:
 - 106: no keyword; do not add a chip or reminder.
 - 107 ★★: up-arrow 1, not up-arrow 0.
 - 107: no keyword; do not add a chip or reminder.
+- 108 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

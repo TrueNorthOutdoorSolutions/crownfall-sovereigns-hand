@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Elemental | Restorer | TIER II
 Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival: Shield** another champion you control.
+1. **Sunken Tide.**
+2. **Arrival: Shield** another champion you control.
 Flavour: “The tide turns.”
 Crown 2: none
 Might | Guard: 2 | 4
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Mirella ★
 Origin | Class | Tier: Elemental | Restorer | TIER II
 Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend: Shield** each champion you control.
+1. **Sunken Tide.**
+2. **Ascend: Shield** each champion you control.
 Flavour: “Every ocean sings with me.”
 Crown 2: none
 Might | Guard: 4 | 7
@@ -52,11 +52,11 @@ Ascension band: ASCENSION • from Mirella ★★
 Origin | Class | Tier: Elemental | Restorer | TIER II
 Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend: Shield** each champion you control, then Mend 1.
+1. **Sunken Tide.**
+2. **Ascend: Shield** each champion you control, then Mend 1.
 Flavour: “Calm waters.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 7 | 10
 Footer: 051/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Rising from an underground lake, healing water spilling up the stone stairs. Canon look for this form: A tide queen: a ring of water orbits her and fish of light swim through it.

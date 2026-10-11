@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Wildkin | Hunter | TIER II
 Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+1. **Beastbreaker.**
+2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
 Flavour: “GRAHH!”
 Crown 2: none
 Might | Guard: 4 | 3
@@ -34,10 +34,10 @@ Ascension band: ASCENSION • from Grizz ★
 Origin | Class | Tier: Wildkin | Hunter | TIER II
 Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-2. When Grizz defeats a champion on your turn, Shield Grizz.
+1. **Beastbreaker.**
+2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+3. When Grizz defeats a champion on your turn, Shield Grizz.
 Flavour: “BIGGER GRAHH!”
 Crown 2: none
 Might | Guard: 7 | 5
@@ -53,12 +53,12 @@ Ascension band: ASCENSION • from Grizz ★★
 Origin | Class | Tier: Wildkin | Hunter | TIER II
 Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-2. When Grizz defeats a champion on your turn, Shield Grizz.
+1. **Beastbreaker.**
+2. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+3. When Grizz defeats a champion on your turn, Shield Grizz.
 Flavour: “Nap time.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 10 | 8
 Footer: 045/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Wrestling a monster twice his size in a cavern beneath the Arena. Canon look for this form: A primal bear-titan whose roar shakes the arena floor.

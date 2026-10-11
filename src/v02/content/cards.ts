@@ -119,6 +119,8 @@ export interface ChampionLine {
   title: string;
   /** Set 2 epithets are new text awaiting approval. */
   epithetProposed?: boolean;
+  /** Set 2 ability names are new (they preview Crownfall's mid-season patch) and await approval. */
+  abilityProposed?: boolean;
   /** PROPOSED art setting for a new version (Set 2), combined with each form's canonical look. */
   scene?: string;
   tier: 1 | 2 | 3 | 4 | 5;

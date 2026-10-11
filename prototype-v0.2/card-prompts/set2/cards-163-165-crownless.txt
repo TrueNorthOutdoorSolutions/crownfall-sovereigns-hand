@@ -19,7 +19,8 @@ Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives
 Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Charge *(Can attack the turn it arrives.)*
-3. **Arrival:** Each rival champion gets −2 Might this turn.
+3. **UNBOUND.**
+4. **Arrival:** Each rival champion gets −2 Might this turn.
 Flavour: “…”
 Crown 2: none
 Might | Guard: 7 | 7
@@ -39,7 +40,8 @@ Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Charge *(Can attack the turn it arrives.)*
 3. Flight *(Only Flight or Reach can block it.)*
-4. **Ascend:** Ready Crownless.
+4. **UNBOUND.**
+5. **Ascend:** Ready Crownless.
 Flavour: “Still not taking it.”
 Crown 2: none
 Might | Guard: 10 | 10
@@ -60,8 +62,9 @@ Text box, line by line:
 2. Charge *(Can attack the turn it arrives.)*
 3. Flight *(Only Flight or Reach can block it.)*
 4. Ambush *(Attacking a sideways champion, it strikes first.)*
-5. **Ascend:** Ready Crownless.
-6. **Attack: Scorch 3** the defender.
+5. **UNBOUND.**
+6. **Ascend:** Ready Crownless.
+7. **Attack: Scorch 3** the defender.
 Flavour: “I refuse your rules.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 14 | 13
@@ -72,4 +75,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 164 ★★: up-arrow 2, not up-arrow 0.
-- 165 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
+- 165 ★★★ has 7 text lines before flavour; retain all lines and crown 2 placement.

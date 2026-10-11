@@ -18,7 +18,8 @@ Trait icons: Dawnforged: gold-orange sunburst; Delver: amber lantern
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. **Arrival:** Draw a card.
+2. **Lantern Path.**
+3. **Arrival:** Draw a card.
 Flavour: “Shadows, beware.”
 Crown 2: none
 Might | Guard: 3 | 3
@@ -36,7 +37,8 @@ Trait icons: Dawnforged: gold-orange sunburst; Delver: amber lantern
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. **Ascend:** Draw a card.
+2. **Lantern Path.**
+3. **Ascend:** Draw a card.
 Flavour: “The dawn burns brighter!”
 Crown 2: none
 Might | Guard: 6 | 5
@@ -54,8 +56,9 @@ Trait icons: Dawnforged: gold-orange sunburst; Delver: amber lantern
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. **Ascend:** Draw a card.
-3. Shield each champion you control.
+2. **Lantern Path.**
+3. **Ascend:** Draw a card.
+4. Shield each champion you control.
 Flavour: “Cleansed.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 8
@@ -66,3 +69,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 041 ★★: up-arrow 1, not up-arrow 0.
+- 042 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

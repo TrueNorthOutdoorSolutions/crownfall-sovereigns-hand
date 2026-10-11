@@ -18,7 +18,8 @@ Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. Rival champions attacking your Crown get −1 Might.
+2. **Bastion Protocol.**
+3. Rival champions attacking your Crown get −1 Might.
 Flavour: “City status: unknown. Defending anyway.”
 Crown 2: none
 Might | Guard: 3 | 8
@@ -37,7 +38,8 @@ Keywords: Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Fl
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
 2. Reach *(Can block Flight.)*
-3. Rival champions attacking your Crown get −1 Might.
+3. **Bastion Protocol.**
+4. Rival champions attacking your Crown get −1 Might.
 Flavour: “Perimeter held.”
 Crown 2: none
 Might | Guard: 6 | 10
@@ -56,8 +58,9 @@ Keywords: Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Fl
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
 2. Reach *(Can block Flight.)*
-3. Rival champions attacking your Crown get −2 Might.
-4. **Ascend: Shield** each champion you control.
+3. **Bastion Protocol.**
+4. Rival champions attacking your Crown get −2 Might.
+5. **Ascend: Shield** each champion you control.
 Flavour: “Fortress mode.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 13
@@ -68,4 +71,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 119 ★★: up-arrow 1, not up-arrow 0.
-- 120 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 120 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.

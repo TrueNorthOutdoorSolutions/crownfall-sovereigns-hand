@@ -18,7 +18,8 @@ Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a s
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
-2. **Attack: Scorch 1** a rival champion.
+2. **Charted Shot.**
+3. **Attack: Scorch 1** a rival champion.
 Flavour: “I have a star with your name.”
 Crown 2: none
 Might | Guard: 4 | 2
@@ -36,7 +37,8 @@ Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a s
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
-2. **Attack: Scorch 2** a rival champion.
+2. **Charted Shot.**
+3. **Attack: Scorch 2** a rival champion.
 Flavour: “The constellations align.”
 Crown 2: none
 Might | Guard: 7 | 5
@@ -55,8 +57,9 @@ Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block
 Text box, line by line:
 1. Reach *(Can block Flight.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Ascend: Scorch 2** each rival champion.
-4. **Attack: Scorch 2** a rival champion.
+3. **Charted Shot.**
+4. **Ascend: Scorch 2** each rival champion.
+5. **Attack: Scorch 2** a rival champion.
 Flavour: “Named and claimed.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 10 | 8
@@ -67,5 +70,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 086 ★★: up-arrow 1, not up-arrow 0.
-- 087 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 087 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
 - Mixed Scorch numbers: S2-085: Scorch 1; S2-086: Scorch 2; S2-087: Scorch 2, Scorch 2.

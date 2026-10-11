@@ -18,7 +18,8 @@ Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Arrival:** Mend 1.
+2. **Deep Roots.**
+3. **Arrival:** Mend 1.
 Flavour: “I remember who built this place.”
 Crown 2: none
 Might | Guard: 3 | 7
@@ -36,7 +37,8 @@ Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Ascend: Shield** each champion you control.
+2. **Deep Roots.**
+3. **Ascend: Shield** each champion you control.
 Flavour: “Grow.”
 Crown 2: none
 Might | Guard: 6 | 10
@@ -54,8 +56,9 @@ Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Ascend:** Mend 1.
-3. Shield each champion you control.
+2. **Deep Roots.**
+3. **Ascend:** Mend 1.
+4. Shield each champion you control.
 Flavour: “Worldroot!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 13
@@ -66,3 +69,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 134 ★★: up-arrow 1, not up-arrow 0.
+- 135 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

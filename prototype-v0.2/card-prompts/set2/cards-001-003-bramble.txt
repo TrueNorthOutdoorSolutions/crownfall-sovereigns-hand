@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Verdant | Sapper | TIER I
 Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Break one of your rival’s face-down Schemes.
+1. **Rootbreak.**
+2. **Arrival:** Break one of your rival’s face-down Schemes.
 Flavour: “Roots first. Then questions.”
 Crown 2: none
 Might | Guard: 1 | 3
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Bramble ★
 Origin | Class | Tier: Verdant | Sapper | TIER I
 Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Attack:** Break a rival champion’s Relic.
+1. **Rootbreak.**
+2. **Attack:** Break a rival champion’s Relic.
 Flavour: “I grew!”
 Crown 2: none
 Might | Guard: 4 | 5
@@ -52,13 +52,13 @@ Ascension band: ASCENSION • from Bramble ★★
 Origin | Class | Tier: Verdant | Sapper | TIER I
 Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Break a rival champion’s Relic.
-2. Break one of your rival’s face-down Schemes.
-3. **Block: Scorch 2** the attacker.
+1. **Rootbreak.**
+2. **Ascend:** Break a rival champion’s Relic.
+3. Break one of your rival’s face-down Schemes.
+4. **Block: Scorch 2** the attacker.
 Flavour: “The forest remembers.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 7 | 9
 Footer: 003/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Roots splitting the flagstones of a buried tunnel, rubble raining around him. Canon look for this form: A miniature ancient world-tree warrior. Leaves orbit him, his eyes burn emerald, and Rootslam erupts as enormous spectral roots.
@@ -69,3 +69,4 @@ Check when it comes back:
 - 001: no keyword; do not add a chip or reminder.
 - 002: no keyword; do not add a chip or reminder.
 - 003: no keyword; do not add a chip or reminder.
+- 003 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

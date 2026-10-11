@@ -18,7 +18,8 @@ Trait icons: Dawnforged: gold-orange sunburst; Ascendant: gold crown (distinct f
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
-2. **Arrival:** Mend 1.
+2. **SECOND DAWN.**
+3. **Arrival:** Mend 1.
 Flavour: “Before anything, there was me.”
 Crown 2: none
 Might | Guard: 5 | 7
@@ -37,8 +38,9 @@ Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block
 Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Ascend:** Mend 1.
-4. Shield each champion you control.
+3. **SECOND DAWN.**
+4. **Ascend:** Mend 1.
+5. Shield each champion you control.
 Flavour: “The light endures.”
 Crown 2: none
 Might | Guard: 8 | 10
@@ -57,9 +59,10 @@ Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block
 Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Ascend:** Mend 1.
-4. Shield each champion you control.
-5. Your champions get +2 Might this turn.
+3. **SECOND DAWN.**
+4. **Ascend:** Mend 1.
+5. Shield each champion you control.
+6. Your champions get +2 Might this turn.
 Flavour: “Let there be DAWN!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 13
@@ -70,4 +73,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 152 ★★: up-arrow 2, not up-arrow 0.
-- 153 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
+- 153 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.

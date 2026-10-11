@@ -18,7 +18,8 @@ Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. +1 Might while attacking a champion.
+2. **Pit Fighter.**
+3. +1 Might while attacking a champion.
 Flavour: “One. Two. Three.”
 Crown 2: none
 Might | Guard: 3 | 2
@@ -36,8 +37,9 @@ Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. +2 Might while attacking a champion.
-3. When Rask defeats a champion on your turn, Shield Rask.
+2. **Pit Fighter.**
+3. +2 Might while attacking a champion.
+4. When Rask defeats a champion on your turn, Shield Rask.
 Flavour: “The crowd chants my name.”
 Crown 2: none
 Might | Guard: 6 | 5
@@ -56,8 +58,9 @@ Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sid
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
 2. Ambush *(Attacking a sideways champion, it strikes first.)*
-3. +2 Might while attacking a champion.
-4. Once per turn, when Rask defeats a champion on your turn, ready Rask.
+3. **Pit Fighter.**
+4. +2 Might while attacking a champion.
+5. Once per turn, when Rask defeats a champion on your turn, ready Rask.
 Flavour: “Undefeated.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 10 | 8
@@ -68,4 +71,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 071 ★★: up-arrow 1, not up-arrow 0.
-- 072 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 072 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.

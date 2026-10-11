@@ -18,7 +18,8 @@ Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. +1 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+2. **Scent of Prey.**
+3. +1 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
 Flavour: “I smell weakness.”
 Crown 2: none
 Might | Guard: 2 | 1
@@ -36,7 +37,8 @@ Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+2. **Scent of Prey.**
+3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
 Flavour: “The pack grows.”
 Crown 2: none
 Might | Guard: 5 | 4
@@ -54,8 +56,9 @@ Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-3. When Fen defeats a champion on your turn, draw a card.
+2. **Scent of Prey.**
+3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+4. When Fen defeats a champion on your turn, draw a card.
 Flavour: “Good hunt.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 7
@@ -65,3 +68,4 @@ Art brief: Running the dark tunnels under the Arena with the scent of a monster 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 018 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

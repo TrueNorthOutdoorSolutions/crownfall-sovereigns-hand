@@ -18,7 +18,8 @@ Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
+2. **Light Fingers.**
+3. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
 Flavour: “You didn't see me.”
 Crown 2: none
 Might | Guard: 2 | 1
@@ -37,7 +38,8 @@ Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight 
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
+3. **Light Fingers.**
+4. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
 Flavour: “Quieter. Sharper.”
 Crown 2: none
 Might | Guard: 5 | 3
@@ -56,8 +58,9 @@ Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight 
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
-4. When Nyx defeats a champion on your turn, your rival discards a card at random.
+3. **Light Fingers.**
+4. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
+5. When Nyx defeats a champion on your turn, your rival discards a card at random.
 Flavour: “Gone before they knew.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 5
@@ -67,4 +70,4 @@ Art brief: Slipping between treasure piles in a Guardian’s lair, a stolen reli
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 024 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 024 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.

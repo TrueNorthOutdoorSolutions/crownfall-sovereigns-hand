@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Gearbound | Sapper | TIER I
 Trait icons: Gearbound: gold gear; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Break a rival champion’s Relic.
+1. **Tunnel Charge.**
+2. **Arrival:** Break a rival champion’s Relic.
 Flavour: “Pip brought explosives!”
 Crown 2: none
 Might | Guard: 2 | 1
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Pip ★
 Origin | Class | Tier: Gearbound | Sapper | TIER I
 Trait icons: Gearbound: gold gear; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Attack: Scorch 1** each rival champion.
+1. **Tunnel Charge.**
+2. **Attack: Scorch 1** each rival champion.
 Flavour: “BIGGER BOOM!”
 Crown 2: none
 Might | Guard: 5 | 4
@@ -52,12 +52,12 @@ Ascension band: ASCENSION • from Pip ★★
 Origin | Class | Tier: Gearbound | Sapper | TIER I
 Trait icons: Gearbound: gold gear; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend: Scorch 2** each rival champion.
-2. Break a rival champion’s Relic.
+1. **Tunnel Charge.**
+2. **Ascend: Scorch 2** each rival champion.
+3. Break a rival champion’s Relic.
 Flavour: “Pip wants to go again!”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 7
 Footer: 012/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Lighting a fuse in a narrow mine tunnel, grinning, barrels stacked behind her. Canon look for this form: Pip rides a ridiculous miniature mechanical war machine with a bomb chute.

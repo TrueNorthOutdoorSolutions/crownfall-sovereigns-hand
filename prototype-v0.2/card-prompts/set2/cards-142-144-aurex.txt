@@ -18,8 +18,9 @@ Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
-2. **Arrival: Scorch 2** each rival champion.
-3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+2. **GUARDIAN’S BANE.**
+3. **Arrival: Scorch 2** each rival champion.
+4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
 Flavour: “The last dragon answers.”
 Crown 2: none
 Might | Guard: 7 | 7
@@ -38,8 +39,9 @@ Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block
 Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. **Attack: Scorch 3** the defender.
+3. **GUARDIAN’S BANE.**
+4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+5. **Attack: Scorch 3** the defender.
 Flavour: “Worth it? Perhaps.”
 Crown 2: none
 Might | Guard: 9 | 9
@@ -58,9 +60,10 @@ Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block
 Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. **Ascend: Scorch 4** each rival champion.
-5. Your other champions can’t attack this turn.
+3. **GUARDIAN’S BANE.**
+4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+5. **Ascend: Scorch 4** each rival champion.
+6. Your other champions can’t attack this turn.
 Flavour: “Let the world burn!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 13 | 12
@@ -71,5 +74,5 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 143 ★★: up-arrow 2, not up-arrow 0.
-- 144 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
+- 144 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
 - Mixed Scorch numbers: S2-142: Scorch 2; S2-143: Scorch 3; S2-144: Scorch 4.

@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Titanborn | Artificer | TIER II
 Trait icons: Titanborn: peach-orange triangle; Artificer: bronze anvil
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Return a Relic from your Fallen pile to your hand.
+1. **Deep Forge.**
+2. **Arrival:** Return a Relic from your Fallen pile to your hand.
 Flavour: “The forge is hot!”
 Crown 2: none
 Might | Guard: 3 | 4
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Borin Ironbelly ★
 Origin | Class | Tier: Titanborn | Artificer | TIER II
 Trait icons: Titanborn: peach-orange triangle; Artificer: bronze anvil
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +2 Might while Borin Ironbelly holds a Relic.
+1. **Deep Forge.**
+2. +2 Might while Borin Ironbelly holds a Relic.
 Flavour: “Hammer sings louder!”
 Crown 2: none
 Might | Guard: 6 | 7
@@ -54,7 +54,8 @@ Trait icons: Titanborn: peach-orange triangle; Artificer: bronze anvil
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. +2 Might and +2 Guard while Borin Ironbelly holds a Relic.
+2. **Deep Forge.**
+3. +2 Might and +2 Guard while Borin Ironbelly holds a Relic.
 Flavour: “Well struck.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 10

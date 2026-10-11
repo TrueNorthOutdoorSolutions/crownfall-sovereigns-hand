@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Dawnforged | Restorer | TIER I
 Trait icons: Dawnforged: gold-orange sunburst; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival: Shield** another champion you control.
+1. **Lamplight.**
+2. **Arrival: Shield** another champion you control.
 Flavour: “The dawn walks with you.”
 Crown 2: none
 Might | Guard: 1 | 3
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Solara ★
 Origin | Class | Tier: Dawnforged | Restorer | TIER I
 Trait icons: Dawnforged: gold-orange sunburst; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Mend 1.
+1. **Lamplight.**
+2. **Ascend:** Mend 1.
 Flavour: “The light answers me now.”
 Crown 2: none
 Might | Guard: 3 | 6
@@ -52,12 +52,12 @@ Ascension band: ASCENSION • from Solara ★★
 Origin | Class | Tier: Dawnforged | Restorer | TIER I
 Trait icons: Dawnforged: gold-orange sunburst; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Mend 1.
-2. Shield each champion you control.
+1. **Lamplight.**
+2. **Ascend:** Mend 1.
+3. Shield each champion you control.
 Flavour: “Rest. The sun rises.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 6 | 9
 Footer: 015/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Holding a dawn-lamp over wounded explorers in a dark side-passage. Canon look for this form: Radiant robes, a floating halo of three suns and wings of morning light.

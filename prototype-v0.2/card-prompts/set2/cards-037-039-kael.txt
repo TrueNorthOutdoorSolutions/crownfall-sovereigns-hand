@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Kingdom | Delver | TIER I
 Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Draw a card, then put a card from your hand on the bottom of your deck.
+1. **Delve.**
+2. **Arrival:** Draw a card, then put a card from your hand on the bottom of your deck.
 Flavour: “I will be worthy.”
 Crown 2: none
 Might | Guard: 3 | 2
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Kael ★
 Origin | Class | Tier: Kingdom | Delver | TIER I
 Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Return a Relic from your Fallen pile to your hand.
+1. **Delve.**
+2. **Ascend:** Return a Relic from your Fallen pile to your hand.
 Flavour: “Stronger — for the Crown.”
 Crown 2: none
 Might | Guard: 5 | 4
@@ -52,11 +52,11 @@ Ascension band: ASCENSION • from Kael ★★
 Origin | Class | Tier: Kingdom | Delver | TIER I
 Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Draw 2 cards.
+1. **Delve.**
+2. **Ascend:** Draw 2 cards.
 Flavour: “One step closer.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 7
 Footer: 039/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Torchlit vaults beneath the Arena; he reaches for a relic blade on a broken plinth. Canon look for this form: A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet.

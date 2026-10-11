@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Gearbound | Artificer | TIER III
 Trait icons: Gearbound: gold gear; Artificer: bronze anvil
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Attach a Relic costing 2 or less from your hand to Professor Spark for free.
+1. **Prototype.**
+2. **Arrival:** Attach a Relic costing 2 or less from your hand to Professor Spark for free.
 Flavour: “Excessive voltage? Never!”
 Crown 2: none
 Might | Guard: 2 | 3
@@ -34,10 +34,10 @@ Ascension band: ASCENSION • from Professor Spark ★
 Origin | Class | Tier: Gearbound | Artificer | TIER III
 Trait icons: Gearbound: gold gear; Artificer: bronze anvil
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Your Relics cost 1 less.
-2. **Ascend:** Summon an Arc Turret.
+1. **Prototype.**
+2. Your Relics cost 1 less.
+3. **Ascend:** Summon an Arc Turret.
 Flavour: “Version two, even better!”
 Crown 2: none
 Might | Guard: 5 | 6
@@ -55,8 +55,9 @@ Trait icons: Gearbound: gold gear; Artificer: bronze anvil
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. Your Relics cost 1 less.
-3. **Ascend:** Summon two Arc Turrets.
+2. **Prototype.**
+3. Your Relics cost 1 less.
+4. **Ascend:** Summon two Arc Turrets.
 Flavour: “Science wins again!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 8 | 9
@@ -69,3 +70,4 @@ Check when it comes back:
 - 082: no keyword; do not add a chip or reminder.
 - 083 ★★: up-arrow 1, not up-arrow 0.
 - 083: no keyword; do not add a chip or reminder.
+- 084 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

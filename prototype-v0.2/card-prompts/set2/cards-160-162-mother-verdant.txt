@@ -18,8 +18,9 @@ Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the bl
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
-2. **Arrival:** Summon two Wild Saplings.
-3. Your tokens have +1 Guard.
+2. **EVERGROWTH.**
+3. **Arrival:** Summon two Wild Saplings.
+4. Your tokens have +1 Guard.
 Flavour: “Come, my children.”
 Crown 2: none
 Might | Guard: 4 | 9
@@ -37,8 +38,9 @@ Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the bl
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
-2. Your tokens have +1 Might and +1 Guard.
-3. **Ascend:** Summon two Wild Saplings.
+2. **EVERGROWTH.**
+3. Your tokens have +1 Might and +1 Guard.
+4. **Ascend:** Summon two Wild Saplings.
 Flavour: “Bloom again.”
 Crown 2: none
 Might | Guard: 7 | 12
@@ -56,9 +58,10 @@ Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the bl
 Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
-2. Your tokens have +2 Might and +2 Guard.
-3. **Ascend:** Summon two Treants.
-4. Shield each champion you control.
+2. **EVERGROWTH.**
+3. Your tokens have +2 Might and +2 Guard.
+4. **Ascend:** Summon two Treants.
+5. Shield each champion you control.
 Flavour: “Life eternal!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 10 | 15
@@ -69,4 +72,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 161 ★★: up-arrow 2, not up-arrow 0.
-- 162 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 162 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.

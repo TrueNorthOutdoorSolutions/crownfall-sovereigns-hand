@@ -16,10 +16,10 @@ No Ascension band
 Origin | Class | Tier: Hollow | Binder | TIER III
 Trait icons: Hollow: teal skull; Binder: teal chain link
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Summon a Risen Soldier.
-2. Your tokens have +1 Might.
+1. **Call of the Buried.**
+2. **Arrival:** Summon a Risen Soldier.
+3. Your tokens have +1 Might.
 Flavour: “Death is a waste of soldiers.”
 Crown 2: none
 Might | Guard: 2 | 3
@@ -35,10 +35,10 @@ Ascension band: ASCENSION • from Morrow ★
 Origin | Class | Tier: Hollow | Binder | TIER III
 Trait icons: Hollow: teal skull; Binder: teal chain link
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Your tokens have +1 Might and +1 Guard.
-2. **Ascend:** Summon two Risen Soldiers.
+1. **Call of the Buried.**
+2. Your tokens have +1 Might and +1 Guard.
+3. **Ascend:** Summon two Risen Soldiers.
 Flavour: “My legion grows.”
 Crown 2: none
 Might | Guard: 5 | 6
@@ -54,12 +54,12 @@ Ascension band: ASCENSION • from Morrow ★★
 Origin | Class | Tier: Hollow | Binder | TIER III
 Trait icons: Hollow: teal skull; Binder: teal chain link
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Your tokens have +1 Might and +1 Guard.
-2. **Ascend:** Deploy a ★ champion costing 4 or less from your Fallen pile for free.
+1. **Call of the Buried.**
+2. Your tokens have +1 Might and +1 Guard.
+3. **Ascend:** Deploy a ★ champion costing 4 or less from your Fallen pile for free.
 Flavour: “Rise, and rest.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 9
 Footer: 099/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Raising the soldiers buried beneath the Arena from their stone tombs. Canon look for this form: A lord of the grave crowned in spectral candles.

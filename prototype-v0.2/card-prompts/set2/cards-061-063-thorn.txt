@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Verdant | Sapper | TIER II
 Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Break one of your rival’s face-down Schemes.
+1. **Creeping Rot.**
+2. **Arrival:** Break one of your rival’s face-down Schemes.
 Flavour: “Step closer…”
 Crown 2: none
 Might | Guard: 2 | 3
@@ -34,10 +34,10 @@ Ascension band: ASCENSION • from Thorn ★
 Origin | Class | Tier: Verdant | Sapper | TIER II
 Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Break a rival champion’s Relic.
-2. **Block: Scorch 2** the attacker.
+1. **Creeping Rot.**
+2. **Ascend:** Break a rival champion’s Relic.
+3. **Block: Scorch 2** the attacker.
 Flavour: “In full bloom.”
 Crown 2: none
 Might | Guard: 5 | 5
@@ -53,13 +53,13 @@ Ascension band: ASCENSION • from Thorn ★★
 Origin | Class | Tier: Verdant | Sapper | TIER II
 Trait icons: Verdant: green antlers; Sapper: black powder keg with a lit fuse
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Break one of your rival’s face-down Schemes.
-2. Break a rival champion’s Relic.
-3. Scorch 2 each rival champion.
+1. **Creeping Rot.**
+2. **Ascend:** Break one of your rival’s face-down Schemes.
+3. Break a rival champion’s Relic.
+4. Scorch 2 each rival champion.
 Flavour: “The garden wins.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 8
 Footer: 063/266 · P · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Blight creeping through cracks in a vault wall, the stone crumbling to green dust. Canon look for this form: A carnivorous bloom colossus whose petals exhale toxic spores.
@@ -71,3 +71,4 @@ Check when it comes back:
 - 062 ★★: up-arrow 1, not up-arrow 0.
 - 062: no keyword; do not add a chip or reminder.
 - 063: no keyword; do not add a chip or reminder.
+- 063 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

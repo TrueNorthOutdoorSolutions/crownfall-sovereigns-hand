@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Hollow | Hunter | TIER III
 Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+1. **Guardian Feast.**
+2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
 Flavour: “Hungry…”
 Crown 2: none
 Might | Guard: 5 | 4
@@ -36,7 +36,8 @@ Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+2. **Guardian Feast.**
+3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
 Flavour: “MORE TEETH.”
 Crown 2: none
 Might | Guard: 8 | 6
@@ -54,8 +55,9 @@ Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-3. When Dreadmouth defeats a champion on your turn, draw a card.
+2. **Guardian Feast.**
+3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+4. When Dreadmouth defeats a champion on your turn, draw a card.
 Flavour: “Delicious.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 9
@@ -67,3 +69,4 @@ Check when it comes back:
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 079: no keyword; do not add a chip or reminder.
 - 080 ★★: up-arrow 1, not up-arrow 0.
+- 081 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

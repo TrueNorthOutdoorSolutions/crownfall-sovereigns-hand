@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Elemental | Channeler | TIER III
 Trait icons: Elemental: orange flame; Channeler: violet spiral
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Whenever you cast a Tactic, Scorch 1 a rival champion.
+1. **Forgefire.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
 Flavour: “Everywhere else is cold.”
 Crown 2: none
 Might | Guard: 3 | 4
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Ignara ★
 Origin | Class | Tier: Elemental | Channeler | TIER III
 Trait icons: Elemental: orange flame; Channeler: violet spiral
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Whenever you cast a Tactic, Scorch 1 a rival champion.
+1. **Forgefire.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
 Flavour: “Burn brighter!”
 Crown 2: none
 Might | Guard: 6 | 7
@@ -54,7 +54,8 @@ Trait icons: Elemental: orange flame; Channeler: violet spiral
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. Whenever you cast a Tactic, Scorch 2 a rival champion.
+2. **Forgefire.**
+3. Whenever you cast a Tactic, Scorch 2 a rival champion.
 Flavour: “Only ash.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 10

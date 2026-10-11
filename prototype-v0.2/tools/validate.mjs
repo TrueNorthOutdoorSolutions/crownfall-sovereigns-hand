@@ -37,7 +37,8 @@ for (const l of champLines) {
     check(own.every((k) => S15.includes(k)) && (l.tier === 5 ? l.classes.includes('ascendant') : own.length === 1) && !own.some((k) => c.classes.includes(k)),
       `remix: ${tag} has a new Season 1.5 class (${l.classes.join(', ')})`);
   } else check(same(c.origins, l.origins) && same(c.classes, l.classes), `canon: ${tag} Origins/Classes match`);
-  for (const f of l.forms) if (f.ability) check(f.ability === c.ability, `canon: ${tag} ★${f.star} ability name "${f.ability}" is canonical`);
+  if (l.abilityProposed) check(l.forms.every((f) => !f.text || !!f.ability), `remix: ${tag} prints its PROPOSED Set 2 ability name`);
+  else for (const f of l.forms) if (f.ability) check(f.ability === c.ability, `canon: ${tag} ★${f.star} ability name "${f.ability}" is canonical`);
   check(l.forms.every((f) => f.keywords.includes('Ascendant') === (l.tier === 5)), `rules: only Tier V ${tag} carries Ascendant`);
   check(l.forms.length === 3 && l.forms.map((f) => f.star).join() === '1,2,3', `set: ${tag} has ★, ★★ and ★★★ forms`);
   for (const f of l.forms) if (f.star > 1) check(f.might > l.forms[f.star - 2].might && f.guard > l.forms[f.star - 2].guard, `set: ${tag} ★${f.star} is stronger than ★${f.star - 1}`);

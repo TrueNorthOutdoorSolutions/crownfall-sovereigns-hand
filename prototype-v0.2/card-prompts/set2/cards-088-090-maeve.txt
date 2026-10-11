@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
 Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Take a Relic from a rival champion and attach it to Maeve.
+1. **Sleight of Thorns.**
+2. **Arrival:** Take a Relic from a rival champion and attach it to Maeve.
 Flavour: “Every gift has a price.”
 Crown 2: none
 Might | Guard: 2 | 4
@@ -34,10 +34,10 @@ Ascension band: ASCENSION • from Maeve ★
 Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
 Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Your rival discards a card at random.
-2. Draw a card.
+1. **Sleight of Thorns.**
+2. **Ascend:** Your rival discards a card at random.
+3. Draw a card.
 Flavour: “The old bargain holds.”
 Crown 2: none
 Might | Guard: 5 | 7
@@ -53,12 +53,12 @@ Ascension band: ASCENSION • from Maeve ★★
 Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
 Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Take a Relic from a rival champion and attach it to Maeve.
-2. Your rival discards a card at random.
+1. **Sleight of Thorns.**
+2. **Ascend:** Take a Relic from a rival champion and attach it to Maeve.
+3. Your rival discards a card at random.
 Flavour: “Debts collected.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 10
 Footer: 090/266 · P · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Weighing two glowing relics in the roots of an underground grove. Canon look for this form: The forest itself leans in to listen: moths of light circle her crown of antlers.

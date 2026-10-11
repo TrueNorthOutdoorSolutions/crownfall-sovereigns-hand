@@ -18,7 +18,8 @@ Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a singl
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. **Attack: Scorch 2** a rival champion.
+2. **Chain Lightning.**
+3. **Attack: Scorch 2** a rival champion.
 Flavour: “Shall we duel?”
 Crown 2: none
 Might | Guard: 5 | 3
@@ -36,7 +37,8 @@ Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a singl
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. **Attack: Scorch 2** a rival champion.
+2. **Chain Lightning.**
+3. **Attack: Scorch 2** a rival champion.
 Flavour: “Touché.”
 Crown 2: none
 Might | Guard: 8 | 6
@@ -54,7 +56,8 @@ Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a singl
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. **Attack: Scorch 2** a rival champion, then Scorch 2 a rival champion.
+2. **Chain Lightning.**
+3. **Attack: Scorch 2** a rival champion, then Scorch 2 a rival champion.
 Flavour: “Thunderstep!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 9

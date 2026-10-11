@@ -16,10 +16,10 @@ No Ascension band
 Origin | Class | Tier: Kingdom | Delver | TIER III
 Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival:** Draw a card.
-2. Your other Kingdom champions have +1 Might.
+1. **Banner of the Descent.**
+2. **Arrival:** Draw a card.
+3. Your other Kingdom champions have +1 Might.
 Flavour: “Rally to me!”
 Crown 2: none
 Might | Guard: 3 | 5
@@ -35,9 +35,9 @@ Ascension band: ASCENSION • from Aurelia ★
 Origin | Class | Tier: Kingdom | Delver | TIER III
 Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Draw 2 cards.
+1. **Banner of the Descent.**
+2. **Ascend:** Draw 2 cards.
 Flavour: “For the realm!”
 Crown 2: none
 Might | Guard: 6 | 7
@@ -53,12 +53,12 @@ Ascension band: ASCENSION • from Aurelia ★★
 Origin | Class | Tier: Kingdom | Delver | TIER III
 Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Draw 2 cards.
-2. Ready another champion you control.
+1. **Banner of the Descent.**
+2. **Ascend:** Draw 2 cards.
+3. Ready another champion you control.
 Flavour: “Victory for the Crown.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 9 | 10
 Footer: 105/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Leading the Kingdom’s banners down the great stair beneath the Arena. Canon look for this form: Crowned in light, her banner becomes a column of gold.

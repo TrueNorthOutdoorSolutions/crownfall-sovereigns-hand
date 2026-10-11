@@ -18,7 +18,8 @@ Trait icons: Kingdom: blue crown; Sharpshooter: white eye with a single sight li
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
-2. **Attack: Scorch 1** a rival champion.
+2. **Gatewatch Volley.**
+3. **Attack: Scorch 1** a rival champion.
 Flavour: “The wind is kind today.”
 Crown 2: none
 Might | Guard: 2 | 2
@@ -36,7 +37,8 @@ Trait icons: Kingdom: blue crown; Sharpshooter: white eye with a single sight li
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
-2. **Attack: Scorch 1** a rival champion.
+2. **Gatewatch Volley.**
+3. **Attack: Scorch 1** a rival champion.
 Flavour: “A thousand paces, now.”
 Crown 2: none
 Might | Guard: 4 | 5
@@ -54,7 +56,8 @@ Trait icons: Kingdom: blue crown; Sharpshooter: white eye with a single sight li
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
-2. **Attack: Scorch 2** a rival champion.
+2. **Gatewatch Volley.**
+3. **Attack: Scorch 2** a rival champion.
 Flavour: “Clean shots.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 8 | 8

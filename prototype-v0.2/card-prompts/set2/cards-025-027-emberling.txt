@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Elemental | Channeler | TIER I
 Trait icons: Elemental: orange flame; Channeler: violet spiral
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Whenever you cast a Tactic, Scorch 1 a rival champion.
+1. **Ember Echo.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
 Flavour: “Can I burn something?”
 Crown 2: none
 Might | Guard: 1 | 2
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Emberling ★
 Origin | Class | Tier: Elemental | Channeler | TIER I
 Trait icons: Elemental: orange flame; Channeler: violet spiral
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Whenever you cast a Tactic, Scorch 1 a rival champion.
+1. **Ember Echo.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
 Flavour: “I'm a real fire now!”
 Crown 2: none
 Might | Guard: 4 | 4
@@ -52,11 +52,11 @@ Ascension band: ASCENSION • from Emberling ★★
 Origin | Class | Tier: Elemental | Channeler | TIER I
 Trait icons: Elemental: orange flame; Channeler: violet spiral
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. Whenever you cast a Tactic, Scorch 1 each rival champion.
+1. **Ember Echo.**
+2. Whenever you cast a Tactic, Scorch 1 each rival champion.
 Flavour: “Warm, warm, warm!”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 7 | 7
 Footer: 027/266 · P · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: A living spark drifting through a forge-vent, sparks spiralling up into it. Canon look for this form: A miniature sun-spirit; the air warps around her and her fireballs leave spiralling trails.

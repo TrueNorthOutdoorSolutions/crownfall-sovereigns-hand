@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Kingdom | Restorer | TIER II
 Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Arrival: Shield** another champion you control.
+1. **Field Mending.**
+2. **Arrival: Shield** another champion you control.
 Flavour: “Who needs mending?”
 Crown 2: none
 Might | Guard: 1 | 4
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Elara ★
 Origin | Class | Tier: Kingdom | Restorer | TIER II
 Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Mend 1.
+1. **Field Mending.**
+2. **Ascend:** Mend 1.
 Flavour: “No one falls today.”
 Crown 2: none
 Might | Guard: 3 | 7
@@ -52,12 +52,12 @@ Ascension band: ASCENSION • from Elara ★★
 Origin | Class | Tier: Kingdom | Restorer | TIER II
 Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Ascend:** Mend 1.
-2. Return a ★ champion from your Fallen pile to your hand.
+1. **Field Mending.**
+2. **Ascend:** Mend 1.
+3. Return a ★ champion from your Fallen pile to your hand.
 Flavour: “Everyone accounted for.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (rules line).
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 6 | 10
 Footer: 069/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: Tending the wounded of the descent by lantern light in a collapsed hall. Canon look for this form: An angel of the field hospital, light pouring from her open tome.

@@ -16,9 +16,9 @@ No Ascension band
 Origin | Class | Tier: Voltborn | Sharpshooter | TIER I
 Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Attack: Scorch 1** a rival champion.
+1. **Railshot.**
+2. **Attack: Scorch 1** a rival champion.
 Flavour: “Charged and ready!”
 Crown 2: none
 Might | Guard: 2 | 1
@@ -34,9 +34,9 @@ Ascension band: ASCENSION • from Kira Volt ★
 Origin | Class | Tier: Voltborn | Sharpshooter | TIER I
 Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (Set 2 class, approved 2026-10-11)
 Keywords: none (text box starts with the ability name)
-No ability name is listed; start with the first rules line below. Do not invent one.
 Text box, line by line:
-1. **Attack: Scorch 2** a rival champion.
+1. **Railshot.**
+2. **Attack: Scorch 2** a rival champion.
 Flavour: “Double the volts!”
 Crown 2: none
 Might | Guard: 4 | 3
@@ -54,7 +54,8 @@ Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a singl
 Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
 1. Reach *(Can block Flight.)*
-2. **Attack: Scorch 2** a rival champion, then Scorch 2 a rival champion.
+2. **Railshot.**
+3. **Attack: Scorch 2** a rival champion, then Scorch 2 a rival champion.
 Flavour: “Nobody out-sparks me.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 7 | 6

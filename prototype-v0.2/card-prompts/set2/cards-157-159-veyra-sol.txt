@@ -20,7 +20,8 @@ Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
 3. Ambush *(Attacking a sideways champion, it strikes first.)*
-4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+4. **THE HUNT ETERNAL.**
+5. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
 Flavour: “Every world has a back door.”
 Crown 2: none
 Might | Guard: 8 | 5
@@ -40,8 +41,9 @@ Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
 3. Ambush *(Attacking a sideways champion, it strikes first.)*
-4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-5. When Veyra Sol defeats a champion on your turn, draw a card.
+4. **THE HUNT ETERNAL.**
+5. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+6. When Veyra Sol defeats a champion on your turn, draw a card.
 Flavour: “Caught.”
 Crown 2: none
 Might | Guard: 11 | 8
@@ -61,8 +63,9 @@ Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
 3. Ambush *(Attacking a sideways champion, it strikes first.)*
-4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-5. Once per turn, when Veyra Sol defeats a champion on your turn, ready Veyra Sol.
+4. **THE HUNT ETERNAL.**
+5. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+6. Once per turn, when Veyra Sol defeats a champion on your turn, ready Veyra Sol.
 Flavour: “Between worlds!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 15 | 10
@@ -73,4 +76,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 158 ★★: up-arrow 2, not up-arrow 0.
-- 159 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
+- 159 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.

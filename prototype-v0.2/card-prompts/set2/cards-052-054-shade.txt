@@ -18,7 +18,8 @@ Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. When Shade defeats a champion on your turn, your rival discards a card at random.
+2. **Masked Theft.**
+3. When Shade defeats a champion on your turn, your rival discards a card at random.
 Flavour: “A mark has been chosen.”
 Crown 2: none
 Might | Guard: 3 | 2
@@ -36,7 +37,8 @@ Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. When Shade defeats a champion on your turn, your rival discards a card at random.
+2. **Masked Theft.**
+3. When Shade defeats a champion on your turn, your rival discards a card at random.
 Flavour: “The mask cracks. Good.”
 Crown 2: none
 Might | Guard: 6 | 4
@@ -55,8 +57,9 @@ Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight 
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Attack:** Take a Relic from a rival champion and attach it to Shade.
-4. When Shade defeats a champion on your turn, your rival discards a card at random.
+3. **Masked Theft.**
+4. **Attack:** Take a Relic from a rival champion and attach it to Shade.
+5. When Shade defeats a champion on your turn, your rival discards a card at random.
 Flavour: “Executed.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 6
@@ -67,4 +70,4 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 053 ★★: up-arrow 1, not up-arrow 0.
-- 054 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 054 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
