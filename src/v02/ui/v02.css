@@ -407,3 +407,6 @@ a { color: var(--gold) }
 .menu.intro .deckpick.on .dp-body { padding-bottom: 34px }
 .menu.intro .deckpick.on .dp-body p { -webkit-line-clamp: 3; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden }
 .menu.intro .studio { letter-spacing: .16em; font-size: 13px; gap: 8px }
+/* Intro background: the owner's courtyard painting (public/v02/menu-bg.webp) once supplied; the arena until then. */
+.menu.intro .menu-bg { background-image: url(/v02/menu-bg.webp), url(/v02/arena-1440.webp); background-position: center; background-size: cover; filter: none }
+.menu.intro .menu-bg::after { background: radial-gradient(ellipse 46% 62% at 50% 46%, rgba(7,6,11,.55) 0%, rgba(7,6,11,.25) 60%, transparent 100%) }
