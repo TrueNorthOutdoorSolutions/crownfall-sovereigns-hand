@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sovereign's Hand — How to Play</title>
+<style>
+  @page { size: letter; margin: 0; }
+  :root { --ink: #1b1710; --muted: #5d5444; --gold: #a8801f; --green: #1f4a2c; --parch: #f6efdf; --line: #d8c9a3; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: var(--ink); background: #fff; }
+  .page { width: 8.5in; height: 11in; padding: 0.45in 0.5in; position: relative; overflow: hidden; page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+  header { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 3px double var(--gold); padding-bottom: 6px; margin-bottom: 10px; }
+  h1 { font-size: 30pt; margin: 0; letter-spacing: .02em; color: var(--green); }
+  header .sub { font-size: 10pt; color: var(--muted); text-align: right; line-height: 1.35; }
+  h2 { font-size: 13pt; margin: 0 0 5px; color: var(--green); border-bottom: 1px solid var(--line); padding-bottom: 2px; text-transform: uppercase; letter-spacing: .06em; }
+  p, li, td { font-size: 9.6pt; line-height: 1.36; }
+  p { margin: 0 0 6px; }
+  ol, ul { margin: 0 0 6px; padding-left: 18px; }
+  li { margin-bottom: 2px; }
+  .goal { background: var(--green); color: #fff; border-radius: 8px; padding: 9px 14px; font-size: 11.5pt; line-height: 1.4; margin-bottom: 12px; }
+  .goal b { color: #f3d27a; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 20px; }
+  .box { background: var(--parch); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+  .full { grid-column: 1 / -1; }
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 3px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td:first-child { font-weight: bold; width: 30%; padding-right: 10px; }
+  .p2 p, .p2 li, .p2 td { font-size: 8.7pt; line-height: 1.26; }
+  .p2 h2 { font-size: 12pt; }
+  .p2 header { margin-bottom: 6px; }
+  .p2 h1 { font-size: 26pt; }
+  .p2 .box { padding: 7px 11px; }
+  .p2 .cols { gap: 10px 18px; }
+  .step { display: grid; grid-template-columns: 26px 1fr; gap: 6px; margin-bottom: 5px; }
+  .num { width: 22px; height: 22px; border-radius: 50%; background: var(--gold); color: #fff; font-weight: bold; font-size: 10pt; display: grid; place-items: center; }
+  .tip { font-size: 9pt; color: var(--muted); font-style: italic; }
+  footer { position: absolute; bottom: 0.3in; left: 0.5in; right: 0.5in; font-size: 8pt; color: var(--muted); display: flex; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 4px; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <header>
+    <h1>Sovereign's Hand</h1>
+    <div class="sub">How to Play · 2 players · about 20 minutes<br>Crownfall · Set 1: The Shattered Crown</div>
+  </header>
+
+  <div class="goal"><b>Break all five of your rival's Crown Shards.</b> Deploy champions, Ascend them from ★ to ★★★, and attack your rival's Crown. But a champion that attacks turns sideways and can't guard <i>your</i> Crown on your rival's turn — every attack leaves you open.</div>
+
+  <div class="cols">
+    <div class="box">
+      <h2>What you need</h2>
+      <ul>
+        <li>One starter deck each: <b>30 cards</b> + <b>8 Ascension cards</b> (★★ and ★★★ forms).</li>
+        <li>A Command tracker each and Shield tokens (on the counters sheet). A coin for the first-player toss.</li>
+        <li>Reference cards A and B for quick look-ups.</li>
+      </ul>
+      <h2>Your play area</h2>
+      <table>
+        <tr><td>Deck</td><td>Your face-down 30 cards.</td></tr>
+        <tr><td>Crown</td><td>5 face-down shards from your own deck.</td></tr>
+        <tr><td>Ascension Pile</td><td>Your 8 ★★/★★★ cards. You never draw from it.</td></tr>
+        <tr><td>Champion Zones</td><td>4 spaces for champions in play.</td></tr>
+        <tr><td>Scheme Zones</td><td>3 spaces for face-down Schemes.</td></tr>
+        <tr><td>Fallen pile</td><td>Defeated champions and used Tactics/Schemes, face-up.</td></tr>
+      </table>
+    </div>
+
+    <div class="box">
+      <h2>Setup</h2>
+      <div class="step"><div class="num">1</div><div><p>Shuffle your deck. Put the top <b>5 cards face-down</b> as your Crown — don't look.</p></div></div>
+      <div class="step"><div class="num">2</div><div><p>Flip a coin. The winner goes first.</p></div></div>
+      <div class="step"><div class="num">3</div><div><p>First player draws <b>5</b>. Second player draws <b>6</b>.</p></div></div>
+      <div class="step"><div class="num">4</div><div><p>Once each, you may shuffle your hand back and redraw the same number.</p></div></div>
+      <div class="step"><div class="num">5</div><div><p>First player skips their first draw. Second player gets <b>+1 Command</b> on their first turn.</p></div></div>
+      <h2 style="margin-top:8px">Command</h2>
+      <p>Command is what you spend to play cards. It goes up by 1 each turn (max 8) and refills. <b>Unspent Command stays</b> — save some to spring Schemes and cast Swift Tactics on your rival's turn.</p>
+    </div>
+
+    <div class="box full">
+      <h2>Your turn</h2>
+      <div class="cols" style="gap:4px 20px">
+        <div>
+          <div class="step"><div class="num">1</div><div><p><b>Rise.</b> Stand all your sideways cards back up (<b>ready</b>). Raise Command by 1 (max 8) and refill it. <span class="tip">From round 10: break one of your own shards first — "The Crown grows impatient."</span></p></div></div>
+          <div class="step"><div class="num">2</div><div><p><b>Draw</b> 1 card. Empty deck? Break one of your own shards instead.</p></div></div>
+          <div class="step"><div class="num">3</div><div><p><b>Main.</b> In any order, as long as you can pay:</p>
+            <ul>
+              <li><b>Deploy</b> a ★ champion into an empty Champion Zone. It can block right away, but can't attack this turn unless it has <b>Charge</b>.</li>
+              <li><b>Cast a Tactic</b>, do what it says, then put it in your Fallen pile.</li>
+              <li><b>Set a Scheme</b> face-down for free (it can't be sprung the turn you set it).</li>
+              <li><b>Ascend</b> one champion (once per turn).</li>
+            </ul></div></div>
+        </div>
+        <div>
+          <div class="step"><div class="num">4</div><div><p><b>Battle.</b> Attack with your champions one at a time (see Combat).</p></div></div>
+          <div class="step"><div class="num">5</div><div><p><b>After battle.</b> If you haven't Ascended this turn, you may Ascend now.</p></div></div>
+          <div class="step"><div class="num">6</div><div><p><b>End.</b> All "this turn" changes end. Discard down to 8 cards. Leftover Command stays on your tracker.</p></div></div>
+          <h2 style="margin-top:6px">Card types</h2>
+          <table>
+            <tr><td>Champion ★</td><td>Deploy it to fight. Pay the green cost.</td></tr>
+            <tr><td>Tactic ✦</td><td>Cast on your turn.</td></tr>
+            <tr><td>Swift Tactic ⚡</td><td>Cast on your turn, or during a fight on either turn.</td></tr>
+            <tr><td>Scheme ◈</td><td>Set face-down free; <b>spring</b> it on your rival's turn by paying its cost when its condition happens.</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer><span>Northern Summit Studios · Sovereign's Hand prototype · not for sale</span><span>Page 1 of 2</span></footer>
+</section>
+
+<section class="page p2">
+  <header>
+    <h1>Sovereign's Hand</h1>
+    <div class="sub">How to Play · continued</div>
+  </header>
+
+  <div class="cols">
+    <div class="box">
+      <h2>Ascending ★ → ★★ → ★★★</h2>
+      <p>Once per turn, in your Main step or after battle:</p>
+      <ol>
+        <li>Pick a champion that was <b>already on the field when your turn began</b>, whose next form is in your Ascension Pile.</li>
+        <li>Pay the <b>Ascend cost</b> (the gold ↑ gem).</li>
+        <li>Place the new form <b>on top</b>. Any Shield stays.</li>
+        <li><b>Turn it sideways.</b> It can't attack or block until your next turn. (A champion that already attacked is sideways anyway, so it can still Ascend.)</li>
+        <li>Resolve its <b>Ascend:</b> text, if any.</li>
+      </ol>
+      <p class="tip">The choice: Ascend before battle to use the effect now, after battle with a champion that already attacked, or not at all so it can guard your Crown.</p>
+    </div>
+
+    <div class="box">
+      <h2>Combat</h2>
+      <div class="step"><div class="num">1</div><div><p><b>Attack.</b> Pick a ready champion. Target your rival's <b>Crown</b> or <b>any rival champion</b>. Turn your attacker sideways; resolve its <b>Attack:</b> text.</p></div></div>
+      <div class="step"><div class="num">2</div><div><p><b>Block</b> (only when the Crown is attacked). Your rival may block with one ready champion, turning it sideways. Resolve its <b>Block:</b> text.</p></div></div>
+      <div class="step"><div class="num">3</div><div><p><b>Respond.</b> Defender may spring 1 Scheme or cast 1 Swift Tactic. Then the attacker may cast 1 Swift Tactic.</p></div></div>
+      <div class="step"><div class="num">4</div><div><p><b>Clash</b> — both at the same time:<br>Attacker's <b>Might ≥</b> defender's <b>Guard</b> → defender is defeated.<br>Defender's <b>Might ≥</b> attacker's <b>Guard</b> → attacker is defeated.<br>0 Might defeats nothing.</p></div></div>
+      <div class="step"><div class="num">5</div><div><p><b>Break shards.</b> Unblocked Crown attack: break <b>1</b> (or <b>2</b> for a ★★★ — the ♛2 symbol). <b>Breakthrough:</b> if the attacker beats its blocker <i>and</i> survives, it still breaks 1.</p></div></div>
+      <p class="tip">Defeated champions go to the Fallen pile with their whole stack. Damage never stays — every clash is fresh.</p>
+    </div>
+
+    <div class="box">
+      <h2>Breaking a shard</h2>
+      <p>Take the top shard into your <b>hand</b> — it was always one of your own cards. If it has <b>Shardfall</b>, you may cast or set it right away for free, even on your rival's turn.</p>
+      <p><b>You lose the moment your last shard breaks.</b></p>
+    </div>
+
+    <div class="box">
+      <h2>Quick answers</h2>
+      <ul>
+        <li><b>Attack a champion instead of the Crown?</b> Yes — standing or sideways. No shards break, but it clears blockers.</li>
+        <li><b>Can a new champion block?</b> Yes, the turn it arrives.</li>
+        <li><b>Who responds first?</b> The defender, then the attacker. One response each per attack.</li>
+        <li><b>Ability names?</b> The bold name (e.g. <i>Refuse Death.</i>) is just a title. The text after it is what it does.</li>
+      </ul>
+    </div>
+
+    <div class="box full">
+      <h2>Keywords &amp; effects</h2>
+      <div class="cols" style="gap:0 20px">
+        <table>
+          <tr><td>Charge</td><td>Can attack the turn it arrives.</td></tr>
+          <tr><td>Bulwark</td><td>Blocking doesn't turn it sideways.</td></tr>
+          <tr><td>Ambush</td><td>Attacking a sideways champion, it strikes first; if the defender is defeated, it doesn't strike back.</td></tr>
+          <tr><td>Flight</td><td>Only Flight or Reach can block it.</td></tr>
+          <tr><td>Reach</td><td>Can block Flight.</td></tr>
+          <tr><td>Ascendant</td><td>A Tier V legend. One per deck.</td></tr>
+          <tr><td>Swift</td><td>Can also be cast in a fight, on either turn.</td></tr>
+          <tr><td>Shardfall</td><td>If it breaks from your Crown, cast or set it free.</td></tr>
+        </table>
+        <table>
+          <tr><td>Scorch X</td><td>The champion gets −X Guard this turn.</td></tr>
+          <tr><td>Shield</td><td>Next time it would be defeated, remove the Shield instead. Max 1.</td></tr>
+          <tr><td>Mend 1</td><td>Put a card from your hand face-down into your Crown as a new shard (max 5).</td></tr>
+          <tr><td>Ready</td><td>Stand a sideways champion back up.</td></tr>
+          <tr><td>Spring</td><td>Use a set Scheme by paying its cost when its condition happens.</td></tr>
+          <tr><td>Arrival:</td><td>Happens when it's deployed.</td></tr>
+          <tr><td>Ascend:</td><td>Happens when it Ascends into this form.</td></tr>
+          <tr><td>Attack: / Block:</td><td>Happens when it attacks / blocks.</td></tr>
+          <tr><td>Round</td><td>Both players have taken one turn.</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <footer><span>Full rules: Rulebook.pdf · Rules version 0.2</span><span>Page 2 of 2</span></footer>
+</section>
+
+</body>
+</html>
