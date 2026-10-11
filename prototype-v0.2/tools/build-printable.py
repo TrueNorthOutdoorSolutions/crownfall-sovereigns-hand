@@ -164,7 +164,20 @@ def main():
                     save_pdf([page(alts[i:i + 9], label=f"Set {set_no} Alternate Art · print at 100% (Actual size)") for i in range(0, len(alts), 9)],
                              os.path.join(out, f"Set {set_no} Alternate Art.pdf"))
                     print(f"Alternate Art: {len(alts)} cards ({alt_names[0][:3]}–{alt_names[-1][:3]})")
-            run = [cards[n] for n in order] + extras + alts
+            # Masterworks (MW01-MW10, X/100) and Omega Masterworks (OM01-OM10, X/10): singles in their own folders.
+            specials = []
+            for folder, prefix, title in (("Masterworks", "MW", "Masterworks"), ("Omega Masterworks", "OM", "Omega Masterworks")):
+                sp_dir = os.path.join(set_dir, folder)
+                if not os.path.isdir(sp_dir):
+                    continue
+                sp_names = sorted(n for n in os.listdir(sp_dir) if re.fullmatch(prefix + r"\d{2}\.png", n))
+                sp = [Image.open(os.path.join(sp_dir, n)).convert("RGB").resize((CARD_W, CARD_H), Image.LANCZOS) for n in sp_names]
+                if sp:
+                    save_pdf([page(sp[i:i + 9], label=f"Set {set_no} {title} · print at 100% (Actual size)") for i in range(0, len(sp), 9)],
+                             os.path.join(out, f"Set {set_no} {title}.pdf"))
+                    print(f"{title}: {len(sp)} cards")
+                    specials += sp
+            run = [cards[n] for n in order] + extras + alts + specials
             master = [page(run[i:i + 9], label=f"Sovereign's Hand Set {set_no} · master sheet {i // 9 + 1} · print at 100% (Actual size)")
                       for i in range(0, len(run), 9)]
             save_pdf(master, os.path.join(out, f"Set {set_no} Card Fronts.pdf"))
