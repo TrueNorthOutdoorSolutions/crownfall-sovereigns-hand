@@ -58,6 +58,18 @@ Master art lives on Jerian's PC at `Desktop\Crownfall Art\10 Sovereign's Hand\`.
 | Wyrmblood | orange trident |
 | Ascendant | gold crown (distinct from the blue Kingdom crown) |
 | Crownless | grey crossed-out crown |
+| Sharpshooter | white eye with a single sight line (Set 2 class, approved 2026-10-11) |
+| Hunter | red three-slash claw mark |
+| Artificer | bronze anvil |
+| Sentinel | grey stone watchtower |
+| Delver | amber lantern |
+| Gladiator | bronze crested gladiator helmet |
+| Seer | indigo crystal orb |
+| Binder | teal chain link |
+| Channeler | violet spiral |
+| Restorer | rose-pink lotus |
+| Sapper | black powder keg with a lit fuse |
+| Rogue | crimson domino mask |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 

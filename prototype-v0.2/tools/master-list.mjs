@@ -100,7 +100,7 @@ function build(set) {
       const [flavour, flavourSource] = flavourFor(cc, f.star, set);
       rows.push({
         no: nextNo(), id, section: 'Champions', name: l.name, title: l.title + (l.epithetProposed ? ' (PROPOSED epithet)' : ''), form: stars(f.star),
-        type: f.star === 1 ? 'Champion' : 'Ascension', status: status(id), tier: `Tier ${ROMAN[l.tier]} · ${cc.tierName}`,
+        type: f.star === 1 ? 'Champion' : 'Ascension', status: status(id), tier: `Tier ${ROMAN[l.tier]} · ${l.rarity ? cap(l.rarity) : cc.tierName}`,
         origins: l.origins.map(cap).join(' · '), classes: l.classes.map(cap).join(' · '),
         cost: f.star === 1 ? String(f.cost) : `↑${f.cost}`, might: String(f.might), guard: String(f.guard),
         keywords: f.keywords.join(', '), ability: f.text ? f.ability ?? '' : '', text: f.text, crown: f.star === 3 ? 'Breaks 2 shards' : '',

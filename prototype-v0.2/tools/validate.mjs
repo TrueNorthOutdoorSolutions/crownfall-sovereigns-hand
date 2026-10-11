@@ -28,7 +28,15 @@ for (const l of champLines) {
   if (l.set === 2) check(l.epithetProposed === true && l.title !== c.title && !!l.scene, `canon: ${tag} carries a new epithet marked PROPOSED and an art setting`);
   else check(c.title === l.title, `canon: ${tag} title matches ("${c.title}")`);
   check(c.tier === l.tier, `canon: ${tag} tier ${l.tier} matches`);
-  check(same(c.origins, l.origins) && same(c.classes, l.classes), `canon: ${tag} Origins/Classes match`);
+  if (l.set === 2) {
+    // Season 1 mid-season remix (owner-approved 2026-10-11): Origin stays, the class is one of the 12 Season 1.5 classes
+    // (Ascendant stays on Tier V as the one-per-deck rule). See prototype-v0.2/SET2_SEASON_REMIX.md.
+    const S15 = ['sharpshooter', 'hunter', 'artificer', 'sentinel', 'delver', 'gladiator', 'seer', 'binder', 'channeler', 'restorer', 'sapper', 'rogue'];
+    check(same(c.origins, l.origins), `canon: ${tag} Origins match`);
+    const own = l.classes.filter((k) => k !== 'ascendant');
+    check(own.every((k) => S15.includes(k)) && (l.tier === 5 ? l.classes.includes('ascendant') : own.length === 1) && !own.some((k) => c.classes.includes(k)),
+      `remix: ${tag} has a new Season 1.5 class (${l.classes.join(', ')})`);
+  } else check(same(c.origins, l.origins) && same(c.classes, l.classes), `canon: ${tag} Origins/Classes match`);
   for (const f of l.forms) if (f.ability) check(f.ability === c.ability, `canon: ${tag} ★${f.star} ability name "${f.ability}" is canonical`);
   check(l.forms.every((f) => f.keywords.includes('Ascendant') === (l.tier === 5)), `rules: only Tier V ${tag} carries Ascendant`);
   check(l.forms.length === 3 && l.forms.map((f) => f.star).join() === '1,2,3', `set: ${tag} has ★, ★★ and ★★★ forms`);
@@ -125,6 +133,8 @@ const PHRASE = {
   gateBlock: /blocks/, cancelAttack: /attack ends/, command: /Command/, summon: /Summon/, buffRivals: /Each rival champion gets|every rival champion gets/i, unequip: /Relic/,
   buffTrait: /Might/, selfShard: /Break (one|two) of your own shards|break one of your own shards/, ascendNow: /Ascend/, extraZone: /Champion Zone/, coinFlip: /Flip a coin/,
   tuck: /bottom of your deck/, equipFree: /Attach a Relic costing \d or less/,
+  breakRelic: /Break a rival champion.s Relic/, breakScheme: /Break one of your rival.s face-down Schemes/, stealRelic: /Take a Relic from a rival champion/,
+  rivalDiscard: /discards a card at random/,
 };
 for (const c of Object.values(CARDS)) {
   const t = c.text ?? '';
@@ -143,7 +153,14 @@ for (const c of Object.values(CARDS)) {
     check(/is defeated/.test(t) === !!c.defeated?.length, `truth: ${c.id} "is defeated" text ⇔ effect`);
     check(/defeats a champion on your turn/i.test(t) === !!c.defeats?.length, `truth: ${c.id} defeat trigger text ⇔ effect`);
     const st = c.statics ?? {};
-    check(/have \+\d/.test(t) === !!(st.auraMight || st.auraGuard || st.originAura), `truth: ${c.id} aura text ⇔ aura effect`);
+    check(/(champions|Monsters) have \+\d/.test(t) === !!(st.auraMight || st.auraGuard || st.originAura), `truth: ${c.id} aura text ⇔ aura effect`);
+    check(/tokens have \+\d/.test(t) === !!st.tokenAura, `truth: ${c.id} token aura text ⇔ effect`);
+    check(/while fighting a Monster/.test(t) === !!st.huntMight, `truth: ${c.id} Hunter text ⇔ effect`);
+    check(/while attacking a champion/.test(t) === !!st.duelMight, `truth: ${c.id} Gladiator text ⇔ effect`);
+    check(/attacking your Crown get −\d Might/.test(t) === !!st.crownWard, `truth: ${c.id} Sentinel text ⇔ effect`);
+    check(/Schemes cost \d less/.test(t) === !!st.schemeDiscount, `truth: ${c.id} Seer text ⇔ effect`);
+    check(/Relics cost \d less/.test(t) === !!st.relicDiscount, `truth: ${c.id} Artificer text ⇔ effect`);
+    check(/Whenever you cast a Tactic/.test(t) === !!c.cast?.length, `truth: ${c.id} Channeler text ⇔ effect`);
     check(/fewer shards than your rival\./.test(t.replace(/, or \+\d if you have fewer shards than your rival/, '')) === !!st.mightIfBehind || /Might while you have fewer shards/.test(t) === !!st.mightIfBehind, `truth: ${c.id} "fewer shards" text ⇔ effect`);
     check(/while blocking/.test(t) === !!st.mightWhileBlocking, `truth: ${c.id} "while blocking" text ⇔ effect`);
     check(/holds a Relic/.test(t) === !!(st.mightIfRelic || st.guardIfRelic), `truth: ${c.id} "holds a Relic" text ⇔ effect`);
@@ -168,7 +185,7 @@ const pairs = ids.flatMap((a, i) => ids.slice(i).map((b) => [a, b]));
 const run = () => pairs.flatMap(([a, b], j) => Array.from({ length: 12 }, (_, k) => playOut(newGame({ seed: 777 + j * 100 + k, first: k % 2, decks: k % 2 ? [b, a] : [a, b] }))));
 const A = run(), B = run();
 check(JSON.stringify(A) === JSON.stringify(B), `engine: ${A.length} seeded AI games across all deck pairings replay identically`);
-check(A.every((s) => s.players.every((p) => cardsInZones(p) === 30 + DECKS[p.deckId].ascension.length)), 'engine: every card is conserved in every game');
+check(A.every((s) => s.players.every((p, i) => cardsInZones(p, i, s.players) === 30 + DECKS[p.deckId].ascension.length)), 'engine: every card is conserved in every game');
 check(A.every((s) => s.phase === 'over' && s.winner !== null), 'engine: every game finishes with a winner');
 
 console.log(`${passes.length} checks passed, ${fails.length} failed`);

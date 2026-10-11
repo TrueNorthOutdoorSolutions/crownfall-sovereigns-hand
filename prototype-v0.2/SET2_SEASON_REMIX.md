@@ -1,6 +1,6 @@
-# Set 2 "Beneath the Arena": the Season 1 mid-season remix (PROPOSED)
+# Set 2 "Beneath the Arena": the Season 1 mid-season remix
 
-Owner direction 2026-10-11. Everything in this file is **PROPOSED** until Jerian approves it. Nothing here changes Crownfall itself; it is a design document both games can follow.
+Owner direction 2026-10-11. **APPROVED by Jerian 2026-10-11**: the 12 classes, icons, every champion's class, the titles, cross-set Ascension by name, 2 champions per name per deck, and 12 Set 2 Masterworks (the 4 held-back legends + 8 not done in Set 1). Card rules remain draft until playtested. Nothing here changes Crownfall itself; it is a design document both games can follow.
 
 ## The season model
 
@@ -116,8 +116,8 @@ Target pack mix stays close to Set 1 so the shop odds still read sensibly: about
 
 ## Still to decide
 
-- Copy limit with cross-set Ascension: 2 copies of each *version* (you could run 2 Set 1 + 2 Set 2 Bramble ★) or 2 per *name*. Recommended: **2 per version**, now that Ascension mixes freely.
-- Set 2 Masterworks: 12 (the four held-back legends plus eight). Omegas 10 or 12.
-- Approve the 12 classes, icons, the class for each champion, and the 55 titles.
+- DECIDED: at most **2 champions of the same name** per deck across all sets; Ascension Pile at most 2 of each name and star.
+- DECIDED: **12 Set 2 Masterworks** (ATLAS-Ω, The Unwritten King, Veyra Sol, Mother Verdant + 8 champions not featured as Set 1 Masterworks). Omegas: 10 or 12 still open.
+- Balance (600 games per pairing, 2026-10-11): Banner 46.9, Ember 56.0, Vault 47.9, Brood 49.2 (Set 1 51.5 vs Set 2 48.6). Ember is strongest against Set 2 (~58%); left as is because it is a printed Set 1 deck.
 
 After approval: design all 165 Set 2 champion cards to the budget, update the engine for cross-set Ascension, renumber Set 2 to /266, regenerate the art prompts, and run the Set 1 vs Set 2 balance simulations before any art is generated.

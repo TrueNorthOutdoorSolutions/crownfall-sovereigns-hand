@@ -6,6 +6,7 @@
 - Card names, numbers, stats, rules text and flavour come ONLY from `src/v02/content/cards.ts` and the generated lists `prototype-v0.2/MASTER_CARD_LIST_SET1.md` / `prototype-v0.2/MASTER_CARD_LIST_SET2.md`. Never invent, reword or fix card text. Do not edit `cards.ts`, the rules engine, or the tests.
 - Never print or commit tokens, keys or passwords.
 - Every card has its OWN text and stats exactly as listed. Never copy text or stats between cards, including forms of the same champion.
+- Set 2 is the Season 1 mid-season remix (owner-approved 2026-10-11, `prototype-v0.2/SET2_SEASON_REMIX.md`): all 55 champions, numbered /266, new Season 1.5 classes, and a footer rarity letter chosen by role (it is given in each prompt), not by tier.
 - Do not generate card images unless explicitly requested. The user generates images in ChatGPT and sends them back for checking.
 
 ## Card art
@@ -62,6 +63,18 @@ The full layout, icon list, reminder wording, numbering and known mistakes below
 | Wyrmblood | orange trident |
 | Ascendant | gold crown (distinct from the blue Kingdom crown) |
 | Crownless | grey crossed-out crown |
+| Sharpshooter | white eye with a single sight line (Set 2) |
+| Hunter | red three-slash claw mark (Set 2) |
+| Artificer | bronze anvil (Set 2) |
+| Sentinel | grey stone watchtower (Set 2) |
+| Delver | amber lantern (Set 2) |
+| Gladiator | bronze crested gladiator helmet (Set 2) |
+| Seer | indigo crystal orb (Set 2) |
+| Binder | teal chain link (Set 2) |
+| Channeler | violet spiral (Set 2) |
+| Restorer | rose-pink lotus (Set 2) |
+| Sapper | black powder keg with a lit fuse (Set 2) |
+| Rogue | crimson domino mask (Set 2) |
 
 For any trait not listed, use its small icon from `trait-icons-crownfall.jpg`, then add it here once Jerian approves it.
 
