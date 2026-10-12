@@ -122,6 +122,7 @@ export function OddsModal({ onClose }: { onClose: () => void }) {
             {RARITIES.map((r) => row(`Any ${RARITY_NAMES[r]}`, (o) => o.anyOf[r]))}
             {RARITIES.map((r) => row(`Foil ${RARITY_NAMES[r]}`, (o) => o.foilOf[r]))}
             {row(`Foil is ${FINISH_NAMES.holo}`, (o) => o.finish.holo)}
+            {row(`Foil is ${FINISH_NAMES.gilded}`, (o) => o.finish.gilded)}
             {row(`Foil is ${FINISH_NAMES.prismatic}`, (o) => o.finish.prismatic)}
             {row(`Foil is ${FINISH_NAMES.rainbow}`, (o) => o.finish.rainbow)}
             {row('Alternate Art', (o) => o.alt, true)}

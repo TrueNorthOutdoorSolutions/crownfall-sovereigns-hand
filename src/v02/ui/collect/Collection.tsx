@@ -70,7 +70,7 @@ export function Collection({ onBack }: { onBack: () => void }) {
               <h3>{CARDS[open.cardId].name}</h3>
               <div className="note">{open.no}{open.kind === 'base' ? '/248' : ''} · {RARITY_NAMES[open.rarity]}{open.kind === 'alt' ? ' · Alternate Art' : open.kind === 'masterwork' ? ' · Masterwork' : open.kind === 'omega' ? ' · Omega Masterwork' : ''}</div>
               <div className="finishes">
-                {FINISHES.filter((f) => (open.kind === 'masterwork' || open.kind === 'omega' ? f === 'gilded' : f !== 'gilded')).map((f) => (
+                {FINISHES.filter((f) => (open.kind === 'masterwork' || open.kind === 'omega' ? f === 'gilded' : true)).map((f) => (
                   <span key={f} className="chip" style={{ cursor: 'default' }}>{FINISH_NAMES[f]} ×{owned(open, f)}</span>
                 ))}
               </div>

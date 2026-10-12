@@ -15,7 +15,7 @@ describe('Packs', () => {
       expect(commons.every((c) => P[c.printing].rarity === 'common' && P[c.printing].kind === 'base')).toBe(true);
       expect(uncommons.every((c) => P[c.printing].rarity === 'uncommon' && P[c.printing].kind === 'base')).toBe(true);
       expect(new Set([...commons, ...uncommons].map((c) => c.printing)).size).toBe(8);
-      expect(pk.find((c) => c.slot === 'foil')!.finish).toMatch(/holo|prismatic|rainbow/);
+      expect(pk.find((c) => c.slot === 'foil')!.finish).toMatch(/holo|gilded|prismatic|rainbow/);
       const hero = pk.find((c) => c.slot === 'hero')!;
       const hp = P[hero.printing];
       expect(hp.kind === 'base' ? ['elite', 'epic', 'mythic'].includes(hp.rarity) : true).toBe(true);

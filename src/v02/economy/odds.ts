@@ -21,7 +21,8 @@ export const HERO_WEIGHTS: Record<'elite' | 'epic' | 'mythic', number> = { elite
 /** Foil slot (slot 10) rarity. Epic and Mythic weights are multiplied by the bundle boost. */
 export const FOIL_WEIGHTS: Record<Rarity, number> = { common: 50, uncommon: 28, elite: 13, epic: 7, mythic: 2 };
 /** Finish of a foil. Prismatic and Rainbow weights are multiplied by the bundle boost. */
-export const FINISH_WEIGHTS: Record<'holo' | 'prismatic' | 'rainbow', number> = { holo: 80, prismatic: 17, rainbow: 3 };
+/** Owner 2026-10-11: Gilded joins pack foils between Holo and Prismatic; Sovereign Rainbow stays as rare as before. */
+export const FINISH_WEIGHTS: Record<'holo' | 'gilded' | 'prismatic' | 'rainbow', number> = { holo: 65, gilded: 18, prismatic: 14, rainbow: 3 };
 
 /** Chance per pack that a special printing replaces the Hero slot (before the bundle boost). */
 export const SPECIAL_CHANCE = {
@@ -60,7 +61,7 @@ const norm = <K extends string>(w: Record<K, number>): Record<K, number> => {
 export const boosted = (boost: number) => ({
   hero: norm({ elite: HERO_WEIGHTS.elite, epic: HERO_WEIGHTS.epic * boost, mythic: HERO_WEIGHTS.mythic * boost }),
   foil: norm({ ...FOIL_WEIGHTS, epic: FOIL_WEIGHTS.epic * boost, mythic: FOIL_WEIGHTS.mythic * boost }),
-  finish: norm({ holo: FINISH_WEIGHTS.holo, prismatic: FINISH_WEIGHTS.prismatic * boost, rainbow: FINISH_WEIGHTS.rainbow * boost }),
+  finish: norm({ holo: FINISH_WEIGHTS.holo, gilded: FINISH_WEIGHTS.gilded * boost, prismatic: FINISH_WEIGHTS.prismatic * boost, rainbow: FINISH_WEIGHTS.rainbow * boost }),
   special: { alt: SPECIAL_CHANCE.alt * boost, masterwork: SPECIAL_CHANCE.masterwork * boost, omega: SPECIAL_CHANCE.omega * boost },
 });
 

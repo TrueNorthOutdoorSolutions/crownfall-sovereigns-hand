@@ -151,7 +151,7 @@ const BASE: AchievementDef[] = [
   a('holo', 'Holo Shine', 'Own {n} Holo foils.', 'collection', '✧', 'prof:finish.holo', T([1, 25, 100], R('common', 'uncommon', 'elite')), 'shards'),
   a('prismatic', 'Prismatic Light', 'Own {n} Prismatic foils.', 'collection', '✦', 'prof:finish.prismatic', T([1, 10, 50], R('uncommon', 'elite', 'epic')), 'exalted'),
   a('rainbow', 'Sovereign Rainbow', 'Own {n} Sovereign Rainbow foils.', 'collection', '❋', 'prof:finish.rainbow', T([1, 5, 25], R('elite', 'epic', 'mythic')), 'artifact_first_realm_crown'),
-  a('gilded', 'Gilded Glory', 'Own {n} Gilded cards.', 'collection', '♕', 'prof:finish.gilded', T([1, 5], R('epic', 'mythic')), 'hoard'),
+  a('gilded', 'Gilded Glory', 'Own {n} Gilded cards.', 'collection', '♕', 'prof:finish.gilded', T([1, 10, 50], R('uncommon', 'elite', 'epic')), 'hoard'),
   a('set2', 'Collector Beneath the Arena', 'Collect cards from Set 2 · Beneath the Arena.', 'collection', '❂', 'prof:set2', T([1], R('uncommon')), undefined, { future: 'Coming when Set 2 joins packs and the collection' }),
 
   // ── Packs & Shop ──
