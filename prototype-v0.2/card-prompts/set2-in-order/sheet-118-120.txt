@@ -1,4 +1,4 @@
-Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+Make these 2 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
 
 References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
 Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
@@ -8,25 +8,6 @@ Footer rarity letters: each card has its OWN letter, given in its Footer line (C
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
 CARD 1 (left)
-Card number: S2-118 (118)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Kira Volt
-Title: The Long Shot
-Stars: ★★
-Ascension band: ASCENSION • from Kira Volt ★
-Origin | Class | Tier: Voltborn | Sharpshooter | TIER I
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Railshot.**
-2. **Attack: Scorch 2** a rival champion.
-Flavour: “Hold still. Thank you.”
-Crown 2: none
-Might | Guard: 4 | 3
-Footer: 118/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Dual energised pistols; her coat carries a glowing arc coil. SCENE: low tilted (Dutch) angle: Kira slides along a wet stone walkway on one knee, both energised pistols firing across the frame at a target off the card, bright tracer lines crossing the dark and reflecting in the flood water; her coat’s arc coil glowing. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
 Card number: S2-119 (119)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Grimm
@@ -47,7 +28,7 @@ Might | Guard: 7 | 10
 Footer: 119/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate. SCENE: high angle looking down a grand stair into a vault: Grimm alone on the bottom step holding the line against a tide of shadowy invaders, spectral light pouring from his ribs and banner, the treasure door glowing amber behind him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
+CARD 2 (right)
 Card number: S2-120 (120)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Pip

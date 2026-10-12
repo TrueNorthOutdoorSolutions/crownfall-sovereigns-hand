@@ -36,12 +36,13 @@ BACK = os.path.join(ART, "00 Templates", "Card Back (LOCKED).png")
 
 
 def card_numbers(name):
-    """'Cards 001-003 Bramble.png' -> [1, 2, 3]; 'Cards 166-170-171 Spells.png' -> [166, 170, 171]."""
-    nums = [int(n) for n in re.findall(r"\d{3}", name.split(" ", 2)[1])]
-    if len(nums) == 2:
-        a, b = nums
-        return list(range(a, b + 1)) if b - a == 2 else nums
-    return nums
+    """'Cards 001-003 Bramble.png' -> [1, 2, 3]; 'Cards 166-170-171 Spells.png' -> [166, 170, 171];
+    'Cards xxx-xxx-251 Bramble.png' -> [None, None, 251]: "xxx" skips a card printed from another sheet."""
+    parts = re.findall(r"\d{3}|xxx", name.split(" ", 2)[1])
+    if len(parts) == 2 and "xxx" not in parts:
+        a, b = map(int, parts)
+        return list(range(a, b + 1)) if b - a == 2 else [a, b]
+    return [None if p == "xxx" else int(p) for p in parts]
 
 
 def split_sheet(path):
@@ -117,6 +118,8 @@ def main():
             continue
         nums = card_numbers(name)
         for n, img in zip(nums, split_sheet(os.path.join(sheets, name))):
+            if n is None:
+                continue
             if n in cards:
                 raise SystemExit(f"card {n:03d} appears in two sheets — remove the old sheet")
             cards[n] = img
@@ -124,7 +127,7 @@ def main():
     for n in order:
         cards[n].save(os.path.join(singles, f"{n:03d}.png"))
 
-    total = 248 if set_no == 1 else 236
+    total = 248 if set_no == 1 else 266
     pages = [page([cards[n] for n in order[i:i + 9]],
                   label=f"Sovereign's Hand Set {set_no} · cards {order[i]:03d}–{order[min(i + 8, len(order) - 1)]:03d} · print at 100% (Actual size)")
              for i in range(0, len(order), 9)]
