@@ -65,6 +65,8 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
   const ready = true;
   const [selected, setSelected] = useState<number | null>(null);
   const [inspect, setInspect] = useState<Inspect>(null);
+  /** Card opened for a closer look (owner 2026-10-11): tapping a card never plays it straight away. */
+  const [viewing, setViewing] = useState<{ id: string; handIndex?: number; live?: { might: number; guard: number } } | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const settings = useSettings();
   const [fast, setFast] = useState(() => getSettings().speed === 'fast');
@@ -152,6 +154,12 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
     if (pend?.kind === 'choose' && chooseKeys.has(`h:${i}`)) return act({ type: 'choose', key: `h:${i}` });
     if (pend) return setToast('Answer the decision in the panel first.');
     if (cycling) return act({ type: 'cycle', handIndex: i });
+    setInspect(null);
+    setViewing({ id: me.hand[i], handIndex: i });
+  };
+  /** Play the card open in the viewer, once the player has chosen to. */
+  const playViewed = (i: number) => {
+    setViewing(null);
     const pl = playability[i];
     if (!pl?.action) return setToast(pl?.reason ?? 'Not now.');
     if (pl.action === 'equip') {
@@ -176,7 +184,11 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
     if (pend) return;
     if (game.phase === 'battle' && selChamp && game.active === ME) {
       if (act({ type: 'attack', uid: selChamp.uid, target: c.uid })) setSelected(null);
+      return;
     }
+    // Otherwise tapping a rival champion just opens it to read.
+    setInspect(null);
+    setViewing({ id: c.stack[c.stack.length - 1], live: { might: might(game, c), guard: guard(game, c) } });
   };
   const attackCrown = () => {
     if (game.phase === 'battle' && selChamp && !pend && game.active === ME) { if (act({ type: 'attack', uid: selChamp.uid, target: 'crown' })) setSelected(null); }
@@ -282,7 +294,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
         <DecisionPanel game={game} pend={pend} act={act} setInspect={setInspect} />
         {!pend && myTurnFree && (
           <div className="actions">
-            {selChamp && selChamp.owner === ME && <SelectedPanel game={game} c={selChamp} act={act} onAttackCrown={attackCrown} onClear={() => setSelected(null)} />}
+            {selChamp && selChamp.owner === ME && <SelectedPanel game={game} c={selChamp} act={act} onAttackCrown={attackCrown} onClear={() => setSelected(null)} onView={() => setViewing({ id: selChamp.stack[selChamp.stack.length - 1], live: { might: might(game, selChamp), guard: guard(game, selChamp) } })} />}
             <div className="btnrow">
               {game.phase === 'main' && <button type="button" className="primary" onClick={() => act({ type: 'toBattle' })}>To battle ⚔</button>}
               {game.phase === 'main' && legalActions(game).some((a) => a.type === 'cycle') && <button type="button" className={`secondary ${cycling ? 'on' : ''}`} onClick={() => setCycling(!cycling)} title="Edict: once per turn, pay 1 Command to put a card from your hand on the bottom of your deck and draw a card.">{cycling ? 'Cancel cycle' : 'Cycle (1)'}</button>}
@@ -294,6 +306,27 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
         <LogPanel log={game.log} />
       </aside>
 
+      {viewing && (() => {
+        const i = viewing.handIndex;
+        const pl = i !== undefined ? playability[i] : null;
+        const c = CARDS[viewing.id];
+        const verb = !pl?.action ? null : pl.action === 'deploy' ? 'Deploy to the field' : pl.action === 'cast' ? `Cast ${c.name}` : pl.action === 'setScheme' ? 'Set face-down in a Scheme Zone' : pl.action === 'equip' ? 'Attach to a champion…' : 'Proclaim this Edict';
+        return (
+          <div className="overlay" onClick={() => setViewing(null)}>
+            <div className="card-view" role="dialog" aria-label={c.name} onClick={(e) => e.stopPropagation()}>
+              <CardFace id={viewing.id} size="lg" live={viewing.live} />
+              <div className="cv-side">
+                <KeywordHelp id={viewing.id} />
+                {pl && <p className={`cv-reason ${pl.action ? 'ok' : ''}`}>{pl.reason}</p>}
+                <div className="cv-btns">
+                  {verb && i !== undefined && <button type="button" className="primary" onClick={() => playViewed(i)}>{verb}</button>}
+                  <button type="button" className="secondary" onClick={() => setViewing(null)}>{verb ? 'Keep in hand' : 'Close'}</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })()}
       {inspect && <div className="inspector"><CardFace id={inspect.id} size="lg" live={inspect.live} /><KeywordHelp id={inspect.id} /></div>}
       {clash && (
         <div className="clash" key={clash.n}>
@@ -383,7 +416,7 @@ function Crown({ count, onClick, targetable, label }: { count: number; onClick?:
   );
 }
 
-function SelectedPanel({ game, c, act, onAttackCrown, onClear }: { game: GameState; c: ChampionInPlay; act: (a: Action) => boolean; onAttackCrown: () => void; onClear: () => void }) {
+function SelectedPanel({ game, c, act, onAttackCrown, onClear, onView }: { game: GameState; c: ChampionInPlay; act: (a: Action) => boolean; onAttackCrown: () => void; onClear: () => void; onView?: () => void }) {
   const them = game.players[AI];
   const next = nextAscension(game, c);
   const ascWhy = ascendBlockReason(game, c);
@@ -392,6 +425,7 @@ function SelectedPanel({ game, c, act, onAttackCrown, onClear }: { game: GameSta
   return (
     <div className="selpanel">
       <div className="sel-head"><b>{champLabel(c)}</b><span>⚔{might(game, c)} ⛨{guard(game, c)}</span><button type="button" className="x" onClick={onClear} aria-label="Deselect">×</button></div>
+      {onView && <button type="button" className="ghost sel-view" onClick={onView}>View card</button>}
       {game.phase === 'battle' && (attackWhy ? <p className="why">{attackWhy}</p> : (
         <div className="targets">
           <button type="button" className="tgt" onClick={onAttackCrown}>
