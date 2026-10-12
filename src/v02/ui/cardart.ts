@@ -17,3 +17,10 @@ export const cardImage = (cardId: string): string | undefined => {
   const p = BASE_BY_CARD[cardId];
   return p ? imgUrl(p) : undefined;
 };
+/** Just the artwork of a numbered card (no frame or text), for portraits in menus and the campaign.
+ *  Made by prototype-v0.2/tools/export-portraits.py; falls back to the whole card for tokens and specials. */
+export const portraitImage = (cardId: string): string | undefined => {
+  const p = BASE_BY_CARD[cardId];
+  if (!p) return undefined;
+  return /^\d{3}$/.test(p.no) ? `${import.meta.env.BASE_URL}v02/portraits/${p.no}.webp` : imgUrl(p);
+};

@@ -4,7 +4,7 @@ import type { Bout, Chapter, Difficulty, StoryLine } from '../../campaign/act1';
 import { objectiveText } from '../../campaign/setup';
 import { CARDS } from '../../content/cards';
 import { useProfile } from '../../economy/profile';
-import { cardImage } from '../cardart';
+import { portraitImage } from '../cardart';
 import { Wallet } from '../collect/Shop';
 
 export interface StartBout { bout: Bout; difficulty: Difficulty; playerDeck: string }
@@ -70,7 +70,7 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
                   return (
                     <button type="button" key={b.id} className={`camp-node ${won ? 'won' : ''} ${ok ? '' : 'locked'} ${b.crowning ? 'crowning' : ''}`} disabled={!ok} onClick={() => setOpen(b)}
                       aria-label={`${label(b)}: ${b.title}${won ? ', cleared' : ok ? '' : ', locked'}`}>
-                      <span className="cn-art" style={{ backgroundImage: `url(${cardImage(b.portrait)})` }} />
+                      <span className="cn-art" style={{ backgroundImage: `url(${portraitImage(b.portrait)})` }} />
                       <span className="cn-label">{label(b)}</span>
                       <b>{b.title}</b>
                       {won && <span className="cn-done">✓</span>}
@@ -98,7 +98,7 @@ export function Campaign({ onBack, onStart }: { onBack: () => void; onStart: (s:
       {open && (
         <div className="modal-back" onClick={() => setOpen(null)}>
           <div className="story-panel" onClick={(e) => e.stopPropagation()} role="dialog" aria-label={open.title}>
-            <div className="sp-art" style={{ backgroundImage: `url(${cardImage(open.portrait)})` }} />
+            <div className="sp-art portrait" style={{ ['--pic' as string]: `url(${portraitImage(open.portrait)})` }}><img src={portraitImage(open.portrait)} alt="" /></div>
             <div className="sp-text">
               <span className="camp-num">{label(open)}</span>
               <h3>{open.title}</h3>
