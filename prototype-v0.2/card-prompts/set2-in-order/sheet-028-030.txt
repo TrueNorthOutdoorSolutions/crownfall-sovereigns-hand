@@ -44,7 +44,7 @@ Flavour: “The starlings are hungry.”
 Crown 2: none
 Might | Guard: 1 | 3
 Footer: 029/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A star-child with a lantern staff. NEW pose and action, never the Set 1 pose or composition: guiding a line of lost explorers through a vast cavern, her starlings flying ahead lighting the path. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A star-child with a lantern staff. SCENE: wide low angle at the mouth of a pitch-black cavern: small Seren steps forward holding her lantern staff high, a few tiny light-birds spilling out of its lantern and flitting ahead into the dark, lighting the first stalactites like stars. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-030 (030)
@@ -63,5 +63,5 @@ Flavour: “Step closer…”
 Crown 2: none
 Might | Guard: 2 | 3
 Footer: 030/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A thorned plant warrior with a violet flower head. NEW pose and action, never the Set 1 pose or composition: his vines forcing their way through a cracked vault wall from inside, the stone crumbling around him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A thorned plant warrior with a violet flower head. SCENE: close low angle at the base of an old vault wall: Thorn presses one thorned hand to a crack, violet blight creeping out from his fingers through the mortar as the stone crumbles to green dust; one warm torch above, cold shadows below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

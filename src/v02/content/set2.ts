@@ -241,6 +241,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'low angle in a vast forge cavern: Borin lifts a freshly reforged Guardian relic from the quenching trough in a burst of steam, magma veins glowing along his arms, his live-forge hammer resting on his shoulder',
     'heroic wide shot of the great forge beneath the Arena: Borin as a walking furnace, beard of molten metal, bringing his hammer down on a colossal anvil as a shockwave of sparks and slag lights every chain and pillar; dwarf smiths shield their eyes far below',
   ],
+  seren: [
+    'wide low angle at the mouth of a pitch-black cavern: small Seren steps forward holding her lantern staff high, a few tiny light-birds spilling out of its lantern and flitting ahead into the dark, lighting the first stalactites like stars',
+    'over-the-shoulder view from behind Seren on a rock spire above a vast underground chasm: her night-sky cloak billowing as she lifts her lantern and a real star inside it flares, revealing a hidden city of ruins far below',
+    'heroic wide shot of an enormous cavern turned into a night sky: Seren floating at centre-left, constellations drawing themselves across the cave roof around her and a great flock of light-birds circling overhead, the whole underworld lit silver-blue; wondrous and vast',
+  ],
+  thorn: [
+    'close low angle at the base of an old vault wall: Thorn presses one thorned hand to a crack, violet blight creeping out from his fingers through the mortar as the stone crumbles to green dust; one warm torch above, cold shadows below',
+    'three-quarter view inside a collapsing treasure vault: Thorn strides through a wall that is rotting apart around him, poison dripping from his purple petals and thorny spine raised, guards backing away through the green haze',
+    'heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

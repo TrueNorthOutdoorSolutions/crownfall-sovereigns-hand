@@ -23,7 +23,7 @@ Flavour: “Step closer…”
 Crown 2: none
 Might | Guard: 2 | 3
 Footer: 030/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A thorned plant warrior with a violet flower head. NEW pose and action, never the Set 1 pose or composition: his vines forcing their way through a cracked vault wall from inside, the stone crumbling around him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A thorned plant warrior with a violet flower head. SCENE: close low angle at the base of an old vault wall: Thorn presses one thorned hand to a crack, violet blight creeping out from his fingers through the mortar as the stone crumbles to green dust; one warm torch above, cold shadows below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-136 (136)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -42,7 +42,7 @@ Flavour: “Your walls are already rotting.”
 Crown 2: none
 Might | Guard: 5 | 5
 Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Poison dripping from purple petals; a thorny spine along his back. NEW pose and action, never the Set 1 pose or composition: his vines forcing their way through a cracked vault wall from inside, the stone crumbling around him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Poison dripping from purple petals; a thorny spine along his back. SCENE: three-quarter view inside a collapsing treasure vault: Thorn strides through a wall that is rotting apart around him, poison dripping from his purple petals and thorny spine raised, guards backing away through the green haze. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-233 (233)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -62,7 +62,7 @@ Flavour: “I grow in the cracks you can’t see.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 8
 Footer: 233/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A carnivorous bloom colossus whose petals exhale toxic spores. NEW pose and action, never the Set 1 pose or composition: his vines forcing their way through a cracked vault wall from inside, the stone crumbling around him. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bloom colossus whose petals exhale toxic spores. SCENE: heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
