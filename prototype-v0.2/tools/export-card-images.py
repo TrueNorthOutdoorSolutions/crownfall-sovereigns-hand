@@ -77,6 +77,11 @@ def rarity_only(set_no):
     print(f"Set {set_no}: rarity updated on {changed} printings -> {os.path.relpath(ts, ROOT)}")
 
 
+_spec = importlib.util.spec_from_file_location("patch_rarity", os.path.join(os.path.dirname(__file__), "patch-rarity-letters.py"))
+patch_rarity = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(patch_rarity)
+
+
 def main():
     set_no = int(sys.argv[1]) if len(sys.argv) > 1 else 1
     DIGITAL.update(load_digital_rarity(set_no))
@@ -89,6 +94,7 @@ def main():
     out_dir = os.path.join(ROOT, "public", "v02", "cards", f"s{set_no}")
     os.makedirs(out_dir, exist_ok=True)
     printings = []
+    NEW_LETTERS = patch_rarity.letters_to_patch(set_no) if set_no == 1 else {}
 
     def export(src, name, card_id, no, kind, **extra):
         if not os.path.exists(src):
@@ -96,6 +102,8 @@ def main():
             return
         im = Image.open(src).convert("RGB")
         im = im.resize((WIDTH, round(im.height * WIDTH / im.width)), Image.LANCZOS)
+        if kind == "base" and no in NEW_LETTERS:  # rubric rarity differs from the printed footer letter
+            im = patch_rarity.patch_image(im, NEW_LETTERS[no])
         im.save(os.path.join(out_dir, name + ".webp"), "WEBP", quality=76, method=6)
         row = next(r for r in rows if r["Card ID"] == card_id)
         printings.append({"id": f"S{set_no}-{no}", "cardId": card_id, "set": set_no, "no": no, "kind": kind, "rarity": rarity(row),

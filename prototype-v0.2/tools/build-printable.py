@@ -124,6 +124,13 @@ def main():
                 raise SystemExit(f"card {n:03d} appears in two sheets — remove the old sheet")
             cards[n] = img
     order = sorted(cards)
+    if set_no == 1:  # Set 1 footers: repaint letters whose rubric rarity differs from the original print
+        import importlib.util
+        sp = importlib.util.spec_from_file_location("patch_rarity", os.path.join(os.path.dirname(__file__), "patch-rarity-letters.py"))
+        pr = importlib.util.module_from_spec(sp); sp.loader.exec_module(pr)
+        for num, letter in pr.letters_to_patch(1).items():
+            if int(num) in cards:
+                cards[int(num)] = pr.patch_image(cards[int(num)], letter)
     for n in order:
         cards[n].save(os.path.join(singles, f"{n:03d}.png"))
 
