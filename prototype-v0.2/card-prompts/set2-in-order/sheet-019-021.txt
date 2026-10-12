@@ -25,7 +25,7 @@ Flavour: “Shadows, beware.”
 Crown 2: none
 Might | Guard: 3 | 3
 Footer: 019/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A flame knight in rose-gold plate. NEW pose and action, never the Set 1 pose or composition: leading the way down a pitch-black tunnel, her burning sword held high like a torch as shadows flee. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A flame knight in rose-gold plate. SCENE: low side angle in a pitch-black underway: Solenne strides forward with her flaming blade held low like a lantern, its fire throwing her long shadow behind her and lighting wet stone walls, shadowy shapes recoiling from the edge of the light. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-020 (020)
@@ -45,7 +45,7 @@ Flavour: “Stay close to the light.”
 Crown 2: none
 Might | Guard: 6 | 5
 Footer: 020/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her plume becomes fire; her blade glows white-hot. NEW pose and action, never the Set 1 pose or composition: leading the way down a pitch-black tunnel, her burning sword held high like a torch as shadows flee. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her plume becomes fire; her blade glows white-hot. SCENE: three-quarter view from below on a narrow bridge over a dark chasm: Solenne lifts her white-hot blade overhead, her fiery plume streaming, and a wave of dawnfire rolls ahead of her down the tunnel, burning the shadows away. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-021 (021)
@@ -64,5 +64,5 @@ Flavour: “GRAHH!”
 Crown 2: none
 Might | Guard: 4 | 3
 Footer: 021/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous bear warrior with iron-shod claws. NEW pose and action, never the Set 1 pose or composition: wrestling a cave monster by its jaws, muscles straining, mid-struggle. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An enormous bear warrior with iron-shod claws. SCENE: ground-level view in a fungus-lit cavern: Grizz crouched on all fours behind a boulder, iron-shod claws digging into the rock, nose lifted to the scent of a monster lumbering past in the teal gloom beyond. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

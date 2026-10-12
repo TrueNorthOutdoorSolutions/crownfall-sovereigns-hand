@@ -211,6 +211,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'low side angle in a flooded relic vault: Kael wades waist-deep through dark water toward a broken plinth, sword drawn, his torch held high and reflecting in the ripples; a faint teal glow from the relic ahead',
     'heroic low-angle hero shot: Kael large in frame at the top of a mountain of treasure in a vast collapsed vault, lifting an ancient relic blade high as its light floods the cavern, his torch cast aside, broken pillars and gold spilling around him',
   ],
+  solenne: [
+    'low side angle in a pitch-black underway: Solenne strides forward with her flaming blade held low like a lantern, its fire throwing her long shadow behind her and lighting wet stone walls, shadowy shapes recoiling from the edge of the light',
+    'three-quarter view from below on a narrow bridge over a dark chasm: Solenne lifts her white-hot blade overhead, her fiery plume streaming, and a wave of dawnfire rolls ahead of her down the tunnel, burning the shadows away',
+    'heroic wide shot of a vast underground hall plunged in darkness: Solenne large in frame driving her blazing sword into the stone floor as a sunrise of fire spreads outward from it, lighting every arch and pillar at once; glorious and unstoppable',
+  ],
+  grizz: [
+    'ground-level view in a fungus-lit cavern: Grizz crouched on all fours behind a boulder, iron-shod claws digging into the rock, nose lifted to the scent of a monster lumbering past in the teal gloom beyond',
+    'close dynamic side view: Grizz locked in a wrestling hold with a cave monster twice his size, claws braced, shoulders heaving, dust and loose stones exploding around them under a single warm lantern',
+    'heroic low angle: Grizz rearing up to full height on top of a defeated cave beast, roaring at the cavern ceiling, iron claws raised, torchlight blazing behind him and scattered warriors cheering far below',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

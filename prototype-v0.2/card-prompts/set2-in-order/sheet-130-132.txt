@@ -25,7 +25,7 @@ Flavour: “Monsters wrestle. I win.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 10 | 8
 Footer: 130/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A primal bear-titan whose roar shakes the arena floor. NEW pose and action, never the Set 1 pose or composition: wrestling a cave monster by its jaws, muscles straining, mid-struggle. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A primal bear-titan whose roar shakes the arena floor. SCENE: heroic low angle: Grizz rearing up to full height on top of a defeated cave beast, roaring at the cavern ceiling, iron claws raised, torchlight blazing behind him and scattered warriors cheering far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-131 (131)
