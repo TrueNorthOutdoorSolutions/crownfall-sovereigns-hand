@@ -59,18 +59,12 @@ export function Shop({ onBack, onOpened }: { onBack: () => void; onOpened: (pack
     <div className="shopx">
       <div className="shopx-bg" style={{ backgroundImage: `url(${B}v02/shop/bg.webp)` }} />
       <button type="button" className="shopx-back" onClick={onBack}>← Menu</button>
-      <h2 className="shopx-title"><span className="sx-orn" aria-hidden="true">⟜◆</span><span className="sx-crown" aria-hidden="true">♛</span><span className="sx-word">Shop</span><span className="sx-orn" aria-hidden="true">◆⟞</span></h2>
+      <h2 className="shopx-title"><i className="sx-line l" aria-hidden="true" /><img className="sx-crownimg" src={`${B}v02/crown.webp`} alt="" /><span className="sx-word">Shop</span><i className="sx-line r" aria-hidden="true" /></h2>
       <div className="shopx-wallet"><Wallet /></div>
 
       <aside className="shopx-feature">
-        <div className="sf-art" style={{ backgroundImage: `url(${B}v02/art/crownless/star_3.webp)` }} />
-        <div className="sf-name">The Shattered Crown</div>
-        <div className="sf-foot">
-          <b>Set 1 • {PACK_SIZE} Cards</b>
-          <small>5 Commons • 3 Uncommons • 1 Hero Card (Elite or better) • 1 Guaranteed Foil!</small>
-          <small>{PACK_PRICE.valor} Valor or {PACK_PRICE.starstones} Starstones per pack.</small>
-          <button type="button" className="sf-odds" onClick={() => setOdds(true)}><i>i</i> See the Odds</button>
-        </div>
+        <img src={`${B}v02/shop/info.webp`} alt={`The Shattered Crown. Set 1, ${PACK_SIZE} cards: 5 Commons, 3 Uncommons, 1 Hero Card (Elite or better), 1 guaranteed foil. ${PACK_PRICE.valor} Valor or ${PACK_PRICE.starstones} Starstones per pack.`} />
+        <button type="button" className="sf-odds" onClick={() => setOdds(true)}><i>i</i> See the Odds</button>
       </aside>
 
       <section className="shopx-main">

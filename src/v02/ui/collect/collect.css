@@ -288,3 +288,15 @@
 .wallet .coin b { font-weight: 600 }
 .shopx-bg::after { background: radial-gradient(ellipse 60% 70% at 62% 55%, rgba(6,8,18,.35), rgba(4,5,12,.6)) }
 .wallet .coin { font-family: Georgia, 'Times New Roman', serif; font-size: 19px } .wallet .gem { width: 27px; height: 27px }
+/* shop title (owner reference): crown, big gold "Shop", long gold lines with diamond rings */
+.shopx-title { top: 2px; gap: 18px; font-size: 58px }
+.sx-crownimg { width: 74px; height: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,.8)) drop-shadow(0 0 10px rgba(255,200,90,.35)) }
+.sx-word { font-size: 58px; line-height: 1.1; background: linear-gradient(180deg, #fff3c8 0%, #f6d27a 40%, #d9a03a 70%, #f7dc93 100%); -webkit-background-clip: text; background-clip: text }
+.sx-line { position: relative; display: block; width: 210px; height: 2px; background: linear-gradient(90deg, transparent, #b8862e 30%, #f2cf7a) }
+.sx-line.r { transform: scaleX(-1) }
+.sx-line::before { content: ''; position: absolute; right: 2px; top: -6px; width: 10px; height: 10px; border: 2px solid #f2cf7a; transform: rotate(45deg); background: #0b0e1c }
+.sx-line::after { content: ''; position: absolute; right: 22px; top: -4px; width: 22px; height: 8px; border-radius: 50%; border: 2px solid #c9a24a; background: #0b0e1c }
+.sx-line::before { z-index: 1 }
+/* shop info banner: the owner's painted panel (text painted in) + See the Odds below */
+.shopx-feature { left: 66px; top: 80px; width: 330px; height: auto; border: 0; border-radius: 0; background: none; box-shadow: none; overflow: visible; display: flex; flex-direction: column; align-items: center; gap: 14px }
+.shopx-feature img { width: 330px; height: auto; display: block; filter: drop-shadow(0 0 22px rgba(255,190,80,.35)) }
