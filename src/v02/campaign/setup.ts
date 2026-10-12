@@ -42,7 +42,7 @@ export function judge(s: GameState, o: Objective): Verdict {
   const won = s.winner === 0;
   if (!won) return { done: true, won: false, reason: o.kind === 'survive' ? 'The line broke before the time was up.' : 'Your Crown fell.' };
   if (o.kind === 'keepShards' && s.players[0].crown.length < o.n)
-    return { done: true, won: false, reason: `You won, but with only ${s.players[0].crown.length} shards left. The Bout needs ${o.n}.` };
+    return { done: true, won: false, reason: `You won, but with only ${s.players[0].crown.length} ${s.players[0].crown.length === 1 ? 'shard' : 'shards'} left. The Bout needs ${o.n}.` };
   return { done: true, won: true, reason: 'Victory.' };
 }
 

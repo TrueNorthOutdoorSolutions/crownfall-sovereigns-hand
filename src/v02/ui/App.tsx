@@ -79,7 +79,7 @@ export function App() {
           <div className="intro-frame" aria-hidden="true" />
           <div className="home-plaque">Crownfall</div>
           <div className="menu-wallet"><Wallet /><button type="button" className="btn gold" onClick={() => setScreen('shop')}>🛒 Shop</button></div>
-          <h1 className="home-title"><span className="ht-glow" aria-hidden="true" /><img src={`${import.meta.env.BASE_URL}v02/home-title.webp`} alt="Sovereign's Hand" /><span className="home-tag"><i aria-hidden="true">◆</i> Command · Outplay · Ascend <i aria-hidden="true">◆</i></span></h1>
+          <h1 className="home-title"><span className="ht-glow" aria-hidden="true" /><img src={`${import.meta.env.BASE_URL}v02/home-title-v3.webp`} alt="Sovereign's Hand" /><span className="home-tag"><i aria-hidden="true">◆</i> Command · Outplay · Ascend <i aria-hidden="true">◆</i></span></h1>
           <div className="home-modes">
             <button type="button" className="home-panel" aria-label="Campaign — Continue" onClick={() => setScreen('campaign')}><img src={`${import.meta.env.BASE_URL}v02/home-campaign-panel.webp`} alt="" /></button>
             <button type="button" className="home-panel" aria-label="Play vs AI — Play Battle" onClick={() => setScreen('arena')}><img src={`${import.meta.env.BASE_URL}v02/home-ai-panel.webp`} alt="" /></button>
