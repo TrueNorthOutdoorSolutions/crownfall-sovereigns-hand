@@ -18,17 +18,19 @@ export type Keyword = 'Charge' | 'Bulwark' | 'Ambush' | 'Flight' | 'Reach' | 'As
 export type SetId = 1 | 2;
 
 /** Who an effect points at. `choose*` targets are picked by the controlling player when the effect resolves.
- *  Any effect may carry `when: 'behind' | 'ahead'` (only resolves if you have fewer / more shards than your rival). */
-export type Effect = EffectBody & { when?: 'behind' | 'ahead' };
+ *  Any effect may carry `when: 'behind' | 'ahead'` (only resolves if you have fewer / more shards than your rival)
+ *  or `when: 'vsChampion'` (only resolves while its champion is attacking a champion, not a Crown). */
+export type Effect = EffectBody & { when?: 'behind' | 'ahead' | 'vsChampion' };
 type EffectBody =
   | { op: 'scorch'; n: number; target: 'chooseRival' | 'attacker' | 'defender' }
-  | { op: 'scorchAll'; n: number }
+  /** `trait` limits it to rival champions with that trait (see hasTrait: 'prey' = Monsters, Guardians and ★★/★★★; 'flight'). */
+  | { op: 'scorchAll'; n: number; trait?: string }
   | { op: 'shield'; target: 'chooseOwn' | 'chooseOwnOther' | 'self'; optional?: boolean }
   | { op: 'shieldAll' }
   | { op: 'buffAll'; might: number; guard?: number; extraIfBehind?: number; maxField?: number }
   | { op: 'buffTrait'; trait: string; might: number; guard?: number }
   | { op: 'selfShard'; n: number }
-  | { op: 'ascendNow'; maxStar?: 1 | 2; stayReady?: boolean }
+  | { op: 'ascendNow'; maxStar?: 1 | 2; minStar?: 1 | 2; stayReady?: boolean }
   | { op: 'extraZone'; n: number }
   | { op: 'coinFlip'; heads: Effect[]; tails: Effect[] }
   | { op: 'tuck' }
@@ -36,7 +38,8 @@ type EffectBody =
   | { op: 'buff'; might: number; guard: number; target: 'chooseAny' | 'chooseRival' | 'attacker' | 'defender' }
   | { op: 'draw'; n: number; who?: 'self' | 'rival' }
   | { op: 'command'; n: number; who?: 'self' | 'rival' }
-  | { op: 'summon'; token: string; count: number }
+  /** `block`: the first token summoned blocks the attack in progress (a Scheme that springs on an unblocked Crown attack). */
+  | { op: 'summon'; token: string; count: number; block?: boolean }
   | { op: 'buffRivals'; might: number; guard?: number }
   | { op: 'unequip' }
   | { op: 'returnFallen'; optional: boolean; what?: 'champion' | 'relic' }
@@ -46,15 +49,20 @@ type EffectBody =
   | { op: 'readyOther' }
   | { op: 'readySelf' }
   | { op: 'mend' }
-  | { op: 'defeatGuardAtMost'; n: number }
+  | { op: 'defeatGuardAtMost'; n: number; trait?: string }
   | { op: 'stopOthersAttacking' }
   | { op: 'readyOncePerTurn' }
   | { op: 'gateBlock' }
   | { op: 'cancelAttack' }
   // Set 2 (Season 1 remix, owner-approved 2026-10-11)
-  | { op: 'breakRelic' }
-  | { op: 'breakScheme' }
-  | { op: 'stealRelic' }
+  // `orElse` (audit 2026-10-12, PROPOSED): what happens instead when there is nothing to break or take.
+  | { op: 'breakRelic'; orElse?: Effect[] }
+  /** Breaks one of the rival's face-down Schemes at random. */
+  | { op: 'breakScheme'; orElse?: Effect[] }
+  /** Take a Relic from a rival champion and attach it to this champion (its own Relic, if any, returns to its owner's hand). */
+  | { op: 'stealRelic'; orElse?: Effect[] }
+  /** Scheme: take the attacking champion's Relic and attach it to one of your champions. */
+  | { op: 'seizeRelic'; orElse?: Effect[] }
   | { op: 'rivalDiscard'; n: number }
   /** Defeat one chosen rival champion with Guard n or less (Set 2 Mythic). */
   | { op: 'defeatOne'; n: number }
@@ -89,6 +97,9 @@ export interface Statics {
   schemeHaste?: boolean;
 }
 
+/** Collector rarity (owner rule 2026-10-11; rubric adopted 2026-10-12, see prototype-v0.2/RARITY_RUBRIC.md). */
+export type CardRarity = 'common' | 'uncommon' | 'elite' | 'epic' | 'mythic';
+
 export interface ChampionForm {
   star: 1 | 2 | 3;
   /** Command cost to deploy (★) or Ascend cost (★★/★★★). */
@@ -112,7 +123,7 @@ export interface ChampionForm {
   cast?: Effect[];
   statics?: Statics;
   /** Set 2+: this card's own rarity (owner rule 2026-10-11: rarity is per card, by impact, not by tier). */
-  rarity?: 'common' | 'uncommon' | 'elite' | 'epic' | 'mythic';
+  rarity?: CardRarity;
 }
 
 export interface ChampionLine {
@@ -139,8 +150,6 @@ export interface ChampionLine {
   /** Set 2+: PROPOSED flavour per star form where no unused Crownfall line exists. */
   flavour?: Partial<Record<1 | 2 | 3, string>>;
   tier: 1 | 2 | 3 | 4 | 5;
-  /** Set 2+: collector rarity chosen by role, not tier (Set 1 derives it from tier). */
-  rarity?: 'common' | 'uncommon' | 'elite' | 'epic' | 'mythic';
   origins: string[];
   classes: string[];
   forms: ChampionForm[];
@@ -171,8 +180,22 @@ export interface RelicDef {
   defeats?: Effect[];
   defeated?: Effect[];
   rise?: Effect[];
+  /** Whenever its controller casts a Tactic (Channeler rules apply, including the two-per-turn cap). */
+  cast?: Effect[];
   statics?: Statics;
   legendary?: boolean;
+  /** Mythic Relic rules (audit 2026-10-12, PROPOSED). Its controller may Ascend twice each turn. */
+  extraAscend?: boolean;
+  /** An unblocked attack on its controller's Crown breaks at most this many shards. */
+  crownCap?: number;
+  /** The holder's unblocked attacks on a Crown break this many more shards. */
+  extraCrown?: number;
+  /** Scorch has no effect on the holder. */
+  scorchProof?: boolean;
+  /** When the holder is defeated, this Relic returns to its owner's hand instead of the Fallen pile. */
+  returnsToHand?: boolean;
+  /** Set 2+: collector rarity (set explicitly per card). */
+  rarity?: CardRarity;
   deck?: DeckId;
   /** PROPOSED art brief. */
   art?: string;
@@ -203,6 +226,8 @@ export interface EdictDef {
   rule: EdictRule;
   deck?: DeckId;
   art?: string;
+  /** Set 2+: collector rarity (Edicts are Uncommon by the rubric: they affect both players). */
+  rarity?: CardRarity;
 }
 
 export type SchemeTrigger = 'rivalAttacks' | 'crownAttacked' | 'crownUnblocked' | 'clash';
@@ -224,6 +249,8 @@ export interface SpellDef {
   /** PROPOSED art brief; flavour from a canonical announcer line when the name comes from one. */
   art?: string;
   flavour?: string;
+  /** Set 2+: collector rarity (set explicitly per card). */
+  rarity?: CardRarity;
 }
 
 export type DeckId = string;

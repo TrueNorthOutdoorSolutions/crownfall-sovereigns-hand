@@ -10,65 +10,63 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-232 (232)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Gearwick-9
-Title: Relic Engineer
+Name: HEX-3
+Title: Core Conduit
 Stars: ★★★
-Ascension band: ASCENSION • from Gearwick-9 ★★
-Origin | Class | Tier: Gearbound | Artificer | TIER II
-Trait icons: Gearbound: gold gear; Artificer: bronze anvil
-Keywords: Reach *(Can block Flight.)*
+Ascension band: ASCENSION • from HEX-3 ★★
+Origin | Class | Tier: Gearbound | Channeler | TIER II
+Trait icons: Gearbound: gold gear; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Relic Rig.**
-3. Your Relics cost 1 less.
-4. **Ascend:** Return a Relic from your Fallen pile to your hand.
-5. Attach a Relic costing 3 or less from your hand to Gearwick-9 for free.
-Flavour: “Every relic fits somewhere.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 8 | 8
+1. **Core Surge.**
+2. Whenever you cast a Tactic, Shield HEX-3 and gain 1 Command.
+Flavour: “Every spell makes me stronger.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 8 | 9
 Footer: 232/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A walking siege tower with a rotary mortar crown. SCENE: heroic wide shot of a vast forge-hall: Gearwick-9 rebuilt into a towering walking siege tower, rotary mortar crown blazing as it fires a full volley into the dark, shell casings raining down and tiny engineers cheering at its feet. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A levitating arcane engine with three orbiting reactor cores. SCENE: heroic wide shot of a vast arcane engine hall: HEX-3 levitating at centre-left as a towering engine, three reactor cores orbiting it and every conduit in the cavern pouring power into it at once, lightning-white and violet light filling the frame. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-233 (233)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Thorn
-Title: Rot Beneath the Stone
+Name: Valkara
+Title: Judge of the Depths
 Stars: ★★★
-Ascension band: ASCENSION • from Thorn ★★
-Origin | Class | Tier: Verdant | Sapper | TIER II
-Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Valkara ★★
+Origin | Class | Tier: Astral | Seer | TIER III
+Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. **Creeping Rot.**
-2. **Ascend:** Break one of your rival’s face-down Schemes.
-3. Break a rival champion’s Relic.
-4. Scorch 2 each rival champion.
-Flavour: “I grow in the cracks you can’t see.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 8
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Foresight Verdict.**
+3. Your Schemes cost 1 less to spring.
+4. **Ascend:** Defeat each rival champion with Guard 2 or less.
+Flavour: “Judgement was passed before you arrived.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 9
 Footer: 233/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bloom colossus whose petals exhale toxic spores. SCENE: heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Six wings, a halo of blades and a dive that splits the sky. SCENE: heroic wide shot of a vast cavern: six-winged Valkara large in frame with a halo of blades, diving straight down through the cavern roof so the rock splits open and daylight pours in behind her; awe-inspiring and terrible. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-234 (234)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Dax Meridian
-Title: Guardian Hunter
+Name: Ronin Zero
+Title: Blade Beneath the Arena
 Stars: ★★★
-Ascension band: ASCENSION • from Dax Meridian ★★
-Origin | Class | Tier: Riftborn | Hunter | TIER II
-Trait icons: Riftborn: pink diamond-in-a-diamond; Hunter: red three-slash claw mark
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Ronin Zero ★★
+Origin | Class | Tier: Voltborn | Gladiator | TIER III
+Trait icons: Voltborn: blue lightning bolt; Gladiator: bronze crested gladiator helmet
+Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Rift Hunt.**
-3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. **Attack: Scorch 2** the defender.
-5. When Dax Meridian defeats a champion on your turn, draw a card.
-Flavour: “I hunt the things that hunt you.”
+1. Charge *(Can attack the turn it arrives.)*
+2. Ambush *(Attacking a sideways champion, it strikes first.)*
+3. **Arena Draw.**
+4. +2 Might while attacking a champion.
+5. **Attack: Scorch 1** the defender.
+6. Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.
+Flavour: “Steel remembers every duel.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 7
+Might | Guard: 10 | 9
 Footer: 234/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A drifter from every timeline at once: ghostly copies echo his shots. SCENE: heroic wide shot of a vast cavern split by rifts: Dax large in frame standing on a fallen Guardian, revolver smoking, a dozen ghostly copies of himself from other timelines firing all at once around him; violet rift light and amber muzzle flashes everywhere. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): He moves faster than his own afterimages; a lightning scabbard crackles at his hip. NEW pose and action, never the Set 1 pose or composition: locked blade-to-blade with an opponent in a flooded arena pit, sparks flying where the blades meet. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 

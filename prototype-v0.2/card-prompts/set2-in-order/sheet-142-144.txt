@@ -9,62 +9,65 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-142 (142)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Dreadmouth
-Title: Devourer of Guardians
-Stars: ★★★
-Ascension band: ASCENSION • from Dreadmouth ★★
-Origin | Class | Tier: Hollow | Hunter | TIER III
-Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Cost: 6 (GREEN gem)
+Name: Noctara
+Title: Shadow Beneath the Crown
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Umbral | Ascendant · Seer | TIER V
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Seer: indigo crystal orb
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Guardian Feast.**
-3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. When Dreadmouth defeats a champion on your turn, draw a card.
-Flavour: “Even Guardians sink.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 11 | 9
+1. Ascendant *(One per deck.)*
+2. **ECLIPSE SIGHT.**
+3. Your Schemes cost 1 less to spring.
+4. **Arrival:** Break one of your rival’s face-down Schemes at random.
+5. If you can’t, Scorch 2 a rival champion.
+Flavour: “All things end in me.”
+Crown 2: none
+Might | Guard: 6 | 7
 Footer: 142/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A leviathan of the dead: an entire graveyard of teeth. NEW pose and action, never the Set 1 pose or composition: bursting up out of black water to seize the armoured leg of a Guardian. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An empress robed in the space between stars. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-143 (143)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Professor Spark
-Title: Relic Inventor
-Stars: ★★
-Ascension band: ASCENSION • from Professor Spark ★
-Origin | Class | Tier: Gearbound | Artificer | TIER III
-Trait icons: Gearbound: gold gear; Artificer: bronze anvil
-Keywords: none (text box starts with the ability name)
+Cost: 6 (GREEN gem)
+Name: Sol
+Title: Dawn Beneath the World
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Dawnforged | Ascendant · Restorer | TIER V
+Trait icons: Dawnforged: gold-orange sunburst; Ascendant: gold crown (distinct from the blue Kingdom crown); Restorer: rose-pink lotus
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
-1. **Prototype.**
-2. Your Relics cost 1 less.
-3. **Ascend:** Summon an Arc Turret.
-Flavour: “It works! Mostly!”
+1. Ascendant *(One per deck.)*
+2. **SECOND DAWN.**
+3. **Arrival:** Mend 1.
+Flavour: “Before anything, there was me.”
 Crown 2: none
-Might | Guard: 5 | 6
+Might | Guard: 5 | 7
 Footer: 143/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A mechanical arm grows from the pack; goggles spark. NEW pose and action, never the Set 1 pose or composition: fixing a crackling relic onto a half-built turret, goggles down, tongue out in concentration. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The first light given a body. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-144 (144)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Orion
-Title: Star-Charter of the Deep
-Stars: ★★
-Ascension band: ASCENSION • from Orion ★
-Origin | Class | Tier: Astral | Sharpshooter | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Reach *(Can block Flight.)*
+Cost: 6 (GREEN gem)
+Name: Veyra Sol
+Title: Hunter of Guardians
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Riftborn | Ascendant · Hunter | TIER V
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Charted Shot.**
-3. **Attack: Scorch 2** a rival champion.
-Flavour: “The stars have marked you.”
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. Ambush *(Attacking a sideways champion, it strikes first.)*
+4. **THE HUNT ETERNAL.**
+5. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+Flavour: “Every world has a back door.”
 Crown 2: none
 Might | Guard: 7 | 5
 Footer: 144/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Constellations glow across his armour; his bow draws starlight. NEW pose and action, never the Set 1 pose or composition: standing on a cavern ledge under painted constellations, loosing an arrow at a distant target in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A huntress with portal-rings on her wrists. NEW pose and action, never the Set 1 pose or composition: leaping out of a portal onto a Guardian’s back, blade raised. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

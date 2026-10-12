@@ -10,63 +10,63 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-208 (208)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Professor Spark
-Title: Relic Inventor
+Name: General Varr
+Title: Holder of the Gate
 Stars: ★★★
-Ascension band: ASCENSION • from Professor Spark ★★
-Origin | Class | Tier: Gearbound | Artificer | TIER III
-Trait icons: Gearbound: gold gear; Artificer: bronze anvil
+Ascension band: ASCENSION • from General Varr ★★
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Prototype.**
-3. Your Relics cost 1 less.
-4. **Ascend:** Summon two Arc Turrets.
-Flavour: “Science, applied loudly!”
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −2 Might.
+4. **Ascend: Shield** each champion you control.
+Flavour: “This gate does not open.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 8 | 9
+Might | Guard: 10 | 12
 Footer: 208/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): He sits in a walking workshop that builds turrets on the fly. NEW pose and action, never the Set 1 pose or composition: fixing a crackling relic onto a half-built turret, goggles down, tongue out in concentration. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A legend of the line, flanked by phantom shieldbearers. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-209 (209)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Orion
-Title: Star-Charter of the Deep
-Stars: ★★★
-Ascension band: ASCENSION • from Orion ★★
-Origin | Class | Tier: Astral | Sharpshooter | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
+Cost: 4 (GREEN gem)
+Name: Veilwalker
+Title: The Rift Below
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Riftborn | Rogue | TIER IV
+Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
+Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Charted Shot.**
-4. **Ascend: Scorch 2** each rival champion.
-5. **Attack: Scorch 2** a rival champion.
-Flavour: “No dark is deep enough to hide from the sky.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 8
+1. Flight *(Only Flight or Reach can block it.)*
+2. Ambush *(Attacking a sideways champion, it strikes first.)*
+3. **Between the Veils.**
+4. **Attack:** Your rival discards a card at random.
+Flavour: “* the air tears open *”
+Crown 2: none
+Might | Guard: 5 | 3
 Footer: 209/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A hunter of gods: his arrows are comets. NEW pose and action, never the Set 1 pose or composition: standing on a cavern ledge under painted constellations, loosing an arrow at a distant target in the dark. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A living dimensional anomaly in a tattered shape. NEW pose and action, never the Set 1 pose or composition: half-stepping out of a rift behind a Guardian, reaching for the relic on its back. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-210 (210)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Morrow
-Title: Lord of the Buried Halls
+Name: Veilwalker
+Title: The Rift Below
 Stars: ★★
-Ascension band: ASCENSION • from Morrow ★
-Origin | Class | Tier: Hollow | Binder | TIER III
-Trait icons: Hollow: teal skull; Binder: teal chain link
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Veilwalker ★
+Origin | Class | Tier: Riftborn | Rogue | TIER IV
+Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
+Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. **Call of the Buried.**
-2. Your tokens have +1 Might and +1 Guard.
-3. **Ascend:** Summon two Risen Soldiers.
-Flavour: “Rise. There’s work to do.”
+1. Flight *(Only Flight or Reach can block it.)*
+2. Ambush *(Attacking a sideways champion, it strikes first.)*
+3. **Between the Veils.**
+4. **Attack:** Your rival discards a card at random.
+Flavour: “* closes *”
 Crown 2: none
-Might | Guard: 5 | 6
+Might | Guard: 9 | 5
 Footer: 210/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Ghostlights orbit him and his robes are stitched from banners. NEW pose and action, never the Set 1 pose or composition: raising soldiers from open stone tombs, ghostly chains of light binding them to his will. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Its edges tear into other skies. NEW pose and action, never the Set 1 pose or composition: half-stepping out of a rift behind a Guardian, reaching for the relic on its back. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

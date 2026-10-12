@@ -1,23 +1,38 @@
 # Sovereign's Hand — the two sets
 
-Two complete sets, each with two starter decks, built on the same core rules (`RULEBOOK.md`). The new card types are in the rulebook's **Expansion rules** section.
-Every card is in the game's card data and is playable by the digital engine and AI. The full per-card lists (rules text, flavour, art brief, suggested art file) are in `MASTER_CARD_LISTS.md`.
+Two complete sets, each with two starter decks, built on the same core rules (`RULEBOOK.md`). The new card types and the Set 2 glossary are in the rulebook's **Expansion rules** and **Glossary** sections.
+Every card is in the game's card data and is playable by the digital engine and AI. The full per-card lists (rules text, flavour, art brief, suggested art file) are in `MASTER_CARD_LISTS.md`. Updated 2026-10-12 after the design audit (`AUDIT_SETS_1_2.md`, changes in `AUDIT_CHANGES.md`).
 
 | | Set 1: The Shattered Crown | Set 2: Beneath the Arena |
 | --- | --- | --- |
-| Theme | The war for the broken Crown, above ground. All 55 canonical champions in their canonical forms. | Delving under the Arena: Guardians' lairs, the Vault, buried halls. 45 returning champions as new cards. |
-| Card faces | **256** (248 + 8 tokens) | **240** (236 + 4 tokens) |
-| Champions | 55 × ★/★★/★★★ = 165 | 45 × ★/★★/★★★ = 135, plus 4 Monsters and 6 Guardians |
-| Tactics and Schemes | 77 (all 67 canonical Crown Powers + 10 originals) | 30 (Crown Hexes, Unbinding Charm, encounters, and 21 cards named after canonical announcer lines) |
+| Theme | The war for the broken Crown, above ground. All 55 canonical champions in their canonical forms. | Crownfall's Season 1 mid-season remix: delving under the Arena (Guardians' lairs, the Vault, buried halls). All 55 champions return as new cards with a new Class. |
+| Card faces | **256** (248 numbered + 8 tokens) | **270** (266 numbered + 4 tokens) |
+| Champions | 55 × ★/★★/★★★ = 165 | 55 × ★/★★/★★★ = 165, plus 4 Monsters and 6 Guardians |
+| Tactics and Schemes | 77 (all 67 canonical Crown Powers + 10 originals) | 30: 20 Tactics and 10 Schemes (Crown Hexes, Unbinding Charm, encounters, and cards named after canonical announcer lines) |
 | Relics | — | 58 (every canonical item except the Crown Shard) |
 | Edicts | 6 | 3 |
 | Starter decks | Banner of the Realm · Blood & Ember | Vault Delvers · Guardians' Brood |
-| Signature mechanic | Ascension, Schemes, Crown Powers (War, Fortune, Creation, Void, Evolution, Chaos) | Relics, Monsters with Loot, Guardians, Summoned tokens |
+| Signature mechanic | Ascension, Schemes, Crown Powers (War, Fortune, Creation, Void, Evolution, Chaos) | 12 new Classes (Hunter, Rogue, Sapper, Seer …), Relics, Monsters with Loot, Guardians, Summoned tokens |
+| Rarity | Printed: by tier. **Digital: by the rarity rubric** (`data/set1-digital-rarity.json`) | By the rarity rubric, per card and per star form |
+
+## Rarity (owner rule, rubric adopted 2026-10-12)
+
+Rarity is set per card, and for champions per star form, by what the card does in play. It is never set by tier. The standard is `RARITY_RUBRIC.md`.
+
+| Rarity | Rubric target | Set 2 | Set 1 digital | Set 1 printed (tier) |
+| --- | --- | --- | --- | --- |
+| Common | 95–105 (38%) | 99 (001–099) | 74 | 61 |
+| Uncommon | 75–85 (30%) | 78 (100–177) | 94 | 67 |
+| Elite | 45–55 (19%) | 50 (178–227) | 36 | 36 |
+| Epic | 20–26 (9%) | 22 (228–249) | 30 | 51 |
+| Mythic | 10–14 (4.5%) | 17 (250–266) | 14 | 33 |
+
+- **Set 2** is numbered in rarity blocks. Printed cards (001–033, 118, 251, 252) keep their numbers, so the Mythic block is 17 cards (a documented exception).
+- **Set 1's printed cards keep their old footer letters** (tier I–V = C/U/E/P/M) until a reprint. The digital pack opener and collection use the rubric rarity instead. Set 1 stays Uncommon-heavy because only the Tactics the audit named were moved.
 
 ## Returning champions are different cards
 
-A champion that appears in both sets keeps their canonical name, Origins, Classes and tier. In Set 2 they get a **new title (epithet)**, **new abilities** and a **new art scene**. The engine keeps the two apart: a Set 2 Kael only Ascends into Set 2 Kael forms.
-The 10 champions not in Set 2 are Solara, Emberling, Mirella, Bramble, Kira Volt, Pip, Hexie, Bolt, Thorn and HEX-3.
+A champion that appears in both sets keeps their canonical name, Origins and tier. In Set 2 they get a **new Class**, a **new title (epithet)**, **new abilities** and a **new art scene**. **Ascension works across sets by name** (owner rule 2026-10-11): any ★ Bramble can Ascend into any ★★ Bramble and then any ★★★ Bramble, from either set. A deck holds at most 2 champions of the same name across sets.
 
 ## Starter decks
 
@@ -28,23 +43,23 @@ The 10 champions not in Set 2 are Solara, Emberling, Mirella, Bramble, Kira Volt
 | Vault Delvers | 2 | Kingdom, Gearbound and Titanborn: arm champions with Relics, hold with the Crystal Golem. | ATLAS-Ω |
 | Guardians' Brood | 2 | Monsters, Hollow and Umbral: flood the board with Monsters and Void Spiders, raise the fallen. | The Unwritten King |
 
-Full lists are in `DECKLISTS.md`. Every deck is 30 cards plus an 8-card Ascension Pile.
+Full lists are in the game data (`src/v02/content/cards.ts`, `DECKS`). Every deck is 30 cards plus an 8-card Ascension Pile.
 
-## Balance (AI vs AI, 1,000 games per pairing, `validation/engine-sim.json`)
+## Balance (AI vs AI, 1,000 games per pairing, `validation/engine-sim.json`, 2026-10-12)
 
 | | Banner | Ember | Vault | Brood |
 | --- | --- | --- | --- | --- |
-| **Banner** | — | 51.0 | 49.8 | 44.2 |
-| **Ember** | 49.0 | — | 56.8 | 59.5 |
-| **Vault** | 50.2 | 43.2 | — | 54.5 |
-| **Brood** | 55.8 | 40.5 | 45.5 | — |
+| **Banner** | — | 51.0 | 45.1 | 43.5 |
+| **Ember** | 49.0 | — | 59.4 | 57.1 |
+| **Vault** | 54.9 | 40.6 | — | 51.9 |
+| **Brood** | 56.5 | 42.9 | 48.1 | — |
 
-Read across: the row deck's win rate against the column deck. The **same-set** matchups, which are the ones the starter boxes create, are 51/49 and 54.5/45.5. Cross-set, Blood & Ember is the strongest deck and Guardians' Brood is rock-paper-scissors (it beats Banner, loses to Ember). I tried three small Brood buffs; each fixed one matchup by breaking another, so the decks are left as they are for human playtesting. No game lost or duplicated a card (0 conservation failures in 6,000 games). The first player wins 47–51%.
+Read across: the row deck's win rate against the column deck. Overall: Banner 46.5, Ember 55.2, Vault 49.1, Brood 49.2. The **same-set** matchups, which the starter boxes create, are 51/49 and 51.9/48.1. Cross-set, Blood & Ember is the strongest deck (it is a printed Set 1 deck, so it is left as it is). Vault vs Ember still ends by the round-10 rule in about 20% of games. No game lost or duplicated a card (0 conservation failures in 6,000 games). The first player wins 46–52%.
 
 ## Needs your approval
 
-1. **45 Set 2 epithets.** All are PROPOSED; they are listed with their Set 1 titles in `MASTER_CARD_LIST_SET2.md`.
-2. **21 Set 2 spells named after canonical announcer lines**, for example "Something Stirs Beneath the Arena", "Steady, Sovereign. Not Yet." and "Its Treasure Is Yours". The name and flavour are the canon line; the rules are new.
+1. **Set 2 epithets, abilities and rules** are PROPOSED (titles and classes were approved 2026-10-11). The audit changes of 2026-10-12 are listed in `AUDIT_CHANGES.md`.
+2. **Set 2 spells named after canonical announcer lines**, for example "Something Stirs Beneath the Arena", "Steady, Sovereign. Not Yet." and "Its Treasure Is Yours". The name and flavour are the canon line; the rules are new. Five of them are now Schemes.
 3. **7 Set 1 starter spells renamed to canonical Crown Powers** (rules unchanged):
 
    | Old working name | Now |
@@ -58,11 +73,10 @@ Read across: the row deck's win rate against the column deck. The **same-set** m
    | Flare Up | Chaotic Surge |
 
 4. **Art briefs.** Set 1 champion briefs are Crownfall's own descriptions. Everything else (Set 2 scenes, spells, Relics, Monsters, Guardians, tokens, Edicts) is PROPOSED.
-5. **Rules for the new card types** (Relics, Edicts, Monsters, Guardians, tokens), in the rulebook's PROPOSED Expansion rules section.
+5. **Rules for the new card types** (Relics, Edicts, Monsters, Guardians, tokens) and the Set 2 glossary, in the rulebook's PROPOSED sections.
 
 ## Open questions
 
 - **The Crown Shard item** is the only canonical item without a Relic. A card called "Crown Shard" would be confused with the shards in your Crown. Rename it, or leave it out?
-- **Draft numbers.** Cards outside the four starter decks are playable but not balance-tested in a deck. Names, art and flavour are settled; Might, Guard and costs may still change.
-- **Flavour repeats.** Crownfall gives each champion only 4–5 lines, so 72 Set 2 champion cards reuse a Set 1 line. They are flagged in the CSV for the studio to replace or approve.
-- **Mixing sets.** The rules allow a deck to mix both sets. Should constructed play allow it, or should each set stand alone?
+- **Draft numbers.** Cards outside the four starter decks are playable but not balance-tested in a deck. Names, art and flavour are settled; Might, Guard and costs may still change (never on printed cards).
+- **Mixing sets.** The rules allow a deck to mix both sets, and cross-set Ascension is approved. Should sanctioned constructed play allow mixed decks, or should each set stand alone?

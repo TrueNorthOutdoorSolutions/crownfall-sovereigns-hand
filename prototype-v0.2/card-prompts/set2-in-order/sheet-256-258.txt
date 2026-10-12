@@ -10,30 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-256 (256)
 Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
-Name: Aurex
-Title: Bane of the Guardians
-Stars: ★★★
-Ascension band: ASCENSION • from Aurex ★★
-Origin | Class | Tier: Wyrmblood | Ascendant · Hunter | TIER V
-Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
-Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Ascendant *(One per deck.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **GUARDIAN’S BANE.**
-4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-5. **Ascend: Scorch 3** each rival champion.
-6. Defeat each rival champion with Guard 3 or less.
-7. Your other champions can’t attack this turn.
-Flavour: “No Guardian outlives the last dragon.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 13 | 12
-Footer: 256/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A full celestial dragon. The sky turns red and flames surround the arena. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-257 (257)
-Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
 Name: Noctara
 Title: Shadow Beneath the Crown
 Stars: ★★★
@@ -51,8 +27,31 @@ Text box, line by line:
 Flavour: “I see every shadow you hide in.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 13
-Footer: 257/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 256/266 · M · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She is a doorway to nothing. The battlefield becomes the void. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-257 (257)
+Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
+Name: ATLAS-Ω
+Title: The Vault Engine
+Stars: ★★★
+Ascension band: ASCENSION • from ATLAS-Ω ★★
+Origin | Class | Tier: Gearbound | Ascendant · Sentinel | TIER V
+Trait icons: Gearbound: gold gear; Ascendant: gold crown (distinct from the blue Kingdom crown); Sentinel: grey stone watchtower
+Keywords: Ascendant *(One per deck.)* · Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Bulwark *(Blocking doesn't turn it sideways.)*
+3. Reach *(Can block Flight.)*
+4. **VAULT PROTOCOL.**
+5. Rival champions attacking your Crown get −2 Might.
+6. **Attack: Scorch 3** each rival champion.
+Flavour: “Vault sealed. Threat denied.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 11 | 15
+Footer: 257/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A titan of the last war: a sun burns in its chest. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-258 (258)

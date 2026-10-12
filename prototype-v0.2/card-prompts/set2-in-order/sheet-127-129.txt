@@ -9,62 +9,61 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-127 (127)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Bolt
-Title: Scrap Smith
-Stars: ★★★
-Ascension band: ASCENSION • from Bolt ★★
-Origin | Class | Tier: Gearbound | Artificer | TIER I
-Trait icons: Gearbound: gold gear; Artificer: bronze anvil
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Cost: 4 (GREEN gem)
+Name: Captain Blacktide
+Title: Plunderer of the Vault
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Riftborn | Rogue | TIER III
+Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
+Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Scrapforge.**
-3. **Ascend:** Attach a Relic costing 3 or less from your hand to Bolt for free.
-4. +2 Guard while Bolt holds a Relic.
-Flavour: “Spare parts? I’m all spare parts.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 6 | 9
+1. Reach *(Can block Flight.)*
+2. **Plunder.**
+3. **Attack:** Take a Relic from a rival champion and attach it to Captain Blacktide.
+4. If you can’t, Scorch 1 a rival champion.
+Flavour: “Toll's due, landlubber.”
+Crown 2: none
+Might | Guard: 4 | 3
 Footer: 127/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A gleaming brass guardian with a reactor heart and folding shield vanes. SCENE: heroic wide shot of a vast underground foundry: Bolt towering and fully rebuilt from dozens of mismatched relic plates, gear core blazing, raising one enormous piston fist as the forge erupts behind it; tiny workers below for scale. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dimensional pirate captain with a hand cannon. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-128 (128)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Kael
-Title: Relic Seeker
-Stars: ★★
-Ascension band: ASCENSION • from Kael ★
-Origin | Class | Tier: Kingdom | Delver | TIER I
+Cost: 4 (GREEN gem)
+Name: Aurelia
+Title: Leader of the Descent
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Kingdom | Delver | TIER III
 Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Delve.**
-2. **Ascend:** Return a Relic from your Fallen pile to your hand.
-Flavour: “This way. Probably.”
+1. **Banner of the Descent.**
+2. **Arrival:** Draw a card.
+3. Your other Kingdom champions have +1 Might.
+Flavour: “Rally to me!”
 Crown 2: none
-Might | Guard: 5 | 4
+Might | Guard: 3 | 5
 Footer: 128/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Blue-steel armour and a blade that leaves a crescent of light. SCENE: low side angle in a flooded relic vault: Kael wades waist-deep through dark water toward a broken plinth, sword drawn, his torch held high and reflecting in the ripples; a faint teal glow from the relic ahead. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A royal battle commander in blue and gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-129 (129)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Solenne Ash
-Title: Lantern of the Underways
-Stars: ★★★
-Ascension band: ASCENSION • from Solenne Ash ★★
-Origin | Class | Tier: Dawnforged | Delver | TIER II
-Trait icons: Dawnforged: gold-orange sunburst; Delver: amber lantern
-Keywords: Charge *(Can attack the turn it arrives.)*
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Aurelia
+Title: Leader of the Descent
+Stars: ★★
+Ascension band: ASCENSION • from Aurelia ★
+Origin | Class | Tier: Kingdom | Delver | TIER III
+Trait icons: Kingdom: blue crown; Delver: amber lantern
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. **Lantern Path.**
-3. **Ascend:** Draw a card.
-4. Shield each champion you control.
-Flavour: “Where I walk, the dark ends.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 8
+1. **Banner of the Descent.**
+2. **Ascend:** Draw 2 cards.
+Flavour: “Down we go. Together.”
+Crown 2: none
+Might | Guard: 6 | 7
 Footer: 129/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Sun-forged armour, blazing wings and a trail of dawnfire. SCENE: heroic wide shot of a vast underground hall plunged in darkness: Solenne large in frame driving her blazing sword into the stone floor as a sunrise of fire spreads outward from it, lighting every arch and pillar at once; glorious and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A standard bearer marches behind her; her circlet glows. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

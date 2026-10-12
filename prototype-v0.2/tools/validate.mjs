@@ -8,8 +8,10 @@ import { ALL_LINES, SPELLS, EXTRA_SPELLS, RELICS, EDICTS, DECKS, CARDS } from '.
 import { newGame, cardsInZones } from '../../src/v02/rules/engine.ts';
 import { playOut } from '../../src/v02/ai/bot.ts';
 import { cardIndex as researchIndex } from '../research/cards.mjs';
+import { AUDIT_PROPOSED_2026_10_12 } from '../../src/v02/content/set2.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const printed2 = JSON.parse(readFileSync(join(root, 'data', 'set2-printed.json'), 'utf8')).cards;
 const canon = JSON.parse(readFileSync(join(root, 'data', 'canon-snapshot.json'), 'utf8'));
 const extras = JSON.parse(readFileSync(join(root, 'data', 'canon-extras.json'), 'utf8'));
 const fails = [];
@@ -127,14 +129,15 @@ for (const [id, d] of Object.entries(DECKS)) {
 // 4. Card text truth: every printed trigger and effect is implemented, and every implemented effect is printed.
 const words = (t) => (t.match(/\S+/g) ?? []).length;
 const PHRASE = {
-  scorch: /Scorch \d/, scorchAll: /Scorch \d each rival champion/, shield: /Shield/, shieldAll: /Shield each champion/, draw: /draw|Draw/,
+  scorch: /Scorch \d/, scorchAll: /Scorch \d each rival (champion|Monster)/, shield: /Shield/, shieldAll: /Shield each champion/, draw: /draw|Draw/,
   returnFallen: /Return/i, deployFree: /Deploy (a|up to two) (★ champion|Monster)s? costing \d or less from your hand/, deployFromFallen: /Deploy (a|up to two) ★ champions? costing \d or less from your Fallen pile/,
-  mend: /Mend 1/, defeatGuardAtMost: /Defeat each rival champion with Guard \d or less/, stopOthersAttacking: /can’t attack this turn/,
+  mend: /Mend 1/, defeatGuardAtMost: /[Dd]efeat each rival (champion|Monster, Guardian and ★★\/★★★ champion) with Guard \d or less/, stopOthersAttacking: /can’t attack this turn/,
   readyOncePerTurn: /ready /, readyOther: /Ready another champion/, readySelf: /Ready \w/, buffAll: /Might|Guard/, buffOthers: /Might/, buff: /Might|Guard/,
   gateBlock: /blocks/, cancelAttack: /attack ends/, command: /Command/, summon: /Summon/, buffRivals: /Each rival champion gets|every rival champion gets/i, unequip: /Relic/,
   buffTrait: /Might/, selfShard: /Break (one|two) of your own shards|break one of your own shards/, ascendNow: /Ascend/, extraZone: /Champion Zone/, coinFlip: /Flip a coin/,
   tuck: /bottom of your deck/, equipFree: /Attach a Relic costing \d or less/,
   breakRelic: /Break a rival champion.s Relic/, breakScheme: /Break one of your rival.s face-down Schemes/, stealRelic: /Take a Relic from a rival champion/,
+  seizeRelic: /take its Relic and attach it/,
   rivalDiscard: /discards a card at random/,
   defeatOne: /Defeat a rival champion with Guard \d or less/, breakAllRelics: /Break every rival champion.s Relic/, breakAllSchemes: /every face-down Scheme your rival has/,
 };
@@ -144,15 +147,26 @@ for (const c of Object.values(CARDS)) {
   const trig = c.kind === 'champion' || c.kind === 'ascension' || c.kind === 'token' || c.kind === 'relic';
   const effects = trig ? [c.arrive, c.ascend, c.attack, c.block, c.attacked, c.defeats, c.defeated, c.rise].flat().filter(Boolean)
     : c.kind === 'edict' ? [] : c.effects;
-  const flat = effects.flatMap((e) => (e.op === 'coinFlip' ? [e, ...e.heads, ...e.tails] : [e]));
+  const flat = effects.flatMap((e) => (e.op === 'coinFlip' ? [e, ...e.heads, ...e.tails] : e.orElse ? [e, ...e.orElse] : [e]));
   for (const e of flat) check(PHRASE[e.op]?.test(t), `truth: ${c.id} prints its "${e.op}" effect`);
+  // Fallbacks (audit 2026-10-12): "If you can't, …" is printed exactly when an effect has one.
+  check(/If you can’t/.test(t) === effects.some((e) => e.orElse?.length), `truth: ${c.id} "If you can’t" text ⇔ fallback`);
+  // Engine breaks a face-down Scheme at random: unprinted Set 2 cards say so.
+  if (c.set === 2 && !printed2[c.id] && effects.some((e) => e.op === 'breakScheme')) check(/face-down Schemes at random/.test(t), `truth: ${c.id} says the Scheme breaks "at random"`);
+  if (c.kind === 'relic') {
+    check(/is defeated/.test(t) === !!(c.defeated?.length || c.returnsToHand), `truth: ${c.id} Relic "is defeated" text ⇔ effect`);
+    check(/Ascend twice/.test(t) === !!c.extraAscend, `truth: ${c.id} "Ascend twice" text ⇔ rule`);
+    check(/breaks only 1 shard/.test(t) === !!c.crownCap, `truth: ${c.id} Crown cap text ⇔ rule`);
+    check(/breaks 1 more shard/.test(t) === !!c.extraCrown, `truth: ${c.id} extra shard text ⇔ rule`);
+    check(/Scorch has no effect on the holder/.test(t) === !!c.scorchProof, `truth: ${c.id} Scorch-proof text ⇔ rule`);
+  }
   if (trig) {
     check(/Arrival:/.test(t) === !!c.arrive?.length, `truth: ${c.id} "Arrival:" text ⇔ arrival effect`);
     check(/Ascend:/.test(t) === !!c.ascend?.length, `truth: ${c.id} "Ascend:" text ⇔ ascend effect`);
     check(/Attack:/.test(t) === !!c.attack?.length, `truth: ${c.id} "Attack:" text ⇔ attack effect`);
     check(/Block:/.test(t) === !!c.block?.length, `truth: ${c.id} "Block:" text ⇔ block effect`);
     check(/At the start of your turn/.test(t) === !!c.rise?.length, `truth: ${c.id} start-of-turn text ⇔ effect`);
-    check(/is defeated/.test(t) === !!c.defeated?.length, `truth: ${c.id} "is defeated" text ⇔ effect`);
+    if (c.kind !== 'relic') check(/is defeated/.test(t) === !!c.defeated?.length, `truth: ${c.id} "is defeated" text ⇔ effect`);
     check(/defeats a champion on your turn/i.test(t) === !!c.defeats?.length, `truth: ${c.id} defeat trigger text ⇔ effect`);
     const st = c.statics ?? {};
     check(/(champions|Monsters) have \+\d/.test(t) === !!(st.auraMight || st.auraGuard || st.originAura), `truth: ${c.id} aura text ⇔ aura effect`);
@@ -180,6 +194,34 @@ for (const c of Object.values(CARDS)) {
   }
 }
 check(allSpells.every((s) => !champLines.some((l) => s.name === l.name)), 'names: no Tactic/Scheme shares a champion’s name');
+
+// 4b. Rarity and numbering (rarity rubric adopted 2026-10-12, prototype-v0.2/RARITY_RUBRIC.md).
+const RANKS = ['common', 'uncommon', 'elite', 'epic', 'mythic'];
+const set2Numbered = Object.values(CARDS).filter((c) => c.set === 2 && c.kind !== 'token');
+for (const c of set2Numbered) check(RANKS.includes(c.rarity), `rarity: Set 2 ${c.id} has its own rarity`);
+check(set2Numbered.length === 266, `set 2: exactly 266 numbered cards (printed footers say /266): ${set2Numbered.length}`);
+const s2csv = readFileSync(join(root, 'master-card-list-set2.csv'), 'utf8').split(/\r?\n/).slice(1).filter(Boolean)
+  .map((l) => l.match(/"((?:[^"]|"")*)"/g).map((x) => x.slice(1, -1).replace(/""/g, '"')));
+const s2rows = s2csv.filter((r) => /^S2-\d{3}$/.test(r[0])).map((r) => ({ no: Number(r[0].slice(3)), id: r[1], rarity: r[r.length - 1] }));
+check(s2rows.length === 266, `numbering: master list numbers 266 Set 2 cards (${s2rows.length})`);
+check(s2rows.every((r, k) => r.no === k + 1), 'numbering: Set 2 numbers run 001–266 with no gaps');
+check(s2rows.every((r, k) => !k || RANKS.indexOf(r.rarity) >= RANKS.indexOf(s2rows[k - 1].rarity)), 'numbering: Set 2 rarity blocks are in order (Common, Uncommon, Elite, Epic, Mythic)');
+for (const r of s2rows) check(r.rarity === CARDS[r.id]?.rarity, `numbering: master list rarity of ${r.id} matches the card data`);
+// Printed Set 2 cards are frozen: number, rarity, text, stats, keywords, ability name and flavour.
+for (const [id, p] of Object.entries(printed2)) {
+  const c = CARDS[id], row = s2rows.find((r) => r.id === id);
+  const cost = c.kind === 'ascension' ? `↑${c.cost}` : String(c.cost);
+  check(!!c && row?.no === p.no, `frozen: printed ${id} keeps number ${String(p.no).padStart(3, '0')}`);
+  check(c?.rarity === p.rarity, `frozen: printed ${id} keeps rarity ${p.rarity}`);
+  check(c?.text === p.text && cost === p.cost && String(c.might) === p.might && String(c.guard) === p.guard && c.keywords.join(', ') === p.keywords && (c.text ? c.ability : '') === p.ability,
+    `frozen: printed ${id} keeps its text, stats, keywords and ability name`);
+  const fl = c.line.flavour?.[c.star];
+  if (fl) check(fl === p.flavour, `frozen: printed ${id} keeps its flavour`);
+}
+for (const id of AUDIT_PROPOSED_2026_10_12) check(!printed2[id] && !!CARDS[id], `frozen: audit change ${id} is an unprinted Set 2 card`);
+// Set 2 ability names never reuse a Set 1 ability name (audit 2026-10-12).
+const s1Abilities = new Set(champLines.filter((l) => (l.set ?? 1) === 1).flatMap((l) => l.forms.map((f) => f.ability)).filter(Boolean));
+for (const l of champLines.filter((x) => x.set === 2)) for (const f of l.forms) if (f.ability) check(!s1Abilities.has(f.ability), `names: Set 2 ${l.name} ability "${f.ability}" is not a Set 1 ability name`);
 
 // 5. Engine determinism and conservation across every starter-deck pairing.
 const ids = Object.keys(DECKS);

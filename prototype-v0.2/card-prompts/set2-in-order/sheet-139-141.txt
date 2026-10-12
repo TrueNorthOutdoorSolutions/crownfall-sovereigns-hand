@@ -10,61 +10,61 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-139 (139)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Rask
-Title: Champion of the Underpits
+Name: Lady Volt
+Title: Storm in the Deep
 Stars: ★★
-Ascension band: ASCENSION • from Rask ★
-Origin | Class | Tier: Wildkin | Gladiator | TIER II
-Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
+Ascension band: ASCENSION • from Lady Volt ★
+Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
 Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
 1. Charge *(Can attack the turn it arrives.)*
-2. **Pit Fighter.**
-3. +2 Might while attacking a champion.
-4. When Rask defeats a champion on your turn, Shield Rask.
-Flavour: “The sand wants another one.”
+2. **Chain Lightning.**
+3. **Attack: Scorch 2** a rival champion, then Scorch 1 a rival champion.
+Flavour: “Touché.”
 Crown 2: none
-Might | Guard: 6 | 5
+Might | Guard: 8 | 6
 Footer: 139/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gilded arena armour and a trophy belt. SCENE: dynamic side view: Rask in gilded arena armour leaps over a charging cave beast, gladius flashing down, his trophy belt swinging, sand and sparks spraying in the torchlight of the pit. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Storm-silver armour; her hair crackles. NEW pose and action, never the Set 1 pose or composition: striking a distant target with a bolt of lightning across a flooded cavern. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-140 (140)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: HEX-3
-Title: Core Conduit
-Stars: ★★★
-Ascension band: ASCENSION • from HEX-3 ★★
-Origin | Class | Tier: Gearbound | Channeler | TIER II
-Trait icons: Gearbound: gold gear; Channeler: violet spiral
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Vessimer
+Title: Alchemist of Relics
+Stars: ★★
+Ascension band: ASCENSION • from Vessimer ★
+Origin | Class | Tier: Hexbound | Artificer | TIER IV
+Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Core Surge.**
-2. Whenever you cast a Tactic, Shield HEX-3 and Scorch 1 each rival champion.
-Flavour: “Every spell makes me stronger.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 9
+1. **Transmute.**
+2. Your Relics cost 1 less.
+3. **Ascend:** Attach a Relic costing 3 or less from your hand to Vessimer for free.
+Flavour: “Results: conclusive.”
+Crown 2: none
+Might | Guard: 6 | 7
 Footer: 140/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A levitating arcane engine with three orbiting reactor cores. SCENE: heroic wide shot of a vast arcane engine hall: HEX-3 levitating at centre-left as a towering engine, three reactor cores orbiting it and every conduit in the cavern pouring power into it at once, lightning-white and violet light filling the frame. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Brass apparatus hisses on his back. NEW pose and action, never the Set 1 pose or composition: pouring a glowing tincture over a relic on his alchemy table, transforming it. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-141 (141)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Valkara
-Title: Judge of the Depths
-Stars: ★★
-Ascension band: ASCENSION • from Valkara ★
-Origin | Class | Tier: Astral | Seer | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Cost: 6 (GREEN gem)
+Name: Aurex
+Title: Bane of the Guardians
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Wyrmblood | Ascendant · Hunter | TIER V
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Foresight Verdict.**
-3. Your Schemes cost 1 less to spring.
-4. **Ascend:** Defeat each rival champion with Guard 1 or less.
-Flavour: “I’ve already seen how this ends.”
+1. Ascendant *(One per deck.)*
+2. **GUARDIAN’S BANE.**
+3. **Arrival: Scorch 3** each rival Monster, Guardian and ★★/★★★ champion.
+4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+Flavour: “The last dragon answers.”
 Crown 2: none
-Might | Guard: 7 | 6
+Might | Guard: 7 | 7
 Footer: 141/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Wings of starlight and a gilded war-helm. SCENE: side view on a broken stone bridge: Valkara lands in a crouch before a kneeling monster, wings of starlight half-folded, gilded war-helm lit by the glow of her spear-sword raised in judgment. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A massive dragon warrior. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

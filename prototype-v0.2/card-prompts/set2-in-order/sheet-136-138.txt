@@ -10,61 +10,61 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-136 (136)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Thorn
-Title: Rot Beneath the Stone
+Name: General Varr
+Title: Holder of the Gate
 Stars: ★★
-Ascension band: ASCENSION • from Thorn ★
-Origin | Class | Tier: Verdant | Sapper | TIER II
-Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from General Varr ★
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. **Creeping Rot.**
-2. **Ascend:** Break a rival champion’s Relic.
-3. **Block: Scorch 2** the attacker.
-Flavour: “Your walls are already rotting.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −1 Might.
+4. **Block:** The attacker gets −2 Might this turn.
+Flavour: “Line held.”
 Crown 2: none
-Might | Guard: 5 | 5
+Might | Guard: 7 | 9
 Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Poison dripping from purple petals; a thorny spine along his back. SCENE: three-quarter view inside a collapsing treasure vault: Thorn strides through a wall that is rotting apart around him, poison dripping from his purple petals and thorny spine raised, guards backing away through the green haze. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Medals of every war and a banner-spear. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-137 (137)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Dax Meridian
-Title: Guardian Hunter
-Stars: ★★
-Ascension band: ASCENSION • from Dax Meridian ★
-Origin | Class | Tier: Riftborn | Hunter | TIER II
-Trait icons: Riftborn: pink diamond-in-a-diamond; Hunter: red three-slash claw mark
-Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
+Cost: 5 (GREEN gem)
+Name: Gaia Prime
+Title: Root of the Arena
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Verdant | Restorer | TIER IV
+Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Rift Hunt.**
-4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-5. When Dax Meridian defeats a champion on your turn, draw a card.
-Flavour: “Big target. Easy shot.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Deep Roots.**
+3. **Arrival:** Mend 1.
+Flavour: “I remember who built this place.”
 Crown 2: none
-Might | Guard: 6 | 4
+Might | Guard: 3 | 7
 Footer: 137/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rift cracks glow along his revolver; his coat shows another sky. SCENE: dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An ancient living tree titan. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-138 (138)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Elara
-Title: Healer of the Fallen Deep
+Name: Gaia Prime
+Title: Root of the Arena
 Stars: ★★
-Ascension band: ASCENSION • from Elara ★
-Origin | Class | Tier: Kingdom | Restorer | TIER II
-Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Gaia Prime ★
+Origin | Class | Tier: Verdant | Restorer | TIER IV
+Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. **Field Mending.**
-2. **Ascend:** Mend 1.
-Flavour: “Breathe. I’ve got you.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Deep Roots.**
+3. **Ascend: Shield** each champion you control.
+Flavour: “Grow.”
 Crown 2: none
-Might | Guard: 3 | 7
+Might | Guard: 6 | 10
 Footer: 138/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: White-and-blue royal vestments; her tome glows. SCENE: side view in a collapsing tunnel: Elara sprints through falling rubble with her tome held open ahead of her like a shield, its light forming a protective dome over the wounded being carried out behind her; dust, sparks and torchlight. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Blossoms and a canopy crown; birds nest in her shoulders. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

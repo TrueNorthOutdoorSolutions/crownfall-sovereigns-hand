@@ -10,45 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-040 (040)
 Cost: 3 (GREEN gem)
-Name: Orion
-Title: Star-Charter of the Deep
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Astral | Sharpshooter | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Reach *(Can block Flight.)*
-Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Charted Shot.**
-3. **Attack: Scorch 1** a rival champion.
-Flavour: “I have a star with your name.”
-Crown 2: none
-Might | Guard: 4 | 2
-Footer: 040/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A star-powered sniper with a crescent longbow. NEW pose and action, never the Set 1 pose or composition: standing on a cavern ledge under painted constellations, loosing an arrow at a distant target in the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-041 (041)
-Cost: 3 (GREEN gem)
-Name: Maeve
-Title: Broker of Relics
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
-Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Sleight of Thorns.**
-2. **Arrival:** Take a Relic from a rival champion and attach it to Maeve.
-Flavour: “Every gift has a price.”
-Crown 2: none
-Might | Guard: 2 | 4
-Footer: 041/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An ancient forest witch with a staff of living wood. NEW pose and action, never the Set 1 pose or composition: in a hidden underground market, swapping a fake relic for a real one behind her back with a sly smile. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 3 (right)
-Card number: S2-042 (042)
-Cost: 3 (GREEN gem)
 Name: Ronin Zero
 Title: Blade Beneath the Arena
 Stars: ★
@@ -62,7 +23,45 @@ Text box, line by line:
 3. +1 Might while attacking a champion.
 Flavour: “Frame ready.”
 Crown 2: none
-Might | Guard: 4 | 3
-Footer: 042/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Might | Guard: 4 | 2
+Footer: 040/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A cybernetic wandering swordsman with a straw-coloured visor. NEW pose and action, never the Set 1 pose or composition: locked blade-to-blade with an opponent in a flooded arena pit, sparks flying where the blades meet. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-041 (041)
+Cost: 3 (GREEN gem)
+Name: Ignara
+Title: Heart of the Forge
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Elemental | Channeler | TIER III
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Forgefire.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
+Flavour: “Everywhere else is cold.”
+Crown 2: none
+Might | Guard: 3 | 4
+Footer: 041/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A fire elemental warrior in cooling obsidian armour. NEW pose and action, never the Set 1 pose or composition: drawing flame out of floating runes into her open hands in a deep forge cavern. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-042 (042)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Ignara
+Title: Heart of the Forge
+Stars: ★★
+Ascension band: ASCENSION • from Ignara ★
+Origin | Class | Tier: Elemental | Channeler | TIER III
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Forgefire.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
+Flavour: “Feed the fire.”
+Crown 2: none
+Might | Guard: 6 | 7
+Footer: 042/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The armour cracks and roars with flame. NEW pose and action, never the Set 1 pose or composition: drawing flame out of floating runes into her open hands in a deep forge cavern. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

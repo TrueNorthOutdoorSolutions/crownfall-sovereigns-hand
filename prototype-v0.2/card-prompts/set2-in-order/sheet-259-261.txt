@@ -20,9 +20,8 @@ Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. **BURIED LEGION.**
-3. Your tokens have +2 Might and +1 Guard.
-4. **Ascend:** Summon two Fallen Warriors.
-5. Deploy up to two ★ champions costing 4 or less from your Fallen pile for free.
+3. Your tokens have +2 Might and +2 Guard.
+4. **Ascend:** Summon Fallen Warriors until your Champion Zones are full.
 Flavour: “Even the forgotten answer my call.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 13

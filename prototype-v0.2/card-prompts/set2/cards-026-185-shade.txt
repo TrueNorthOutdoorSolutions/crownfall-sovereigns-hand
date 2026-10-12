@@ -1,0 +1,74 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep the character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition, never the Set 1 one. Show the new class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+Card number: S2-026 (026)
+Cost: 2 (GREEN gem)
+Name: Shade
+Title: Mask of the Depths
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Umbral | Rogue | TIER II
+Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. **Masked Theft.**
+3. When Shade defeats a champion on your turn, your rival discards a card at random.
+Flavour: “A mark has been chosen.”
+Crown 2: none
+Might | Guard: 3 | 2
+Footer: 026/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A masked assassin with a red-lacquered blade. SCENE: high angle looking down a black stone corridor in the lowest halls: Shade hangs upside-down from a ceiling beam above an unaware sentry carrying a lantern, red-lacquered blade drawn, only its white mask catching the lantern glow. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-112 (112)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Shade
+Title: Mask of the Depths
+Stars: ★★
+Ascension band: ASCENSION • from Shade ★
+Origin | Class | Tier: Umbral | Rogue | TIER II
+Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. **Masked Theft.**
+3. When Shade defeats a champion on your turn, your rival discards a card at random.
+Flavour: “Lose something?”
+Crown 2: none
+Might | Guard: 6 | 4
+Footer: 112/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The mask cracks, revealing a crimson glow beneath. SCENE: low tilted angle in a narrow vault passage: Shade drops into a crouch behind a fallen rival champion, its cracked mask leaking a crimson glow, red blade flicked clean, a stolen pouch already in its other hand; cold teal shadows, one guttering torch. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-185 (185)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Shade
+Title: Mask of the Depths
+Stars: ★★★
+Ascension band: ASCENSION • from Shade ★★
+Origin | Class | Tier: Umbral | Rogue | TIER II
+Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **Masked Theft.**
+4. **Attack:** Take a Relic from a rival champion and attach it to Shade.
+5. If you can’t, Scorch 1 a rival champion.
+6. When Shade defeats a champion on your turn, your rival discards a card at random.
+Flavour: “No face. No name. No witnesses.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 6
+Footer: 185/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A wraith of ribbons and knives; the mask floats in front of an empty hood. SCENE: heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 112 ★★: up-arrow 1, not up-arrow 0.
+- 185 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.

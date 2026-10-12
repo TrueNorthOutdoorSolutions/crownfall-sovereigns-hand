@@ -16,10 +16,10 @@ A Set 2 card's ability name is the name of that champion's new ability in Crownf
 ## Rules for the remix
 
 1. **Origin stays** (who they are, matches their look and lore). **Class changes** to a brand-new Season 1.5 class. No Season 1 class is reused. **Ascendant stays** on the Tier V legends because it is a deck rule (one per deck), not a fighting style.
-2. **Cross-set Ascension by name** (owner rule): any ★ Bramble can Ascend into any ★★ Bramble and then any ★★★ Bramble, from either set. *This changes the current rule (same name AND title) and needs a small rules-engine change.*
-3. **Rarity is not tier in Set 2.** The trait bar still shows TIER I–V (cost and size); the footer letter shows how special the card is. A Tier I can be Mythic (a build-around engine); a Tier IV can be Common (a plain, efficient body that is worse than a Set 1 card in the right deck). Rarity buys *complexity and build-around power*, never raw stats, so packs stay fair.
+2. **Cross-set Ascension by name** (owner rule): any ★ Bramble can Ascend into any ★★ Bramble and then any ★★★ Bramble, from either set. *Done in the engine (2026-10-11).*
+3. **Rarity is not tier.** The trait bar still shows TIER I–V (cost and size); the footer letter shows how special the card is. Rarity is set **per card and per star form** by the rarity rubric (`RARITY_RUBRIC.md`, adopted 2026-10-12 for every set). A Tier I can be Mythic; a Tier IV can be Common. Rarity buys *complexity and build-around power*, never raw stats, so packs stay fair.
 4. **Same stat budget as Set 1** for each tier and star (about +3 Might / +3 Guard per star, same costs). Sets differ in how they win, not how hard. Target: Set 1 decks vs Set 2 decks 45–55% in simulation, and no champion line a must-play.
-5. Set 2 = **55 champions × 3 forms (165)** + 4 Monsters + 6 Guardians + 58 Relics + 30 spells + 3 Edicts = **266 cards**, plus **34 Alternate Arts** = 300.
+5. Set 2 = **55 champions × 3 forms (165)** + 4 Monsters + 6 Guardians + 58 Relics + 30 spells (20 Tactics, 10 Schemes) + 3 Edicts = **266 cards**, plus **34 Alternate Arts** = 300. 4 tokens are numbered separately (T01–T04).
 
 ## The 12 new classes
 
@@ -106,18 +106,14 @@ Class sizes: Hunter 6 (2 legends); Artificer, Sentinel, Restorer, Rogue 5; Sharp
 
 ## Rarity in Set 2 (how a Tier I becomes Mythic)
 
-Each champion line gets one rarity for all three forms, chosen by role, not tier:
+Updated 2026-10-12. Each card (each star form) gets its own rarity from the rarity rubric (`RARITY_RUBRIC.md`); there is no line-level rarity and no fixed pattern across the three forms. Current counts (target in brackets): **99 Common** (95–105), **78 Uncommon** (75–85), **50 Elite** (45–55), **22 Epic** (20–26), **17 Mythic** (10–14; printed cards 251 and 252 force the Mythic block to be at least 16, see `AUDIT_CHANGES.md`). Cards are numbered in those blocks; printed numbers never move. Every Mythic is justified in `SET2_RELIST.md`.
 
-- **Common**: plain, efficient, honest. Includes some Tier III and IV bodies that are deliberately *worse* than their Set 1 versions in the abstract, but fit Set 2 synergies.
-- **Uncommon / Elite / Epic**: increasingly build-around.
-- **Mythic**: engine cards that define a deck, including at least two Tier I or II lines (cheap legends of their class) and all eight Tier V.
-
-Target pack mix stays close to Set 1 so the shop odds still read sensibly: about 25% Common, 25% Uncommon, 15% Elite, 20% Epic, 15% Mythic across the 266 cards.
+The job descriptions above are the classes' long-term identity. Not all of them have cards yet: the Sentinel "readies to block", the Seer "sets extra Schemes / peeks", the Delver "looks at the top of the deck" and the Sapper "breaks Edicts / extra shard breaks" are ideas for Set 3 (`AUDIT_SETS_1_2.md` Appendix A). Set 2 adds 5 Schemes for the Seers (10 in all).
 
 ## Still to decide
 
 - DECIDED: at most **2 champions of the same name** per deck across all sets; Ascension Pile at most 2 of each name and star.
 - DECIDED: **12 Set 2 Masterworks** (ATLAS-Ω, The Unwritten King, Veyra Sol, Mother Verdant + 8 champions not featured as Set 1 Masterworks). Omegas: 10 or 12 still open.
-- Balance (600 games per pairing, 2026-10-11): Banner 46.9, Ember 56.0, Vault 47.9, Brood 49.2 (Set 1 51.5 vs Set 2 48.6). Ember is strongest against Set 2 (~58%); left as is because it is a printed Set 1 deck.
+- Balance (1,000 games per pairing, 2026-10-12, after the audit changes): Banner 46.5, Ember 55.2, Vault 49.1, Brood 49.2. Ember is strongest against Set 2 (57–59%); left as is because it is a printed Set 1 deck.
 
-After approval: design all 165 Set 2 champion cards to the budget, update the engine for cross-set Ascension, renumber Set 2 to /266, regenerate the art prompts, and run the Set 1 vs Set 2 balance simulations before any art is generated.
+Done since approval: all 165 Set 2 champion cards designed to the budget, cross-set Ascension in the engine, Set 2 numbered /266 by rarity block, art prompts regenerated, Set 1 vs Set 2 simulations run, and the 2026-10-12 audit fixes applied (`AUDIT_CHANGES.md`).

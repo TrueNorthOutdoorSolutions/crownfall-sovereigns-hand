@@ -9,59 +9,62 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-046 (046)
-Cost: 4 (GREEN gem)
-Name: Aurelia
-Title: Leader of the Descent
+Cost: 5 (GREEN gem)
+Name: Titan Rho
+Title: Vault Bastion
 Stars: ★
 No Ascension band
-Origin | Class | Tier: Kingdom | Delver | TIER III
-Trait icons: Kingdom: blue crown; Delver: amber lantern
-Keywords: none (text box starts with the ability name)
+Origin | Class | Tier: Gearbound | Sentinel | TIER IV
+Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. **Banner of the Descent.**
-2. **Arrival:** Draw a card.
-3. Your other Kingdom champions have +1 Might.
-Flavour: “Rally to me!”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Bastion Protocol.**
+3. Rival champions attacking your Crown get −1 Might.
+Flavour: “City status: unknown. Defending anyway.”
 Crown 2: none
-Might | Guard: 3 | 5
+Might | Guard: 3 | 8
 Footer: 046/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A royal battle commander in blue and gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous ancient war machine on tread-legs. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-047 (047)
-Cost: 4 (GREEN gem)
-Name: Knuckle
-Title: King Under the Pit
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Titanborn | Gladiator | TIER III
-Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
-Keywords: none (text box starts with the ability name)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Titan Rho
+Title: Vault Bastion
+Stars: ★★
+Ascension band: ASCENSION • from Titan Rho ★
+Origin | Class | Tier: Gearbound | Sentinel | TIER IV
+Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
 Text box, line by line:
-1. **Pit King’s Right.**
-2. +2 Might while attacking a champion.
-Flavour: “Surface fighters. Cute.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. Reach *(Can block Flight.)*
+3. **Bastion Protocol.**
+4. Rival champions attacking your Crown get −1 Might.
+Flavour: “Perimeter held.”
 Crown 2: none
-Might | Guard: 5 | 5
+Might | Guard: 6 | 10
 Footer: 047/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous stone pit fighter with taped fists. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Fold-out cannon towers and a reactor crown. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-048 (048)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Knuckle
-Title: King Under the Pit
-Stars: ★★
-Ascension band: ASCENSION • from Knuckle ★
-Origin | Class | Tier: Titanborn | Gladiator | TIER III
-Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
-Keywords: none (text box starts with the ability name)
+Cost: 4 (GREEN gem)
+Name: Lady Volt
+Title: Storm in the Deep
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
-1. **Pit King’s Right.**
-2. +2 Might while attacking a champion.
-Flavour: “Who’s next?”
+1. Charge *(Can attack the turn it arrives.)*
+2. **Chain Lightning.**
+3. **Attack: Scorch 1** a rival champion, then Scorch 1 a rival champion.
+Flavour: “Shall we duel?”
 Crown 2: none
-Might | Guard: 8 | 7
+Might | Guard: 5 | 3
 Footer: 048/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Championship belts and cracks of gold in his granite skin. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An elite lightning duelist with a rapier. NEW pose and action, never the Set 1 pose or composition: striking a distant target with a bolt of lightning across a flooded cavern. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

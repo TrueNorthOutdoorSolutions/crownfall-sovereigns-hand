@@ -9,59 +9,62 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-124 (124)
-Cost: 1 (GREEN gem)
-Name: Nyx
-Title: Vault Thief
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Umbral | Rogue | TIER I
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Maeve
+Title: Broker of Relics
+Stars: ★★
+Ascension band: ASCENSION • from Maeve ★
+Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Light Fingers.**
-3. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
-Flavour: “You didn't see me.”
+1. **Sleight of Thorns.**
+2. **Ascend:** Your rival discards a card at random.
+3. Draw a card.
+Flavour: “A fair trade. For me.”
 Crown 2: none
-Might | Guard: 2 | 1
+Might | Guard: 5 | 7
 Footer: 124/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A hooded thief with two crooked daggers. SCENE: top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Antlers of bone and branch; her shadow is a tree. NEW pose and action, never the Set 1 pose or composition: in a hidden underground market, swapping a fake relic for a real one behind her back with a sly smile. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-125 (125)
-Cost: 1 (GREEN gem)
-Name: Emberling
-Title: Ember Conduit
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Elemental | Channeler | TIER I
-Trait icons: Elemental: orange flame; Channeler: violet spiral
-Keywords: none (text box starts with the ability name)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Ronin Zero
+Title: Blade Beneath the Arena
+Stars: ★★
+Ascension band: ASCENSION • from Ronin Zero ★
+Origin | Class | Tier: Voltborn | Gladiator | TIER III
+Trait icons: Voltborn: blue lightning bolt; Gladiator: bronze crested gladiator helmet
+Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
-1. **Ember Echo.**
-2. Whenever you cast a Tactic, Scorch 1 a rival champion.
-Flavour: “Can I burn something?”
+1. Charge *(Can attack the turn it arrives.)*
+2. **Arena Draw.**
+3. +2 Might while attacking a champion.
+4. Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.
+Flavour: “Again.”
 Crown 2: none
-Might | Guard: 1 | 2
+Might | Guard: 7 | 6
 Footer: 125/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A small living flame with curious coal eyes. SCENE: extreme close-up: tiny Emberling hovering over an unrolled glowing spell scroll in a dark forge, drinking a ribbon of fire from the script, its face lit from below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Arc lines trace his frame; his blade hums. NEW pose and action, never the Set 1 pose or composition: locked blade-to-blade with an opponent in a flooded arena pit, sparks flying where the blades meet. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-126 (126)
-Cost: 1 (GREEN gem)
-Name: Hexie
-Title: Reader of Bones
+Cost: 3 (GREEN gem)
+Name: Morrow
+Title: Lord of the Buried Halls
 Stars: ★
 No Ascension band
-Origin | Class | Tier: Hexbound | Seer | TIER I
-Trait icons: Hexbound: purple star outline; Seer: indigo crystal orb
+Origin | Class | Tier: Hollow | Binder | TIER III
+Trait icons: Hollow: teal skull; Binder: teal chain link
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Bone Reading.**
-2. Your Schemes cost 1 less to spring.
-Flavour: “Who wants to be a toad?”
+1. **Call of the Buried.**
+2. **Arrival:** Summon a Risen Soldier.
+3. Your tokens have +1 Might.
+Flavour: “Death is a waste of soldiers.”
 Crown 2: none
-Might | Guard: 1 | 2
+Might | Guard: 2 | 3
 Footer: 126/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An apprentice witch in an oversized hat. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A gaunt necromancer with a bone scythe. NEW pose and action, never the Set 1 pose or composition: raising soldiers from open stone tombs, ghostly chains of light binding them to his will. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

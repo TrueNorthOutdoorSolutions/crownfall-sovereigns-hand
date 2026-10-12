@@ -30,7 +30,7 @@ function tacticUseful(s: GameState, p: PlayerIndex, id: string): boolean {
     case 'buff': return s.active === p && me.field.some((c) => canAttack(s, c));
     case 'command': return me.hand.some((x) => CARDS[x].kind === 'champion' && champion(x).cost > me.command - d.cost);
     case 'summon': return me.field.length < zonesFor(s, p);
-    case 'ascendNow': return me.field.some((c) => nextAscension(s, c));
+    case 'ascendNow': return me.field.some((c) => nextAscension(s, c) && top(c).star <= (eff.maxStar ?? 2) && top(c).star >= (eff.minStar ?? 1));
     case 'extraZone': return me.field.length >= zonesFor(s, p) - 1;
     case 'selfShard': return me.crown.length >= them.crown.length && me.crown.length > eff.n + 2;
     case 'coinFlip': case 'tuck': case 'mend': return true;
@@ -175,6 +175,12 @@ function chooseResponse(s: GameState, p: PlayerIndex, keys: string[]): string | 
       const sc = pl.schemes.find((x) => x.sid === Number(key.slice(2)))!;
       const e = spell(sc.card).effects[0];
       if (e.op === 'cancelAttack' && !d && (top(a).crown === 2 || left <= 3)) return key;
+      // New Schemes (audit 2026-10-12): Mend and a summoned blocker on an unblocked Crown attack; card draw when behind;
+      // tokens when attacked; taking the attacker's Relic (or Scorching it).
+      if ((e.op === 'mend' || (e.op === 'summon' && e.block)) && !d && cbt.target === 'crown') return key;
+      if (e.op === 'draw' && (!e.when || behind(s, p))) return key;
+      if (e.op === 'summon' && !e.block && pl.field.length < zonesFor(s, p) - 1) return key;
+      if (e.op === 'seizeRelic' && (a.relic || !r?.attackerFalls)) return key;
       if (e.op === 'gateBlock' && !d) {
         const cand = pl.field.filter((b) => canBlock(b, a)).map((b) => ({ b, r: predictClash(s, a, b, { blocking: true }) }));
         if (cand.some((c) => !c.r.defenderFalls) || (cand.length && left <= top(a).crown + 1)) return key;

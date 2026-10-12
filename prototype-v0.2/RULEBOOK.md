@@ -126,7 +126,7 @@ These add new card types. They don't change anything above. The two Set 1 starte
 
 **Building a deck.** 30 cards, at most 2 copies of any card, at most 1 Ascendant, at most 1 **Guardian**, and only 1 copy of each **Legendary** Relic. **At most 2 champions with the same name, counting every set** (two Set 1 Brambles, two Set 2 Brambles, or one of each, never more). You also have an Ascension Pile of up to 8 cards, at most 2 of each name and star across sets (for example 2 Bramble ★★). **A champion Ascends into any form with the same name and the next star, from any set:** a Set 1 Bramble ★ can become a Set 2 Bramble ★★, then a Set 1 Bramble ★★★. If two versions are in your pile, you choose. *(Owner rule, 2026-10-11.)*
 
-**Relics.** In your Main step, pay a Relic's cost and attach it to one of your champions that has no Relic. A champion holds at most one. The Relic adds its Might, Guard, keywords and text to that champion, including after it Ascends. If the champion is defeated, the Relic goes to your Fallen pile (or wherever a card says). **Emblems** give the holder that Origin as well as its own. The **Crown of the First Realm** makes its holder count as every Origin. The **Sovereign Crown** gives you a fifth Champion Zone while it is in play.
+**Relics.** In your Main step, pay a Relic's cost and attach it to one of your champions that has no Relic. A champion holds at most one. The Relic adds its Might, Guard, keywords and text to that champion, including after it Ascends. If the champion is defeated, the Relic goes to your Fallen pile (or wherever a card says). **Emblems** give the holder that Origin as well as its own. The **Crown of the First Realm** makes its holder count as every Origin and lets you Ascend twice each turn. The **Sovereign Crown** gives you a fifth Champion Zone while it is in play and returns to your hand when its holder is defeated.
 
 **Edicts.** In your Main step, pay an Edict's cost and put it face-up between the two players. It applies to **both** players. Only one Edict is in play: a new one replaces it, and the old one goes to its owner's Fallen pile. Some Edicts let you **Cycle**: once per turn, pay 1 Command to put a card from your hand on the bottom of your deck, then draw a card.
 
@@ -148,3 +148,27 @@ These add new card types. They don't change anything above. The two Set 1 starte
 | **Token** | Not a card. Removed from the game when defeated. |
 | **Relic / Emblem** | Attaches to a champion. An Emblem adds an Origin. |
 | **Edict** | Shared by both players. Replaced by the next Edict. |
+
+## Glossary: Set 2 words and the 2026-10-12 rules (PROPOSED)
+
+Added after the Set 1 + Set 2 design audit (`AUDIT_SETS_1_2.md` §8). The Sentinel cap and the Channeler cap were approved by Jerian on 2026-10-12. The digital engine works exactly as written here.
+
+| Term | Meaning |
+| --- | --- |
+| **Break a Relic** | The Relic goes to its **owner's** Fallen pile (the player whose deck it came from, even if a rival took it). The champion stays in play. |
+| **Break a face-down Scheme** | Choose one of your rival's face-down Schemes **at random** (shuffle them face-down and pick one). It goes to its owner's Fallen pile without springing. Cards printed before this glossary (001 Bramble ★, 030 Thorn ★) don't say "at random" but work the same way. "Break every face-down Scheme" breaks them all. |
+| **Take a Relic and attach it** | Move the Relic from the rival champion onto your champion. It still **belongs** to its owner: when it breaks, or its holder is defeated, it goes to its owner's Fallen pile. If your champion already holds a Relic, that Relic returns to its owner's hand first, so taking always works. |
+| **If you can't, …** | When there is nothing to break or take (no Relic, no face-down Scheme), do the fallback instead. |
+| **Discard at random** | Your rival shuffles their hand face-down and you pick a card; it goes to their Fallen pile. |
+| **Ready** | Turn a sideways champion upright. A ready champion can attack (on your turn) or block (on your rival's turn) again. "Once per turn" readying counts every "once per turn" ready effect on that champion together. |
+| **Fighting** | A champion is fighting while it is in a clash: as the attacker, as the blocker, or as the champion being attacked. (Hunter: "+N Might while fighting a Monster, a Guardian or a ★★/★★★ champion".) |
+| **Attacking a champion** | Your champion declared an attack on a rival **champion**, not on the Crown. An attack on the Crown that gets blocked is still an attack on the Crown. (Gladiator: "+N Might while attacking a champion".) |
+| **Whenever you cast a Tactic** | Triggers when you cast a Tactic from your hand: in your Main step, or as a **Swift** response on either player's turn. Springing a Scheme is not casting a Tactic. A Tactic cast for free by **Shardfall** doesn't trigger it. |
+| **First two Tactics each turn** | "Whenever you cast a Tactic" abilities (Channelers, and Relics such as Storm Engine) trigger only for the **first two Tactics you cast each turn**. The third and later Tactics still work; they just don't trigger these abilities. The count starts again every turn, and Swift Tactics cast on your rival's turn count toward that turn. |
+| **Sentinel cap** | "Rival champions attacking your Crown get −N Might" from all your cards together (Sentinels, Mountainheart) is **at most −2 Might**. It never stacks beyond −2. |
+| **Monster, Guardian and ★★/★★★ champion** | The Hunter's prey. "Each rival Monster, Guardian and ★★/★★★ champion" means each rival card that is any of those. |
+| **With Flight** | "Each rival champion with Flight" means only rival champions that have Flight right now (from the card or its Relic). |
+| **Costs never go below 0** | Cost reductions (Artificers, Seers, Edicts) stop at 0, whether or not the card says "(minimum 0)". |
+| **Spring it the turn you set it** | Normally a Scheme can't be sprung on the turn it is set. Hexie ★★★ (Set 2) overrides this while it is in play. |
+| **Shards an attack breaks** | An unblocked attack on a Crown breaks 1 shard (2 for a ★★★). The Fallen King's Blade adds 1. Titan's Last Heart caps an unblocked attack on its controller's Crown at 1 shard; if both apply, the cap wins. Breakthrough always breaks 1. |
+| **Ascend twice** | With the Crown of the First Realm in play on one of your champions, you may Ascend two times in a turn (two different champions, or the same one twice if it was on the field when your turn began). |

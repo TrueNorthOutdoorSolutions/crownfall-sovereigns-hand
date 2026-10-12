@@ -1,0 +1,72 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+CARD 1 (left)
+Card number: S2-187 (187)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Thorn
+Title: Rot Beneath the Stone
+Stars: ★★★
+Ascension band: ASCENSION • from Thorn ★★
+Origin | Class | Tier: Verdant | Sapper | TIER II
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Creeping Rot.**
+2. **Ascend:** Break one of your rival’s face-down Schemes at random.
+3. Break a rival champion’s Relic.
+4. Scorch 2 each rival champion.
+Flavour: “I grow in the cracks you can’t see.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 8 | 8
+Footer: 187/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bloom colossus whose petals exhale toxic spores. SCENE: heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 2 (middle)
+Card number: S2-188 (188)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Dax Meridian
+Title: Guardian Hunter
+Stars: ★★
+Ascension band: ASCENSION • from Dax Meridian ★
+Origin | Class | Tier: Riftborn | Hunter | TIER II
+Trait icons: Riftborn: pink diamond-in-a-diamond; Hunter: red three-slash claw mark
+Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Reach *(Can block Flight.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **Rift Hunt.**
+4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+5. When Dax Meridian defeats a champion on your turn, draw a card.
+Flavour: “Big target. Easy shot.”
+Crown 2: none
+Might | Guard: 6 | 4
+Footer: 188/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rift cracks glow along his revolver; his coat shows another sky. SCENE: dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-189 (189)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Elara
+Title: Healer of the Fallen Deep
+Stars: ★★★
+Ascension band: ASCENSION • from Elara ★★
+Origin | Class | Tier: Kingdom | Restorer | TIER II
+Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Field Mending.**
+2. **Ascend:** Mend 1.
+3. Return a ★ champion from your Fallen pile to your hand.
+Flavour: “No one gets left in the dark.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 6 | 10
+Footer: 189/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An angel of the field hospital, light pouring from her open tome. SCENE: heroic wide shot of a cave-in: Elara stands alone in the breach of a collapsing hall, both arms raised as a vast wall of light from her open tome holds back a falling ceiling of stone while the last of the wounded escape behind her; no wings, no halo. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+

@@ -14,6 +14,10 @@ export const STALL_ROUND = 10;
 export const HAND_LIMIT = 8;
 export const ZONES = 4;
 export const SCHEME_ZONES = 3;
+/** Sentinel (owner-approved 2026-10-12): the Crown ward from all sources together is at most −2 Might. */
+export const WARD_CAP = 2;
+/** Channeler (owner-approved 2026-10-12): "Whenever you cast a Tactic" triggers only for your first two Tactics each turn. */
+export const CHANNEL_CAP = 2;
 
 // ── randomness (seeded, stored in state) ───────────────────────────────────────
 function nextRandom(s: GameState): number {
@@ -47,18 +51,30 @@ const staticsOf = (c: ChampionInPlay): Statics[] => [top(c).statics, relicOf(c)?
 type TriggerKey = 'attack' | 'block' | 'attacked' | 'defeats' | 'defeated' | 'rise' | 'cast';
 /** A champion's trigger effects, including its Relic's. */
 const triggers = (c: ChampionInPlay, key: TriggerKey): Effect[] => [...((top(c) as ChampionForm)[key] ?? []), ...((relicOf(c) as Record<string, Effect[] | undefined> | null)?.[key] ?? [])];
-/** Channeler: queue every 'cast' trigger on the caster's champions. */
+/** Channeler: queue every 'cast' trigger on the caster's champions (and their Relics), for the first two Tactics
+ *  this player casts each turn (CHANNEL_CAP). Swift Tactics cast on the rival's turn count toward that turn. */
 function castTriggers(s: GameState, p: PlayerIndex) {
-  for (const c of s.players[p].field) {
-    const t = triggers(c, 'cast');
-    if (t.length) queueEffects(s, t, { controller: p, source: c.stack[c.stack.length - 1], self: c.uid });
+  const pl = s.players[p];
+  const n = pl.tacticsCast?.turn === s.turn ? pl.tacticsCast.n + 1 : 1;
+  pl.tacticsCast = { turn: s.turn, n };
+  const sources = pl.field.filter((c) => triggers(c, 'cast').length);
+  if (!sources.length) return;
+  if (n > CHANNEL_CAP) {
+    log(s, 'effect', `Channelers trigger only for the first ${CHANNEL_CAP} Tactics each turn, so this one triggers nothing.`, p);
+    return;
   }
+  for (const c of sources) queueEffects(s, triggers(c, 'cast'), { controller: p, source: c.stack[c.stack.length - 1], self: c.uid });
 }
 export const edictRule = (s: GameState): EdictRule => (s.edict ? edict(s.edict.card).rule : {});
+/** How many times this player may Ascend this turn: 1, or 2 while one of their champions holds the Crown of the First Realm. */
+export const ascendsAllowed = (s: GameState, p: PlayerIndex) => 1 + (s.players[p].field.some((c) => relicOf(c)?.extraAscend) ? 1 : 0);
 /** Champion Zones available: 4, or 5 with the Sovereign Crown. */
 export const zonesFor = (s: GameState, p: PlayerIndex) => ZONES + (s.players[p].extraZones ?? 0) + (s.players[p].field.some((c) => relicOf(c)?.extraZone) ? 1 : 0);
 /** A champion in play matches a trait: an Origin, a Class, 'token', or 'ascended' (★★ or ★★★). */
 export const hasTrait = (c: ChampionInPlay, trait: string) => trait === 'token' ? !!c.token : trait === 'ascended' ? c.stack.length > 1
+  // 'prey' = what a Hunter hunts: a Monster, a Guardian or a ★★/★★★ champion. 'flight' = a champion with Flight.
+  : trait === 'prey' ? c.stack.length > 1 || top(c).family === 'monster' || top(c).family === 'guardian'
+  : trait === 'flight' ? hasKeyword(c, 'Flight')
   : trait === 'monster' ? top(c).family === 'monster' || top(c).family === 'guardian' : trait === 'relic' ? !!c.relic
   : originsOf(c).includes(trait) || top(c).line.classes.includes(trait);
 /** Effects that break your own shards can't be used if they would break your last one. */
@@ -91,9 +107,11 @@ export function might(s: GameState, c: ChampionInPlay): number {
     }
     if (st.duelMight && s.combat && s.combat.attacker === c.uid && s.combat.target !== 'crown') m += st.duelMight;
   }
-  // Sentinel: champions attacking a Crown guarded by a Sentinel are weaker.
+  // Sentinel: champions attacking a Crown guarded by a Sentinel are weaker; all wards together are at most −WARD_CAP.
   if (s.combat && s.combat.attacker === c.uid && s.combat.target === 'crown') {
-    for (const a of s.players[rival(c.owner)].field) for (const st of staticsOf(a)) m -= st.crownWard ?? 0;
+    let ward = 0;
+    for (const a of s.players[rival(c.owner)].field) for (const st of staticsOf(a)) ward += st.crownWard ?? 0;
+    m -= Math.min(WARD_CAP, ward);
   }
   const mine = originsOf(c);
   for (const a of s.players[c.owner].field) {
@@ -312,12 +330,18 @@ function choiceOptions(s: GameState, item: EffectItem): ChoiceOption[] | null {
     case 'breakRelic': return them.field.filter((c) => c.relic).map(champOpt);
     case 'defeatOne': return them.field.filter((c) => guard(s, c) <= e.n).map(champOpt);
     case 'stealRelic': {
+      // The taker's own Relic (if any) returns to its owner's hand, so a Rogue never goes blank (audit 2026-10-12).
       const taker = item.self !== undefined ? findChampion(s, item.self) : null;
-      if (!taker || taker.relic) return [];
+      if (!taker) return [];
       return them.field.filter((c) => c.relic).map(champOpt);
     }
+    case 'seizeRelic': {
+      const att = s.combat ? findChampion(s, s.combat.attacker) : null;
+      if (!att?.relic || att.owner === item.controller) return [];
+      return me.field.map(champOpt);
+    }
     case 'ascendNow':
-      return me.field.filter((c) => nextAscension(s, c) && top(c).star <= (e.maxStar ?? 2)).map(champOpt);
+      return me.field.filter((c) => nextAscension(s, c) && top(c).star <= (e.maxStar ?? 2) && top(c).star >= (e.minStar ?? 1)).map(champOpt);
     case 'tuck':
       return me.hand.map((id, i) => ({ key: `h:${i}`, label: `${CARDS[id].name} (to the bottom of your deck)` }));
     case 'deployFree':
@@ -353,14 +377,28 @@ const PROMPTS: Partial<Record<Effect['op'], string>> = {
   gateBlock: 'Choose a champion to ready and block the attack.',
 };
 
+/** "If you can't, …": queue an effect's fallback when it had nothing to break or take (audit 2026-10-12). */
+function fallback(s: GameState, item: EffectItem): boolean {
+  const alt = 'orElse' in item.effect ? item.effect.orElse : undefined;
+  if (!alt?.length) return false;
+  log(s, 'effect', `${CARDS[item.source].name}: nothing to ${item.effect.op === 'breakScheme' || item.effect.op === 'breakRelic' ? 'break' : 'take'}, so the fallback happens instead.`, item.controller);
+  queueEffects(s, alt, { controller: item.controller, source: item.source, self: item.self, ctx: item.ctx }, true);
+  return true;
+}
+
 function runEffect(s: GameState, item: EffectItem) {
   const cond = item.effect.when;
   if (cond === 'behind' && !behind(s, item.controller)) return;
   if (cond === 'ahead' && !(s.players[item.controller].crown.length > s.players[rival(item.controller)].crown.length)) return;
+  if (cond === 'vsChampion' && !(s.combat && s.combat.target !== 'crown' && s.combat.attacker === item.self)) return;
   const options = choiceOptions(s, item);
   if (options !== null) {
     const optional = 'optional' in item.effect ? !!item.effect.optional : false;
-    if (!options.length) { log(s, 'effect', `${CARDS[item.source].name}: no legal target, so that part does nothing.`, item.controller); return; }
+    if (!options.length) {
+      if (fallback(s, item)) return;
+      log(s, 'effect', `${CARDS[item.source].name}: no legal target, so that part does nothing.`, item.controller);
+      return;
+    }
     if (options.length === 1 && !optional) { resolveEffect(s, item, options[0].key); return; }
     s.pending = { kind: 'choose', player: item.controller, prompt: `${CARDS[item.source].name}: ${PROMPTS[item.effect.op] ?? 'Choose.'}`, options, optional, item };
     return;
@@ -382,14 +420,15 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
     case 'scorch': {
       const t = e.target === 'chooseRival' ? byKey(key) : ctxChamp(e.target);
       if (!t) return;
+      if (relicOf(t)?.scorchProof) { log(s, 'effect', `${src}: ${champName(t)} holds ${relicOf(t)!.name}, so Scorch has no effect on it.`, p); return; }
       t.mods.guard -= e.n;
       log(s, 'effect', `${src}: ${champName(t)} gets −${e.n} Guard this turn (Scorch ${e.n}).`, p);
       return;
     }
     case 'scorchAll': {
-      const field = s.players[rival(p)].field;
+      const field = s.players[rival(p)].field.filter((c) => (!e.trait || hasTrait(c, e.trait)) && !relicOf(c)?.scorchProof);
       for (const c of field) c.mods.guard -= e.n;
-      if (field.length) log(s, 'effect', `${src}: every rival champion gets −${e.n} Guard this turn (Scorch ${e.n}).`, p);
+      if (field.length) log(s, 'effect', `${src}: ${e.trait ? `${field.length} rival champion(s) (${e.trait})` : 'every rival champion'} get −${e.n} Guard this turn (Scorch ${e.n}).`, p);
       return;
     }
     case 'shield': {
@@ -486,6 +525,11 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       }
       if (made) log(s, 'effect', `${src}: ${P(p)} summons ${made} ${CARDS[e.token].name} token${made > 1 ? 's' : ''}.`, p);
       else log(s, 'effect', `${src}: no free Champion Zone, so nothing is summoned.`, p);
+      if (e.block && made && s.combat && s.combat.defender === null && s.combat.attackerOwner !== p) {
+        const blocker = me.field[me.field.length - made];
+        const att = findChampion(s, s.combat.attacker);
+        if (att) setBlocker(s, blocker); // "It blocks that attack" (even a Flight attacker)
+      }
       return;
     }
     case 'buffRivals': {
@@ -552,7 +596,7 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
       return;
     }
     case 'defeatGuardAtMost': {
-      const victims = s.players[rival(p)].field.filter((c) => guard(s, c) <= e.n);
+      const victims = s.players[rival(p)].field.filter((c) => guard(s, c) <= e.n && (!e.trait || hasTrait(c, e.trait)));
       if (!victims.length) log(s, 'effect', `${src}: no rival champion has Guard ${e.n} or less.`, p);
       for (const c of victims) tryDefeat(s, c, `${src}`);
       return;
@@ -579,24 +623,29 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
     }
     case 'breakRelic': {
       const t = byKey(key);
-      if (!t || !t.relic) return;
+      if (!t || !t.relic) { fallback(s, item); return; }
       log(s, 'effect', `${src}: ${CARDS[t.relic].name} on ${champName(t)} breaks and goes to its owner's Fallen pile.`, p);
       s.players[relicHome(t)].fallen.push(t.relic);
       t.relic = null;
       t.relicOwner = undefined;
       return;
     }
-    case 'stealRelic': {
-      const t = byKey(key);
-      if (!t || !t.relic) return;
-      const taker = item.self !== undefined ? findChampion(s, item.self) : null;
-      if (!taker || taker.relic || taker.owner !== p) return;
-      const id = t.relic, home = relicHome(t);
-      t.relic = null;
-      t.relicOwner = undefined;
+    case 'stealRelic': case 'seizeRelic': {
+      // stealRelic: from the chosen rival champion to this champion. seizeRelic (Scheme): from the attacker to the chosen champion.
+      const from = e.op === 'stealRelic' ? byKey(key) : (s.combat ? findChampion(s, s.combat.attacker) : null);
+      const taker = e.op === 'stealRelic' ? (item.self !== undefined ? findChampion(s, item.self) : null) : byKey(key);
+      if (!from || !from.relic || !taker || taker.owner !== p) { fallback(s, item); return; }
+      if (taker.relic) {
+        // The taker's old Relic returns to its owner's hand first (glossary: "Take a Relic and attach it").
+        s.players[relicHome(taker)].hand.push(taker.relic);
+        log(s, 'effect', `${src}: ${CARDS[taker.relic].name} returns from ${champName(taker)} to its owner's hand.`, p);
+      }
+      const id = from.relic, home = relicHome(from);
+      from.relic = null;
+      from.relicOwner = undefined;
       taker.relic = id;
       taker.relicOwner = home === taker.owner ? undefined : home;
-      log(s, 'effect', `${src}: takes ${CARDS[id].name} from ${champName(t)} and attaches it to ${champName(taker)}. It still belongs to ${P(home)}.`, p);
+      log(s, 'effect', `${src}: takes ${CARDS[id].name} from ${champName(from)} and attaches it to ${champName(taker)}. It still belongs to ${P(home)}.`, p);
       return;
     }
     case 'defeatOne': {
@@ -625,7 +674,7 @@ function resolveEffect(s: GameState, item: EffectItem, key: string | null) {
     }
     case 'breakScheme': {
       const them = s.players[rival(p)];
-      if (!them.schemes.length) return;
+      if (!them.schemes.length) { fallback(s, item); return; }
       const [sc] = them.schemes.splice(Math.floor(nextRandom(s) * them.schemes.length), 1);
       them.fallen.push(sc.card);
       log(s, 'effect', `${src}: one of ${P(rival(p))}'s face-down Schemes breaks (${CARDS[sc.card].name}).`, p);
@@ -680,8 +729,10 @@ function tryDefeat(s: GameState, c: ChampionInPlay, why: string): boolean {
   }
   if (c.relic) {
     const home = s.players[relicHome(c)];
-    if (rule.relicReturn) { home.hand.push(c.relic); log(s, 'effect', `Relic Tide: ${CARDS[c.relic].name} returns to its owner's hand.`, c.owner); }
-    else home.fallen.push(c.relic);
+    if (rule.relicReturn || relic(c.relic).returnsToHand) {
+      home.hand.push(c.relic);
+      log(s, 'effect', `${rule.relicReturn ? 'Relic Tide' : CARDS[c.relic].name}: ${CARDS[c.relic].name} returns to its owner's hand.`, c.owner);
+    } else home.fallen.push(c.relic);
   }
   queueEffects(s, triggers(c, 'defeated'), { controller: c.owner, source: c.stack[c.stack.length - 1] });
   if (rule.monsterDraw && (top(c).family === 'monster' || top(c).family === 'guardian')) {
@@ -733,6 +784,7 @@ export function responseOptions(s: GameState, q: PlayerIndex): ChoiceOption[] {
       if (!ok) continue;
       if (d.effects.some((e) => e.op === 'shield') && !pl.field.some((c) => !c.shield)) continue;
       if (d.effects.some((e) => e.op === 'gateBlock') && !pl.field.some((b) => canBlock(b, att))) continue;
+      if (d.effects.some((e) => e.op === 'summon' && e.block) && pl.field.length >= zonesFor(s, q)) continue;
       out.push({ key: `s:${sc.sid}`, label: `Spring ${d.name} (${schemeCost(s, q, d)} Command)` });
     }
   }
@@ -799,7 +851,9 @@ function resolveClash(s: GameState, att: ChampionInPlay) {
   const def = cbt.defender !== null ? findChampion(s, cbt.defender) : null;
   if (!def) {
     if (cbt.target === 'crown') {
-      const n = top(att).crown;
+      // Fallen King's Blade adds shards; Titan's Last Heart caps them (the cap wins).
+      const cap = Math.min(Infinity, ...s.players[q].field.map((c) => relicOf(c)?.crownCap ?? Infinity));
+      const n = Math.min(cap, top(att).crown + (relicOf(att)?.extraCrown ?? 0));
       log(s, 'clash', `${champName(att)} is unblocked and strikes ${P(q)}'s Crown: ${n} shard${n > 1 ? 's' : ''} break${n > 1 ? '' : 's'}.`, att.owner);
       for (let k = 0; k < n; k++) s.queue.push({ kind: 'breakShard', player: q, reason: 'attack' });
     }
@@ -870,7 +924,7 @@ export function ascendBlockReason(s: GameState, c: ChampionInPlay): string | nul
   if (!next) return top(c).star >= 3 ? 'Already ★★★.' : `No ${stars(top(c).star + 1)} form for ${top(c).name} in your Ascension Pile.`;
   if (s.active !== c.owner) return "Only on your own turn.";
   if (s.phase !== 'main' && s.phase !== 'after') return 'Ascend during your Main step or after battle.';
-  if (pl.ascendedOnTurn === s.turn) return 'You already Ascended this turn.';
+  if (pl.ascendedOnTurn === s.turn && (pl.ascendsOnTurn ?? 1) >= ascendsAllowed(s, c.owner)) return ascendsAllowed(s, c.owner) > 1 ? 'You already Ascended twice this turn.' : 'You already Ascended this turn.';
   if (c.arrivedTurn >= s.turn) return 'It must have been on the field when your turn began.';
   if (pl.command < ascendCost(s, next)) return `Needs ${ascendCost(s, next)} Command (you have ${pl.command}).`;
   return null;
@@ -1001,6 +1055,7 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
       c.stack.push(next.id);
       c.ascendedTurn = s.turn;
       c.exhausted = true;
+      pl.ascendsOnTurn = pl.ascendedOnTurn === s.turn ? (pl.ascendsOnTurn ?? 1) + 1 : 1;
       pl.ascendedOnTurn = s.turn;
       s.stats.ascends[player]++;
       log(s, 'ascend', `${P(player)} ASCENDS ${next.name} to ${stars(next.star)} for ${paid} Command (Might ${next.might}, Guard ${next.guard}). It turns sideways.`, player);

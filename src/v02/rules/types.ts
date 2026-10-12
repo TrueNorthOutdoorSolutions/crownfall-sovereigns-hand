@@ -39,6 +39,10 @@ export interface PlayerState {
   command: number;
   commandMax: number;
   ascendedOnTurn: number;
+  /** How many times this player has Ascended on ascendedOnTurn (2 allowed with the Crown of the First Realm). */
+  ascendsOnTurn?: number;
+  /** Tactics this player has cast this turn (Channelers trigger for the first two only). */
+  tacticsCast?: { turn: number; n: number };
   mulliganed: boolean;
   /** The Edict this player owns that is currently in play. */
   edictCard?: string | null;

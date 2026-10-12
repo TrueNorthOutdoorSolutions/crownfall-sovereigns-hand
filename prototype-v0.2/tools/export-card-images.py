@@ -10,6 +10,10 @@ Card ids come from prototype-v0.2/master-card-list-set<N>.csv; Alternate Art and
 card-art/ALT_ART_LIST.md and card-art/MASTERWORKS.md. Nothing here changes card text.
 
 Usage: python prototype-v0.2/tools/export-card-images.py [set number, default 1]
+       python prototype-v0.2/tools/export-card-images.py 1 --rarity-only   (re-apply rarity to printings.ts, no images)
+
+Rarity: Set 1's printed footers follow champion tier, but its DIGITAL rarity (pack opener, collection) comes from
+prototype-v0.2/data/set1-digital-rarity.json (rarity rubric, owner decision 2026-10-12), so a re-export never reverts it.
 """
 import csv
 import importlib.util
@@ -33,7 +37,20 @@ TIER_RARITY = {"I": "common", "II": "uncommon", "III": "elite", "IV": "epic", "V
 SPELL_RARITY = {"": "common", "Common": "common", "Rare": "uncommon", "Epic": "epic", "Exalted": "mythic"}
 
 
+def load_digital_rarity(set_no):
+    """Per-card digital rarity overrides (data/set<N>-digital-rarity.json), or {} when the set has none."""
+    path = os.path.join(ROOT, "prototype-v0.2", "data", f"set{set_no}-digital-rarity.json")
+    return json.load(open(path, encoding="utf-8"))["rarity"] if os.path.exists(path) else {}
+
+
+DIGITAL = {}
+
+
 def rarity(row):
+    if row["Card ID"] in DIGITAL:
+        return DIGITAL[row["Card ID"]]
+    if row.get("Rarity") in ("common", "uncommon", "elite", "epic", "mythic"):
+        return row["Rarity"]  # Set 2+: every card carries its own rarity in the master list
     tier = row["Champion tier"]
     if tier:
         return TIER_RARITY[tier.split()[1]]
@@ -43,8 +60,28 @@ def rarity(row):
     return SPELL_RARITY[sub]
 
 
+def rarity_only(set_no):
+    """Rewrite only the rarity field of every printing in printings.ts (no images needed)."""
+    ts = os.path.join(ROOT, "src", "v02", "content", "printings.ts")
+    out, changed = [], 0
+    for line in open(ts, encoding="utf-8").read().split("\n"):
+        m = re.match(r'^  (\{.*\}),$', line)
+        if m:
+            p = json.loads(m.group(1))
+            if p["set"] == set_no and p["cardId"] in DIGITAL and p["rarity"] != DIGITAL[p["cardId"]]:
+                p["rarity"] = DIGITAL[p["cardId"]]
+                changed += 1
+                line = f"  {json.dumps(p, ensure_ascii=False)},"
+        out.append(line)
+    open(ts, "w", encoding="utf-8", newline="\n").write("\n".join(out))
+    print(f"Set {set_no}: rarity updated on {changed} printings -> {os.path.relpath(ts, ROOT)}")
+
+
 def main():
     set_no = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+    DIGITAL.update(load_digital_rarity(set_no))
+    if "--rarity-only" in sys.argv:
+        return rarity_only(set_no)
     set_dir = os.path.join(bp.ART, bp.SETS[set_no])
     rows = list(csv.DictReader(open(os.path.join(ROOT, "prototype-v0.2", f"master-card-list-set{set_no}.csv"), encoding="utf-8-sig")))
     by_no = {r["No."].split("-")[1]: r for r in rows}

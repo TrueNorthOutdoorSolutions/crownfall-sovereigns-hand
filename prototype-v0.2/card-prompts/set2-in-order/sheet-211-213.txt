@@ -10,61 +10,62 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-211 (211)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Captain Blacktide
-Title: Plunderer of the Vault
+Name: Gaia Prime
+Title: Root of the Arena
 Stars: ★★★
-Ascension band: ASCENSION • from Captain Blacktide ★★
-Origin | Class | Tier: Riftborn | Rogue | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
-Keywords: Reach *(Can block Flight.)*
+Ascension band: ASCENSION • from Gaia Prime ★★
+Origin | Class | Tier: Verdant | Restorer | TIER IV
+Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Plunder.**
-3. **Ascend:** Take a Relic from a rival champion and attach it to Captain Blacktide.
-4. **Attack: Scorch 2** each rival champion.
-Flavour: “Every vault is just a treasure chest with a door.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Deep Roots.**
+3. **Ascend:** Mend 1.
+4. Summon two Wild Saplings.
+Flavour: “What breaks, I mend.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 9
+Might | Guard: 9 | 13
 Footer: 211/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A ghost galleon's figurehead rises behind him as he fires. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking forest; the ground turns green where she stands. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-212 (212)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Aurelia
-Title: Leader of the Descent
+Name: Lady Volt
+Title: Storm in the Deep
 Stars: ★★★
-Ascension band: ASCENSION • from Aurelia ★★
-Origin | Class | Tier: Kingdom | Delver | TIER III
-Trait icons: Kingdom: blue crown; Delver: amber lantern
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Lady Volt ★★
+Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
-1. **Banner of the Descent.**
-2. **Ascend:** Draw 2 cards.
-3. Ready another champion you control.
-Flavour: “The Kingdom goes where I lead.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 9 | 10
+1. Charge *(Can attack the turn it arrives.)*
+2. **Chain Lightning.**
+3. **Attack: Scorch 3** a rival champion, then Scorch 2 a rival champion, then Scorch 1 a rival champion.
+Flavour: “Lightning never needs a second shot.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 11 | 9
 Footer: 212/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Crowned in light, her banner becomes a column of gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She is lightning with a sword; thunder arrives a heartbeat after her. NEW pose and action, never the Set 1 pose or composition: striking a distant target with a bolt of lightning across a flooded cavern. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-213 (213)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Zyrak
-Title: Shard of the Broken Vault
-Stars: ★★
-Ascension band: ASCENSION • from Zyrak ★
-Origin | Class | Tier: Riftborn | Channeler | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Channeler: violet spiral
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Vessimer
+Title: Alchemist of Relics
+Stars: ★★★
+Ascension band: ASCENSION • from Vessimer ★★
+Origin | Class | Tier: Hexbound | Artificer | TIER IV
+Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Shard Resonance.**
-3. Whenever you cast a Tactic, draw a card.
-Flavour: “Pieces become power.”
-Crown 2: none
-Might | Guard: 5 | 6
+1. **Transmute.**
+2. Your Relics cost 2 less.
+3. **Ascend:** Return a Relic from your Fallen pile to your hand.
+4. Draw a card.
+Flavour: “Everything transmutes.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 9 | 10
 Footer: 213/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): More facets, more light; a halo of crystal shards. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A mobile laboratory of floating flasks and glowing tubes. NEW pose and action, never the Set 1 pose or composition: pouring a glowing tincture over a relic on his alchemy table, transforming it. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 

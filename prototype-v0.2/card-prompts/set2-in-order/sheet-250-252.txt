@@ -1,0 +1,29 @@
+Make this card in the locked master template.
+
+References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+CARD
+Card number: S2-250 (250)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Hexie
+Title: Reader of Bones
+Stars: ★★★
+Ascension band: ASCENSION • from Hexie ★★
+Origin | Class | Tier: Hexbound | Seer | TIER I
+Trait icons: Hexbound: purple star outline; Seer: indigo crystal orb
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Bone Reading.**
+2. Your Schemes cost nothing to spring, and you can spring them on the turn you set them.
+3. **Ascend:** Draw 2 cards.
+Flavour: “I saw your trap coming last week.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 6 | 8
+Footer: 250/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A chaos witch riding a floating cauldron, hexes orbiting like fireflies. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+

@@ -28,25 +28,6 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: An experimental 
 
 CARD 2 (middle)
 Card number: S2-035 (035)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: HEX-3
-Title: Core Conduit
-Stars: ★★
-Ascension band: ASCENSION • from HEX-3 ★
-Origin | Class | Tier: Gearbound | Channeler | TIER II
-Trait icons: Gearbound: gold gear; Channeler: violet spiral
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Core Surge.**
-2. Whenever you cast a Tactic, Shield HEX-3.
-Flavour: “Power accepted.”
-Crown 2: none
-Might | Guard: 5 | 6
-Footer: 035/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rune-etched plating; the reactor glows violet. SCENE: low angle inside a reactor chamber: HEX-3 rises free of its cables, rune-etched plating glowing, its violet reactor flaring as spells spill from the conduits around it and are drawn into its core in bright ribbons. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-036 (036)
 Cost: 3 (GREEN gem)
 Name: Valkara
 Title: Judge of the Depths
@@ -61,7 +42,26 @@ Text box, line by line:
 3. Your Schemes cost 1 less to spring.
 Flavour: “Judgment comes from above.”
 Crown 2: none
-Might | Guard: 4 | 3
-Footer: 036/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Might | Guard: 3 | 3
+Footer: 035/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A winged celestial warrior with a spear-sword. SCENE: low angle from a cavern floor: Valkara dives out of the darkness above, wings spread and spear-sword levelled at a huge monster below, her light cutting a bright line through the dust. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-036 (036)
+Cost: 4 (GREEN gem)
+Name: Dreadmouth
+Title: Devourer of Guardians
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Hollow | Hunter | TIER III
+Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Guardian Feast.**
+2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+Flavour: “Hungry…”
+Crown 2: none
+Might | Guard: 5 | 4
+Footer: 036/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous hollow creature that is mostly jaw. NEW pose and action, never the Set 1 pose or composition: bursting up out of black water to seize the armoured leg of a Guardian. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

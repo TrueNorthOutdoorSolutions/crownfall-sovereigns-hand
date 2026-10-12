@@ -10,60 +10,61 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-121 (121)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Solara
-Title: Lamp of the Lost
+Name: Dreadmouth
+Title: Devourer of Guardians
 Stars: ★★
-Ascension band: ASCENSION • from Solara ★
-Origin | Class | Tier: Dawnforged | Restorer | TIER I
-Trait icons: Dawnforged: gold-orange sunburst; Restorer: rose-pink lotus
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Dreadmouth ★
+Origin | Class | Tier: Hollow | Hunter | TIER III
+Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. **Lamplight.**
-2. **Ascend:** Mend 1.
-Flavour: “Hold on. The light’s coming.”
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. **Guardian Feast.**
+3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+Flavour: “The water is hungry.”
 Crown 2: none
-Might | Guard: 3 | 6
+Might | Guard: 8 | 6
 Footer: 121/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gilded vestments and a sun-disc staff that hums with light. SCENE: high angle looking down a flooded stair: Solara wades down the steps holding her light above her head, the glow spreading across the water and lifting the fallen around her. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Bone plates, a second jaw, and ghostfire in its throat. NEW pose and action, never the Set 1 pose or composition: bursting up out of black water to seize the armoured leg of a Guardian. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-122 (122)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Fen
-Title: Pack Hunter
-Stars: ★★★
-Ascension band: ASCENSION • from Fen ★★
-Origin | Class | Tier: Wildkin | Hunter | TIER I
-Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Name: Professor Spark
+Title: Relic Inventor
+Stars: ★★
+Ascension band: ASCENSION • from Professor Spark ★
+Origin | Class | Tier: Gearbound | Artificer | TIER III
+Trait icons: Gearbound: gold gear; Artificer: bronze anvil
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Scent of Prey.**
-3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. When Fen defeats a champion on your turn, draw a card.
-Flavour: “The deeper the dark, the better the hunt.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 7
+1. **Prototype.**
+2. Your Relics cost 1 less.
+3. **Ascend:** Summon an Arc Turret.
+Flavour: “It works! Mostly!”
+Crown 2: none
+Might | Guard: 5 | 6
 Footer: 122/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: An alpha of the blood moon; a red spirit-wolf runs beside every leap. SCENE: over-the-shoulder from behind Fen’s pack on a ridge at night underground: Fen at the front howling, a giant fallen monster below them, a red moon-like crystal glowing in the cavern roof. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A mechanical arm grows from the pack; goggles spark. NEW pose and action, never the Set 1 pose or composition: fixing a crackling relic onto a half-built turret, goggles down, tongue out in concentration. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-123 (123)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Torren
-Title: Keeper of the Deep Vault
-Stars: ★★★
-Ascension band: ASCENSION • from Torren ★★
-Origin | Class | Tier: Titanborn | Sentinel | TIER I
-Trait icons: Titanborn: peach-orange triangle; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Name: Orion
+Title: Star-Charter of the Deep
+Stars: ★★
+Ascension band: ASCENSION • from Orion ★
+Origin | Class | Tier: Astral | Sharpshooter | TIER III
+Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Vault Ward.**
-3. Rival champions attacking your Crown get −2 Might.
-Flavour: “Knock all you like.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 6 | 11
+1. Reach *(Can block Flight.)*
+2. **Charted Shot.**
+3. **Attack: Scorch 1** a rival champion.
+4. Scorch 2 each rival champion with Flight.
+Flavour: “The stars have marked you.”
+Crown 2: none
+Might | Guard: 7 | 5
 Footer: 123/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A mountain made small: crystal spires grow from his shoulders and the shield bears a living rune. SCENE: wide shot from the far end of a great hall: colossal Torren has become part of the vault wall itself, stone fused to his body, the whole door glowing with locking runes as an army halts before him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Constellations glow across his armour; his bow draws starlight. NEW pose and action, never the Set 1 pose or composition: standing on a cavern ledge under painted constellations, loosing an arrow at a distant target in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

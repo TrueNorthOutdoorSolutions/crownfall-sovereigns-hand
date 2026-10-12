@@ -9,61 +9,60 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-130 (130)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Grizz
-Title: Breaker of Beasts
-Stars: ★★★
-Ascension band: ASCENSION • from Grizz ★★
-Origin | Class | Tier: Wildkin | Hunter | TIER II
-Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Knuckle
+Title: King Under the Pit
+Stars: ★★
+Ascension band: ASCENSION • from Knuckle ★
+Origin | Class | Tier: Titanborn | Gladiator | TIER III
+Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Beastbreaker.**
-2. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-3. When Grizz defeats a champion on your turn, Shield Grizz.
-Flavour: “Monsters wrestle. I win.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 10 | 8
+1. **Pit King’s Right.**
+2. +2 Might while attacking a champion.
+Flavour: “Who’s next?”
+Crown 2: none
+Might | Guard: 8 | 7
 Footer: 130/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A primal bear-titan whose roar shakes the arena floor. SCENE: heroic low angle: Grizz rearing up to full height on top of a defeated cave beast, roaring at the cavern ceiling, iron claws raised, torchlight blazing behind him and scattered warriors cheering far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Championship belts and cracks of gold in his granite skin. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-131 (131)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Gearwick-9
-Title: Relic Engineer
+Name: Queen Vespera
+Title: Empress of the Underhalls
 Stars: ★★
-Ascension band: ASCENSION • from Gearwick-9 ★
-Origin | Class | Tier: Gearbound | Artificer | TIER II
-Trait icons: Gearbound: gold gear; Artificer: bronze anvil
-Keywords: Reach *(Can block Flight.)*
+Ascension band: ASCENSION • from Queen Vespera ★
+Origin | Class | Tier: Umbral | Binder | TIER IV
+Trait icons: Umbral: lilac crescent moon; Binder: teal chain link
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Relic Rig.**
-3. Your Relics cost 1 less.
-4. +2 Might while Gearwick-9 holds a Relic.
-Flavour: “Upgrade installed.”
+1. **Underhall Court.**
+2. Your tokens have +1 Might and +1 Guard.
+3. **Ascend:** Summon two Court Shades.
+Flavour: “Dismissed.”
 Crown 2: none
-Might | Guard: 5 | 5
+Might | Guard: 6 | 7
 Footer: 131/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Twin barrels and a targeting monocle that clicks. SCENE: low angle in a vaulted cavern armoury: bigger Gearwick-9 swings its twin barrels toward a target off the card, targeting monocle glowing and clicking into focus, relic parts welded across its frame and smoke curling from the muzzles. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her train becomes a river of shadow courtiers. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-132 (132)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Mirella
-Title: Tide of the Sunken Halls
-Stars: ★★★
-Ascension band: ASCENSION • from Mirella ★★
-Origin | Class | Tier: Elemental | Restorer | TIER II
-Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
+Cost: 4 (GREEN gem)
+Name: Pyrax
+Title: Wyrm of the Deep Forge
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Elemental | Sapper | TIER IV
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Sunken Tide.**
-2. **Ascend: Shield** each champion you control, then Mend 1.
-Flavour: “Rest. The water has you.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 7 | 10
+1. **Undermine.**
+2. **Arrival:** Break a rival champion’s Relic.
+3. If you can’t, Scorch 2 a rival champion.
+Flavour: “Grandmother would be proud.”
+Crown 2: none
+Might | Guard: 5 | 3
 Footer: 132/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A tide queen: a ring of water orbits her and fish of light swim through it. SCENE: heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dragon-blooded warrior with ember scales on her arms. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

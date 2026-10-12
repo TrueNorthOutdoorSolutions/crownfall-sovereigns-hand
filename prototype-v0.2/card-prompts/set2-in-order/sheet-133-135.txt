@@ -10,61 +10,62 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-133 (133)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Shade
-Title: Mask of the Depths
+Name: Pyrax
+Title: Wyrm of the Deep Forge
 Stars: ★★
-Ascension band: ASCENSION • from Shade ★
-Origin | Class | Tier: Umbral | Rogue | TIER II
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Ascension band: ASCENSION • from Pyrax ★
+Origin | Class | Tier: Elemental | Sapper | TIER IV
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Masked Theft.**
-3. When Shade defeats a champion on your turn, your rival discards a card at random.
-Flavour: “Lose something?”
+1. **Undermine.**
+2. **Attack: Scorch 1** each rival champion.
+3. Break one of your rival’s face-down Schemes at random.
+Flavour: “Scorched.”
 Crown 2: none
-Might | Guard: 6 | 4
+Might | Guard: 8 | 7
 Footer: 133/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: The mask cracks, revealing a crimson glow beneath. SCENE: low tilted angle in a narrow vault passage: Shade drops into a crouch behind a fallen rival champion, its cracked mask leaking a crimson glow, red blade flicked clean, a stolen pouch already in its other hand; cold teal shadows, one guttering torch. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Horns and a burning tail; half her body is scaled. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-134 (134)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Borin Ironbelly
-Title: Forgemaster of the Deep
-Stars: ★★★
-Ascension band: ASCENSION • from Borin Ironbelly ★★
-Origin | Class | Tier: Titanborn | Artificer | TIER II
-Trait icons: Titanborn: peach-orange triangle; Artificer: bronze anvil
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
-Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Deep Forge.**
-3. +2 Might and +2 Guard while Borin Ironbelly holds a Relic.
-Flavour: “The deep forge never cools.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 10
-Footer: 134/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Borin becomes a walking furnace; his beard is molten metal and every step leaves slag. SCENE: heroic wide shot of the great forge beneath the Arena: Borin as a walking furnace, beard of molten metal, bringing his hammer down on a colossal anvil as a shockwave of sparks and slag lights every chain and pillar; dwarf smiths shield their eyes far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-135 (135)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Seren
-Title: Starlight in the Dark
-Stars: ★★
-Ascension band: ASCENSION • from Seren ★
-Origin | Class | Tier: Astral | Delver | TIER II
-Trait icons: Astral: blue four-pointed sparkle; Delver: amber lantern
+Cost: 5 (GREEN gem)
+Name: Elysian
+Title: Light of the Lost Halls
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Astral | Seer | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
-2. **Starlit Path.**
-3. **Ascend:** Draw a card.
-4. Summon a Starling.
-Flavour: “Follow the stars, even down here.”
+2. **Prophecy.**
+3. Your Schemes cost 1 less to spring.
+4. **Arrival:** Draw a card.
+Flavour: “No one dies today.”
+Crown 2: none
+Might | Guard: 3 | 6
+Footer: 134/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A serene celestial healer with feathered wings. NEW pose and action, never the Set 1 pose or composition: raising one hand to stop a trap just before it springs, her eyes glowing with foresight. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-135 (135)
+Cost: 5 (GREEN gem)
+Name: General Varr
+Title: Holder of the Gate
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −1 Might.
+4. Your other Kingdom champions have +1 Guard.
+Flavour: “Form up!”
 Crown 2: none
 Might | Guard: 4 | 6
 Footer: 135/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A cloak of night sky and a lantern that holds a real star. SCENE: over-the-shoulder view from behind Seren on a rock spire above a vast underground chasm: her night-sky cloak billowing as she lifts her lantern and a real star inside it flares, revealing a hidden city of ruins far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A grizzled kingdom commander with a tower shield. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

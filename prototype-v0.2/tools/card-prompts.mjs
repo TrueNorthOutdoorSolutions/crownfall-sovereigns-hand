@@ -1,5 +1,5 @@
 // Run with npm run proto:cardprompts. Card content is never rewritten.
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
@@ -32,6 +32,8 @@ const oldStatuses = new Map(oldTracker.split(/\r?\n/).filter(l => /^\| [12] \|/.
   const c = l.split('|').map(x => x.trim()); return [`${c[1]}:${c[3]}`, c[5]];
 }));
 let total = 0;
+/** Generated prompt files written this run; stale ones from older numbering are removed (they are regenerated, never hand-edited). */
+const written = new Set();
 /** Set 2 cards by number, for the in-order sheets (owner rule 2026-10-11: print 001-003, 004-006, ... in number order). */
 const byNumber = new Map();
 for (const set of [1, 2]) {
@@ -49,10 +51,11 @@ for (const set of [1, 2]) {
     assert(line, `Unknown champion: ${heading}`);
     const metadata = group.split(/\r?\n/)[1].replace(/^\*|\*$/g, '').split(' · ');
     const [tier] = metadata;
-    // Footer letter: Set 1 follows champion tier; Set 2+ uses the line's own rarity (owner rule 2026-10-11). All three forms share it.
+    // Footer letter: Set 2+ prints each card's own rarity (owner rule 2026-10-11, rubric 2026-10-12); Set 1's printed
+    // footers follow champion tier (its digital rarity lives in data/set1-digital-rarity.json and never changes a print).
     const LETTER = { common: 'C', uncommon: 'U', elite: 'E', epic: 'P', mythic: 'M' };
-    // Set 2+: every card has its own rarity letter; Set 1 follows champion tier.
-    const letters = line.forms.map((f) => (f.rarity ?? line.rarity) ? LETTER[f.rarity ?? line.rarity] : ['', 'C', 'U', 'E', 'P', 'M'][line.tier]);
+    const perCard = line.forms.every((f) => f.rarity);
+    const letters = line.forms.map((f) => perCard ? LETTER[f.rarity] : ['', 'C', 'U', 'E', 'P', 'M'][line.tier]);
     const rarityLetter = letters[0];
     assert(rarityLetter, `Unknown champion tier: ${line.tier}`);
     // The master-list writer escapes literal pipes inside fields.
@@ -70,7 +73,7 @@ for (const set of [1, 2]) {
         : 'Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.',
       'Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.',
       'Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.',
-      line.rarity ? `Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.`
+      perCard ? `Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.`
         : 'Footer rarity follows champion tier: I = C, II = U, III = E, IV = P, V = M. All three forms share the letter. Collector printings are separate.',
       'Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.', '',
     ];
@@ -121,8 +124,9 @@ for (const set of [1, 2]) {
     const footerLetters = [...promptText.matchAll(/^Footer: \d+\/\d+ · ([CUEPM]) ·/gm)].map(m => m[1]);
     assert.equal(footerLetters.length, 3, `${filename}: each form must have a footer`);
     assert(footerLetters.every((letter, k) => letter === letters[k]),
-      `${filename}: every footer must match the line's rarity letter (${rarityLetter})`);
+      `${filename}: every footer must match its card's rarity letter (${letters.join('/')})`);
     writeFileSync(join(outputDir, `${filename}.txt`), promptText);
+    written.add(join(outputDir, `${filename}.txt`));
     const range = `${numbers[0]}–${numbers[2]}`;
     const status = set === 1 && Number(numbers[0]) <= 7 ? 'Approved' : set === 1 && numbers[0] === '010' ? 'Redo: frame drift (chevron band, empty band on ★, wrong crest)' : oldStatuses.get(`${set}:${range}`) ?? 'Not started';
     tracker.push(`| ${set} | ${line.name} | ${range} | set${set}/${filename}.jpg | ${status} |`);
@@ -159,9 +163,25 @@ for (let start = 1; start <= SET_TOTAL[2]; start += 3) {
   const pos = todo.length === 3 ? ['left', 'middle', 'right'] : ['left', 'right'];
   const body = todo.flatMap((n, k) => [many ? `CARD ${k + 1} (${pos[k]})` : 'CARD', ...byNumber.get(n).block]);
   writeFileSync(join(orderDir, `${name}.txt`), [head, '', ...SET2_HEAD, ...body].join('\n') + '\n');
+  written.add(join(orderDir, `${name}.txt`));
   order.push(`| ${nums.join(', ')} | ${todo.map((n) => `${n} ${byNumber.get(n).name} ${'★'.repeat(byNumber.get(n).star)}`).join(' · ')} | set2-in-order/${name}.txt |`);
   sheets++;
 }
+// Remove stale generated prompts (card numbers moved when rarities changed). Set 1 file names never change.
+let pruned = 0;
+for (const [dir, pattern] of [[join(root, 'card-prompts/set2'), /^cards-\d{3}-\d{3}-.+\.txt$/], [orderDir, /^sheet-\d{3}-\d{3}\.txt$/]]) {
+  for (const f of readdirSync(dir)) {
+    if (!pattern.test(f) || written.has(join(dir, f))) continue;
+    // Sheets whose cards are all finished stay as the record of what was made.
+    if (dir === orderDir) {
+      const [a, b] = f.match(/\d{3}/g).map(Number);
+      if (Array.from({ length: b - a + 1 }, (_, k) => pad(a + k)).every((n) => done.has(n))) continue;
+    }
+    rmSync(join(dir, f));
+    pruned++;
+  }
+}
+if (pruned) console.log(`Removed ${pruned} stale Set 2 prompt files from older numbering.`);
 writeFileSync(join(orderDir, 'ORDER.md'), ['# Set 2 sheets in card-number order', '', 'Generated by `npm run proto:cardprompts`. Finished card numbers go in DONE.txt and are left out of the prompts.', '', '| Cards | Still to make | Prompt |', '| --- | --- | --- |', ...order].join('\n') + '\n');
 console.log(`Set 2 in order: ${sheets} champion sheets written (${done.size} cards already done).`);
 console.log(`Generated ${total} champion prompts in master-list order and CARD_ART_TRACKER.md.`);

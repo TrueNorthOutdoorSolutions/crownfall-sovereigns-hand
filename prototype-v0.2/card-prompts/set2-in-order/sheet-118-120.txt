@@ -10,41 +10,40 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-119 (119)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Grimm
-Title: The Last Sentry
-Stars: ★★★
-Ascension band: ASCENSION • from Grimm ★★
-Origin | Class | Tier: Hollow | Sentinel | TIER I
-Trait icons: Hollow: teal skull; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Name: HEX-3
+Title: Core Conduit
+Stars: ★★
+Ascension band: ASCENSION • from HEX-3 ★
+Origin | Class | Tier: Gearbound | Channeler | TIER II
+Trait icons: Gearbound: gold gear; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Last Watch.**
-3. Rival champions attacking your Crown get −1 Might.
-4. When Grimm is defeated, Summon two Risen Soldiers.
-Flavour: “Still on watch. Always on watch.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 7 | 10
+1. **Core Surge.**
+2. Whenever you cast a Tactic, Shield HEX-3.
+Flavour: “Power accepted.”
+Crown 2: none
+Might | Guard: 5 | 6
 Footer: 119/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate. SCENE: high angle looking down a grand stair into a vault: Grimm alone on the bottom step holding the line against a tide of shadowy invaders, spectral light pouring from his ribs and banner, the treasure door glowing amber behind him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rune-etched plating; the reactor glows violet. SCENE: low angle inside a reactor chamber: HEX-3 rises free of its cables, rune-etched plating glowing, its violet reactor flaring as spells spill from the conduits around it and are drawn into its core in bright ribbons. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (right)
 Card number: S2-120 (120)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Pip
-Title: Tunnel Blaster
-Stars: ★★★
-Ascension band: ASCENSION • from Pip ★★
-Origin | Class | Tier: Gearbound | Sapper | TIER I
-Trait icons: Gearbound: gold gear; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
-Keywords: none (text box starts with the ability name)
+Name: Valkara
+Title: Judge of the Depths
+Stars: ★★
+Ascension band: ASCENSION • from Valkara ★
+Origin | Class | Tier: Astral | Seer | TIER III
+Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. **Tunnel Charge.**
-2. **Ascend: Scorch 2** each rival champion.
-3. Break a rival champion’s Relic.
-Flavour: “Bigger tunnel! You’re welcome!”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 7
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Foresight Verdict.**
+3. Your Schemes cost 1 less to spring.
+4. **Ascend:** Defeat each rival champion with Guard 1 or less.
+Flavour: “I’ve already seen how this ends.”
+Crown 2: none
+Might | Guard: 7 | 6
 Footer: 120/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Pip rides a ridiculous miniature mechanical war machine with a bomb chute. SCENE: aerial view straight down into a huge cavern: Pip on a ledge at the edge of a massive blast crater she has just made, a crowd of tiny figures staring up, dust clouds rolling outward in rings, warm firelight in the crater. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Wings of starlight and a gilded war-helm. SCENE: side view on a broken stone bridge: Valkara lands in a crouch before a kneeling monster, wings of starlight half-folded, gilded war-helm lit by the glow of her spear-sword raised in judgment. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

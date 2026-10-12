@@ -10,62 +10,64 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-205 (205)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Seren
-Title: Starlight in the Dark
+Name: Titan Rho
+Title: Vault Bastion
 Stars: ★★★
-Ascension band: ASCENSION • from Seren ★★
-Origin | Class | Tier: Astral | Delver | TIER II
-Trait icons: Astral: blue four-pointed sparkle; Delver: amber lantern
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Titan Rho ★★
+Origin | Class | Tier: Gearbound | Sentinel | TIER IV
+Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Starlit Path.**
-3. **Ascend:** Draw 2 cards.
-Flavour: “No one gets lost on my watch.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. Reach *(Can block Flight.)*
+3. **Bastion Protocol.**
+4. Rival champions attacking your Crown get −2 Might.
+5. **Block: Shield** Titan Rho.
+Flavour: “Bastion holds.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 7 | 9
+Might | Guard: 9 | 13
 Footer: 205/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations sketch themselves around her; a flock of light-birds circles overhead. SCENE: heroic wide shot of an enormous cavern turned into a night sky: Seren floating at centre-left, constellations drawing themselves across the cave roof around her and a great flock of light-birds circling overhead, the whole underworld lit silver-blue; wondrous and vast. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking citadel with a garrison of tiny brass drones. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-206 (206)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Elara
-Title: Healer of the Fallen Deep
+Name: Pyrax
+Title: Wyrm of the Deep Forge
 Stars: ★★★
-Ascension band: ASCENSION • from Elara ★★
-Origin | Class | Tier: Kingdom | Restorer | TIER II
-Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
+Ascension band: ASCENSION • from Pyrax ★★
+Origin | Class | Tier: Elemental | Sapper | TIER IV
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Field Mending.**
-2. **Ascend:** Mend 1.
-3. Return a ★ champion from your Fallen pile to your hand.
-Flavour: “No one gets left in the dark.”
+1. **Undermine.**
+2. **Ascend: Scorch 2** each rival champion.
+3. Break a rival champion’s Relic.
+4. Break one of your rival’s face-down Schemes at random.
+Flavour: “Collapse the deep.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 6 | 10
+Might | Guard: 11 | 10
 Footer: 206/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: An angel of the field hospital, light pouring from her open tome. SCENE: heroic wide shot of a cave-in: Elara stands alone in the breach of a collapsing hall, both arms raised as a vast wall of light from her open tome holds back a falling ceiling of stone while the last of the wounded escape behind her; no wings, no halo. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She becomes a dragon in all but wings, and the wings are coming. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-207 (207)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Rask
-Title: Champion of the Underpits
-Stars: ★★★
-Ascension band: ASCENSION • from Rask ★★
-Origin | Class | Tier: Wildkin | Gladiator | TIER II
-Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
-Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Elysian
+Title: Light of the Lost Halls
+Stars: ★★
+Ascension band: ASCENSION • from Elysian ★
+Origin | Class | Tier: Astral | Seer | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. Ambush *(Attacking a sideways champion, it strikes first.)*
-3. **Pit Fighter.**
-4. +2 Might while attacking a champion.
-5. Once per turn, when Rask defeats a champion on your turn, ready Rask.
-Flavour: “The pit chooses its king.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 8
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Prophecy.**
+3. Your Schemes cost 1 less to spring.
+4. **Ascend: Shield** each champion you control.
+Flavour: “All of you, safe.”
+Crown 2: none
+Might | Guard: 6 | 9
 Footer: 207/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: The undefeated: golden scales and a cloak of every champion he has bested. SCENE: heroic low-angle hero shot of the packed Underpits arena: golden-scaled Rask large in frame raising his gladius in triumph on top of a defeated Guardian, cloak of fallen champions streaming behind him, the roaring crowd lit by a ring of fire; glorious and undefeated. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A second pair of wings and a halo of script. NEW pose and action, never the Set 1 pose or composition: raising one hand to stop a trap just before it springs, her eyes glowing with foresight. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

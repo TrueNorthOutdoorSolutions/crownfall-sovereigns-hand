@@ -10,65 +10,67 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-238 (238)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Astryon
-Title: Blade That Fell Beneath
-Stars: ★★★
-Ascension band: ASCENSION • from Astryon ★★
-Origin | Class | Tier: Astral | Gladiator | TIER IV
-Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Name: Sol
+Title: Dawn Beneath the World
+Stars: ★★
+Ascension band: ASCENSION • from Sol ★
+Origin | Class | Tier: Dawnforged | Ascendant · Restorer | TIER V
+Trait icons: Dawnforged: gold-orange sunburst; Ascendant: gold crown (distinct from the blue Kingdom crown); Restorer: rose-pink lotus
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Starfall Duel.**
-3. +3 Might while attacking a champion.
-4. Once per turn, when Astryon defeats a champion on your turn, ready Astryon.
-Flavour: “Seven blades. One winner.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 12 | 9
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **SECOND DAWN.**
+4. **Ascend:** Mend 1.
+5. Shield each champion you control.
+Flavour: “The light endures.”
+Crown 2: none
+Might | Guard: 8 | 10
 Footer: 238/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A corona and four wings of light. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-239 (239)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Elysian
-Title: Light of the Lost Halls
+Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
+Name: Veyra Sol
+Title: Hunter of Guardians
 Stars: ★★★
-Ascension band: ASCENSION • from Elysian ★★
-Origin | Class | Tier: Astral | Seer | TIER IV
-Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Veyra Sol ★★
+Origin | Class | Tier: Riftborn | Ascendant · Hunter | TIER V
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Prophecy.**
-3. Your Schemes cost 2 less to spring.
-4. **Ascend: Shield** each champion you control.
-Flavour: “I saw your move before you made it.”
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. Ambush *(Attacking a sideways champion, it strikes first.)*
+4. **THE HUNT ETERNAL.**
+5. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+6. Once per turn, when Veyra Sol defeats a champion on your turn, ready Veyra Sol.
+Flavour: “The bigger they are, the longer the fall.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 12
+Might | Guard: 15 | 10
 Footer: 239/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A seraph of the firmament; her wings are made of dawn. NEW pose and action, never the Set 1 pose or composition: raising one hand to stop a trap just before it springs, her eyes glowing with foresight. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She exists in every reality at once, and all of them are hunting. NEW pose and action, never the Set 1 pose or composition: leaping out of a portal onto a Guardian’s back, blade raised. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-240 (240)
-Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
-Name: ATLAS-Ω
-Title: The Vault Engine
-Stars: ★★★
-Ascension band: ASCENSION • from ATLAS-Ω ★★
-Origin | Class | Tier: Gearbound | Ascendant · Sentinel | TIER V
-Trait icons: Gearbound: gold gear; Ascendant: gold crown (distinct from the blue Kingdom crown); Sentinel: grey stone watchtower
-Keywords: Ascendant *(One per deck.)* · Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Crownless
+Title: The Unbound
+Stars: ★★
+Ascension band: ASCENSION • from Crownless ★
+Origin | Class | Tier: Crownless | Ascendant | TIER V
+Trait icons: Crownless: grey crossed-out crown; Ascendant: gold crown (distinct from the blue Kingdom crown)
+Keywords: Ascendant *(One per deck.)* · Charge *(Can attack the turn it arrives.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
-2. Bulwark *(Blocking doesn't turn it sideways.)*
-3. Reach *(Can block Flight.)*
-4. **VAULT PROTOCOL.**
-5. Rival champions attacking your Crown get −2 Might.
-6. **Attack: Scorch 3** each rival champion.
-Flavour: “Vault sealed. Threat denied.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 11 | 15
+2. Charge *(Can attack the turn it arrives.)*
+3. Flight *(Only Flight or Reach can block it.)*
+4. **UNBOUND.**
+5. **Ascend:** Ready Crownless.
+Flavour: “Still not taking it.”
+Crown 2: none
+Might | Guard: 10 | 10
 Footer: 240/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A titan of the last war: a sun burns in its chest. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Cracks of Crown-light spread through the armour. NEW pose and action, never the Set 1 pose or composition: standing alone in the empty vault where the Crown once rested, turning his back on the empty pedestal. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

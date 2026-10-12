@@ -1,0 +1,72 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep the character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition, never the Set 1 one. Show the new class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+Card number: S2-019 (019)
+Cost: 3 (GREEN gem)
+Name: Solenne Ash
+Title: Lantern of the Underways
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Dawnforged | Delver | TIER II
+Trait icons: Dawnforged: gold-orange sunburst; Delver: amber lantern
+Keywords: Charge *(Can attack the turn it arrives.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. **Lantern Path.**
+3. **Arrival:** Draw a card.
+Flavour: “Shadows, beware.”
+Crown 2: none
+Might | Guard: 3 | 3
+Footer: 019/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A flame knight in rose-gold plate. SCENE: low side angle in a pitch-black underway: Solenne strides forward with her flaming blade held low like a lantern, its fire throwing her long shadow behind her and lighting wet stone walls, shadowy shapes recoiling from the edge of the light. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-020 (020)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Solenne Ash
+Title: Lantern of the Underways
+Stars: ★★
+Ascension band: ASCENSION • from Solenne Ash ★
+Origin | Class | Tier: Dawnforged | Delver | TIER II
+Trait icons: Dawnforged: gold-orange sunburst; Delver: amber lantern
+Keywords: Charge *(Can attack the turn it arrives.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. **Lantern Path.**
+3. **Ascend:** Draw a card.
+Flavour: “Stay close to the light.”
+Crown 2: none
+Might | Guard: 6 | 5
+Footer: 020/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her plume becomes fire; her blade glows white-hot. SCENE: three-quarter view from below on a narrow bridge over a dark chasm: Solenne lifts her white-hot blade overhead, her fiery plume streaming, and a wave of dawnfire rolls ahead of her down the tunnel, burning the shadows away. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-109 (109)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Solenne Ash
+Title: Lantern of the Underways
+Stars: ★★★
+Ascension band: ASCENSION • from Solenne Ash ★★
+Origin | Class | Tier: Dawnforged | Delver | TIER II
+Trait icons: Dawnforged: gold-orange sunburst; Delver: amber lantern
+Keywords: Charge *(Can attack the turn it arrives.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. **Lantern Path.**
+3. **Ascend:** Draw a card.
+4. Shield each champion you control.
+Flavour: “Where I walk, the dark ends.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 8
+Footer: 109/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Sun-forged armour, blazing wings and a trail of dawnfire. SCENE: heroic wide shot of a vast underground hall plunged in darkness: Solenne large in frame driving her blazing sword into the stone floor as a sunrise of fire spreads outward from it, lighting every arch and pillar at once; glorious and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 020 ★★: up-arrow 1, not up-arrow 0.
+- 109 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

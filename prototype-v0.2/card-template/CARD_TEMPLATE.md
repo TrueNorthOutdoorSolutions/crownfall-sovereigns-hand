@@ -94,7 +94,9 @@ Charge *(Can attack the turn it arrives.)* · Bulwark *(Blocking doesn't turn it
 
 ## Rarity letter (footer)
 
-The letter follows the champion's Crownfall tier, and all three forms of a champion share it (decided 2026-10-09):
+**Set 2 and later:** every card prints its OWN rarity letter, set per card and per star form by the rarity rubric (`RARITY_RUBRIC.md`, adopted 2026-10-12): C Common, U Uncommon, E Elite, P Epic, M Mythic. The three forms of a champion can have different letters; the trait bar still shows the TIER.
+
+**Set 1 as printed:** the letter follows the champion's Crownfall tier, and all three forms of a champion share it (decided 2026-10-09). The digital game uses Set 1's rubric rarity instead (`data/set1-digital-rarity.json`); printed Set 1 footers keep these letters until a reprint:
 
 | Tier | Name | Letter |
 | --- | --- | --- |

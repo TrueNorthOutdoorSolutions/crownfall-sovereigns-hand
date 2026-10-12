@@ -9,62 +9,63 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-202 (202)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Hexie
-Title: Reader of Bones
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Astryon
+Title: Blade That Fell Beneath
 Stars: ★★
-Ascension band: ASCENSION • from Hexie ★
-Origin | Class | Tier: Hexbound | Seer | TIER I
-Trait icons: Hexbound: purple star outline; Seer: indigo crystal orb
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Astryon ★
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. **Bone Reading.**
-2. Your Schemes cost 1 less to spring.
-3. **Ascend:** Draw a card.
-Flavour: “The bones never lie. Mostly.”
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starfall Duel.**
+3. +2 Might while attacking a champion.
+4. When Astryon defeats a champion on your turn, draw a card.
+Flavour: “Another star cut down.”
 Crown 2: none
-Might | Guard: 3 | 5
+Might | Guard: 9 | 6
 Footer: 202/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her hat has grown eyes. Her staff has grown opinions. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-203 (203)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Kael
-Title: Relic Seeker
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Astryon
+Title: Blade That Fell Beneath
 Stars: ★★★
-Ascension band: ASCENSION • from Kael ★★
-Origin | Class | Tier: Kingdom | Delver | TIER I
-Trait icons: Kingdom: blue crown; Delver: amber lantern
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Astryon ★★
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. **Delve.**
-2. **Ascend:** Draw 2 cards.
-Flavour: “Whatever’s down there, I find it first.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 7
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starfall Duel.**
+3. +3 Might while attacking a champion.
+4. Once per turn, when Astryon defeats a champion on your turn, ready Astryon.
+Flavour: “Seven blades. One winner.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 12 | 9
 Footer: 203/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet. SCENE: heroic low-angle hero shot: Kael large in frame at the top of a mountain of treasure in a vast collapsed vault, lifting an ancient relic blade high as its light floods the cavern, his torch cast aside, broken pillars and gold spilling around him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-204 (204)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Shade
-Title: Mask of the Depths
+Name: Queen Vespera
+Title: Empress of the Underhalls
 Stars: ★★★
-Ascension band: ASCENSION • from Shade ★★
-Origin | Class | Tier: Umbral | Rogue | TIER II
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Queen Vespera ★★
+Origin | Class | Tier: Umbral | Binder | TIER IV
+Trait icons: Umbral: lilac crescent moon; Binder: teal chain link
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Masked Theft.**
-4. **Attack:** Take a Relic from a rival champion and attach it to Shade.
-5. When Shade defeats a champion on your turn, your rival discards a card at random.
-Flavour: “No face. No name. No witnesses.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 6
+1. **Underhall Court.**
+2. Your tokens have +2 Might and +1 Guard.
+3. **Ascend:** Summon two Court Shades.
+Flavour: “The shadows bow. So will you.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 9 | 10
 Footer: 204/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A wraith of ribbons and knives; the mask floats in front of an empty hood. SCENE: heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A throne of night rises behind her; her crown is an eclipse. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 

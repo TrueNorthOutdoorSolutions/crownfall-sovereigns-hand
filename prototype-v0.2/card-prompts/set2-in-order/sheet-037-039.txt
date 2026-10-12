@@ -9,45 +9,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-037 (037)
-Cost: 4 (GREEN gem)
-Name: Dreadmouth
-Title: Devourer of Guardians
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Hollow | Hunter | TIER III
-Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Guardian Feast.**
-2. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-Flavour: “Hungry…”
-Crown 2: none
-Might | Guard: 5 | 4
-Footer: 037/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous hollow creature that is mostly jaw. NEW pose and action, never the Set 1 pose or composition: bursting up out of black water to seize the armoured leg of a Guardian. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-038 (038)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Dreadmouth
-Title: Devourer of Guardians
-Stars: ★★
-Ascension band: ASCENSION • from Dreadmouth ★
-Origin | Class | Tier: Hollow | Hunter | TIER III
-Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
-Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Guardian Feast.**
-3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-Flavour: “The water is hungry.”
-Crown 2: none
-Might | Guard: 8 | 6
-Footer: 038/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Bone plates, a second jaw, and ghostfire in its throat. NEW pose and action, never the Set 1 pose or composition: bursting up out of black water to seize the armoured leg of a Guardian. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 3 (right)
-Card number: S2-039 (039)
 Cost: 3 (GREEN gem)
 Name: Professor Spark
 Title: Relic Inventor
@@ -62,6 +23,46 @@ Text box, line by line:
 Flavour: “Excessive voltage? Never!”
 Crown 2: none
 Might | Guard: 2 | 3
-Footer: 039/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 037/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A wild-haired engineer with a wrench and a tool-pack. NEW pose and action, never the Set 1 pose or composition: fixing a crackling relic onto a half-built turret, goggles down, tongue out in concentration. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-038 (038)
+Cost: 3 (GREEN gem)
+Name: Orion
+Title: Star-Charter of the Deep
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Astral | Sharpshooter | TIER III
+Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Reach *(Can block Flight.)*
+Text box, line by line:
+1. Reach *(Can block Flight.)*
+2. **Charted Shot.**
+3. **Attack: Scorch 1** a rival champion.
+Flavour: “I have a star with your name.”
+Crown 2: none
+Might | Guard: 4 | 2
+Footer: 038/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A star-powered sniper with a crescent longbow. NEW pose and action, never the Set 1 pose or composition: standing on a cavern ledge under painted constellations, loosing an arrow at a distant target in the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-039 (039)
+Cost: 3 (GREEN gem)
+Name: Maeve
+Title: Broker of Relics
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Sleight of Thorns.**
+2. **Arrival:** Take a Relic from a rival champion and attach it to Maeve.
+3. If you can’t, Scorch 1 a rival champion.
+Flavour: “Every gift has a price.”
+Crown 2: none
+Might | Guard: 2 | 4
+Footer: 039/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An ancient forest witch with a staff of living wood. NEW pose and action, never the Set 1 pose or composition: in a hidden underground market, swapping a fake relic for a real one behind her back with a sly smile. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
