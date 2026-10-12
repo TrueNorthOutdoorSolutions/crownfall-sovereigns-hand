@@ -23,7 +23,7 @@ Flavour: “Reactor stable. Mostly.”
 Crown 2: none
 Might | Guard: 2 | 3
 Footer: 034/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An experimental robot with a glass mana chamber. NEW pose and action, never the Set 1 pose or composition: floating in a dark vault, pulling lines of light from spell glyphs that swirl around it. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An experimental robot with a glass mana chamber. SCENE: three-quarter view in a cable-strung vault: HEX-3 hangs in a cradle of thick cables, its glass mana chamber humming, a single arc of blue-white power crawling from a wall conduit into its shell; dust motes in the beam of one warm work lamp. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-035 (035)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -41,7 +41,7 @@ Flavour: “Power accepted.”
 Crown 2: none
 Might | Guard: 5 | 6
 Footer: 035/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Rune-etched plating; the reactor glows violet. NEW pose and action, never the Set 1 pose or composition: floating in a dark vault, pulling lines of light from spell glyphs that swirl around it. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rune-etched plating; the reactor glows violet. SCENE: low angle inside a reactor chamber: HEX-3 rises free of its cables, rune-etched plating glowing, its violet reactor flaring as spells spill from the conduits around it and are drawn into its core in bright ribbons. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-140 (140)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -59,7 +59,7 @@ Flavour: “Every spell makes me stronger.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 9
 Footer: 140/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A levitating arcane engine with three orbiting reactor cores. NEW pose and action, never the Set 1 pose or composition: floating in a dark vault, pulling lines of light from spell glyphs that swirl around it. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A levitating arcane engine with three orbiting reactor cores. SCENE: heroic wide shot of a vast arcane engine hall: HEX-3 levitating at centre-left as a towering engine, three reactor cores orbiting it and every conduit in the cavern pouring power into it at once, lightning-white and violet light filling the frame. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

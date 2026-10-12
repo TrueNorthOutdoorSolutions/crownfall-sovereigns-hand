@@ -266,6 +266,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'dynamic side view: Rask in gilded arena armour leaps over a charging cave beast, gladius flashing down, his trophy belt swinging, sand and sparks spraying in the torchlight of the pit',
     'heroic low-angle hero shot of the packed Underpits arena: golden-scaled Rask large in frame raising his gladius in triumph on top of a defeated Guardian, cloak of fallen champions streaming behind him, the roaring crowd lit by a ring of fire; glorious and undefeated',
   ],
+  hex3: [
+    'three-quarter view in a cable-strung vault: HEX-3 hangs in a cradle of thick cables, its glass mana chamber humming, a single arc of blue-white power crawling from a wall conduit into its shell; dust motes in the beam of one warm work lamp',
+    'low angle inside a reactor chamber: HEX-3 rises free of its cables, rune-etched plating glowing, its violet reactor flaring as spells spill from the conduits around it and are drawn into its core in bright ribbons',
+    'heroic wide shot of a vast arcane engine hall: HEX-3 levitating at centre-left as a towering engine, three reactor cores orbiting it and every conduit in the cavern pouring power into it at once, lightning-white and violet light filling the frame',
+  ],
+  valkara: [
+    'low angle from a cavern floor: Valkara dives out of the darkness above, wings spread and spear-sword levelled at a huge monster below, her light cutting a bright line through the dust',
+    'side view on a broken stone bridge: Valkara lands in a crouch before a kneeling monster, wings of starlight half-folded, gilded war-helm lit by the glow of her spear-sword raised in judgment',
+    'heroic wide shot of a vast cavern: six-winged Valkara large in frame with a halo of blades, diving straight down through the cavern roof so the rock splits open and daylight pours in behind her; awe-inspiring and terrible',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',
