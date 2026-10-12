@@ -89,7 +89,7 @@ export function App() {
             {tile('Collection', 'collection', () => setScreen('collection'))}
             {tile('Decks', 'decks', () => setScreen('decks'))}
             {tile('Codex', 'codex')}
-            {tile('Challenges', 'challenges', undefined, true)}
+            {tile('Challenges', 'challenges')}
             {tile('Achievements', 'achievements')}
             {tile('Shop', 'shop', () => setScreen('shop'))}
             {tile('Settings', 'settings')}
