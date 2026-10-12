@@ -284,6 +284,11 @@ const SCENES: Record<string, [string, string, string]> = {
     'side view on a broken stone bridge: Valkara lands in a crouch before a kneeling monster, wings of starlight half-folded, gilded war-helm lit by the glow of her spear-sword raised in judgment',
     'heroic wide shot of a vast cavern: six-winged Valkara large in frame with a halo of blades, diving straight down through the cavern roof so the rock splits open and daylight pours in behind her; awe-inspiring and terrible',
   ],
+  dreadmouth: [
+    'low angle at the edge of a black underground lake: Dreadmouth bursts up out of the water, its enormous jaw closing on the armoured leg of a Guardian that staggers on the shore, spray and teal glow everywhere, one warm lantern swinging on the Guardian belt',
+    'side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight',
+    'heroic wide shot of a vast sunken hall: Dreadmouth rising from the lake larger than the hall pillars, jaw opened wide enough to swallow a Guardian whole as torches gutter and tiny delvers flee along the walkways; terrifying and unstoppable',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',
