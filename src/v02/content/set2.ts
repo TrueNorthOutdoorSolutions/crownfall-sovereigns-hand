@@ -201,6 +201,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'side view along the top of the gate wall: Rowan mid-stride, loosing one arrow while already reaching back for the next, a second arrow still in the air streaking into the dark tunnel below; torchlight on his face, cool blue depth beyond',
     'heroic low-angle hero shot: Rowan large in frame standing on the gatehouse battlement, bow drawn to full, a volley of white-tipped arrows arcing out over a vast underground hall toward a charging horde far below; banners snapping, firelight behind him, glorious and unbreakable',
   ],
+  bolt: [
+    'close three-quarter view at a cluttered cave workbench: small Bolt hunches over its own forearm, welding a scavenged relic plate onto it, a fountain of orange sparks lighting its single amber eye; scrap piles and hanging chains fade into cool blue dark behind',
+    'low angle in a scrapyard cavern: bigger, reforged Bolt strides out of the smoke and sparks of its forge, a freshly fitted relic plate glowing on its chest and piston fists clenched, loose parts still clattering to the floor around it',
+    'heroic wide shot of a vast underground foundry: Bolt towering and fully rebuilt from dozens of mismatched relic plates, gear core blazing, raising one enormous piston fist as the forge erupts behind it; tiny workers below for scale',
+  ],
+  kael: [
+    'over-the-shoulder view from behind Kael as he descends a crumbling spiral stair into darkness, torch raised in one hand and an old map in the other, the torchlight catching carved runes on the wall; the stair drops away into cool blue black',
+    'low side angle in a flooded relic vault: Kael wades waist-deep through dark water toward a broken plinth, sword drawn, his torch held high and reflecting in the ripples; a faint teal glow from the relic ahead',
+    'heroic low-angle hero shot: Kael large in frame at the top of a mountain of treasure in a vast collapsed vault, lifting an ancient relic blade high as its light floods the cavern, his torch cast aside, broken pillars and gold spilling around him',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

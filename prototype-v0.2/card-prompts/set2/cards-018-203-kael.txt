@@ -23,7 +23,7 @@ Flavour: “I will be worthy.”
 Crown 2: none
 Might | Guard: 3 | 2
 Footer: 018/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A young swordsman in travelling leathers. NEW pose and action, never the Set 1 pose or composition: descending a crumbling stair into darkness, torch raised, an old map in his other hand. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A young swordsman in travelling leathers. SCENE: over-the-shoulder view from behind Kael as he descends a crumbling spiral stair into darkness, torch raised in one hand and an old map in the other, the torchlight catching carved runes on the wall; the stair drops away into cool blue black. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-128 (128)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
@@ -41,7 +41,7 @@ Flavour: “This way. Probably.”
 Crown 2: none
 Might | Guard: 5 | 4
 Footer: 128/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Blue-steel armour and a blade that leaves a crescent of light. NEW pose and action, never the Set 1 pose or composition: descending a crumbling stair into darkness, torch raised, an old map in his other hand. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Blue-steel armour and a blade that leaves a crescent of light. SCENE: low side angle in a flooded relic vault: Kael wades waist-deep through dark water toward a broken plinth, sword drawn, his torch held high and reflecting in the ripples; a faint teal glow from the relic ahead. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-203 (203)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -59,7 +59,7 @@ Flavour: “Whatever’s down there, I find it first.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 7
 Footer: 203/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet. NEW pose and action, never the Set 1 pose or composition: descending a crumbling stair into darkness, torch raised, an old map in his other hand. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet. SCENE: heroic low-angle hero shot: Kael large in frame at the top of a mountain of treasure in a vast collapsed vault, lifting an ancient relic blade high as its light floods the cavern, his torch cast aside, broken pillars and gold spilling around him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

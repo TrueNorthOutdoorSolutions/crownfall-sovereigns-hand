@@ -24,7 +24,7 @@ Flavour: “Unit B-07 online.”
 Crown 2: none
 Might | Guard: 1 | 3
 Footer: 016/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A compact combat automaton with one amber eye. NEW pose and action, never the Set 1 pose or composition: sitting at a cave workbench, welding a recovered relic plate onto its own arm in a shower of sparks. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A compact combat automaton with one amber eye. SCENE: close three-quarter view at a cluttered cave workbench: small Bolt hunches over its own forearm, welding a scavenged relic plate onto it, a fountain of orange sparks lighting its single amber eye; scrap piles and hanging chains fade into cool blue dark behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-017 (017)
@@ -45,7 +45,7 @@ Flavour: “New part. New Bolt.”
 Crown 2: none
 Might | Guard: 3 | 6
 Footer: 017/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Reinforced plating, piston fists and a spinning gear core. NEW pose and action, never the Set 1 pose or composition: sitting at a cave workbench, welding a recovered relic plate onto its own arm in a shower of sparks. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Reinforced plating, piston fists and a spinning gear core. SCENE: low angle in a scrapyard cavern: bigger, reforged Bolt strides out of the smoke and sparks of its forge, a freshly fitted relic plate glowing on its chest and piston fists clenched, loose parts still clattering to the floor around it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-018 (018)
@@ -64,5 +64,5 @@ Flavour: “I will be worthy.”
 Crown 2: none
 Might | Guard: 3 | 2
 Footer: 018/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A young swordsman in travelling leathers. NEW pose and action, never the Set 1 pose or composition: descending a crumbling stair into darkness, torch raised, an old map in his other hand. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A young swordsman in travelling leathers. SCENE: over-the-shoulder view from behind Kael as he descends a crumbling spiral stair into darkness, torch raised in one hand and an old map in the other, the torchlight catching carved runes on the wall; the stair drops away into cool blue black. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
