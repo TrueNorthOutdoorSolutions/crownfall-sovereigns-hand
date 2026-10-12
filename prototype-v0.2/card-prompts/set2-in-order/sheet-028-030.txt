@@ -24,7 +24,7 @@ Flavour: “Heat it. Hit it. Done.”
 Crown 2: none
 Might | Guard: 6 | 7
 Footer: 028/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Magma veins open along his arms; his hammer head is a live forge. NEW pose and action, never the Set 1 pose or composition: hammering a glowing relic on an anvil, the sparks lighting his face. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Magma veins open along his arms; his hammer head is a live forge. SCENE: low angle in a vast forge cavern: Borin lifts a freshly reforged Guardian relic from the quenching trough in a burst of steam, magma veins glowing along his arms, his live-forge hammer resting on his shoulder. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-029 (029)

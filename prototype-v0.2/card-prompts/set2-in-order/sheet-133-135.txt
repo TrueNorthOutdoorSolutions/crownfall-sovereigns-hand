@@ -25,7 +25,7 @@ Flavour: “Lose something?”
 Crown 2: none
 Might | Guard: 6 | 4
 Footer: 133/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The mask cracks, revealing a crimson glow beneath. NEW pose and action, never the Set 1 pose or composition: stepping out of the shadow behind an unaware guard, lifting a relic from his belt. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The mask cracks, revealing a crimson glow beneath. SCENE: low tilted angle in a narrow vault passage: Shade drops into a crouch behind a fallen rival champion, its cracked mask leaking a crimson glow, red blade flicked clean, a stolen pouch already in its other hand; cold teal shadows, one guttering torch. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-134 (134)
@@ -45,7 +45,7 @@ Flavour: “The deep forge never cools.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 10
 Footer: 134/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Borin becomes a walking furnace; his beard is molten metal and every step leaves slag. NEW pose and action, never the Set 1 pose or composition: hammering a glowing relic on an anvil, the sparks lighting his face. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Borin becomes a walking furnace; his beard is molten metal and every step leaves slag. SCENE: heroic wide shot of the great forge beneath the Arena: Borin as a walking furnace, beard of molten metal, bringing his hammer down on a colossal anvil as a shockwave of sparks and slag lights every chain and pillar; dwarf smiths shield their eyes far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-135 (135)

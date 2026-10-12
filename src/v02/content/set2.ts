@@ -231,6 +231,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'three-quarter view on flooded stone stairs: Mirella walks up out of the lake in robes of living foam, a wave rising behind her and carrying fallen allies safely up the steps, droplets glittering in amber torchlight',
     'heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming',
   ],
+  shade: [
+    'high angle looking down a black stone corridor in the lowest halls: Shade hangs upside-down from a ceiling beam above an unaware sentry carrying a lantern, red-lacquered blade drawn, only its white mask catching the lantern glow',
+    'low tilted angle in a narrow vault passage: Shade drops into a crouch behind a fallen rival champion, its cracked mask leaking a crimson glow, red blade flicked clean, a stolen pouch already in its other hand; cold teal shadows, one guttering torch',
+    'heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable',
+  ],
+  borin: [
+    'close three-quarter view at a roaring underground forge: Borin hammers a glowing broken relic blade on his anvil, sparks exploding across his basalt skin and copper-wire beard, the forge mouth the only warm light in the cavern',
+    'low angle in a vast forge cavern: Borin lifts a freshly reforged Guardian relic from the quenching trough in a burst of steam, magma veins glowing along his arms, his live-forge hammer resting on his shoulder',
+    'heroic wide shot of the great forge beneath the Arena: Borin as a walking furnace, beard of molten metal, bringing his hammer down on a colossal anvil as a shockwave of sparks and slag lights every chain and pillar; dwarf smiths shield their eyes far below',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

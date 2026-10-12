@@ -44,7 +44,7 @@ Flavour: “A mark has been chosen.”
 Crown 2: none
 Might | Guard: 3 | 2
 Footer: 026/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A masked assassin with a red-lacquered blade. NEW pose and action, never the Set 1 pose or composition: stepping out of the shadow behind an unaware guard, lifting a relic from his belt. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A masked assassin with a red-lacquered blade. SCENE: high angle looking down a black stone corridor in the lowest halls: Shade hangs upside-down from a ceiling beam above an unaware sentry carrying a lantern, red-lacquered blade drawn, only its white mask catching the lantern glow. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-027 (027)
@@ -63,5 +63,5 @@ Flavour: “The forge is hot!”
 Crown 2: none
 Might | Guard: 3 | 4
 Footer: 027/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A broad Forgekin smith: basalt skin, braided beard of copper wire, a glowing hammer. NEW pose and action, never the Set 1 pose or composition: hammering a glowing relic on an anvil, the sparks lighting his face. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A broad Forgekin smith: basalt skin, braided beard of copper wire, a glowing hammer. SCENE: close three-quarter view at a roaring underground forge: Borin hammers a glowing broken relic blade on his anvil, sparks exploding across his basalt skin and copper-wire beard, the forge mouth the only warm light in the cavern. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
