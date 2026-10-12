@@ -45,7 +45,7 @@ Flavour: “Calculating trajectory.”
 Crown 2: none
 Might | Guard: 2 | 3
 Footer: 023/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A clockwork artillery robot with a brass mortar. NEW pose and action, never the Set 1 pose or composition: its many arms assembling a relic weapon onto its own frame in a cluttered underground workshop. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A clockwork artillery robot with a brass mortar. SCENE: three-quarter view in a cluttered underground workshop: Gearwick-9 kneels on its stubby legs while its mechanical arms bolt a recovered relic barrel onto its brass mortar, rivets popping and steam hissing, a single hanging work lamp the only warm light against cool blue shadows. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-024 (024)
@@ -64,5 +64,5 @@ Flavour: “The tide turns.”
 Crown 2: none
 Might | Guard: 2 | 4
 Footer: 024/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A water mage with a swirling orb of seawater. NEW pose and action, never the Set 1 pose or composition: rising out of a still underground lake, the water gently lifting wounded allies around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A water mage with a swirling orb of seawater. SCENE: low side angle at the shore of a still black underground lake: Mirella rises waist-deep from the water, her swirling orb of seawater cupped in both hands, its soft teal glow lifting a wounded soldier gently onto the stone steps; one warm lantern on the stair above. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

@@ -23,7 +23,7 @@ Flavour: “The tide turns.”
 Crown 2: none
 Might | Guard: 2 | 4
 Footer: 024/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A water mage with a swirling orb of seawater. NEW pose and action, never the Set 1 pose or composition: rising out of a still underground lake, the water gently lifting wounded allies around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A water mage with a swirling orb of seawater. SCENE: low side angle at the shore of a still black underground lake: Mirella rises waist-deep from the water, her swirling orb of seawater cupped in both hands, its soft teal glow lifting a wounded soldier gently onto the stone steps; one warm lantern on the stair above. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-025 (025)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -41,7 +41,7 @@ Flavour: “The lake remembers who it saves.”
 Crown 2: none
 Might | Guard: 4 | 7
 Footer: 025/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Robes of living foam and a coral circlet. NEW pose and action, never the Set 1 pose or composition: rising out of a still underground lake, the water gently lifting wounded allies around her. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Robes of living foam and a coral circlet. SCENE: three-quarter view on flooded stone stairs: Mirella walks up out of the lake in robes of living foam, a wave rising behind her and carrying fallen allies safely up the steps, droplets glittering in amber torchlight. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-132 (132)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -59,7 +59,7 @@ Flavour: “Rest. The water has you.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 7 | 10
 Footer: 132/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A tide queen: a ring of water orbits her and fish of light swim through it. NEW pose and action, never the Set 1 pose or composition: rising out of a still underground lake, the water gently lifting wounded allies around her. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A tide queen: a ring of water orbits her and fish of light swim through it. SCENE: heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

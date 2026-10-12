@@ -24,7 +24,7 @@ Flavour: “Calculating trajectory.”
 Crown 2: none
 Might | Guard: 2 | 3
 Footer: 023/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A clockwork artillery robot with a brass mortar. NEW pose and action, never the Set 1 pose or composition: its many arms assembling a relic weapon onto its own frame in a cluttered underground workshop. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A clockwork artillery robot with a brass mortar. SCENE: three-quarter view in a cluttered underground workshop: Gearwick-9 kneels on its stubby legs while its mechanical arms bolt a recovered relic barrel onto its brass mortar, rivets popping and steam hissing, a single hanging work lamp the only warm light against cool blue shadows. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-131 (131)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -44,7 +44,7 @@ Flavour: “Upgrade installed.”
 Crown 2: none
 Might | Guard: 5 | 5
 Footer: 131/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Twin barrels and a targeting monocle that clicks. NEW pose and action, never the Set 1 pose or composition: its many arms assembling a relic weapon onto its own frame in a cluttered underground workshop. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Twin barrels and a targeting monocle that clicks. SCENE: low angle in a vaulted cavern armoury: bigger Gearwick-9 swings its twin barrels toward a target off the card, targeting monocle glowing and clicking into focus, relic parts welded across its frame and smoke curling from the muzzles. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-232 (232)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -65,7 +65,7 @@ Flavour: “Every relic fits somewhere.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 8 | 8
 Footer: 232/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking siege tower with a rotary mortar crown. NEW pose and action, never the Set 1 pose or composition: its many arms assembling a relic weapon onto its own frame in a cluttered underground workshop. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A walking siege tower with a rotary mortar crown. SCENE: heroic wide shot of a vast forge-hall: Gearwick-9 rebuilt into a towering walking siege tower, rotary mortar crown blazing as it fires a full volley into the dark, shell casings raining down and tiny engineers cheering at its feet. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

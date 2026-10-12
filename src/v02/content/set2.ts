@@ -221,6 +221,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'close dynamic side view: Grizz locked in a wrestling hold with a cave monster twice his size, claws braced, shoulders heaving, dust and loose stones exploding around them under a single warm lantern',
     'heroic low angle: Grizz rearing up to full height on top of a defeated cave beast, roaring at the cavern ceiling, iron claws raised, torchlight blazing behind him and scattered warriors cheering far below',
   ],
+  gearwick: [
+    'three-quarter view in a cluttered underground workshop: Gearwick-9 kneels on its stubby legs while its mechanical arms bolt a recovered relic barrel onto its brass mortar, rivets popping and steam hissing, a single hanging work lamp the only warm light against cool blue shadows',
+    'low angle in a vaulted cavern armoury: bigger Gearwick-9 swings its twin barrels toward a target off the card, targeting monocle glowing and clicking into focus, relic parts welded across its frame and smoke curling from the muzzles',
+    'heroic wide shot of a vast forge-hall: Gearwick-9 rebuilt into a towering walking siege tower, rotary mortar crown blazing as it fires a full volley into the dark, shell casings raining down and tiny engineers cheering at its feet',
+  ],
+  mirella: [
+    'low side angle at the shore of a still black underground lake: Mirella rises waist-deep from the water, her swirling orb of seawater cupped in both hands, its soft teal glow lifting a wounded soldier gently onto the stone steps; one warm lantern on the stair above',
+    'three-quarter view on flooded stone stairs: Mirella walks up out of the lake in robes of living foam, a wave rising behind her and carrying fallen allies safely up the steps, droplets glittering in amber torchlight',
+    'heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',
