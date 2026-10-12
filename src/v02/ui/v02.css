@@ -578,3 +578,4 @@ a { color: var(--gold) }
   font-family: var(--display); font-size: 17px; font-weight: 600; letter-spacing: .26em; text-transform: uppercase; color: #f4ddA0; text-shadow: 0 1px 2px #000, 0 0 8px rgba(0,0,0,.8) }
 .home-title .home-tag i { font-style: normal; font-size: 10px; color: #d6ab52 }
 .ht-glow { left: -120px; right: -120px; top: 30px; bottom: -40px; background: radial-gradient(ellipse 50% 50% at 50% 55%, rgba(8,14,40,.92) 0%, rgba(8,14,40,.75) 40%, rgba(8,14,40,.3) 72%, rgba(8,14,40,0) 100%) }
+.home-title .home-tag { color: #ffe7a8; text-shadow: 0 1px 0 #2a1704, 0 0 3px #000, 0 0 10px rgba(0,0,0,.9) }
