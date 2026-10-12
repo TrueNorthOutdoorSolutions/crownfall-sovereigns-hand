@@ -196,6 +196,11 @@ const SCENES: Record<string, [string, string, string]> = {
     'tight side view: Torren braces both hands and shoulder against the vault door as it bulges and cracks from blows on the other side, dust shaking from the hinges, warm light leaking through the seams',
     'wide shot from the far end of a great hall: colossal Torren has become part of the vault wall itself, stone fused to his body, the whole door glowing with locking runes as an army halts before him',
   ],
+  rowan: [
+    'low angle beneath the great iron portcullis of the Deep Gate: Rowan kneels on one knee in the archway, bow half-drawn, scanning the black tunnel ahead for movement; a single brazier warms the stone behind him, cold blue mist creeping in from the dark',
+    'side view along the top of the gate wall: Rowan mid-stride, loosing one arrow while already reaching back for the next, a second arrow still in the air streaking into the dark tunnel below; torchlight on his face, cool blue depth beyond',
+    'heroic low-angle hero shot: Rowan large in frame standing on the gatehouse battlement, bow drawn to full, a volley of white-tipped arrows arcing out over a vast underground hall toward a charging horde far below; banners snapping, firelight behind him, glorious and unbreakable',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',
