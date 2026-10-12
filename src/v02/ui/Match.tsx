@@ -15,6 +15,8 @@ import { rewardMatch } from '../economy/profile';
 import { applySetup, judge } from '../campaign/setup';
 import type { Verdict } from '../campaign/setup';
 import type { BoutSetup, Objective } from '../campaign/act1';
+import { commitMatch, summarizeMatch, trackField } from '../progress/stats';
+import type { FieldTracker } from '../progress/stats';
 
 const ME: PlayerIndex = 0;
 const AI: PlayerIndex = 1;
@@ -51,6 +53,14 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
     campaign.onResult(v.won);
     if (game.phase !== 'over') setGame({ ...game, phase: 'over', winner: 0, endReason: v.reason, pending: null, combat: null });
   }, [game, campaign, verdict.done]);
+  // Progression (achievements / challenges): follow the player's field, record the match once when it ends.
+  const tracked = useRef<FieldTracker>({});
+  useEffect(() => { tracked.current = trackField(tracked.current, game, ME); }, [game]);
+  useEffect(() => {
+    if (game.phase !== 'over' || (campaign && !verdict.done)) return;
+    const won = verdict.done ? verdict.won : game.winner === ME;
+    commitMatch(game.seed, summarizeMatch(game, tracked.current, { me: ME, won, deckId: decks[0], mode: campaign ? 'campaign' : 'ai' }));
+  }, [game, verdict, campaign, decks]);
   const ready = true;
   const [selected, setSelected] = useState<number | null>(null);
   const [inspect, setInspect] = useState<Inspect>(null);

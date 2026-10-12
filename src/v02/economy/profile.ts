@@ -8,6 +8,8 @@ import { PACK_PRICE } from './odds';
 import type { Finish } from './odds';
 import { bundleFor, openBundle } from './packs';
 import type { Pack } from './packs';
+import { packDelta, record } from '../progress/stats';
+import { ALL_BOUTS } from '../campaign/act1';
 
 /** Valor rewards (PROPOSED). */
 export const VALOR_EARN = { match: 30, win: 30, firstWinOfDay: 100 };
@@ -104,6 +106,7 @@ export function buyPacks(count: number, currency: Currency, seed: number): { pac
   const owned = { ...current.owned };
   for (const pk of packs) for (const c of pk) owned[ownKey(c.printing, c.finish)] = (owned[ownKey(c.printing, c.finish)] ?? 0) + 1;
   save({ ...current, [currency]: current[currency] - cost, owned, packsOpened: current.packsOpened + bundle.packs, lastOpening: packs });
+  record(packDelta(packs, currency, currency === 'valor' ? cost : 0));
   return { packs };
 }
 
@@ -114,6 +117,7 @@ export function forge(printing: string): string | null {
   if (current.valor < cost) return 'Not enough Valor.';
   const k = ownKey(printing, 'normal');
   save({ ...current, valor: current.valor - cost, owned: { ...current.owned, [k]: (current.owned[k] ?? 0) + 1 } });
+  record({ sum: { forged: 1, valor_spent: cost } });
   return null;
 }
 
@@ -128,7 +132,10 @@ export function salvageExtras(): number {
     gained += (n - PLAYSET) * SALVAGE_VALUE[p.rarity];
     owned[k] = PLAYSET;
   }
-  if (gained) save({ ...current, valor: current.valor + gained, owned });
+  if (gained) {
+    save({ ...current, valor: current.valor + gained, owned });
+    record({ sum: { salvage_valor: gained, valor_earned: gained } });
+  }
   return gained;
 }
 
@@ -141,6 +148,7 @@ export function rewardMatch(won: boolean): { total: number; lines: [string, numb
   if (firstWin) lines.push(['First win of the day', VALOR_EARN.firstWinOfDay]);
   const total = lines.reduce((a, [, n]) => a + n, 0);
   save({ ...current, valor: current.valor + total, lastWinDay: firstWin ? today() : current.lastWinDay });
+  record({ sum: { valor_earned: total, ...(firstWin ? { first_wins: 1 } : {}) } });
   return { total, lines };
 }
 
@@ -153,15 +161,23 @@ export function buyStarstones(offerId: string): string | null {
 
 export function saveDeck(deck: SavedDeck) {
   save({ ...current, decks: [...current.decks.filter((d) => d.id !== deck.id), { ...deck, updated: Date.now() }] });
+  record({ sum: { decks_saved: 1 } });
 }
 export function deleteDeck(id: string) { save({ ...current, decks: current.decks.filter((d) => d.id !== id) }); }
 export function clearLastOpening() { save({ ...current, lastOpening: null }); }
+/** Achievement and challenge rewards (progress/claim.ts). Valor only: progression never grants Starstones. */
+export function grantValor(n: number) {
+  if (!(n > 0)) return;
+  save({ ...current, valor: current.valor + Math.floor(n) });
+}
 /** Development helper: top up the wallet for testing. */
 export function devGrant(valor: number, starstones: number) { save({ ...current, valor: current.valor + valor, starstones: current.starstones + starstones }); }
 
 /** Campaign: record a cleared Bout. The first clear pays its Valor and grants its cards (standard finish). */
 export function clearBout(boutId: string, reward: { valor: number; cards?: string[] }): { first: boolean } {
   const done = current.campaign?.[boutId];
+  const crowning = !!ALL_BOUTS.find((b) => b.id === boutId)?.crowning;
+  record({ sum: { bouts_won: 1, ...(crowning ? { crownings_won: 1 } : {}), ...(done ? {} : { bouts_first: 1, valor_earned: reward.valor }) } });
   if (done) return { first: false };
   const owned = { ...current.owned };
   for (const cardId of reward.cards ?? []) {

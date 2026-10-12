@@ -14,6 +14,8 @@ import './collect/collect.css';
 import { AscendFx } from './AscendFx';
 import { getProfile } from '../economy/profile';
 import type { Pack } from '../economy/packs';
+import { Achievements, Challenges, AchievementToast, useAchievementBadge, useChallengeBadge } from './progress';
+import { Codex } from './codex/Codex';
 
 const W = 1600, H = 900;
 
@@ -26,7 +28,7 @@ function Stage({ children }: { children: React.ReactNode }) {
     window.addEventListener('resize', fit);
     return () => window.removeEventListener('resize', fit);
   }, []);
-  return <div className="viewport"><div className="stage" style={{ transform: `translate(-50%, -50%) scale(${scale})` }}>{children}</div></div>;
+  return <div className="viewport"><div className="stage" style={{ transform: `translate(-50%, -50%) scale(${scale})` }}>{children}<AchievementToast /></div></div>;
 }
 
 const FACE: Record<DeckId, [string, number]> = { banner: ['sol', 3], ember: ['aurex', 3], vault: ['atlas', 3], brood: ['unwritten', 3] };
@@ -38,7 +40,9 @@ export function App() {
   const [mine, setMine] = useState<DeckId>('banner');
   const [rules, setRules] = useState(false);
   const [soon, setSoon] = useState<string | null>(null);
-  const [screen, setScreen] = useState<'menu' | 'arena' | 'shop' | 'collection' | 'decks' | 'campaign'>('menu');
+  const [screen, setScreen] = useState<'menu' | 'arena' | 'shop' | 'collection' | 'decks' | 'campaign' | 'achievements' | 'challenges' | 'codex'>('menu');
+  const achBadge = useAchievementBadge();
+  const chBadge = useChallengeBadge();
   // A pack opening interrupted by a refresh resumes where it left off.
   const [opening, setOpening] = useState<Pack[] | null>(() => getProfile().lastOpening);
   // The AI plays the other starter deck of the same set.
@@ -67,6 +71,9 @@ export function App() {
   if (screen === 'shop') return <Stage><Shop onBack={() => setScreen('menu')} onOpened={setOpening} /></Stage>;
   if (screen === 'collection') return <Stage><Collection onBack={() => setScreen('menu')} /></Stage>;
   if (screen === 'campaign') return <Stage><Campaign onBack={() => setScreen('menu')} onStart={(b) => setMatch({ decks: [b.playerDeck, b.bout.crowning ? b.bout.crowning[b.difficulty].deck : b.bout.deck], seed: newSeed(), bout: b })} /></Stage>;
+  if (screen === 'achievements') return <Stage><Achievements onBack={() => setScreen('menu')} /></Stage>;
+  if (screen === 'challenges') return <Stage><Challenges onBack={() => setScreen('menu')} /></Stage>;
+  if (screen === 'codex') return <Stage><Codex onBack={() => setScreen('menu')} /></Stage>;
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   if (screen === 'menu') {
     const tile = (label: string, art: string, go?: () => void, badge?: boolean) => (
@@ -88,9 +95,9 @@ export function App() {
           <nav className="home-tiles">
             {tile('Collection', 'collection', () => setScreen('collection'))}
             {tile('Decks', 'decks', () => setScreen('decks'))}
-            {tile('Codex', 'codex')}
-            {tile('Challenges', 'challenges')}
-            {tile('Achievements', 'achievements')}
+            {tile('Codex', 'codex', () => setScreen('codex'))}
+            {tile('Challenges', 'challenges', () => setScreen('challenges'), chBadge > 0)}
+            {tile('Achievements', 'achievements', () => setScreen('achievements'), achBadge > 0)}
             {tile('Shop', 'shop', () => setScreen('shop'))}
             {tile('Settings', 'settings')}
           </nav>
