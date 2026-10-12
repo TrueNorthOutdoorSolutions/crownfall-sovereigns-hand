@@ -17,7 +17,8 @@ export const COMMON_SLOTS = 5;
 export const UNCOMMON_SLOTS = 3;
 
 /** Hero slot (slot 9). Epic and Mythic weights are multiplied by the bundle boost. */
-export const HERO_WEIGHTS: Record<'elite' | 'epic' | 'mythic', number> = { elite: 70, epic: 24, mythic: 6 };
+/** Owner 2026-10-12: Mythic raised from 6 to 8 (≈1 in 11 packs); the set keeps a small Mythic count. */
+export const HERO_WEIGHTS: Record<'elite' | 'epic' | 'mythic', number> = { elite: 68, epic: 24, mythic: 8 };
 /** Foil slot (slot 10) rarity. Epic and Mythic weights are multiplied by the bundle boost. */
 export const FOIL_WEIGHTS: Record<Rarity, number> = { common: 50, uncommon: 28, elite: 13, epic: 7, mythic: 2 };
 /** Finish of a foil. Prismatic and Rainbow weights are multiplied by the bundle boost. */
