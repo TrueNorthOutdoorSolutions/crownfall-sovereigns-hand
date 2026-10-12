@@ -21,11 +21,16 @@ HERE = os.path.dirname(__file__)
 spec = importlib.util.spec_from_file_location("bp", os.path.join(HERE, "build-printable.py"))
 bp = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(bp)
+# 5 x 7 inch paper, 2 x 2 per page (owner request 2026-10-11): written beside the Letter files in "5x7 (4 per page)".
+spec5 = importlib.util.spec_from_file_location("bp5", os.path.join(HERE, "build-printable-5x7.py"))
+bp5 = importlib.util.module_from_spec(spec5)
+spec5.loader.exec_module(bp5)
 
 SET_DIR = os.path.join(bp.ART, bp.SETS[1])
 SINGLES = os.path.join(SET_DIR, "PRINTABLE CARDS", "Individual Cards")
 EXTRAS = os.path.join(SET_DIR, "Inserts and Tokens")
 OUT = os.path.join(SET_DIR, "PRINTABLE CARDS", "Starter Decks")
+OUT5 = os.path.join(OUT, "5x7 (4 per page)")
 
 
 def font(size, bold=False):
@@ -42,6 +47,7 @@ def main():
     rows = list(csv.DictReader(open(os.path.join(HERE, "..", "master-card-list-set1.csv"), encoding="utf-8-sig")))
     by_id = {r["Card ID"]: r for r in rows}
     os.makedirs(OUT, exist_ok=True)
+    os.makedirs(OUT5, exist_ok=True)
     refs = [Image.open(os.path.join(EXTRAS, f"Reference {x}.png")).convert("RGB").resize((bp.CARD_W, bp.CARD_H), Image.LANCZOS)
             for x in ("A", "B")]
 
@@ -63,6 +69,9 @@ def main():
         pages = [bp.page(run[i:i + 9], label=f"{deck['name']} · page {i // 9 + 1} of {(len(run) + 8) // 9} · print at 100% (Actual size)")
                  for i in range(0, len(run), 9)]
         bp.save_pdf(pages, os.path.join(OUT, f"{name} - Cards.pdf"))
+        run5 = [c.convert("RGB").resize((bp5.CARD_W, bp5.CARD_H), Image.LANCZOS) for c in run]
+        pages5 = bp5.pages(run5)
+        bp.save_pdf(pages5, os.path.join(OUT5, f"{name} - Cards 5x7.pdf"))
 
         # Decklist page
         p = Image.new("RGB", (bp.PAGE_W, bp.PAGE_H), "white")
@@ -84,7 +93,13 @@ def main():
         y += 50
         d.text((x, y), "Also print: Reference A and B (included at the end of the cards file).", font=font(36), fill=(90, 90, 90))
         p.save(os.path.join(OUT, f"{name} - Decklist.pdf"), "PDF", resolution=bp.DPI)
-        print(f"{deck['name']}: {len(cards)} cards + 2 references on {len(pages)} pages")
+        # The same decklist shrunk onto a 5 x 7 page.
+        w5 = bp5.PAGE_W - 60
+        small = p.resize((w5, round(p.height * w5 / p.width)), Image.LANCZOS)
+        p5 = Image.new("RGB", (bp5.PAGE_W, bp5.PAGE_H), "white")
+        p5.paste(small, (30, (bp5.PAGE_H - small.height) // 2))
+        p5.save(os.path.join(OUT5, f"{name} - Decklist 5x7.pdf"), "PDF", resolution=bp.DPI)
+        print(f"{deck['name']}: {len(cards)} cards + 2 references on {len(pages)} Letter pages / {len(pages5)} 5x7 pages")
 
 
 if __name__ == "__main__":
