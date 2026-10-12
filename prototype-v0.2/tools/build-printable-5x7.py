@@ -3,9 +3,8 @@ Printable cards on 5 x 7 inch paper: 2 x 2 cards per page (owner request 2026-10
 The 3 x 3 US Letter sheets from build-printable.py stay exactly as they are; run that first.
 
 Cards are the true 63 x 88 mm size. Four of them make a 126 x 176 mm block on a 127 x 177.8 mm page,
-so only about 0.5 mm is left at the sides and 0.9 mm at the top and bottom: there is no room for crop marks
-or labels, and the printer must print BORDERLESS at 100% (Actual size) or the outer card edges get clipped.
-The grid is centred and symmetric, so the backs line up when the page is flipped on its long edge.
+leaving 1 mm spare at the right and 1.9 mm at the bottom. Fronts sit flush with the top and left edges and backs
+with the top and right edges, so they line up when the page is flipped on its long edge. Print BORDERLESS at 100%.
 
 Writes to <art>/Set N - <name>/PRINTABLE CARDS/5x7 (4 per page)/:
   Set N Card Fronts 5x7.pdf     every card in the same order as the 3 x 3 master file, 4 per page
@@ -33,14 +32,18 @@ PAGE_W, PAGE_H = round(5 * DPI), round(7 * DPI)              # 1500 x 2100
 CARD_W, CARD_H = bp.CARD_W, bp.CARD_H                        # 744 x 1039 (63 x 88 mm)
 COLS, ROWS = 2, 2
 GRID_W, GRID_H = COLS * CARD_W, ROWS * CARD_H                # 1488 x 2078
-X0, Y0 = (PAGE_W - GRID_W) // 2, (PAGE_H - GRID_H) // 2      # 6 px (0.5 mm), 11 px (0.9 mm)
+# Owner 2026-10-11: fronts sit flush with the TOP and LEFT page edges (less cutting). Flipping on the long edge swaps
+# left and right, so the backs sit flush with the TOP and RIGHT edges to land behind the fronts.
+X0, Y0 = 0, 0
+X0_BACK = PAGE_W - GRID_W                                    # 12 px (1 mm)
 PER = COLS * ROWS
 
 
-def page(cards):
+def page(cards, back=False):
     p = Image.new("RGB", (PAGE_W, PAGE_H), "white")
+    x0 = X0_BACK if back else X0
     for i, c in enumerate(cards):
-        p.paste(c, (X0 + (i % COLS) * CARD_W, Y0 + (i // COLS) * CARD_H))
+        p.paste(c, (x0 + (i % COLS) * CARD_W, Y0 + (i // COLS) * CARD_H))
     return p
 
 
@@ -95,8 +98,8 @@ def main():
         if back.width > back.height * 1.5:
             back = bp.split_sheet(bp.BACK)[0]
         back = back.resize((CARD_W, CARD_H), Image.LANCZOS)
-        bp.save_pdf([page([back] * PER)], os.path.join(out, "Card Backs 5x7.pdf"))
-        bp.save_pdf([page(run[:PER]), page([back] * PER)], os.path.join(out, "Alignment Test 5x7.pdf"))
+        bp.save_pdf([page([back] * PER, back=True)], os.path.join(out, "Card Backs 5x7.pdf"))
+        bp.save_pdf([page(run[:PER]), page([back] * PER, back=True)], os.path.join(out, "Alignment Test 5x7.pdf"))
         print("Card Backs 5x7.pdf and Alignment Test 5x7.pdf written.")
 
     with open(os.path.join(out, "HOW TO PRINT 5x7.txt"), "w", encoding="utf-8") as f:
@@ -104,12 +107,13 @@ def main():
             "HOW TO PRINT ON 5 x 7 INCH PAPER (4 cards per page)\n\n"
             "1. Paper size: 5 x 7 in (127 x 178 mm). Load one sheet first to test.\n"
             "2. Print at 100% / Actual size. Never 'Fit to page' or 'Shrink'.\n"
-            "3. Turn on BORDERLESS printing. The four cards fill the page with only about half a millimetre\n"
-            "   to spare, so a printer that keeps a white border will clip the outer edges of the cards.\n"
+            "3. Turn on BORDERLESS printing. The cards touch the top and left edges of the page (the backs touch\n"
+            "   the top and right), so a printer that keeps a white border will clip the outer card edges.\n"
             "4. Print 'Alignment Test 5x7.pdf' first: page 1 on the front, then put the sheet back in,\n"
             "   flipped on its LONG edge, and print page 2 (the backs). Hold it to a light to check they line up.\n"
             "5. Fronts: 'Set 1 Card Fronts 5x7.pdf'. Backs: print 'Card Backs 5x7.pdf' once for every front page.\n"
-            "6. Cut along the edges between the cards: one cross through the middle of the page, then trim the outside.\n"
+            "6. Cut one cross through the middle of the page, then trim the thin white strip on the right (1 mm)\n"
+            "   and along the bottom (2 mm). The top and left edges are already the card edges.\n"
             "Cards are the standard 63 x 88 mm, so they fit normal card sleeves.\n"
         )
 
