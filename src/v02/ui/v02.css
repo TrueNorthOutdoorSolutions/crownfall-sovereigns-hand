@@ -569,3 +569,12 @@ a { color: var(--gold) }
 .home-panel { height: 241px }
 .home-panel.wide { grid-column: 1 / -1; height: 249px }
 .home-tiles { top: 728px } .home-tile { width: 100px; height: 158px } .home-badge { top: 13px }
+/* home title v3: gold lettering lifted off its panel + a soft glow, so nothing reads as a pasted box */
+.home-title { width: 600px; top: 14px; line-height: normal; text-align: center }
+.home-title img { position: relative; z-index: 1; width: 100%; filter: drop-shadow(0 2px 1px rgba(40,22,2,.95)) drop-shadow(0 0 10px rgba(0,0,0,.55)) }
+.ht-glow { position: absolute; left: -90px; right: -90px; top: 60px; bottom: -30px; z-index: 0; pointer-events: none;
+  background: radial-gradient(ellipse 50% 50% at 50% 50%, rgba(8,14,38,.88) 0%, rgba(8,14,38,.6) 45%, rgba(8,14,38,0) 100%) }
+.home-title .home-tag { position: relative; z-index: 1; margin-top: 4px; padding: 0; background: none; display: inline-flex; gap: 12px; align-items: center;
+  font-family: var(--display); font-size: 17px; font-weight: 600; letter-spacing: .26em; text-transform: uppercase; color: #f4ddA0; text-shadow: 0 1px 2px #000, 0 0 8px rgba(0,0,0,.8) }
+.home-title .home-tag i { font-style: normal; font-size: 10px; color: #d6ab52 }
+.ht-glow { left: -120px; right: -120px; top: 30px; bottom: -40px; background: radial-gradient(ellipse 50% 50% at 50% 55%, rgba(8,14,40,.92) 0%, rgba(8,14,40,.75) 40%, rgba(8,14,40,.3) 72%, rgba(8,14,40,0) 100%) }
