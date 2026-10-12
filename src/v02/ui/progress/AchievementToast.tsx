@@ -6,6 +6,7 @@ import { ACHIEVEMENT_BY_ID, RARITY_COLOR, RARITY_LABEL, describe, evaluate, tier
 import { initSeen, markSeen } from '../../progress/claim';
 import { useProgress } from '../../progress/stats';
 import { ribbonUrl } from './Achievements';
+import { useSettings } from '../../settings';
 import './progress.css';
 
 /** Number of achievement tiers ready to claim, for a badge on the home tile. */
@@ -19,13 +20,15 @@ export function AchievementToast({ ms = 3800 }: { ms?: number }) {
   const progress = useProgress();
   const profile = useProfile();
   useEffect(() => { initSeen(); }, []);
+  const popups = useSettings().achievementPopups;
   const first = useMemo(() => (progress.seenInit ? evaluate(progress.stats, profile, { seen: progress.seen }).newly[0] ?? null : null), [progress, profile]);
   useEffect(() => {
     if (!first) return;
+    if (!popups) { markSeen([first]); return; }
     const t = setTimeout(() => markSeen([first]), ms);
     return () => clearTimeout(t);
-  }, [first, ms]);
-  if (!first) return null;
+  }, [first, ms, popups]);
+  if (!first || !popups) return null;
   const def = ACHIEVEMENT_BY_ID[first.id];
   if (!def) return null;
   const tier = def.tiers[first.tier];

@@ -1,0 +1,41 @@
+/* ---------- Settings ---------- */
+.st-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; max-width: 1500px }
+.st-section { margin-bottom: 20px; padding: 16px 20px; border-radius: 14px; background: linear-gradient(180deg, rgba(22,18,34,.92), rgba(12,10,18,.95)); border: 1px solid rgba(240,201,90,.28) }
+.st-section.dev { border-color: rgba(120,200,255,.45); background: linear-gradient(180deg, rgba(14,22,38,.94), rgba(8,12,22,.96)) }
+.st-section h3 { margin: 0 0 8px; font-family: 'Cinzel', serif; color: #f0c95a; font-size: 22px; display: flex; align-items: center; gap: 12px }
+.st-devtag { font: 700 11px/1 var(--ui, sans-serif); letter-spacing: .12em; text-transform: uppercase; color: #8fd4ff; border: 1px solid #4a8fc4; border-radius: 999px; padding: 4px 8px }
+.st-row { display: flex; align-items: center; gap: 20px; padding: 12px 0; border-top: 1px solid rgba(255,255,255,.07) }
+.st-row > div:first-child { flex: 1; display: flex; flex-direction: column; gap: 3px }
+.st-row b { font-size: 17px; color: #f2e8d2 }
+.st-row small { font-size: 13.5px; color: #b9ad97; line-height: 1.4 }
+.st-ctl { flex: none }
+.st-note { margin: 4px 0 6px; color: #cfc3aa; font-size: 14.5px; line-height: 1.5 }
+.st-btns { display: flex; gap: 8px }
+.st-choice { display: inline-flex; border: 1px solid rgba(240,201,90,.45); border-radius: 999px; overflow: hidden }
+.st-choice button { padding: 7px 16px; background: rgba(0,0,0,.35); color: #e6dccb; border: 0; cursor: pointer; font: inherit; font-size: 14px }
+.st-choice button + button { border-left: 1px solid rgba(240,201,90,.3) }
+.st-choice button.on { background: linear-gradient(180deg, #ffe7a0, #e0ae45); color: #2a1a04; font-weight: 700 }
+.st-switch { width: 56px; height: 30px; border-radius: 999px; border: 1px solid rgba(240,201,90,.45); background: rgba(0,0,0,.45); position: relative; cursor: pointer; padding: 0 }
+.st-switch i { position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: #8d8473; transition: left .15s, background .15s }
+.st-switch.on { background: rgba(240,201,90,.25) } .st-switch.on i { left: 29px; background: #f0c95a }
+.btn.armed { background: #8f6a16; color: #fff; border-color: #f0c95a }
+.btn.st-danger { border-color: #c0444a; color: #ffb3b3 } .btn.st-danger.armed { background: #a3262d; color: #fff }
+
+.st-viewer { width: 1520px; height: 840px; display: flex; flex-direction: column; background: #100d18; border: 2px solid #c9a24a; border-radius: 14px; overflow: hidden }
+.st-vtop { display: flex; align-items: center; gap: 10px; padding: 14px 18px; border-bottom: 1px solid rgba(240,201,90,.25) }
+.st-vtop h3 { margin: 0 10px 0 0; font-family: 'Cinzel', serif; color: #f0c95a; font-size: 24px }
+.st-vtop .spacer { flex: 1 }
+.st-search { background: #15111f; color: #efe6d2; border: 1px solid rgba(240,201,90,.4); border-radius: 999px; padding: 6px 14px; font: inherit; width: 220px }
+.st-vbody { flex: 1; display: grid; grid-template-columns: 280px 1fr; min-height: 0 }
+.st-list { list-style: none; margin: 0; padding: 8px; overflow: auto; border-right: 1px solid rgba(240,201,90,.18) }
+.st-list button { width: 100%; text-align: left; padding: 6px 10px; border: 0; border-radius: 6px; background: none; color: #e6dccb; cursor: pointer; font: inherit; font-size: 14px }
+.st-list button span { display: inline-block; width: 46px; color: #8d8473 }
+.st-list button:hover { background: rgba(255,255,255,.06) } .st-list button.on { background: rgba(240,201,90,.2); color: #f6e3a8 }
+.st-show { padding: 18px 22px; overflow: auto }
+.st-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; color: #cfc3aa; margin-bottom: 18px }
+.st-meta b { font-family: 'Cinzel', serif; color: #f6e3a8; font-size: 20px }
+.st-finishes { display: flex; gap: 22px; flex-wrap: wrap }
+.st-finishes figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 8px }
+.st-finishes figcaption { color: #f0c95a; font-family: 'Cinzel', serif }
+
+html.reduce-motion *, html.reduce-motion *::before, html.reduce-motion *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important }

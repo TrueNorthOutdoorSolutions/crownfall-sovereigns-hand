@@ -170,6 +170,26 @@ export function grantValor(n: number) {
   if (!(n > 0)) return;
   save({ ...current, valor: current.valor + Math.floor(n) });
 }
+/** Settings: start the campaign again. Earned rewards, cards and achievements are kept. */
+export function resetCampaign() { save({ ...current, campaign: {} }); }
+/** Development helper: a playset of every Set 1 card (standard finish). */
+export function devGrantAllCards() {
+  const owned = { ...current.owned };
+  for (const pr of Object.values(BASE_PRINTING)) owned[ownKey(pr, 'normal')] = Math.max(owned[ownKey(pr, 'normal')] ?? 0, PLAYSET);
+  save({ ...current, owned });
+}
+/** Development helper: mark every Act I Bout cleared (no rewards paid), unlocking every chapter. */
+export function devClearAct1() {
+  const at = Date.now();
+  save({ ...current, campaign: { ...(current.campaign ?? {}), ...Object.fromEntries(ALL_BOUTS.map((b) => [b.id, { cleared: true as const, at }])) } });
+}
+/** Every localStorage key the game uses on this device. */
+export const SAVE_KEYS = [KEY, 'sovereigns-hand-progress-v1', 'sovereigns-hand-settings-v1'];
+/** Development helper: erase this device's account (wallet, cards, decks, campaign, achievements, settings) and reload. */
+export function devEraseAccount() {
+  try { for (const k of SAVE_KEYS) localStorage.removeItem(k); } catch { /* ignore */ }
+  location.reload();
+}
 /** Development helper: top up the wallet for testing. */
 export function devGrant(valor: number, starstones: number) { save({ ...current, valor: current.valor + valor, starstones: current.starstones + starstones }); }
 

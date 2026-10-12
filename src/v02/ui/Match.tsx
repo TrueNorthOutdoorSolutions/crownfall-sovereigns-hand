@@ -10,6 +10,7 @@ import { chooseAction } from '../ai/bot';
 import { CardFace, ChampionToken, GLOSSARY } from './cardview';
 import { humanize } from './text';
 import { AscendFx } from './AscendFx';
+import { getSettings, setSetting, useSettings } from '../settings';
 import type { AscendMoment } from './AscendFx';
 import { rewardMatch } from '../economy/profile';
 import { applySetup, judge } from '../campaign/setup';
@@ -65,7 +66,8 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
   const [selected, setSelected] = useState<number | null>(null);
   const [inspect, setInspect] = useState<Inspect>(null);
   const [toast, setToast] = useState<string | null>(null);
-  const [fast, setFast] = useState(false);
+  const settings = useSettings();
+  const [fast, setFast] = useState(() => getSettings().speed === 'fast');
   const [showRules, setShowRules] = useState(false);
   const [view, setView] = useState<null | 'myFallen' | 'aiFallen' | 'myAsc'>(null);
   const [clash, setClash] = useState<GameState['lastClash']>(null);
@@ -98,7 +100,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
       if (champ) {
         setFlashUid(champ.uid);
         const f = champ.stack[champ.stack.length - 1];
-        setFx({ key: asc.n, cardId: f, star: champion(f).star, mine: champ.owner === ME });
+        if (getSettings().celebrations !== 'off') setFx({ key: asc.n, cardId: f, star: champion(f).star, mine: champ.owner === ME });
       }
     }
   }, [game, ready]);
@@ -274,7 +276,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
       <aside className="side">
         <div className="side-top">
           <button type="button" className="ghost" onClick={() => setShowRules(true)}>Rules</button>
-          <button type="button" className={`ghost ${fast ? 'on' : ''}`} onClick={() => setFast(!fast)}>{fast ? 'Speed: fast' : 'Speed: normal'}</button>
+          <button type="button" className={`ghost ${fast ? 'on' : ''}`} onClick={() => { setFast(!fast); setSetting('speed', fast ? 'normal' : 'fast'); }}>{fast ? 'Speed: fast' : 'Speed: normal'}</button>
           <button type="button" className="ghost" onClick={onExit}>Menu</button>
         </div>
         <DecisionPanel game={game} pend={pend} act={act} setInspect={setInspect} />
@@ -285,7 +287,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
               {game.phase === 'main' && <button type="button" className="primary" onClick={() => act({ type: 'toBattle' })}>To battle ⚔</button>}
               {game.phase === 'main' && legalActions(game).some((a) => a.type === 'cycle') && <button type="button" className={`secondary ${cycling ? 'on' : ''}`} onClick={() => setCycling(!cycling)} title="Edict: once per turn, pay 1 Command to put a card from your hand on the bottom of your deck and draw a card.">{cycling ? 'Cancel cycle' : 'Cycle (1)'}</button>}
               {game.phase === 'battle' && <button type="button" className="primary" onClick={() => act({ type: 'endBattle' })}>End battle</button>}
-              <button type="button" className={game.phase === 'after' ? 'primary' : 'secondary'} onClick={() => act({ type: 'endTurn' })}>End turn</button>
+              <button type="button" className={game.phase === 'after' ? 'primary' : 'secondary'} onClick={() => { if (settings.confirmEndTurn && game.phase === 'main' && !window.confirm("You haven't gone to battle this turn. End your turn anyway?")) return; act({ type: 'endTurn' }); }}>End turn</button>
             </div>
           </div>
         )}
@@ -304,7 +306,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
         </div>
       )}
       {banner && <div className={`banner ${banner.tone}`} key={banner.key}>{banner.text}</div>}
-      {fx && <AscendFx key={fx.key} m={fx} fast={fast} onDone={clearFx} />}
+      {fx && <AscendFx key={fx.key} m={fx} fast={fast || settings.celebrations === 'short'} onDone={clearFx} />}
       {toast && <div className="toast" role="status">{toast}</div>}
       {pend?.kind === 'mulligan' && (
         <div className="overlay">

@@ -16,6 +16,7 @@ import { getProfile } from '../economy/profile';
 import type { Pack } from '../economy/packs';
 import { Achievements, Challenges, AchievementToast, useAchievementBadge, useChallengeBadge } from './progress';
 import { Codex } from './codex/Codex';
+import { Settings } from './settings/Settings';
 
 const W = 1600, H = 900;
 
@@ -40,7 +41,7 @@ export function App() {
   const [mine, setMine] = useState<DeckId>('banner');
   const [rules, setRules] = useState(false);
   const [soon, setSoon] = useState<string | null>(null);
-  const [screen, setScreen] = useState<'menu' | 'arena' | 'shop' | 'collection' | 'decks' | 'campaign' | 'achievements' | 'challenges' | 'codex'>('menu');
+  const [screen, setScreen] = useState<'menu' | 'arena' | 'shop' | 'collection' | 'decks' | 'campaign' | 'achievements' | 'challenges' | 'codex' | 'settings'>('menu');
   const achBadge = useAchievementBadge();
   const chBadge = useChallengeBadge();
   // A pack opening interrupted by a refresh resumes where it left off.
@@ -73,6 +74,7 @@ export function App() {
   if (screen === 'campaign') return <Stage><Campaign onBack={() => setScreen('menu')} onStart={(b) => setMatch({ decks: [b.playerDeck, b.bout.crowning ? b.bout.crowning[b.difficulty].deck : b.bout.deck], seed: newSeed(), bout: b })} /></Stage>;
   if (screen === 'achievements') return <Stage><Achievements onBack={() => setScreen('menu')} /></Stage>;
   if (screen === 'challenges') return <Stage><Challenges onBack={() => setScreen('menu')} /></Stage>;
+  if (screen === 'settings') return <Stage><Settings onBack={() => setScreen('menu')} /></Stage>;
   if (screen === 'codex') return <Stage><Codex onBack={() => setScreen('menu')} /></Stage>;
   if (screen === 'decks') return <Stage><Decks onBack={() => setScreen('menu')} onPlay={(deck, opp) => { setScreen('decks'); setMatch({ decks: [deck, opp], seed: newSeed() }); }} /></Stage>;
   if (screen === 'menu') {
@@ -99,7 +101,7 @@ export function App() {
             {tile('Challenges', 'challenges', () => setScreen('challenges'), chBadge > 0)}
             {tile('Achievements', 'achievements', () => setScreen('achievements'), achBadge > 0)}
             {tile('Shop', 'shop', () => setScreen('shop'))}
-            {tile('Settings', 'settings')}
+            {tile('Settings', 'settings', () => setScreen('settings'))}
           </nav>
           <button type="button" className="home-howto" onClick={() => setRules(true)}>How to play</button>
           {rules && <RulesModal onClose={() => setRules(false)} />}
