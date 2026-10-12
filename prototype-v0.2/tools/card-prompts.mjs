@@ -32,6 +32,8 @@ const oldStatuses = new Map(oldTracker.split(/\r?\n/).filter(l => /^\| [12] \|/.
   const c = l.split('|').map(x => x.trim()); return [`${c[1]}:${c[3]}`, c[5]];
 }));
 let total = 0;
+/** Set 2 cards by number, for the in-order sheets (owner rule 2026-10-11: print 001-003, 004-006, ... in number order). */
+const byNumber = new Map();
 for (const set of [1, 2]) {
   const master = readFileSync(join(root, `MASTER_CARD_LIST_SET${set}.md`), 'utf8');
   const championSection = master.split(/\r?\n## Champions[^\r\n]*\r?\n/)[1]?.split(/\r?\n## /)[0];
@@ -89,6 +91,7 @@ for (const set of [1, 2]) {
       const traits = [...line.origins, ...line.classes].map(cap);
       const flavour = row[5];
       assert(flavour.startsWith('"') && flavour.endsWith('"'), `${row[0]}: missing flavour`);
+      const blockStart = prompt.length;
       prompt.push(
         `Card number: ${row[0]} (${numbers[i]})`,
         f.star === 1 ? `Cost: ${f.cost} (GREEN gem)` : `Ascend cost: up-arrow ${f.cost} (GOLD gem showing an arrow pointing up and the number ${f.cost})`,
@@ -105,6 +108,7 @@ for (const set of [1, 2]) {
         `Footer: ${numbers[i]}/${SET_TOTAL[set]} · ${letters[i]} · Northern Summit Studios · Art: Jerian Latawiec`,
         `Art brief: ${row[6]}`, '',
       );
+      if (set === 2) byNumber.set(numbers[i], { name: line.name, star: f.star, block: prompt.slice(blockStart) });
       if (f.star === 2 && f.cost !== 0) risks.push(`${numbers[i]} ★★: up-arrow ${f.cost}, not up-arrow 0.`);
       if (!f.keywords.length) risks.push(`${numbers[i]}: no keyword; do not add a chip or reminder.`);
       if (f.star === 3 && textLines.length >= 4) risks.push(`${numbers[i]} ★★★ has ${textLines.length} text lines before flavour; retain all lines and crown 2 placement.`);
@@ -126,4 +130,38 @@ for (const set of [1, 2]) {
   }
 }
 writeFileSync(join(root, 'card-prompts/CARD_ART_TRACKER.md'), tracker.join('\n') + '\n');
+
+// ── Set 2 in card-number order: one sheet per 001-003, 004-006, ... Finished cards (DONE.txt) are left out. ──
+const orderDir = join(root, 'card-prompts/set2-in-order');
+mkdirSync(orderDir, { recursive: true });
+let done = new Set();
+try { done = new Set(readFileSync(join(orderDir, 'DONE.txt'), 'utf8').split(/\s+/).filter((x) => /^\d{3}$/.test(x))); }
+catch (error) { if (error.code !== 'ENOENT') throw error; }
+const SET2_HEAD = [
+  'References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.',
+  'Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.',
+  'Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.',
+  'Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.',
+  'Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.',
+  'Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.', '',
+];
+const order = [];
+let sheets = 0;
+for (let start = 1; start <= SET_TOTAL[2]; start += 3) {
+  const nums = [start, start + 1, start + 2].filter((n) => n <= SET_TOTAL[2]).map(pad);
+  const todo = nums.filter((n) => !done.has(n));
+  const name = `sheet-${nums[0]}-${nums[nums.length - 1]}`;
+  if (!todo.length) { order.push(`| ${nums.join(', ')} | done | |`); continue; }
+  const missing = todo.filter((n) => !byNumber.has(n));
+  if (missing.length) { order.push(`| ${nums.join(', ')} | needs its own card template (${missing.join(', ')} is not a champion card) | |`); continue; }
+  const many = todo.length > 1;
+  const head = many ? `Make these ${todo.length} cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.` : 'Make this card in the locked master template.';
+  const pos = todo.length === 3 ? ['left', 'middle', 'right'] : ['left', 'right'];
+  const body = todo.flatMap((n, k) => [many ? `CARD ${k + 1} (${pos[k]})` : 'CARD', ...byNumber.get(n).block]);
+  writeFileSync(join(orderDir, `${name}.txt`), [head, '', ...SET2_HEAD, ...body].join('\n') + '\n');
+  order.push(`| ${nums.join(', ')} | ${todo.map((n) => `${n} ${byNumber.get(n).name} ${'★'.repeat(byNumber.get(n).star)}`).join(' · ')} | set2-in-order/${name}.txt |`);
+  sheets++;
+}
+writeFileSync(join(orderDir, 'ORDER.md'), ['# Set 2 sheets in card-number order', '', 'Generated by `npm run proto:cardprompts`. Finished card numbers go in DONE.txt and are left out of the prompts.', '', '| Cards | Still to make | Prompt |', '| --- | --- | --- |', ...order].join('\n') + '\n');
+console.log(`Set 2 in order: ${sheets} champion sheets written (${done.size} cards already done).`);
 console.log(`Generated ${total} champion prompts in master-list order and CARD_ART_TRACKER.md.`);

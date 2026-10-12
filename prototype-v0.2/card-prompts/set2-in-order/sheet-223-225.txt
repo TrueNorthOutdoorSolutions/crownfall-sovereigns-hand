@@ -1,0 +1,74 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+CARD 1 (left)
+Card number: S2-223 (223)
+Cost: 6 (GREEN gem)
+Name: The Unwritten King
+Title: Lord of the Buried Crown
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Hollow | Ascendant · Binder | TIER V
+Trait icons: Hollow: teal skull; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **BURIED LEGION.**
+3. **Arrival:** Summon two Fallen Warriors.
+4. Your tokens have +1 Might.
+Flavour: “Remember my name.”
+Crown 2: none
+Might | Guard: 5 | 7
+Footer: 223/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A skeletal king on a throne of shields. NEW pose and action, never the Set 1 pose or composition: on his buried throne as a legion of bound spirits rises behind him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-224 (224)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Veyra Sol
+Title: Hunter of Guardians
+Stars: ★★
+Ascension band: ASCENSION • from Veyra Sol ★
+Origin | Class | Tier: Riftborn | Ascendant · Hunter | TIER V
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. Ambush *(Attacking a sideways champion, it strikes first.)*
+4. **THE HUNT ETERNAL.**
+5. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+6. When Veyra Sol defeats a champion on your turn, draw a card.
+Flavour: “Caught.”
+Crown 2: none
+Might | Guard: 11 | 8
+Footer: 224/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her cloak is a window into other worlds. NEW pose and action, never the Set 1 pose or composition: leaping out of a portal onto a Guardian’s back, blade raised. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-225 (225)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Mother Verdant
+Title: Root of All Things
+Stars: ★★
+Ascension band: ASCENSION • from Mother Verdant ★
+Origin | Class | Tier: Verdant | Ascendant · Binder | TIER V
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **EVERGROWTH.**
+3. Your tokens have +1 Might and +1 Guard.
+4. **Ascend:** Summon two Wild Saplings.
+Flavour: “Bloom again.”
+Crown 2: none
+Might | Guard: 7 | 12
+Footer: 225/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her train is a meadow; deer of light follow her. NEW pose and action, never the Set 1 pose or composition: growing up through the Arena’s foundations, forest spirits bound and glowing in her branches. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+

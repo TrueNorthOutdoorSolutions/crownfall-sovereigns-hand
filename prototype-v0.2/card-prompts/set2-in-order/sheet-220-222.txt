@@ -1,0 +1,75 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+CARD 1 (left)
+Card number: S2-220 (220)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Aurex
+Title: Bane of the Guardians
+Stars: ★★
+Ascension band: ASCENSION • from Aurex ★
+Origin | Class | Tier: Wyrmblood | Ascendant · Hunter | TIER V
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **GUARDIAN’S BANE.**
+4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+5. **Attack: Scorch 3** the defender.
+Flavour: “Worth it? Perhaps.”
+Crown 2: none
+Might | Guard: 9 | 9
+Footer: 220/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Molten armour grows over his wings; fire leaks from every seam. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-221 (221)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Noctara
+Title: Shadow Beneath the Crown
+Stars: ★★
+Ascension band: ASCENSION • from Noctara ★
+Origin | Class | Tier: Umbral | Ascendant · Seer | TIER V
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Seer: indigo crystal orb
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **ECLIPSE SIGHT.**
+4. Your Schemes cost 1 less to spring.
+5. **Ascend:** Defeat each rival champion with Guard 2 or less.
+Flavour: “Nothing remains.”
+Crown 2: none
+Might | Guard: 8 | 10
+Footer: 221/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her crown becomes an eclipse; small voids orbit her. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-222 (222)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Sol
+Title: Dawn Beneath the World
+Stars: ★★
+Ascension band: ASCENSION • from Sol ★
+Origin | Class | Tier: Dawnforged | Ascendant · Restorer | TIER V
+Trait icons: Dawnforged: gold-orange sunburst; Ascendant: gold crown (distinct from the blue Kingdom crown); Restorer: rose-pink lotus
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **SECOND DAWN.**
+4. **Ascend:** Mend 1.
+5. Shield each champion you control.
+Flavour: “The light endures.”
+Crown 2: none
+Might | Guard: 8 | 10
+Footer: 222/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A corona and four wings of light. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+

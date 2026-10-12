@@ -1,0 +1,70 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+CARD 1 (left)
+Card number: S2-145 (145)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Maeve
+Title: Broker of Relics
+Stars: ★★
+Ascension band: ASCENSION • from Maeve ★
+Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Sleight of Thorns.**
+2. **Ascend:** Your rival discards a card at random.
+3. Draw a card.
+Flavour: “A fair trade. For me.”
+Crown 2: none
+Might | Guard: 5 | 7
+Footer: 145/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Antlers of bone and branch; her shadow is a tree. NEW pose and action, never the Set 1 pose or composition: in a hidden underground market, swapping a fake relic for a real one behind her back with a sly smile. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-146 (146)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Ronin Zero
+Title: Blade Beneath the Arena
+Stars: ★★
+Ascension band: ASCENSION • from Ronin Zero ★
+Origin | Class | Tier: Voltborn | Gladiator | TIER III
+Trait icons: Voltborn: blue lightning bolt; Gladiator: bronze crested gladiator helmet
+Keywords: Charge *(Can attack the turn it arrives.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. **Arena Draw.**
+3. +2 Might while attacking a champion.
+4. Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.
+Flavour: “Again.”
+Crown 2: none
+Might | Guard: 7 | 6
+Footer: 146/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Arc lines trace his frame; his blade hums. NEW pose and action, never the Set 1 pose or composition: locked blade-to-blade with an opponent in a flooded arena pit, sparks flying where the blades meet. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-147 (147)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Ignara
+Title: Heart of the Forge
+Stars: ★★★
+Ascension band: ASCENSION • from Ignara ★★
+Origin | Class | Tier: Elemental | Channeler | TIER III
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Forgefire.**
+3. Whenever you cast a Tactic, Scorch 2 a rival champion.
+Flavour: “The forge answers only me.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 10
+Footer: 147/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A pillar of fire in the shape of a woman; the air itself is burning. NEW pose and action, never the Set 1 pose or composition: drawing flame out of floating runes into her open hands in a deep forge cavern. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+

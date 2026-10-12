@@ -1,0 +1,69 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+CARD 1 (left)
+Card number: S2-049 (049)
+Cost: 5 (GREEN gem)
+Name: Astryon
+Title: Blade That Fell Beneath
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starfall Duel.**
+3. +2 Might while attacking a champion.
+Flavour: “The eighth star awaits.”
+Crown 2: none
+Might | Guard: 6 | 4
+Footer: 049/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A silver celestial swordsman. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-050 (050)
+Cost: 4 (GREEN gem)
+Name: Queen Vespera
+Title: Empress of the Underhalls
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Umbral | Binder | TIER IV
+Trait icons: Umbral: lilac crescent moon; Binder: teal chain link
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Court of Shadows.**
+2. **Arrival:** Summon a Court Shade.
+3. Your tokens have +1 Might.
+Flavour: “Court is in session.”
+Crown 2: none
+Might | Guard: 3 | 4
+Footer: 050/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A pale shadow monarch on invisible stairs. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-051 (051)
+Cost: 5 (GREEN gem)
+Name: Titan Rho
+Title: Vault Bastion
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Gearbound | Sentinel | TIER IV
+Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Bastion Protocol.**
+3. Rival champions attacking your Crown get −1 Might.
+Flavour: “City status: unknown. Defending anyway.”
+Crown 2: none
+Might | Guard: 3 | 8
+Footer: 051/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous ancient war machine on tread-legs. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
