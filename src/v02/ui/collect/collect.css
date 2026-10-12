@@ -263,3 +263,28 @@
 .sx-bundle { height: 228px } .sx-bundle.t4, .sx-bundle.t5, .sx-bundle.t6 { height: 242px } .sx-offer { height: 136px }
 .sx-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain }
 .sx-bundle .sx-art:has(img) { filter: none; margin: 2px 0 6px }
+/* shop v3: the owner's painted board, with click areas over its buttons */
+.shopx-main { left: 432px; top: 78px; width: 1110px }
+.sx-board { position: relative; width: 100%; aspect-ratio: 1536 / 1024; background: center / 100% 100% no-repeat }
+.sx-hot { position: absolute; border: 0; border-radius: 6px; background: transparent; cursor: pointer; transition: box-shadow .15s, background .15s }
+.sx-hot:not(:disabled):hover, .sx-hot:focus-visible { outline: none; background: rgba(255,255,255,.14); box-shadow: 0 0 16px rgba(255,220,140,.8) }
+.sx-hot.stone:not(:disabled):hover, .sx-hot.stone:focus-visible { box-shadow: 0 0 16px rgba(200,140,255,.9) }
+.sx-hot:disabled { background: rgba(6,6,12,.5); cursor: not-allowed }
+.sx-foot { margin-top: 2px }
+/* currency badges (owner reference, 2026-10-11): navy plaque, gold frame with pointed ends, gem icon */
+.wallet { gap: 12px; font-weight: 600 }
+.wallet .coin { position: relative; display: inline-flex; align-items: center; gap: 9px; padding: 6px 22px 6px 16px; font-family: var(--display); font-size: 18px; letter-spacing: .01em;
+  border: 0; border-radius: 0; background: linear-gradient(180deg, #c9a24a, #f6dd8f 45%, #a9792a);
+  clip-path: polygon(12px 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 12px 100%, 0 50%) }
+.wallet .coin::before { content: ''; position: absolute; inset: 2px; z-index: 0; background: linear-gradient(180deg, #121a33, #070b18);
+  clip-path: polygon(11px 0, calc(100% - 11px) 0, 100% 50%, calc(100% - 11px) 100%, 11px 100%, 0 50%) }
+.wallet .coin > * { position: relative; z-index: 1 }
+.wallet .coin { isolation: isolate }
+.wallet .valor { color: #bfe6ff } .wallet .stones { color: #f1cfff }
+.wallet .gem { width: 24px; height: 24px; flex: none; filter: drop-shadow(0 0 5px rgba(120,190,255,.9)) }
+.wallet .stones .gem { filter: drop-shadow(0 0 5px rgba(200,120,255,.95)) }
+.shopx-wallet span { padding: 0; border: 0; background: none; box-shadow: none; border-radius: 0 }
+.shopx-wallet .wallet .coin { padding: 7px 24px 7px 18px; font-size: 19px }
+.wallet .coin b { font-weight: 600 }
+.shopx-bg::after { background: radial-gradient(ellipse 60% 70% at 62% 55%, rgba(6,8,18,.35), rgba(4,5,12,.6)) }
+.wallet .coin { font-family: Georgia, 'Times New Roman', serif; font-size: 19px } .wallet .gem { width: 27px; height: 27px }
