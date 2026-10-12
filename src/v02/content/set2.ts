@@ -257,9 +257,9 @@ const SCENES: Record<string, [string, string, string]> = {
     'heroic wide shot of a vast cavern split by rifts: Dax large in frame standing on a fallen Guardian, revolver smoking, a dozen ghostly copies of himself from other timelines firing all at once around him; violet rift light and amber muzzle flashes everywhere',
   ],
   elara: [
-    'close low angle in a collapsed underground hall turned field hospital: Elara kneels by lantern light bandaging a wounded delver, her salve satchel open beside her, broken pillars and cots fading into cool blue dark behind',
-    'three-quarter view down a long row of wounded on stretchers: Elara walks between them in white-and-blue vestments, her glowing tome open in one hand, soft light spreading from page to patient as they sit up',
-    'heroic wide shot of a great fallen hall: Elara rising like an angel above the field hospital, light pouring from her open tome and flooding the cavern gold, every wounded warrior below lifting their heads toward her; serene and overwhelming',
+    'low angle looking up a dark vertical shaft: Elara braced on a rope, hauling a wounded delver up out of the pit over her shoulder, her salve satchel swinging, one lantern tied to the rope lighting her determined face against cold blue rock (never kneeling over a patient)',
+    'side view in a collapsing tunnel: Elara sprints through falling rubble with her tome held open ahead of her like a shield, its light forming a protective dome over the wounded being carried out behind her; dust, sparks and torchlight',
+    'heroic wide shot of a cave-in: Elara stands alone in the breach of a collapsing hall, both arms raised as a vast wall of light from her open tome holds back a falling ceiling of stone while the last of the wounded escape behind her; no wings, no halo',
   ],
   rask: [
     'low angle in the blood-sand pit of the Underpits: Rask circles his opponent with notched gladius raised and tail low, torchlit crowds in the stone tiers above, a fallen monster skull half-buried in the sand',
