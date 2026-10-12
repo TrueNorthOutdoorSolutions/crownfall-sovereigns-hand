@@ -30,6 +30,7 @@ export function FoilCard({ printing, finish = 'normal', width = 220, faceDown, o
       <img src={faceDown ? cardBackUrl : imgUrl(p)} alt="" draggable={false} />
       {!faceDown && finish !== 'normal' && <div className="foil-layer" aria-hidden="true" />}
       {!faceDown && finish !== 'normal' && <div className="foil-glare" aria-hidden="true" />}
+      {!faceDown && finish === 'rainbow' && <div className="foil-rim" aria-hidden="true" />}
     </div>
   );
 }

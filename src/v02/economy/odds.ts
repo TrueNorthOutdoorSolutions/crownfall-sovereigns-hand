@@ -7,7 +7,8 @@ export const RARITIES: Rarity[] = ['common', 'uncommon', 'elite', 'epic', 'mythi
 export const RARITY_NAMES: Record<Rarity, string> = { common: 'Common', uncommon: 'Uncommon', elite: 'Elite', epic: 'Epic', mythic: 'Mythic' };
 
 /** Foil finishes. Normal cards can be Holo, Prismatic or Sovereign Rainbow; Masterworks and Omegas only ever Gilded. */
-export type Finish = 'normal' | 'holo' | 'prismatic' | 'rainbow' | 'gilded';
+/** Display order, plainest to most prestigious (owner, 2026-10-11): Standard, Holo, Gilded, Prismatic, Sovereign Rainbow. */
+export type Finish = 'normal' | 'holo' | 'gilded' | 'prismatic' | 'rainbow';
 export const FINISH_NAMES: Record<Finish, string> = { normal: 'Standard', holo: 'Holo', prismatic: 'Prismatic', rainbow: 'Sovereign Rainbow', gilded: 'Gilded' };
 
 export const PACK_SIZE = 10;

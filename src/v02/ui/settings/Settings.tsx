@@ -118,7 +118,7 @@ function Confirm({ label, again, onConfirm, danger }: { label: string; again: st
   );
 }
 
-const FINISHES: Finish[] = ['normal', 'holo', 'prismatic', 'rainbow', 'gilded'];
+const FINISHES: Finish[] = ['normal', 'holo', 'gilded', 'prismatic', 'rainbow'];
 const KIND_NAMES: Record<string, string> = { base: 'Set 1', token: 'Tokens', alt: 'Alternate Art', masterwork: 'Masterworks', omega: 'Omegas' };
 
 /** Developer card viewer: every printing in every finish, plus the ★★/★★★ celebration preview. */

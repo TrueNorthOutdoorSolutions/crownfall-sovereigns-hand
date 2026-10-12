@@ -8,7 +8,7 @@ import { PRINTINGS } from '../cardart';
 import { FoilCard } from './FoilCard';
 import { Wallet } from './Shop';
 
-const FINISHES: Finish[] = ['normal', 'holo', 'prismatic', 'rainbow', 'gilded'];
+const FINISHES: Finish[] = ['normal', 'holo', 'gilded', 'prismatic', 'rainbow'];
 type Group = 'base' | 'alt' | 'special';
 const typeOf = (p: Printing) => { const c = CARDS[p.cardId]; return isChampionCard(c) ? 'champion' : isEdictCard(c) ? 'edict' : 'spell'; };
 
@@ -52,7 +52,7 @@ export function Collection({ onBack }: { onBack: () => void }) {
         <div className="coll-grid">
           {visible.map((p) => {
             const n = owned(p), foils = n - owned(p, 'normal');
-            const best = (['gilded', 'rainbow', 'prismatic', 'holo'] as Finish[]).find((f) => owned(p, f) > 0) ?? 'normal';
+            const best = (['rainbow', 'prismatic', 'gilded', 'holo'] as Finish[]).find((f) => owned(p, f) > 0) ?? 'normal';
             return (
               <div key={p.id} className={`coll-item ${n ? '' : 'missing'}`}>
                 <FoilCard printing={p.id} finish={best} width={168} onClick={() => setOpen(p)} />
@@ -65,7 +65,7 @@ export function Collection({ onBack }: { onBack: () => void }) {
       {open && (
         <div className="modal-back" onClick={() => setOpen(null)}>
           <div className="detail" onClick={(e) => e.stopPropagation()} role="dialog" aria-label={CARDS[open.cardId].name}>
-            <FoilCard printing={open.id} finish={(['gilded', 'rainbow', 'prismatic', 'holo'] as Finish[]).find((f) => owned(open, f) > 0) ?? 'normal'} width={380} />
+            <FoilCard printing={open.id} finish={(['rainbow', 'prismatic', 'gilded', 'holo'] as Finish[]).find((f) => owned(open, f) > 0) ?? 'normal'} width={380} />
             <div className="info">
               <h3>{CARDS[open.cardId].name}</h3>
               <div className="note">{open.no}{open.kind === 'base' ? '/248' : ''} · {RARITY_NAMES[open.rarity]}{open.kind === 'alt' ? ' · Alternate Art' : open.kind === 'masterwork' ? ' · Masterwork' : open.kind === 'omega' ? ' · Omega Masterwork' : ''}</div>
