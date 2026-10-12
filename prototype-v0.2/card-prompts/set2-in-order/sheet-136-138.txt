@@ -47,7 +47,7 @@ Flavour: “Big target. Easy shot.”
 Crown 2: none
 Might | Guard: 6 | 4
 Footer: 137/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Rift cracks glow along his revolver; his coat shows another sky. NEW pose and action, never the Set 1 pose or composition: down on one knee at the mouth of a rift portal, taking aim at a towering Guardian. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rift cracks glow along his revolver; his coat shows another sky. SCENE: dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-138 (138)
@@ -66,5 +66,5 @@ Flavour: “Breathe. I’ve got you.”
 Crown 2: none
 Might | Guard: 3 | 7
 Footer: 138/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): White-and-blue royal vestments; her tome glows. NEW pose and action, never the Set 1 pose or composition: tending wounded explorers in a collapsed hall by lantern light, her hands glowing as she heals. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: White-and-blue royal vestments; her tome glows. SCENE: three-quarter view down a long row of wounded on stretchers: Elara walks between them in white-and-blue vestments, her glowing tome open in one hand, soft light spreading from page to patient as they sit up. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

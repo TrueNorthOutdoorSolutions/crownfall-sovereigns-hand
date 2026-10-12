@@ -251,6 +251,21 @@ const SCENES: Record<string, [string, string, string]> = {
     'three-quarter view inside a collapsing treasure vault: Thorn strides through a wall that is rotting apart around him, poison dripping from his purple petals and thorny spine raised, guards backing away through the green haze',
     'heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below',
   ],
+  dax: [
+    'low angle through a glowing violet rift torn in a cavern wall: Dax Meridian steps half through it, dusty long coat swirling, revolver raised in one hand and aimed at the huge silhouette of a Guardian in the dark cavern beyond; one warm lantern behind him',
+    'dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it',
+    'heroic wide shot of a vast cavern split by rifts: Dax large in frame standing on a fallen Guardian, revolver smoking, a dozen ghostly copies of himself from other timelines firing all at once around him; violet rift light and amber muzzle flashes everywhere',
+  ],
+  elara: [
+    'close low angle in a collapsed underground hall turned field hospital: Elara kneels by lantern light bandaging a wounded delver, her salve satchel open beside her, broken pillars and cots fading into cool blue dark behind',
+    'three-quarter view down a long row of wounded on stretchers: Elara walks between them in white-and-blue vestments, her glowing tome open in one hand, soft light spreading from page to patient as they sit up',
+    'heroic wide shot of a great fallen hall: Elara rising like an angel above the field hospital, light pouring from her open tome and flooding the cavern gold, every wounded warrior below lifting their heads toward her; serene and overwhelming',
+  ],
+  rask: [
+    'low angle in the blood-sand pit of the Underpits: Rask circles his opponent with notched gladius raised and tail low, torchlit crowds in the stone tiers above, a fallen monster skull half-buried in the sand',
+    'dynamic side view: Rask in gilded arena armour leaps over a charging cave beast, gladius flashing down, his trophy belt swinging, sand and sparks spraying in the torchlight of the pit',
+    'heroic low-angle hero shot of the packed Underpits arena: golden-scaled Rask large in frame raising his gladius in triumph on top of a defeated Guardian, cloak of fallen champions streaming behind him, the roaring crowd lit by a ring of fire; glorious and undefeated',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

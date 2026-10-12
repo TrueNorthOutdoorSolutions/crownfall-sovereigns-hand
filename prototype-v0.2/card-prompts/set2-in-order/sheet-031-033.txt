@@ -26,7 +26,7 @@ Flavour: “This isn't my first reality.”
 Crown 2: none
 Might | Guard: 3 | 2
 Footer: 031/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dimensional gunslinger in a dusty long coat. NEW pose and action, never the Set 1 pose or composition: down on one knee at the mouth of a rift portal, taking aim at a towering Guardian. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A dimensional gunslinger in a dusty long coat. SCENE: low angle through a glowing violet rift torn in a cavern wall: Dax Meridian steps half through it, dusty long coat swirling, revolver raised in one hand and aimed at the huge silhouette of a Guardian in the dark cavern beyond; one warm lantern behind him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-032 (032)
@@ -45,7 +45,7 @@ Flavour: “Who needs mending?”
 Crown 2: none
 Might | Guard: 1 | 4
 Footer: 032/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A battlefield healer with a satchel of salves. NEW pose and action, never the Set 1 pose or composition: tending wounded explorers in a collapsed hall by lantern light, her hands glowing as she heals. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A battlefield healer with a satchel of salves. SCENE: close low angle in a collapsed underground hall turned field hospital: Elara kneels by lantern light bandaging a wounded delver, her salve satchel open beside her, broken pillars and cots fading into cool blue dark behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-033 (033)
@@ -65,5 +65,5 @@ Flavour: “One. Two. Three.”
 Crown 2: none
 Might | Guard: 3 | 2
 Footer: 033/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A reptilian gladiator with a notched gladius. NEW pose and action, never the Set 1 pose or composition: roaring in the centre of an underground fighting pit, a defeated monster at his feet, the crowd on the ledges above. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A reptilian gladiator with a notched gladius. SCENE: low angle in the blood-sand pit of the Underpits: Rask circles his opponent with notched gladius raised and tail low, torchlit crowds in the stone tiers above, a fallen monster skull half-buried in the sand. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

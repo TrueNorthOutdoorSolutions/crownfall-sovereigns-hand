@@ -23,7 +23,7 @@ Flavour: “Who needs mending?”
 Crown 2: none
 Might | Guard: 1 | 4
 Footer: 032/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A battlefield healer with a satchel of salves. NEW pose and action, never the Set 1 pose or composition: tending wounded explorers in a collapsed hall by lantern light, her hands glowing as she heals. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A battlefield healer with a satchel of salves. SCENE: close low angle in a collapsed underground hall turned field hospital: Elara kneels by lantern light bandaging a wounded delver, her salve satchel open beside her, broken pillars and cots fading into cool blue dark behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-138 (138)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -41,7 +41,7 @@ Flavour: “Breathe. I’ve got you.”
 Crown 2: none
 Might | Guard: 3 | 7
 Footer: 138/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): White-and-blue royal vestments; her tome glows. NEW pose and action, never the Set 1 pose or composition: tending wounded explorers in a collapsed hall by lantern light, her hands glowing as she heals. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: White-and-blue royal vestments; her tome glows. SCENE: three-quarter view down a long row of wounded on stretchers: Elara walks between them in white-and-blue vestments, her glowing tome open in one hand, soft light spreading from page to patient as they sit up. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-206 (206)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -60,7 +60,7 @@ Flavour: “No one gets left in the dark.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 6 | 10
 Footer: 206/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An angel of the field hospital, light pouring from her open tome. NEW pose and action, never the Set 1 pose or composition: tending wounded explorers in a collapsed hall by lantern light, her hands glowing as she heals. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An angel of the field hospital, light pouring from her open tome. SCENE: heroic wide shot of a great fallen hall: Elara rising like an angel above the field hospital, light pouring from her open tome and flooding the cavern gold, every wounded warrior below lifting their heads toward her; serene and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
