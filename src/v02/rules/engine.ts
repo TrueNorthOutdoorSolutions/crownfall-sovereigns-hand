@@ -151,8 +151,8 @@ export function attackBlockReason(s: GameState, c: ChampionInPlay): string | nul
   return null;
 }
 
-function log(s: GameState, kind: LogKind, text: string, player: PlayerIndex | null = s.active) {
-  s.log.push({ n: s.log.length + 1, turn: s.turn, player, kind, text });
+function log(s: GameState, kind: LogKind, text: string, player: PlayerIndex | null = s.active, card?: string) {
+  s.log.push({ n: s.log.length + 1, turn: s.turn, player, kind, text, ...(card ? { card } : {}) });
 }
 const P = (p: PlayerIndex) => `P${p + 1}`;
 
@@ -707,7 +707,7 @@ function placeChampion(s: GameState, p: PlayerIndex, index: number, free: boolea
   const c: ChampionInPlay = { uid: s.nextUid++, owner: p, stack: [id], exhausted: false, arrivedTurn: s.turn, ascendedTurn: -1,
     shield: false, mods: { might: 0, guard: 0 }, blocking: false, noAttack: false, readiedTurn: -1, relic: null, token: false };
   pl.field.push(c);
-  log(s, 'play', `${P(p)} deploys ${def.name} ★ (Might ${def.might}, Guard ${def.guard})${from === 'fallen' ? ' from the Fallen pile' : ''}${free ? ' for free' : ` for ${def.cost} Command`}.`, p);
+  log(s, 'play', `${P(p)} deploys ${def.name} ★ (Might ${def.might}, Guard ${def.guard})${from === 'fallen' ? ' from the Fallen pile' : ''}${free ? ' for free' : ` for ${def.cost} Command`}.`, p, id);
   queueEffects(s, def.arrive, { controller: p, source: id, self: c.uid });
 }
 
@@ -1035,7 +1035,7 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
       const d = spell(id);
       pl.command -= d.cost;
       pl.fallen.push(id);
-      log(s, 'play', `${P(player)} casts ${d.name} (${d.cost} Command).`, player);
+      log(s, 'play', `${P(player)} casts ${d.name} (${d.cost} Command).`, player, id);
       queueEffects(s, d.effects, { controller: player, source: id });
       castTriggers(s, player);
       break;
@@ -1069,7 +1069,7 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
       pl.command -= cost;
       const c = findChampion(s, action.uid)!;
       c.relic = id;
-      log(s, 'play', `${P(player)} attaches ${r.name} to ${champName(c)} (${cost} Command).`, player);
+      log(s, 'play', `${P(player)} attaches ${r.name} to ${champName(c)} (${cost} Command).`, player, id);
       break;
     }
     case 'playEdict': {
@@ -1084,7 +1084,7 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
       }
       s.edict = { card: id, owner: player };
       pl.edictCard = id;
-      log(s, 'scheme', `${P(player)} proclaims an Edict: ${d.name}! ${d.text}`, player);
+      log(s, 'scheme', `${P(player)} proclaims an Edict: ${d.name}! ${d.text}`, player, id);
       break;
     }
     case 'cycle': {
@@ -1146,7 +1146,7 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
         pl.command -= schemeCost(s, player, d);
         pl.fallen.push(sc.card);
         s.stats.schemes[player]++;
-        log(s, 'scheme', `${P(player)} springs ${d.name}! ${d.text}`, player);
+        log(s, 'scheme', `${P(player)} springs ${d.name}! ${d.text}`, player, sc.card);
         queueEffects(s, d.effects, { controller: player, source: sc.card, ctx }, true);
       } else {
         const i = Number(action.key.slice(2));
@@ -1154,7 +1154,7 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
         const d = spell(id);
         pl.command -= d.cost;
         pl.fallen.push(id);
-        log(s, 'scheme', `${P(player)} casts ${d.name} (Swift).`, player);
+        log(s, 'scheme', `${P(player)} casts ${d.name} (Swift).`, player, id);
         queueEffects(s, d.effects, { controller: player, source: id, ctx }, true);
         castTriggers(s, player);
       }
@@ -1174,7 +1174,7 @@ export function apply(prev: GameState, player: PlayerIndex, action: Action): App
       } else {
         pl.hand.splice(i, 1);
         pl.fallen.push(pend.card);
-        log(s, 'scheme', `Shardfall! ${P(player)} casts ${d.name} for free.`, player);
+        log(s, 'scheme', `Shardfall! ${P(player)} casts ${d.name} for free.`, player, pend.card);
         queueEffects(s, d.effects, { controller: player, source: pend.card }, true);
       }
       break;

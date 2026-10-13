@@ -10,6 +10,7 @@ import { chooseAction } from '../ai/bot';
 import { CardFace, ChampionToken, GLOSSARY } from './cardview';
 import { humanize } from './text';
 import { AscendFx } from './AscendFx';
+import { cardBackUrl } from './cardart';
 import { getSettings, setSetting, useSettings } from '../settings';
 import type { AscendMoment } from './AscendFx';
 import { rewardMatch } from '../economy/profile';
@@ -76,6 +77,8 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
   const [banner, setBanner] = useState<{ key: number; text: string; tone: 'ascend' | 'shard' | 'turn' | 'scheme' } | null>(null);
   const [flashUid, setFlashUid] = useState<number | null>(null);
   const [fx, setFx] = useState<AscendMoment | null>(null);
+  /** Card spotlight (owner 2026-10-13): every played card shows large in the middle for a moment. */
+  const [spot, setSpot] = useState<{ key: number; id: string | null; mine: boolean; label: string } | null>(null);
   /** Hand index of a Relic waiting for the champion to attach it to. */
   const [equipping, setEquipping] = useState<number | null>(null);
   const [cycling, setCycling] = useState(false);
@@ -89,7 +92,16 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
     lastLog.current = game.log.length;
     if (game.lastClash && fresh.some((e) => e.n === game.lastClash!.n)) setClash(game.lastClash);
     const pick = [...fresh].reverse().find((e) => e.kind === 'ascend' || e.kind === 'shard' || e.kind === 'scheme' || e.kind === 'turn');
-    if (pick) {
+    // Spotlight the most recent card played this update (face-down Schemes show the card back).
+    const play = [...fresh].reverse().find((e) => e.card || /sets a Scheme face-down/.test(e.text));
+    if (play && getSettings().celebrations !== 'off') {
+      const mine = play.player === ME;
+      const verb = /springs/.test(play.text) ? 'springs' : /proclaims/.test(play.text) ? 'proclaims' : /deploys/.test(play.text) ? 'deploys'
+        : /attaches/.test(play.text) ? 'attaches' : /sets a Scheme/.test(play.text) ? 'sets a Scheme' : 'casts';
+      const you: Record<string, string> = { springs: 'spring', proclaims: 'proclaim', deploys: 'deploy', attaches: 'attach', 'sets a Scheme': 'set a Scheme', casts: 'cast' };
+      setSpot({ key: play.n, id: play.card ?? null, mine, label: mine ? `You ${you[verb]}` : `Rival ${verb}` });
+    }
+    if (pick && !(play && pick.kind === 'scheme' && play.n === pick.n)) {
       const tone = pick.kind === 'ascend' ? 'ascend' : pick.kind === 'shard' ? 'shard' : pick.kind === 'scheme' ? 'scheme' : 'turn';
       const text = pick.kind === 'turn' ? (game.active === ME ? `Round ${round(game)} · Your turn` : `Round ${round(game)} · Rival's turn`)
         : pick.kind === 'ascend' ? humanize(pick.text).replace(/ for \d+ Command.*$/, '!')
@@ -107,6 +119,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
     }
   }, [game, ready]);
 
+  useEffect(() => { if (!spot) return; const t = setTimeout(() => setSpot(null), spot.mine ? (fast ? 500 : 900) : (fast ? 700 : 1500)); return () => clearTimeout(t); }, [spot, fast]);
   useEffect(() => { if (!banner) return; const t = setTimeout(() => setBanner(null), banner.tone === 'turn' ? 1300 : 2000); return () => clearTimeout(t); }, [banner]);
   useEffect(() => { if (!clash) return; const t = setTimeout(() => setClash(null), fast ? 1400 : 2600); return () => clearTimeout(t); }, [clash, fast]);
   useEffect(() => { if (flashUid === null) return; const t = setTimeout(() => setFlashUid(null), 1600); return () => clearTimeout(t); }, [flashUid]);
@@ -119,7 +132,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
   const autoplay = hash.includes('autoplay') || (hash.includes('autoturns') && !game.pending);
   useEffect(() => {
     const who = actor(game);
-    if (!ready || fx || game.phase === 'over' || who === null || (who !== AI && !autoplay)) return;
+    if (!ready || fx || (spot && !spot.mine) || game.phase === 'over' || who === null || (who !== AI && !autoplay)) return;
     const justClashed = clash !== null;
     const delay = fast ? 260 : justClashed ? 1500 : game.pending ? 900 : 750;
     const t = setTimeout(() => {
@@ -127,7 +140,7 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
       if (!r.error) setGame(r.state);
     }, delay);
     return () => clearTimeout(t);
-  }, [game, ready, fast, clash, autoplay, fx]);
+  }, [game, ready, fast, clash, autoplay, fx, spot]);
 
   useEffect(() => { setSelected(null); setEquipping(null); setCycling(false); }, [game.phase, game.turn]);
 
@@ -306,6 +319,12 @@ export function Match({ decks, seed, onExit, onRematch, campaign }: { decks: [De
         <LogPanel log={game.log} />
       </aside>
 
+      {spot && (
+        <div key={spot.key} className={`spotlight ${spot.mine ? 'mine' : 'theirs'}`} aria-live="polite" role="status">
+          <div className="sp-label">{spot.label}{spot.id ? `: ${CARDS[spot.id]?.name ?? ''}` : ''}</div>
+          {spot.id ? <CardFace id={spot.id} size="lg" /> : <img className="sp-back" src={cardBackUrl} alt="A face-down Scheme" />}
+        </div>
+      )}
       {viewing && (() => {
         const i = viewing.handIndex;
         const pl = i !== undefined ? playability[i] : null;

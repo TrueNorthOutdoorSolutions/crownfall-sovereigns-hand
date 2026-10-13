@@ -87,7 +87,8 @@ export type Pending =
 
 export type LogKind = 'turn' | 'play' | 'ascend' | 'attack' | 'clash' | 'shard' | 'scheme' | 'effect' | 'info' | 'win';
 
-export interface LogEntry { n: number; turn: number; player: PlayerIndex | null; kind: LogKind; text: string }
+/** `card`: the card a play/spring/proclaim entry is about (drives the on-screen card spotlight). */
+export interface LogEntry { n: number; turn: number; player: PlayerIndex | null; kind: LogKind; text: string; card?: string }
 
 export interface ClashReport {
   n: number;
