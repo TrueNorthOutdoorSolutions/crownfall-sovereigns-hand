@@ -24,7 +24,7 @@ Flavour: “Excessive voltage? Never!”
 Crown 2: none
 Might | Guard: 2 | 3
 Footer: 037/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A wild-haired engineer with a wrench and a tool-pack. NEW pose and action, never the Set 1 pose or composition: fixing a crackling relic onto a half-built turret, goggles down, tongue out in concentration. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A wild-haired engineer with a wrench and a tool-pack. SCENE: over-the-shoulder view from behind Professor Spark crouched inside the open belly of a half-built turret in a cramped underground workshop, wrench in one hand, sparks spraying from a crackling relic he is wiring in; his goggles glow orange in the dark, cables everywhere. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-038 (038)
@@ -44,7 +44,7 @@ Flavour: “I have a star with your name.”
 Crown 2: none
 Might | Guard: 4 | 2
 Footer: 038/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A star-powered sniper with a crescent longbow. NEW pose and action, never the Set 1 pose or composition: standing on a cavern ledge under painted constellations, loosing an arrow at a distant target in the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A star-powered sniper with a crescent longbow. SCENE: low angle inside a narrow flooded tunnel lit only by his own glowing arrow: Orion wades thigh-deep, crescent longbow lowered, holding a single star-arrow up like a torch to read faint star maps carved into the tunnel ceiling (no open sky, no rocks against stars). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-039 (039)
@@ -64,5 +64,5 @@ Flavour: “Every gift has a price.”
 Crown 2: none
 Might | Guard: 2 | 4
 Footer: 039/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An ancient forest witch with a staff of living wood. NEW pose and action, never the Set 1 pose or composition: in a hidden underground market, swapping a fake relic for a real one behind her back with a sly smile. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An ancient forest witch with a staff of living wood. SCENE: eye-level view in a crowded, lantern-lit underground black market: Maeve in a hooded cloak of moss leans over a merchant stall, palming a real glowing relic while sliding a fake one carved from living wood into its place; the merchant looks away. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

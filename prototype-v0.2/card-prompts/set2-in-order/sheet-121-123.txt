@@ -45,7 +45,7 @@ Flavour: “It works! Mostly!”
 Crown 2: none
 Might | Guard: 5 | 6
 Footer: 122/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A mechanical arm grows from the pack; goggles spark. NEW pose and action, never the Set 1 pose or composition: fixing a crackling relic onto a half-built turret, goggles down, tongue out in concentration. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A mechanical arm grows from the pack; goggles spark. SCENE: low angle in a flooded workshop: Spark rides on top of his finished clanking turret as it wades forward, steering it with a lever while it fires a relic-charged bolt down the tunnel, his wild hair lit by the blast. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-123 (123)
@@ -66,5 +66,5 @@ Flavour: “The stars have marked you.”
 Crown 2: none
 Might | Guard: 7 | 5
 Footer: 123/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Constellations glow across his armour; his bow draws starlight. NEW pose and action, never the Set 1 pose or composition: standing on a cavern ledge under painted constellations, loosing an arrow at a distant target in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations glow across his armour; his bow draws starlight. SCENE: side view across a dark underground chasm: Orion braced against a stalactite, drawing a star-arrow whose light reveals a hidden Guardian clinging to the far wall, his cloak streaming in the updraft. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

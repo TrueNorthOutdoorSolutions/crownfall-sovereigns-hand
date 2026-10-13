@@ -289,6 +289,21 @@ const SCENES: Record<string, [string, string, string]> = {
     'side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight',
     'heroic wide shot of a vast sunken hall: Dreadmouth rising from the lake larger than the hall pillars, jaw opened wide enough to swallow a Guardian whole as torches gutter and tiny delvers flee along the walkways; terrifying and unstoppable',
   ],
+  spark: [
+    'over-the-shoulder view from behind Professor Spark crouched inside the open belly of a half-built turret in a cramped underground workshop, wrench in one hand, sparks spraying from a crackling relic he is wiring in; his goggles glow orange in the dark, cables everywhere',
+    'low angle in a flooded workshop: Spark rides on top of his finished clanking turret as it wades forward, steering it with a lever while it fires a relic-charged bolt down the tunnel, his wild hair lit by the blast',
+    'heroic wide shot of a vast cavern foundry: Spark on a gantry at centre-left conducting a whole army of relic turrets with a glowing wrench like a baton, every barrel firing in a storm of light while tiny engineers cheer below',
+  ],
+  orion: [
+    'low angle inside a narrow flooded tunnel lit only by his own glowing arrow: Orion wades thigh-deep, crescent longbow lowered, holding a single star-arrow up like a torch to read faint star maps carved into the tunnel ceiling (no open sky, no rocks against stars)',
+    'side view across a dark underground chasm: Orion braced against a stalactite, drawing a star-arrow whose light reveals a hidden Guardian clinging to the far wall, his cloak streaming in the updraft',
+    'heroic low angle in a vast cavern: Orion fires straight up and the arrow bursts into a ceiling of new constellations across the cave roof, lighting the whole underworld silver-blue while he stands on a broken bridge below',
+  ],
+  maeve: [
+    'eye-level view in a crowded, lantern-lit underground black market: Maeve in a hooded cloak of moss leans over a merchant stall, palming a real glowing relic while sliding a fake one carved from living wood into its place; the merchant looks away',
+    'high angle on a rope bridge over a fungus-lit cavern: Maeve escapes with a sack of stolen relics as living roots from her staff tangle the guards chasing her, green witch-light flaring',
+    'heroic wide shot of a hidden thieves hall grown from roots: Maeve on a throne of living wood surrounded by stolen relics, every root in the cavern reaching out to snatch more treasure toward her; sly and overwhelming',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',
