@@ -27,7 +27,7 @@ Might | Guard: 7 | 7
 Footer: 141/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A massive dragon warrior. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-214 (214)
+Card number: S2-208 (208)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Aurex
 Title: Bane of the Guardians
@@ -45,7 +45,7 @@ Text box, line by line:
 Flavour: “Worth it? Perhaps.”
 Crown 2: none
 Might | Guard: 9 | 9
-Footer: 214/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 208/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Molten armour grows over his wings; fire leaks from every seam. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-255 (255)
@@ -72,6 +72,6 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 214 ★★: up-arrow 2, not up-arrow 0.
+- 208 ★★: up-arrow 2, not up-arrow 0.
 - 255 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
-- Mixed Scorch numbers: S2-141: Scorch 3; S2-214: Scorch 2; S2-255: Scorch 2.
+- Mixed Scorch numbers: S2-141: Scorch 3; S2-208: Scorch 2; S2-255: Scorch 2.

@@ -7,68 +7,66 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-135 (135)
-Cost: 5 (GREEN gem)
-Name: General Varr
-Title: Holder of the Gate
+Card number: S2-043 (043)
+Cost: 4 (GREEN gem)
+Name: Knuckle
+Title: King Under the Pit
 Stars: ★
 No Ascension band
-Origin | Class | Tier: Kingdom | Sentinel | TIER IV
-Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Origin | Class | Tier: Titanborn | Gladiator | TIER III
+Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Last Gate.**
-3. Rival champions attacking your Crown get −1 Might.
-4. Your other Kingdom champions have +1 Guard.
-Flavour: “Form up!”
+1. **Pit King’s Right.**
+2. +2 Might while attacking a champion.
+Flavour: “Surface fighters. Cute.”
 Crown 2: none
-Might | Guard: 4 | 6
-Footer: 135/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A grizzled kingdom commander with a tower shield. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 5 | 5
+Footer: 043/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous stone pit fighter with taped fists. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-136 (136)
+Card number: S2-130 (130)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: General Varr
-Title: Holder of the Gate
+Name: Knuckle
+Title: King Under the Pit
 Stars: ★★
-Ascension band: ASCENSION • from General Varr ★
-Origin | Class | Tier: Kingdom | Sentinel | TIER IV
-Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Ascension band: ASCENSION • from Knuckle ★
+Origin | Class | Tier: Titanborn | Gladiator | TIER III
+Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Last Gate.**
-3. Rival champions attacking your Crown get −1 Might.
-4. **Block:** The attacker gets −2 Might this turn.
-Flavour: “Line held.”
+1. **Pit King’s Right.**
+2. +2 Might while attacking a champion.
+Flavour: “Who’s next?”
 Crown 2: none
-Might | Guard: 7 | 9
-Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Medals of every war and a banner-spear. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 8 | 7
+Footer: 130/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Championship belts and cracks of gold in his granite skin. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-208 (208)
+Card number: S2-194 (194)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: General Varr
-Title: Holder of the Gate
+Name: Knuckle
+Title: King Under the Pit
 Stars: ★★★
-Ascension band: ASCENSION • from General Varr ★★
-Origin | Class | Tier: Kingdom | Sentinel | TIER IV
-Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Ascension band: ASCENSION • from Knuckle ★★
+Origin | Class | Tier: Titanborn | Gladiator | TIER III
+Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Last Gate.**
-3. Rival champions attacking your Crown get −2 Might.
-4. **Ascend: Shield** each champion you control.
-Flavour: “This gate does not open.”
+2. **Pit King’s Right.**
+3. +3 Might while attacking a champion.
+4. **Block:** The attacker gets −3 Might this turn.
+Flavour: “Kneel, or get knocked down.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 12
-Footer: 208/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A legend of the line, flanked by phantom shieldbearers. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 11 | 10
+Footer: 194/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A living landslide with fists like siege rams. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 136 ★★: up-arrow 1, not up-arrow 0.
-- 208 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 043: no keyword; do not add a chip or reminder.
+- 130 ★★: up-arrow 1, not up-arrow 0.
+- 130: no keyword; do not add a chip or reminder.
+- 194 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

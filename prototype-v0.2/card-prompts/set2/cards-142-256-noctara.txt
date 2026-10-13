@@ -28,7 +28,7 @@ Might | Guard: 6 | 7
 Footer: 142/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An empress robed in the space between stars. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-215 (215)
+Card number: S2-209 (209)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Noctara
 Title: Shadow Beneath the Crown
@@ -46,7 +46,7 @@ Text box, line by line:
 Flavour: “Nothing remains.”
 Crown 2: none
 Might | Guard: 8 | 10
-Footer: 215/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 209/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her crown becomes an eclipse; small voids orbit her. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-256 (256)
@@ -74,5 +74,5 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 215 ★★: up-arrow 2, not up-arrow 0.
+- 209 ★★: up-arrow 2, not up-arrow 0.
 - 256 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.

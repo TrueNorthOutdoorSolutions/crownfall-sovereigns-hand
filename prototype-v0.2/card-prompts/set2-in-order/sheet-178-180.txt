@@ -9,64 +9,65 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-178 (178)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Solara
-Title: Lamp of the Lost
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Mirella
+Title: Tide of the Sunken Halls
 Stars: ★★★
-Ascension band: ASCENSION • from Solara ★★
-Origin | Class | Tier: Dawnforged | Restorer | TIER I
-Trait icons: Dawnforged: gold-orange sunburst; Restorer: rose-pink lotus
+Ascension band: ASCENSION • from Mirella ★★
+Origin | Class | Tier: Elemental | Restorer | TIER II
+Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Lamplight.**
+1. **Sunken Tide.**
 2. **Ascend:** Mend 1.
-3. At the start of your turn, Shield a champion you control.
-Flavour: “Nothing down here stays broken.”
+3. **Block: Shield** another champion you control.
+Flavour: “Rest. The water has you.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 6 | 9
+Might | Guard: 7 | 10
 Footer: 178/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Radiant robes, a floating halo of three suns and wings of morning light. SCENE: low wide shot of a vast dark cathedral-like cavern: Solara small in the centre-left as a dome of dawn light blooms outward from her, cracked pillars knitting back together, every shadow pushed to the edges. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A tide queen: a ring of water orbits her and fish of light swim through it. SCENE: heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-179 (179)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Fen
-Title: Pack Hunter
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Shade
+Title: Mask of the Depths
 Stars: ★★★
-Ascension band: ASCENSION • from Fen ★★
-Origin | Class | Tier: Wildkin | Hunter | TIER I
-Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
-Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Scent of Prey.**
-3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. When Fen defeats a champion on your turn, draw a card.
-Flavour: “The deeper the dark, the better the hunt.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 7
-Footer: 179/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: An alpha of the blood moon; a red spirit-wolf runs beside every leap. SCENE: over-the-shoulder from behind Fen’s pack on a ridge at night underground: Fen at the front howling, a giant fallen monster below them, a red moon-like crystal glowing in the cavern roof. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-180 (180)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Nyx
-Title: Vault Thief
-Stars: ★★
-Ascension band: ASCENSION • from Nyx ★
-Origin | Class | Tier: Umbral | Rogue | TIER I
+Ascension band: ASCENSION • from Shade ★★
+Origin | Class | Tier: Umbral | Rogue | TIER II
 Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Light Fingers.**
-4. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
+3. **Masked Theft.**
+4. **Attack:** Take a Relic from a rival champion and attach it to Shade.
 5. If you can’t, Scorch 1 a rival champion.
-Flavour: “Finders keepers.”
-Crown 2: none
-Might | Guard: 5 | 3
+6. When Shade defeats a champion on your turn, your rival discards a card at random.
+Flavour: “No face. No name. No witnesses.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 6
+Footer: 179/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A wraith of ribbons and knives; the mask floats in front of an empty hood. SCENE: heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-180 (180)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Seren
+Title: Starlight in the Dark
+Stars: ★★★
+Ascension band: ASCENSION • from Seren ★★
+Origin | Class | Tier: Astral | Delver | TIER II
+Trait icons: Astral: blue four-pointed sparkle; Delver: amber lantern
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starlit Path.**
+3. **Ascend:** Draw a card.
+4. At the start of your turn, draw a card, then put a card from your hand on the bottom of your deck.
+Flavour: “No one gets lost on my watch.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 7 | 9
 Footer: 180/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her cloak drips living shadow; violet eyes glow beneath the hood. SCENE: fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations sketch themselves around her; a flock of light-birds circles overhead. SCENE: heroic wide shot of an enormous cavern turned into a night sky: Seren floating at centre-left, constellations drawing themselves across the cave roof around her and a great flock of light-birds circling overhead, the whole underworld lit silver-blue; wondrous and vast. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

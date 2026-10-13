@@ -46,7 +46,7 @@ Might | Guard: 7 | 5
 Footer: 123/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations glow across his armour; his bow draws starlight. SCENE: side view across a dark underground chasm: Orion braced against a stalactite, drawing a star-arrow whose light reveals a hidden Guardian clinging to the far wall, his cloak streaming in the updraft. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-193 (193)
+Card number: S2-187 (187)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Orion
 Title: Star-Charter of the Deep
@@ -65,12 +65,12 @@ Text box, line by line:
 Flavour: “No dark is deep enough to hide from the sky.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 10 | 8
-Footer: 193/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 187/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A hunter of gods: his arrows are comets. SCENE: heroic low angle in a vast cavern: Orion fires straight up and the arrow bursts into a ceiling of new constellations across the cave roof, lighting the whole underworld silver-blue while he stands on a broken bridge below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 123 ★★: up-arrow 1, not up-arrow 0.
-- 193 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
-- Mixed Scorch numbers: S2-038: Scorch 1; S2-123: Scorch 1, Scorch 2; S2-193: Scorch 2, Scorch 1, Scorch 3.
+- 187 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
+- Mixed Scorch numbers: S2-038: Scorch 1; S2-123: Scorch 1, Scorch 2; S2-187: Scorch 2, Scorch 1, Scorch 3.

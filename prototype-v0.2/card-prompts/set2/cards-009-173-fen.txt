@@ -45,7 +45,7 @@ Might | Guard: 5 | 4
 Footer: 010/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Scarred and armoured in hide, crimson war paint glowing on his muzzle. SCENE: dynamic side view mid-leap: Fen springing off a rock ledge across a chasm toward an unseen beast, claws out, his shadow stretched long on the wall by a warm torch below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-179 (179)
+Card number: S2-173 (173)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Fen
 Title: Pack Hunter
@@ -62,10 +62,10 @@ Text box, line by line:
 Flavour: “The deeper the dark, the better the hunt.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 7
-Footer: 179/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 173/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: An alpha of the blood moon; a red spirit-wolf runs beside every leap. SCENE: over-the-shoulder from behind Fen’s pack on a ridge at night underground: Fen at the front howling, a giant fallen monster below them, a red moon-like crystal glowing in the cavern roof. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 179 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 173 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

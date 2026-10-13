@@ -44,7 +44,7 @@ Might | Guard: 8 | 6
 Footer: 121/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Bone plates, a second jaw, and ghostfire in its throat. SCENE: side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-191 (191)
+Card number: S2-185 (185)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Dreadmouth
 Title: Devourer of Guardians
@@ -61,7 +61,7 @@ Text box, line by line:
 Flavour: “Even Guardians sink.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 9
-Footer: 191/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 185/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A leviathan of the dead: an entire graveyard of teeth. SCENE: heroic wide shot of a vast sunken hall: Dreadmouth rising from the lake larger than the hall pillars, jaw opened wide enough to swallow a Guardian whole as torches gutter and tiny delvers flee along the walkways; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
@@ -69,4 +69,4 @@ Check when it comes back:
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 036: no keyword; do not add a chip or reminder.
 - 121 ★★: up-arrow 1, not up-arrow 0.
-- 191 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 185 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

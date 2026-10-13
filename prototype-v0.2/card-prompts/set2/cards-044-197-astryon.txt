@@ -7,67 +7,67 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-201 (201)
-Cost: 4 (GREEN gem)
-Name: Zyrak
-Title: Shard of the Broken Vault
+Card number: S2-044 (044)
+Cost: 5 (GREEN gem)
+Name: Astryon
+Title: Blade That Fell Beneath
 Stars: ★
 No Ascension band
-Origin | Class | Tier: Riftborn | Channeler | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Channeler: violet spiral
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
-2. **Shard Resonance.**
-3. Whenever you cast a Tactic, draw a card.
-Flavour: “* refracts politely *”
+2. **Starfall Duel.**
+3. +2 Might while attacking a champion.
+Flavour: “The eighth star awaits.”
 Crown 2: none
-Might | Guard: 2 | 3
-Footer: 201/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A crystal alien with a floating prism. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 6 | 4
+Footer: 044/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A silver celestial swordsman. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-235 (235)
+Card number: S2-196 (196)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Zyrak
-Title: Shard of the Broken Vault
+Name: Astryon
+Title: Blade That Fell Beneath
 Stars: ★★
-Ascension band: ASCENSION • from Zyrak ★
-Origin | Class | Tier: Riftborn | Channeler | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Channeler: violet spiral
+Ascension band: ASCENSION • from Astryon ★
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
-2. **Shard Resonance.**
-3. Whenever you cast a Tactic, draw a card.
-Flavour: “Pieces become power.”
+2. **Starfall Duel.**
+3. +2 Might while attacking a champion.
+4. When Astryon defeats a champion on your turn, draw a card.
+Flavour: “Another star cut down.”
 Crown 2: none
-Might | Guard: 5 | 6
-Footer: 235/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): More facets, more light; a halo of crystal shards. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 9 | 6
+Footer: 196/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-254 (254)
+Card number: S2-197 (197)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Zyrak
-Title: Shard of the Broken Vault
+Name: Astryon
+Title: Blade That Fell Beneath
 Stars: ★★★
-Ascension band: ASCENSION • from Zyrak ★★
-Origin | Class | Tier: Riftborn | Channeler | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Channeler: violet spiral
+Ascension band: ASCENSION • from Astryon ★★
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
 Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
-2. **Shard Resonance.**
-3. Whenever you cast a Tactic, draw a card and Scorch 1 each rival champion.
-4. **Ascend: Scorch 2** each rival champion.
-Flavour: “Shatter me. I come back sharper.”
+2. **Starfall Duel.**
+3. +3 Might while attacking a champion.
+4. Once per turn, when Astryon defeats a champion on your turn, ready Astryon.
+Flavour: “Seven blades. One winner.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 8 | 9
-Footer: 254/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking cathedral of prisms refracting impossible colours. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 12 | 9
+Footer: 197/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 235 ★★: up-arrow 1, not up-arrow 0.
-- 254 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- Mixed Scorch numbers: S2-201: none; S2-235: none; S2-254: Scorch 1, Scorch 2.
+- 196 ★★: up-arrow 1, not up-arrow 0.
+- 197 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

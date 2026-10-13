@@ -27,7 +27,7 @@ Might | Guard: 4 | 9
 Footer: 145/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The mother of forests, crowned in blossom. NEW pose and action, never the Set 1 pose or composition: growing up through the Arena’s foundations, forest spirits bound and glowing in her branches. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-220 (220)
+Card number: S2-214 (214)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Mother Verdant
 Title: Root of All Things
@@ -44,7 +44,7 @@ Text box, line by line:
 Flavour: “Bloom again.”
 Crown 2: none
 Might | Guard: 7 | 12
-Footer: 220/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 214/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her train is a meadow; deer of light follow her. NEW pose and action, never the Set 1 pose or composition: growing up through the Arena’s foundations, forest spirits bound and glowing in her branches. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-260 (260)
@@ -71,5 +71,5 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 220 ★★: up-arrow 2, not up-arrow 0.
+- 214 ★★: up-arrow 2, not up-arrow 0.
 - 260 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.

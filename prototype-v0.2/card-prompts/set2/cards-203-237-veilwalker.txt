@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-209 (209)
+Card number: S2-203 (203)
 Cost: 4 (GREEN gem)
 Name: Veilwalker
 Title: The Rift Below
@@ -24,10 +24,10 @@ Text box, line by line:
 Flavour: “* the air tears open *”
 Crown 2: none
 Might | Guard: 5 | 3
-Footer: 209/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 203/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A living dimensional anomaly in a tattered shape. NEW pose and action, never the Set 1 pose or composition: half-stepping out of a rift behind a Guardian, reaching for the relic on its back. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-210 (210)
+Card number: S2-204 (204)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Veilwalker
 Title: The Rift Below
@@ -44,7 +44,7 @@ Text box, line by line:
 Flavour: “* closes *”
 Crown 2: none
 Might | Guard: 9 | 5
-Footer: 210/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 204/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Its edges tear into other skies. NEW pose and action, never the Set 1 pose or composition: half-stepping out of a rift behind a Guardian, reaching for the relic on its back. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-237 (237)
@@ -72,5 +72,5 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 210 ★★: up-arrow 1, not up-arrow 0.
+- 204 ★★: up-arrow 1, not up-arrow 0.
 - 237 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.

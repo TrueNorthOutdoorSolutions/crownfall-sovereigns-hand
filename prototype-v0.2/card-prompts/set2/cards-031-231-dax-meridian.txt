@@ -27,7 +27,7 @@ Might | Guard: 3 | 2
 Footer: 031/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A dimensional gunslinger in a dusty long coat. SCENE: low angle through a glowing violet rift torn in a cavern wall: Dax Meridian steps half through it, dusty long coat swirling, revolver raised in one hand and aimed at the huge silhouette of a Guardian in the dark cavern beyond; one warm lantern behind him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-188 (188)
+Card number: S2-182 (182)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Dax Meridian
 Title: Guardian Hunter
@@ -45,7 +45,7 @@ Text box, line by line:
 Flavour: “Big target. Easy shot.”
 Crown 2: none
 Might | Guard: 6 | 4
-Footer: 188/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 182/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rift cracks glow along his revolver; his coat shows another sky. SCENE: dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-231 (231)
@@ -72,6 +72,6 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: A drifter from e
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 188 ★★: up-arrow 1, not up-arrow 0.
+- 182 ★★: up-arrow 1, not up-arrow 0.
 - 231 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
-- Mixed Scorch numbers: S2-031: Scorch 1; S2-188: none; S2-231: Scorch 2.
+- Mixed Scorch numbers: S2-031: Scorch 1; S2-182: none; S2-231: Scorch 2.

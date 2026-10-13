@@ -27,7 +27,7 @@ Might | Guard: 3 | 6
 Footer: 134/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A serene celestial healer with feathered wings. NEW pose and action, never the Set 1 pose or composition: raising one hand to stop a trap just before it springs, her eyes glowing with foresight. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-207 (207)
+Card number: S2-201 (201)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Elysian
 Title: Light of the Lost Halls
@@ -44,7 +44,7 @@ Text box, line by line:
 Flavour: “All of you, safe.”
 Crown 2: none
 Might | Guard: 6 | 9
-Footer: 207/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 201/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A second pair of wings and a halo of script. NEW pose and action, never the Set 1 pose or composition: raising one hand to stop a trap just before it springs, her eyes glowing with foresight. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-236 (236)
@@ -70,5 +70,5 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 207 ★★: up-arrow 1, not up-arrow 0.
+- 201 ★★: up-arrow 1, not up-arrow 0.
 - 236 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

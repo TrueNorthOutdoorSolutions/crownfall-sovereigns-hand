@@ -45,7 +45,7 @@ Might | Guard: 8 | 6
 Footer: 139/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Storm-silver armour; her hair crackles. NEW pose and action, never the Set 1 pose or composition: striking a distant target with a bolt of lightning across a flooded cavern. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-212 (212)
+Card number: S2-206 (206)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Lady Volt
 Title: Storm in the Deep
@@ -61,11 +61,11 @@ Text box, line by line:
 Flavour: “Lightning never needs a second shot.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 9
-Footer: 212/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 206/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She is lightning with a sword; thunder arrives a heartbeat after her. NEW pose and action, never the Set 1 pose or composition: striking a distant target with a bolt of lightning across a flooded cavern. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 139 ★★: up-arrow 1, not up-arrow 0.
-- Mixed Scorch numbers: S2-048: Scorch 1, Scorch 1; S2-139: Scorch 2, Scorch 1; S2-212: Scorch 3, Scorch 2, Scorch 1.
+- Mixed Scorch numbers: S2-048: Scorch 1, Scorch 1; S2-139: Scorch 2, Scorch 1; S2-206: Scorch 3, Scorch 2, Scorch 1.

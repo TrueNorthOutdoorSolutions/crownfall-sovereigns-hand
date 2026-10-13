@@ -10,64 +10,64 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-184 (184)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Mirella
-Title: Tide of the Sunken Halls
+Name: Rask
+Title: Champion of the Underpits
 Stars: ★★★
-Ascension band: ASCENSION • from Mirella ★★
-Origin | Class | Tier: Elemental | Restorer | TIER II
-Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Rask ★★
+Origin | Class | Tier: Wildkin | Gladiator | TIER II
+Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
+Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. **Sunken Tide.**
-2. **Ascend:** Mend 1.
-3. **Block: Shield** another champion you control.
-Flavour: “Rest. The water has you.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 7 | 10
+1. Charge *(Can attack the turn it arrives.)*
+2. Ambush *(Attacking a sideways champion, it strikes first.)*
+3. **Pit Fighter.**
+4. +2 Might while attacking a champion.
+5. Once per turn, when Rask defeats a champion on your turn, ready Rask.
+Flavour: “The pit chooses its king.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 8
 Footer: 184/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A tide queen: a ring of water orbits her and fish of light swim through it. SCENE: heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The undefeated: golden scales and a cloak of every champion he has bested. SCENE: heroic low-angle hero shot of the packed Underpits arena: golden-scaled Rask large in frame raising his gladius in triumph on top of a defeated Guardian, cloak of fallen champions streaming behind him, the roaring crowd lit by a ring of fire; glorious and undefeated. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-185 (185)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Shade
-Title: Mask of the Depths
+Name: Dreadmouth
+Title: Devourer of Guardians
 Stars: ★★★
-Ascension band: ASCENSION • from Shade ★★
-Origin | Class | Tier: Umbral | Rogue | TIER II
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Dreadmouth ★★
+Origin | Class | Tier: Hollow | Hunter | TIER III
+Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Masked Theft.**
-4. **Attack:** Take a Relic from a rival champion and attach it to Shade.
-5. If you can’t, Scorch 1 a rival champion.
-6. When Shade defeats a champion on your turn, your rival discards a card at random.
-Flavour: “No face. No name. No witnesses.”
+2. **Guardian Feast.**
+3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+4. When Dreadmouth defeats a champion on your turn, draw a card.
+Flavour: “Even Guardians sink.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 6
+Might | Guard: 11 | 9
 Footer: 185/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A wraith of ribbons and knives; the mask floats in front of an empty hood. SCENE: heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A leviathan of the dead: an entire graveyard of teeth. SCENE: heroic wide shot of a vast sunken hall: Dreadmouth rising from the lake larger than the hall pillars, jaw opened wide enough to swallow a Guardian whole as torches gutter and tiny delvers flee along the walkways; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-186 (186)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Seren
-Title: Starlight in the Dark
+Name: Professor Spark
+Title: Relic Inventor
 Stars: ★★★
-Ascension band: ASCENSION • from Seren ★★
-Origin | Class | Tier: Astral | Delver | TIER II
-Trait icons: Astral: blue four-pointed sparkle; Delver: amber lantern
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Professor Spark ★★
+Origin | Class | Tier: Gearbound | Artificer | TIER III
+Trait icons: Gearbound: gold gear; Artificer: bronze anvil
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Starlit Path.**
-3. **Ascend:** Draw a card.
-4. At the start of your turn, draw a card, then put a card from your hand on the bottom of your deck.
-Flavour: “No one gets lost on my watch.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Prototype.**
+3. Your Relics cost 1 less.
+4. **Ascend:** Summon two Arc Turrets.
+Flavour: “Science, applied loudly!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 7 | 9
+Might | Guard: 8 | 9
 Footer: 186/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations sketch themselves around her; a flock of light-birds circles overhead. SCENE: heroic wide shot of an enormous cavern turned into a night sky: Seren floating at centre-left, constellations drawing themselves across the cave roof around her and a great flock of light-birds circling overhead, the whole underworld lit silver-blue; wondrous and vast. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: He sits in a walking workshop that builds turrets on the fly. SCENE: heroic wide shot of a vast cavern foundry: Spark on a gantry at centre-left conducting a whole army of relic turrets with a glowing wrench like a baton, every barrel firing in a storm of light while tiny engineers cheer below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

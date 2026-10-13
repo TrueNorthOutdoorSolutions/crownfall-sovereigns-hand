@@ -9,63 +9,67 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-211 (211)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Gaia Prime
-Title: Root of the Arena
-Stars: ★★★
-Ascension band: ASCENSION • from Gaia Prime ★★
-Origin | Class | Tier: Verdant | Restorer | TIER IV
-Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Cost: 6 (GREEN gem)
+Name: The Unwritten King
+Title: Lord of the Buried Crown
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Hollow | Ascendant · Binder | TIER V
+Trait icons: Hollow: teal skull; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Deep Roots.**
-3. **Ascend:** Mend 1.
-4. Summon two Wild Saplings.
-Flavour: “What breaks, I mend.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 13
+1. Ascendant *(One per deck.)*
+2. **BURIED LEGION.**
+3. **Arrival:** Summon a Fallen Warrior.
+4. Your tokens have +1 Might.
+5. At the start of your turn, Summon a Fallen Warrior.
+Flavour: “Remember my name.”
+Crown 2: none
+Might | Guard: 5 | 7
 Footer: 211/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking forest; the ground turns green where she stands. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A skeletal king on a throne of shields. NEW pose and action, never the Set 1 pose or composition: on his buried throne as a legion of bound spirits rises behind him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-212 (212)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Lady Volt
-Title: Storm in the Deep
-Stars: ★★★
-Ascension band: ASCENSION • from Lady Volt ★★
-Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Charge *(Can attack the turn it arrives.)*
+Name: The Unwritten King
+Title: Lord of the Buried Crown
+Stars: ★★
+Ascension band: ASCENSION • from The Unwritten King ★
+Origin | Class | Tier: Hollow | Ascendant · Binder | TIER V
+Trait icons: Hollow: teal skull; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. **Chain Lightning.**
-3. **Attack: Scorch 3** a rival champion, then Scorch 2 a rival champion, then Scorch 1 a rival champion.
-Flavour: “Lightning never needs a second shot.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 11 | 9
+1. Ascendant *(One per deck.)*
+2. **BURIED LEGION.**
+3. Your tokens have +1 Might and +1 Guard.
+4. **Ascend:** Return up to two ★ champions from your Fallen pile to your hand.
+Flavour: “Write it down.”
+Crown 2: none
+Might | Guard: 8 | 10
 Footer: 212/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She is lightning with a sword; thunder arrives a heartbeat after her. NEW pose and action, never the Set 1 pose or composition: striking a distant target with a bolt of lightning across a flooded cavern. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A spectral legion stands behind him. NEW pose and action, never the Set 1 pose or composition: on his buried throne as a legion of bound spirits rises behind him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-213 (213)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Vessimer
-Title: Alchemist of Relics
-Stars: ★★★
-Ascension band: ASCENSION • from Vessimer ★★
-Origin | Class | Tier: Hexbound | Artificer | TIER IV
-Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
-Keywords: none (text box starts with the ability name)
+Name: Veyra Sol
+Title: Hunter of Guardians
+Stars: ★★
+Ascension band: ASCENSION • from Veyra Sol ★
+Origin | Class | Tier: Riftborn | Ascendant · Hunter | TIER V
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
-1. **Transmute.**
-2. Your Relics cost 2 less.
-3. **Ascend:** Return a Relic from your Fallen pile to your hand.
-4. Draw a card.
-Flavour: “Everything transmutes.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 9 | 10
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. Ambush *(Attacking a sideways champion, it strikes first.)*
+4. **THE HUNT ETERNAL.**
+5. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+6. When Veyra Sol defeats a champion on your turn, draw a card.
+Flavour: “Caught.”
+Crown 2: none
+Might | Guard: 11 | 8
 Footer: 213/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A mobile laboratory of floating flasks and glowing tubes. NEW pose and action, never the Set 1 pose or composition: pouring a glowing tincture over a relic on his alchemy table, transforming it. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her cloak is a window into other worlds. NEW pose and action, never the Set 1 pose or composition: leaping out of a portal onto a Guardian’s back, blade raised. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

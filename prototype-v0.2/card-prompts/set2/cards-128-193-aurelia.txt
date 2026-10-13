@@ -7,69 +7,66 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-049 (049)
+Card number: S2-128 (128)
 Cost: 4 (GREEN gem)
-Name: Vessimer
-Title: Alchemist of Relics
+Name: Aurelia
+Title: Leader of the Descent
 Stars: ★
 No Ascension band
-Origin | Class | Tier: Hexbound | Artificer | TIER IV
-Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
+Origin | Class | Tier: Kingdom | Delver | TIER III
+Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Transmute.**
-2. Your Relics cost 1 less.
-3. **Arrival:** Return a Relic from your Fallen pile to your hand.
-Flavour: “A new experiment!”
+1. **Banner of the Descent.**
+2. **Arrival:** Draw a card.
+3. Your other Kingdom champions have +1 Might.
+Flavour: “Rally to me!”
 Crown 2: none
-Might | Guard: 3 | 4
-Footer: 049/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A masked chemist with a bandolier of vials. NEW pose and action, never the Set 1 pose or composition: pouring a glowing tincture over a relic on his alchemy table, transforming it. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 3 | 5
+Footer: 128/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A royal battle commander in blue and gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-140 (140)
+Card number: S2-129 (129)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Vessimer
-Title: Alchemist of Relics
+Name: Aurelia
+Title: Leader of the Descent
 Stars: ★★
-Ascension band: ASCENSION • from Vessimer ★
-Origin | Class | Tier: Hexbound | Artificer | TIER IV
-Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
+Ascension band: ASCENSION • from Aurelia ★
+Origin | Class | Tier: Kingdom | Delver | TIER III
+Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Transmute.**
-2. Your Relics cost 1 less.
-3. **Ascend:** Attach a Relic costing 3 or less from your hand to Vessimer for free.
-Flavour: “Results: conclusive.”
+1. **Banner of the Descent.**
+2. **Ascend:** Draw 2 cards.
+Flavour: “Down we go. Together.”
 Crown 2: none
 Might | Guard: 6 | 7
-Footer: 140/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Brass apparatus hisses on his back. NEW pose and action, never the Set 1 pose or composition: pouring a glowing tincture over a relic on his alchemy table, transforming it. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Footer: 129/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A standard bearer marches behind her; her circlet glows. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-213 (213)
+Card number: S2-193 (193)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Vessimer
-Title: Alchemist of Relics
+Name: Aurelia
+Title: Leader of the Descent
 Stars: ★★★
-Ascension band: ASCENSION • from Vessimer ★★
-Origin | Class | Tier: Hexbound | Artificer | TIER IV
-Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
+Ascension band: ASCENSION • from Aurelia ★★
+Origin | Class | Tier: Kingdom | Delver | TIER III
+Trait icons: Kingdom: blue crown; Delver: amber lantern
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Transmute.**
-2. Your Relics cost 2 less.
-3. **Ascend:** Return a Relic from your Fallen pile to your hand.
-4. Draw a card.
-Flavour: “Everything transmutes.”
+1. **Banner of the Descent.**
+2. **Ascend:** Draw 2 cards.
+3. Ready another champion you control.
+Flavour: “The Kingdom goes where I lead.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 9 | 10
-Footer: 213/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A mobile laboratory of floating flasks and glowing tubes. NEW pose and action, never the Set 1 pose or composition: pouring a glowing tincture over a relic on his alchemy table, transforming it. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Footer: 193/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Crowned in light, her banner becomes a column of gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 049: no keyword; do not add a chip or reminder.
-- 140 ★★: up-arrow 1, not up-arrow 0.
-- 140: no keyword; do not add a chip or reminder.
-- 213: no keyword; do not add a chip or reminder.
-- 213 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
+- 128: no keyword; do not add a chip or reminder.
+- 129 ★★: up-arrow 1, not up-arrow 0.
+- 129: no keyword; do not add a chip or reminder.
+- 193: no keyword; do not add a chip or reminder.

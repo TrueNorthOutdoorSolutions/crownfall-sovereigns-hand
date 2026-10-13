@@ -26,7 +26,7 @@ Might | Guard: 2 | 3
 Footer: 126/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A gaunt necromancer with a bone scythe. NEW pose and action, never the Set 1 pose or composition: raising soldiers from open stone tombs, ghostly chains of light binding them to his will. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-196 (196)
+Card number: S2-190 (190)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Morrow
 Title: Lord of the Buried Halls
@@ -42,7 +42,7 @@ Text box, line by line:
 Flavour: “Rise. There’s work to do.”
 Crown 2: none
 Might | Guard: 5 | 6
-Footer: 196/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 190/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Ghostlights orbit him and his robes are stitched from banners. NEW pose and action, never the Set 1 pose or composition: raising soldiers from open stone tombs, ghostly chains of light binding them to his will. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-253 (253)
@@ -68,6 +68,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 126: no keyword; do not add a chip or reminder.
-- 196 ★★: up-arrow 1, not up-arrow 0.
-- 196: no keyword; do not add a chip or reminder.
+- 190 ★★: up-arrow 1, not up-arrow 0.
+- 190: no keyword; do not add a chip or reminder.
 - 253: no keyword; do not add a chip or reminder.

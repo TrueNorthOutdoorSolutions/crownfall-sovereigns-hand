@@ -10,64 +10,62 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-196 (196)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Morrow
-Title: Lord of the Buried Halls
+Name: Astryon
+Title: Blade That Fell Beneath
 Stars: ★★
-Ascension band: ASCENSION • from Morrow ★
-Origin | Class | Tier: Hollow | Binder | TIER III
-Trait icons: Hollow: teal skull; Binder: teal chain link
-Keywords: none (text box starts with the ability name)
+Ascension band: ASCENSION • from Astryon ★
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. **Call of the Buried.**
-2. Your tokens have +1 Might and +1 Guard.
-3. **Ascend:** Summon two Risen Soldiers.
-Flavour: “Rise. There’s work to do.”
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starfall Duel.**
+3. +2 Might while attacking a champion.
+4. When Astryon defeats a champion on your turn, draw a card.
+Flavour: “Another star cut down.”
 Crown 2: none
-Might | Guard: 5 | 6
+Might | Guard: 9 | 6
 Footer: 196/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Ghostlights orbit him and his robes are stitched from banners. NEW pose and action, never the Set 1 pose or composition: raising soldiers from open stone tombs, ghostly chains of light binding them to his will. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-197 (197)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Captain Blacktide
-Title: Plunderer of the Vault
-Stars: ★★
-Ascension band: ASCENSION • from Captain Blacktide ★
-Origin | Class | Tier: Riftborn | Rogue | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
-Keywords: Reach *(Can block Flight.)*
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Astryon
+Title: Blade That Fell Beneath
+Stars: ★★★
+Ascension band: ASCENSION • from Astryon ★★
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Plunder.**
-3. **Attack:** Take a Relic from a rival champion and attach it to Captain Blacktide.
-4. If you can’t, Scorch 1 a rival champion.
-5. When Captain Blacktide defeats a champion on your turn, draw a card.
-Flavour: “Mine now!”
-Crown 2: none
-Might | Guard: 7 | 6
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starfall Duel.**
+3. +3 Might while attacking a champion.
+4. Once per turn, when Astryon defeats a champion on your turn, ready Astryon.
+Flavour: “Seven blades. One winner.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 12 | 9
 Footer: 197/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A spectral crew appears behind him; his coat drips seawater from nowhere. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-198 (198)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Captain Blacktide
-Title: Plunderer of the Vault
+Name: Queen Vespera
+Title: Empress of the Underhalls
 Stars: ★★★
-Ascension band: ASCENSION • from Captain Blacktide ★★
-Origin | Class | Tier: Riftborn | Rogue | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
-Keywords: Reach *(Can block Flight.)*
+Ascension band: ASCENSION • from Queen Vespera ★★
+Origin | Class | Tier: Umbral | Binder | TIER IV
+Trait icons: Umbral: lilac crescent moon; Binder: teal chain link
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Plunder.**
-3. **Ascend:** Take a Relic from a rival champion and attach it to Captain Blacktide.
-4. If you can’t, Scorch 1 a rival champion.
-5. **Attack: Scorch 2** each rival champion.
-Flavour: “Every vault is just a treasure chest with a door.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 9
+1. **Underhall Court.**
+2. Your tokens have +2 Might and +1 Guard.
+3. **Ascend:** Summon two Court Shades.
+Flavour: “The shadows bow. So will you.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 9 | 10
 Footer: 198/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A ghost galleon's figurehead rises behind him as he fires. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A throne of night rises behind her; her crown is an eclipse. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 

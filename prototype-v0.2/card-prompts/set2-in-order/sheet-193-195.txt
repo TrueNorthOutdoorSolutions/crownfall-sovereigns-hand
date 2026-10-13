@@ -10,64 +10,61 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-193 (193)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Orion
-Title: Star-Charter of the Deep
+Name: Aurelia
+Title: Leader of the Descent
 Stars: ★★★
-Ascension band: ASCENSION • from Orion ★★
-Origin | Class | Tier: Astral | Sharpshooter | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Aurelia ★★
+Origin | Class | Tier: Kingdom | Delver | TIER III
+Trait icons: Kingdom: blue crown; Delver: amber lantern
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Charted Shot.**
-4. **Ascend: Scorch 2** each rival champion.
-5. **Attack: Scorch 1** a rival champion.
-6. Scorch 3 each rival champion with Flight.
-Flavour: “No dark is deep enough to hide from the sky.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 8
+1. **Banner of the Descent.**
+2. **Ascend:** Draw 2 cards.
+3. Ready another champion you control.
+Flavour: “The Kingdom goes where I lead.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 9 | 10
 Footer: 193/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A hunter of gods: his arrows are comets. SCENE: heroic low angle in a vast cavern: Orion fires straight up and the arrow bursts into a ceiling of new constellations across the cave roof, lighting the whole underworld silver-blue while he stands on a broken bridge below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Crowned in light, her banner becomes a column of gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-194 (194)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Maeve
-Title: Broker of Relics
+Name: Knuckle
+Title: King Under the Pit
 Stars: ★★★
-Ascension band: ASCENSION • from Maeve ★★
-Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
-Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Sleight of Thorns.**
-2. **Ascend:** Take a Relic from a rival champion and attach it to Maeve.
-3. If you can’t, Scorch 1 a rival champion.
-4. Your rival discards a card at random.
-Flavour: “Everything has a price. I set it.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 10
-Footer: 194/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: The forest itself leans in to listen: moths of light circle her crown of antlers. SCENE: heroic wide shot of a hidden thieves hall grown from roots: Maeve on a throne of living wood surrounded by stolen relics, every root in the cavern reaching out to snatch more treasure toward her; sly and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-195 (195)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Ignara
-Title: Heart of the Forge
-Stars: ★★★
-Ascension band: ASCENSION • from Ignara ★★
-Origin | Class | Tier: Elemental | Channeler | TIER III
-Trait icons: Elemental: orange flame; Channeler: violet spiral
+Ascension band: ASCENSION • from Knuckle ★★
+Origin | Class | Tier: Titanborn | Gladiator | TIER III
+Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Forgefire.**
-3. Whenever you cast a Tactic, Scorch 2 a rival champion.
-Flavour: “The forge answers only me.”
+2. **Pit King’s Right.**
+3. +3 Might while attacking a champion.
+4. **Block:** The attacker gets −3 Might this turn.
+Flavour: “Kneel, or get knocked down.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 10
+Might | Guard: 11 | 10
+Footer: 194/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A living landslide with fists like siege rams. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-195 (195)
+Cost: 4 (GREEN gem)
+Name: Zyrak
+Title: Shard of the Broken Vault
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Riftborn | Channeler | TIER III
+Trait icons: Riftborn: pink diamond-in-a-diamond; Channeler: violet spiral
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Shard Resonance.**
+3. Whenever you cast a Tactic, draw a card.
+Flavour: “* refracts politely *”
+Crown 2: none
+Might | Guard: 2 | 3
 Footer: 195/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A pillar of fire in the shape of a woman; the air itself is burning. SCENE: heroic wide shot of a vast forge-hall: Ignara as a towering living furnace, every forge in the cavern roaring to life at once around her as she raises both arms, rivers of molten metal lighting the chains and pillars. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A crystal alien with a floating prism. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

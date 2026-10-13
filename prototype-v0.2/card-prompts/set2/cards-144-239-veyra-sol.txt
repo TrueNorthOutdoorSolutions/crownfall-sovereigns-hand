@@ -28,7 +28,7 @@ Might | Guard: 7 | 5
 Footer: 144/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A huntress with portal-rings on her wrists. NEW pose and action, never the Set 1 pose or composition: leaping out of a portal onto a Guardian’s back, blade raised. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-219 (219)
+Card number: S2-213 (213)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Veyra Sol
 Title: Hunter of Guardians
@@ -47,7 +47,7 @@ Text box, line by line:
 Flavour: “Caught.”
 Crown 2: none
 Might | Guard: 11 | 8
-Footer: 219/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 213/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her cloak is a window into other worlds. NEW pose and action, never the Set 1 pose or composition: leaping out of a portal onto a Guardian’s back, blade raised. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-239 (239)
@@ -75,5 +75,5 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 219 ★★: up-arrow 2, not up-arrow 0.
+- 213 ★★: up-arrow 2, not up-arrow 0.
 - 239 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.

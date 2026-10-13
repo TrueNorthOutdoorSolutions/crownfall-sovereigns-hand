@@ -7,68 +7,68 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-046 (046)
+Card number: S2-135 (135)
 Cost: 5 (GREEN gem)
-Name: Titan Rho
-Title: Vault Bastion
+Name: General Varr
+Title: Holder of the Gate
 Stars: ★
 No Ascension band
-Origin | Class | Tier: Gearbound | Sentinel | TIER IV
-Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
 Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Bastion Protocol.**
+2. **Last Gate.**
 3. Rival champions attacking your Crown get −1 Might.
-Flavour: “City status: unknown. Defending anyway.”
+4. Your other Kingdom champions have +1 Guard.
+Flavour: “Form up!”
 Crown 2: none
-Might | Guard: 3 | 8
-Footer: 046/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous ancient war machine on tread-legs. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 4 | 6
+Footer: 135/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A grizzled kingdom commander with a tower shield. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-047 (047)
+Card number: S2-136 (136)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Titan Rho
-Title: Vault Bastion
+Name: General Varr
+Title: Holder of the Gate
 Stars: ★★
-Ascension band: ASCENSION • from Titan Rho ★
-Origin | Class | Tier: Gearbound | Sentinel | TIER IV
-Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
+Ascension band: ASCENSION • from General Varr ★
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. Reach *(Can block Flight.)*
-3. **Bastion Protocol.**
-4. Rival champions attacking your Crown get −1 Might.
-Flavour: “Perimeter held.”
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −1 Might.
+4. **Block:** The attacker gets −2 Might this turn.
+Flavour: “Line held.”
 Crown 2: none
-Might | Guard: 6 | 10
-Footer: 047/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Fold-out cannon towers and a reactor crown. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 7 | 9
+Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Medals of every war and a banner-spear. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-205 (205)
+Card number: S2-202 (202)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Titan Rho
-Title: Vault Bastion
+Name: General Varr
+Title: Holder of the Gate
 Stars: ★★★
-Ascension band: ASCENSION • from Titan Rho ★★
-Origin | Class | Tier: Gearbound | Sentinel | TIER IV
-Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
+Ascension band: ASCENSION • from General Varr ★★
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
 1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. Reach *(Can block Flight.)*
-3. **Bastion Protocol.**
-4. Rival champions attacking your Crown get −2 Might.
-5. **Block: Shield** Titan Rho.
-Flavour: “Bastion holds.”
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −2 Might.
+4. **Ascend: Shield** each champion you control.
+Flavour: “This gate does not open.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 13
-Footer: 205/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking citadel with a garrison of tiny brass drones. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Might | Guard: 10 | 12
+Footer: 202/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A legend of the line, flanked by phantom shieldbearers. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 047 ★★: up-arrow 1, not up-arrow 0.
-- 205 ★★★ has 5 text lines before flavour; retain all lines and crown 2 placement.
+- 136 ★★: up-arrow 1, not up-arrow 0.
+- 202 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

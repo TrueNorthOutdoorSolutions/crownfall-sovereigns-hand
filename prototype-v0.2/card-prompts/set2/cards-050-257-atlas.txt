@@ -27,7 +27,7 @@ Might | Guard: 4 | 10
 Footer: 050/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A gigantic final-generation war machine. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-Card number: S2-216 (216)
+Card number: S2-210 (210)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: ATLAS-Ω
 Title: The Vault Engine
@@ -46,7 +46,7 @@ Text box, line by line:
 Flavour: “War ended. Again.”
 Crown 2: none
 Might | Guard: 7 | 13
-Footer: 216/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 210/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Shoulder cannons and a reactor halo. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-257 (257)
@@ -74,5 +74,5 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 216 ★★: up-arrow 2, not up-arrow 0.
+- 210 ★★: up-arrow 2, not up-arrow 0.
 - 257 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
