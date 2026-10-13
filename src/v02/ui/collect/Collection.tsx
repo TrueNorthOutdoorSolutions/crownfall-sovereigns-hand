@@ -3,7 +3,7 @@ import { CARDS, isChampionCard, isEdictCard } from '../../content/cards';
 import type { Printing, Rarity } from '../../content/printings';
 import { FINISH_NAMES, RARITIES, RARITY_NAMES } from '../../economy/odds';
 import type { Finish } from '../../economy/odds';
-import { FORGE_PRICE, PLAYSET, forge, ownKey, salvageExtras, useProfile } from '../../economy/profile';
+import { PLAYSET, forge, forgePrice, ownKey, salvageExtras, salvageOne, salvageValue, useProfile } from '../../economy/profile';
 import { PRINTINGS } from '../cardart';
 import { FoilCard } from './FoilCard';
 import { Wallet } from './Shop';
@@ -69,15 +69,33 @@ export function Collection({ onBack }: { onBack: () => void }) {
             <div className="info">
               <h3>{CARDS[open.cardId].name}</h3>
               <div className="note">{open.no}{open.kind === 'base' ? '/248' : ''} · {RARITY_NAMES[open.rarity]}{open.kind === 'alt' ? ' · Alternate Art' : open.kind === 'masterwork' ? ' · Masterwork' : open.kind === 'omega' ? ' · Omega Masterwork' : ''}</div>
-              <div className="finishes">
+              {open.kind !== 'base' && <div className="finishes">
                 {FINISHES.filter((f) => (open.kind === 'masterwork' || open.kind === 'omega' ? f === 'gilded' : true)).map((f) => (
                   <span key={f} className="chip" style={{ cursor: 'default' }}>{FINISH_NAMES[f]} ×{owned(open, f)}</span>
                 ))}
-              </div>
+              </div>}
               {open.kind === 'base' && (
                 <>
-                  <p className="note">Forge a standard copy directly. Decks use up to {PLAYSET} copies of a card.</p>
-                  <button type="button" className="btn gold" disabled={profile.valor < FORGE_PRICE[open.rarity]} onClick={() => { const e = forge(open.id); setMsg(e ?? `Forged ${CARDS[open.cardId].name}.`); }}>Forge for ✧ {FORGE_PRICE[open.rarity]}</button>
+                  <p className="note">Forge any finish directly, or salvage a copy back into Valor. Decks use up to {PLAYSET} copies of a card.</p>
+                  <table className="forge-table">
+                    <thead><tr><th>Finish</th><th>Owned</th><th>Forge</th><th>Salvage</th></tr></thead>
+                    <tbody>
+                      {FINISHES.map((f) => {
+                        const pr = forgePrice(open.rarity, f), n = owned(open, f), name = CARDS[open.cardId].name;
+                        return (
+                          <tr key={f}>
+                            <td><b>{FINISH_NAMES[f]}</b></td>
+                            <td>×{n}</td>
+                            <td className="fg-buy">
+                              <button type="button" className="btn gold" disabled={profile.valor < pr.valor} onClick={() => { const e = forge(open.id, f, 'valor'); setMsg(e ?? `Forged ${FINISH_NAMES[f]} ${name}.`); }}>✧ {pr.valor.toLocaleString()}</button>
+                              <button type="button" className="btn stone" disabled={profile.starstones < pr.starstones} onClick={() => { const e = forge(open.id, f, 'starstones'); setMsg(e ?? `Forged ${FINISH_NAMES[f]} ${name}.`); }}>✦ {pr.starstones.toLocaleString()}</button>
+                            </td>
+                            <td><button type="button" className="btn" disabled={n === 0} title={`Turn one ${FINISH_NAMES[f]} copy into Valor`} onClick={() => { const r = salvageOne(open.id, f); setMsg(typeof r === 'number' ? `Salvaged ${FINISH_NAMES[f]} ${name} for ${r.toLocaleString()} Valor.` : r); }}>+✧ {salvageValue(open.rarity, f).toLocaleString()}</button></td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
                 </>
               )}
               <button type="button" className="btn" onClick={() => setOpen(null)}>Close</button>

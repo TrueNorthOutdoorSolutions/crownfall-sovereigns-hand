@@ -18,6 +18,13 @@ export const FORGE_PRICE: Record<Rarity, number> = { common: 40, uncommon: 100, 
 /** Salvage: standard copies beyond the 2 a deck can use turn back into Valor. */
 export const SALVAGE_VALUE: Record<Rarity, number> = { common: 10, uncommon: 25, elite: 60, epic: 150, mythic: 400 };
 export const PLAYSET = 2;
+/** Forge and salvage any finish (owner 2026-10-13, PROPOSED prices): each step up costs more, steeply, but every finish
+ *  of every standard card can be bought directly. Salvage returns a quarter of the forge price. */
+export const FINISH_MULT: Record<Exclude<Finish, never>, number> = { normal: 1, holo: 3, gilded: 6, prismatic: 12, rainbow: 30 };
+/** Valor per Starstone when paying with Starstones (a pack is 150 Valor or 15 Starstones). */
+export const VALOR_PER_STONE = PACK_PRICE.valor / PACK_PRICE.starstones;
+export const forgePrice = (rarity: Rarity, finish: Finish) => ({ valor: FORGE_PRICE[rarity] * FINISH_MULT[finish], starstones: Math.ceil((FORGE_PRICE[rarity] * FINISH_MULT[finish]) / VALOR_PER_STONE) });
+export const salvageValue = (rarity: Rarity, finish: Finish) => SALVAGE_VALUE[rarity] * FINISH_MULT[finish];
 
 /** Starstone bundles sold for real money (PROPOSED prices, CAD). Development builds simulate the purchase; no
  *  payment is taken until a payment provider is connected and the launch review is done. */
@@ -110,15 +117,28 @@ export function buyPacks(count: number, currency: Currency, seed: number): { pac
   return { packs };
 }
 
-export function forge(printing: string): string | null {
+export function forge(printing: string, finish: Finish = 'normal', currency: Currency = 'valor'): string | null {
   const p = PRINT[printing];
-  if (!p || p.kind !== 'base') return 'Only standard cards can be forged.';
-  const cost = FORGE_PRICE[p.rarity];
-  if (current.valor < cost) return 'Not enough Valor.';
-  const k = ownKey(printing, 'normal');
-  save({ ...current, valor: current.valor - cost, owned: { ...current.owned, [k]: (current.owned[k] ?? 0) + 1 } });
-  record({ sum: { forged: 1, valor_spent: cost } });
+  if (!p || p.kind !== 'base') return 'Only standard numbered cards can be forged.';
+  const price = forgePrice(p.rarity, finish);
+  const cost = currency === 'valor' ? price.valor : price.starstones;
+  if (current[currency] < cost) return currency === 'valor' ? 'Not enough Valor.' : 'Not enough Starstones.';
+  const k = ownKey(printing, finish);
+  save({ ...current, [currency]: current[currency] - cost, owned: { ...current.owned, [k]: (current.owned[k] ?? 0) + 1 } });
+  record({ sum: { forged: 1, ...(currency === 'valor' ? { valor_spent: cost } : {}) } });
   return null;
+}
+
+/** Salvage one copy of a standard card in any finish for Valor. Masterworks, Omegas and Alternate Art are never salvaged. */
+export function salvageOne(printing: string, finish: Finish): number | string {
+  const p = PRINT[printing];
+  if (!p || p.kind !== 'base') return 'Only standard numbered cards can be salvaged.';
+  const k = ownKey(printing, finish);
+  if (!(current.owned[k] > 0)) return 'You do not own that copy.';
+  const gained = salvageValue(p.rarity, finish);
+  save({ ...current, valor: current.valor + gained, owned: { ...current.owned, [k]: current.owned[k] - 1 } });
+  record({ sum: { salvage_valor: gained, valor_earned: gained } });
+  return gained;
 }
 
 /** Turn standard base copies beyond a playset into Valor. Foils and special printings are never salvaged. */

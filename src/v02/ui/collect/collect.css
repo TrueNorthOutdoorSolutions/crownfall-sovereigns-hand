@@ -314,3 +314,9 @@
 .sp-art.portrait::before { content: ''; position: absolute; inset: -30px; background: var(--pic) center / cover; filter: blur(22px) brightness(.45) saturate(1.2) }
 .sp-art.portrait img { position: relative; width: 100%; height: auto; display: block; box-shadow: 0 0 40px rgba(0,0,0,.7); border-top: 1px solid rgba(201,162,74,.5); border-bottom: 1px solid rgba(201,162,74,.5) }
 .camp-node .cn-art { background-position: center 30% }
+/* Forge / salvage any finish (owner 2026-10-13) */
+.forge-table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 4px 0 10px }
+.forge-table th { text-align: left; color: #b9ad97; font-weight: 600; padding: 4px 6px; border-bottom: 1px solid rgba(240,201,90,.25) }
+.forge-table td { padding: 5px 6px; border-bottom: 1px solid rgba(255,255,255,.06) }
+.forge-table .btn { padding: 5px 9px; font-size: 13px }
+.forge-table .fg-buy { display: flex; gap: 6px }
