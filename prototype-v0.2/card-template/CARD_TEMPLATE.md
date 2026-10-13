@@ -140,7 +140,9 @@ Reference: `spell-template.jpg` (Set 1 cards 166 Sharpened Steel, 170 First Ligh
 
 Crown Power school icons: War Crown = red sword (⚔) · Fortune Crown = gold coin (◉) · Evolution Crown = green sparkle (✧) · Chaos Crown = pink burst (✺) · Creation Crown = cyan cross-flower (✥) · Void Crown = violet crescent (☾).
 
-Spell rarity: the canon Crown Power rarity; non-canon spells are COMMON. Rarity label colours (locked): COMMON plain, RARE blue, EPIC purple, EXALTED gold with dark text. Footer letter (PROPOSED): Common C · Rare R · Epic P · Exalted X.
+Trait-bar rarity WORD = the spell's Crownfall Arena of Ascension Crown Power rarity (COMMON / RARE / EPIC / EXALTED; non-canon spells COMMON). It is visual continuity with the video game only and does NOT set the card's rarity. Label colours (locked): COMMON plain, RARE blue, EPIC purple, EXALTED gold with dark text.
+
+**Footer letter (owner rule 2026-10-13, every set):** the card's OWN Sovereign's Hand rarity from the rarity rubric — C Common, U Uncommon, E Elite, P Epic, M Mythic — exactly like champions. Never R or X. An EPIC Crown Power can be a Common or Uncommon card if that is what its use in this game earns.
 
 Shardfall reminder: *(If this breaks from your Crown, cast or set it for free.)*
 
@@ -148,7 +150,7 @@ Spell flavour lines have no canon source; they are written by Claude and marked 
 
 ## Edict card template (LOCKED 2026-10-10)
 
-Reference: `edict-template.jpg` (right-hand card, 243 Crown's Bounty). Same frame as the spell template, with: green cost gem; gold ♛ crown top-right; "EDICT" under the name; a ROYAL GOLD type band with laurels and dark text "EDICT • Stays in play for both players"; trait bar left "Proclaimed by <host champion>", right the rarity (Edicts are RARE, footer R); rules text, then the small italic reminder "(A new Edict replaces this one.)"; flavour = the canonical Crownfall Edict proclamation; art = the host champion proclaiming the Edict.
+Reference: `edict-template.jpg` (right-hand card, 243 Crown's Bounty). Same frame as the spell template, with: green cost gem; gold ♛ crown top-right; "EDICT" under the name; a ROYAL GOLD type band with laurels and dark text "EDICT • Stays in play for both players"; trait bar left "Proclaimed by <host champion>", right the Crownfall rarity word (RARE, visual only); footer letter = the card's own rubric rarity (C/U/E/P/M, usually U); rules text, then the small italic reminder "(A new Edict replaces this one.)"; flavour = the canonical Crownfall Edict proclamation; art = the host champion proclaiming the Edict.
 
 ## Token card template (LOCKED 2026-10-10)
 
