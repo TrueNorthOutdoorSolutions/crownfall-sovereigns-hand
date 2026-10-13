@@ -2,7 +2,7 @@
 Bring the Set 1 MASTER card sheets (Crownfall Art/.../Set 1 - The Shattered Crown/Card Sheets/Cards ###-### *.png)
 up to date with the rarity rubric (owner request 2026-10-13: "a perfect master draft copy of Set 1").
 
-Every card whose footer letter differs from its current rarity (and every spell, Scheme and Edict, which were printed
+Every card gets the one reference studio mountain mark (studio-mark.py), and every card whose footer letter differs from its current rarity (and every spell, Scheme and Edict, which were printed
 with the Crownfall C/R/P/X letters) gets the letter repainted in place, using patch-rarity-letters.py.
 Card numbers and order never change: the set still runs 001-003 Bramble, 004-006 Kira Volt, and so on.
 
@@ -31,6 +31,7 @@ def _load(name, file):
 
 bp = _load("bp", "build-printable.py")
 pr = _load("pr", "patch-rarity-letters.py")
+sm = _load("sm", "studio-mark.py")
 
 SET_DIR = os.path.join(bp.ART, bp.SETS[1])
 SHEETS = os.path.join(SET_DIR, "Card Sheets")
@@ -67,8 +68,7 @@ def main():
             continue
         nums = bp.card_numbers(name)
         hits = [(i, f"{n:03d}") for i, n in enumerate(nums) if n is not None and f"{n:03d}" in todo]
-        if not hits:
-            continue
+        cards = [i for i, n in enumerate(nums) if n is not None]
         orig = os.path.join(ORIGINALS, name)
         if not os.path.exists(orig) and not check:
             shutil.copy2(os.path.join(SHEETS, name), orig)
@@ -78,9 +78,12 @@ def main():
         if len(boxes) < len(nums):
             print(f"SKIP {name}: found {len(boxes)} cards, expected {len(nums)}")
             continue
-        for i, no in hits:
+        letters = dict(hits)
+        for i in cards:
             x0, y0, x1, y1 = boxes[i]
-            card = pr.patch_image(im.crop((x0, y0, x1, y1)), todo[no])
+            card = sm.stamp_mark(im.crop((x0, y0, x1, y1)))  # identical studio mountain on every card
+            if i in letters:
+                card = pr.patch_image(card, todo[letters[i]])
             im.paste(card, (x0, y0))
         if check:
             print(name, [f"{no}->{todo[no]}" for _, no in hits])
