@@ -85,7 +85,15 @@ def main():
         if check:
             print(name, [f"{no}->{todo[no]}" for _, no in hits])
         else:
-            im.save(os.path.join(SHEETS, name))
+            dest = os.path.join(SHEETS, name)
+            tmp = dest + ".tmp.png"
+            im.save(tmp)
+            try:
+                os.replace(tmp, dest)
+            except OSError as e:  # file open in another program (e.g. an image viewer)
+                os.remove(tmp)
+                print(f"COULD NOT SAVE {name}: {e} (close it in any viewer and run again)")
+                continue
         changed += 1
     print(f"{changed} master sheets {'would be ' if check else ''}updated; originals kept in {ORIGINALS}")
 

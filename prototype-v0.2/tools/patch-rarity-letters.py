@@ -16,7 +16,7 @@ import re
 import sys
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
 DATA = os.path.join(ROOT, "prototype-v0.2", "data")
@@ -52,18 +52,28 @@ def patch_image(im, letter):
     cols = np.where((a > 150).any(axis=0))[0]
     if len(cols) == 0:
         raise ValueError("no footer letter found")
-    # The window can catch the tail of a wide card number: keep only the rightmost run of lit columns (the letter).
+    # Split the lit columns into runs (number tail, separator dots, the letter, the start of the studio name) and
+    # take the letter: the run nearest x = 135 (on a 600-wide card) that is at least 5 columns wide.
     gaps = np.where(np.diff(cols) > max(2, round(3 * sx)))[0]
-    cols = cols[gaps[-1] + 1:] if len(gaps) else cols
+    runs = np.split(cols, gaps + 1)
+    runs = [r for r in runs if (r.max() - r.min()) >= 4 * sx] or runs
+    cols = min(runs, key=lambda r: abs((r.min() + r.max()) / 2 + bx0 - 135 * sx))
     ys = np.where((a[:, cols.min():cols.max() + 1] > 150).any(axis=1))[0]
     x0, x1, y0, y1 = cols.min() + bx0, cols.max() + bx0, ys.min() + by0, ys.max() + by0
     if (x1 - x0) > 22 * sx or (y1 - y0) > 22 * sy:
         raise ValueError(f"footer letter box looks wrong ({x1 - x0}x{y1 - y0})")
     pad = max(2, round(3 * sx))
-    # Cover it with a strip of plain footer taken from just to its right (the gap before the studio name).
-    gw = x1 - x0 + 2 * pad
-    src = im.crop((x1 + pad + round(4 * sx), y0 - pad, x1 + pad + round(4 * sx) + gw, y1 + pad + 1))
-    im.paste(src, (x0 - pad, y0 - pad))
+    # Cover the old letter: inside the box, every bright (text) pixel becomes the footer's dark background colour,
+    # sampled from the box's own dark pixels, then softened so no hard edge shows. Neighbouring text is untouched.
+    bx = (x0 - pad, y0 - pad, x1 + pad + 1, y1 + pad + 1)
+    reg = np.asarray(im.crop(bx)).astype(float)
+    lum = reg.max(axis=2)
+    dark = reg[lum < 90]
+    fill = np.median(dark, axis=0) if len(dark) else np.array([20.0, 20.0, 24.0])
+    mask = lum >= 60
+    reg[mask] = fill
+    patch = Image.fromarray(reg.astype("uint8")).filter(ImageFilter.GaussianBlur(max(1, 1.2 * sx)))
+    im.paste(patch, bx[:2])
     size = max(8, round((y1 - y0 + 1) / 0.68))
     ImageDraw.Draw(im).text(((x0 + x1) / 2, (y0 + y1) / 2 + 0.5 * sy), letter, font=_font(size), fill=(238, 234, 224), anchor="mm")
     return im
