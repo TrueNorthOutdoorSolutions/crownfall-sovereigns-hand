@@ -46,7 +46,7 @@ Flavour: “Again.”
 Crown 2: none
 Might | Guard: 7 | 6
 Footer: 125/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Arc lines trace his frame; his blade hums. NEW pose and action, never the Set 1 pose or composition: locked blade-to-blade with an opponent in a flooded arena pit, sparks flying where the blades meet. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Arc lines trace his frame; his blade hums. SCENE: top-down view onto the flooded pit: Ronin Zero mid-spin between three fallen opponents, his katana leaving a bright arc of rippling water around him, one warm lantern swinging overhead. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-126 (126)

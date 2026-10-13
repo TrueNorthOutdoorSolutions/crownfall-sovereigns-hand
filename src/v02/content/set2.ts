@@ -304,6 +304,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'high angle on a rope bridge over a fungus-lit cavern: Maeve escapes with a sack of stolen relics as living roots from her staff tangle the guards chasing her, green witch-light flaring',
     'heroic wide shot of a hidden thieves hall grown from roots: Maeve on a throne of living wood surrounded by stolen relics, every root in the cavern reaching out to snatch more treasure toward her; sly and overwhelming',
   ],
+  ronin: [
+    'low side angle in a flooded underground dueling pit: Ronin Zero locked blade-to-blade with a masked rival, both knee-deep in dark water, sparks bursting where the katanas meet and lighting his straw visor; torchlit crowd silhouettes on the ledges above (no petals, no open sky)',
+    'top-down view onto the flooded pit: Ronin Zero mid-spin between three fallen opponents, his katana leaving a bright arc of rippling water around him, one warm lantern swinging overhead',
+    'heroic low angle in a vast cavern arena: Ronin Zero alone at the centre of a ring of broken blades stuck in the stone, katana raised as a single lightning-white slash splits the darkness behind him; cold teal air, one amber brazier',
+  ],
+  ignara: [
+    'close three-quarter view in a dark forge cavern: Ignara kneels at a cold, dead forge and breathes fire into its heart from her cupped hands, the coals catching orange around her obsidian gauntlets; the rest of the cavern is cool blue shadow (not standing in a burning ruin)',
+    'low angle at a great underground smelter: Ignara pulls a river of molten metal up out of a crucible with both hands, shaping it into a burning blade in mid-air, her armour cracked and glowing',
+    'heroic wide shot of a vast forge-hall: Ignara as a towering living furnace, every forge in the cavern roaring to life at once around her as she raises both arms, rivers of molten metal lighting the chains and pillars',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

@@ -23,7 +23,7 @@ Flavour: “Everywhere else is cold.”
 Crown 2: none
 Might | Guard: 3 | 4
 Footer: 041/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A fire elemental warrior in cooling obsidian armour. NEW pose and action, never the Set 1 pose or composition: drawing flame out of floating runes into her open hands in a deep forge cavern. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A fire elemental warrior in cooling obsidian armour. SCENE: close three-quarter view in a dark forge cavern: Ignara kneels at a cold, dead forge and breathes fire into its heart from her cupped hands, the coals catching orange around her obsidian gauntlets; the rest of the cavern is cool blue shadow (not standing in a burning ruin). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-042 (042)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -41,7 +41,7 @@ Flavour: “Feed the fire.”
 Crown 2: none
 Might | Guard: 6 | 7
 Footer: 042/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The armour cracks and roars with flame. NEW pose and action, never the Set 1 pose or composition: drawing flame out of floating runes into her open hands in a deep forge cavern. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The armour cracks and roars with flame. SCENE: low angle at a great underground smelter: Ignara pulls a river of molten metal up out of a crucible with both hands, shaping it into a burning blade in mid-air, her armour cracked and glowing. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-195 (195)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -60,7 +60,7 @@ Flavour: “The forge answers only me.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 10
 Footer: 195/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A pillar of fire in the shape of a woman; the air itself is burning. NEW pose and action, never the Set 1 pose or composition: drawing flame out of floating runes into her open hands in a deep forge cavern. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A pillar of fire in the shape of a woman; the air itself is burning. SCENE: heroic wide shot of a vast forge-hall: Ignara as a towering living furnace, every forge in the cavern roaring to life at once around her as she raises both arms, rivers of molten metal lighting the chains and pillars. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
