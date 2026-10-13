@@ -6,6 +6,7 @@ import { PRINTING_BY_ID } from '../cardart';
 import { FoilCard } from './FoilCard';
 import { PackArt } from './Shop';
 import { CARDS } from '../../content/cards';
+import { holdAchievementToasts } from '../progress/AchievementToast';
 
 const isBig = (c: Pull) => {
   const p = PRINTING_BY_ID[c.printing];
@@ -29,6 +30,10 @@ export function Opening({ packs, onDone }: { packs: Pack[]; onDone: () => void }
   const [big, setBig] = useState<Pull | null>(null);
   const [summary, setSummary] = useState(false);
   const pack = packs[i];
+  // Achievement pop-ups wait until every card has been seen (the results screen), so they never spoil a pull.
+  const revealing = !summary && !!pack;
+  useEffect(() => { holdAchievementToasts(revealing); }, [revealing]);
+  useEffect(() => () => holdAchievementToasts(false), []);
   // Reveal order puts the Hero and Foil slots last, as in a real pack.
   useEffect(() => { setShown(Array(pack?.length ?? 10).fill(false)); setTorn(false); setTearing(false); }, [i, pack?.length]);
 
