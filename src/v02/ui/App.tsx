@@ -32,13 +32,14 @@ function Stage({ children }: { children: React.ReactNode }) {
   return <div className="viewport"><div className="stage" style={{ transform: `translate(-50%, -50%) scale(${scale})` }}>{children}<AchievementToast /></div></div>;
 }
 
-const FACE: Record<DeckId, [string, number]> = { banner: ['sol', 3], ember: ['aurex', 3], vault: ['atlas', 3], brood: ['unwritten', 3] };
+const FACE: Record<DeckId, [string, number]> = { banner: ['sol', 3], ember: ['aurex', 3], iron: ['grimm', 3], veil: ['noctara', 3], vault: ['atlas', 3], brood: ['unwritten', 3] };
 const SETS: [number, string][] = [[1, 'Set 1 · The Shattered Crown'], [2, 'Set 2 · Beneath the Arena']];
 const newSeed = () => (Date.now() ^ Math.floor(Math.random() * 0x7fffffff)) >>> 0; // UI only: the engine itself never reads the clock
 
 export function App() {
   const [match, setMatch] = useState<{ decks: [DeckId, DeckId]; seed: number; bout?: StartBout } | null>(null);
   const [mine, setMine] = useState<DeckId>('banner');
+  const [rivalPick, setRivalPick] = useState(0);
   const [rules, setRules] = useState(false);
   const [soon, setSoon] = useState<string | null>(null);
   const [screen, setScreen] = useState<'menu' | 'arena' | 'shop' | 'collection' | 'decks' | 'campaign' | 'achievements' | 'challenges' | 'codex' | 'settings'>('menu');
@@ -46,8 +47,15 @@ export function App() {
   const chBadge = useChallengeBadge();
   // A pack opening interrupted by a refresh resumes where it left off.
   const [opening, setOpening] = useState<Pack[] | null>(() => getProfile().lastOpening);
-  // The AI plays the other starter deck of the same set.
-  const other = (d: DeckId): DeckId => (STARTER_DECK_IDS as DeckId[]).find((x) => x !== d && (DECKS[x].set ?? 1) === (DECKS[d].set ?? 1)) ?? d;
+  // The AI plays another starter deck of the same set: its partner first (Banner/Ember, Iron/Veil, Vault/Brood),
+  // and "Change rival" steps through the rest.
+  const rivalsOf = (d: DeckId): DeckId[] => {
+    const set = (STARTER_DECK_IDS as DeckId[]).filter((x) => (DECKS[x].set ?? 1) === (DECKS[d].set ?? 1));
+    const partner = set[set.indexOf(d) ^ 1];
+    const rest = set.filter((x) => x !== d);
+    return partner && partner !== d ? [partner, ...rest.filter((x) => x !== partner)] : rest;
+  };
+  const other = (d: DeckId): DeckId => { const r = rivalsOf(d); return r.length ? r[rivalPick % r.length] : d; };
 
   if (match) {
     return (
@@ -144,9 +152,9 @@ export function App() {
         {SETS.map(([setNo, setName]) => (
         <div className="setgroup" key={setNo}>
         <div className="setname"><span className="ribbon">⟶</span> {setName} <span className="ribbon">⟵</span></div>
-        <div className="decks">
+        <div className={`decks ${(STARTER_DECK_IDS as DeckId[]).filter((d) => (DECKS[d].set ?? 1) === setNo).length > 2 ? 'four' : ''}`}>
           {(STARTER_DECK_IDS as DeckId[]).filter((d) => (DECKS[d].set ?? 1) === setNo).map((d) => (
-            <button type="button" key={d} className={`deckpick ${mine === d ? 'on' : ''}`} style={{ ['--deck' as string]: DECKS[d].color, ['--acc' as string]: DECKS[d].accent }} onClick={() => setMine(d)}>
+            <button type="button" key={d} className={`deckpick ${mine === d ? 'on' : ''}`} style={{ ['--deck' as string]: DECKS[d].color, ['--acc' as string]: DECKS[d].accent }} onClick={() => { setMine(d); setRivalPick(0); }}>
               <div className="dp-art" style={{ backgroundImage: `url(${artUrl(FACE[d][0], FACE[d][1])})` }} />
               <div className="dp-body"><b>{DECKS[d].name}</b><span>{DECKS[d].origins}</span><p>{DECKS[d].pitch}</p></div>
               {mine === d && <div className="dp-tag">Your deck</div>}
@@ -157,6 +165,7 @@ export function App() {
         ))}
         <div className="menu-actions">
           <button type="button" className="primary big" onClick={() => setMatch({ decks: [mine, other(mine)], seed: newSeed() })}><span aria-hidden="true">⚔</span> Play vs AI ({DECKS[other(mine)].name})</button>
+          {rivalsOf(mine).length > 1 && <button type="button" className="secondary" onClick={() => setRivalPick((n) => n + 1)}><span aria-hidden="true">⇄</span> Change rival</button>}
           <button type="button" className="secondary" onClick={() => setRules(true)}><span aria-hidden="true">📖</span> How to play</button>
         </div>
         <ol className="intro-steps" aria-label="Turn steps">

@@ -34,16 +34,16 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-007 | ★ | 1 | 1 / 3 | *Refuse Death* · Block: Shield Grimm. | "His war ended three centuries ago. Nobody told Grimm." | A skeletal footsoldier in dented plate, ghost-light in his ribs. | Draft |
-| S1-008 | ★★ | ↑0 | 4 / 6 | *Refuse Death* · Block: Shield Grimm. Ascend: Return a ★ champion from your Fallen pile to your hand. | "Still haven't died properly." | Plate reforged with spectral seams; a tattered banner grows from his back. | Draft |
-| S1-009 | ★★★ | ↑1 | 7 / 10 | **Bulwark** · *Refuse Death* · Block: Shield Grimm. Ascend: Return a ★ champion from your Fallen pile to your hand. · ♛2 | "Another war ended." | A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate. | Draft |
+| S1-007 | ★ | 1 | 1 / 3 | *Refuse Death* · Block: Shield Grimm. | "His war ended three centuries ago. Nobody told Grimm." | A skeletal footsoldier in dented plate, ghost-light in his ribs. | Starter deck: Iron Requiem |
+| S1-008 | ★★ | ↑0 | 4 / 6 | *Refuse Death* · Block: Shield Grimm. Ascend: Return a ★ champion from your Fallen pile to your hand. | "Still haven't died properly." | Plate reforged with spectral seams; a tattered banner grows from his back. | Starter deck: Iron Requiem |
+| S1-009 | ★★★ | ↑1 | 7 / 10 | **Bulwark** · *Refuse Death* · Block: Shield Grimm. Ascend: Return a ★ champion from your Fallen pile to your hand. · ♛2 | "Another war ended." | A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate. | Starter deck: Iron Requiem |
 
 ### Pip, Demolitions Enthusiast
 *Tier I · Common · Gearbound · Saboteur*
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-010 | ★ | 1 | 1 / 1 | *Special Delivery* · Arrival: Scorch 1 each rival champion. | "Pip was told the Crownfall was a place of great explosions. Pip was not told correctly, so Pip brought his own." | A tiny goblin-like sapper with a satchel of fizzing bombs. | Draft |
+| S1-010 | ★ | 1 | 1 / 1 | *Special Delivery* · Arrival: Scorch 1 each rival champion. | "Pip was told the Crownfall was a place of great explosions. Pip was not told correctly, so Pip brought his own." | A tiny goblin-like sapper with a satchel of fizzing bombs. | Starter deck: Iron Requiem |
 | S1-011 | ★★ | ↑1 | 3 / 4 | *Special Delivery* · Ascend: Scorch 1 each rival champion. Attack: Scorch 1 each rival champion. | "BIGGER BOOM!" | Goggles, a bandolier of bigger bombs and a smoking backpack launcher. | Draft |
 | S1-012 | ★★★ | ↑1 | 7 / 7 | *Special Delivery* · Ascend: Scorch 2 each rival champion. Attack: Scorch 1 each rival champion. · ♛2 | "Pip wants to go again!" | Pip rides a ridiculous miniature mechanical war machine with a bomb chute. | Draft |
 
@@ -79,9 +79,9 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-022 | ★ | 1 | 3 / 1 | **Ambush** | "Nyx stole a star once. She gave it back. Mostly." | A hooded thief with two crooked daggers. | Draft |
-| S1-023 | ★★ | ↑0 | 6 / 3 | **Ambush** · *Fade* · Attack: Scorch 1 the defender. | "Quieter. Sharper." | Her cloak drips living shadow; violet eyes glow beneath the hood. | Draft |
-| S1-024 | ★★★ | ↑1 | 10 / 5 | **Ambush, Flight** · *Fade* · Attack: Scorch 2 the defender. · ♛2 | "Gone before they knew." | Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night. | Draft |
+| S1-022 | ★ | 1 | 3 / 1 | **Ambush** | "Nyx stole a star once. She gave it back. Mostly." | A hooded thief with two crooked daggers. | Starter deck: Veil of Knives |
+| S1-023 | ★★ | ↑0 | 6 / 3 | **Ambush** · *Fade* · Attack: Scorch 1 the defender. | "Quieter. Sharper." | Her cloak drips living shadow; violet eyes glow beneath the hood. | Starter deck: Veil of Knives |
+| S1-024 | ★★★ | ↑1 | 10 / 5 | **Ambush, Flight** · *Fade* · Attack: Scorch 2 the defender. · ♛2 | "Gone before they knew." | Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night. | Starter deck: Veil of Knives |
 
 ### Emberling, Spark That Learned to Speak
 *Tier I · Common · Elemental · Arcanist*
@@ -151,9 +151,9 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-046 | ★ | 3 | 3 / 2 | **Reach** · *Mortar Protocol* · Attack: Scorch 1 each rival champion. | "Gearwick-9 has calculated the odds of winning the Crown. It will not tell you them." | A clockwork artillery robot with a brass mortar. | Draft |
-| S1-047 | ★★ | ↑1 | 6 / 5 | **Reach** · *Mortar Protocol* · Ascend: Scorch 1 each rival champion. Attack: Scorch 1 each rival champion. | "Additional barrels installed." | Twin barrels and a targeting monocle that clicks. | Draft |
-| S1-048 | ★★★ | ↑2 | 9 / 8 | **Reach** · *Mortar Protocol* · Attack: Scorch 2 each rival champion. · ♛2 | "Odds improved." | A walking siege tower with a rotary mortar crown. | Draft |
+| S1-046 | ★ | 3 | 3 / 2 | **Reach** · *Mortar Protocol* · Attack: Scorch 1 each rival champion. | "Gearwick-9 has calculated the odds of winning the Crown. It will not tell you them." | A clockwork artillery robot with a brass mortar. | Starter deck: Iron Requiem |
+| S1-047 | ★★ | ↑1 | 6 / 5 | **Reach** · *Mortar Protocol* · Ascend: Scorch 1 each rival champion. Attack: Scorch 1 each rival champion. | "Additional barrels installed." | Twin barrels and a targeting monocle that clicks. | Starter deck: Iron Requiem |
+| S1-048 | ★★★ | ↑2 | 9 / 8 | **Reach** · *Mortar Protocol* · Attack: Scorch 2 each rival champion. · ♛2 | "Odds improved." | A walking siege tower with a rotary mortar crown. | Starter deck: Iron Requiem |
 
 ### Mirella, Voice of the Tides
 *Tier II · Uncommon · Elemental · Mystic*
@@ -169,7 +169,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-052 | ★ | 2 | 3 / 1 | **Ambush** | "Shade has worn many faces. The mask is the only one that stayed." | A masked assassin with a red-lacquered blade. | Draft |
+| S1-052 | ★ | 2 | 3 / 1 | **Ambush** | "Shade has worn many faces. The mask is the only one that stayed." | A masked assassin with a red-lacquered blade. | Starter deck: Veil of Knives |
 | S1-053 | ★★ | ↑1 | 6 / 3 | **Ambush** · *Execution Mark* · Once per turn, when Shade defeats a champion on your turn, ready Shade. | "The mask cracks. Good." | The mask cracks, revealing a crimson glow beneath. | Draft |
 | S1-054 | ★★★ | ↑2 | 10 / 5 | **Ambush** · *Execution Mark* · Ascend: Defeat each rival champion with Guard 1 or less. Once per turn, when Shade defeats a champion on your turn, ready Shade. · ♛2 | "Executed." | A wraith of ribbons and knives; the mask floats in front of an empty hood. | Draft |
 
@@ -205,7 +205,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-064 | ★ | 2 | 3 / 2 | **Reach** · *Ricochet* · Attack: Scorch 1 a rival champion. | "Dax has fought in forty-one realities. He lost in one, and he is still annoyed about it." | A dimensional gunslinger in a dusty long coat. | Draft |
+| S1-064 | ★ | 2 | 3 / 2 | **Reach** · *Ricochet* · Attack: Scorch 1 a rival champion. | "Dax has fought in forty-one realities. He lost in one, and he is still annoyed about it." | A dimensional gunslinger in a dusty long coat. | Starter deck: Veil of Knives |
 | S1-065 | ★★ | ↑1 | 6 / 4 | **Flight** · *Ricochet* · Attack: Scorch 1 each rival champion. | "Forty-two realities, one gun." | Rift cracks glow along his revolver; his coat shows another sky. | Draft |
 | S1-066 | ★★★ | ↑2 | 10 / 7 | **Flight** · *Ricochet* · Attack: Scorch 2 each rival champion. · ♛2 | "Not the one I lose in." | A drifter from every timeline at once: ghostly copies echo his shots. | Draft |
 
@@ -232,7 +232,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-073 | ★ | 2 | 2 / 3 | *Mana Reactor* · Attack: Scorch 2 the defender. | "Prototypes one and two exploded. HEX-3 is careful. HEX-3 is very, very careful." | An experimental robot with a glass mana chamber. | Draft |
+| S1-073 | ★ | 2 | 2 / 3 | *Mana Reactor* · Attack: Scorch 2 the defender. | "Prototypes one and two exploded. HEX-3 is careful. HEX-3 is very, very careful." | An experimental robot with a glass mana chamber. | Starter deck: Iron Requiem |
 | S1-074 | ★★ | ↑1 | 5 / 6 | *Mana Reactor* · Ascend: Scorch 1 each rival champion. Attack: Scorch 2 the defender. | "Core output increased." | Rune-etched plating; the reactor glows violet. | Draft |
 | S1-075 | ★★★ | ↑2 | 8 / 9 | **Bulwark** · *Mana Reactor* · Attack: Scorch 3 the defender. · ♛2 | "Did not explode." | A levitating arcane engine with three orbiting reactor cores. | Draft |
 
@@ -250,7 +250,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-079 | ★ | 4 | 5 / 4 | *Devour* · When Dreadmouth defeats a champion on your turn, Shield Dreadmouth. | "It ate a kingdom once. It is still hungry." | An enormous hollow creature that is mostly jaw. | Draft |
+| S1-079 | ★ | 4 | 5 / 4 | *Devour* · When Dreadmouth defeats a champion on your turn, Shield Dreadmouth. | "It ate a kingdom once. It is still hungry." | An enormous hollow creature that is mostly jaw. | Starter deck: Iron Requiem |
 | S1-080 | ★★ | ↑1 | 8 / 7 | *Devour* · When Dreadmouth defeats a champion on your turn, Shield Dreadmouth. | "MORE TEETH." | Bone plates, a second jaw, and ghostfire in its throat. | Draft |
 | S1-081 | ★★★ | ↑2 | 12 / 10 | *Devour* · When Dreadmouth defeats a champion on your turn, Shield Dreadmouth. Attack: Scorch 2 the defender. · ♛2 | "Delicious." | A leviathan of the dead: an entire graveyard of teeth. | Draft |
 
@@ -259,7 +259,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-082 | ★ | 3 | 2 / 3 | *Deploy Turret* · Arrival: Summon an Arc Turret. | "Professor Spark was expelled from four academies for "excessive voltage"." | A wild-haired engineer with a wrench and a tool-pack. | Draft |
+| S1-082 | ★ | 3 | 2 / 3 | *Deploy Turret* · Arrival: Summon an Arc Turret. | "Professor Spark was expelled from four academies for "excessive voltage"." | A wild-haired engineer with a wrench and a tool-pack. | Starter deck: Iron Requiem |
 | S1-083 | ★★ | ↑1 | 5 / 6 | *Deploy Turret* · Ascend: Summon an Arc Turret. | "Version two, even better!" | A mechanical arm grows from the pack; goggles spark. | Draft |
 | S1-084 | ★★★ | ↑2 | 8 / 9 | **Bulwark** · *Deploy Turret* · Ascend: Summon two Arc Turrets. Your other champions have +1 Guard. · ♛2 | "Science wins again!" | He sits in a walking workshop that builds turrets on the fly. | Draft |
 
@@ -304,16 +304,16 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-097 | ★ | 3 | 2 / 3 | *Raise Fallen* · Arrival: Summon a Risen Soldier. | "Morrow believes death is a waste of good soldiers." | A gaunt necromancer with a bone scythe. | Draft |
-| S1-098 | ★★ | ↑1 | 5 / 6 | *Raise Fallen* · Ascend: Deploy a ★ champion costing 2 or less from your Fallen pile for free. | "My legion grows." | Ghostlights orbit him and his robes are stitched from banners. | Draft |
-| S1-099 | ★★★ | ↑2 | 8 / 9 | *Raise Fallen* · Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Summon two Risen Soldiers. · ♛2 | "Rise, and rest." | A lord of the grave crowned in spectral candles. | Draft |
+| S1-097 | ★ | 3 | 2 / 3 | *Raise Fallen* · Arrival: Summon a Risen Soldier. | "Morrow believes death is a waste of good soldiers." | A gaunt necromancer with a bone scythe. | Starter deck: Iron Requiem |
+| S1-098 | ★★ | ↑1 | 5 / 6 | *Raise Fallen* · Ascend: Deploy a ★ champion costing 2 or less from your Fallen pile for free. | "My legion grows." | Ghostlights orbit him and his robes are stitched from banners. | Starter deck: Iron Requiem |
+| S1-099 | ★★★ | ↑2 | 8 / 9 | *Raise Fallen* · Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. Summon two Risen Soldiers. · ♛2 | "Rise, and rest." | A lord of the grave crowned in spectral candles. | Starter deck: Iron Requiem |
 
 ### Captain Blacktide, Terror of the Rift Seas
 *Tier III · Elite · Riftborn · Artillerist*
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-100 | ★ | 4 | 4 / 3 | **Reach** · *Broadside* · Attack: Scorch 1 each rival champion. | "Blacktide sails seas that exist only between realities. He charges tolls." | A dimensional pirate captain with a hand cannon. | Draft |
+| S1-100 | ★ | 4 | 4 / 3 | **Reach** · *Broadside* · Attack: Scorch 1 each rival champion. | "Blacktide sails seas that exist only between realities. He charges tolls." | A dimensional pirate captain with a hand cannon. | Starter deck: Veil of Knives |
 | S1-101 | ★★ | ↑1 | 7 / 6 | **Reach** · *Broadside* · Attack: Scorch 2 each rival champion. | "Crew, to the cannons!" | A spectral crew appears behind him; his coat drips seawater from nowhere. | Draft |
 | S1-102 | ★★★ | ↑2 | 10 / 9 | **Reach** · *Broadside* · Ascend: Scorch 2 each rival champion. Attack: Scorch 2 each rival champion. · ♛2 | "Plunder!" | A ghost galleon's figurehead rises behind him as he fires. | Draft |
 
@@ -340,9 +340,9 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-109 | ★ | 3 | 2 / 3 | **Flight** · *Prismatic Collapse* · Arrival: Scorch 2 a rival champion. | "Zyrak speaks in light. Most listeners go briefly blind; Zyrak considers this rude." | A crystal alien with a floating prism. | Draft |
-| S1-110 | ★★ | ↑1 | 5 / 6 | **Flight** · *Prismatic Collapse* · Ascend: Scorch 2 each rival champion. | "* shines brighter *" | More facets, more light; a halo of crystal shards. | Draft |
-| S1-111 | ★★★ | ↑2 | 8 / 9 | **Flight** · *Prismatic Collapse* · Ascend: Scorch 3 each rival champion. · ♛2 | "* hums in triumph *" | A walking cathedral of prisms refracting impossible colours. | Draft |
+| S1-109 | ★ | 3 | 2 / 3 | **Flight** · *Prismatic Collapse* · Arrival: Scorch 2 a rival champion. | "Zyrak speaks in light. Most listeners go briefly blind; Zyrak considers this rude." | A crystal alien with a floating prism. | Starter deck: Veil of Knives |
+| S1-110 | ★★ | ↑1 | 5 / 6 | **Flight** · *Prismatic Collapse* · Ascend: Scorch 2 each rival champion. | "* shines brighter *" | More facets, more light; a halo of crystal shards. | Starter deck: Veil of Knives |
+| S1-111 | ★★★ | ↑2 | 8 / 9 | **Flight** · *Prismatic Collapse* · Ascend: Scorch 3 each rival champion. · ♛2 | "* hums in triumph *" | A walking cathedral of prisms refracting impossible colours. | Starter deck: Veil of Knives |
 
 ### Astryon, The Seven-Star Blade
 *Tier IV · Epic · Astral · Duelist*
@@ -358,16 +358,16 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-115 | ★ | 4 | 3 / 4 | *Court of Shadows* · Arrival: Summon two Court Shades. | "Vespera rules a court that exists only when no one is looking." | A pale shadow monarch on invisible stairs. | Draft |
-| S1-116 | ★★ | ↑1 | 6 / 7 | *Court of Shadows* · Ascend: Summon a Court Shade. Your other champions have +1 Might. | "My courtiers grow bold." | Her train becomes a river of shadow courtiers. | Draft |
-| S1-117 | ★★★ | ↑2 | 9 / 10 | *Court of Shadows* · Ascend: Summon two Court Shades. Your other champions have +1 Might. · ♛2 | "Rise, my court!" | A throne of night rises behind her; her crown is an eclipse. | Draft |
+| S1-115 | ★ | 4 | 3 / 4 | *Court of Shadows* · Arrival: Summon two Court Shades. | "Vespera rules a court that exists only when no one is looking." | A pale shadow monarch on invisible stairs. | Starter deck: Veil of Knives |
+| S1-116 | ★★ | ↑1 | 6 / 7 | *Court of Shadows* · Ascend: Summon a Court Shade. Your other champions have +1 Might. | "My courtiers grow bold." | Her train becomes a river of shadow courtiers. | Starter deck: Veil of Knives |
+| S1-117 | ★★★ | ↑2 | 9 / 10 | *Court of Shadows* · Ascend: Summon two Court Shades. Your other champions have +1 Might. · ♛2 | "Rise, my court!" | A throne of night rises behind her; her crown is an eclipse. | Starter deck: Veil of Knives |
 
 ### Titan Rho, The Last Fortress
 *Tier IV · Epic · Gearbound · Warden*
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-118 | ★ | 5 | 3 / 8 | **Bulwark, Reach** | "Titan Rho guarded a city for ten thousand years. It does not know the city fell." | An enormous ancient war machine on tread-legs. | Draft |
+| S1-118 | ★ | 5 | 3 / 8 | **Bulwark, Reach** | "Titan Rho guarded a city for ten thousand years. It does not know the city fell." | An enormous ancient war machine on tread-legs. | Starter deck: Iron Requiem |
 | S1-119 | ★★ | ↑1 | 6 / 11 | **Bulwark, Reach** · *Fortress Mode* · Ascend: Shield Titan Rho. Block: Scorch 2 the attacker. | "Fortress systems expanded." | Fold-out cannon towers and a reactor crown. | Draft |
 | S1-120 | ★★★ | ↑2 | 9 / 14 | **Bulwark, Reach** · *Fortress Mode* · Ascend: Shield each champion you control. Block: Scorch 3 the attacker. · ♛2 | "Fortress mode." | A walking citadel with a garrison of tiny brass drones. | Draft |
 
@@ -403,7 +403,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-130 | ★ | 4 | 6 / 3 | **Flight, Ambush** | "The Veilwalker is what happens when a door between worlds learns to walk." | A living dimensional anomaly in a tattered shape. | Draft |
+| S1-130 | ★ | 4 | 6 / 3 | **Flight, Ambush** | "The Veilwalker is what happens when a door between worlds learns to walk." | A living dimensional anomaly in a tattered shape. | Starter deck: Veil of Knives |
 | S1-131 | ★★ | ↑1 | 9 / 6 | **Flight, Ambush** · *Reality Cut* · Attack: Scorch 2 the defender. | "* more of the world goes missing *" | Its edges tear into other skies. | Draft |
 | S1-132 | ★★★ | ↑2 | 13 / 8 | **Flight, Ambush** · *Reality Cut* · Ascend: Defeat each rival champion with Guard 2 or less. Attack: Scorch 2 the defender. · ♛2 | "Between here — and there." | A hole in the world holding a blade. | Draft |
 
@@ -448,9 +448,9 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-145 | ★ | 6 | 6 / 7 | **Ascendant** · *THE UNMAKING* · Arrival: Scorch 2 each rival champion. | "Noctara ruled an empire until it disappeared. She is not sure she did not do it." | An empress robed in the space between stars. | Draft |
-| S1-146 | ★★ | ↑2 | 8 / 10 | **Ascendant, Flight** · *THE UNMAKING* · Ascend: A rival champion gets −4 Might this turn. Scorch 3 a rival champion. | "The void deepens." | Her crown becomes an eclipse; small voids orbit her. | Draft |
-| S1-147 | ★★★ | ↑3 | 12 / 13 | **Ascendant, Flight** · *THE UNMAKING* · Ascend: Defeat each rival champion with Guard 4 or less. Your other champions can’t attack this turn. · ♛2 | "Be unmade." | She is a doorway to nothing. The battlefield becomes the void. | Draft |
+| S1-145 | ★ | 6 | 6 / 7 | **Ascendant** · *THE UNMAKING* · Arrival: Scorch 2 each rival champion. | "Noctara ruled an empire until it disappeared. She is not sure she did not do it." | An empress robed in the space between stars. | Starter deck: Veil of Knives |
+| S1-146 | ★★ | ↑2 | 8 / 10 | **Ascendant, Flight** · *THE UNMAKING* · Ascend: A rival champion gets −4 Might this turn. Scorch 3 a rival champion. | "The void deepens." | Her crown becomes an eclipse; small voids orbit her. | Starter deck: Veil of Knives |
+| S1-147 | ★★★ | ↑3 | 12 / 13 | **Ascendant, Flight** · *THE UNMAKING* · Ascend: Defeat each rival champion with Guard 4 or less. Your other champions can’t attack this turn. · ♛2 | "Be unmade." | She is a doorway to nothing. The battlefield becomes the void. | Starter deck: Veil of Knives |
 
 ### ATLAS-Ω, Final-Generation War Machine
 *Tier V · Mythic · Gearbound · Ascendant · Warden*
@@ -475,9 +475,9 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Form | Cost | Might / Guard | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1-154 | ★ | 6 | 5 / 7 | **Ascendant** · *THE FORGOTTEN LEGION* · Arrival: Summon two Fallen Warriors. | "His name was erased from every record. He wants the Crown to write it back." | A skeletal king on a throne of shields. | Draft |
-| S1-155 | ★★ | ↑2 | 8 / 10 | **Ascendant** · *THE FORGOTTEN LEGION* · Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. | "The forgotten answer." | A spectral legion stands behind him. | Draft |
-| S1-156 | ★★★ | ↑3 | 12 / 13 | **Ascendant** · *THE FORGOTTEN LEGION* · Ascend: Deploy a ★ champion costing 4 or less from your Fallen pile for free. Summon a Fallen Warrior. Your other champions have +1 Might. · ♛2 | "Legion — rise!" | He remembers his name, and the dead answer it. | Draft |
+| S1-154 | ★ | 6 | 5 / 7 | **Ascendant** · *THE FORGOTTEN LEGION* · Arrival: Summon two Fallen Warriors. | "His name was erased from every record. He wants the Crown to write it back." | A skeletal king on a throne of shields. | Starter deck: Iron Requiem |
+| S1-155 | ★★ | ↑2 | 8 / 10 | **Ascendant** · *THE FORGOTTEN LEGION* · Ascend: Deploy a ★ champion costing 3 or less from your Fallen pile for free. | "The forgotten answer." | A spectral legion stands behind him. | Starter deck: Iron Requiem |
+| S1-156 | ★★★ | ↑3 | 12 / 13 | **Ascendant** · *THE FORGOTTEN LEGION* · Ascend: Deploy a ★ champion costing 4 or less from your Fallen pile for free. Summon a Fallen Warrior. Your other champions have +1 Might. · ♛2 | "Legion — rise!" | He remembers his name, and the dead answer it. | Starter deck: Iron Requiem |
 
 ### Veyra Sol, Reality Hunter
 *Tier V · Mythic · Riftborn · Ascendant · Assassin*
@@ -542,29 +542,29 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 | S1-182 | Cinder Veil | Scheme | 1 |  | Spring when a rival champion attacks your Crown: that attack ends. No shards break. | — | A curtain of ash and smoke swallowing an incoming charge. | Starter deck: Blood & Ember |
 | S1-183 | The Empty Throne<br>*War Crown · Rare* | Tactic | 2 |  | If you control 3 or fewer champions, your champions get +2 Might and +1 Guard this turn. | — | War Crown power: a combat power scene that shows “The Empty Throne” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
 | S1-184 | Battle Hymn<br>*War Crown · Rare* | Tactic | 2 |  | Ready another champion you control. | — | War Crown power: a combat power scene that shows “Battle Hymn” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
-| S1-185 | Backline Doctrine<br>*War Crown · Rare* | Swift Tactic | 1 |  | A champion gets +3 Might this turn. | — | War Crown power: a combat power scene that shows “Backline Doctrine” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
-| S1-186 | Executioner's Oath<br>*War Crown · Epic* | Tactic | 2 |  | Defeat each rival champion with Guard 1 or less. | — | War Crown power: a combat power scene that shows “Executioner's Oath” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
-| S1-187 | Opening Salvo<br>*War Crown · Epic* | Tactic | 1 |  | Your champions get +1 Might this turn. Draw a card. | — | War Crown power: a combat power scene that shows “Opening Salvo” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
+| S1-185 | Backline Doctrine<br>*War Crown · Rare* | Swift Tactic | 1 |  | A champion gets +3 Might this turn. | — | War Crown power: a combat power scene that shows “Backline Doctrine” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Starter deck: Veil of Knives |
+| S1-186 | Executioner's Oath<br>*War Crown · Epic* | Tactic | 2 |  | Defeat each rival champion with Guard 1 or less. | — | War Crown power: a combat power scene that shows “Executioner's Oath” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Starter deck: Veil of Knives |
+| S1-187 | Opening Salvo<br>*War Crown · Epic* | Tactic | 1 |  | Your champions get +1 Might this turn. Draw a card. | — | War Crown power: a combat power scene that shows “Opening Salvo” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Starter deck: Veil of Knives |
 | S1-188 | Crown of the Fallen<br>*War Crown · Rare* | Tactic | 1 |  | Your champions get +1 Might this turn, or +3 if you have fewer shards than your rival. | — | War Crown power: a combat power scene that shows “Crown of the Fallen” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
-| S1-189 | Last Stand<br>*War Crown · Epic* | Scheme | 0 |  | Spring when one of your champions is attacked or blocks: it gets +3 Might this turn. | — | War Crown power: a combat power scene that shows “Last Stand” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
+| S1-189 | Last Stand<br>*War Crown · Epic* | Scheme | 0 |  | Spring when one of your champions is attacked or blocks: it gets +3 Might this turn. | — | War Crown power: a combat power scene that shows “Last Stand” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Starter deck: Iron Requiem |
 | S1-190 | Crown of War<br>*War Crown · Exalted* | Tactic | 4 |  | Your champions get +2 Might and +1 Guard this turn. | — | War Crown power: a combat power scene that shows “Crown of War” at work in the arena, framed by the War Crown sigil (⚔) in its school colour #ff6b5a. | Draft |
-| S1-191 | Royal Treasury<br>*Fortune Crown · Epic* | Tactic | 1 |  | Gain 2 Command. Draw a card. | — | Fortune Crown power: a economy scene that shows “Royal Treasury” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
-| S1-192 | Golden Parting<br>*Fortune Crown · Common* | Tactic | 1 |  | Draw a card. Gain 1 Command. | — | Fortune Crown power: a economy scene that shows “Golden Parting” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
-| S1-193 | Steady Coffers<br>*Fortune Crown · Common* | Tactic | 0 |  | **Shardfall** · Gain 1 Command. | — | Fortune Crown power: a economy scene that shows “Steady Coffers” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
+| S1-191 | Royal Treasury<br>*Fortune Crown · Epic* | Tactic | 1 |  | Gain 2 Command. Draw a card. | — | Fortune Crown power: a economy scene that shows “Royal Treasury” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Starter deck: Veil of Knives |
+| S1-192 | Golden Parting<br>*Fortune Crown · Common* | Tactic | 1 |  | Draw a card. Gain 1 Command. | — | Fortune Crown power: a economy scene that shows “Golden Parting” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Starter deck: Veil of Knives |
+| S1-193 | Steady Coffers<br>*Fortune Crown · Common* | Tactic | 0 |  | **Shardfall** · Gain 1 Command. | — | Fortune Crown power: a economy scene that shows “Steady Coffers” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Starter deck: Iron Requiem |
 | S1-194 | Crown Bond<br>*Fortune Crown · Epic* | Tactic | 2 |  | Draw 3 cards. | — | Fortune Crown power: a economy scene that shows “Crown Bond” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
 | S1-195 | Deep Vault<br>*Fortune Crown · Rare* | Tactic | 2 |  | Gain 2 Command. Draw a card. | — | Fortune Crown power: a economy scene that shows “Deep Vault” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
 | S1-196 | Free Rolls<br>*Fortune Crown · Rare* | Tactic | 0 |  | Put a card from your hand on the bottom of your deck, then draw a card. | — | Fortune Crown power: a economy scene that shows “Free Rolls” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
-| S1-197 | Victor's Spoils<br>*Fortune Crown · Rare* | Tactic | 1 |  | Draw a card. If you have more shards than your rival, draw another. | — | Fortune Crown power: a economy scene that shows “Victor's Spoils” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
+| S1-197 | Victor's Spoils<br>*Fortune Crown · Rare* | Tactic | 1 |  | Draw a card. If you have more shards than your rival, draw another. | — | Fortune Crown power: a economy scene that shows “Victor's Spoils” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Starter deck: Veil of Knives |
 | S1-198 | Windfall<br>*Fortune Crown · Epic* | Tactic | 1 |  | Gain 4 Command. | — | Fortune Crown power: a economy scene that shows “Windfall” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
 | S1-199 | Merchant Prince<br>*Fortune Crown · Epic* | Tactic | 1 |  | Draw 2 cards, then put a card from your hand on the bottom of your deck. | — | Fortune Crown power: a economy scene that shows “Merchant Prince” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
 | S1-200 | Consolation Prize<br>*Fortune Crown · Epic* | Tactic | 1 |  | **Shardfall** · If you have fewer shards than your rival, draw 2 cards and gain 1 Command. | — | Fortune Crown power: a economy scene that shows “Consolation Prize” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
 | S1-201 | Golden Crown<br>*Fortune Crown · Exalted* | Tactic | 2 |  | Gain 2 Command. Draw 2 cards. | — | Fortune Crown power: a economy scene that shows “Golden Crown” at work in the arena, framed by the Fortune Crown sigil (◉) in its school colour #ffd66b. | Draft |
-| S1-202 | Forge Master's Favor<br>*Evolution Crown · Rare* | Tactic | 1 |  | Return a ★ champion from your Fallen pile to your hand. | — | Evolution Crown power: a upgrades & levels scene that shows “Forge Master's Favor” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
+| S1-202 | Forge Master's Favor<br>*Evolution Crown · Rare* | Tactic | 1 |  | Return a ★ champion from your Fallen pile to your hand. | — | Evolution Crown power: a upgrades & levels scene that shows “Forge Master's Favor” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Starter deck: Iron Requiem |
 | S1-203 | Overflowing Bench<br>*Evolution Crown · Common* | Tactic | 1 |  | Deploy a ★ champion costing 1 or less from your hand for free. Draw a card. | — | Evolution Crown power: a upgrades & levels scene that shows “Overflowing Bench” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
 | S1-204 | Tempered by Victory<br>*Evolution Crown · Rare* | Tactic | 1 |  | Your ★★ and ★★★ champions get +1 Might this turn. Draw a card. | — | Evolution Crown power: a upgrades & levels scene that shows “Tempered by Victory” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
 | S1-205 | Lucky Draw<br>*Evolution Crown · Common* | Tactic | 1 |  | **Shardfall** · Draw a card. Gain 1 Command. | — | Evolution Crown power: a upgrades & levels scene that shows “Lucky Draw” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
-| S1-206 | Mirror Shard<br>*Evolution Crown · Common* | Tactic | 2 |  | Return a ★ champion from your Fallen pile to your hand. Draw a card. | — | Evolution Crown power: a upgrades & levels scene that shows “Mirror Shard” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
-| S1-207 | Studious<br>*Evolution Crown · Rare* | Scheme | 0 |  | Spring when a rival champion attacks: draw a card. | — | Evolution Crown power: a upgrades & levels scene that shows “Studious” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
+| S1-206 | Mirror Shard<br>*Evolution Crown · Common* | Tactic | 2 |  | Return a ★ champion from your Fallen pile to your hand. Draw a card. | — | Evolution Crown power: a upgrades & levels scene that shows “Mirror Shard” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Starter deck: Iron Requiem |
+| S1-207 | Studious<br>*Evolution Crown · Rare* | Scheme | 0 |  | Spring when a rival champion attacks: draw a card. | — | Evolution Crown power: a upgrades & levels scene that shows “Studious” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Starter deck: Iron Requiem |
 | S1-208 | Twin Blessing<br>*Evolution Crown · Rare* | Tactic | 3 |  | Deploy up to two ★ champions costing 2 or less from your hand for free. | — | Evolution Crown power: a upgrades & levels scene that shows “Twin Blessing” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
 | S1-209 | Higher Calling<br>*Evolution Crown · Rare* | Tactic | 2 |  | Draw 2 cards. Gain 1 Command. | — | Evolution Crown power: a upgrades & levels scene that shows “Higher Calling” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
 | S1-210 | Oath of the Fourth Crown<br>*Evolution Crown · Exalted* | Tactic | 3 |  | Ascend one of your champions for free. It stays standing. | — | Evolution Crown power: a upgrades & levels scene that shows “Oath of the Fourth Crown” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
@@ -574,30 +574,30 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 | S1-214 | Apex Ascension<br>*Evolution Crown · Exalted* | Tactic | 4 |  | You have one more Champion Zone for the rest of the game. Ascend one of your champions for free. | — | Evolution Crown power: a upgrades & levels scene that shows “Apex Ascension” at work in the arena, framed by the Evolution Crown sigil (✧) in its school colour #7dd35a. | Draft |
 | S1-215 | Pandora's Satchel<br>*Chaos Crown · Common* | Tactic | 1 |  | **Shardfall** · Draw 2 cards, then put a card from your hand on the bottom of your deck. | — | Chaos Crown power: a high-risk randomness scene that shows “Pandora's Satchel” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
 | S1-216 | Wild Gift<br>*Chaos Crown · Common* | Tactic | 2 |  | Deploy a ★ champion costing 3 or less from your hand for free. | — | Chaos Crown power: a high-risk randomness scene that shows “Wild Gift” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
-| S1-217 | Coin Flip<br>*Chaos Crown · Common* | Tactic | 0 |  | Flip a coin. Heads: gain 2 Command. Tails: draw a card. | — | Chaos Crown power: a high-risk randomness scene that shows “Coin Flip” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
+| S1-217 | Coin Flip<br>*Chaos Crown · Common* | Tactic | 0 |  | Flip a coin. Heads: gain 2 Command. Tails: draw a card. | — | Chaos Crown power: a high-risk randomness scene that shows “Coin Flip” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Starter deck: Iron Requiem |
 | S1-218 | Roll of Fate<br>*Chaos Crown · Rare* | Tactic | 1 |  | Flip a coin. Heads: draw 2 cards. Tails: gain 2 Command. | — | Chaos Crown power: a high-risk randomness scene that shows “Roll of Fate” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
 | S1-219 | Grand Convergence<br>*Chaos Crown · Exalted* | Tactic | 3 |  | Your champions get +2 Might and +2 Guard this turn. Draw a card. | — | Chaos Crown power: a high-risk randomness scene that shows “Grand Convergence” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
 | S1-220 | Mystery Box<br>*Chaos Crown · Epic* | Tactic | 1 |  | Flip a coin. Heads: draw 2 cards. Tails: return a ★ champion from your Fallen pile to your hand. | — | Chaos Crown power: a high-risk randomness scene that shows “Mystery Box” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
 | S1-221 | Dice of the Crownfall<br>*Chaos Crown · Epic* | Tactic | 2 |  | Flip a coin. Heads: your champions get +2 Might this turn. Tails: your champions get +2 Guard this turn. | — | Chaos Crown power: a high-risk randomness scene that shows “Dice of the Crownfall” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
 | S1-222 | Crown of Chaos<br>*Chaos Crown · Exalted* | Tactic | 3 |  | Flip a coin. Heads: Scorch 3 each rival champion. Tails: draw 3 cards. | — | Chaos Crown power: a high-risk randomness scene that shows “Crown of Chaos” at work in the arena, framed by the Chaos Crown sigil (✺) in its school colour #ff5ae0. | Draft |
-| S1-223 | Crown's Favor<br>*Creation Crown · Epic* | Tactic | 2 |  | Mend 1. | — | Creation Crown power: a summons & crests scene that shows “Crown's Favor” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
-| S1-224 | Crown Dummy<br>*Creation Crown · Common* | Tactic | 1 |  | Summon a Crown Dummy. | — | Creation Crown power: a summons & crests scene that shows “Crown Dummy” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
+| S1-223 | Crown's Favor<br>*Creation Crown · Epic* | Tactic | 2 |  | Mend 1. | — | Creation Crown power: a summons & crests scene that shows “Crown's Favor” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Starter deck: Iron Requiem |
+| S1-224 | Crown Dummy<br>*Creation Crown · Common* | Tactic | 1 |  | Summon a Crown Dummy. | — | Creation Crown power: a summons & crests scene that shows “Crown Dummy” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Starter deck: Iron Requiem |
 | S1-225 | Crest of the Kingdom<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Kingdom champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of the Kingdom” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
-| S1-226 | Crest of Gears<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Gearbound champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of Gears” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
+| S1-226 | Crest of Gears<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Gearbound champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of Gears” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Starter deck: Iron Requiem |
 | S1-227 | Crest of the Stars<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Astral champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of the Stars” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
 | S1-228 | Crest of the Grove<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Verdant champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of the Grove” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
-| S1-229 | Crest of the Rift<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Riftborn champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of the Rift” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
+| S1-229 | Crest of the Rift<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Riftborn champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of the Rift” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Starter deck: Veil of Knives |
 | S1-230 | Crest of Blades<br>*Creation Crown · Rare* | Tactic | 1 |  | Your Duelist champions get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Crest of Blades” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
 | S1-231 | Summoner's Pact<br>*Creation Crown · Epic* | Tactic | 1 |  | Summon a Crownling. Your tokens get +2 Might and +2 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Summoner's Pact” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
 | S1-232 | Living Arena<br>*Creation Crown · Exalted* | Tactic | 4 |  | Summon two Treants. Your champions get +1 Guard this turn. | — | Creation Crown power: a summons & crests scene that shows “Living Arena” at work in the arena, framed by the Creation Crown sigil (✥) in its school colour #6fd8ff. | Draft |
 | S1-233 | Blood Price<br>*Void Crown · Common* | Tactic | 0 |  | Break one of your own shards. Gain 3 Command. | — | Void Crown power: a sacrifice for power scene that shows “Blood Price” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
 | S1-234 | Crimson Augury<br>*Void Crown · Rare* | Tactic | 0 |  | Break one of your own shards. Draw 2 cards. | — | Void Crown power: a sacrifice for power scene that shows “Crimson Augury” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
-| S1-235 | Dark Bargain<br>*Void Crown · Rare* | Tactic | 1 |  | Break one of your own shards. Deploy a ★ champion costing 5 or less from your hand for free. | — | Void Crown power: a sacrifice for power scene that shows “Dark Bargain” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
-| S1-236 | Soul Tax<br>*Void Crown · Rare* | Tactic | 0 |  | Break one of your own shards. Your champions get +2 Might this turn. | — | Void Crown power: a sacrifice for power scene that shows “Soul Tax” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
+| S1-235 | Dark Bargain<br>*Void Crown · Rare* | Tactic | 1 |  | Break one of your own shards. Deploy a ★ champion costing 5 or less from your hand for free. | — | Void Crown power: a sacrifice for power scene that shows “Dark Bargain” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Starter deck: Veil of Knives |
+| S1-236 | Soul Tax<br>*Void Crown · Rare* | Tactic | 0 |  | Break one of your own shards. Your champions get +2 Might this turn. | — | Void Crown power: a sacrifice for power scene that shows “Soul Tax” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Starter deck: Veil of Knives |
 | S1-237 | Sacrificial Rite<br>*Void Crown · Rare* | Tactic | 0 |  | Break one of your own shards. Ascend one of your champions for free. | — | Void Crown power: a sacrifice for power scene that shows “Sacrificial Rite” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
-| S1-238 | Void Pact<br>*Void Crown · Epic* | Tactic | 1 |  | Your champions get +3 Might and −1 Guard this turn. | — | Void Crown power: a sacrifice for power scene that shows “Void Pact” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
+| S1-238 | Void Pact<br>*Void Crown · Epic* | Tactic | 1 |  | Your champions get +3 Might and −1 Guard this turn. | — | Void Crown power: a sacrifice for power scene that shows “Void Pact” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Starter deck: Veil of Knives |
 | S1-239 | Glass Crown<br>*Void Crown · Epic* | Tactic | 1 |  | A champion gets +5 Might and −2 Guard this turn. | — | Void Crown power: a sacrifice for power scene that shows “Glass Crown” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
-| S1-240 | Abyssal Hunger<br>*Void Crown · Epic* | Scheme | 0 |  | Spring when one of your champions is attacked or blocks: break one of your own shards and Shield one of your champions. | — | Void Crown power: a sacrifice for power scene that shows “Abyssal Hunger” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
+| S1-240 | Abyssal Hunger<br>*Void Crown · Epic* | Scheme | 0 |  | Spring when one of your champions is attacked or blocks: break one of your own shards and Shield one of your champions. | — | Void Crown power: a sacrifice for power scene that shows “Abyssal Hunger” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Starter deck: Veil of Knives |
 | S1-241 | Crown of Nothing<br>*Void Crown · Exalted* | Tactic | 2 |  | Break two of your own shards. Your champions get +4 Might this turn. | — | Void Crown power: a sacrifice for power scene that shows “Crown of Nothing” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
 | S1-242 | Unmaking Pact<br>*Void Crown · Exalted* | Tactic | 1 |  | Break two of your own shards. You have two more Champion Zones for the rest of the game. | — | Void Crown power: a sacrifice for power scene that shows “Unmaking Pact” at work in the arena, framed by the Void Crown sigil (☾) in its school colour #a67cff. | Draft |
 

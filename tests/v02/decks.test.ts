@@ -1,11 +1,14 @@
 import { describe, expect, it } from 'vitest';
-import { DECKS } from '../../src/v02/content/cards';
+import { DECKS, STARTER_DECK_IDS } from '../../src/v02/content/cards';
+import { SET1_PRINTINGS } from '../../src/v02/content/printings';
+import { grantStarters, ownKey } from '../../src/v02/economy/profile';
+import type { Profile } from '../../src/v02/economy/profile';
 import { checkDeck, fromStarter, registerDeck } from '../../src/v02/economy/decks';
 import { newGame } from '../../src/v02/rules/engine';
 import { playOut } from '../../src/v02/ai/bot';
 
 describe('Deck building', () => {
-  it('all four starter decks are legal', () => {
+  it('every starter deck is legal', () => {
     for (const [id, d] of Object.entries(DECKS)) {
       const r = checkDeck(d.main, d.ascension);
       expect(r.errors, id).toEqual([]);
@@ -29,5 +32,31 @@ describe('Deck building', () => {
     const id = registerDeck(fromStarter('ember', 'test'));
     const end = playOut(newGame({ seed: 5, decks: [id, 'banner'] }));
     expect(end.phase).toBe('over');
+  });
+
+  it('the four Set 1 starters share no card (no champion, Ascension form or spell in two decks)', () => {
+    const set1 = STARTER_DECK_IDS.filter((d) => (DECKS[d].set ?? 1) === 1);
+    expect(set1).toEqual(['banner', 'ember', 'iron', 'veil']);
+    const seen = new Map<string, string>();
+    for (const d of set1) for (const id of [...DECKS[d].main.map(([c]) => c), ...DECKS[d].ascension]) {
+      expect(seen.get(id) ?? d, `${id} is in ${seen.get(id)} and ${d}`).toBe(d);
+      seen.set(id, d);
+    }
+  });
+  it('grants every Set 1 starter once, and tops up old profiles with only the new starters', () => {
+    const base = (cardId: string) => ownKey(SET1_PRINTINGS.find((p) => p.kind === 'base' && p.cardId === cardId)!.id, 'normal');
+    const blank: Profile = { v: 1, valor: 0, starstones: 0, owned: {}, packsOpened: 0, lastWinDay: null, decks: [], lastOpening: null, purchases: [] };
+    const fresh = grantStarters(blank);
+    expect(fresh.startersGranted).toEqual(['banner', 'ember', 'iron', 'veil']);
+    expect(fresh.owned[base('rowan')]).toBe(2);
+    expect(fresh.owned[base('unwritten-3')]).toBe(1);
+    expect(grantStarters(fresh)).toBe(fresh); // nothing granted twice
+    // A profile from before Iron Requiem / Veil of Knives: keeps what it has, gains only the two new decks.
+    const old: Profile = { ...blank, owned: { [base('rowan')]: 5, [base('nyx')]: 1 }, starterGranted: true };
+    const topped = grantStarters(old);
+    expect(topped.owned[base('rowan')]).toBe(5);
+    expect(topped.owned[base('nyx')]).toBe(3);
+    expect(topped.owned[base('pip')]).toBe(2);
+    expect(topped.startersGranted).toEqual(['banner', 'ember', 'iron', 'veil']);
   });
 });

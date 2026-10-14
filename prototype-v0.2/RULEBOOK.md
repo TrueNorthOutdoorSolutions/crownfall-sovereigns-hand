@@ -122,7 +122,7 @@ Take the top shard into your **hand**. It was always one of your own cards. If i
 
 ## Expansion rules: Set 1 extras and Set 2 (PROPOSED)
 
-These add new card types. They don't change anything above. The two Set 1 starter decks don't use them, so a first game can ignore this section.
+These add new card types. They don't change anything above. Banner of the Realm and Blood & Ember don't use them, so a first game with those two decks can ignore this section. Iron Requiem and Veil of Knives use three of the Set 1 extras below: **Summon and tokens** (both decks), **Coin flips** (Iron Requiem) and **Breaking your own shard** (Veil of Knives). No Set 1 starter uses Relics, Edicts, Monsters or Guardians.
 
 **Building a deck.** 30 cards, at most 2 copies of any card, at most 1 Ascendant, at most 1 **Guardian**, and only 1 copy of each **Legendary** Relic. **At most 2 champions with the same name, counting every set** (two Set 1 Brambles, two Set 2 Brambles, or one of each, never more). You also have an Ascension Pile of up to 8 cards, at most 2 of each name and star across sets (for example 2 Bramble ★★). **A champion Ascends into any form with the same name and the next star, from any set:** a Set 1 Bramble ★ can become a Set 2 Bramble ★★, then a Set 1 Bramble ★★★. If two versions are in your pile, you choose. *(Owner rule, 2026-10-11.)*
 

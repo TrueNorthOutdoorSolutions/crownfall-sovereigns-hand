@@ -4,7 +4,7 @@
 import { readFileSync, writeFileSync, rmSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { ALL_LINES, CARDS, DECKS, SPELLS, EXTRA_SPELLS, RELICS, EDICTS, RULES_VERSION } from '../../src/v02/content/cards.ts';
+import { ALL_LINES, CARDS, DECKS, SPELLS, EXTRA_SPELLS, RELICS, EDICTS, RULES_VERSION, PAPER_TESTED_DECK_IDS } from '../../src/v02/content/cards.ts';
 import { AUDIT_PROPOSED_2026_10_12 } from '../../src/v02/content/set2.ts';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -83,9 +83,11 @@ function flavourFor(cc, star, set) {
 }
 
 function status(id) {
-  const d = Object.values(DECKS).find((dk) => dk.main.some(([x]) => x === id) || dk.ascension.includes(id));
+  const [k, d] = Object.entries(DECKS).find(([, dk]) => dk.main.some(([x]) => x === id) || dk.ascension.includes(id)) ?? [];
   const audit = AUDIT_PROPOSED_2026_10_12.has(id) ? ' · PROPOSED audit change 2026-10-12 (see AUDIT_CHANGES.md)' : '';
-  return (d ? `Starter deck: ${d.name} (playtested)` : 'Draft (playable, not yet balance-tested in a deck)') + audit;
+  // Set 1 starters 3 and 4 (2026-10-14) were balanced in the AI simulator only, not at the table.
+  const how = (d?.set ?? 1) === 1 && !PAPER_TESTED_DECK_IDS.includes(k) ? 'balanced in simulation' : 'playtested';
+  return (d ? `Starter deck: ${d.name} (${how})` : 'Draft (playable, not yet balance-tested in a deck)') + audit;
 }
 
 /** Set 2 art style (approved with Bramble v4, 2026-10-11). */

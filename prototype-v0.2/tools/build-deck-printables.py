@@ -65,7 +65,17 @@ def main():
             num = int(r["No."].split("-")[1])
             cards.append(Image.open(os.path.join(SINGLES, f"{num:03d}.png")))
             asc.append((num, r["Card name"], r["Star form"], r["Cost (↑ = Ascend cost)"]))
-        run = cards + refs
+        # Tokens the deck can summon, two of each, so the deck prints complete (owner 2026-10-14).
+        token_imgs = []
+        for tid in deck.get("tokens", []):
+            r = by_id.get(tid)
+            if not r:
+                continue
+            tno = r["No."].split("-")[1]
+            path = os.path.join(EXTRAS, f"{tno} {r['Card name']}.png")
+            if os.path.exists(path):
+                token_imgs += [Image.open(path).convert("RGB").resize((bp.CARD_W, bp.CARD_H), Image.LANCZOS)] * 2
+        run = cards + token_imgs + refs
         pages = [bp.page(run[i:i + 9], label=f"{deck['name']} · page {i // 9 + 1} of {(len(run) + 8) // 9} · print at 100% (Actual size)")
                  for i in range(0, len(run), 9)]
         bp.save_pdf(pages, os.path.join(OUT, f"{name} - Cards.pdf"))
@@ -91,7 +101,8 @@ def main():
             d.text((x + 110, y), f"{num:03d}  {cname} ({len(form)}-star form)", font=font(40), fill="black")
             d.text((x + 1300, y), f"Ascend cost {cost.lstrip('↑')}", font=font(36), fill=(90, 90, 90)); y += 58
         y += 50
-        d.text((x, y), "Also print: Reference A and B (included at the end of the cards file).", font=font(36), fill=(90, 90, 90))
+        toks = [by_id[t]["Card name"] for t in deck.get("tokens", []) if t in by_id]
+        d.text((x, y), ("Tokens (2 of each, after the Ascension Pile): " + ", ".join(toks) + ". " if toks else "") + "Reference A and B are at the end of the cards file.", font=font(36), fill=(90, 90, 90))
         p.save(os.path.join(OUT, f"{name} - Decklist.pdf"), "PDF", resolution=bp.DPI)
         # The same decklist shrunk onto a 5 x 7 page.
         w5 = bp5.PAGE_W - 60

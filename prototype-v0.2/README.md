@@ -7,8 +7,8 @@ A **playable digital version** of the same rules now exists too: see `DIGITAL.md
 | File | What it is |
 | --- | --- |
 | `RULEBOOK.md` → `print/00-rulebook.pdf` | The exact rules, version 0.2-paper-1, plus a PROPOSED Expansion rules section for Relics, Edicts, Monsters, Guardians and tokens. |
-| `SETS.md` | **Start here for the two sets**: Set 1 The Shattered Crown and Set 2 Beneath the Arena, the four starter decks, balance, and what needs your approval. |
-| `DECKLISTS.md` | All four starter decks with every card's stats and text (generated). |
+| `SETS.md` | **Start here for the two sets**: Set 1 The Shattered Crown and Set 2 Beneath the Arena, the six starter decks (four in Set 1, two in Set 2), balance, and what needs your approval. |
+| `DECKLISTS.md` | All six starter decks with every card's stats and text (generated). |
 | `MASTER_CARD_LISTS.md` | Index of the per-set master lists: `MASTER_CARD_LIST_SET1.md` / `master-card-list-set1.csv` (**256 cards**) and `MASTER_CARD_LIST_SET2.md` / `master-card-list-set2.csv` (**240 cards**), with rules text, flavour, art briefs and a Variants column for alt and full arts (generated: `npm run proto:masterlist`). |
 | `print/` | The printable kit for all four starter decks (171 card faces, including Summon tokens and 4 reference cards), backs, tokens, feedback sheet (PDF plus HTML source). |
 | `PLAYTEST.md` | How to print, run sessions, and the pass gates. |

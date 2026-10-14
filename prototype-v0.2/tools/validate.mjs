@@ -1,10 +1,10 @@
-// Validation for Sovereign's Hand V0.2 — both sets, all four starter decks, print kit and digital engine
+// Validation for Sovereign's Hand V0.2 — both sets, all six starter decks, print kit and digital engine
 // (they all share src/v02/content/cards.ts).
 // Usage: npx tsx prototype-v0.2/tools/validate.mjs   (exit code 1 on any failure)
 import { readFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { ALL_LINES, SPELLS, EXTRA_SPELLS, RELICS, EDICTS, DECKS, CARDS } from '../../src/v02/content/cards.ts';
+import { ALL_LINES, SPELLS, EXTRA_SPELLS, RELICS, EDICTS, DECKS, CARDS, PAPER_TESTED_DECK_IDS } from '../../src/v02/content/cards.ts';
 import { newGame, cardsInZones } from '../../src/v02/rules/engine.ts';
 import { playOut } from '../../src/v02/ai/bot.ts';
 import { cardIndex as researchIndex } from '../research/cards.mjs';
@@ -94,19 +94,27 @@ try {
   for (const v of Object.values(m.guardianLines ?? {})) manifestLines.add(v);
 } catch { /* covered below */ }
 
-// 2. Parity: every Set 1 starter-deck card keeps the rules that were balance-tested (research/cards.mjs).
-//    Names may now be canonical Crown Power names instead of the old working names.
+// 2. Parity: every card in the two paper-tested Set 1 starters (Banner, Ember) keeps the rules that were balance-tested
+//    (research/cards.mjs). Names may now be canonical Crown Power names instead of the old working names.
+//    Set 1 starters 3 and 4 (Iron Requiem, Veil of Knives) were balanced in the AI simulator only, so they are not in this check.
 const R = researchIndex();
-const set1Decks = Object.entries(DECKS).filter(([, d]) => (d.set ?? 1) === 1);
+const set1Decks = PAPER_TESTED_DECK_IDS.map((id) => [id, DECKS[id]]);
 const inSet1Decks = new Set(set1Decks.flatMap(([, d]) => [...d.main.map(([id]) => id), ...d.ascension]));
+// No card is shared between Set 1 starter decks (owner request 2026-10-14).
+const s1Starters = Object.entries(DECKS).filter(([, d]) => (d.set ?? 1) === 1);
+const seenIn = {};
+for (const [id, d] of s1Starters) for (const c of [...d.main.map(([x]) => x), ...d.ascension]) {
+  check(!seenIn[c] || seenIn[c] === id, `decks: ${c} is in only one Set 1 starter deck (${seenIn[c] ?? id}${seenIn[c] && seenIn[c] !== id ? `, ${id}` : ''})`);
+  seenIn[c] ??= id;
+}
 const rules = (x) => ({ kind: x.kind, cost: x.cost, might: x.might, guard: x.guard, text: x.text, keywords: x.keywords ?? [], swift: !!x.swift, shardfall: !!x.shardfall, when: x.when ?? null });
 for (const id of inSet1Decks) {
   check(!!R[id], `parity: ${id} exists in the paper-tested card set`);
   if (R[id]) check(same(rules(CARDS[id]), rules(R[id])), `parity: ${id} rules identical to the paper-tested card${CARDS[id].name !== R[id].name ? ` (renamed "${R[id].name}" → "${CARDS[id].name}")` : ''}`);
 }
-check(Object.keys(R).every((id) => inSet1Decks.has(id)), 'parity: every paper-tested card is still in a Set 1 starter deck');
+check(Object.keys(R).every((id) => inSet1Decks.has(id)), 'parity: every paper-tested card is still in a paper-tested Set 1 starter deck');
 
-// 3. Deck legality (all four starter decks).
+// 3. Deck legality (every starter deck).
 for (const [id, d] of Object.entries(DECKS)) {
   const total = d.main.reduce((n, [, k]) => n + k, 0);
   check(total === 30, `deck ${id}: main deck is exactly 30 (${total})`);

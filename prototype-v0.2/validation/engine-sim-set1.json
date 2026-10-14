@@ -1,0 +1,101 @@
+{
+  "engine": "src/v02/rules/engine.ts",
+  "decks": "Set 1 starter decks",
+  "gamesPerPairing": 1000,
+  "totalGames": 6000,
+  "seeds": "20000..25999",
+  "overallWinRate": {
+    "banner": 50.4,
+    "ember": 49.5,
+    "iron": 50.8,
+    "veil": 49.4
+  },
+  "conservationFailures": 0,
+  "pairings": {
+    "banner vs ember": {
+      "bannerWinRate": 51,
+      "emberWinRate": 49,
+      "firstPlayerWinRate": 51.2,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 5.9,
+      "playersReachingStar2": 66,
+      "playersReachingStar3": 42.4,
+      "ascendsPerGame": 2.8
+    },
+    "banner vs iron": {
+      "bannerWinRate": 45.2,
+      "ironWinRate": 54.8,
+      "firstPlayerWinRate": 50.4,
+      "rounds": {
+        "median": 6,
+        "p90": 9,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 3.6,
+      "playersReachingStar2": 75,
+      "playersReachingStar3": 58.4,
+      "ascendsPerGame": 3.4
+    },
+    "banner vs veil": {
+      "bannerWinRate": 54.9,
+      "veilWinRate": 45.1,
+      "firstPlayerWinRate": 48.7,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 8.4,
+      "playersReachingStar2": 74.8,
+      "playersReachingStar3": 51.8,
+      "ascendsPerGame": 3.4
+    },
+    "ember vs iron": {
+      "emberWinRate": 50.7,
+      "ironWinRate": 49.3,
+      "firstPlayerWinRate": 49.9,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 15.4,
+      "playersReachingStar2": 73.5,
+      "playersReachingStar3": 54.2,
+      "ascendsPerGame": 3.4
+    },
+    "ember vs veil": {
+      "emberWinRate": 48.7,
+      "veilWinRate": 51.3,
+      "firstPlayerWinRate": 49.9,
+      "rounds": {
+        "median": 8,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 14.3,
+      "playersReachingStar2": 66.2,
+      "playersReachingStar3": 43.5,
+      "ascendsPerGame": 2.9
+    },
+    "iron vs veil": {
+      "ironWinRate": 48.3,
+      "veilWinRate": 51.7,
+      "firstPlayerWinRate": 47.9,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 11.1,
+      "playersReachingStar2": 75.5,
+      "playersReachingStar3": 49.9,
+      "ascendsPerGame": 3.6
+    }
+  },
+  "msPerGame": 8.1
+}

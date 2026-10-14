@@ -1,5 +1,6 @@
 // Balance run on the digital V0.2 rules engine (AI vs AI), across every pairing of the starter decks.
-// Usage: npx tsx scripts/v02-sim.ts [gamesPerPairing=1000] [--write]
+// Usage: npx tsx scripts/v02-sim.ts [gamesPerPairing=1000] [--set 1|2] [--write]
+//   --set N  only pair the starter decks of that set (e.g. the four Set 1 starters against each other).
 import { writeFileSync } from 'node:fs';
 import { cardsInZones, newGame, round } from '../src/v02/rules/engine';
 import { playOut } from '../src/v02/ai/bot';
@@ -7,7 +8,9 @@ import { DECKS, STARTER_DECK_IDS } from '../src/v02/content/cards';
 import type { DeckId } from '../src/v02/content/cards';
 
 const N = Number(process.argv[2] ?? 1000);
-const ids = STARTER_DECK_IDS as DeckId[];
+const setArg = process.argv.indexOf('--set');
+const onlySet = setArg > 0 ? Number(process.argv[setArg + 1]) : null;
+const ids = (STARTER_DECK_IDS as DeckId[]).filter((d) => onlySet === null || (DECKS[d].set ?? 1) === onlySet);
 const pct = (x: number, n: number) => Math.round((1000 * x) / n) / 10;
 const t0 = Date.now();
 let total = 0, conservationFailures = 0;
@@ -57,9 +60,9 @@ const overall = Object.fromEntries(ids.map((d) => {
   return [d, Math.round((10 * rates.reduce((x, y) => x + y, 0)) / rates.length) / 10];
 }));
 const out = {
-  engine: 'src/v02/rules/engine.ts', gamesPerPairing: N, totalGames: total, seeds: `20000..${seed - 1}`,
+  engine: 'src/v02/rules/engine.ts', decks: onlySet === null ? 'every starter deck' : `Set ${onlySet} starter decks`, gamesPerPairing: N, totalGames: total, seeds: `20000..${seed - 1}`,
   overallWinRate: overall, conservationFailures, pairings,
   msPerGame: Math.round(((Date.now() - t0) / total) * 10) / 10,
 };
 console.log(JSON.stringify(out, null, 2));
-if (process.argv.includes('--write')) writeFileSync('prototype-v0.2/validation/engine-sim.json', JSON.stringify(out, null, 2) + '\n');
+if (process.argv.includes('--write')) writeFileSync(`prototype-v0.2/validation/engine-sim${onlySet === null ? '' : `-set${onlySet}`}.json`, JSON.stringify(out, null, 2) + '\n');

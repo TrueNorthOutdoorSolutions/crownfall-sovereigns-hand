@@ -1,7 +1,7 @@
 // The player's profile: wallet (Valor / Starstones), card collection and saved decks.
 // Stored in localStorage as a development stand-in for a server account (same approach as Crownfall's commerce).
 import { useSyncExternalStore } from 'react';
-import { DECKS } from '../content/cards';
+import { DECKS, STARTER_DECK_IDS } from '../content/cards';
 import { SET1_PRINTINGS } from '../content/printings';
 import type { Printing, Rarity } from '../content/printings';
 import { PACK_PRICE } from './odds';
@@ -52,26 +52,33 @@ export interface Profile {
   lastOpening: Pack[] | null;
   /** Running record of real-money purchases (simulated in development). */
   purchases: { id: string; stones: number; price: number; at: number; simulated: boolean }[];
-  /** The Set 1 starter decks are given free to every player, once. */
+  /** The Set 1 starter decks are given free to every player, once. Old profiles only have this flag (Banner + Ember). */
   starterGranted?: boolean;
+  /** Which Set 1 starter decks have been granted, so a starter added later is granted once to existing players too. */
+  startersGranted?: string[];
   /** Campaign: Bouts cleared (first clear gives the Bout's reward). */
   campaign?: Record<string, { cleared: true; at: number }>;
 }
 
-/** Every player owns the two Set 1 starter decks (standard finish), so they can play and build from day one. */
-const STARTER_DECKS = ['banner', 'ember'];
+/** Every player owns every Set 1 starter deck (standard finish), so they can play and build from day one.
+ *  A starter added later (Iron Requiem and Veil of Knives, 2026-10-14) is added to existing profiles once; nothing is removed. */
+const STARTER_DECKS = STARTER_DECK_IDS.filter((d) => (DECKS[d].set ?? 1) === 1);
+/** The starters granted before `startersGranted` existed (profiles that only carry `starterGranted: true`). */
+const LEGACY_STARTERS = ['banner', 'ember'];
 const BASE_PRINTING: Record<string, string> = Object.fromEntries(SET1_PRINTINGS.filter((p) => p.kind === 'base').map((p) => [p.cardId, p.id]));
-function grantStarters(p: Profile): Profile {
-  if (p.starterGranted) return p;
+export function grantStarters(p: Profile): Profile {
+  const done = new Set(p.startersGranted ?? (p.starterGranted ? LEGACY_STARTERS : []));
+  const todo = STARTER_DECKS.filter((d) => !done.has(d));
+  if (!todo.length) return p;
   const owned = { ...p.owned };
-  for (const d of STARTER_DECKS) {
+  for (const d of todo) {
     const cards: [string, number][] = [...DECKS[d].main, ...DECKS[d].ascension.map((id) => [id, 1] as [string, number])];
     for (const [cardId, n] of cards) {
       const pr = BASE_PRINTING[cardId];
       if (pr) owned[ownKey(pr, 'normal')] = (owned[ownKey(pr, 'normal')] ?? 0) + n;
     }
   }
-  return { ...p, owned, starterGranted: true };
+  return { ...p, owned, starterGranted: true, startersGranted: [...done, ...todo] };
 }
 
 const KEY = 'sovereigns-hand-profile-v1';

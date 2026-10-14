@@ -176,7 +176,7 @@ describe('Crown Power mechanics', () => {
   });
 });
 
-describe('all four starter decks', () => {
+describe('every starter deck', () => {
   it('play complete AI games against each other, conserving every card', () => {
     const ids = Object.keys(DECKS);
     for (const a of ids) for (const b of ids) {

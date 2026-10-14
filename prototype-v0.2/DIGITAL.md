@@ -1,6 +1,6 @@
 # Sovereign's Hand V0.2: digital vertical slice
 
-A playable controlled experiment: you against an AI, with the four starter decks from Set 1 (The Shattered Crown) and Set 2 (Beneath the Arena).
+A playable controlled experiment: you against an AI, with the six starter decks: four from Set 1 (The Shattered Crown) and two from Set 2 (Beneath the Arena).
 It is not the collectible game. There is no online play, collection, packs, trading or purchases.
 
 ## Play it
@@ -10,7 +10,7 @@ npm ci
 npm run dev        # then open the address Vite prints
 ```
 
-- **Menu:** pick one of the four decks, then **Play vs AI**. The AI plays the other starter deck from the same set. **How to play** shows the quick rules.
+- **Menu:** pick one of the six decks, then **Play vs AI**. The AI plays another starter deck from the same set (its partner first: Banner/Ember, Iron/Veil, Vault/Brood); **Change rival** picks a different one. **How to play** shows the quick rules.
 - **Relics:** click a Relic in your hand, then click the champion to attach it to (click the Relic again to cancel). The champion shows a gold Relic badge.
 - **Edicts:** the Edict in play shows as a gold pill in the middle of the board; hover it to read it. If it allows Cycling, a **Cycle (1)** button appears in your Main step.
 - Monsters, Guardians and tokens carry a label on the board. Tokens vanish when defeated.

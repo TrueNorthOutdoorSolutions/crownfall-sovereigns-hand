@@ -255,6 +255,11 @@ a { color: var(--gold) }
 .setname { font-family: var(--num); letter-spacing: .14em; text-transform: uppercase; color: var(--crown); font-size: 13px }
 .setgroup .deckpick { min-height: 150px }
 .setgroup .dp-body p { font-size: 14px }
+/* Set 1 has four starters: narrower picks so the row fits the 1600px stage. */
+.decks.four { gap: 14px }
+.decks.four .deckpick { width: 360px }
+.decks.four .dp-art { width: 112px }
+.menu.intro .decks.four .dp-body b { font-size: 19px }
 /* ── Relics, Edicts, Monsters ── */
 .tk-relic { position: absolute; left: 6px; right: 6px; top: 46px; font-size: 10px; font-weight: 800; color: #1b1307; background: linear-gradient(90deg, #e9c46a, #c9a36b); border-radius: 3px; padding: 1px 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-shadow: 0 1px 4px rgba(0,0,0,.6) }
 .tk-family { position: absolute; left: 6px; top: 26px; font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; padding: 1px 5px; border-radius: 3px; background: #2a2236; color: #d9c6ff; border: 1px solid #6a3fa0 }

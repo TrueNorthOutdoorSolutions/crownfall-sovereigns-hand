@@ -502,7 +502,9 @@ export interface DeckDef {
 }
 
 /** The playable starter decks (campaign and saved decks are also registered in DECKS at run time). */
-export const STARTER_DECK_IDS = ['banner', 'ember', 'vault', 'brood'];
+export const STARTER_DECK_IDS = ['banner', 'ember', 'iron', 'veil', 'vault', 'brood'];
+/** The two original Set 1 starters, whose cards were paper-playtested (research/cards.mjs keeps their rules frozen). */
+export const PAPER_TESTED_DECK_IDS = ['banner', 'ember'];
 export const DECKS: Record<DeckId, DeckDef> = {
   banner: {
     name: 'Banner of the Realm', origins: 'Kingdom · Dawnforged', color: '#3d6fd8', accent: '#d9a92c',
@@ -519,6 +521,24 @@ export const DECKS: Record<DeckId, DeckDef> = {
       ['firebolt', 2], ['firestorm', 2], ['feral-howl', 2], ['return-to-fire', 2], ['flare-up', 2], ['kindling', 1],
       ['bloodscent', 2], ['ember-trap', 2], ['cinder-veil', 2]],
     ascension: ['fen-2', 'fen-3', 'ignara-2', 'ignara-3', 'pyrax-2', 'pyrax-3', 'aurex-2', 'aurex-3'],
+  },
+  // ── Set 1 starters 3 and 4 (owner request 2026-10-14; names PROPOSED). Built only from Set 1 cards that are in no other
+  //    starter deck (no card shared with Banner, Ember or each other) and balanced in the AI simulator (scripts/v02-sim.ts --set 1).
+  iron: {
+    name: 'Iron Requiem', origins: 'Gearbound · Hollow', color: '#56606e', accent: '#8fd6bd',
+    pitch: 'Siege engines and turrets hold the line while the dead keep rising. The Unwritten King is your Ascendant.',
+    main: [['pip', 2], ['grimm', 2], ['hex3', 2], ['morrow', 2], ['gearwick', 2], ['spark', 2], ['dreadmouth', 1], ['titanrho', 1], ['unwritten', 1],
+      ['crest_gearbound', 2], ['forge_masters_favor', 2], ['mirror_shard', 1], ['training_dummy', 2], ['crowns_favor', 1], ['steady_coffers', 2],
+      ['coin_flip', 1], ['studious', 2], ['last_stand', 2]],
+    ascension: ['grimm-2', 'grimm-3', 'morrow-2', 'morrow-3', 'gearwick-2', 'gearwick-3', 'unwritten-2', 'unwritten-3'],
+  },
+  veil: {
+    name: 'Veil of Knives', origins: 'Umbral · Riftborn', color: '#4b2a7a', accent: '#ff5ae0',
+    pitch: 'Strike from the shadows with Ambush and Flight, and pay in shards for power. Noctara is your Ascendant.',
+    main: [['nyx', 2], ['shade', 2], ['dax', 2], ['zyrak', 2], ['vespera', 2], ['blacktide', 1], ['veilwalker', 1], ['noctara', 1],
+      ['royal_treasury', 1], ['golden_parting', 2], ['victors_spoils', 1], ['back_doctrine', 2], ['executioner', 2], ['crest_riftborn', 2],
+      ['opening_salvo', 2], ['dark_bargain', 1], ['soul_tax', 1], ['void_pact', 1], ['abyssal_hunger', 2]],
+    ascension: ['nyx-2', 'nyx-3', 'zyrak-2', 'zyrak-3', 'vespera-2', 'vespera-3', 'noctara-2', 'noctara-3'],
   },
   // ── Set 2 starter decks (DRAFT, simulator-balanced only) ──
   vault: {

@@ -1,11 +1,11 @@
 // Balance bench: how does one deck (optionally modified) do against every other starter deck?
-// Usage: npx tsx scripts/v02-tune.ts <deckId> [gamesPerPairing=300] [variant JSON: {"swap":[["out","in",n]],"main":[...]}]
+// Usage: npx tsx scripts/v02-tune.ts <deckId> [gamesPerPairing=300] [variant JSON: {"swap":[["out","in",n]],"main":[...]}] [--same-set]
 import { DECKS, STARTER_DECK_IDS } from '../src/v02/content/cards';
 import type { DeckId } from '../src/v02/content/cards';
 import { newGame } from '../src/v02/rules/engine';
 import { playOut } from '../src/v02/ai/bot';
 
-const [deck, nArg, variantArg] = process.argv.slice(2);
+const [deck, nArg, variantArg] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const N = Number(nArg ?? 300);
 if (variantArg) {
   const v = JSON.parse(variantArg) as { swap?: [string, string, number][]; ascension?: string[] };
@@ -24,6 +24,7 @@ const rows: [string, number][] = [];
 let seed = 90000;
 for (const opp of STARTER_DECK_IDS as DeckId[]) {
   if (opp === deck || opp.startsWith('custom-')) continue;
+  if (process.argv.includes('--same-set') && (DECKS[opp].set ?? 1) !== (DECKS[deck].set ?? 1)) continue;
   let wins = 0;
   for (let k = 0; k < N; k++) {
     const decks: [DeckId, DeckId] = k % 2 ? [opp, deck] : [deck, opp];
