@@ -23,7 +23,7 @@ Flavour: “Surface fighters. Cute.”
 Crown 2: none
 Might | Guard: 5 | 5
 Footer: 043/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous stone pit fighter with taped fists. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An enormous stone pit fighter with taped fists. SCENE: low angle in a cramped torchlit tunnel below the pits: Knuckle squeezes his enormous stone body through a too-small archway into the underground fight cellar, taped fists braced on the walls, rubble cracking around his shoulders, a ring of shadowy brawlers waiting in the amber light beyond (not a sunny open arena). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-130 (130)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -41,7 +41,7 @@ Flavour: “Who’s next?”
 Crown 2: none
 Might | Guard: 8 | 7
 Footer: 130/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Championship belts and cracks of gold in his granite skin. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Championship belts and cracks of gold in his granite skin. SCENE: side view in a flooded fight cellar: Knuckle catches an incoming iron mace with one taped fist, the shockwave splashing the dark water outward in a ring, the attacker thrown off balance. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-194 (194)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -61,7 +61,7 @@ Flavour: “Kneel, or get knocked down.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 10
 Footer: 194/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A living landslide with fists like siege rams. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A living landslide with fists like siege rams. SCENE: heroic low angle in the vast Underpits: Knuckle smashes both fists down and the whole pit floor splits into glowing cracks, opponents flung back, the crowd on the cave ledges roaring under a ring of fire. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

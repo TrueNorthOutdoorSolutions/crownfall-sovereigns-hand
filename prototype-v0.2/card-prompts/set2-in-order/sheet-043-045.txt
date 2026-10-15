@@ -24,7 +24,7 @@ Flavour: “Surface fighters. Cute.”
 Crown 2: none
 Might | Guard: 5 | 5
 Footer: 043/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous stone pit fighter with taped fists. NEW pose and action, never the Set 1 pose or composition: standing in the middle of a pit arena, fists raised, challenging all comers. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An enormous stone pit fighter with taped fists. SCENE: low angle in a cramped torchlit tunnel below the pits: Knuckle squeezes his enormous stone body through a too-small archway into the underground fight cellar, taped fists braced on the walls, rubble cracking around his shoulders, a ring of shadowy brawlers waiting in the amber light beyond (not a sunny open arena). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-044 (044)
@@ -44,7 +44,7 @@ Flavour: “The eighth star awaits.”
 Crown 2: none
 Might | Guard: 6 | 4
 Footer: 044/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A silver celestial swordsman. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A silver celestial swordsman. SCENE: high angle down into a deep stone fighting pit lit by torches: Astryon descends feet-first into the pit like a falling star, cloak and silver hair streaming upward, his seven blades trailing behind him in a slow arc; cold teal shadows, one warm torch ring (no open night sky, no floating ruins). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-045 (045)
@@ -64,5 +64,5 @@ Flavour: “Court is in session.”
 Crown 2: none
 Might | Guard: 3 | 4
 Footer: 045/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A pale shadow monarch on invisible stairs. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A pale shadow monarch on invisible stairs. SCENE: over-the-shoulder view from behind Queen Vespera walking down a dark underground processional hall: her long shadow stretches ahead of her and from it new shades rise and bow, bound to her by thin threads of darkness; one cold lantern lights the far end (she is walking, NOT seated on a throne). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

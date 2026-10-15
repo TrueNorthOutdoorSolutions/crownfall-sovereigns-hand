@@ -24,7 +24,7 @@ Flavour: “Court is in session.”
 Crown 2: none
 Might | Guard: 3 | 4
 Footer: 045/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A pale shadow monarch on invisible stairs. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A pale shadow monarch on invisible stairs. SCENE: over-the-shoulder view from behind Queen Vespera walking down a dark underground processional hall: her long shadow stretches ahead of her and from it new shades rise and bow, bound to her by thin threads of darkness; one cold lantern lights the far end (she is walking, NOT seated on a throne). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-131 (131)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
@@ -43,7 +43,7 @@ Flavour: “Dismissed.”
 Crown 2: none
 Might | Guard: 6 | 7
 Footer: 131/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her train becomes a river of shadow courtiers. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her train becomes a river of shadow courtiers. SCENE: low angle in a flooded crypt: Vespera raises one hand and a dozen shades pull themselves up out of the black water on her threads, all turning toward an unseen intruder. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-198 (198)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -62,7 +62,7 @@ Flavour: “The shadows bow. So will you.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 9 | 10
 Footer: 198/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A throne of night rises behind her; her crown is an eclipse. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A throne of night rises behind her; her crown is an eclipse. SCENE: heroic wide shot of a vast underhall turned into her court: Vespera stands on a staircase of shadow above a sea of kneeling shades, every thread of darkness in the cavern gathered into her raised fist; regal and terrifying. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.

@@ -314,6 +314,21 @@ const SCENES: Record<string, [string, string, string]> = {
     'low angle at a great underground smelter: Ignara pulls a river of molten metal up out of a crucible with both hands, shaping it into a burning blade in mid-air, her armour cracked and glowing',
     'heroic wide shot of a vast forge-hall: Ignara as a towering living furnace, every forge in the cavern roaring to life at once around her as she raises both arms, rivers of molten metal lighting the chains and pillars',
   ],
+  knuckle: [
+    'low angle in a cramped torchlit tunnel below the pits: Knuckle squeezes his enormous stone body through a too-small archway into the underground fight cellar, taped fists braced on the walls, rubble cracking around his shoulders, a ring of shadowy brawlers waiting in the amber light beyond (not a sunny open arena)',
+    'side view in a flooded fight cellar: Knuckle catches an incoming iron mace with one taped fist, the shockwave splashing the dark water outward in a ring, the attacker thrown off balance',
+    'heroic low angle in the vast Underpits: Knuckle smashes both fists down and the whole pit floor splits into glowing cracks, opponents flung back, the crowd on the cave ledges roaring under a ring of fire',
+  ],
+  astryon: [
+    'high angle down into a deep stone fighting pit lit by torches: Astryon descends feet-first into the pit like a falling star, cloak and silver hair streaming upward, his seven blades trailing behind him in a slow arc; cold teal shadows, one warm torch ring (no open night sky, no floating ruins)',
+    'close side view on a narrow underground bridge: Astryon parries three attackers at once, his seven blades orbiting him as a spinning wall of steel, sparks frozen in the air',
+    'heroic wide shot of a cavern ceiling cracked open to reveal a single star: Astryon rises into the shaft of starlight with all seven blades fanned behind him like wings, the fallen Guardian below him; glorious and unstoppable',
+  ],
+  vespera: [
+    'over-the-shoulder view from behind Queen Vespera walking down a dark underground processional hall: her long shadow stretches ahead of her and from it new shades rise and bow, bound to her by thin threads of darkness; one cold lantern lights the far end (she is walking, NOT seated on a throne)',
+    'low angle in a flooded crypt: Vespera raises one hand and a dozen shades pull themselves up out of the black water on her threads, all turning toward an unseen intruder',
+    'heroic wide shot of a vast underhall turned into her court: Vespera stands on a staircase of shadow above a sea of kneeling shades, every thread of darkness in the cavern gathered into her raised fist; regal and terrifying',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

@@ -26,7 +26,7 @@ Flavour: “Another star cut down.”
 Crown 2: none
 Might | Guard: 9 | 6
 Footer: 196/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. SCENE: close side view on a narrow underground bridge: Astryon parries three attackers at once, his seven blades orbiting him as a spinning wall of steel, sparks frozen in the air. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-197 (197)
@@ -47,7 +47,7 @@ Flavour: “Seven blades. One winner.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 9
 Footer: 197/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space. NEW pose and action, never the Set 1 pose or composition: leaping at an opponent in a fighting pit, his seven blades circling him. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space. SCENE: heroic wide shot of a cavern ceiling cracked open to reveal a single star: Astryon rises into the shaft of starlight with all seven blades fanned behind him like wings, the fallen Guardian below him; glorious and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-198 (198)
@@ -67,5 +67,5 @@ Flavour: “The shadows bow. So will you.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 9 | 10
 Footer: 198/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A throne of night rises behind her; her crown is an eclipse. NEW pose and action, never the Set 1 pose or composition: seated on a shadow throne as shades kneel before her, bound to her by threads of darkness. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A throne of night rises behind her; her crown is an eclipse. SCENE: heroic wide shot of a vast underhall turned into her court: Vespera stands on a staircase of shadow above a sea of kneeling shades, every thread of darkness in the cavern gathered into her raised fist; regal and terrifying. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
