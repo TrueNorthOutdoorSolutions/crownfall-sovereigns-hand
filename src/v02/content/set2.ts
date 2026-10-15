@@ -329,6 +329,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'low angle in a flooded crypt: Vespera raises one hand and a dozen shades pull themselves up out of the black water on her threads, all turning toward an unseen intruder',
     'heroic wide shot of a vast underhall turned into her court: Vespera stands on a staircase of shadow above a sea of kneeling shades, every thread of darkness in the cavern gathered into her raised fist; regal and terrifying',
   ],
+  titanrho: [
+    'side view down a long vault tunnel: Titan Rho braces its massive tread-legs in front of a round bronze vault gate, one armoured shoulder turned into a storm of incoming crossbow bolts and fire that shatter against its plating, sparks and smoke filling the dim teal tunnel, small defenders sheltering behind its legs (not facing the camera, no open sky)',
+    'low rear three-quarter view in a collapsing deep vault: Titan Rho unfolds its cannon towers for the first time, reactor crown flaring amber, holding a fallen stone ceiling slab on its back while the defenders escape through the gate below it',
+    'heroic wide shot of the deepest vault hall: Titan Rho fully unfolded into a walking fortress, every cannon tower firing at once up a vast stone stairwell, its reactor crown blazing, the whole underground army advancing in its shadow',
+  ],
+  ladyvolt: [
+    'rear three-quarter view across a flooded black cavern: Lady Volt balances on a fallen pillar, rapier pointed far across the water as a single bolt of lightning leaps from its tip to a distant target, the bolt lighting the dripping stalactites and its reflection splitting across the dark water (not facing the camera, no castle, no open sky)',
+    'side view mid-lunge on a narrow wet walkway: Lady Volt dashes between two armoured foes, her rapier trailing a thin line of lightning that arcs from one to the other, spray kicked up from the puddles',
+    'heroic low angle in a vast flooded cathedral cavern: Lady Volt raises her rapier overhead and every pool in the cavern erupts with branching lightning toward her blade, her coat whipping in the storm, foes thrown back across the water',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

@@ -25,7 +25,7 @@ Flavour: “City status: unknown. Defending anyway.”
 Crown 2: none
 Might | Guard: 3 | 8
 Footer: 046/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An enormous ancient war machine on tread-legs. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An enormous ancient war machine on tread-legs. SCENE: side view down a long vault tunnel: Titan Rho braces its massive tread-legs in front of a round bronze vault gate, one armoured shoulder turned into a storm of incoming crossbow bolts and fire that shatter against its plating, sparks and smoke filling the dim teal tunnel, small defenders sheltering behind its legs (not facing the camera, no open sky). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-047 (047)
@@ -46,7 +46,7 @@ Flavour: “Perimeter held.”
 Crown 2: none
 Might | Guard: 6 | 10
 Footer: 047/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Fold-out cannon towers and a reactor crown. NEW pose and action, never the Set 1 pose or composition: planted in front of a vault gate, deflecting incoming fire with its body. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Fold-out cannon towers and a reactor crown. SCENE: low rear three-quarter view in a collapsing deep vault: Titan Rho unfolds its cannon towers for the first time, reactor crown flaring amber, holding a fallen stone ceiling slab on its back while the defenders escape through the gate below it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-048 (048)
@@ -66,5 +66,5 @@ Flavour: “Shall we duel?”
 Crown 2: none
 Might | Guard: 5 | 3
 Footer: 048/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An elite lightning duelist with a rapier. NEW pose and action, never the Set 1 pose or composition: striking a distant target with a bolt of lightning across a flooded cavern. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An elite lightning duelist with a rapier. SCENE: rear three-quarter view across a flooded black cavern: Lady Volt balances on a fallen pillar, rapier pointed far across the water as a single bolt of lightning leaps from its tip to a distant target, the bolt lighting the dripping stalactites and its reflection splitting across the dark water (not facing the camera, no castle, no open sky). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
