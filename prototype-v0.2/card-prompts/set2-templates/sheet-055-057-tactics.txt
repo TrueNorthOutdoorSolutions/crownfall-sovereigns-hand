@@ -1,0 +1,40 @@
+Make these 3 cards side by side, left to right, in one image. All three are TACTIC cards: copy the approved Crown Hex: War card (right-hand card of the attached 052-054 sheet) exactly for layout, frame, band, trait bar, fonts and footer. Each card has its OWN text exactly as listed. Never copy text from one card to another.
+
+References: attach (1) the approved Set 2 sheet 052-054 (Shardling, Rift Hound, Crown Hex: War), (2) the locked Spell Card Template, (3) the ORIGINAL approved Set 2 Bramble sheet 001-003 as the master style reference. Same proportions, green-vine gold border, parchment text box and fonts on all three. BOTTOM-CENTRE SET SYMBOL = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest. No Might/Guard shields on spells.
+BOTTOM EDGE: every card ends with the same dark rounded border as the Bramble card, fully visible with a little black space below it. No blue or teal line along the bottom edge, and never crop the bottom of the cards.
+Setting for all art: the vaults, tunnels, forges and sunken halls beneath the Arena, darker underground lighting, teal and violet glow, amber lantern and forge light. Style: cinematic painted illustration, like a still from an animated film; off-centre composition with strong diagonals; cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit.
+Every card: GREEN cost gem top-left; TACTIC in small caps under the name; gold ✦ Tactic symbol top-right (no stars); dark green laurel type band "TACTIC • Cast on your turn"; rules text, thin divider, italic centred flavour in curly quotes. Markdown marks formatting, not printed asterisks. Any ★ inside rules text is a small solid gold star.
+
+CARD 1 (left)
+Card number: S2-055 (055)
+Cost: 2
+Name: Crown Hex: Creation
+Trait bar: left the Creation Crown school icon (cyan cross-flower) + "Creation Crown"; right the rarity word COMMON (plain label)
+Text box: **Summon two Crownlings.**
+Flavour: “From the hex, small crowns rise.”
+Footer: 055/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a golden hex sigil glowing cyan on the stone floor of a dim vault, two small crowned creatures (fox-sized, wearing tiny golden crowns, bright curious eyes) springing up out of its light, cyan sparks rising, low angle close to the floor.
+
+CARD 2 (middle)
+Card number: S2-056 (056)
+Cost: 1
+Name: Something Stirs Beneath the Arena
+Trait bar: left empty (no school); right the rarity word COMMON (plain label)
+Text box, line by line:
+1. Return a ★ champion from your Fallen pile to your hand.
+2. **Draw a card.**
+Flavour: “Something stirs beneath the Arena.”
+Footer: 056/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a cross-section view: the Arena's sand floor at the top of the frame cracking open, and below it, in a vast dark cavern, the outline of something enormous shifting in the shadows, one huge glowing eye half-open, dust pouring down through the cracks in shafts of light.
+
+CARD 3 (right)
+Card number: S2-057 (057)
+Cost: 1
+Name: Its Treasure Is Yours
+Trait bar: left empty (no school); right the rarity word COMMON (plain label)
+Text box, line by line:
+1. Return a Relic from your Fallen pile to your hand.
+2. **Draw a card.**
+Flavour: “Its treasure is yours.”
+Footer: 057/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a fallen Guardian's great armoured chest cracked open on the floor of a deep vault, a heap of glowing relics (swords, crowns, amulets) spilling out across the stones in warm amber light, a gloved hand reaching in from the edge of the frame.
