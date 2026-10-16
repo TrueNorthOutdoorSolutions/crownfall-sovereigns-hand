@@ -523,6 +523,86 @@ def clean_gate(card):
     return Image.fromarray(np.clip(out, 0, 255).astype("uint8"))
 
 
+# Cards whose GPT frame came back with a heavier bottom border (owner 2026-10-16): 052-060.
+BORDER_FIX = {"052": "champion", "053": "champion", "054": "spell", "055": "spell", "056": "spell",
+              "057": "spell", "058": "spell", "059": "spell", "060": "spell"}
+_BREF = {}
+
+
+def _border_ref(kind):
+    """Reference card for the bottom border: Set 2 card 001 (champions/Monsters) or First Light's frame with the
+    Set 2 gateway (spells), plus the y of its text box's bottom edge."""
+    if kind not in _BREF:
+        if kind == "champion":
+            im = Image.open(os.path.join(ORIGINALS, REF_SHEET)).convert("RGB")
+            r = im.crop(_cards(im)[0])
+        else:
+            r = Image.open(os.path.join(os.path.dirname(__file__), "..", "card-template", "frame-ref-set2-spell.png")).convert("RGB")
+        _BREF[kind] = r
+    return _BREF[kind]
+
+
+def _paper(a):
+    return (a.min(axis=2) > 150) & ((a.max(axis=2) - a.min(axis=2)) < 80)
+
+
+def _box_bottom(a):
+    """Last parchment row of the text box, read in the strip between the Might shield and the gateway."""
+    h, w, _ = a.shape
+    col = _paper(a)[:, int(w * 0.30):int(w * 0.38)].mean(axis=1)
+    return max(y for y in range(int(h * 0.75), int(h * 0.95)) if col[y] > 0.5)
+
+
+def _shields(a):
+    h, w, _ = a.shape
+    R, G, B = a[..., 0], a[..., 1], a[..., 2]
+    s = ((R > 140) & (G < 90) & (B < 90)) | ((B > 150) & (R < 90) & (G < 150))
+    s[:int(h * 0.78)] = False
+    s[:, int(w * 0.30):int(w * 0.70)] = False
+    m = np.asarray(Image.fromarray((s * 255).astype("uint8")).filter(ImageFilter.MaxFilter(15))) > 0
+    for y in range(h):
+        for half in (slice(0, w // 2), slice(w // 2, w)):
+            xs = np.where(m[y, half])[0]
+            if len(xs):
+                m[y, half.start + xs.min():half.start + xs.max() + 1] = True
+    return m
+
+
+def fix_border(card, kind):
+    """Give the card the reference's bottom border (text-box corners and the band down to the footer line), lined up
+    on this card's own text-box bottom edge. Kept from the card: its text, its Might/Guard shields, its footer line."""
+    im = card.convert("RGB")
+    a = np.asarray(im).astype(float)
+    h, w, _ = a.shape
+    ref = np.asarray(_border_ref(kind).resize((w, h), Image.LANCZOS)).astype(float)
+    ai, ri = a.astype(int), ref.astype(int)
+    dy = _box_bottom(ai) - _box_bottom(ri)
+    ref = np.roll(ref, dy, axis=0)
+    ri = ref.astype(int)
+    fy = footer_row(ai, w, h) or h * 0.955
+    bb = _box_bottom(ai)
+    # the corner pieces start below this card's last line of text (never over a word)
+    pa = _paper(ai)
+    near = np.asarray(Image.fromarray((pa * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
+    ink = near & ~pa & (ai.mean(axis=2) < 140)
+    ink[:, :int(w * 0.06)] = False; ink[:, int(w * 0.94):] = False
+    rows = [y for y in range(int(h * 0.6), bb - 8) if ink[y].sum() >= 3]
+    y0 = max(bb - int(h * 0.07), (max(rows) + 5) if rows else 0)
+    y1 = int(fy - h * 0.018)
+    m = np.zeros((h, w))
+    m[_box_bottom(ai) - 6:y1] = 1.0                                   # the band itself: all from the reference
+    corner = np.zeros((h, w), bool)                                    # inside the text box: only its outer corners
+    corner[y0:_box_bottom(ai) - 6, :int(w * 0.17)] = True
+    corner[y0:_box_bottom(ai) - 6, int(w * 0.83):] = True
+    m[corner & ~(_paper(ri) & _paper(ai))] = 1.0
+    if kind == "champion":                                             # this card's own shields stay
+        keep = _shields(ai) | _shields(ri)
+        m[keep] = 0.0
+    m = np.asarray(Image.fromarray((m * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(1.2))).astype(float)[..., None] / 255
+    out = a * (1 - m) + ref * m
+    return Image.fromarray(np.clip(out, 0, 255).astype("uint8"))
+
+
 def main():
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
@@ -537,6 +617,9 @@ def main():
     for name in sorted(os.listdir(sheets)):
         if not (name.startswith("Cards ") and name.lower().endswith(".png")):
             continue
+        nums = re.findall(r"\d{3}|xxx", name.split(" ", 2)[1])
+        if len(nums) == 2 and "xxx" not in nums and int(nums[1]) - int(nums[0]) == 2:
+            nums = [nums[0], f"{int(nums[0]) + 1:03d}", nums[1]]
         orig = os.path.join(ORIGINALS, name)
         if not os.path.exists(orig):
             shutil.copy2(os.path.join(sheets, name), orig)
@@ -547,6 +630,9 @@ def main():
                 sname, si, which = STAT_PATCHES[(name, i)]
                 sim = Image.open(os.path.join(ORIGINALS, sname)).convert("RGB")
                 card = patch_stat(card, sim.crop(_cards(sim)[si]), which)
+            no = nums[i] if i < len(nums) else None
+            if no in BORDER_FIX:
+                card = fix_border(card, BORDER_FIX[no])
             im.paste(stamp_rim(clean_gate(stamp_emblem(card))), b[:2])
         if check:
             print("would stamp", name); continue
