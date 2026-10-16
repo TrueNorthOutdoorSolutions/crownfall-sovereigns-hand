@@ -1,0 +1,47 @@
+Make these 3 cards side by side, left to right, in one image. Cards 1 and 2 are TACTIC cards: copy the approved Its Treasure Is Yours card (right-hand card of the attached 055-057 sheet) exactly for layout. Card 3 is a SCHEME: same layout, but with the Scheme symbol and the deep purple Scheme band from the locked Spell Card Template. Each card has its OWN text exactly as listed. Never copy text from one card to another.
+
+References: attach (1) the approved Set 2 sheet 055-057, (2) the locked Spell Card Template, (3) the ORIGINAL approved Set 2 Bramble sheet 001-003 as the master style reference. Same proportions, green-vine gold border, parchment text box and fonts on all three. BOTTOM-CENTRE SET SYMBOL = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest. No Might/Guard shields on spells.
+BOTTOM EDGE: every card ends with the same dark rounded border as the Bramble card, fully visible with a little black space below it. No blue or teal line along the bottom edge, and never crop the bottom of the cards.
+Setting for all art: the vaults, tunnels, forges and sunken halls beneath the Arena, darker underground lighting, teal and violet glow, amber lantern and forge light. Style: cinematic painted illustration, like a still from an animated film; off-centre composition with strong diagonals; cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit.
+Every card: GREEN cost gem top-left; rules text, thin divider, italic centred flavour in curly quotes. Keyword chips with italic exact reminders only when listed. Markdown marks formatting, not printed asterisks.
+
+CARD 1 (left): TACTIC
+Card number: S2-058 (058)
+Cost: 1
+Name: The Vault Remembers, with TACTIC in small caps underneath
+Top-right: gold ✦ Tactic symbol. Type band: dark green laurel "TACTIC • Cast on your turn"
+Trait bar: left empty (no school); right the rarity word COMMON (plain label)
+Keywords: Shardfall *(If this breaks from your Crown, cast or set it for free.)*
+Text box, line by line:
+1. Shardfall *(If this breaks from your Crown, cast or set it for free.)*
+2. Return a Relic from your Fallen pile to your hand.
+Flavour: “The Vault remembers this relic.”
+Footer: 058/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: inside the great Ascension Vault, rows of stone pedestals in the dark; on one, a shattered sword re-forms piece by piece in a ring of soft teal light, the fragments drifting back together, dust hanging in the beam of a single lantern.
+
+CARD 2 (middle): TACTIC
+Card number: S2-059 (059)
+Cost: 1
+Name: The Wounded Choose First, with TACTIC in small caps underneath
+Top-right: gold ✦ Tactic symbol. Type band: dark green laurel "TACTIC • Cast on your turn"
+Trait bar: left empty (no school); right the rarity word COMMON (plain label)
+Keywords: Shardfall *(If this breaks from your Crown, cast or set it for free.)*
+Text box, line by line:
+1. Shardfall *(If this breaks from your Crown, cast or set it for free.)*
+2. If you have fewer shards than your rival, **draw 2 cards**.
+Flavour: “The Crown Draft begins. The wounded choose first.”
+Footer: 059/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a battered, bandaged Sovereign in torn armour, seen from behind, limping first through the opening doors of the Vault toward glowing relics, other Sovereigns waiting in the shadows behind; warm light spilling from the doorway across the dusty floor.
+
+CARD 3 (right): SCHEME (first Set 2 Scheme)
+Card number: S2-060 (060)
+Cost: 1
+Name: Steel Will Answer, with SCHEME in small caps underneath
+Top-right: the gold ◈ Scheme symbol (no stars)
+Type band: deep PURPLE with gold laurels: SCHEME • Set face-down for free • spring on your rival's turn
+Trait bar: left empty (no school); right the rarity word COMMON (plain label)
+Keywords: none
+Text box: Spring when a rival champion attacks: it gets **−3 Might** this turn.
+Flavour: “Steel will answer.”
+Footer: 060/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a tight wall of raised steel shields and spears in a narrow underground passage meeting a charging armoured attacker head-on, sparks bursting where blade meets shield, low side angle, dust and torchlight.
