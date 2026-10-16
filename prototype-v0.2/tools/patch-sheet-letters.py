@@ -32,6 +32,7 @@ def _load(name, file):
 bp = _load("bp", "build-printable.py")
 pr = _load("pr", "patch-rarity-letters.py")
 sm = _load("sm", "studio-mark.py")
+tc = _load("tc", "tier-chevron.py")
 
 SET_DIR = os.path.join(bp.ART, bp.SETS[1])
 SHEETS = os.path.join(SET_DIR, "Card Sheets")
@@ -82,6 +83,8 @@ def main():
         for i in cards:
             x0, y0, x1, y1 = boxes[i]
             card = sm.stamp_mark(im.crop((x0, y0, x1, y1)))  # identical studio mountain on every card
+            if nums[i] in tc.FIX:  # Aurex / Veyra Sol: gold chevron before "TIER V" like every other card
+                card = tc.fix(card)
             if i in letters:
                 card = pr.patch_image(card, todo[letters[i]])
             im.paste(card, (x0, y0))
