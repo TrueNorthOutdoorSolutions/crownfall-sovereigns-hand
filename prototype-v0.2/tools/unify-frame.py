@@ -90,11 +90,24 @@ def footer(card, ref_card):
     y0, y1, x0, x1 = 984, 1034, 16, 214
     def _al(x):
         reg = x[y0:y1, x0:x1]
-        return np.clip((reg.min(axis=2) - 110) / 70.0, 0, 1) * ((reg.max(axis=2) - reg.min(axis=2)) < 60)
+        al = np.clip((reg.min(axis=2) - 110) / 70.0, 0, 1) * ((reg.max(axis=2) - reg.min(axis=2)) < 60)
+        # drop tiny isolated specks (separator dots / colons): keep columns with at least 4 lit pixels nearby
+        lit = al > 0.4
+        cols = np.where(lit.any(axis=0))[0]
+        keep = np.zeros(al.shape[1], bool)
+        if len(cols):
+            runs, st = [], cols[0]
+            for c0, c1 in zip(cols, list(cols[1:]) + [None]):
+                if c1 is None or c1 - c0 > 2:
+                    runs.append((st, c0)); st = c1
+            for s0, s1 in runs:  # a glyph is tall (>= 10 lit rows); separator dots are not
+                if lit[:, s0:s1 + 1].any(axis=1).sum() >= 10:
+                    keep[max(0, s0 - 1):s1 + 2] = True
+        return al * keep[None, :]
     out = r.copy()
     # blank the reference's own number: the plain footer strip between its letter and the studio name, repeated
     for x in range(x0, x1):
-        out[y0:y1, x] = r[y0:y1, 168 + (x - x0) % 60]
+        out[y0:y1, x] = r[y0:y1, 182 + (x - x0) % 46]
     ca, ra = _al(c), _al(r)
     cy, ry = np.where(ca.max(axis=1) > 0.4)[0], np.where(ra.max(axis=1) > 0.4)[0]
     dy = int(round((ry.min() + ry.max()) / 2 - (cy.min() + cy.max()) / 2)) if len(cy) and len(ry) else 0
@@ -102,7 +115,7 @@ def footer(card, ref_card):
     src = np.roll(c[y0:y1, x0:x1], dy, axis=0)
     al = np.roll(ca, dy, axis=0)[..., None]
     out[y0:y1, x0:x1] = out[y0:y1, x0:x1] * (1 - al) + src * al
-    res = c.copy()
+    res = r.copy()          # the framed card; only the footer line is rebuilt
     res[y0:y1, :] = out[y0:y1, :]
     return Image.fromarray(np.clip(res, 0, 255).astype("uint8")).resize((w, h), Image.LANCZOS)
 
