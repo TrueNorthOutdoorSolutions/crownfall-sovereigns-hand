@@ -1,0 +1,32 @@
+Make these 3 cards side by side, left to right, in one image. All three are SCHEME cards: copy the approved Steel Will Answer card (right-hand card of the attached 058-060 sheet) exactly for layout, frame, purple band, ◈ symbol, trait bar, fonts and footer. Each card has its OWN text exactly as listed. Never copy text from one card to another.
+
+References: attach (1) the approved Set 2 sheet 058-060, (2) the ORIGINAL approved Set 2 Bramble sheet 001-003 as the master style reference. Same proportions, green-vine gold border, parchment text box and fonts on all three. BOTTOM-CENTRE SET SYMBOL = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. No Might/Guard shields on spells.
+BOTTOM EDGE: every card ends with the same dark rounded border as the Bramble card, fully visible with a little black space below it. No blue or teal line along the bottom edge, and never crop the bottom of the cards.
+Setting for all art: the vaults, tunnels, forges and sunken halls beneath the Arena, darker underground lighting, teal and violet glow, amber lantern and forge light. Style: cinematic painted illustration, like a still from an animated film; off-centre composition with strong diagonals; cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit.
+Every card: GREEN cost gem with 1; SCHEME in small caps under the name; gold ◈ Scheme symbol top-right (no stars); deep PURPLE laurel band "SCHEME • Set face-down for free • spring on your rival's turn"; trait bar left empty, right the rarity word COMMON (plain label); rules text, thin divider, italic centred flavour in curly quotes. Markdown marks formatting, not printed asterisks.
+
+CARD 1 (left)
+Card number: S2-061 (061)
+Name: It Cannot Be Touched
+Text box: Spring when one of your champions is attacked or blocks: **Shield** a champion you control.
+Flavour: “It cannot be touched. Wait.”
+Footer: 061/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: in a dark underground hall, a radiant winged sentinel of starlight wrapped in a shimmering golden shell of light, weapons and arrows from shadowy attackers sparking and glancing off the shell; one attacker frozen mid-swing, realising it does nothing.
+
+CARD 2 (middle)
+Card number: S2-062 (062)
+Name: One Still Stands
+Text box: Spring when one of your champions is attacked or blocks: it gets **+2 Might** and **+2 Guard** this turn.
+Flavour: “One still stands.”
+Footer: 062/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a lone battered champion seen from a low angle, standing upright with sword and shield raised amid fallen fighters in a smoky underground cavern, a single shaft of warm light falling on them, enemies closing in from the shadows.
+
+CARD 3 (right)
+Card number: S2-063 (063)
+Name: Steady, Sovereign. Not Yet.
+Text box, line by line:
+1. Spring when a rival champion attacks your Crown and is not blocked: that attack ends. No shards break.
+2. **Draw a card.**
+Flavour: “Steady, Sovereign. Not yet.”
+Footer: 063/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: over the shoulder of a Sovereign whose gloved hand is raised, palm out; in front of it a charging attacker and their weapon frozen mid-air in a faint violet shimmer, inches from a glowing crown of shards on a pedestal; dust hanging still in the air.
