@@ -417,7 +417,7 @@ def patch_stat(card, src_card, which):
     return im
 
 
-def frame_set2(card, kind):
+def frame_set2(card, kind, number=None):
     """Set 2 on the Set 1 frame (owner rule 2026-10-16). The card is cleaned first (stamp_emblem), then any flavour line
     that would touch the frame's gateway is lifted into spare parchment, then the Set 1 frame + Set 2 gateway go on."""
     import importlib.util as _u
@@ -444,7 +444,14 @@ def frame_set2(card, kind):
         lifted = _lift_text(a, w, h, int(hit.max()), int(hit.max() - gtop + 4))
         if lifted is not None:
             card = lifted
-    return uf.unify(card, kind, set_no=2)
+    out = uf.unify(card, kind, set_no=2)
+    if number is not None:
+        sp2 = _u.spec_from_file_location("tp", os.path.join(os.path.dirname(__file__), "tier-plate.py"))
+        tp = _u.module_from_spec(sp2); sp2.loader.exec_module(tp)
+        t = tp.tiers(2).get(int(number))
+        if t:
+            out = tp.apply(out, t)
+    return out
 
 
 def main():
@@ -483,7 +490,7 @@ def main():
             no = nums[i] if i < len(nums) else None
             kind = KIND.get(no)
             if kind:  # Set 1's frame with the Set 2 gateway (owner rule 2026-10-16)
-                im.paste(frame_set2(card, kind), b[:2])
+                im.paste(frame_set2(card, kind, no if no and no.isdigit() else None), b[:2])
             else:     # card types without a locked frame yet (Relics): previous treatment
                 im.paste(stamp_rim(stamp_emblem(card)), b[:2])
         if check:

@@ -177,3 +177,7 @@ Every Set 1 card 001–248 uses the exact frame of card 004 Kira Volt ★ (borde
 ## Set 2 uses the Set 1 frame (owner rule 2026-10-16)
 
 Sets 1 and 2 are Season 1 and share one frame: card 004's (champions, Monsters, Guardians) and First Light's lower corners (Tactics, Schemes, Edicts), with the Set 2 gateway + studio name in place of the Set 1 crest (frame-ref-set2-champion.png / frame-ref-set2-spell.png). tools/set2-emblem.py applies it to every Set 2 sheet from the originals (old gateway cleaned off, low flavour lines lifted clear of the gateway). Relics get it once their template is locked. Sets 3 and 4 (Season 2) will get a new frame.
+
+## Locked details on every Season 1 card (owner 2026-10-16)
+
+From card 004 on every card, Sets 1 and 2: the trait bar and its tier plate (gold chevron + "TIER I…V", plates in card-template/tier-plate-*.png; each card's own icons and words are laid on the bar, narrowed when three traits need room); the bottom centre (Set 1 shield crest / Set 2 gateway, mountain, "Northern Summit Studios") and "Art: Jerian Latawiec". Each card keeps its own number + rarity letter. Tools: unify-frame.py (frame, crest, footer, green gems) and tier-plate.py, run by patch-sheet-letters.py (Set 1) and set2-emblem.py (Set 2).
