@@ -49,44 +49,42 @@ def locate(a):
     return t, b, left + int(w * 0.6)
 
 
+_REF = None
+
+
+def _ref():
+    """Sol 151 (untouched original): its bar rims, tier-word x, and the card itself."""
+    global _REF
+    if _REF is None:
+        import os, importlib.util
+        sp = importlib.util.spec_from_file_location("ps", os.path.join(os.path.dirname(__file__), "patch-sheet-letters.py"))
+        ps = importlib.util.module_from_spec(sp); sp.loader.exec_module(ps)
+        im = Image.open(os.path.join(ps.ORIGINALS, "Cards 151-153 Sol.png")).convert("RGB")
+        c = np.asarray(im.crop(ps.card_boxes(im)[0])).astype(float)
+        _REF = (c, locate(c.astype(int)))
+    return _REF
+
+
 def fix(card, source_card=None):
-    """Turn the plain "|" before "TIER V" into the gold chevron every other card has, and darken the plate behind the
-    word like Sol's. Only the separator and the plate change; trait words and the tier word stay untouched."""
-    from PIL import ImageDraw
+    """Copy Sol's own chevron (the exact one every Set 1 card has) onto this card's bar, lined up on this card's
+    gold rims and "TIER V" word; darken the plate behind the word to Sol's tone. Trait words stay untouched."""
     im = card.convert("RGB")
     a = np.asarray(im).astype(float)
     h, w, _ = a.shape
     top, bot, lx = locate(a.astype(int))
-    mid = (top + bot) / 2
-    # the "|" separator: the most gold column between the last trait word and the tier word
-    zone = a[top + 6:bot - 5, lx - 60:lx - 4].astype(int)
-    gcol = _gold(zone).sum(axis=0)
-    sx = int(np.argmax(gcol)) + lx - 60
-    gold_px = a[top - 1:top + 2, lx:lx + 60].reshape(-1, 3).astype(int)
-    gm = _gold(gold_px[None])[0]
-    gold = tuple(int(v) for v in np.median(gold_px[gm], axis=0)) if gm.any() else (214, 168, 74)
-    # 1) remove the "|" (gold pixels only, within 3 px of it)
-    reg = a[top + 3:bot - 2, sx - 3:sx + 4]
-    g = _gold(reg.astype(int)) | (reg.max(axis=2) > 120) & ((reg.max(axis=2) - reg.min(axis=2)) > 40)
-    bg = np.median(a[top + 6:bot - 5, sx - 12:sx - 6].reshape(-1, 3), axis=0)
-    reg[g] = bg
-    # 2) darken the plate from the chevron to the bar's end, keeping white letters and gold rims
+    src, (st, sb, sl) = _ref()
+    L, R = 38, 6                                   # strip: from 38 px left of the word to 6 px left of it
+    strip = src[st - 2:sb + 3, sl - L:sl - R]
+    hgt = bot - top + 5
+    strip = np.asarray(Image.fromarray(strip.astype("uint8")).resize((L - R, hgt), Image.LANCZOS)).astype(float)
+    # darken the plate right of the chevron to Sol's plate tone (letters and rims kept)
     x_end = min(w - 2, lx + int(w * 0.24))
-    for y in range(top + 2, bot - 1):           # follow the chevron's slant so the dark plate starts right at it
-        xs = int(round(sx - 4 + 14 * (1 - abs(y - mid) / ((bot - top) / 2))))
-        row = a[y, xs:x_end]
-        keep = (row.min(axis=1) > 150) | _gold(row.astype(int)[None])[0]
-        row[~keep] *= 0.55
-    # 3) the chevron: arms start at the separator, tip 14 px to the right (as on Sol)
-    S = 4
-    x0, y0 = sx - 12, top - 2
-    W_, H_ = 36, bot - top + 5
-    big = Image.new("RGBA", (W_ * S, H_ * S), (0, 0, 0, 0))
-    d = ImageDraw.Draw(big)
-    pts = [((sx - 4 - x0) * S, (top + 1 - y0) * S), ((sx + 10 - x0) * S, (mid - y0) * S), ((sx - 4 - x0) * S, (bot - 1 - y0) * S)]
-    d.line(pts, fill=(20, 14, 6, 220), width=7 * S // 2, joint="curve")
-    d.line(pts, fill=gold + (255,), width=3 * S // 2, joint="curve")
-    small = big.resize((W_, H_), Image.LANCZOS)
-    out = Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
-    out.paste(small, (x0, y0), small)
-    return out
+    plate = a[top + 2:bot - 1, lx - R:x_end]
+    keep = (plate.min(axis=2) > 150) | _gold(plate.astype(int))
+    sol_tone = np.median(src[st + 8:sb - 6, sl - 4:sl - 1].reshape(-1, 3), axis=0)
+    plate[~keep] = plate[~keep] * 0.35 + sol_tone * 0.65
+    # paste the strip, feathered 3 px on the left so it meets this card's bar softly
+    m = np.clip(np.arange(L - R) / 3.0, 0, 1)[None, :, None]
+    reg = a[top - 2:top - 2 + hgt, lx - L:lx - R]
+    a[top - 2:top - 2 + hgt, lx - L:lx - R] = reg * (1 - m) + strip * m
+    return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
