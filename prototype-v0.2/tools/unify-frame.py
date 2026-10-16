@@ -28,7 +28,7 @@ def _beige(a):
 REF_SPELL = "170"  # First Light: the shield-free bottom corners every spell and Edict shares
 
 
-def holes(kind="champion"):
+def holes(kind="champion", set_no=1):
     """Where the card's own contents show through (255) and where the reference frame is drawn (0).
     Coordinates are for a 744 x 1039 card; holes() scales with the card."""
     m = Image.new("L", (W, H), 0)
@@ -42,16 +42,55 @@ def holes(kind="champion"):
         d.rounded_rectangle((50, 646, 696, 930), radius=10, fill=255)                         # text box
         d.polygon([(18, 864), (88, 838), (158, 864), (152, 940), (88, 992), (24, 940)], fill=255)   # Might shield
         d.polygon([(586, 864), (656, 838), (726, 864), (720, 940), (656, 992), (592, 940)], fill=255)  # Guard shield
+    elif set_no == 2:  # Set 2 spells sit ~20 px higher than Set 1's (measured on 054 / 057 / 060)
+        d.rounded_rectangle((42, 118, 702, 574), radius=16, fill=255)                         # art window
+        d.rectangle((30, 572, 714, 656), fill=255)                                            # type band + trait bar
+        d.rounded_rectangle((40, 650, 704, 932), radius=10, fill=255)                         # text box
     else:
         d.rounded_rectangle((42, 118, 702, 578), radius=16, fill=255)                         # taller art window
         d.rectangle((30, 582, 714, 676), fill=255)                                            # type band + trait bar
         d.rounded_rectangle((44, 684, 700, 934), radius=10, fill=255)                         # text box
     d.rectangle((14, 986, 730, 1032), fill=255)                                               # footer line
-    return m.filter(ImageFilter.GaussianBlur(1.5))
+    if set_no == 2:
+        d.rectangle((148, 96, 660, 120), fill=255)  # room for a two-line name's "TACTIC" / "MONSTER" label
+        d.rectangle((236, 952, 508, 1036), fill=0)  # mountain + "Northern Summit Studios" always from the reference
+    m = m.filter(ImageFilter.GaussianBlur(1.5))
+    if set_no == 2:  # the Set 2 gateway always comes from the reference frame: cut out exactly its outline
+        m = Image.fromarray(np.minimum(np.asarray(m), 255 - np.asarray(_gateway_mask())))
+    return m
 
 
-def reference(kind, size):
+_GATE = None
+
+
+def _gateway_mask():
+    """The gateway arch + steps on the Set 2 reference (non-parchment pixels around x 300-444, y 850-990), grown 3 px."""
+    global _GATE
+    if _GATE is None:
+        a = np.asarray(Image.open(os.path.join(TEMPLATES, "frame-ref-set2-champion.png")).convert("RGB").resize((W, H))).astype(int)
+        # parchment = light and only mildly tinted; the arch's gold rim is saturated, so it counts as gateway
+        beige = (a.min(axis=2) > 150) & (a.max(axis=2) - a.min(axis=2) < 75)
+        g = np.zeros((H, W), bool)
+        g[820:990, 310:434] = ~beige[820:990, 310:434]
+        # keep only the connected blob that holds the keyhole (drops stray text / divider pixels of the reference)
+        seed = np.zeros_like(g)
+        seed[905:925, 365:380] = True
+        seed &= g
+        for _ in range(300):
+            nxt = (np.asarray(Image.fromarray((seed * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0) & g
+            if (nxt == seed).all():
+                break
+            seed = nxt
+        g = seed
+        _GATE = Image.fromarray((g * 255).astype("uint8")).filter(ImageFilter.MaxFilter(13)).filter(ImageFilter.GaussianBlur(1.2))
+    return _GATE
+
+
+def reference(kind, size, set_no=1):
     """Card 004's frame; for spells and Edicts its lower part (below the art) comes from First Light, which has no shields."""
+    if set_no == 2:  # Set 1's frame with the Set 2 gateway (owner rule 2026-10-16: Set 2 uses the Set 1 frame)
+        name = "frame-ref-set2-champion.png" if kind == "champion" else "frame-ref-set2-spell.png"
+        return Image.open(os.path.join(TEMPLATES, name)).convert("RGB").resize(size, Image.LANCZOS)
     ref = Image.open(os.path.join(TEMPLATES, "frame-ref-004-champion.png")).convert("RGB").resize((W, H), Image.LANCZOS)
     if kind != "champion":
         low = Image.open(os.path.join(TEMPLATES, "frame-ref-170-spell.png")).convert("RGB").resize((W, H), Image.LANCZOS)
@@ -60,11 +99,11 @@ def reference(kind, size):
     return ref.resize(size, Image.LANCZOS)
 
 
-def unify(card, kind="champion", ref=None):
+def unify(card, kind="champion", ref=None, set_no=1):
     """card at any size; returns the same size."""
     card = card.convert("RGB")
-    ref = ref or reference(kind, card.size)
-    m = np.asarray(holes(kind).resize(card.size, Image.LANCZOS)).astype(float)[..., None] / 255
+    ref = ref or reference(kind, card.size, set_no)
+    m = np.asarray(holes(kind, set_no).resize(card.size, Image.LANCZOS)).astype(float)[..., None] / 255
     out = np.asarray(ref).astype(float) * (1 - m) + np.asarray(card).astype(float) * m
     return Image.fromarray(out.astype("uint8"))
 

@@ -173,3 +173,7 @@ Champion frame with: green cost gem; no stars, a small bronze three-claw-mark em
 ## One frame for all of Set 1 (owner rule 2026-10-16)
 
 Every Set 1 card 001–248 uses the exact frame of card 004 Kira Volt ★ (border, vines, panel edges, set crest). Spells and Edicts take the same frame with First Light's (170) shield-free lower corners. Applied by tools/unify-frame.py inside patch-sheet-letters.py, from the untouched originals in Set 1/Old; frozen references: card-template/frame-ref-004-champion.png and frame-ref-170-spell.png. Each card keeps its own gem, name, stars, art, bands, text and shields.
+
+## Set 2 uses the Set 1 frame (owner rule 2026-10-16)
+
+Sets 1 and 2 are Season 1 and share one frame: card 004's (champions, Monsters, Guardians) and First Light's lower corners (Tactics, Schemes, Edicts), with the Set 2 gateway + studio name in place of the Set 1 crest (frame-ref-set2-champion.png / frame-ref-set2-spell.png). tools/set2-emblem.py applies it to every Set 2 sheet from the originals (old gateway cleaned off, low flavour lines lifted clear of the gateway). Relics get it once their template is locked. Sets 3 and 4 (Season 2) will get a new frame.
