@@ -327,6 +327,53 @@ def stamp_emblem(card, _lifted=False):
     return im
 
 
+_RIM = None
+
+
+def _rim():
+    """Card 001's bottom rim: every row below its footer text, down to the black sheet background."""
+    global _RIM
+    if _RIM is None:
+        src = os.path.join(ORIGINALS, REF_SHEET)
+        if not os.path.exists(src):
+            src = os.path.join(SET2, "Card Sheets", REF_SHEET)
+        im = Image.open(src).convert("RGB")
+        x0, y0, x1, y1 = _cards(im)[0]
+        a = np.asarray(im).astype(int)
+        card = a[y0:y1, x0:x1]
+        h, w, _ = card.shape
+        fy = footer_row(card, w, h)
+        top = int(round(fy + h * 0.013))
+        strip = a[y0 + top:min(a.shape[0], y1 + 6), x0:x1]  # a few rows of black below the card too
+        _RIM = (Image.fromarray(strip.astype("uint8")), top / h, w)
+    return _RIM
+
+
+def stamp_rim(card):
+    """Replace the bottom rim (below the footer text) with card 001's, so every card ends the same way:
+    rounded corners, dark border, no stray teal line (owner request 2026-10-16)."""
+    im = card.convert("RGB").copy()
+    w, h = im.size
+    arr = np.asarray(im).astype(int)
+    fy = footer_row(arr, w, h) or h * 0.955
+    strip, _, rw = _rim()
+    s = w / rw
+    st = strip.resize((w, max(1, round(strip.height * s))), Image.LANCZOS)
+    top = int(round(fy + h * 0.013))
+    out = arr.copy()
+    out[top:] = 0  # sheet background below the card
+    n = min(st.height, h - top)
+    out[top:top + n] = np.asarray(st).astype(int)[:n]
+    # blend the first rows into the card's own footer band so no seam shows
+    k = 4
+    for i in range(k):
+        t = (i + 1) / (k + 1)
+        r = top + i
+        if r < h:
+            out[r] = arr[r] * (1 - t) + out[r] * t
+    return Image.fromarray(out.astype("uint8"))
+
+
 def main():
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
@@ -346,7 +393,7 @@ def main():
             shutil.copy2(os.path.join(sheets, name), orig)
         im = Image.open(orig).convert("RGB")
         for b in _cards(im):
-            im.paste(stamp_emblem(im.crop(b)), b[:2])
+            im.paste(stamp_rim(stamp_emblem(im.crop(b))), b[:2])
         if check:
             print("would stamp", name); continue
         dest = os.path.join(sheets, name)
