@@ -374,6 +374,45 @@ def stamp_rim(card):
     return Image.fromarray(out.astype("uint8"))
 
 
+# Stat changes made after a card was drawn (owner decisions). (sheet, card index) -> (source sheet, card index, which shield)
+# The whole shield is taken from a finished card that already shows the new number, so the art style matches exactly.
+STAT_PATCHES = {
+    # 2026-10-16: Crystal Mite 1/2 -> 1/3 ("a tad tougher"; sim: Guardians' Brood 51.4% -> 53.1%). Guard 3 from Lady Volt 048.
+    ("Cards 049-051 Vessimer ATLAS-Omega and Crystal Mite.png", 2): ("Cards 046-048 Titan Rho and Lady Volt.png", 2, "guard"),
+}
+
+
+def _shield_box(a, w, h, which):
+    """Bounding box of the Might (red, bottom-left) or Guard (blue, bottom-right) shield body."""
+    R, G, B = a[..., 0], a[..., 1], a[..., 2]
+    m = ((R > 140) & (G < 90) & (B < 90)) if which == "might" else ((B > 150) & (R < 90) & (G < 150))
+    m[:int(h * 0.80)] = False
+    if which == "might":
+        m[:, int(w * 0.30):] = False
+    else:
+        m[:, :int(w * 0.70)] = False
+    ys, xs = np.where(m)
+    return xs.min(), ys.min(), xs.max(), ys.max()
+
+
+def patch_stat(card, src_card, which):
+    """Paste src_card's whole Might/Guard shield (with its gold rim) over card's, centred on card's shield."""
+    im = card.convert("RGB").copy()
+    w, h = im.size
+    src = src_card.convert("RGB").resize((w, round(src_card.height * w / src_card.width)), Image.LANCZOS)
+    a, b = np.asarray(im).astype(int), np.asarray(src).astype(int)
+    tx0, ty0, tx1, ty1 = _shield_box(a, w, h, which)
+    sx0, sy0, sx1, sy1 = _shield_box(b, w, src.height, which)
+    pad = int(w * 0.03)
+    piece = src.crop((sx0 - pad, sy0 - pad, sx1 + pad, sy1 + pad))
+    mask = Image.new("L", piece.size, 0)
+    ImageDraw.Draw(mask).ellipse((2, 2, piece.width - 3, piece.height - 3), fill=255)
+    mask = mask.filter(ImageFilter.GaussianBlur(3))
+    cx, cy = (tx0 + tx1) / 2 - (sx1 - sx0) / 2 - pad, (ty0 + ty1) / 2 - (sy1 - sy0) / 2 - pad
+    im.paste(piece, (round(cx), round(cy)), mask)
+    return im
+
+
 def main():
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
@@ -392,8 +431,13 @@ def main():
         if not os.path.exists(orig):
             shutil.copy2(os.path.join(sheets, name), orig)
         im = Image.open(orig).convert("RGB")
-        for b in _cards(im):
-            im.paste(stamp_rim(stamp_emblem(im.crop(b))), b[:2])
+        for i, b in enumerate(_cards(im)):
+            card = im.crop(b)
+            if (name, i) in STAT_PATCHES:
+                sname, si, which = STAT_PATCHES[(name, i)]
+                sim = Image.open(os.path.join(ORIGINALS, sname)).convert("RGB")
+                card = patch_stat(card, sim.crop(_cards(sim)[si]), which)
+            im.paste(stamp_rim(stamp_emblem(card)), b[:2])
         if check:
             print("would stamp", name); continue
         dest = os.path.join(sheets, name)

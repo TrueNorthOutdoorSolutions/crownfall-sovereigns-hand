@@ -754,7 +754,7 @@ export const SET2_LINES: ChampionLine[] = [
     f(3, 14, 13, ['Ascendant', 'Charge', 'Flight', 'Ambush'], 'Ascend: Ready Crownless. Your other champions get +2 Might this turn. Attack: Scorch 3 the defender.', { ascend: [readySelf, { op: 'buffOthers', might: 2 }], attack: [scDef(3)] })),
 
   // ───────────────────────────── Monsters (with Loot) ─────────────────────────────
-  monster('mite', 'Crystal Mite', 1, 1, 2, [], 'When Crystal Mite is defeated, its rival draws a card.', { defeated: [draw(1, 'rival')], rarity: 'common' }),
+  monster('mite', 'Crystal Mite', 1, 1, 3, [], 'When Crystal Mite is defeated, its rival draws a card.', { defeated: [draw(1, 'rival')], rarity: 'common' }),
   monster('shardling', 'Shardling', 1, 2, 1, [], 'When Shardling is defeated, its rival gains 1 Command.', { defeated: [cmd(1, 'rival')], rarity: 'common' }),
   monster('hound', 'Rift Hound', 2, 2, 2, ['Charge'], 'When Rift Hound is defeated, its rival draws a card.', { defeated: [draw(1, 'rival')], rarity: 'common' }),
   monster('alpha', 'Rift Alpha', 3, 3, 3, ['Charge'], 'Your other Monsters have +1 Might. When Rift Alpha is defeated, its rival draws a card.',

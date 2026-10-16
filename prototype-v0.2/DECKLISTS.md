@@ -204,7 +204,7 @@ Flood the Arena with Monsters and Void Spiders, then raise the fallen. The Unwri
 
 | # | Card | Type | Cost | Might / Guard | Text |
 | --- | --- | --- | --- | --- | --- |
-| 2 | Crystal Mite — Monster | Monster | 1 | 1 / 2 | When Crystal Mite is defeated, its rival draws a card. |
+| 2 | Crystal Mite — Monster | Monster | 1 | 1 / 3 | When Crystal Mite is defeated, its rival draws a card. |
 | 2 | Rift Hound — Monster | Monster | 2 | 2 / 2 | Charge When Rift Hound is defeated, its rival draws a card. |
 | 2 | Rift Alpha — Monster | Monster | 3 | 3 / 3 | Charge Your other Monsters have +1 Might. When Rift Alpha is defeated, its rival draws a card. |
 | 1 | Shardling — Monster | Monster | 1 | 2 / 1 | When Shardling is defeated, its rival gains 1 Command. |

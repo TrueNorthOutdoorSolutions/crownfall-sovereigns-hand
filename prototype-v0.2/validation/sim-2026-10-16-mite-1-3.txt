@@ -1,0 +1,231 @@
+npm notice run crownfall-sovereigns-hand@0.2.0 npx
+npm notice run tsx scripts/v02-sim.ts 1000
+{
+  "engine": "src/v02/rules/engine.ts",
+  "decks": "every starter deck",
+  "gamesPerPairing": 1000,
+  "totalGames": 15000,
+  "seeds": "20000..34999",
+  "overallWinRate": {
+    "banner": 47.2,
+    "ember": 52,
+    "iron": 49.7,
+    "veil": 52,
+    "vault": 46.1,
+    "brood": 53.1
+  },
+  "conservationFailures": 0,
+  "pairings": {
+    "banner vs ember": {
+      "bannerWinRate": 51,
+      "emberWinRate": 49,
+      "firstPlayerWinRate": 51.2,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 5.9,
+      "playersReachingStar2": 66,
+      "playersReachingStar3": 42.4,
+      "ascendsPerGame": 2.8
+    },
+    "banner vs iron": {
+      "bannerWinRate": 45.2,
+      "ironWinRate": 54.8,
+      "firstPlayerWinRate": 50.4,
+      "rounds": {
+        "median": 6,
+        "p90": 9,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 3.6,
+      "playersReachingStar2": 75,
+      "playersReachingStar3": 58.4,
+      "ascendsPerGame": 3.4
+    },
+    "banner vs veil": {
+      "bannerWinRate": 54.9,
+      "veilWinRate": 45.1,
+      "firstPlayerWinRate": 48.7,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 8.4,
+      "playersReachingStar2": 74.8,
+      "playersReachingStar3": 51.8,
+      "ascendsPerGame": 3.4
+    },
+    "banner vs vault": {
+      "bannerWinRate": 45.8,
+      "vaultWinRate": 54.2,
+      "firstPlayerWinRate": 51.8,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 11
+      },
+      "endedByRound10OrDeckOut": 8.2,
+      "playersReachingStar2": 67.3,
+      "playersReachingStar3": 43.7,
+      "ascendsPerGame": 2.9
+    },
+    "banner vs brood": {
+      "bannerWinRate": 39.1,
+      "broodWinRate": 60.9,
+      "firstPlayerWinRate": 48.5,
+      "rounds": {
+        "median": 6,
+        "p90": 9,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 4,
+      "playersReachingStar2": 57.7,
+      "playersReachingStar3": 37.7,
+      "ascendsPerGame": 2.4
+    },
+    "ember vs iron": {
+      "emberWinRate": 51.7,
+      "ironWinRate": 48.3,
+      "firstPlayerWinRate": 48.3,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 17,
+      "playersReachingStar2": 71.5,
+      "playersReachingStar3": 52.5,
+      "ascendsPerGame": 3.2
+    },
+    "ember vs veil": {
+      "emberWinRate": 49.1,
+      "veilWinRate": 50.9,
+      "firstPlayerWinRate": 54.1,
+      "rounds": {
+        "median": 8,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 15.7,
+      "playersReachingStar2": 65,
+      "playersReachingStar3": 42.6,
+      "ascendsPerGame": 2.9
+    },
+    "ember vs vault": {
+      "emberWinRate": 59.2,
+      "vaultWinRate": 40.8,
+      "firstPlayerWinRate": 49.2,
+      "rounds": {
+        "median": 9,
+        "p90": 11,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 20.6,
+      "playersReachingStar2": 63.9,
+      "playersReachingStar3": 40.2,
+      "ascendsPerGame": 2.7
+    },
+    "ember vs brood": {
+      "emberWinRate": 51.2,
+      "broodWinRate": 48.8,
+      "firstPlayerWinRate": 51.4,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 10.7,
+      "playersReachingStar2": 54.7,
+      "playersReachingStar3": 33.6,
+      "ascendsPerGame": 2.1
+    },
+    "iron vs veil": {
+      "ironWinRate": 46.8,
+      "veilWinRate": 53.2,
+      "firstPlayerWinRate": 47.6,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 10.3,
+      "playersReachingStar2": 76.4,
+      "playersReachingStar3": 52.3,
+      "ascendsPerGame": 3.7
+    },
+    "iron vs vault": {
+      "ironWinRate": 51.7,
+      "vaultWinRate": 48.3,
+      "firstPlayerWinRate": 46.3,
+      "rounds": {
+        "median": 8,
+        "p90": 11,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 20.1,
+      "playersReachingStar2": 70.6,
+      "playersReachingStar3": 49.3,
+      "ascendsPerGame": 3.2
+    },
+    "iron vs brood": {
+      "ironWinRate": 46.7,
+      "broodWinRate": 53.3,
+      "firstPlayerWinRate": 50.1,
+      "rounds": {
+        "median": 6,
+        "p90": 9,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 4.4,
+      "playersReachingStar2": 61.8,
+      "playersReachingStar3": 44.2,
+      "ascendsPerGame": 2.5
+    },
+    "veil vs vault": {
+      "veilWinRate": 59.6,
+      "vaultWinRate": 40.4,
+      "firstPlayerWinRate": 47,
+      "rounds": {
+        "median": 8,
+        "p90": 11,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 17.9,
+      "playersReachingStar2": 62.7,
+      "playersReachingStar3": 41.4,
+      "ascendsPerGame": 2.8
+    },
+    "veil vs brood": {
+      "veilWinRate": 51,
+      "broodWinRate": 49,
+      "firstPlayerWinRate": 49.2,
+      "rounds": {
+        "median": 7,
+        "p90": 10,
+        "max": 12
+      },
+      "endedByRound10OrDeckOut": 11.7,
+      "playersReachingStar2": 65.1,
+      "playersReachingStar3": 41.2,
+      "ascendsPerGame": 2.9
+    },
+    "vault vs brood": {
+      "vaultWinRate": 46.7,
+      "broodWinRate": 53.3,
+      "firstPlayerWinRate": 51.3,
+      "rounds": {
+        "median": 8,
+        "p90": 10,
+        "max": 13
+      },
+      "endedByRound10OrDeckOut": 12.2,
+      "playersReachingStar2": 61.3,
+      "playersReachingStar3": 36,
+      "ascendsPerGame": 2.4
+    }
+  },
+  "msPerGame": 7.4
+}

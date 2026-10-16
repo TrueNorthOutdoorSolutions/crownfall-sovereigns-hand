@@ -511,7 +511,7 @@ Rules version 0.2-paper-1. Generated from the game's card data and Crownfall com
 
 | No. | Card | Type | Cost | Stats | Rules text | Flavour | Art brief | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S2-051 | Crystal Mite | Monster | 1 | 1 / 2 | When Crystal Mite is defeated, its rival draws a card. | — | A small crystal-backed creature skittering out of a cracked arena wall, glowing shards on its back. | Starter deck: Guardians' Brood |
+| S2-051 | Crystal Mite | Monster | 1 | 1 / 3 | When Crystal Mite is defeated, its rival draws a card. | — | A small crystal-backed creature skittering out of a cracked arena wall, glowing shards on its back. | Starter deck: Guardians' Brood |
 | S2-052 | Shardling | Monster | 1 | 2 / 1 | When Shardling is defeated, its rival gains 1 Command. | — | A jagged little shard creature hopping across broken crown fragments. | Starter deck: Guardians' Brood |
 | S2-053 | Rift Hound | Monster | 2 | 2 / 2 | **Charge** · When Rift Hound is defeated, its rival draws a card. | — | A lean hound with rift-light leaking from its eyes, bursting through a tear in the air. | Starter deck: Guardians' Brood |
 | S2-147 | Rift Alpha | Monster | 3 | 3 / 3 | **Charge** · Your other Monsters have +1 Might. When Rift Alpha is defeated, its rival draws a card. | — | The biggest Rift Hound at the head of a pack, rift-light streaming from its jaws. | Starter deck: Guardians' Brood |
