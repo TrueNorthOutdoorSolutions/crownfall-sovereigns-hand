@@ -1,0 +1,49 @@
+Make these 3 cards side by side, left to right, in one image. Cards 1 and 2 are MONSTER cards: copy the approved Crystal Mite card (right-hand card of the attached 049-051 sheet) exactly for layout. Card 3 is a TACTIC: copy the attached locked Spell Card Template exactly for layout, but with the Set 2 symbol. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: attach (1) the approved Set 2 sheet 049-051 (Vessimer, ATLAS-Ω, Crystal Mite), (2) the locked Spell Card Template, (3) the approved Set 2 Bramble sheet for the Set 2 frame and art style. Same proportions, green-vine gold border, parchment text box, fonts and footer on all three. BOTTOM-CENTRE SET SYMBOL = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest. Setting for all art: the vaults, tunnels, forges and sunken halls beneath the Arena, darker underground lighting, teal and violet glow, amber lantern and forge light. Style: cinematic painted illustration, like a still from an animated film; off-centre composition with strong diagonals; cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit.
+Markdown marks formatting, not printed asterisks. Keyword chips with italic exact reminders only when listed.
+
+CARD 1 (left): MONSTER
+Card number: S2-052 (052)
+Top-left: GREEN gem with the cost 1
+Name: Shardling, with MONSTER in small caps underneath (no title)
+Top-right: the small bronze three-claw-mark emblem (no stars)
+Band under the art: dark RUST-RED with gold laurels: MONSTER • Its defeat rewards your rival
+Trait bar: left "Arena Monster", right rust-red "MONSTER" label
+Keywords: none
+Text box: When Shardling is defeated, its rival **gains 1 Command**.
+Thin divider, NO flavour text
+Might | Guard: 2 | 1
+Footer: 052/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a jagged little creature made of broken golden crown shards, the size of a fox, hopping across a heap of shattered crown fragments in a dim vault, sparks glinting off its sharp edges, side view mid-hop, one warm lantern behind. Cute-but-dangerous, clearly a small common creature (NOT crystal, NOT teal like the Crystal Mite).
+
+CARD 2 (middle): MONSTER
+Card number: S2-053 (053)
+Top-left: GREEN gem with the cost 2
+Name: Rift Hound, with MONSTER in small caps underneath (no title)
+Top-right: the small bronze three-claw-mark emblem (no stars)
+Band under the art: dark RUST-RED with gold laurels: MONSTER • Its defeat rewards your rival
+Trait bar: left "Arena Monster", right rust-red "MONSTER" label
+Keywords: Charge *(Can attack the turn it arrives.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. When Rift Hound is defeated, its rival **draws a card**.
+Thin divider, NO flavour text
+Might | Guard: 2 | 2
+Footer: 053/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a lean, wolf-sized hound with violet rift-light leaking from its eyes and the cracks in its hide, bursting out of a glowing violet tear in the air of a dark tunnel, front paws first, low three-quarter angle, debris flying; fast and hungry.
+
+CARD 3 (right): TACTIC (first Set 2 spell)
+Card number: S2-054 (054)
+Top-left: GREEN gem with the cost 2
+Name: Crown Hex: War, with TACTIC in small caps underneath
+Top-right: the gold ✦ Tactic symbol (no stars)
+Art: TALLER than champion art (no Might/Guard shields on spells)
+Type band: dark green with gold laurels: TACTIC • Cast on your turn
+Trait bar: left the War Crown school icon (red sword) + "War Crown"; right the rarity word COMMON (plain label)
+Keywords: none
+Text box: Your champions get **+2 Might** this turn.
+Thin divider, then italic centred flavour: “When the hex burns red, the whole line charges.”
+No Might/Guard shields
+Footer: 054/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a huge golden hex sigil blazing red on the stone floor of an underground war hall, a line of armoured fighters seen from behind charging across it, red light rising up their armour and weapons, dust kicked up, wide low angle.
