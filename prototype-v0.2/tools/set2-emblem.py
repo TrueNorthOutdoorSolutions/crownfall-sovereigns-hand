@@ -413,6 +413,116 @@ def patch_stat(card, src_card, which):
     return im
 
 
+_REFCARD = None
+
+
+def _refcard():
+    """Card 001 (untouched original) as an array, with its gateway measurements."""
+    global _REFCARD
+    if _REFCARD is None:
+        src = os.path.join(ORIGINALS, REF_SHEET)
+        im = Image.open(src).convert("RGB")
+        c = np.asarray(im.crop(_cards(im)[0])).astype(float)
+        h, w, _ = c.shape
+        kx, _ = keyhole(c.astype(int), w, h)
+        b = _beige(c.astype(int))
+        cols = slice(int(kx - w * 0.03), int(kx + w * 0.03))
+        arch_top = next(y for y in range(int(h * 0.80), h) if (~b[y, cols]).mean() > 0.3)
+        side = slice(int(kx - w * 0.10), int(kx - w * 0.07))
+        band_y = next(y for y in range(arch_top, h) if (~b[y, side]).mean() > 0.8)
+        fy = footer_row(c.astype(int), w, h)
+        _REFCARD = (c, kx, arch_top, band_y, fy)
+    return _REFCARD
+
+
+def clean_gate(card):
+    """Make the gateway area identical to card 001 (owner 2026-10-16: clean, no overlaps, no colour boost, no doubles).
+    Above the dark band: the card's own parchment colour row by row, with only 001's arch on it (old arches gone);
+    flavour-text rows keep their letters. From the band down to the studio name: 001's pixels, feathered at the sides."""
+    im = card.convert("RGB")
+    a = np.asarray(im).astype(float)
+    h, w, _ = a.shape
+    c, kx, at, by, rfy = _refcard()
+    rh, rw, _ = c.shape
+    s = w / rw
+    fy = footer_row(a.astype(int), w, h) or h * 0.955
+    # same placement rule as stamp_emblem: 001's keyhole x position, this card's footer line
+    ox = 0.0   # ref x -> card x: x * s + ox
+    oy = fy - rfy * s
+    ref = np.asarray(Image.fromarray(c.astype("uint8")).resize((round(rw * s), round(rh * s)), Image.LANCZOS)).astype(float)
+    def R(x, y):
+        return ref[min(ref.shape[0] - 1, max(0, int(round(y)))), min(ref.shape[1] - 1, max(0, int(round(x))))]
+    half = rw * 0.11
+    X0, X1 = int(round((kx - half) * s + ox)), int(round((kx + half) * s + ox))
+    Y0 = int(round((at - rh * 0.035) * s + oy))
+    YB = int(round(by * s + oy))
+    YE = int(round((rfy - rh * 0.016) * s + oy))
+    # reference crop aligned to the card
+    ry0 = int(round((Y0 - oy) / s * s))
+    def ref_rows(y0, y1):
+        r0, r1 = int(round(y0 - oy)), int(round(y1 - oy))
+        return ref[max(0, r0):r1, max(0, X0):X1]
+    up_ref = ref_rows(Y0, YB)
+    ui = up_ref.astype(int)
+    rb = (ui.min(axis=2) > 150) & ((ui.max(axis=2) - ui.min(axis=2)) < 80)
+    # 001's arch only: the non-parchment blob connected to the arch's centre column (its flavour text is left out)
+    arch = ~rb
+    seed = np.zeros_like(arch)
+    cx = int(round(kx * s + ox)) - X0
+    seed[-3:, max(0, cx - 3):cx + 3] = True
+    seed &= arch
+    for _ in range(400):
+        nxt = (np.asarray(Image.fromarray((seed * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0) & arch
+        if (nxt == seed).all():
+            break
+        seed = nxt
+    arch = np.asarray(Image.fromarray((seed * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(0.6))).astype(float) / 255
+    arch_top_i = int(np.where(seed.any(axis=1))[0].min()) if seed.any() else 0
+    acols = np.where(seed.any(axis=0))[0]
+    near = np.zeros(X1 - X0, bool)
+    if len(acols):
+        near[max(0, acols.min() - 10):acols.max() + 11] = True
+    far = ~near
+    ai = a.astype(int)
+    tb = (ai.min(axis=2) > 150) & ((ai.max(axis=2) - ai.min(axis=2)) < 80)   # any light paper tone
+    ink = (a.mean(axis=2) < 130) & ((a.max(axis=2) - a.min(axis=2)) < 70)
+    out = a.copy()
+    lx0, lx1 = max(0, X0 - int(w * 0.10)), X0
+    rx0, rx1 = X1, min(w, X1 + int(w * 0.10))
+    # where this card's own band line starts (just beside the arch): never paint paper over it
+    probe = np.concatenate([np.arange(X0, X0 + 14), np.arange(X1 - 14, X1)])
+    ystart = Y0 + (int(np.where(seed.any(axis=1))[0].min()) if seed.any() else 0) + 8
+    nonp = (~tb[:, probe]).mean(axis=1) > 0.6
+    ybc = next((y for y in range(ystart, YB + 8) if nonp[y] and nonp[y + 1] and nonp[y + 2]), YB)
+    for i, y in enumerate(range(Y0, YB)):
+        if i >= up_ref.shape[0]:
+            break
+        side = np.concatenate([a[y, lx0:lx1][tb[y, lx0:lx1]], a[y, rx0:rx1][tb[y, rx0:rx1]]])
+        paper = np.median(side, axis=0) if len(side) else np.median(a[y, X0:X1], axis=0)
+        row = a[y, X0:X1].copy()
+        ink_r = ink[y, X0:X1]
+        text_line = (ink[y, lx0:lx1].any() and ink[y, rx0:rx1].any()) or ink_r[far].sum() >= 2
+        letters = ink_r if text_line else np.zeros_like(ink_r)
+        # leftovers of the old gateway: anything not paper, plus off-tone paper (old glow) near the arch
+        off = np.abs(row - paper).max(axis=1) > 22
+        fix = (~tb[y, X0:X1] | (off & near)) & ~letters
+        if y >= ybc - 6 and len(acols):
+            # at the band line: the card's own line is carried straight in to the arch (old wider arch bases gone)
+            fix[:] = False
+            l0, r0 = max(0, acols.min() - 18), min(X1 - X0 - 1, acols.max() + 18)
+            row[l0:acols.min() + 2] = row[l0]
+            row[acols.max() - 2:r0 + 1] = row[r0]
+        row[fix] = paper
+        m = arch[i, :X1 - X0, None]
+        out[y, X0:X1] = row * (1 - m) + up_ref[i, :X1 - X0] * m
+    low = ref_rows(YB, YE)
+    n = min(low.shape[0], YE - YB)
+    fe = np.clip(np.minimum(np.arange(X1 - X0), np.arange(X1 - X0)[::-1]) / 12.0, 0, 1)[None, :, None]
+    out[YB:YB + n, X0:X1] = a[YB:YB + n, X0:X1] * (1 - fe) + low[:n, :X1 - X0] * fe
+    # soften the top/left/right edge of the repainted paper
+    return Image.fromarray(np.clip(out, 0, 255).astype("uint8"))
+
+
 def main():
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
@@ -437,7 +547,7 @@ def main():
                 sname, si, which = STAT_PATCHES[(name, i)]
                 sim = Image.open(os.path.join(ORIGINALS, sname)).convert("RGB")
                 card = patch_stat(card, sim.crop(_cards(sim)[si]), which)
-            im.paste(stamp_rim(stamp_emblem(card)), b[:2])
+            im.paste(stamp_rim(clean_gate(stamp_emblem(card))), b[:2])
         if check:
             print("would stamp", name); continue
         dest = os.path.join(sheets, name)
