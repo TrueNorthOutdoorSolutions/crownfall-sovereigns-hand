@@ -51,7 +51,7 @@ Flavour: “Vault sealed. Threat denied.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 15
 Footer: 257/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A titan of the last war: a sun burns in its chest. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A titan of the last war: a sun burns in its chest. SCENE: heroic low angle in the deepest vault: ATLAS-Ω stands fully upright and blazing, its chest opening like a vault door to reveal a blinding golden core, every vault seal in the hall locking shut around it in rings of light. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-258 (258)

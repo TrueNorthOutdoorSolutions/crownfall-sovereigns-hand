@@ -339,6 +339,16 @@ const SCENES: Record<string, [string, string, string]> = {
     'side view mid-lunge on a narrow wet walkway: Lady Volt dashes between two armoured foes, her rapier trailing a thin line of lightning that arcs from one to the other, spray kicked up from the puddles',
     'heroic low angle in a vast flooded cathedral cavern: Lady Volt raises her rapier overhead and every pool in the cavern erupts with branching lightning toward her blade, her coat whipping in the storm, foes thrown back across the water',
   ],
+  vessimer: [
+    'side view in a flooded underground vault: Vessimer kneels on a half-sunken stone ledge, pouring a thin stream of glowing green tincture onto a corroded relic pulled from the dark water, the rust peeling away into fresh gold where the liquid touches it, his lantern hung on a hook above (not facing the camera, no laboratory table, no shelves of bottles)',
+    'high angle down a spiral vault stair: Vessimer hurls a cracked violet flask down into the dark below, the burst lighting every relic on the walls as they transmute at once, his coat flaring as he leans over the rail',
+    'heroic wide shot of a vast relic vault: Vessimer stands in a ring of floating relics that melt and reforge in mid-air into one shining artefact above his raised gloved hand, rivers of glowing tincture running across the floor runes',
+  ],
+  atlas: [
+    'low rear three-quarter view in a deep vault corridor: ATLAS-Ω kneels and presses its whole huge stone back against a round vault door to seal it, its glowing core shining through the cracks, while shadowy raiders hammer at its shoulders (not walking toward the camera, no open sky, no city)',
+    'side view in a collapsing treasure hall: ATLAS-Ω catches a falling stone pillar in one giant hand while the other fist slams the floor, a shockwave throwing raiders back from the treasure heaped behind it',
+    'heroic low angle in the deepest vault: ATLAS-Ω stands fully upright and blazing, its chest opening like a vault door to reveal a blinding golden core, every vault seal in the hall locking shut around it in rings of light',
+  ],
   nyx: [
     'top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint',
     'fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her',

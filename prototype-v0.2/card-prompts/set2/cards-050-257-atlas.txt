@@ -25,7 +25,7 @@ Flavour: “Awaiting orders.”
 Crown 2: none
 Might | Guard: 4 | 10
 Footer: 050/266 · C · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A gigantic final-generation war machine. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A gigantic final-generation war machine. SCENE: low rear three-quarter view in a deep vault corridor: ATLAS-Ω kneels and presses its whole huge stone back against a round vault door to seal it, its glowing core shining through the cracks, while shadowy raiders hammer at its shoulders (not walking toward the camera, no open sky, no city). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-210 (210)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
@@ -47,7 +47,7 @@ Flavour: “War ended. Again.”
 Crown 2: none
 Might | Guard: 7 | 13
 Footer: 210/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Shoulder cannons and a reactor halo. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Shoulder cannons and a reactor halo. SCENE: side view in a collapsing treasure hall: ATLAS-Ω catches a falling stone pillar in one giant hand while the other fist slams the floor, a shockwave throwing raiders back from the treasure heaped behind it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-257 (257)
 Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
@@ -69,7 +69,7 @@ Flavour: “Vault sealed. Threat denied.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 15
 Footer: 257/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A titan of the last war: a sun burns in its chest. NEW pose and action, never the Set 1 pose or composition: standing as a living vault door, shielding the treasure behind it from attackers. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A titan of the last war: a sun burns in its chest. SCENE: heroic low angle in the deepest vault: ATLAS-Ω stands fully upright and blazing, its chest opening like a vault door to reveal a blinding golden core, every vault seal in the hall locking shut around it in rings of light. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
