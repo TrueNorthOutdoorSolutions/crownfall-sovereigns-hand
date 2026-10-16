@@ -171,8 +171,7 @@ Arm your champions with Relics from the Vault and hold the line with the Crystal
 | 1 | ATLAS-Ω — The Vault Engine | ★ Champion · Tier V | 6 | 4 / 10 | Ascendant, Bulwark Rival champions attacking your Crown get −1 Might. |
 | 1 | Crystal Golem — Guardian | Guardian | 7 | 3 / 11 | Guardian, Bulwark Block: Each rival champion gets −2 Might this turn. When Crystal Golem is defeated, its rival draws 2 cards. |
 | 2 | Professor Spark — Relic Inventor | ★ Champion · Tier III | 3 | 2 / 3 | Arrival: Attach a Relic costing 2 or less from your hand to Professor Spark for free. |
-| 1 | Knuckle — King Under the Pit | ★ Champion · Tier III | 4 | 5 / 5 | +2 Might while attacking a champion. |
-| 1 | Titan Rho — Vault Bastion | ★ Champion · Tier IV | 5 | 3 / 8 | Bulwark Rival champions attacking your Crown get −1 Might. |
+| 2 | Knuckle — King Under the Pit | ★ Champion · Tier III | 4 | 5 / 5 | +2 Might while attacking a champion. |
 | 2 | Bolt — Scrap Smith | ★ Champion · Tier I | 2 | 1 / 3 | Your Relics cost 1 less. |
 | 2 | Royal Blade | Relic · Component | 1 | +2 | +2 Might. |
 | 1 | Iron Plate | Relic · Component | 1 | +2 | +2 Guard. |
@@ -181,9 +180,8 @@ Arm your champions with Relics from the Vault and hold the line with the Crystal
 | 1 | The Fallen King's Blade | Relic · Artifact | 4 | +3 | +3 Might. When the holder’s attack on your rival’s Crown isn’t blocked, it breaks 1 more shard. |
 | 1 | Its Treasure Is Yours | Tactic | 1 |  | Return a Relic from your Fallen pile to your hand. Draw a card. |
 | 1 | The Vault Remembers | Tactic | 1 |  | Return a Relic from your Fallen pile to your hand. Shardfall. |
-| 1 | Crown Hex: War | Tactic | 2 |  | Your champions get +2 Might this turn. |
+| 2 | Crown Hex: War | Tactic | 2 |  | Your champions get +2 Might this turn. |
 | 1 | Steel Will Answer | Scheme | 1 |  | Spring when a rival champion attacks: it gets −3 Might this turn. |
-| 1 | Unbinding Charm | Tactic | 0 |  | Return a Relic to its owner’s hand. |
 
 **Ascension Pile (8):**
 
