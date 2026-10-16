@@ -32,9 +32,6 @@ def _load(name, file):
 bp = _load("bp", "build-printable.py")
 pr = _load("pr", "patch-rarity-letters.py")
 sm = _load("sm", "studio-mark.py")
-uf = _load("uf", "unify-frame.py")
-tp = _load("tp", "tier-plate.py")
-TIERS = tp.tiers(1)
 
 SET_DIR = os.path.join(bp.ART, bp.SETS[1])
 SHEETS = os.path.join(SET_DIR, "Card Sheets")
@@ -84,11 +81,7 @@ def main():
         letters = dict(hits)
         for i in cards:
             x0, y0, x1, y1 = boxes[i]
-            card = uf.unify(im.crop((x0, y0, x1, y1)), uf.kind_of(nums[i]))  # card 004's frame on every card (2026-10-16)
-            card = uf.green_gem(card, nums[i])  # one clean green gem per cost
-            if nums[i] in TIERS:
-                card = tp.apply(card, TIERS[nums[i]])  # card 004's trait bar + one master tier plate
-            card = sm.stamp_mark(card)  # identical studio mountain on every card
+            card = sm.stamp_mark(im.crop((x0, y0, x1, y1)))  # identical studio mountain on every card
             if i in letters:
                 card = pr.patch_image(card, todo[letters[i]])
             im.paste(card, (x0, y0))

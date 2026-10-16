@@ -200,7 +200,7 @@ def _lift_text(arr, w, h, text_bottom, lift):
                     out[d, x0_:x1_][m_] = np.median(px, axis=0)
     return Image.fromarray(out.astype("uint8"))
 
-def stamp_emblem(card, _lifted=False, paste=True):
+def stamp_emblem(card, _lifted=False):
     """Card with the reference gateway + mountain + studio name. Flavour text lines on the parchment are kept."""
     im = card.convert("RGB").copy()
     w, h = im.size
@@ -243,7 +243,7 @@ def stamp_emblem(card, _lifted=False, paste=True):
     if text_bottom >= arch_top - 3 and not _lifted:
         lifted = _lift_text(arr, w, h, text_bottom, text_bottom - arch_top + 3)
         if lifted is not None:
-            return stamp_emblem(lifted, _lifted=True, paste=paste)
+            return stamp_emblem(lifted, _lifted=True)
     a_full = np.asarray(blk.split()[-1]).copy()
     # the reference gateway, mountain and studio name always go on, unchanged (owner rule 2026-10-15: "on all cards, no changes").
     # Only the reference's own gateway / dark band / logo / name are pasted (never its parchment, so no tone boxes).
@@ -252,8 +252,6 @@ def stamp_emblem(card, _lifted=False, paste=True):
     sub[rbg] = 0
     cover = np.zeros((h, w), bool)
     cover[y0:y0 + H, x0:x0 + W] = sub > 128
-    if not paste:  # only clean the old gateway away (the frame brings its own)
-        cover[:] = False
     wx0, wx1 = int(w * 0.34), int(w * 0.66)
     textrows = np.zeros(h, bool)
     for r in rows:
@@ -297,8 +295,6 @@ def stamp_emblem(card, _lifted=False, paste=True):
         feather[trow] = 0
         out = arr * (1 - feather) + out * feather
         im = Image.fromarray(out.astype("uint8"))
-    if not paste:
-        return im
     a_full = np.asarray(Image.fromarray(a_full.astype("uint8")).filter(ImageFilter.GaussianBlur(1.2))).copy()
     cl = credit_left(arr, w, h, fy)
     fade = np.clip((cl - 3 - (np.arange(a_full.shape[1]) + x)) / 6.0, 0, 1)  # never paint over the artist credit
@@ -417,43 +413,6 @@ def patch_stat(card, src_card, which):
     return im
 
 
-def frame_set2(card, kind, number=None):
-    """Set 2 on the Set 1 frame (owner rule 2026-10-16). The card is cleaned first (stamp_emblem), then any flavour line
-    that would touch the frame's gateway is lifted into spare parchment, then the Set 1 frame + Set 2 gateway go on."""
-    import importlib.util as _u
-    sp = _u.spec_from_file_location("uf", os.path.join(os.path.dirname(__file__), "unify-frame.py"))
-    uf = _u.module_from_spec(sp); sp.loader.exec_module(uf)
-    card = stamp_emblem(card, paste=False)
-    w, h = card.size
-    gate = np.asarray(uf._gateway_mask().resize((w, h))) > 40
-    gate = np.asarray(Image.fromarray((gate * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
-    a = np.asarray(card).astype(int)
-    b = _beige(a)
-    near = np.asarray(Image.fromarray((b * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
-    ink = near & ~b & (a.mean(axis=2) < 130) & ((a.max(axis=2) - a.min(axis=2)) < 70)  # letters on parchment only
-    ink[:int(h * 0.70)] = False
-    ink[int(h * 0.90):] = False
-    gcols = np.where(gate.any(axis=0))[0]
-    grows = np.where(gate.any(axis=1))[0]
-    left = ink[:, int(w * 0.12):max(int(w * 0.12), gcols.min() - 2)].any(axis=1)
-    right = ink[:, min(w, gcols.max() + 2):int(w * 0.88)].any(axis=1)
-    line = left & right  # a centred text line running across the gateway's columns
-    hit = np.array([r for r in np.where(line)[0] if grows.min() - 3 <= r <= grows.max()])
-    if len(hit) and hit.max() - grows.min() + 4 <= 24:
-        gtop = np.where(gate.any(axis=1))[0].min()
-        lifted = _lift_text(a, w, h, int(hit.max()), int(hit.max() - gtop + 4))
-        if lifted is not None:
-            card = lifted
-    out = uf.unify(card, kind, set_no=2)
-    if number is not None:
-        sp2 = _u.spec_from_file_location("tp", os.path.join(os.path.dirname(__file__), "tier-plate.py"))
-        tp = _u.module_from_spec(sp2); sp2.loader.exec_module(tp)
-        t = tp.tiers(2).get(int(number))
-        if t:
-            out = tp.apply(out, t)
-    return out
-
-
 def main():
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
@@ -465,18 +424,9 @@ def main():
     repo = os.path.join(os.path.dirname(__file__), "..", "card-art", "set2")
     os.makedirs(ORIGINALS, exist_ok=True)
     done = 0
-    import csv
-    KIND = {}
-    for r in csv.DictReader(open(os.path.join(os.path.dirname(__file__), "..", "master-card-list-set2.csv"), encoding="utf-8-sig")):
-        t = r["Card type"]
-        KIND[r["No."][3:]] = ("champion" if t in ("Champion", "Ascension", "Monster", "Guardian")
-                              else "spell" if t in ("Tactic", "Swift Tactic", "Scheme", "Edict") else None)
     for name in sorted(os.listdir(sheets)):
         if not (name.startswith("Cards ") and name.lower().endswith(".png")):
             continue
-        nums = re.findall(r"\d{3}|xxx", name.split(" ", 2)[1])
-        if len(nums) == 2 and "xxx" not in nums and int(nums[1]) - int(nums[0]) == 2:  # "049-051" = 049, 050, 051
-            nums = [nums[0], f"{int(nums[0]) + 1:03d}", nums[1]]
         orig = os.path.join(ORIGINALS, name)
         if not os.path.exists(orig):
             shutil.copy2(os.path.join(sheets, name), orig)
@@ -487,12 +437,7 @@ def main():
                 sname, si, which = STAT_PATCHES[(name, i)]
                 sim = Image.open(os.path.join(ORIGINALS, sname)).convert("RGB")
                 card = patch_stat(card, sim.crop(_cards(sim)[si]), which)
-            no = nums[i] if i < len(nums) else None
-            kind = KIND.get(no)
-            if kind:  # Set 1's frame with the Set 2 gateway (owner rule 2026-10-16)
-                im.paste(frame_set2(card, kind, no if no and no.isdigit() else None), b[:2])
-            else:     # card types without a locked frame yet (Relics): previous treatment
-                im.paste(stamp_rim(stamp_emblem(card)), b[:2])
+            im.paste(stamp_rim(stamp_emblem(card)), b[:2])
         if check:
             print("would stamp", name); continue
         dest = os.path.join(sheets, name)

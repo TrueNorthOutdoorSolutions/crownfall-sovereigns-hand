@@ -53,71 +53,11 @@ def holes(kind="champion", set_no=1):
     d.rectangle((14, 986, 730, 1032), fill=255)                                               # footer line
     if set_no == 2:
         d.rectangle((148, 96, 660, 120), fill=255)  # room for a two-line name's "TACTIC" / "MONSTER" label
-    # footer: only the card number + rarity letter are the card's own (placed by footer()); the mountain,
-    # "Northern Summit Studios" and "Art: Jerian Latawiec" always come from the reference
-    d.rectangle((14, 952, 730, 1036), fill=0)
+        d.rectangle((236, 952, 508, 1036), fill=0)  # mountain + "Northern Summit Studios" always from the reference
     m = m.filter(ImageFilter.GaussianBlur(1.5))
     if set_no == 2:  # the Set 2 gateway always comes from the reference frame: cut out exactly its outline
         m = Image.fromarray(np.minimum(np.asarray(m), 255 - np.asarray(_gateway_mask())))
-    else:            # the Set 1 shield crest likewise (owner 2026-10-16: identical bottom centre on every card)
-        m = Image.fromarray(np.minimum(np.asarray(m), 255 - np.asarray(_crest_mask())))
     return m
-
-
-_CREST = None
-
-
-def _crest_mask():
-    """The Set 1 shield crest on card 004 (x ~340-410, y ~880-962), grown 2 px."""
-    global _CREST
-    if _CREST is None:
-        a = np.asarray(Image.open(os.path.join(TEMPLATES, "frame-ref-004-champion.png")).convert("RGB").resize((W, H))).astype(int)
-        beige = (a.min(axis=2) > 150) & (a.max(axis=2) - a.min(axis=2) < 75)
-        g = np.zeros((H, W), bool)
-        g[870:935, 335:415] = ~beige[870:935, 335:415]   # the crest's part above the bar (below is frame anyway)
-        _CREST = Image.fromarray((g * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.GaussianBlur(1.0))
-    return _CREST
-
-
-_FOOT = None
-
-
-def footer(card, ref_card):
-    """Lay this card's own number + rarity letter (footer x 14-200) onto the reference footer, on the same baseline."""
-    w, h = card.size
-    c = np.asarray(card.resize((W, H), Image.LANCZOS)).astype(float)
-    r = np.asarray(ref_card.resize((W, H), Image.LANCZOS)).astype(float)
-    y0, y1, x0, x1 = 984, 1034, 16, 214
-    def _al(x):
-        reg = x[y0:y1, x0:x1]
-        al = np.clip((reg.min(axis=2) - 110) / 70.0, 0, 1) * ((reg.max(axis=2) - reg.min(axis=2)) < 60)
-        # drop tiny isolated specks (separator dots / colons): keep columns with at least 4 lit pixels nearby
-        lit = al > 0.4
-        cols = np.where(lit.any(axis=0))[0]
-        keep = np.zeros(al.shape[1], bool)
-        if len(cols):
-            runs, st = [], cols[0]
-            for c0, c1 in zip(cols, list(cols[1:]) + [None]):
-                if c1 is None or c1 - c0 > 2:
-                    runs.append((st, c0)); st = c1
-            for s0, s1 in runs:  # a glyph is tall (>= 10 lit rows); separator dots are not
-                if lit[:, s0:s1 + 1].any(axis=1).sum() >= 10:
-                    keep[max(0, s0 - 1):s1 + 2] = True
-        return al * keep[None, :]
-    out = r.copy()
-    # blank the reference's own number: the plain footer strip between its letter and the studio name, repeated
-    for x in range(x0, x1):
-        out[y0:y1, x] = r[y0:y1, 182 + (x - x0) % 46]
-    ca, ra = _al(c), _al(r)
-    cy, ry = np.where(ca.max(axis=1) > 0.4)[0], np.where(ra.max(axis=1) > 0.4)[0]
-    dy = int(round((ry.min() + ry.max()) / 2 - (cy.min() + cy.max()) / 2)) if len(cy) and len(ry) else 0
-    dy = max(-6, min(6, dy))
-    src = np.roll(c[y0:y1, x0:x1], dy, axis=0)
-    al = np.roll(ca, dy, axis=0)[..., None]
-    out[y0:y1, x0:x1] = out[y0:y1, x0:x1] * (1 - al) + src * al
-    res = r.copy()          # the framed card; only the footer line is rebuilt
-    res[y0:y1, :] = out[y0:y1, :]
-    return Image.fromarray(np.clip(res, 0, 255).astype("uint8")).resize((w, h), Image.LANCZOS)
 
 
 _GATE = None
@@ -165,7 +105,7 @@ def unify(card, kind="champion", ref=None, set_no=1):
     ref = ref or reference(kind, card.size, set_no)
     m = np.asarray(holes(kind, set_no).resize(card.size, Image.LANCZOS)).astype(float)[..., None] / 255
     out = np.asarray(ref).astype(float) * (1 - m) + np.asarray(card).astype(float) * m
-    return footer(card, Image.fromarray(out.astype("uint8")))
+    return Image.fromarray(out.astype("uint8"))
 
 
 # One clean green cost gem per number (owner 2026-10-16: "the gems that are green are all green, no black specs").
