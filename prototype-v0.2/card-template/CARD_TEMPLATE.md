@@ -169,3 +169,7 @@ Reference: `masterwork-template.jpg` (MW01 Kira Volt ukiyo-e, MW02 Fen Chinese i
 ## Monster card template (LOCKED 2026-10-16: S2-051 Crystal Mite approved)
 
 Champion frame with: green cost gem; no stars, a small bronze three-claw-mark emblem top-right; "MONSTER" under the name (no title); full-width champion-height art; RUST-RED laurel band "MONSTER • Its defeat rewards your rival"; trait bar left "Arena Monster", right a rust-red "MONSTER" label; rules text only (no keyword chip unless listed, no ability name), thin divider, no flavour; Might/Guard shields; Set 2 gateway symbol; footer `###/266 · rarity letter · Northern Summit Studios · Art: Jerian Latawiec`. Prompt: card-prompts/set2-templates/sheet-049-051-monster-template.txt. Reference: card-art/set2/cards-049-051-vessimer-atlas-crystal-mite.jpg (right-hand card). Keyword chips (e.g. Charge) go above the rules line exactly as on champions.
+
+## One frame for all of Set 1 (owner rule 2026-10-16)
+
+Every Set 1 card 001–248 uses the exact frame of card 004 Kira Volt ★ (border, vines, panel edges, set crest). Spells and Edicts take the same frame with First Light's (170) shield-free lower corners. Applied by tools/unify-frame.py inside patch-sheet-letters.py, from the untouched originals in Set 1/Old; frozen references: card-template/frame-ref-004-champion.png and frame-ref-170-spell.png. Each card keeps its own gem, name, stars, art, bands, text and shields.

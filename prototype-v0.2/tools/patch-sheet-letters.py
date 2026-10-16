@@ -32,6 +32,7 @@ def _load(name, file):
 bp = _load("bp", "build-printable.py")
 pr = _load("pr", "patch-rarity-letters.py")
 sm = _load("sm", "studio-mark.py")
+uf = _load("uf", "unify-frame.py")
 
 SET_DIR = os.path.join(bp.ART, bp.SETS[1])
 SHEETS = os.path.join(SET_DIR, "Card Sheets")
@@ -81,7 +82,8 @@ def main():
         letters = dict(hits)
         for i in cards:
             x0, y0, x1, y1 = boxes[i]
-            card = sm.stamp_mark(im.crop((x0, y0, x1, y1)))  # identical studio mountain on every card
+            card = uf.unify(im.crop((x0, y0, x1, y1)), uf.kind_of(nums[i]))  # card 004's frame on every card (2026-10-16)
+            card = sm.stamp_mark(card)  # identical studio mountain on every card
             if i in letters:
                 card = pr.patch_image(card, todo[letters[i]])
             im.paste(card, (x0, y0))
