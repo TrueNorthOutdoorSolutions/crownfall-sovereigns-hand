@@ -12,19 +12,29 @@ from PIL import Image, ImageDraw, ImageFilter
 SET2 = r"C:\Users\micha\Desktop\Crownfall Art\10 Sovereign's Hand\Set 2 - Beneath the Arena"
 ORIGINALS = os.path.join(SET2, "Old", "Card Sheets (original)")
 REF_SHEET = "Cards 001-003 Bramble and Kira Volt.png"
+DEBUG = False
 BOX = (0.29, 0.835, 0.71, 0.985)   # block on a card, as fractions of width / height
 _REF = None
 
 
 def keyhole(a, w, h):
     """Centre of the teal keyhole in the bottom-centre of a card array, or None."""
-    x0, x1, y0 = int(w * 0.38), int(w * 0.62), int(h * 0.82)
-    r, g, b = a[y0:, x0:x1, 0], a[y0:, x0:x1, 1], a[y0:, x0:x1, 2]
+    x0, x1, y0, y1 = int(w * 0.38), int(w * 0.62), int(h * 0.80), int(h * 0.93)  # above the teal frame line at the bottom
+    r, g, b = a[y0:y1, x0:x1, 0], a[y0:y1, x0:x1, 1], a[y0:y1, x0:x1, 2]
     m = (g > 150) & (b > 150) & (r < 130)
     ys, xs = np.where(m)
     if len(xs) < 15:
         return None
-    return (xs.min() + xs.max()) / 2 + x0, (ys.min() + ys.max()) / 2 + y0
+    col = m.sum(axis=0)
+    pk = int(np.argmax(col))
+    lo = pk
+    while lo > 0 and col[lo - 1] >= col[pk] * 0.15:
+        lo -= 1
+    hi = pk
+    while hi < len(col) - 1 and col[hi + 1] >= col[pk] * 0.15:
+        hi += 1
+    sel = (xs >= lo) & (xs <= hi)  # the keyhole itself, not stray teal glints elsewhere on the band
+    return (lo + hi) / 2 + x0, (ys[sel].min() + ys[sel].max()) / 2 + y0
 
 
 def footer_row(a, w, h):
@@ -103,7 +113,94 @@ def _beige(x):
     return (x[..., 0] > 195) & (x[..., 1] > 175) & (x[..., 2] > 130) & (x[..., 0] - x[..., 2] > 25)
 
 
-def stamp_emblem(card):
+
+def _lift_text(arr, w, h, text_bottom, lift):
+    """A flavour line that runs down into the gateway: move the whole text box content up by `lift` px into the
+    spare parchment above it (owner rule: the emblem never changes, and the card text must stay whole)."""
+    beige = _beige(arr)
+    mid = slice(int(w * 0.2), int(w * 0.8))
+    # the box's top edge: walk up a parchment-only strip just inside its left edge (text starts further right)
+    strip = beige[:, int(w * 0.08):int(w * 0.10)].mean(axis=1)
+    r = int(h * 0.78)
+    while r > h * 0.45 and strip[r - 1] > 0.6:
+        r -= 1
+    box_top = r + 1  # first parchment row of the text box
+    ink = (arr[:, int(w * 0.12):int(w * 0.88)].mean(axis=2) < 140).sum(axis=1) >= 3
+    box_top += 3  # skip the box's own shaded rim
+    content = [y for y in range(box_top, text_bottom + 1) if ink[y]]
+    if not content:
+        return None
+    # text lines = runs of ink rows; take the room from the gaps between them (each gap keeps at least 4 px)
+    segs, start = [], content[0]
+    for y0_, y1_ in zip(content, content[1:] + [None]):
+        if y1_ is None or y1_ - y0_ > 2:
+            segs.append((start, y0_ + 1))
+            start = y1_
+    gaps = [(segs[i][1], segs[i + 1][0]) for i in range(len(segs) - 1)]
+    room = [max(0, g1 - g0 - 3) for g0, g1 in gaps] + [0]
+    room[-1] = max(0, segs[0][0] - box_top - 2)  # and a little from the top margin
+    if DEBUG:
+        print("lift", lift, "segments", len(segs), "room", sum(room))
+    if sum(room) < lift:
+        return None
+    # rows to drop: spread over the gaps (middle rows of each gap) and the top margin, `lift` in total
+    take = [r_ * lift / sum(room) for r_ in room]
+    counts, acc = [], 0.0
+    for t in take:
+        acc += t
+        counts.append(round(acc) - sum(counts))
+    drop = set()
+    for (g0, g1), n in zip(gaps, counts[:-1]):
+        mid_ = (g0 + g1) // 2
+        drop.update(range(mid_ - n // 2, mid_ - n // 2 + n))
+    drop.update(range(box_top + 1, box_top + 1 + counts[-1]))
+    # every destination row from the box top down takes the next kept source row (parchment and all), so lines move
+    # up together with their own paper; past the text the rows just below follow on. Shield pixels never move.
+    # the Might / Guard shields (saturated red / blue / gold plus their dark rims) are fenced off and never move
+    R, G, B = arr[..., 0], arr[..., 1], arr[..., 2]
+    sat = ((R > 140) & (G < 90) & (B < 90)) | ((B > 150) & (R < 90) & (G < 150))  # red Might / blue Guard shield bodies
+    sat[:int(h * 0.785)] = False  # shields start at ~0.80 h; the gold stars in rules text sit higher
+    sat[:, int(w * 0.30):int(w * 0.70)] = False
+    sat[:, :int(w * 0.08)] = False; sat[:, int(w * 0.92):] = False  # the frame has red gems of its own
+    # the Might / Guard shields: rows from their top down only move between the shields' inner edges
+    near_sh = np.asarray(Image.fromarray((sat * 255).astype("uint8")).filter(ImageFilter.MaxFilter(25))) > 0  # bodies + rims + outline
+    sh_rows = np.where(sat.sum(axis=1) >= 5)[0]  # ignore stray red / blue flecks
+    sh_top = sh_rows.min() - 12 if len(sh_rows) else h  # the gold rim sits above the coloured body
+    lc = np.where(sat[:, :w // 2].sum(axis=0) >= 4)[0]
+    rc = np.where(sat[:, w // 2:].sum(axis=0) >= 4)[0]
+    L = (lc.max() + 14) if len(lc) else int(w * 0.09)
+    R = (w // 2 + rc.min() - 14) if len(rc) else int(w * 0.91)
+    chroma = arr.max(axis=2) - arr.min(axis=2)
+    lettering = ~beige & ~near_sh & (arr.mean(axis=2) < 205)  # letter strokes and the divider, not shields or shading
+    body9 = np.asarray(Image.fromarray((sat * 255).astype("uint8")).filter(ImageFilter.MaxFilter(9))) > 0
+    gold = (R > 160) & (B < 90)
+    divider = ~beige & ~body9 & ~gold & (arr.mean(axis=2) > 90) & (arr.mean(axis=2) < 215) & (chroma < 90)  # the thin flavour divider
+    src_rows = [y for y in range(box_top + 1, text_bottom + lift + 8) if y not in drop]
+    out = arr.copy()
+    for d, sy in zip(range(box_top + 1, text_bottom + 8), src_rows):
+        if sy < sh_top:  # clear of the shields: the whole width of the box moves
+            out[d, int(w * 0.09):int(w * 0.91)] = arr[sy, int(w * 0.09):int(w * 0.91)]
+            continue
+        if d < sh_top:  # above the shields, but the row below reaches them: take what is not shield, paper the rest
+            X = slice(int(w * 0.09), int(w * 0.91))
+            take_ = ~near_sh[sy, X]
+            out[d, X][take_] = arr[sy, X][take_]
+            px = arr[max(0, d - 3):d + 4, X][beige[max(0, d - 3):d + 4, X]]
+            if len(px):
+                paper = np.median(px, axis=0)
+                m_ = ~take_ & (np.abs(arr[d, X] - paper).max(axis=1) > 18)  # letter strokes and their pale halo
+                out[d, X][m_] = paper
+            continue
+        out[d, L:R] = arr[sy, L:R]
+        for x0_, x1_ in ((int(w * 0.09), L), (R, int(w * 0.91))):  # beside the shields: old strokes become paper
+            m_ = lettering[d, x0_:x1_] | divider[d, x0_:x1_]
+            if m_.any():
+                px = arr[max(0, d - 3):d + 4, x0_:x1_][beige[max(0, d - 3):d + 4, x0_:x1_]]
+                if len(px):
+                    out[d, x0_:x1_][m_] = np.median(px, axis=0)
+    return Image.fromarray(out.astype("uint8"))
+
+def stamp_emblem(card, _lifted=False):
     """Card with the reference gateway + mountain + studio name. Flavour text lines on the parchment are kept."""
     im = card.convert("RGB").copy()
     w, h = im.size
@@ -114,7 +211,8 @@ def stamp_emblem(card):
     ref, (rkx, rfy), rw = reference()
     s = w / rw
     blk = ref.resize((round(ref.width * s), round(ref.height * s)), Image.LANCZOS)
-    x = round(k[0] - rkx * s)
+    # same spot on every card: the reference keyhole's position on card 001, whatever this card's old gateway did
+    x = round(w * (rkx + int(rw * BOX[0])) / rw - rkx * s)
     # the studio name sits on the card's own footer line, level with the card number and artist credit
     y = round((fy if fy is not None else h * 0.955) - rfy * s)
     x0, y0 = max(0, x), max(0, y)
@@ -122,7 +220,11 @@ def stamp_emblem(card):
     tgt = arr[y0:y0 + H, x0:x0 + W]
     rb = np.asarray(blk.convert("RGB")).astype(int)[y0 - y:y0 - y + H, x0 - x:x0 - x + W]
     tb, rbg = _beige(tgt), _beige(rb)
-    arch_cols = np.where((~rbg[: int(H * 0.55)]).any(axis=0))[0]
+    ref_np = ~rbg & (np.asarray(blk.split()[-1])[y0 - y:y0 - y + H, x0 - x:x0 - x + W] > 128)
+    span = ref_np.mean(axis=1)
+    top_rows = np.where(span > 0.02)[0]
+    band_row = top_rows[np.argmax(span[top_rows] > 0.6)] if len(top_rows) and (span[top_rows] > 0.6).any() else int(H * 0.55)
+    arch_cols = np.where(ref_np[:max(1, band_row - 3)].any(axis=0))[0]  # the gateway alone, above the wide dark band
     cx0, cx1 = (arch_cols.min(), arch_cols.max()) if len(arch_cols) else (W // 2 - 20, W // 2 + 20)
     arch_top = y0 + int(np.argmax((~rbg[:, cx0:cx1 + 1]).any(axis=1)))  # first row of the reference arch (card coords)
     # lowest flavour-text row: dark ink on parchment across the card, ignoring the gateway columns
@@ -130,20 +232,69 @@ def stamp_emblem(card):
     near_full = np.asarray(Image.fromarray((full_b * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
     ink_full = near_full & ~full_b & (arr.mean(axis=2) < 140)
     gx0, gx1 = x0 + cx0 - 10, x0 + cx1 + 10
-    side = np.concatenate([ink_full[:, int(w * 0.18):max(int(w * 0.18), gx0)], ink_full[:, min(gx1, int(w * 0.82)):int(w * 0.82)]], axis=1)
-    rows = np.where(side[int(h * 0.75):int(h * 0.92)].sum(axis=1) >= 3)[0] + int(h * 0.75)
+    gx0, gx1 = gx0 - int(w * 0.05), gx1 + int(w * 0.05)  # also clear of a wider or off-centre old gateway
+    left = ink_full[:, int(w * 0.24):max(int(w * 0.24), gx0)].sum(axis=1)  # inside the Might / Guard shields
+    right = ink_full[:, min(gx1, int(w * 0.76)):int(w * 0.76)].sum(axis=1)
+    # centred flavour text has ink on both sides of the gateway; an old arch leftover only on one
+    sides = np.concatenate([full_b[:, int(w * 0.24):max(int(w * 0.24), gx0)], full_b[:, min(gx1, int(w * 0.76)):int(w * 0.76)]], axis=1)
+    paper_row = sides.mean(axis=1) > 0.6  # a text line sits on parchment, unlike the edge of the dark band
+    rows = np.where(((left >= 2) & (right >= 2) & paper_row)[int(h * 0.75):int(h * 0.92)])[0] + int(h * 0.75)
     text_bottom = rows.max() if len(rows) else -1
+    if text_bottom >= arch_top - 3 and not _lifted:
+        lifted = _lift_text(arr, w, h, text_bottom, text_bottom - arch_top + 3)
+        if lifted is not None:
+            return stamp_emblem(lifted, _lifted=True)
     a_full = np.asarray(blk.split()[-1]).copy()
-    if text_bottom >= arch_top - 2:
-        # the flavour runs down past the top of the reference arch: keep the card's own gateway, swap the rest
-        cut = round(h * 0.905) - y
-        a_full[:max(0, cut)] = 0
-    else:
-        # parchment is only painted where it covers leftovers of the card's old gateway (no tone boxes elsewhere)
-        keep = ~rbg | ~tb
-        keep = np.asarray(Image.fromarray((keep * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
-        sub = a_full[y0 - y:y0 - y + H, x0 - x:x0 - x + W]
-        sub[~keep] = 0
+    # the reference gateway, mountain and studio name always go on, unchanged (owner rule 2026-10-15: "on all cards, no changes").
+    # Only the reference's own gateway / dark band / logo / name are pasted (never its parchment, so no tone boxes).
+    # Leftovers of the card's old gateway around it are first painted out with the card's OWN parchment, row by row.
+    sub = a_full[y0 - y:y0 - y + H, x0 - x:x0 - x + W]
+    sub[rbg] = 0
+    cover = np.zeros((h, w), bool)
+    cover[y0:y0 + H, x0:x0 + W] = sub > 128
+    wx0, wx1 = int(w * 0.34), int(w * 0.66)
+    textrows = np.zeros(h, bool)
+    for r in rows:
+        textrows[max(0, r - 3):r + 4] = True
+    # The card's old gateway = the non-parchment blob grown upward from the dark band around the card's keyhole.
+    # Flavour-text rows (ink on both sides, beyond the gateway zone) are never touched; the blob, minus whatever the
+    # new gateway covers, is repainted flat with the card's own parchment colour for that row.
+    nk = x + rkx * s
+    zx0, zx1 = max(0, int(min(k[0], nk) - w * 0.13)), min(w, int(max(k[0], nk) + w * 0.13))
+    band_y = y0 + band_row
+    ink_l = ink_full[:, int(w * 0.10):max(int(w * 0.10), int(min(k[0], nk) - w * 0.075))].any(axis=1)
+    ink_r = ink_full[:, min(w, int(max(k[0], nk) + w * 0.075)):int(w * 0.90)].any(axis=1)
+    trow = ink_l & ink_r
+    trow = np.convolve(trow.astype(int), np.ones(7, int), "same") > 0  # a little margin above and below each line
+    zone = np.zeros((h, w), bool)
+    zone[int(h * 0.78):band_y + 3, zx0:zx1] = True
+    zone[trow] = False
+    blob = zone & ~full_b
+    grow = np.zeros((h, w), bool)
+    grow[band_y:band_y + 3, zx0:zx1] = True
+    for _ in range(150):
+        nxt = (np.asarray(Image.fromarray((grow * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0) & (blob | grow)
+        if (nxt == grow).all():
+            break
+        grow = nxt
+    fill = grow & zone
+    fill = (np.asarray(Image.fromarray((fill * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0) & zone & ~cover
+    if DEBUG:
+        ys, xs = np.where(fill); print("fill", (xs.min(), xs.max(), ys.min(), ys.max()) if len(xs) else None)
+    if fill.any():
+        out = arr.astype(float)
+        sx0, sx1 = max(0, zx0 - int(w * 0.10)), min(w, zx1 + int(w * 0.10))
+        for r in np.where(fill.any(axis=1))[0]:
+            seg = np.r_[sx0:zx0, zx1:sx1]
+            lo, hi = max(0, r - 2), r + 3
+            px = arr[lo:hi][:, seg][full_b[lo:hi][:, seg]]
+            if len(px):
+                out[r, fill[r]] = np.median(px, axis=0)
+        feather = np.asarray(Image.fromarray((fill * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(1.5))).astype(float)[..., None] / 255
+        feather = np.maximum(feather, fill[..., None].astype(float))
+        feather[trow] = 0
+        out = arr * (1 - feather) + out * feather
+        im = Image.fromarray(out.astype("uint8"))
     a_full = np.asarray(Image.fromarray(a_full.astype("uint8")).filter(ImageFilter.GaussianBlur(1.2))).copy()
     cl = credit_left(arr, w, h, fy)
     fade = np.clip((cl - 3 - (np.arange(a_full.shape[1]) + x)) / 6.0, 0, 1)  # never paint over the artist credit
