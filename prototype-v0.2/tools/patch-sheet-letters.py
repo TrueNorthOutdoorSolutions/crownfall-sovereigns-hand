@@ -83,6 +83,7 @@ def main():
         for i in cards:
             x0, y0, x1, y1 = boxes[i]
             card = uf.unify(im.crop((x0, y0, x1, y1)), uf.kind_of(nums[i]))  # card 004's frame on every card (2026-10-16)
+            card = uf.green_gem(card, nums[i])  # one clean green gem per cost
             card = sm.stamp_mark(card)  # identical studio mountain on every card
             if i in letters:
                 card = pr.patch_image(card, todo[letters[i]])

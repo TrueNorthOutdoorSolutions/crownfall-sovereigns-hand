@@ -69,6 +69,42 @@ def unify(card, kind="champion", ref=None):
     return Image.fromarray(out.astype("uint8"))
 
 
+# One clean green cost gem per number (owner 2026-10-16: "the gems that are green are all green, no black specs").
+# Frozen crops (170 x 140 at card size 744 x 1039) of the cleanest gem for each cost; every ★ champion, Tactic, Scheme and
+# Edict gets the one for its cost. Gold Ascend gems (★★/★★★) are left as they are.
+def _costs():
+    import csv
+    out = {}
+    path = os.path.join(TEMPLATES, "..", "master-card-list-set1.csv")
+    for r in csv.DictReader(open(path, encoding="utf-8-sig")):
+        c = r["Cost (↑ = Ascend cost)"]
+        if r["No."].startswith("S1-") and c.isdigit() and r["Star form"] in ("★", ""):
+            out[int(r["No."][3:])] = c
+    return out
+
+
+_COST = None
+
+
+def green_gem(card, number):
+    """Paste the master green gem for this card's cost (card at any size); cards without a green gem are unchanged."""
+    global _COST
+    _COST = _COST if _COST is not None else _costs()
+    cost = _COST.get(int(number))
+    path = os.path.join(TEMPLATES, f"gem-green-{cost}.png")
+    if cost is None or not os.path.exists(path):
+        return card
+    sx, sy = card.width / W, card.height / H
+    gem = Image.open(path).convert("RGB")
+    gem = gem.resize((round(gem.width * sx), round(gem.height * sy)), Image.LANCZOS)
+    m = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(m).polygon([(14, 66), (45, 6), (121, 6), (152, 66), (121, 128), (45, 128)], fill=255)
+    m = m.filter(ImageFilter.GaussianBlur(1.5)).resize(card.size, Image.LANCZOS).crop((0, 0, gem.width, gem.height))
+    out = card.copy()
+    out.paste(gem, (0, 0), m)
+    return out
+
+
 def kind_of(number):
     return "champion" if int(number) <= 165 else "spell"
 
