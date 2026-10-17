@@ -644,7 +644,7 @@ def fix_border(card, kind):
 # Cards 043-060 came back with a slightly larger / bolder footer line (owner 2026-10-17). Their footer line is rebuilt
 # from card 001's: same "Northern Summit Studios", same "Art: Jerian Latawiec", same size, same baseline; the card
 # number uses digits cut from cards 001-018 (the approved footer style), dropped into 001's digit slots.
-FOOTER_FIX = {f"{n:03d}" for n in range(43, 61)}
+FOOTER_FIX = {f"{n:03d}" for n in range(2, 61)} | {"118", "251", "252"}  # every Common card after 001 (owner 2026-10-17: fix anything a little off)
 _GLYPHS = None
 
 
@@ -725,6 +725,24 @@ def fix_footer(card, number):
         cx = (sx0 + sx1) // 2 - gw // 2
         tgt = strip[:, cx:cx + gw]
         strip[:, cx:cx + gw] = tgt * (1 - ga[:, :tgt.shape[1], None]) + gc[:, :tgt.shape[1]] * ga[:, :tgt.shape[1], None]
+    # rarity letter: 001 shows "C"; other rarities take their own letter from this card, set in 001's letter slot
+    def _letter(arr, y0_, n_):
+        reg_ = arr[y0_:y0_ + n_, int(w * 0.20):int(w * 0.32)]
+        al_ = np.clip((reg_.min(axis=2) - 90) / 90.0, 0, 1)
+        rr = [q for q in _runs((al_ > 0.35).any(axis=0)) if q[1] - q[0] >= 3]
+        return (rr[0][0] + int(w * 0.20), rr[-1][1] + int(w * 0.20)) if rr else None
+    if number in ("118", "251", "252"):
+        ls = _letter(strip, 0, n)
+        lt = _letter(a, ty0, n)
+        if ls and lt:
+            bg = np.median(strip[:, ls[0] - 8:ls[0] - 3].reshape(-1, 3), axis=0)
+            reg = strip[:, ls[0] - 2:ls[1] + 2]
+            reg[reg.min(axis=2) > 90] = bg
+            own = a[ty0:ty0 + n, lt[0] - 2:lt[1] + 2]
+            oa = np.clip((own.min(axis=2) - 90) / 90.0, 0, 1)[..., None]
+            cx = (ls[0] + ls[1]) // 2 - own.shape[1] // 2
+            t = strip[:, cx:cx + own.shape[1]]
+            strip[:, cx:cx + own.shape[1]] = t * (1 - oa[:, :t.shape[1]]) + own[:, :t.shape[1]] * oa[:, :t.shape[1]]
     # paste the whole footer line, feathered top and bottom so it melts into this card's band
     fe = np.clip(np.minimum(np.arange(n), np.arange(n)[::-1]) / 4.0, 0, 1)[:, None, None]
     x0, x1 = int(w * 0.02), int(w * 0.98)
