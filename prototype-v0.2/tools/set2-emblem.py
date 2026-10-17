@@ -5,6 +5,7 @@ card with ONE reference block cut from the first approved Set 2 card (S2-001 Bra
 The parchment and flavour text above the arch are kept: reference parchment pixels are left out of the stamp.
 """
 import os
+import re
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
@@ -640,6 +641,97 @@ def fix_border(card, kind):
     return Image.fromarray(np.clip(out, 0, 255).astype("uint8"))
 
 
+# Cards 043-060 came back with a slightly larger / bolder footer line (owner 2026-10-17). Their footer line is rebuilt
+# from card 001's: same "Northern Summit Studios", same "Art: Jerian Latawiec", same size, same baseline; the card
+# number uses digits cut from cards 001-018 (the approved footer style), dropped into 001's digit slots.
+FOOTER_FIX = {f"{n:03d}" for n in range(43, 61)}
+_GLYPHS = None
+
+
+def _footer_band(a, w, h):
+    fy = footer_row(a, w, h) or h * 0.955
+    return int(fy - h * 0.026), int(fy + h * 0.026)
+
+
+def _runs(mask_cols, gap=1):
+    cols = np.where(mask_cols)[0]
+    out, st = [], None
+    for c0, c1 in zip(cols, list(cols[1:]) + [None]):
+        st = c0 if st is None else st
+        if c1 is None or c1 - c0 > gap:
+            out.append((st, c0 + 1)); st = None
+    return out
+
+
+def _glyphs():
+    """{digit: (alpha 0..1 array, rgb)} at card width 605, plus 001's digit slot boxes."""
+    global _GLYPHS
+    if _GLYPHS is None:
+        lib, slots = {}, None
+        for name in sorted(os.listdir(ORIGINALS)):
+            if not name.startswith("Cards 0") or int(name[6:9]) > 30:
+                continue
+            nums = re.findall(r"\d{3}", name.split(" ", 2)[1])
+            nums = [nums[0], f"{int(nums[0]) + 1:03d}", nums[1]] if len(nums) == 2 else nums
+            im = Image.open(os.path.join(ORIGINALS, name)).convert("RGB")
+            for no, b in zip(nums, _cards(im)):
+                c = im.crop(b).resize((605, round(605 * (b[3] - b[1]) / (b[2] - b[0]))), Image.LANCZOS)
+                a = np.asarray(c).astype(float)
+                h = a.shape[0]
+                y0, y1 = _footer_band(a.astype(int), 605, h)
+                reg = a[y0:y1, 10:130]
+                al = np.clip((reg.min(axis=2) - 90) / 90.0, 0, 1)
+                runs = [r for r in _runs((al > 0.35).any(axis=0)) if r[1] - r[0] >= 3]
+                if len(runs) < 7:
+                    continue
+                for k, d in enumerate(no):
+                    x0, x1 = runs[k]
+                    if x1 - x0 > 11:          # merged with a neighbour (e.g. "7/"): not a clean glyph
+                        continue
+                    if d not in lib or (x1 - x0) < lib[d][0].shape[1] - 2:
+                        lib[d] = (al[:, x0 - 1:x1 + 1], reg[:, x0 - 1:x1 + 1])
+                if no == "001":
+                    c0 = [(runs[k][0] + runs[k][1]) / 2 + 10 for k in range(2)]
+                    pitch = c0[1] - c0[0]
+                    slots = [(c0[0] - 5, c0[0] + 5), (c0[1] - 5, c0[1] + 5), (c0[1] + pitch - 5, c0[1] + pitch + 5)]
+        _GLYPHS = (lib, slots)
+    return _GLYPHS
+
+
+def fix_footer(card, number):
+    im = card.convert("RGB")
+    a = np.asarray(im).astype(float)
+    h, w, _ = a.shape
+    ref = Image.open(os.path.join(ORIGINALS, REF_SHEET)).convert("RGB")
+    rc = ref.crop(_cards(ref)[0]).resize((w, h), Image.LANCZOS)
+    r = np.asarray(rc).astype(float)
+    ty0, ty1 = _footer_band(a.astype(int), w, h)
+    ry0, ry1 = _footer_band(r.astype(int), w, h)
+    n = min(ty1 - ty0, ry1 - ry0)
+    strip = r[ry0:ry0 + n].copy()
+    # 001's number digits -> this card's digits (same slots, same size; 605-wide glyphs scaled to this card)
+    lib, slots = _glyphs()
+    s = w / 605.0
+    for k, d in enumerate(number):
+        sx0, sx1 = int(slots[k][0] * s), int(slots[k][1] * s) + 1
+        bg = np.median(strip[:, sx0 - 6:sx0 - 2].reshape(-1, 3), axis=0) if sx0 > 8 else strip[:, sx0].mean(axis=0)
+        reg = strip[:, sx0 - 1:sx1 + 1]
+        lum = reg.min(axis=2)
+        reg[lum > 90] = bg                                    # clear 001's digit
+        ga, gc = lib[d]
+        gw = max(1, round(ga.shape[1] * s)); gh = n
+        ga = np.asarray(Image.fromarray((ga * 255).astype("uint8")).resize((gw, gh), Image.LANCZOS)).astype(float) / 255
+        gc = np.asarray(Image.fromarray(gc.astype("uint8")).resize((gw, gh), Image.LANCZOS)).astype(float)
+        cx = (sx0 + sx1) // 2 - gw // 2
+        tgt = strip[:, cx:cx + gw]
+        strip[:, cx:cx + gw] = tgt * (1 - ga[:, :tgt.shape[1], None]) + gc[:, :tgt.shape[1]] * ga[:, :tgt.shape[1], None]
+    # paste the whole footer line, feathered top and bottom so it melts into this card's band
+    fe = np.clip(np.minimum(np.arange(n), np.arange(n)[::-1]) / 4.0, 0, 1)[:, None, None]
+    x0, x1 = int(w * 0.02), int(w * 0.98)
+    a[ty0:ty0 + n, x0:x1] = a[ty0:ty0 + n, x0:x1] * (1 - fe) + strip[:, x0:x1] * fe
+    return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
+
+
 def main():
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
@@ -670,7 +762,10 @@ def main():
             no = nums[i] if i < len(nums) else None
             if no in BORDER_FIX:
                 card = fix_border(card, BORDER_FIX[no])
-            im.paste(stamp_rim(clean_gate(stamp_emblem(card))), b[:2])
+            done_card = stamp_rim(clean_gate(stamp_emblem(card)))
+            if no in FOOTER_FIX:
+                done_card = fix_footer(done_card, no)
+            im.paste(done_card, b[:2])
         if check:
             print("would stamp", name); continue
         dest = os.path.join(sheets, name)
