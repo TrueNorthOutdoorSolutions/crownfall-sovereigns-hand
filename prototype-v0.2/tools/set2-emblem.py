@@ -545,8 +545,12 @@ def clean_gate(card):
         for y in range(yb, YB):
             row = out[y, X0:X1]
             l0, r0 = max(0, acols.min() - 18), min(X1 - X0 - 1, acols.max() + 18)
-            row[l0:acols.min() + 2] = row[l0]
-            row[acols.max() - 2:r0 + 1] = row[r0]
+            def _isp(px):
+                return px.min() > 150 and px.max() - px.min() < 80
+            if not _isp(row[l0]):          # only carry the dark band line; never paint parchment into it
+                row[l0:acols.min() + 2] = row[l0]
+            if not _isp(row[r0]):
+                row[acols.max() - 2:r0 + 1] = row[r0]
     for i, y in enumerate(range(Y0, YB)):
         if i >= up_ref.shape[0]:
             break
@@ -744,9 +748,15 @@ def fix_footer(card, number):
             t = strip[:, cx:cx + own.shape[1]]
             strip[:, cx:cx + own.shape[1]] = t * (1 - oa[:, :t.shape[1]]) + own[:, :t.shape[1]] * oa[:, :t.shape[1]]
     # paste the whole footer line, feathered top and bottom so it melts into this card's band
-    fe = np.clip(np.minimum(np.arange(n), np.arange(n)[::-1]) / 4.0, 0, 1)[:, None, None]
+    fe = np.clip(np.minimum(np.arange(n), np.arange(n)[::-1]) / 4.0, 0, 1)[:, None, None] * np.ones((1, w, 1))
+    # never bring in 001's own shield tips / gold bits (coloured pixels): those stay this card's own
+    si = strip.astype(int)
+    col = (si.max(axis=2) - si.min(axis=2)) > 45
+    col = np.asarray(Image.fromarray((col * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
+    fe[col] = 0
+    fe = np.asarray(Image.fromarray((fe[..., 0] * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(1))).astype(float)[..., None] / 255
     x0, x1 = int(w * 0.02), int(w * 0.98)
-    a[ty0:ty0 + n, x0:x1] = a[ty0:ty0 + n, x0:x1] * (1 - fe) + strip[:, x0:x1] * fe
+    a[ty0:ty0 + n, x0:x1] = a[ty0:ty0 + n, x0:x1] * (1 - fe[:, x0:x1]) + strip[:, x0:x1] * fe[:, x0:x1]
     return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
 
 
