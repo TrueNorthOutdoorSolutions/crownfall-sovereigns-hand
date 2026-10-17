@@ -494,27 +494,63 @@ def clean_gate(card):
     ystart = Y0 + (int(np.where(seed.any(axis=1))[0].min()) if seed.any() else 0) + 8
     nonp = (~tb[:, probe]).mean(axis=1) > 0.6
     ybc = next((y for y in range(ystart, YB + 8) if nonp[y] and nonp[y + 1] and nonp[y + 2]), YB)
-    for i, y in enumerate(range(Y0, YB)):
-        if i >= up_ref.shape[0]:
+    # leftovers of the card's old gateway above the band line: coloured (gold / teal / brown) non-paper pixels outside
+    # 001's arch, plus dark outline pixels hugging them. Letters (dark, away from any gold) are never touched, and
+    # nothing is painted flat: removed pixels are filled smoothly from the paper around them.
+    ytop, yb = Y0 - int(h * 0.02), ybc - 6
+    reg = out[ytop:yb, X0:X1].copy()
+    ri = reg.astype(int)
+    paper = (ri.min(axis=2) > 150) & ((ri.max(axis=2) - ri.min(axis=2)) < 80)
+    dark = (reg.mean(axis=2) < 130) & ((ri.max(axis=2) - ri.min(axis=2)) < 70)
+    am = np.zeros(paper.shape, bool)
+    o_ = Y0 - ytop
+    hh = min(seed.shape[0], am.shape[0] - o_)
+    am[o_:o_ + hh, :seed.shape[1]] = seed[:hh, :am.shape[1]]
+    am = np.asarray(Image.fromarray((am * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
+    # only a ring just outside 001's arch, and only clearly coloured pixels (gold / teal / glow): text is grey-black,
+    # so no letter (core or soft edge) can ever be touched
+    ring = (np.asarray(Image.fromarray((am * 255).astype("uint8")).filter(ImageFilter.MaxFilter(25))) > 0) & ~am
+    chroma = ri.max(axis=2) - ri.min(axis=2)
+    F = ring & ~paper & (chroma >= 60)
+    F = (np.asarray(Image.fromarray((F * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0) & ring & (chroma >= 35)
+    # the old arch's dark outline: non-paper pixels in the ring that connect down to the band line (letters never do)
+    nonp = ring & ~paper
+    g = np.zeros_like(nonp)
+    g[-4:] = nonp[-4:]
+    for _ in range(200):
+        nxt = (np.asarray(Image.fromarray((g * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0) & nonp
+        if (nxt == g).all():
             break
-        side = np.concatenate([a[y, lx0:lx1][tb[y, lx0:lx1]], a[y, rx0:rx1][tb[y, rx0:rx1]]])
-        paper = np.median(side, axis=0) if len(side) else np.median(a[y, X0:X1], axis=0)
-        row = a[y, X0:X1].copy()
-        ink_r = ink[y, X0:X1]
-        text_line = (ink[y, lx0:lx1].any() and ink[y, rx0:rx1].any()) or ink_r[far].sum() >= 2
-        letters = ink_r if text_line else np.zeros_like(ink_r)
-        # leftovers of the old gateway: anything not paper, plus off-tone paper (old glow) near the arch
-        off = np.abs(row - paper).max(axis=1) > 22
-        fix = (~tb[y, X0:X1] | (off & near)) & ~letters
-        if y >= ybc - 6 and len(acols):
-            # at the band line: the card's own line is carried straight in to the arch (old wider arch bases gone)
-            fix[:] = False
+        g = nxt
+    F |= np.asarray(Image.fromarray((g * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0
+    F &= ring
+    # flavour lines (dark letters on both sides of the arch's ring) are protected, row and 3 rows either side
+    outside = dark & ~ring & ~am
+    cols = np.where(ring.any(axis=0))[0]
+    if len(cols):
+        lft = outside[:, :cols.min()].any(axis=1)
+        rgt = outside[:, cols.max() + 1:].any(axis=1)
+        line = np.convolve((lft & rgt).astype(int), np.ones(7, int), "same") > 0
+        F[line] &= ~dark[line]
+    if F.any():
+        v = reg.copy()
+        known = ~F
+        for _ in range(200):
+            p_ = np.pad(v, ((1, 1), (1, 1), (0, 0)), mode="edge")
+            avg = (p_[:-2, 1:-1] + p_[2:, 1:-1] + p_[1:-1, :-2] + p_[1:-1, 2:]) / 4
+            v[F] = avg[F]
+        out[ytop:yb, X0:X1] = v
+    if len(acols):  # at the band line: the card's own line carried straight in to the arch
+        for y in range(yb, YB):
+            row = out[y, X0:X1]
             l0, r0 = max(0, acols.min() - 18), min(X1 - X0 - 1, acols.max() + 18)
             row[l0:acols.min() + 2] = row[l0]
             row[acols.max() - 2:r0 + 1] = row[r0]
-        row[fix] = paper
+    for i, y in enumerate(range(Y0, YB)):
+        if i >= up_ref.shape[0]:
+            break
         m = arch[i, :X1 - X0, None]
-        out[y, X0:X1] = row * (1 - m) + up_ref[i, :X1 - X0] * m
+        out[y, X0:X1] = out[y, X0:X1] * (1 - m) + up_ref[i, :X1 - X0] * m
     low = ref_rows(YB, YE)
     n = min(low.shape[0], YE - YB)
     fe = np.clip(np.minimum(np.arange(X1 - X0), np.arange(X1 - X0)[::-1]) / 12.0, 0, 1)[None, :, None]
@@ -595,6 +631,7 @@ def fix_border(card, kind):
     corner[y0:_box_bottom(ai) - 6, :int(w * 0.17)] = True
     corner[y0:_box_bottom(ai) - 6, int(w * 0.83):] = True
     m[corner & ~(_paper(ri) & _paper(ai))] = 1.0
+    m[:, int(w * 0.32):int(w * 0.68)] = 0.0                            # the centre (gateway) is card 001's, set later
     if kind == "champion":                                             # this card's own shields stay
         keep = _shields(ai) | _shields(ri)
         m[keep] = 0.0
