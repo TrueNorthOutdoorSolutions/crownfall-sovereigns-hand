@@ -566,7 +566,7 @@ def clean_gate(card):
 
 
 # Cards whose GPT frame came back with a heavier bottom border (owner 2026-10-16): 052-060.
-BORDER_FIX = {"058": "spell", "059": "spell", "060": "spell"}  # 052-057 redrawn by GPT 2026-10-17
+BORDER_FIX = {"058": "spell", "059": "spell", "060": "spell", "061": "spell", "062": "spell", "063": "spell"}  # 052-057 redrawn by GPT 2026-10-17
 _BREF = {}
 
 
@@ -648,7 +648,7 @@ def fix_border(card, kind):
 # Cards 043-060 came back with a slightly larger / bolder footer line (owner 2026-10-17). Their footer line is rebuilt
 # from card 001's: same "Northern Summit Studios", same "Art: Jerian Latawiec", same size, same baseline; the card
 # number uses digits cut from cards 001-018 (the approved footer style), dropped into 001's digit slots.
-FOOTER_FIX = {f"{n:03d}" for n in range(2, 61)} | {"118", "251", "252"}  # every Common card after 001 (owner 2026-10-17: fix anything a little off)
+FOOTER_FIX = {f"{n:03d}" for n in range(2, 64)} | {"118", "251", "252"}  # every Common card after 001 (owner 2026-10-17: fix anything a little off)
 _GLYPHS = None
 
 

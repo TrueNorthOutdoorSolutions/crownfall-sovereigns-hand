@@ -1,0 +1,46 @@
+Make these 3 cards side by side, left to right, in one image. Card 1 is a SCHEME: copy the approved Steady, Sovereign. Not Yet. card (right-hand card of the attached 061-063 sheet) exactly for layout. Cards 2 and 3 are the FIRST RELIC cards and set the Relic template for the whole set (layout described below). Each card has its OWN text exactly as listed. Never copy text from one card to another.
+
+References: attach (1) the approved Set 2 sheet 061-063, (2) the approved Set 2 sheet 049-051 (Vessimer, ATLAS-Ω, Crystal Mite), (3) the ORIGINAL approved Set 2 Bramble sheet 001-003 as the master style reference. Same proportions, green-vine gold border, parchment text box and fonts on all three. BOTTOM-CENTRE SET SYMBOL = exactly the Bramble card's: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps down into it, the same size and height as on Bramble, on a thin dark band line, with the small white studio mountain logo below it. Only ONE arch, no glow halo. Footer line exactly like Bramble's (same size and font).
+BOTTOM EDGE: every card ends with the same dark rounded border as the Bramble card, fully visible with a little black space below it. No blue or teal line along the bottom edge, and never crop the bottom of the cards.
+Setting for all art: the vaults, tunnels, forges and sunken halls beneath the Arena, darker underground lighting, teal and violet glow, amber lantern and forge light. Style: cinematic painted illustration, like a still from an animated film; off-centre composition with strong diagonals; cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit.
+Markdown marks formatting, not printed asterisks. Keyword chips with italic exact reminders only when listed.
+
+CARD 1 (left): SCHEME
+Card number: S2-064 (064)
+Cost: 1 (GREEN gem)
+Name: The Tide Will Turn, with SCHEME in small caps underneath
+Top-right: the gold ◈ Scheme symbol. Type band: deep PURPLE laurel "SCHEME • Set face-down for free • spring on your rival's turn"
+Trait bar: left empty, right the rarity word COMMON (plain label)
+Text box: Spring when a rival champion attacks your Crown: if you have fewer shards than your rival, **draw 2 cards**.
+Flavour: “The tide will turn.”
+No Might/Guard shields
+Footer: 064/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: in a vast flooded underground hall, a wave of warm golden light rolls back across a battlefield where a few battered defenders still stand, pushing dark shadowy attackers back into the water; low wide angle, spray and dust lit gold against cold teal shadows.
+
+CARD 2 (middle): RELIC (first Relic card: this sets the Relic template)
+Card number: S2-065 (065)
+Layout: same frame, proportions, green-vine gold border, parchment text box, fonts, gateway and footer as the champion cards, with these Relic differences:
+- Top-left: GREEN hexagonal gem with the cost 1.
+- Name bar: name "Royal Blade" large; "RELIC • COMPONENT" in small caps underneath.
+- Top-right: NO stars. Instead a small bronze emblem of a sword crossed over a round shield.
+- Art: full width, same height as the champion art. The relic itself is the hero of the picture (no character holding it).
+- Band under the art: same shape as the Ascension band, but deep BRONZE with gold laurel leaves at both ends, text: RELIC • Attach to a champion you control
+- Trait bar: left "Component" (no icon), right a bronze "RELIC" label in place of the tier.
+- Text box: one rules line: **+2 Might.**  Then the thin divider with NO flavour text beneath it (leave the space empty).
+- Bottom-left: the orange Might shield with the sword icon showing "+2". NO Guard shield on the right (leave that corner as plain frame).
+- Footer: 065/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a plain, well-made royal longsword resting on a worn crimson velvet cushion on a stone pedestal inside a dark vault, a single warm lantern lighting the steel edge, dust in the air, other covered pedestals fading into teal shadow behind; close low angle on the blade.
+
+CARD 3 (right): RELIC
+Card number: S2-066 (066)
+Same Relic layout as card 2:
+- Top-left: GREEN gem with the cost 1.
+- Name: "Quicksteel Bow", with "RELIC • COMPONENT" underneath.
+- Top-right: the same bronze sword-and-shield Relic emblem.
+- Band: deep BRONZE laurel band "RELIC • Attach to a champion you control"
+- Trait bar: left "Component", right bronze "RELIC" label.
+- Keywords: Charge *(Can attack the turn it arrives.)*
+- Text box: the Charge keyword chip with its reminder, then the thin divider with NO flavour text beneath it.
+- NO Might shield and NO Guard shield (both bottom corners plain frame).
+- Footer: 066/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a light, elegant silver recurve bow hanging on an iron hook against a dark vault wall, faint teal light humming along its string as if it vibrates on its own, a few silver-fletched arrows in a rack below; side angle, one warm lantern.
