@@ -181,3 +181,7 @@ Sets 1 and 2 are Season 1 and share one frame: card 004's (champions, Monsters, 
 ## Locked details on every Season 1 card (owner 2026-10-16)
 
 From card 004 on every card, Sets 1 and 2: the trait bar and its tier plate (gold chevron + "TIER I…V", plates in card-template/tier-plate-*.png; each card's own icons and words are laid on the bar, narrowed when three traits need room); the bottom centre (Set 1 shield crest / Set 2 gateway, mountain, "Northern Summit Studios") and "Art: Jerian Latawiec". Each card keeps its own number + rarity letter. Tools: unify-frame.py (frame, crest, footer, green gems) and tier-plate.py, run by patch-sheet-letters.py (Set 1) and set2-emblem.py (Set 2).
+
+## Relic card template (LOCKED 2026-10-18: S2-065 Royal Blade / S2-066 Quicksteel Bow approved)
+
+Champion frame with: green cost gem; "RELIC • <SUBTYPE>" under the name (Component / Completed / Emblem / Artifact); bronze sword-over-round-shield emblem top-right (no stars); full-width champion-height art with the relic itself as the subject; deep BRONZE laurel band "RELIC • Attach to a champion you control"; trait bar left the subtype word, right a bronze "RELIC" label; rules text (keyword chips when listed), thin divider, no flavour; only the bonus the Relic gives appears as a shield (+N Might bottom-left orange, +N Guard bottom-right blue), other corner plain frame; Set 2 gateway; standard footer. Reference: card-art/set2/cards-064-066-tide-will-turn-royal-blade-quicksteel-bow.jpg.
