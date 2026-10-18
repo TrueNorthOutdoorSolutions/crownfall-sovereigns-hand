@@ -1,0 +1,38 @@
+Make these 3 cards side by side, left to right, in one image. All three are RELIC cards: copy the approved Relic cards on the attached 067-069 sheet (Arcane Ember, Iron Plate, Warding Cloak) exactly for layout: green cost gem, "RELIC • <SUBTYPE>" under the name (the subtype given for each card), bronze sword-and-shield emblem top-right, deep BRONZE laurel band "RELIC • Attach to a champion you control", trait bar left the subtype word and right bronze "RELIC" label, thin divider with NO flavour text, relic as the hero of the art. Each card has its OWN text exactly as listed. Never copy text from one card to another.
+
+References: attach (1) the approved Set 2 sheet 067-069, (2) the ORIGINAL approved Set 2 Bramble sheet 001-003 as the master style reference. Same proportions, green-vine gold border, parchment text box and fonts on all three. BOTTOM-CENTRE SET SYMBOL = exactly the Bramble card's: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps down into it, the same size and height as on Bramble (it must NOT reach up to the divider line), on a thin dark band line, with the small white studio mountain logo below it. Only ONE arch, no glow halo. Footer line exactly like Bramble's.
+BOTTOM EDGE: every card ends with the same dark rounded border as the Bramble card, fully visible with a little black space below it. No blue or teal line along the bottom edge, and never crop the bottom of the cards.
+Shields: only the bonus the Relic gives is shown: a +Might bonus = orange Might shield bottom-left with the sword icon; a +Guard bonus = blue Guard shield bottom-right with the shield icon. A corner with no bonus is plain frame.
+Setting for all art: the vaults, tunnels, forges and sunken halls beneath the Arena, darker underground lighting, teal and violet glow, amber lantern and forge light. Style: cinematic painted illustration, like a still from an animated film; off-centre composition with strong diagonals; cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit.
+DIVIDER: the thin line above the flavour space is the same thin TAN-BROWN line as on the Bramble card, one unbroken line. Never red or orange.
+Markdown marks formatting, not printed asterisks.
+
+CARD 1 (left)
+Card number: S2-070 (070)
+Cost: 2 (GREEN gem)
+Name: Titan Heart, with "RELIC • COMPONENT" underneath; trait bar left "Component"
+Text box: **+3 Guard.**
+Shields: blue Guard shield bottom-right showing "+3"; bottom-left plain frame
+Footer: 070/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a great stone heart the size of a shield resting in a cradle of iron chains in a deep vault, faint amber light pulsing slowly through the cracks in its surface like a heartbeat, dust trembling on the floor around it; low three-quarter angle, cool teal shadows.
+
+CARD 2 (middle)
+Card number: S2-071 (071)
+Cost: 1 (GREEN gem)
+Name: Fate Gauntlet, with "RELIC • COMPONENT" underneath; trait bar left "Component"
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush keyword chip with its reminder
+2. **+1 Might.**
+Shields: orange Might shield bottom-left showing "+1"; bottom-right plain frame
+Footer: 071/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: a clawed iron gauntlet lying open, palm up, on a dark stone altar, a round glowing violet lens set into the palm like an eye, faint threads of violet light curling from it; close angle, one warm lantern behind.
+
+CARD 3 (right)
+Card number: S2-072 (072)
+Cost: 2 (GREEN gem)
+Name: Colossus Edge, with "RELIC • COMPLETED" underneath; trait bar left "Completed"
+Text box: **+3 Might.**
+Shields: orange Might shield bottom-left showing "+3"; bottom-right plain frame
+Footer: 072/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: an enormous greatsword, taller than a man, driven point-first into the stone floor of an underground hall, its blade deeply notched from felling giants, a giant's broken helm lying at its base; low angle looking up the blade, warm forge light from one side.

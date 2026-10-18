@@ -653,7 +653,7 @@ def fix_border(card, kind):
 # Cards 043-060 came back with a slightly larger / bolder footer line (owner 2026-10-17). Their footer line is rebuilt
 # from card 001's: same "Northern Summit Studios", same "Art: Jerian Latawiec", same size, same baseline; the card
 # number uses digits cut from cards 001-018 (the approved footer style), dropped into 001's digit slots.
-FOOTER_FIX = {f"{n:03d}" for n in range(2, 67)} | {"118", "251", "252"}  # every Common card after 001 (owner 2026-10-17: fix anything a little off)
+FOOTER_FIX = {f"{n:03d}" for n in range(2, 70)} | {"118", "251", "252"}  # every Common card after 001 (owner 2026-10-17: fix anything a little off)
 _GLYPHS = None
 
 
