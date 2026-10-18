@@ -565,8 +565,7 @@ def clean_gate(card):
 
 
 # Cards whose GPT frame came back with a heavier bottom border (owner 2026-10-16): 052-060.
-BORDER_FIX = {"052": "champion", "053": "champion", "054": "spell", "055": "spell", "056": "spell",
-              "057": "spell", "058": "spell", "059": "spell", "060": "spell"}
+BORDER_FIX = {"058": "spell", "059": "spell", "060": "spell"}  # 052-057 redrawn by GPT 2026-10-17
 _BREF = {}
 
 
