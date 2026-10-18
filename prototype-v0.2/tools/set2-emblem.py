@@ -498,7 +498,7 @@ def clean_gate(card):
     # leftovers of the card's old gateway above the band line: coloured (gold / teal / brown) non-paper pixels outside
     # 001's arch, plus dark outline pixels hugging them. Letters (dark, away from any gold) are never touched, and
     # nothing is painted flat: removed pixels are filled smoothly from the paper around them.
-    ytop, yb = Y0 - int(h * 0.02), ybc - 6
+    ytop, yb = Y0 - int(h * 0.045), ybc - 6
     reg = out[ytop:yb, X0:X1].copy()
     ri = reg.astype(int)
     paper = (ri.min(axis=2) > 150) & ((ri.max(axis=2) - ri.min(axis=2)) < 80)
@@ -510,7 +510,7 @@ def clean_gate(card):
     am = np.asarray(Image.fromarray((am * 255).astype("uint8")).filter(ImageFilter.MaxFilter(5))) > 0
     # only a ring just outside 001's arch, and only clearly coloured pixels (gold / teal / glow): text is grey-black,
     # so no letter (core or soft edge) can ever be touched
-    ring = (np.asarray(Image.fromarray((am * 255).astype("uint8")).filter(ImageFilter.MaxFilter(25))) > 0) & ~am
+    ring = (np.asarray(Image.fromarray((am * 255).astype("uint8")).filter(ImageFilter.MaxFilter(61))) > 0) & ~am
     chroma = ri.max(axis=2) - ri.min(axis=2)
     F = ring & ~paper & (chroma >= 60)
     F = (np.asarray(Image.fromarray((F * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0) & ring & (chroma >= 35)
@@ -524,6 +524,7 @@ def clean_gate(card):
             break
         g = nxt
     F |= np.asarray(Image.fromarray((g * 255).astype("uint8")).filter(ImageFilter.MaxFilter(3))) > 0
+    F |= ring & ~paper          # any other stray mark near the arch (e.g. an old arch-top dash); text rows protected below
     F &= ring
     # flavour lines (dark letters on both sides of the arch's ring) are protected, row and 3 rows either side
     outside = dark & ~ring & ~am
