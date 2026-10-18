@@ -533,7 +533,12 @@ def clean_gate(card):
         lft = outside[:, :cols.min()].any(axis=1)
         rgt = outside[:, cols.max() + 1:].any(axis=1)
         line = np.convolve((lft & rgt).astype(int), np.ones(7, int), "same") > 0
-        F[line] &= ~dark[line]
+        F[line] = False
+    # text lines judged on the whole card width (letters left OR right of the gateway zone): never touched
+    wl = ink[ytop:yb, max(0, X0 - int(w * 0.25)):X0].any(axis=1)
+    wr = ink[ytop:yb, X1:min(w, X1 + int(w * 0.25))].any(axis=1)
+    tl = np.convolve((wl | wr).astype(int), np.ones(9, int), "same") > 0
+    F[tl] = False
     if F.any():
         v = reg.copy()
         known = ~F
@@ -760,6 +765,37 @@ def fix_footer(card, number):
     return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
 
 
+DIVIDER = np.array([200, 164, 124])   # card 001's thin tan divider
+
+
+def fix_divider(card):
+    """Repaint GPT's red/orange flavour divider in card 001's tan, as one unbroken 2-px line (owner 2026-10-18)."""
+    im = card.convert("RGB")
+    a = np.asarray(im).astype(float)
+    h, w, _ = a.shape
+    ai = a.astype(int)
+    R, G, B = ai[..., 0], ai[..., 1], ai[..., 2]
+    red = (R > 150) & (R - G > 45) & (R - B > 60)
+    y0, y1, x0, x1 = int(h * 0.70), int(h * 0.92), int(w * 0.08), int(w * 0.92)
+    frac = red[y0:y1, x0:x1].mean(axis=1)
+    rows = np.where(frac > 0.25)[0]
+    if not len(rows):
+        return im
+    rows = rows + y0
+    ys = [y for y in range(rows.min() - 1, rows.max() + 2)]
+    xs = np.where(red[rows.min():rows.max() + 1, x0:x1].any(axis=0))[0] + x0
+    lx, rx = xs.min(), xs.max()
+    paper_rows = [rows.min() - 4, rows.max() + 4]
+    for y in ys:
+        ref = a[paper_rows[0] if y <= (rows.min() + rows.max()) / 2 else paper_rows[1], lx:rx + 1]
+        m = red[y, lx:rx + 1] | ((R[y, lx:rx + 1] - B[y, lx:rx + 1]) > 40)
+        a[y, lx:rx + 1][m] = ref[m]
+    cy = int(round((rows.min() + rows.max()) / 2))
+    a[cy, lx:rx + 1] = DIVIDER
+    a[cy + 1, lx:rx + 1] = DIVIDER * 0.6 + a[cy + 1, lx:rx + 1] * 0.4
+    return Image.fromarray(np.clip(a, 0, 255).astype("uint8"))
+
+
 def main():
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
@@ -793,6 +829,7 @@ def main():
             done_card = stamp_rim(clean_gate(stamp_emblem(card)))
             if no in FOOTER_FIX:
                 done_card = fix_footer(done_card, no)
+            done_card = fix_divider(done_card)
             im.paste(done_card, b[:2])
         if check:
             print("would stamp", name); continue

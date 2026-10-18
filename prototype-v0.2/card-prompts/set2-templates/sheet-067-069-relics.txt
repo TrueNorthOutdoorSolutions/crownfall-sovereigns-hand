@@ -4,6 +4,7 @@ References: attach (1) the approved Set 2 sheet 064-066, (2) the ORIGINAL approv
 BOTTOM EDGE: every card ends with the same dark rounded border as the Bramble card, fully visible with a little black space below it. No blue or teal line along the bottom edge, and never crop the bottom of the cards.
 Shields: only the bonus the Relic gives is shown: a +Might bonus = orange Might shield bottom-left with the sword icon; a +Guard bonus = blue Guard shield bottom-right with the shield icon. A corner with no bonus is plain frame.
 Setting for all art: the vaults, tunnels, forges and sunken halls beneath the Arena, darker underground lighting, teal and violet glow, amber lantern and forge light. Style: cinematic painted illustration, like a still from an animated film; off-centre composition with strong diagonals; cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit.
+DIVIDER: the thin line above the flavour space is the same thin TAN-BROWN line as on the Bramble card, one unbroken line. Never red or orange.
 Markdown marks formatting, not printed asterisks.
 
 CARD 1 (left)
