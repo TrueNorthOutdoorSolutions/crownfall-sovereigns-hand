@@ -1,0 +1,22 @@
+Make ONE card, alone in the image (portrait, card proportions 63 x 88). This card becomes the LOCKED MASTER for every Set 2 champion card, so the frame must be perfect, clean and simple.
+
+Reference: attach the locked "Champion Card Template (LOCKED) - for ChatGPT" (the Set 1 Bramble cards). Copy its FRAME exactly: same proportions, same thin dark border with fine muted antique-gold edging and green vine accents, same parchment name plate, same green hexagonal cost gem, gold star top-right, full-width art window, trait bar with the gold chevron before the tier, parchment text box, thin tan divider, orange Might shield bottom-left, blue Guard shield bottom-right, same footer line. Same brightness and darkness as the reference. Not bright yellow, not thick stained-glass, not glowing. Nothing overlaps the name plate, gem or star box.
+The ONLY frame difference from the reference: the bottom-centre set symbol between the shields is the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. It sits below the divider and never touches it.
+The card ends with a dark rounded border all round, with a little black space outside it. Never crop the edges.
+Markdown marks formatting, not printed asterisks.
+
+Card number: S2-001 (001)
+Cost: 2 (GREEN gem)
+Name: Bramble
+Title: The Rootbreaker
+Stars: one gold star
+No Ascension band (art goes straight down to the trait bar)
+Trait bar: [green antlers icon] Verdant  |  [white powder keg with orange fuse icon] Sapper  > TIER I
+Text box, line by line:
+1. **Rootbreak.**
+2. **Arrival:** Break one of your rival's face-down Schemes.
+Thin tan divider, then centred italic flavour: “Roots first. Then questions.”
+Might | Guard: 1 | 3
+Footer: 001/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+
+Art brief: a narrow ancient brick tunnel seen from a low side angle; small Bramble (a small wooden creature wearing moss like armour, fists of knotted root) squeezes out through a crack in the wall, his roots prising the bricks apart, mortar dust drifting in a single beam of amber light from above; small, sneaky and determined. Cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. Not the Set 1 pose.

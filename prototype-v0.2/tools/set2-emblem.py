@@ -797,6 +797,11 @@ def fix_divider(card):
 
 
 def main():
+    import sys as _s
+    if "--legacy" not in _s.argv:
+        print("Set 2 restarted 2026-10-18: automatic patching is OFF (sheets are fixed in GPT, not here). "
+              "Old pipeline kept for reference; run with --legacy only on archived sheets.")
+        return
     """Stamp every Set 2 sheet from its untouched original (copied once to Old/Card Sheets (original)),
     then refresh the repo previews in prototype-v0.2/card-art/set2. Safe to run again after new sheets arrive."""
     import re
