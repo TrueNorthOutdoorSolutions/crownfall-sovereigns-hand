@@ -245,7 +245,7 @@ const SCENES: Record<string, [string, string, string]> = {
     'heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable',
   ],
   borin: [
-    'close three-quarter view at a roaring underground forge: Borin hammers a glowing broken relic blade on his anvil, sparks exploding across his basalt skin and copper-wire beard, the forge mouth the only warm light in the cavern',
+    'side view in a collapsed, half-flooded ancient forge deep underground: Borin wades waist-deep through dark water, hauling a huge broken relic blade out of the rubble with both hands, steam hissing where its still-glowing edge touches the water; his lantern hangs from his belt, cold teal shadows all around (NOT at an anvil, NOT hammering)',
     'low angle in a vast forge cavern: Borin lifts a freshly reforged Guardian relic from the quenching trough in a burst of steam, magma veins glowing along his arms, his live-forge hammer resting on his shoulder',
     'heroic wide shot of the great forge beneath the Arena: Borin as a walking furnace, beard of molten metal, bringing his hammer down on a colossal anvil as a shockwave of sparks and slag lights every chain and pillar; dwarf smiths shield their eyes far below',
   ],
