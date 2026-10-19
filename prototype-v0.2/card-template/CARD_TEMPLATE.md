@@ -185,3 +185,7 @@ From card 004 on every card, Sets 1 and 2: the trait bar and its tier plate (gol
 ## Relic card template (LOCKED 2026-10-18: S2-065 Royal Blade / S2-066 Quicksteel Bow approved)
 
 Champion frame with: green cost gem; "RELIC • <SUBTYPE>" under the name (Component / Completed / Emblem / Artifact); bronze sword-over-round-shield emblem top-right (no stars); full-width champion-height art with the relic itself as the subject; deep BRONZE laurel band "RELIC • Attach to a champion you control"; trait bar left the subtype word, right a bronze "RELIC" label; rules text (keyword chips when listed), thin divider, no flavour; only the bonus the Relic gives appears as a shield (+N Might bottom-left orange, +N Guard bottom-right blue), other corner plain frame; Set 2 gateway; standard footer. Reference: card-art/set2/cards-064-066-tide-will-turn-royal-blade-quicksteel-bow.jpg.
+
+## 1st Edition (owner rule 2026-10-18)
+
+Every set is printed first as a 1st Edition run, then as the standard restock; the only difference is the locked "1st Edition" seal (card-template/first-edition-seal.png = 00 Templates/1st Edition Seal (LOCKED).png) at the bottom-left of the art (66 px at 744 x 1039, top-left at 30, 500). Set 1: tools/first-edition.py writes <Set 1>/1st Edition/ (Individual Cards + Letter and 5x7 fronts); standard files untouched. Set 2: same, once its cards are done.
