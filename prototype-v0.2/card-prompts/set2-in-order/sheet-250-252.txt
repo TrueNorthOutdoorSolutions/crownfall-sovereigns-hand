@@ -1,4 +1,4 @@
-Make this card in the locked master template.
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
 
 References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
 Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-CARD
+CARD 1 (left)
 Card number: S2-250 (250)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Hexie
@@ -26,4 +26,46 @@ Crown 2: crown icon + 2 at the right end of the first text-box line (ability lin
 Might | Guard: 6 | 8
 Footer: 250/266 · M · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A chaos witch riding a floating cauldron, hexes orbiting like fireflies. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-251 (251)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Bramble
+Title: The Rootbreaker
+Stars: ★★★
+Ascension band: ASCENSION • from Bramble ★★
+Origin | Class | Tier: Verdant | Sapper | TIER I
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Rootbreak.**
+2. **Ascend: Scorch 2** each rival champion.
+3. Break every rival champion’s Relic and every face-down Scheme your rival has.
+4. **Block: Scorch 2** the attacker.
+Flavour: “Every wall has a root in it somewhere.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 7 | 9
+Footer: 251/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A miniature ancient world-tree warrior. Leaves orbit him, his eyes burn emerald, and Rootslam erupts as enormous spectral roots. SCENE: extreme low angle from far below: towering Bramble wraps thick roots around a massive carved stone pillar in a vast underground hall and tears it apart; the ceiling cracks open and a shaft of daylight pours down through the dust; tiny soldiers scatter at his feet for scale. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-252 (252)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Kira Volt
+Title: The Long Shot
+Stars: ★★★
+Ascension band: ASCENSION • from Kira Volt ★★
+Origin | Class | Tier: Voltborn | Sharpshooter | TIER I
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Charge *(Can attack the turn it arrives.)* · Reach *(Can block Flight.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. Reach *(Can block Flight.)*
+3. **Railshot.**
+4. **Attack:** Defeat a rival champion with Guard 4 or less.
+Flavour: “One shot. One spark. One less problem.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 7 | 6
+Footer: 252/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Floating arc batteries orbit her and every shot leaves a lightning trail. SCENE: heroic low-angle hero shot: Kira large in frame on the lip of a high ledge, coat whipping in the wind, arm raised with her pistol, the ring of arc batteries blazing around her, a lightning-trail shot tearing across the cavern behind her and lighting the whole place up at once; glorious and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

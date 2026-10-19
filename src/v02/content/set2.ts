@@ -190,7 +190,7 @@ const FLAVOUR: Record<string, [string | undefined, string]> = {
  *  new camera and mood, never the Set 1 composition. Champions without scenes yet fall back to LOOK. [★, ★★, ★★★] */
 const SCENES: Record<string, [string, string, string]> = {
   solara: [
-    'close side view in a dark collapsed side-passage: Solara kneels over a wounded explorer, her small hands glowing warm gold as the light seeps into the cracks of the stone around them; cold blue shadows, the only warmth is her light',
+    'three-quarter rear view in a pitch-dark flooded tunnel: Solara walks ahead on a line of stepping stones, holding her brass staff high so its tip glows like a small lantern, a few lost explorers following close behind her through the dark; the warm gold light falls only around them, everything beyond is cold blue shadow (standing and walking, NOT kneeling, NOT healing)',
     'high angle looking down a flooded stair: Solara wades down the steps holding her light above her head, the glow spreading across the water and lifting the fallen around her',
     'low wide shot of a vast dark cathedral-like cavern: Solara small in the centre-left as a dome of dawn light blooms outward from her, cracked pillars knitting back together, every shadow pushed to the edges',
   ],
