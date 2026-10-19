@@ -250,7 +250,7 @@ const SCENES: Record<string, [string, string, string]> = {
     'heroic wide shot of the great forge beneath the Arena: Borin as a walking furnace, beard of molten metal, bringing his hammer down on a colossal anvil as a shockwave of sparks and slag lights every chain and pillar; dwarf smiths shield their eyes far below',
   ],
   seren: [
-    'wide low angle at the mouth of a pitch-black cavern: small Seren steps forward holding her lantern staff high, a few tiny light-birds spilling out of its lantern and flitting ahead into the dark, lighting the first stalactites like stars',
+    'high angle looking straight down a deep vertical mine shaft: small Seren drifts gently downward into the dark on starlight, her cloak flaring upward, a spiral of tiny glowing light-birds circling around her and lighting the rough shaft walls as she descends; her staff held at her side, not raised (NOT holding the lantern up, NOT facing the camera)',
     'over-the-shoulder view from behind Seren on a rock spire above a vast underground chasm: her night-sky cloak billowing as she lifts her lantern and a real star inside it flares, revealing a hidden city of ruins far below',
     'heroic wide shot of an enormous cavern turned into a night sky: Seren floating at centre-left, constellations drawing themselves across the cave roof around her and a great flock of light-birds circling overhead, the whole underworld lit silver-blue; wondrous and vast',
   ],
