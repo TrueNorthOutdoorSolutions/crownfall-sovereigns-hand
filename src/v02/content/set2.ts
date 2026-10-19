@@ -285,7 +285,7 @@ const SCENES: Record<string, [string, string, string]> = {
     'heroic wide shot of a vast cavern: six-winged Valkara large in frame with a halo of blades, diving straight down through the cavern roof so the rock splits open and daylight pours in behind her; awe-inspiring and terrible',
   ],
   dreadmouth: [
-    'low angle at the edge of a black underground lake: Dreadmouth bursts up out of the water, its enormous jaw closing on the armoured leg of a Guardian that staggers on the shore, spray and teal glow everywhere, one warm lantern swinging on the Guardian belt',
+    'side view in a dry stone vault: Dreadmouth erupts up through the cracking flagstone floor, its enormous jaw clamping onto the armoured leg of a staggering Guardian, broken slabs and dust flying, one warm lantern swinging from the Guardian belt (no water, NOT a lake)',
     'side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight',
     'heroic wide shot of a vast sunken hall: Dreadmouth rising from the lake larger than the hall pillars, jaw opened wide enough to swallow a Guardian whole as torches gutter and tiny delvers flee along the walkways; terrifying and unstoppable',
   ],
