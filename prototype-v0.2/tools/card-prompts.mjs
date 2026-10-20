@@ -147,6 +147,7 @@ const SET2_HEAD = [
   'Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.',
   'Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.',
   'Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.',
+  'TRAIT ICONS: also attach "Set 2 Trait Icons (LOCKED) - for ChatGPT.png" and copy every Origin and Class icon EXACTLY from it: same shape, colour and size on every card. Never redraw, restyle or substitute an icon.',
   'Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.', '',
 ];
 const order = [];
