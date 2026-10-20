@@ -10,47 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-205 (205)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Gaia Prime
-Title: Root of the Arena
-Stars: ★★★
-Ascension band: ASCENSION • from Gaia Prime ★★
-Origin | Class | Tier: Verdant | Restorer | TIER IV
-Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
-Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Deep Roots.**
-3. **Ascend:** Mend 1.
-4. Summon two Wild Saplings.
-Flavour: “What breaks, I mend.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 13
-Footer: 205/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking forest; the ground turns green where she stands. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-206 (206)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Lady Volt
-Title: Storm in the Deep
-Stars: ★★★
-Ascension band: ASCENSION • from Lady Volt ★★
-Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Charge *(Can attack the turn it arrives.)*
-Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. **Chain Lightning.**
-3. **Attack: Scorch 3** a rival champion, then Scorch 2 a rival champion, then Scorch 1 a rival champion.
-Flavour: “Lightning never needs a second shot.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 11 | 9
-Footer: 206/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: She is lightning with a sword; thunder arrives a heartbeat after her. SCENE: heroic low angle in a vast flooded cathedral cavern: Lady Volt raises her rapier overhead and every pool in the cavern erupts with branching lightning toward her blade, her coat whipping in the storm, foes thrown back across the water. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-207 (207)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Vessimer
 Title: Alchemist of Relics
 Stars: ★★★
@@ -66,6 +25,50 @@ Text box, line by line:
 Flavour: “Everything transmutes.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 9 | 10
-Footer: 207/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 205/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A mobile laboratory of floating flasks and glowing tubes. SCENE: heroic wide shot of a vast relic vault: Vessimer stands in a ring of floating relics that melt and reforge in mid-air into one shining artefact above his raised gloved hand, rivers of glowing tincture running across the floor runes (Vessimer always wears his dark plague-doctor beaked mask with round glowing green lenses and a wide-brimmed hat; his face is never shown). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 2 (middle)
+Card number: S2-206 (206)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Aurex
+Title: Bane of the Guardians
+Stars: ★★
+Ascension band: ASCENSION • from Aurex ★
+Origin | Class | Tier: Wyrmblood | Ascendant · Hunter | TIER V
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **GUARDIAN’S BANE.**
+4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+5. When Aurex defeats a champion on your turn, Scorch 2 each rival champion.
+Flavour: “Worth it? Perhaps.”
+Crown 2: none
+Might | Guard: 9 | 9
+Footer: 206/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Molten armour grows over his wings; fire leaks from every seam. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-207 (207)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Noctara
+Title: Shadow Beneath the Crown
+Stars: ★★
+Ascension band: ASCENSION • from Noctara ★
+Origin | Class | Tier: Umbral | Ascendant · Seer | TIER V
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Seer: indigo crystal orb
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **ECLIPSE SIGHT.**
+4. Your Schemes cost 1 less to spring.
+5. **Ascend:** Defeat each rival champion with Guard 2 or less.
+Flavour: “Nothing remains.”
+Crown 2: none
+Might | Guard: 8 | 10
+Footer: 207/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her crown becomes an eclipse; small voids orbit her. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

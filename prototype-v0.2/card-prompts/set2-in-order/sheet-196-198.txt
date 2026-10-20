@@ -9,27 +9,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-196 (196)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Astryon
-Title: Blade That Fell Beneath
-Stars: ★★
-Ascension band: ASCENSION • from Astryon ★
-Origin | Class | Tier: Astral | Gladiator | TIER IV
-Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
-Keywords: Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Starfall Duel.**
-3. +2 Might while attacking a champion.
-4. When Astryon defeats a champion on your turn, draw a card.
-Flavour: “Another star cut down.”
-Crown 2: none
-Might | Guard: 9 | 6
-Footer: 196/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. SCENE: close side view on a narrow underground bridge: Astryon parries three attackers at once, his seven blades orbiting him as a spinning wall of steel, sparks frozen in the air. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-197 (197)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Astryon
 Title: Blade That Fell Beneath
@@ -46,11 +25,11 @@ Text box, line by line:
 Flavour: “Seven blades. One winner.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 9
-Footer: 197/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 196/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Cosmic armour, six spectral swords orbiting him and a starfield aura. His ultimate turns the arena to space. SCENE: heroic wide shot of a cavern ceiling cracked open to reveal a single star: Astryon rises into the shaft of starlight with all seven blades fanned behind him like wings, the fallen Guardian below him; glorious and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-198 (198)
+CARD 2 (middle)
+Card number: S2-197 (197)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Queen Vespera
 Title: Empress of the Underhalls
@@ -66,6 +45,28 @@ Text box, line by line:
 Flavour: “The shadows bow. So will you.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 9 | 10
-Footer: 198/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 197/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A throne of night rises behind her; her crown is an eclipse. SCENE: heroic wide shot of a vast underhall turned into her court: Vespera stands on a staircase of shadow above a sea of kneeling shades, every thread of darkness in the cavern gathered into her raised fist; regal and terrifying. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-198 (198)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Titan Rho
+Title: Vault Bastion
+Stars: ★★★
+Ascension band: ASCENSION • from Titan Rho ★★
+Origin | Class | Tier: Gearbound | Sentinel | TIER IV
+Trait icons: Gearbound: gold gear; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. Reach *(Can block Flight.)*
+3. **Bastion Protocol.**
+4. Rival champions attacking your Crown get −2 Might.
+5. **Block: Shield** Titan Rho.
+Flavour: “Bastion holds.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 13
+Footer: 198/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A walking citadel with a garrison of tiny brass drones. SCENE: heroic wide shot of the deepest vault hall: Titan Rho fully unfolded into a walking fortress, every cannon tower firing at once up a vast stone stairwell, its reactor crown blazing, the whole underground army advancing in its shadow. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

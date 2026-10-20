@@ -10,28 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-184 (184)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Rask
-Title: Champion of the Underpits
-Stars: ★★★
-Ascension band: ASCENSION • from Rask ★★
-Origin | Class | Tier: Wildkin | Gladiator | TIER II
-Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
-Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
-Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. Ambush *(Attacking a sideways champion, it strikes first.)*
-3. **Pit Fighter.**
-4. +2 Might while attacking a champion.
-5. Once per turn, when Rask defeats a champion on your turn, ready Rask.
-Flavour: “The pit chooses its king.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 8
-Footer: 184/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: The undefeated: golden scales and a cloak of every champion he has bested. SCENE: heroic low-angle hero shot of the packed Underpits arena: golden-scaled Rask large in frame raising his gladius in triumph on top of a defeated Guardian, cloak of fallen champions streaming behind him, the roaring crowd lit by a ring of fire; glorious and undefeated. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-185 (185)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Dreadmouth
 Title: Devourer of Guardians
 Stars: ★★★
@@ -47,11 +25,11 @@ Text box, line by line:
 Flavour: “Even Guardians sink.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 9
-Footer: 185/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 184/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A leviathan of the dead: an entire graveyard of teeth. SCENE: heroic wide shot of a vast sunken hall: Dreadmouth rising from the lake larger than the hall pillars, jaw opened wide enough to swallow a Guardian whole as torches gutter and tiny delvers flee along the walkways; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-186 (186)
+CARD 2 (middle)
+Card number: S2-185 (185)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Professor Spark
 Title: Relic Inventor
@@ -68,6 +46,29 @@ Text box, line by line:
 Flavour: “Science, applied loudly!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 8 | 9
-Footer: 186/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 185/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: He sits in a walking workshop that builds turrets on the fly. SCENE: heroic wide shot of a vast cavern foundry: Spark on a gantry at centre-left conducting a whole army of relic turrets with a glowing wrench like a baton, every barrel firing in a storm of light while tiny engineers cheer below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-186 (186)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Orion
+Title: Star-Charter of the Deep
+Stars: ★★★
+Ascension band: ASCENSION • from Orion ★★
+Origin | Class | Tier: Astral | Sharpshooter | TIER III
+Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Reach *(Can block Flight.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **Charted Shot.**
+4. **Ascend: Scorch 2** each rival champion.
+5. **Attack: Scorch 1** a rival champion.
+6. Scorch 3 each rival champion with Flight.
+Flavour: “No dark is deep enough to hide from the sky.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 8
+Footer: 186/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A hunter of gods: his arrows are comets. SCENE: heroic low angle in a vast cavern: Orion fires straight up and the arrow bursts into a ceiling of new constellations across the cave roof, lighting the whole underworld silver-blue while he stands on a broken bridge below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

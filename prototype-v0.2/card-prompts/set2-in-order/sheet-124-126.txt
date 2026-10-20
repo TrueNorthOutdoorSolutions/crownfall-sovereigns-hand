@@ -10,26 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-124 (124)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Maeve
-Title: Broker of Relics
-Stars: ★★
-Ascension band: ASCENSION • from Maeve ★
-Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
-Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Sleight of Thorns.**
-2. **Ascend:** Your rival discards a card at random.
-3. Draw a card.
-Flavour: “A fair trade. For me.”
-Crown 2: none
-Might | Guard: 5 | 7
-Footer: 124/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Antlers of bone and branch; her shadow is a tree. SCENE: high angle on a rope bridge over a fungus-lit cavern: Maeve escapes with a sack of stolen relics as living roots from her staff tangle the guards chasing her, green witch-light flaring. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-125 (125)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Ronin Zero
 Title: Blade Beneath the Arena
 Stars: ★★
@@ -45,11 +25,11 @@ Text box, line by line:
 Flavour: “Again.”
 Crown 2: none
 Might | Guard: 7 | 6
-Footer: 125/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 124/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Arc lines trace his frame; his blade hums. SCENE: top-down view onto the flooded pit: Ronin Zero mid-spin between three fallen opponents, his katana leaving a bright arc of rippling water around him, one warm lantern swinging overhead. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-126 (126)
+CARD 2 (middle)
+Card number: S2-125 (125)
 Cost: 3 (GREEN gem)
 Name: Morrow
 Title: Lord of the Buried Halls
@@ -65,6 +45,27 @@ Text box, line by line:
 Flavour: “Death is a waste of soldiers.”
 Crown 2: none
 Might | Guard: 2 | 3
-Footer: 126/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 125/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A gaunt necromancer with a bone scythe. NEW pose and action, never the Set 1 pose or composition: raising soldiers from open stone tombs, ghostly chains of light binding them to his will. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-126 (126)
+Cost: 4 (GREEN gem)
+Name: Captain Blacktide
+Title: Plunderer of the Vault
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Riftborn | Rogue | TIER III
+Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
+Keywords: Reach *(Can block Flight.)*
+Text box, line by line:
+1. Reach *(Can block Flight.)*
+2. **Plunder.**
+3. **Attack:** Take a Relic from a rival champion and attach it to Captain Blacktide.
+4. If you can’t, Scorch 1 a rival champion.
+Flavour: “Toll's due, landlubber.”
+Crown 2: none
+Might | Guard: 4 | 3
+Footer: 126/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dimensional pirate captain with a hand cannon. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

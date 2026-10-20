@@ -1,5 +1,5 @@
 {
- "_note": "Set 2 cards already printed or in art production (owner, 2026-10-12). Their numbers, rarity, text and stats are FROZEN: master-list.mjs pins these numbers and validate.mjs fails if any of them drift. 032 Elara is being re-arted but keeps its number and rarity.",
+ "_note": "Set 2 cards drawn since the restart (2026-10-18): 001-057. Numbers, rarity, text and stats FROZEN: master-list.mjs pins these numbers and validate.mjs fails if any drift. Previous (archived) printings removed.",
  "cards": {
   "bramble@2": {
    "no": 1,
@@ -364,38 +364,269 @@
    "text": "+1 Might while attacking a champion.",
    "flavour": "One. Two. Three."
   },
-  "kira@2-2": {
-   "no": 118,
-   "rarity": "uncommon",
-   "cost": "↑0",
-   "might": "4",
+  "hex3@2": {
+   "no": 34,
+   "rarity": "common",
+   "cost": "3",
+   "might": "2",
    "guard": "3",
    "keywords": "",
-   "ability": "Railshot",
-   "text": "Attack: Scorch 2 a rival champion.",
-   "flavour": "Hold still. Thank you."
+   "ability": "Core Surge",
+   "text": "Whenever you cast a Tactic, Shield HEX-3.",
+   "flavour": "Reactor stable. Mostly."
   },
-  "bramble@2-3": {
-   "no": 251,
-   "rarity": "mythic",
-   "cost": "↑1",
-   "might": "7",
-   "guard": "9",
+  "valkara@2": {
+   "no": 35,
+   "rarity": "common",
+   "cost": "3",
+   "might": "3",
+   "guard": "3",
+   "keywords": "Flight",
+   "ability": "Foresight Verdict",
+   "text": "Your Schemes cost 1 less to spring.",
+   "flavour": "Judgment comes from above."
+  },
+  "dreadmouth@2": {
+   "no": 36,
+   "rarity": "common",
+   "cost": "4",
+   "might": "5",
+   "guard": "4",
    "keywords": "",
-   "ability": "Rootbreak",
-   "text": "Ascend: Scorch 2 each rival champion. Break every rival champion’s Relic and every face-down Scheme your rival has. Block: Scorch 2 the attacker.",
-   "flavour": "Every wall has a root in it somewhere."
+   "ability": "Guardian Feast",
+   "text": "+2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.",
+   "flavour": "Hungry…"
   },
-  "kira@2-3": {
-   "no": 252,
-   "rarity": "mythic",
+  "spark@2": {
+   "no": 37,
+   "rarity": "common",
+   "cost": "3",
+   "might": "2",
+   "guard": "3",
+   "keywords": "",
+   "ability": "Prototype",
+   "text": "Arrival: Attach a Relic costing 2 or less from your hand to Professor Spark for free.",
+   "flavour": "Excessive voltage? Never!"
+  },
+  "orion@2": {
+   "no": 38,
+   "rarity": "common",
+   "cost": "3",
+   "might": "4",
+   "guard": "2",
+   "keywords": "Reach",
+   "ability": "Charted Shot",
+   "text": "Attack: Scorch 1 a rival champion.",
+   "flavour": "I have a star with your name."
+  },
+  "maeve@2": {
+   "no": 39,
+   "rarity": "common",
+   "cost": "3",
+   "might": "2",
+   "guard": "4",
+   "keywords": "",
+   "ability": "Sleight of Thorns",
+   "text": "Arrival: Take a Relic from a rival champion and attach it to Maeve. If you can’t, Scorch 1 a rival champion.",
+   "flavour": "Every gift has a price."
+  },
+  "ronin@2": {
+   "no": 40,
+   "rarity": "common",
+   "cost": "3",
+   "might": "4",
+   "guard": "2",
+   "keywords": "Charge",
+   "ability": "Arena Draw",
+   "text": "+1 Might while attacking a champion.",
+   "flavour": "Frame ready."
+  },
+  "ignara@2": {
+   "no": 41,
+   "rarity": "common",
+   "cost": "3",
+   "might": "3",
+   "guard": "4",
+   "keywords": "",
+   "ability": "Forgefire",
+   "text": "Whenever you cast a Tactic, Scorch 1 a rival champion.",
+   "flavour": "Everywhere else is cold."
+  },
+  "ignara@2-2": {
+   "no": 42,
+   "rarity": "common",
    "cost": "↑1",
-   "might": "7",
-   "guard": "6",
-   "keywords": "Charge, Reach",
-   "ability": "Railshot",
-   "text": "Attack: Defeat a rival champion with Guard 4 or less.",
-   "flavour": "One shot. One spark. One less problem."
+   "might": "6",
+   "guard": "7",
+   "keywords": "",
+   "ability": "Forgefire",
+   "text": "Whenever you cast a Tactic, Scorch 1 a rival champion.",
+   "flavour": "Feed the fire."
+  },
+  "knuckle@2": {
+   "no": 43,
+   "rarity": "common",
+   "cost": "4",
+   "might": "5",
+   "guard": "5",
+   "keywords": "",
+   "ability": "Pit King’s Right",
+   "text": "+2 Might while attacking a champion.",
+   "flavour": "Surface fighters. Cute."
+  },
+  "astryon@2": {
+   "no": 44,
+   "rarity": "common",
+   "cost": "5",
+   "might": "6",
+   "guard": "4",
+   "keywords": "Flight",
+   "ability": "Starfall Duel",
+   "text": "+2 Might while attacking a champion.",
+   "flavour": "The eighth star awaits."
+  },
+  "vespera@2": {
+   "no": 45,
+   "rarity": "common",
+   "cost": "4",
+   "might": "3",
+   "guard": "4",
+   "keywords": "",
+   "ability": "Underhall Court",
+   "text": "Arrival: Summon a Court Shade. Your tokens have +1 Might.",
+   "flavour": "Court is in session."
+  },
+  "titanrho@2": {
+   "no": 46,
+   "rarity": "common",
+   "cost": "5",
+   "might": "3",
+   "guard": "8",
+   "keywords": "Bulwark",
+   "ability": "Bastion Protocol",
+   "text": "Rival champions attacking your Crown get −1 Might.",
+   "flavour": "City status: unknown. Defending anyway."
+  },
+  "titanrho@2-2": {
+   "no": 47,
+   "rarity": "common",
+   "cost": "↑1",
+   "might": "6",
+   "guard": "10",
+   "keywords": "Bulwark, Reach",
+   "ability": "Bastion Protocol",
+   "text": "Rival champions attacking your Crown get −1 Might.",
+   "flavour": "Perimeter held."
+  },
+  "ladyvolt@2": {
+   "no": 48,
+   "rarity": "common",
+   "cost": "4",
+   "might": "5",
+   "guard": "3",
+   "keywords": "Charge",
+   "ability": "Chain Lightning",
+   "text": "Attack: Scorch 1 a rival champion, then Scorch 1 a rival champion.",
+   "flavour": "Shall we duel?"
+  },
+  "vessimer@2": {
+   "no": 49,
+   "rarity": "common",
+   "cost": "4",
+   "might": "3",
+   "guard": "4",
+   "keywords": "",
+   "ability": "Transmute",
+   "text": "Your Relics cost 1 less. Arrival: Return a Relic from your Fallen pile to your hand.",
+   "flavour": "A new experiment!"
+  },
+  "atlas@2": {
+   "no": 50,
+   "rarity": "common",
+   "cost": "6",
+   "might": "4",
+   "guard": "10",
+   "keywords": "Ascendant, Bulwark",
+   "ability": "VAULT PROTOCOL",
+   "text": "Rival champions attacking your Crown get −1 Might.",
+   "flavour": "Awaiting orders."
+  },
+  "monster-mite": {
+   "no": 51,
+   "rarity": "common",
+   "cost": "1",
+   "might": "1",
+   "guard": "3",
+   "keywords": "",
+   "ability": "",
+   "text": "When Crystal Mite is defeated, its rival draws a card.",
+   "flavour": ""
+  },
+  "monster-shardling": {
+   "no": 52,
+   "rarity": "common",
+   "cost": "1",
+   "might": "2",
+   "guard": "1",
+   "keywords": "",
+   "ability": "",
+   "text": "When Shardling is defeated, its rival gains 1 Command.",
+   "flavour": ""
+  },
+  "monster-hound": {
+   "no": 53,
+   "rarity": "common",
+   "cost": "2",
+   "might": "2",
+   "guard": "2",
+   "keywords": "Charge",
+   "ability": "",
+   "text": "When Rift Hound is defeated, its rival draws a card.",
+   "flavour": ""
+  },
+  "hex_war": {
+   "no": 54,
+   "rarity": "common",
+   "cost": "2",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Your champions get +2 Might this turn.",
+   "flavour": ""
+  },
+  "hex_creation": {
+   "no": 55,
+   "rarity": "common",
+   "cost": "2",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Summon two Crownlings.",
+   "flavour": ""
+  },
+  "stirs_beneath": {
+   "no": 56,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Return a ★ champion from your Fallen pile to your hand. Draw a card.",
+   "flavour": "Something stirs beneath the Arena."
+  },
+  "treasure_is_yours": {
+   "no": 57,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Return a Relic from your Fallen pile to your hand. Draw a card.",
+   "flavour": "Its treasure is yours."
   }
  }
 }

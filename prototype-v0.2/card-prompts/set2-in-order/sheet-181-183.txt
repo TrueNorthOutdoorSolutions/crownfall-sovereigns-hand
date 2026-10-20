@@ -9,27 +9,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-181 (181)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Thorn
-Title: Rot Beneath the Stone
-Stars: ★★★
-Ascension band: ASCENSION • from Thorn ★★
-Origin | Class | Tier: Verdant | Sapper | TIER II
-Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Creeping Rot.**
-2. **Ascend:** Break one of your rival’s face-down Schemes at random.
-3. Break a rival champion’s Relic.
-4. Scorch 2 each rival champion.
-Flavour: “I grow in the cracks you can’t see.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 8
-Footer: 181/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bloom colossus whose petals exhale toxic spores. SCENE: heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-182 (182)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Dax Meridian
 Title: Guardian Hunter
@@ -47,11 +26,11 @@ Text box, line by line:
 Flavour: “Big target. Easy shot.”
 Crown 2: none
 Might | Guard: 6 | 4
-Footer: 182/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 181/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rift cracks glow along his revolver; his coat shows another sky. SCENE: dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-183 (183)
+CARD 2 (middle)
+Card number: S2-182 (182)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Elara
 Title: Healer of the Fallen Deep
@@ -67,6 +46,28 @@ Text box, line by line:
 Flavour: “No one gets left in the dark.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 6 | 10
-Footer: 183/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 182/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: An angel of the field hospital, light pouring from her open tome. SCENE: heroic wide shot of a cave-in: Elara stands alone in the breach of a collapsing hall, both arms raised as a vast wall of light from her open tome holds back a falling ceiling of stone while the last of the wounded escape behind her; no wings, no halo. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-183 (183)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Rask
+Title: Champion of the Underpits
+Stars: ★★★
+Ascension band: ASCENSION • from Rask ★★
+Origin | Class | Tier: Wildkin | Gladiator | TIER II
+Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
+Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. Ambush *(Attacking a sideways champion, it strikes first.)*
+3. **Pit Fighter.**
+4. +2 Might while attacking a champion.
+5. Once per turn, when Rask defeats a champion on your turn, ready Rask.
+Flavour: “The pit chooses its king.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 8
+Footer: 183/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The undefeated: golden scales and a cloak of every champion he has bested. SCENE: heroic low-angle hero shot of the packed Underpits arena: golden-scaled Rask large in frame raising his gladius in triumph on top of a defeated Guardian, cloak of fallen champions streaming behind him, the roaring crowd lit by a ring of fire; glorious and undefeated. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

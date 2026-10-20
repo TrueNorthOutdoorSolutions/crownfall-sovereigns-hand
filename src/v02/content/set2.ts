@@ -429,7 +429,7 @@ const CARD_RARITY: Record<string, [R, R, R]> = {
   elysian: ['uncommon', 'elite', 'epic'],
   varr: ['uncommon', 'uncommon', 'elite'],
   veilwalker: ['elite', 'elite', 'epic'],
-  gaia: ['uncommon', 'uncommon', 'elite'],
+  gaia: ['uncommon', 'uncommon', 'epic'], // 2026-10-20 owner audit: ★★★ Mend + two tokens (was elite)
   ladyvolt: ['common', 'uncommon', 'elite'],
   vessimer: ['common', 'uncommon', 'elite'],
   aurex: ['uncommon', 'elite', 'mythic'],
@@ -923,7 +923,7 @@ const SPELL_RARITY: Record<string, NonNullable<SpellDef['rarity']>> = {
   hex_war: 'common',
   hex_fortune: 'uncommon',
   hex_creation: 'common',
-  hex_void: 'uncommon',
+  hex_void: 'elite', // 2026-10-20 owner audit: +3 all for 0 (was uncommon)
   hex_evolution: 'elite',
   wild_encounter: 'uncommon',
   boss_encounter: 'uncommon',
@@ -936,13 +936,13 @@ const SPELL_RARITY: Record<string, NonNullable<SpellDef['rarity']>> = {
   arena_yields: 'elite',
   vault_remembers: 'common',
   old_power: 'elite',
-  vault_opens: 'elite',
+  vault_opens: 'epic', // 2026-10-20 owner audit: draw 3 for 2 (was elite)
   wounded_choose: 'common',
   crown_divided: 'elite',
   guardian_enrages: 'uncommon',
   head_splits: 'uncommon',
   forged_in_fire: 'uncommon',
-  tide_will_turn: 'common',
+  tide_will_turn: 'uncommon', // 2026-10-20 owner audit: conditional draw 2 (was common)
   crown_in_danger: 'elite',
   steel_will_answer: 'common',
   cannot_be_touched: 'common',

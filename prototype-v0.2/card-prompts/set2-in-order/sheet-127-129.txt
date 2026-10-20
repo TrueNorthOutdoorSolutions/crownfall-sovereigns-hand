@@ -10,27 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-127 (127)
 Cost: 4 (GREEN gem)
-Name: Captain Blacktide
-Title: Plunderer of the Vault
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Riftborn | Rogue | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
-Keywords: Reach *(Can block Flight.)*
-Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Plunder.**
-3. **Attack:** Take a Relic from a rival champion and attach it to Captain Blacktide.
-4. If you can’t, Scorch 1 a rival champion.
-Flavour: “Toll's due, landlubber.”
-Crown 2: none
-Might | Guard: 4 | 3
-Footer: 127/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dimensional pirate captain with a hand cannon. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-128 (128)
-Cost: 4 (GREEN gem)
 Name: Aurelia
 Title: Leader of the Descent
 Stars: ★
@@ -45,11 +24,11 @@ Text box, line by line:
 Flavour: “Rally to me!”
 Crown 2: none
 Might | Guard: 3 | 5
-Footer: 128/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 127/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A royal battle commander in blue and gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-CARD 3 (right)
-Card number: S2-129 (129)
+CARD 2 (middle)
+Card number: S2-128 (128)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Aurelia
 Title: Leader of the Descent
@@ -64,6 +43,25 @@ Text box, line by line:
 Flavour: “Down we go. Together.”
 Crown 2: none
 Might | Guard: 6 | 7
-Footer: 129/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 128/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A standard bearer marches behind her; her circlet glows. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-129 (129)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Knuckle
+Title: King Under the Pit
+Stars: ★★
+Ascension band: ASCENSION • from Knuckle ★
+Origin | Class | Tier: Titanborn | Gladiator | TIER III
+Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Pit King’s Right.**
+2. +2 Might while attacking a champion.
+Flavour: “Who’s next?”
+Crown 2: none
+Might | Guard: 8 | 7
+Footer: 129/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Championship belts and cracks of gold in his granite skin. SCENE: side view in a flooded fight cellar: Knuckle catches an incoming iron mace with one taped fist, the shockwave splashing the dark water outward in a ring, the attacker thrown off balance. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

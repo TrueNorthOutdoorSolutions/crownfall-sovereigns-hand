@@ -10,26 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-193 (193)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Aurelia
-Title: Leader of the Descent
-Stars: ★★★
-Ascension band: ASCENSION • from Aurelia ★★
-Origin | Class | Tier: Kingdom | Delver | TIER III
-Trait icons: Kingdom: blue crown; Delver: amber lantern
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Banner of the Descent.**
-2. **Ascend:** Draw 2 cards.
-3. Ready another champion you control.
-Flavour: “The Kingdom goes where I lead.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 9 | 10
-Footer: 193/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Crowned in light, her banner becomes a column of gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-194 (194)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Knuckle
 Title: King Under the Pit
 Stars: ★★★
@@ -45,11 +25,11 @@ Text box, line by line:
 Flavour: “Kneel, or get knocked down.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 11 | 10
-Footer: 194/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 193/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A living landslide with fists like siege rams. SCENE: heroic low angle in the vast Underpits: Knuckle smashes both fists down and the whole pit floor splits into glowing cracks, opponents flung back, the crowd on the cave ledges roaring under a ring of fire. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-195 (195)
+CARD 2 (middle)
+Card number: S2-194 (194)
 Cost: 4 (GREEN gem)
 Name: Zyrak
 Title: Shard of the Broken Vault
@@ -65,6 +45,27 @@ Text box, line by line:
 Flavour: “* refracts politely *”
 Crown 2: none
 Might | Guard: 2 | 3
-Footer: 195/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 194/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A crystal alien with a floating prism. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-195 (195)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Astryon
+Title: Blade That Fell Beneath
+Stars: ★★
+Ascension band: ASCENSION • from Astryon ★
+Origin | Class | Tier: Astral | Gladiator | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starfall Duel.**
+3. +2 Might while attacking a champion.
+4. When Astryon defeats a champion on your turn, draw a card.
+Flavour: “Another star cut down.”
+Crown 2: none
+Might | Guard: 9 | 6
+Footer: 195/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. SCENE: close side view on a narrow underground bridge: Astryon parries three attackers at once, his seven blades orbiting him as a spinning wall of steel, sparks frozen in the air. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

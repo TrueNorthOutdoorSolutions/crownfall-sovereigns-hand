@@ -221,12 +221,14 @@ for (const [id, p] of Object.entries(printed2)) {
   const cost = c.kind === 'ascension' ? `↑${c.cost}` : String(c.cost);
   check(!!c && row?.no === p.no, `frozen: printed ${id} keeps number ${String(p.no).padStart(3, '0')}`);
   check(c?.rarity === p.rarity, `frozen: printed ${id} keeps rarity ${p.rarity}`);
-  check(c?.text === p.text && cost === p.cost && String(c.might) === p.might && String(c.guard) === p.guard && c.keywords.join(', ') === p.keywords && (c.text ? c.ability : '') === p.ability,
+  const s = (v) => (v === undefined || v === null ? '' : String(v));
+  check(c?.text === p.text && cost === p.cost && s(c.might) === p.might && s(c.guard) === p.guard && (c.keywords ?? []).join(', ') === p.keywords && (c.text && c.ability ? c.ability : '') === p.ability,
     `frozen: printed ${id} keeps its text, stats, keywords and ability name`);
-  const fl = c.line.flavour?.[c.star];
+  const fl = c.line ? c.line.flavour?.[c.star] : c.flavour;
   if (fl) check(fl === p.flavour, `frozen: printed ${id} keeps its flavour`);
 }
-for (const id of AUDIT_PROPOSED_2026_10_12) check(!printed2[id] && !!CARDS[id], `frozen: audit change ${id} is an unprinted Set 2 card`);
+// Set 2 art restarted 2026-10-18: audit-changed cards may now be among the drawn (frozen) cards; they only have to exist.
+for (const id of AUDIT_PROPOSED_2026_10_12) check(!!CARDS[id], `frozen: audit change ${id} is a Set 2 card`);
 // Set 2 ability names never reuse a Set 1 ability name (audit 2026-10-12).
 const s1Abilities = new Set(champLines.filter((l) => (l.set ?? 1) === 1).flatMap((l) => l.forms.map((f) => f.ability)).filter(Boolean));
 for (const l of champLines.filter((x) => x.set === 2)) for (const f of l.forms) if (f.ability) check(!s1Abilities.has(f.ability), `names: Set 2 ${l.name} ability "${f.ability}" is not a Set 1 ability name`);

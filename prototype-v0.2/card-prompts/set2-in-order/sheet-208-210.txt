@@ -10,50 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-208 (208)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Aurex
-Title: Bane of the Guardians
-Stars: ★★
-Ascension band: ASCENSION • from Aurex ★
-Origin | Class | Tier: Wyrmblood | Ascendant · Hunter | TIER V
-Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
-Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Ascendant *(One per deck.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **GUARDIAN’S BANE.**
-4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-5. When Aurex defeats a champion on your turn, Scorch 2 each rival champion.
-Flavour: “Worth it? Perhaps.”
-Crown 2: none
-Might | Guard: 9 | 9
-Footer: 208/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Molten armour grows over his wings; fire leaks from every seam. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-209 (209)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Noctara
-Title: Shadow Beneath the Crown
-Stars: ★★
-Ascension band: ASCENSION • from Noctara ★
-Origin | Class | Tier: Umbral | Ascendant · Seer | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Seer: indigo crystal orb
-Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Ascendant *(One per deck.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **ECLIPSE SIGHT.**
-4. Your Schemes cost 1 less to spring.
-5. **Ascend:** Defeat each rival champion with Guard 2 or less.
-Flavour: “Nothing remains.”
-Crown 2: none
-Might | Guard: 8 | 10
-Footer: 209/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her crown becomes an eclipse; small voids orbit her. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 3 (right)
-Card number: S2-210 (210)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: ATLAS-Ω
 Title: The Vault Engine
 Stars: ★★
@@ -71,6 +27,49 @@ Text box, line by line:
 Flavour: “War ended. Again.”
 Crown 2: none
 Might | Guard: 7 | 13
-Footer: 210/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 208/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Shoulder cannons and a reactor halo. SCENE: side view in a collapsing treasure hall: ATLAS-Ω catches a falling stone pillar in one giant hand while the other fist slams the floor, a shockwave throwing raiders back from the treasure heaped behind it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 2 (middle)
+Card number: S2-209 (209)
+Cost: 6 (GREEN gem)
+Name: The Unwritten King
+Title: Lord of the Buried Crown
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Hollow | Ascendant · Binder | TIER V
+Trait icons: Hollow: teal skull; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **BURIED LEGION.**
+3. **Arrival:** Summon a Fallen Warrior.
+4. Your tokens have +1 Might.
+5. At the start of your turn, Summon a Fallen Warrior.
+Flavour: “Remember my name.”
+Crown 2: none
+Might | Guard: 5 | 7
+Footer: 209/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A skeletal king on a throne of shields. NEW pose and action, never the Set 1 pose or composition: on his buried throne as a legion of bound spirits rises behind him. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-210 (210)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: The Unwritten King
+Title: Lord of the Buried Crown
+Stars: ★★
+Ascension band: ASCENSION • from The Unwritten King ★
+Origin | Class | Tier: Hollow | Ascendant · Binder | TIER V
+Trait icons: Hollow: teal skull; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **BURIED LEGION.**
+3. Your tokens have +1 Might and +1 Guard.
+4. **Ascend:** Return up to two ★ champions from your Fallen pile to your hand.
+Flavour: “Write it down.”
+Crown 2: none
+Might | Guard: 8 | 10
+Footer: 210/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A spectral legion stands behind him. NEW pose and action, never the Set 1 pose or composition: on his buried throne as a legion of bound spirits rises behind him. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

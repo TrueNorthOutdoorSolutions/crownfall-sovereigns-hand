@@ -321,3 +321,10 @@ Not changed (not in the approved list): Charge on ★★/★★★ forms (nearly
 2. **New names and wordings**: "Underhall Court" (Vespera), and the Hourglass of Ash line "Attack: If the holder is attacking a champion, ready it (once per turn)".
 3. **Shardfall and Channelers**: a Tactic cast free by Shardfall does not trigger "Whenever you cast a Tactic" (that is how the engine always worked). Keep, or count it?
 4. **Set 1 spell rarities** where I overrode the score: Hold the Gate E, Pandora's Satchel P, Kindling / Lucky Draw / Coin Flip / Golden Parting U.
+
+## 2026-10-20 owner rarity check (during the Set 2 art restart)
+
+Owner: cheap cards with two effects must not be Common. Screened every Set 2 card with the rubric power score; 2+ steps below their band:
+- Raised now (not yet drawn, so only undrawn numbers moved): The Tide Will Turn C→U, Crown Hex: Void U→E, The Ascension Vault Opens E→P, Gaia Prime ★★★ E→P.
+- Already drawn, left for the full post-art audit (owner decision): Bolt ★★ 017, Grizz ★★ 022, Something Stirs Beneath the Arena 056, Its Treasure Is Yours 057 (all Common, band Uncommon or higher).
+Drawn cards 001-057 pinned in data/set2-printed.json; validator 12,530 checks pass; sim unchanged (starters 47.0-52.9%).

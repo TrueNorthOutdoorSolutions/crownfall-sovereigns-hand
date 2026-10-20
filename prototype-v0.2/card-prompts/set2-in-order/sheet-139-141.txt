@@ -10,26 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-139 (139)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Lady Volt
-Title: Storm in the Deep
-Stars: ★★
-Ascension band: ASCENSION • from Lady Volt ★
-Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Charge *(Can attack the turn it arrives.)*
-Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. **Chain Lightning.**
-3. **Attack: Scorch 2** a rival champion, then Scorch 1 a rival champion.
-Flavour: “Touché.”
-Crown 2: none
-Might | Guard: 8 | 6
-Footer: 139/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Storm-silver armour; her hair crackles. SCENE: side view mid-lunge on a narrow wet walkway: Lady Volt dashes between two armoured foes, her rapier trailing a thin line of lightning that arcs from one to the other, spray kicked up from the puddles. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-140 (140)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Vessimer
 Title: Alchemist of Relics
 Stars: ★★
@@ -44,11 +24,11 @@ Text box, line by line:
 Flavour: “Results: conclusive.”
 Crown 2: none
 Might | Guard: 6 | 7
-Footer: 140/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 139/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Brass apparatus hisses on his back. SCENE: high angle down a spiral vault stair: Vessimer hurls a cracked violet flask down into the dark below, the burst lighting every relic on the walls as they transmute at once, his coat flaring as he leans over the rail (Vessimer always wears his dark plague-doctor beaked mask with round glowing green lenses and a wide-brimmed hat; his face is never shown). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-141 (141)
+CARD 2 (middle)
+Card number: S2-140 (140)
 Cost: 6 (GREEN gem)
 Name: Aurex
 Title: Bane of the Guardians
@@ -65,6 +45,28 @@ Text box, line by line:
 Flavour: “The last dragon answers.”
 Crown 2: none
 Might | Guard: 7 | 7
-Footer: 141/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 140/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A massive dragon warrior. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-141 (141)
+Cost: 6 (GREEN gem)
+Name: Noctara
+Title: Shadow Beneath the Crown
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Umbral | Ascendant · Seer | TIER V
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Seer: indigo crystal orb
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **ECLIPSE SIGHT.**
+3. Your Schemes cost 1 less to spring.
+4. **Arrival:** Break one of your rival’s face-down Schemes at random.
+5. If you can’t, Scorch 2 a rival champion.
+Flavour: “All things end in me.”
+Crown 2: none
+Might | Guard: 6 | 7
+Footer: 141/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An empress robed in the space between stars. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

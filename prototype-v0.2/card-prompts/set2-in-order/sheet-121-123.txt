@@ -10,26 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-121 (121)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Dreadmouth
-Title: Devourer of Guardians
-Stars: ★★
-Ascension band: ASCENSION • from Dreadmouth ★
-Origin | Class | Tier: Hollow | Hunter | TIER III
-Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
-Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Guardian Feast.**
-3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-Flavour: “The water is hungry.”
-Crown 2: none
-Might | Guard: 8 | 6
-Footer: 121/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Bone plates, a second jaw, and ghostfire in its throat. SCENE: side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-122 (122)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Professor Spark
 Title: Relic Inventor
 Stars: ★★
@@ -44,11 +24,11 @@ Text box, line by line:
 Flavour: “It works! Mostly!”
 Crown 2: none
 Might | Guard: 5 | 6
-Footer: 122/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 121/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A mechanical arm grows from the pack; goggles spark. SCENE: low angle in a flooded workshop: Spark rides on top of his finished clanking turret as it wades forward, steering it with a lever while it fires a relic-charged bolt down the tunnel, his wild hair lit by the blast. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-123 (123)
+CARD 2 (middle)
+Card number: S2-122 (122)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Orion
 Title: Star-Charter of the Deep
@@ -65,6 +45,26 @@ Text box, line by line:
 Flavour: “The stars have marked you.”
 Crown 2: none
 Might | Guard: 7 | 5
-Footer: 123/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 122/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations glow across his armour; his bow draws starlight. SCENE: side view across a dark underground chasm: Orion braced against a stalactite, drawing a star-arrow whose light reveals a hidden Guardian clinging to the far wall, his cloak streaming in the updraft. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-123 (123)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Maeve
+Title: Broker of Relics
+Stars: ★★
+Ascension band: ASCENSION • from Maeve ★
+Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Sleight of Thorns.**
+2. **Ascend:** Your rival discards a card at random.
+3. Draw a card.
+Flavour: “A fair trade. For me.”
+Crown 2: none
+Might | Guard: 5 | 7
+Footer: 123/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Antlers of bone and branch; her shadow is a tree. SCENE: high angle on a rope bridge over a fungus-lit cavern: Maeve escapes with a sack of stolen relics as living roots from her staff tangle the guards chasing her, green witch-light flaring. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

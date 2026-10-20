@@ -10,25 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-175 (175)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Emberling
-Title: Ember Conduit
-Stars: ★★
-Ascension band: ASCENSION • from Emberling ★
-Origin | Class | Tier: Elemental | Channeler | TIER I
-Trait icons: Elemental: orange flame; Channeler: violet spiral
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Ember Echo.**
-2. Whenever you cast a Tactic, Scorch 1 a rival champion.
-Flavour: “More! Read me more!”
-Crown 2: none
-Might | Guard: 4 | 4
-Footer: 175/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A crackling fire sprite crowned with blue-hot embers. SCENE: side view in a forge library: Emberling swirling through floating open spellbooks, each page catching fire and feeding it, sparks trailing like a comet tail, cool blue stacks behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-176 (176)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
 Name: Hexie
 Title: Reader of Bones
 Stars: ★★
@@ -43,11 +24,11 @@ Text box, line by line:
 Flavour: “The bones never lie. Mostly.”
 Crown 2: none
 Might | Guard: 3 | 5
-Footer: 176/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 175/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her hat has grown eyes. Her staff has grown opinions. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
-CARD 3 (right)
-Card number: S2-177 (177)
+CARD 2 (middle)
+Card number: S2-176 (176)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Kael
 Title: Relic Seeker
@@ -62,6 +43,26 @@ Text box, line by line:
 Flavour: “Whatever’s down there, I find it first.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
 Might | Guard: 8 | 7
-Footer: 177/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 176/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A crowned hero-in-waiting; his sword blazes with the sigil of a kingdom that does not exist yet. SCENE: heroic low-angle hero shot: Kael large in frame at the top of a mountain of treasure in a vast collapsed vault, lifting an ancient relic blade high as its light floods the cavern, his torch cast aside, broken pillars and gold spilling around him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-177 (177)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Mirella
+Title: Tide of the Sunken Halls
+Stars: ★★★
+Ascension band: ASCENSION • from Mirella ★★
+Origin | Class | Tier: Elemental | Restorer | TIER II
+Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Sunken Tide.**
+2. **Ascend:** Mend 1.
+3. **Block: Shield** another champion you control.
+Flavour: “Rest. The water has you.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 7 | 10
+Footer: 177/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A tide queen: a ring of water orbits her and fish of light swim through it. SCENE: heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

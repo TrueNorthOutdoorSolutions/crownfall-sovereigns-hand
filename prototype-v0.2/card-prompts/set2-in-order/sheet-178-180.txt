@@ -10,26 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-178 (178)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Mirella
-Title: Tide of the Sunken Halls
-Stars: ★★★
-Ascension band: ASCENSION • from Mirella ★★
-Origin | Class | Tier: Elemental | Restorer | TIER II
-Trait icons: Elemental: orange flame; Restorer: rose-pink lotus
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Sunken Tide.**
-2. **Ascend:** Mend 1.
-3. **Block: Shield** another champion you control.
-Flavour: “Rest. The water has you.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 7 | 10
-Footer: 178/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A tide queen: a ring of water orbits her and fish of light swim through it. SCENE: heroic low-angle hero shot of a vast drowned hall: Mirella large in frame floating above the lake, a great ring of water orbiting her with fish of light swimming through it, the whole cavern lit teal and gold as the water lifts every fallen ally at once; serene and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-179 (179)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Shade
 Title: Mask of the Depths
 Stars: ★★★
@@ -47,11 +27,11 @@ Text box, line by line:
 Flavour: “No face. No name. No witnesses.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 6
-Footer: 179/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 178/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A wraith of ribbons and knives; the mask floats in front of an empty hood. SCENE: heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-180 (180)
+CARD 2 (middle)
+Card number: S2-179 (179)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Seren
 Title: Starlight in the Dark
@@ -68,6 +48,27 @@ Text box, line by line:
 Flavour: “No one gets lost on my watch.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 7 | 9
-Footer: 180/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 179/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations sketch themselves around her; a flock of light-birds circles overhead. SCENE: heroic wide shot of an enormous cavern turned into a night sky: Seren floating at centre-left, constellations drawing themselves across the cave roof around her and a great flock of light-birds circling overhead, the whole underworld lit silver-blue; wondrous and vast. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-180 (180)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Thorn
+Title: Rot Beneath the Stone
+Stars: ★★★
+Ascension band: ASCENSION • from Thorn ★★
+Origin | Class | Tier: Verdant | Sapper | TIER II
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Creeping Rot.**
+2. **Ascend:** Break one of your rival’s face-down Schemes at random.
+3. Break a rival champion’s Relic.
+4. Scorch 2 each rival champion.
+Flavour: “I grow in the cracks you can’t see.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 8 | 8
+Footer: 180/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bloom colossus whose petals exhale toxic spores. SCENE: heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

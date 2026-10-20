@@ -10,26 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-172 (172)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Solara
-Title: Lamp of the Lost
-Stars: ★★★
-Ascension band: ASCENSION • from Solara ★★
-Origin | Class | Tier: Dawnforged | Restorer | TIER I
-Trait icons: Dawnforged: gold-orange sunburst; Restorer: rose-pink lotus
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Lamplight.**
-2. **Ascend:** Mend 1.
-3. At the start of your turn, Shield a champion you control.
-Flavour: “Nothing down here stays broken.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 6 | 9
-Footer: 172/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Radiant robes, a floating halo of three suns and wings of morning light. SCENE: low wide shot of a vast dark cathedral-like cavern: Solara small in the centre-left as a dome of dawn light blooms outward from her, cracked pillars knitting back together, every shadow pushed to the edges. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-173 (173)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Fen
 Title: Pack Hunter
 Stars: ★★★
@@ -45,11 +25,11 @@ Text box, line by line:
 Flavour: “The deeper the dark, the better the hunt.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 9 | 7
-Footer: 173/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 172/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: An alpha of the blood moon; a red spirit-wolf runs beside every leap. SCENE: over-the-shoulder from behind Fen’s pack on a ridge at night underground: Fen at the front howling, a giant fallen monster below them, a red moon-like crystal glowing in the cavern roof. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-174 (174)
+CARD 2 (middle)
+Card number: S2-173 (173)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
 Name: Nyx
 Title: Vault Thief
@@ -67,6 +47,25 @@ Text box, line by line:
 Flavour: “Finders keepers.”
 Crown 2: none
 Might | Guard: 5 | 3
-Footer: 174/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 173/266 · E · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her cloak drips living shadow; violet eyes glow beneath the hood. SCENE: fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-174 (174)
+Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
+Name: Emberling
+Title: Ember Conduit
+Stars: ★★
+Ascension band: ASCENSION • from Emberling ★
+Origin | Class | Tier: Elemental | Channeler | TIER I
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Ember Echo.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
+Flavour: “More! Read me more!”
+Crown 2: none
+Might | Guard: 4 | 4
+Footer: 174/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A crackling fire sprite crowned with blue-hot embers. SCENE: side view in a forge library: Emberling swirling through floating open spellbooks, each page catching fire and feeding it, sparks trailing like a comet tail, cool blue stacks behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

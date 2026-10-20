@@ -9,27 +9,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-136 (136)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: General Varr
-Title: Holder of the Gate
-Stars: ★★
-Ascension band: ASCENSION • from General Varr ★
-Origin | Class | Tier: Kingdom | Sentinel | TIER IV
-Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
-Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Last Gate.**
-3. Rival champions attacking your Crown get −1 Might.
-4. **Block:** The attacker gets −2 Might this turn.
-Flavour: “Line held.”
-Crown 2: none
-Might | Guard: 7 | 9
-Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Medals of every war and a banner-spear. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-137 (137)
 Cost: 5 (GREEN gem)
 Name: Gaia Prime
 Title: Root of the Arena
@@ -45,11 +24,11 @@ Text box, line by line:
 Flavour: “I remember who built this place.”
 Crown 2: none
 Might | Guard: 3 | 7
-Footer: 137/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An ancient living tree titan. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
-CARD 3 (right)
-Card number: S2-138 (138)
+CARD 2 (middle)
+Card number: S2-137 (137)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Gaia Prime
 Title: Root of the Arena
@@ -65,6 +44,26 @@ Text box, line by line:
 Flavour: “Grow.”
 Crown 2: none
 Might | Guard: 6 | 10
-Footer: 138/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 137/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Blossoms and a canopy crown; birds nest in her shoulders. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-138 (138)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Lady Volt
+Title: Storm in the Deep
+Stars: ★★
+Ascension band: ASCENSION • from Lady Volt ★
+Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
+Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Charge *(Can attack the turn it arrives.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. **Chain Lightning.**
+3. **Attack: Scorch 2** a rival champion, then Scorch 1 a rival champion.
+Flavour: “Touché.”
+Crown 2: none
+Might | Guard: 8 | 6
+Footer: 138/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Storm-silver armour; her hair crackles. SCENE: side view mid-lunge on a narrow wet walkway: Lady Volt dashes between two armoured foes, her rapier trailing a thin line of lightning that arcs from one to the other, spray kicked up from the puddles. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

@@ -1,0 +1,71 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: prototype-v0.2/card-template/champion-template.jpg and CARD_TEMPLATE.md for the FRAME only. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep the character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition, never the Set 1 one. Show the new class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light. The bottom-centre crest is the SET 2 SYMBOL (see CARD_TEMPLATE.md), not the Set 1 shield.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band or empty band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+Card number: S2-041 (041)
+Cost: 3 (GREEN gem)
+Name: Ignara
+Title: Heart of the Forge
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Elemental | Channeler | TIER III
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Forgefire.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
+Flavour: “Everywhere else is cold.”
+Crown 2: none
+Might | Guard: 3 | 4
+Footer: 041/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A fire elemental warrior in cooling obsidian armour. SCENE: close three-quarter view in a dark forge cavern: Ignara kneels at a cold, dead forge and breathes fire into its heart from her cupped hands, the coals catching orange around her obsidian gauntlets; the rest of the cavern is cool blue shadow (not standing in a burning ruin). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-042 (042)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Ignara
+Title: Heart of the Forge
+Stars: ★★
+Ascension band: ASCENSION • from Ignara ★
+Origin | Class | Tier: Elemental | Channeler | TIER III
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Forgefire.**
+2. Whenever you cast a Tactic, Scorch 1 a rival champion.
+Flavour: “Feed the fire.”
+Crown 2: none
+Might | Guard: 6 | 7
+Footer: 042/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The armour cracks and roars with flame. SCENE: low angle at a great underground smelter: Ignara pulls a river of molten metal up out of a crucible with both hands, shaping it into a burning blade in mid-air, her armour cracked and glowing. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Card number: S2-188 (188)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Ignara
+Title: Heart of the Forge
+Stars: ★★★
+Ascension band: ASCENSION • from Ignara ★★
+Origin | Class | Tier: Elemental | Channeler | TIER III
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Text box, line by line:
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Forgefire.**
+3. Whenever you cast a Tactic, Scorch 2 a rival champion.
+Flavour: “The forge answers only me.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 10
+Footer: 188/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A pillar of fire in the shape of a woman; the air itself is burning. SCENE: heroic wide shot of a vast forge-hall: Ignara as a towering living furnace, every forge in the cavern roaring to life at once around her as she raises both arms, rivers of molten metal lighting the chains and pillars. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+Check when it comes back:
+- No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
+- Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 041: no keyword; do not add a chip or reminder.
+- 042 ★★: up-arrow 1, not up-arrow 0.
+- 042: no keyword; do not add a chip or reminder.
+- Mixed Scorch numbers: S2-041: Scorch 1; S2-042: Scorch 1; S2-188: Scorch 2.

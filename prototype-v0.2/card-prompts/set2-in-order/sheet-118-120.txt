@@ -9,25 +9,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-118 (118)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Kira Volt
-Title: The Long Shot
-Stars: ★★
-Ascension band: ASCENSION • from Kira Volt ★
-Origin | Class | Tier: Voltborn | Sharpshooter | TIER I
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Railshot.**
-2. **Attack: Scorch 2** a rival champion.
-Flavour: “Hold still. Thank you.”
-Crown 2: none
-Might | Guard: 4 | 3
-Footer: 118/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Dual energised pistols; her coat carries a glowing arc coil. SCENE: low tilted (Dutch) angle: Kira slides along a wet stone walkway on one knee, both energised pistols firing across the frame at a target off the card, bright tracer lines crossing the dark and reflecting in the flood water; her coat’s arc coil glowing. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-119 (119)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: HEX-3
 Title: Core Conduit
@@ -42,11 +23,11 @@ Text box, line by line:
 Flavour: “Power accepted.”
 Crown 2: none
 Might | Guard: 5 | 6
-Footer: 119/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 118/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rune-etched plating; the reactor glows violet. SCENE: low angle inside a reactor chamber: HEX-3 rises free of its cables, rune-etched plating glowing, its violet reactor flaring as spells spill from the conduits around it and are drawn into its core in bright ribbons. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 3 (right)
-Card number: S2-120 (120)
+CARD 2 (middle)
+Card number: S2-119 (119)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Valkara
 Title: Judge of the Depths
@@ -63,6 +44,26 @@ Text box, line by line:
 Flavour: “I’ve already seen how this ends.”
 Crown 2: none
 Might | Guard: 7 | 6
-Footer: 120/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 119/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Wings of starlight and a gilded war-helm. SCENE: side view on a broken stone bridge: Valkara lands in a crouch before a kneeling monster, wings of starlight half-folded, gilded war-helm lit by the glow of her spear-sword raised in judgment. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-120 (120)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Dreadmouth
+Title: Devourer of Guardians
+Stars: ★★
+Ascension band: ASCENSION • from Dreadmouth ★
+Origin | Class | Tier: Hollow | Hunter | TIER III
+Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. **Guardian Feast.**
+3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+Flavour: “The water is hungry.”
+Crown 2: none
+Might | Guard: 8 | 6
+Footer: 120/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Bone plates, a second jaw, and ghostfire in its throat. SCENE: side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
