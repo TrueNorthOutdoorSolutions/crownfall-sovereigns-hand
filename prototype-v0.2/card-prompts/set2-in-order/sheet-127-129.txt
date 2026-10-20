@@ -9,59 +9,61 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-127 (127)
-Cost: 4 (GREEN gem)
-Name: Aurelia
-Title: Leader of the Descent
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Kingdom | Delver | TIER III
-Trait icons: Kingdom: blue crown; Delver: amber lantern
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Queen Vespera
+Title: Empress of the Underhalls
+Stars: ★★
+Ascension band: ASCENSION • from Queen Vespera ★
+Origin | Class | Tier: Umbral | Binder | TIER IV
+Trait icons: Umbral: lilac crescent moon; Binder: teal chain link
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Banner of the Descent.**
-2. **Arrival:** Draw a card.
-3. Your other Kingdom champions have +1 Might.
-Flavour: “Rally to me!”
+1. **Underhall Court.**
+2. Your tokens have +1 Might and +1 Guard.
+3. **Ascend:** Summon two Court Shades.
+Flavour: “Dismissed.”
 Crown 2: none
-Might | Guard: 3 | 5
+Might | Guard: 6 | 7
 Footer: 127/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A royal battle commander in blue and gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her train becomes a river of shadow courtiers. SCENE: low angle in a flooded crypt: Vespera raises one hand and a dozen shades pull themselves up out of the black water on her threads, all turning toward an unseen intruder. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-128 (128)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Aurelia
-Title: Leader of the Descent
-Stars: ★★
-Ascension band: ASCENSION • from Aurelia ★
-Origin | Class | Tier: Kingdom | Delver | TIER III
-Trait icons: Kingdom: blue crown; Delver: amber lantern
+Cost: 4 (GREEN gem)
+Name: Pyrax
+Title: Wyrm of the Deep Forge
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Elemental | Sapper | TIER IV
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Banner of the Descent.**
-2. **Ascend:** Draw 2 cards.
-Flavour: “Down we go. Together.”
+1. **Undermine.**
+2. **Arrival:** Break a rival champion’s Relic.
+3. If you can’t, Scorch 2 a rival champion.
+Flavour: “Grandmother would be proud.”
 Crown 2: none
-Might | Guard: 6 | 7
+Might | Guard: 5 | 3
 Footer: 128/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A standard bearer marches behind her; her circlet glows. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dragon-blooded warrior with ember scales on her arms. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-129 (129)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Knuckle
-Title: King Under the Pit
+Name: Pyrax
+Title: Wyrm of the Deep Forge
 Stars: ★★
-Ascension band: ASCENSION • from Knuckle ★
-Origin | Class | Tier: Titanborn | Gladiator | TIER III
-Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
+Ascension band: ASCENSION • from Pyrax ★
+Origin | Class | Tier: Elemental | Sapper | TIER IV
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Pit King’s Right.**
-2. +2 Might while attacking a champion.
-Flavour: “Who’s next?”
+1. **Undermine.**
+2. **Attack: Scorch 1** each rival champion.
+3. Break one of your rival’s face-down Schemes at random.
+Flavour: “Scorched.”
 Crown 2: none
 Might | Guard: 8 | 7
 Footer: 129/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Championship belts and cracks of gold in his granite skin. SCENE: side view in a flooded fight cellar: Knuckle catches an incoming iron mace with one taped fist, the shockwave splashing the dark water outward in a ring, the attacker thrown off balance. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Horns and a burning tail; half her body is scaled. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

@@ -1,4 +1,4 @@
-Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+Make this card in the locked master template.
 
 References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
 Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
@@ -7,63 +7,23 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-CARD 1 (left)
-Card number: S2-100 (100)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Grimm
-Title: The Last Sentry
-Stars: ★★★
-Ascension band: ASCENSION • from Grimm ★★
-Origin | Class | Tier: Hollow | Sentinel | TIER I
-Trait icons: Hollow: teal skull; Sentinel: grey stone watchtower
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
-Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Last Watch.**
-3. Rival champions attacking your Crown get −1 Might.
-4. When Grimm is defeated, Summon two Risen Soldiers.
-Flavour: “Still on watch. Always on watch.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 7 | 10
-Footer: 100/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A deathless champion wreathed in green soulfire, his sword a shard of a fallen gate. SCENE: high angle looking down a grand stair into a vault: Grimm alone on the bottom step holding the line against a tide of shadowy invaders, spectral light pouring from his ribs and banner, the treasure door glowing amber behind him. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
+CARD
 Card number: S2-101 (101)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Pip
-Title: Tunnel Blaster
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Grizz
+Title: Breaker of Beasts
 Stars: ★★★
-Ascension band: ASCENSION • from Pip ★★
-Origin | Class | Tier: Gearbound | Sapper | TIER I
-Trait icons: Gearbound: gold gear; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Ascension band: ASCENSION • from Grizz ★★
+Origin | Class | Tier: Wildkin | Hunter | TIER II
+Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Tunnel Charge.**
-2. **Ascend: Scorch 2** each rival champion.
-3. Break a rival champion’s Relic.
-Flavour: “Bigger tunnel! You’re welcome!”
+1. **Beastbreaker.**
+2. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+3. When Grizz defeats a champion on your turn, Shield Grizz.
+Flavour: “Monsters wrestle. I win.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 7
+Might | Guard: 10 | 8
 Footer: 101/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Pip rides a ridiculous miniature mechanical war machine with a bomb chute. SCENE: aerial view straight down into a huge cavern: Pip on a ledge at the edge of a massive blast crater she has just made, a crowd of tiny figures staring up, dust clouds rolling outward in rings, warm firelight in the crater. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-102 (102)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Solara
-Title: Lamp of the Lost
-Stars: ★★
-Ascension band: ASCENSION • from Solara ★
-Origin | Class | Tier: Dawnforged | Restorer | TIER I
-Trait icons: Dawnforged: gold-orange sunburst; Restorer: rose-pink lotus
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Lamplight.**
-2. **Ascend:** Mend 1.
-Flavour: “Hold on. The light’s coming.”
-Crown 2: none
-Might | Guard: 3 | 6
-Footer: 102/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gilded vestments and a sun-disc staff that hums with light. SCENE: high angle looking down a flooded stair: Solara wades down the steps holding her light above her head, the glow spreading across the water and lifting the fallen around her. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A primal bear-titan whose roar shakes the arena floor. SCENE: heroic low angle: Grizz rearing up to full height on top of a defeated cave beast, roaring at the cavern ceiling, iron claws raised, torchlight blazing behind him and scattered warriors cheering far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

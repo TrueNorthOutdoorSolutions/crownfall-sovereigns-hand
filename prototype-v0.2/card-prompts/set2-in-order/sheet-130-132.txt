@@ -9,61 +9,63 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-130 (130)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Queen Vespera
-Title: Empress of the Underhalls
-Stars: ★★
-Ascension band: ASCENSION • from Queen Vespera ★
-Origin | Class | Tier: Umbral | Binder | TIER IV
-Trait icons: Umbral: lilac crescent moon; Binder: teal chain link
-Keywords: none (text box starts with the ability name)
+Cost: 5 (GREEN gem)
+Name: General Varr
+Title: Holder of the Gate
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. **Underhall Court.**
-2. Your tokens have +1 Might and +1 Guard.
-3. **Ascend:** Summon two Court Shades.
-Flavour: “Dismissed.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −1 Might.
+4. Your other Kingdom champions have +1 Guard.
+Flavour: “Form up!”
 Crown 2: none
-Might | Guard: 6 | 7
+Might | Guard: 4 | 6
 Footer: 130/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her train becomes a river of shadow courtiers. SCENE: low angle in a flooded crypt: Vespera raises one hand and a dozen shades pull themselves up out of the black water on her threads, all turning toward an unseen intruder. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A grizzled kingdom commander with a tower shield. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-131 (131)
-Cost: 4 (GREEN gem)
-Name: Pyrax
-Title: Wyrm of the Deep Forge
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Elemental | Sapper | TIER IV
-Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
-Keywords: none (text box starts with the ability name)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: General Varr
+Title: Holder of the Gate
+Stars: ★★
+Ascension band: ASCENSION • from General Varr ★
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. **Undermine.**
-2. **Arrival:** Break a rival champion’s Relic.
-3. If you can’t, Scorch 2 a rival champion.
-Flavour: “Grandmother would be proud.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −1 Might.
+4. **Block:** The attacker gets −2 Might this turn.
+Flavour: “Line held.”
 Crown 2: none
-Might | Guard: 5 | 3
+Might | Guard: 7 | 9
 Footer: 131/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dragon-blooded warrior with ember scales on her arms. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Medals of every war and a banner-spear. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-132 (132)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Pyrax
-Title: Wyrm of the Deep Forge
-Stars: ★★
-Ascension band: ASCENSION • from Pyrax ★
-Origin | Class | Tier: Elemental | Sapper | TIER IV
-Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
-Keywords: none (text box starts with the ability name)
+Cost: 5 (GREEN gem)
+Name: Gaia Prime
+Title: Root of the Arena
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Verdant | Restorer | TIER IV
+Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. **Undermine.**
-2. **Attack: Scorch 1** each rival champion.
-3. Break one of your rival’s face-down Schemes at random.
-Flavour: “Scorched.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Deep Roots.**
+3. **Arrival:** Mend 1.
+Flavour: “I remember who built this place.”
 Crown 2: none
-Might | Guard: 8 | 7
+Might | Guard: 3 | 7
 Footer: 132/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Horns and a burning tail; half her body is scaled. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An ancient living tree titan. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

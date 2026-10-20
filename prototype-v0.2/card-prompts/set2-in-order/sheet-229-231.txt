@@ -10,47 +10,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-229 (229)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Dax Meridian
-Title: Guardian Hunter
-Stars: ★★★
-Ascension band: ASCENSION • from Dax Meridian ★★
-Origin | Class | Tier: Riftborn | Hunter | TIER II
-Trait icons: Riftborn: pink diamond-in-a-diamond; Hunter: red three-slash claw mark
-Keywords: Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Rift Hunt.**
-3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. **Attack: Scorch 2** the defender.
-5. When Dax Meridian defeats a champion on your turn, draw a card.
-Flavour: “I hunt the things that hunt you.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 7
-Footer: 229/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A drifter from every timeline at once: ghostly copies echo his shots. SCENE: heroic wide shot of a vast cavern split by rifts: Dax large in frame standing on a fallen Guardian, revolver smoking, a dozen ghostly copies of himself from other timelines firing all at once around him; violet rift light and amber muzzle flashes everywhere. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-230 (230)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: HEX-3
-Title: Core Conduit
-Stars: ★★★
-Ascension band: ASCENSION • from HEX-3 ★★
-Origin | Class | Tier: Gearbound | Channeler | TIER II
-Trait icons: Gearbound: gold gear; Channeler: violet spiral
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Core Surge.**
-2. Whenever you cast a Tactic, Shield HEX-3 and gain 1 Command.
-Flavour: “Every spell makes me stronger.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 9
-Footer: 230/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A levitating arcane engine with three orbiting reactor cores. SCENE: heroic wide shot of a vast arcane engine hall: HEX-3 levitating at centre-left as a towering engine, three reactor cores orbiting it and every conduit in the cavern pouring power into it at once, lightning-white and violet light filling the frame. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-231 (231)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Valkara
 Title: Judge of the Depths
 Stars: ★★★
@@ -66,6 +25,51 @@ Text box, line by line:
 Flavour: “Judgement was passed before you arrived.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 10 | 9
-Footer: 231/266 · P · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 229/266 · P · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Six wings, a halo of blades and a dive that splits the sky. SCENE: heroic wide shot of a vast cavern: six-winged Valkara large in frame with a halo of blades, diving straight down through the cavern roof so the rock splits open and daylight pours in behind her; awe-inspiring and terrible. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 2 (middle)
+Card number: S2-230 (230)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Ronin Zero
+Title: Blade Beneath the Arena
+Stars: ★★★
+Ascension band: ASCENSION • from Ronin Zero ★★
+Origin | Class | Tier: Voltborn | Gladiator | TIER III
+Trait icons: Voltborn: blue lightning bolt; Gladiator: bronze crested gladiator helmet
+Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Charge *(Can attack the turn it arrives.)*
+2. Ambush *(Attacking a sideways champion, it strikes first.)*
+3. **Arena Draw.**
+4. +2 Might while attacking a champion.
+5. **Attack: Scorch 1** the defender.
+6. Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.
+Flavour: “Steel remembers every duel.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 9
+Footer: 230/266 · P · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: He moves faster than his own afterimages; a lightning scabbard crackles at his hip. SCENE: heroic low angle in a vast cavern arena: Ronin Zero alone at the centre of a ring of broken blades stuck in the stone, katana raised as a single lightning-white slash splits the darkness behind him; cold teal air, one amber brazier. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-231 (231)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Captain Blacktide
+Title: Plunderer of the Vault
+Stars: ★★★
+Ascension band: ASCENSION • from Captain Blacktide ★★
+Origin | Class | Tier: Riftborn | Rogue | TIER III
+Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
+Keywords: Reach *(Can block Flight.)*
+Text box, line by line:
+1. Reach *(Can block Flight.)*
+2. **Plunder.**
+3. **Ascend:** Take a Relic from a rival champion and attach it to Captain Blacktide.
+4. If you can’t, Scorch 1 a rival champion.
+5. **Attack: Scorch 2** each rival champion.
+Flavour: “Every vault is just a treasure chest with a door.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 9
+Footer: 231/266 · P · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A ghost galleon's figurehead rises behind him as he fires. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 

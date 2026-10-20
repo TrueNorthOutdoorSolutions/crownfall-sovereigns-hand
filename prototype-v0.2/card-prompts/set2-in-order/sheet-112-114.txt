@@ -1,4 +1,4 @@
-Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+Make these 2 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
 
 References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
 Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
@@ -10,60 +10,39 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-112 (112)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Shade
-Title: Mask of the Depths
+Name: HEX-3
+Title: Core Conduit
 Stars: ★★
-Ascension band: ASCENSION • from Shade ★
-Origin | Class | Tier: Umbral | Rogue | TIER II
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
+Ascension band: ASCENSION • from HEX-3 ★
+Origin | Class | Tier: Gearbound | Channeler | TIER II
+Trait icons: Gearbound: gold gear; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Core Surge.**
+2. Whenever you cast a Tactic, Shield HEX-3.
+Flavour: “Power accepted.”
+Crown 2: none
+Might | Guard: 5 | 6
+Footer: 112/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rune-etched plating; the reactor glows violet. SCENE: low angle inside a reactor chamber: HEX-3 rises free of its cables, rune-etched plating glowing, its violet reactor flaring as spells spill from the conduits around it and are drawn into its core in bright ribbons. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 2 (right)
+Card number: S2-114 (114)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Dreadmouth
+Title: Devourer of Guardians
+Stars: ★★
+Ascension band: ASCENSION • from Dreadmouth ★
+Origin | Class | Tier: Hollow | Hunter | TIER III
+Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
 Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Masked Theft.**
-3. When Shade defeats a champion on your turn, your rival discards a card at random.
-Flavour: “Lose something?”
+2. **Guardian Feast.**
+3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+Flavour: “The water is hungry.”
 Crown 2: none
-Might | Guard: 6 | 4
-Footer: 112/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: The mask cracks, revealing a crimson glow beneath. SCENE: low tilted angle in a narrow vault passage: Shade drops into a crouch behind a fallen rival champion, its cracked mask leaking a crimson glow, red blade flicked clean, a stolen pouch already in its other hand; cold teal shadows, one guttering torch. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-113 (113)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Borin Ironbelly
-Title: Forgemaster of the Deep
-Stars: ★★★
-Ascension band: ASCENSION • from Borin Ironbelly ★★
-Origin | Class | Tier: Titanborn | Artificer | TIER II
-Trait icons: Titanborn: peach-orange triangle; Artificer: bronze anvil
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
-Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Deep Forge.**
-3. +2 Might and +2 Guard while Borin Ironbelly holds a Relic.
-Flavour: “The deep forge never cools.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 10
-Footer: 113/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Borin becomes a walking furnace; his beard is molten metal and every step leaves slag. SCENE: heroic wide shot of the great forge beneath the Arena: Borin as a walking furnace, beard of molten metal, bringing his hammer down on a colossal anvil as a shockwave of sparks and slag lights every chain and pillar; dwarf smiths shield their eyes far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-114 (114)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Seren
-Title: Starlight in the Dark
-Stars: ★★
-Ascension band: ASCENSION • from Seren ★
-Origin | Class | Tier: Astral | Delver | TIER II
-Trait icons: Astral: blue four-pointed sparkle; Delver: amber lantern
-Keywords: Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Starlit Path.**
-3. **Ascend:** Draw 2 cards, then put a card from your hand on the bottom of your deck.
-Flavour: “Follow the stars, even down here.”
-Crown 2: none
-Might | Guard: 4 | 6
+Might | Guard: 8 | 6
 Footer: 114/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A cloak of night sky and a lantern that holds a real star. SCENE: over-the-shoulder view from behind Seren on a rock spire above a vast underground chasm: her night-sky cloak billowing as she lifts her lantern and a real star inside it flares, revealing a hidden city of ruins far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Bone plates, a second jaw, and ghostfire in its throat. SCENE: side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

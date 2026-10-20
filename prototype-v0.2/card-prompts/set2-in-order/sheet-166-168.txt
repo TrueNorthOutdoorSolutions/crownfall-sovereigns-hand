@@ -1,0 +1,71 @@
+Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+
+References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
+Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
+Green hexagonal gem on ★. Gold hexagonal gem showing an arrow pointing up AND the number on ★★/★★★. No band on ★: art goes straight to the trait bar. Ascension bands are dark green with gold laurel leaves at both ends.
+Keyword chips with italic exact reminders only when listed. Bold ability name with a full stop; each rules sentence on its own line, bold trigger words and effect numbers as marked below. Markdown marks formatting, not printed asterisks. Never add an ability name when none is listed.
+Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The trait bar still shows its TIER.
+Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
+
+CARD 1 (left)
+Card number: S2-166 (166)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Fen
+Title: Pack Hunter
+Stars: ★★★
+Ascension band: ASCENSION • from Fen ★★
+Origin | Class | Tier: Wildkin | Hunter | TIER I
+Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. **Scent of Prey.**
+3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+4. When Fen defeats a champion on your turn, draw a card.
+Flavour: “The deeper the dark, the better the hunt.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 7
+Footer: 166/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An alpha of the blood moon; a red spirit-wolf runs beside every leap. SCENE: over-the-shoulder from behind Fen’s pack on a ridge at night underground: Fen at the front howling, a giant fallen monster below them, a red moon-like crystal glowing in the cavern roof. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 2 (middle)
+Card number: S2-167 (167)
+Cost: 1 (GREEN gem)
+Name: Nyx
+Title: Vault Thief
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Umbral | Rogue | TIER I
+Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
+Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Text box, line by line:
+1. Ambush *(Attacking a sideways champion, it strikes first.)*
+2. **Light Fingers.**
+3. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
+4. If you can’t, Scorch 1 a rival champion.
+Flavour: “You didn't see me.”
+Crown 2: none
+Might | Guard: 2 | 1
+Footer: 167/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A hooded thief with two crooked daggers. SCENE: top-down view onto a Guardian’s treasure hoard: Nyx tiptoes between the coins and gems toward a glowing relic, the sleeping Guardian’s huge claw in the corner of the frame; cool shadow, warm gold glint. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-168 (168)
+Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
+Name: Hexie
+Title: Reader of Bones
+Stars: ★★
+Ascension band: ASCENSION • from Hexie ★
+Origin | Class | Tier: Hexbound | Seer | TIER I
+Trait icons: Hexbound: purple star outline; Seer: indigo crystal orb
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Bone Reading.**
+2. Your Schemes cost 1 less to spring.
+3. **Ascend:** Draw a card.
+Flavour: “The bones never lie. Mostly.”
+Crown 2: none
+Might | Guard: 3 | 5
+Footer: 168/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her hat has grown eyes. Her staff has grown opinions. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+

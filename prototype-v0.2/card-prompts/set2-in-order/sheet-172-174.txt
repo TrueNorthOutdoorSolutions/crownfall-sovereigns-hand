@@ -9,63 +9,64 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-172 (172)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Fen
-Title: Pack Hunter
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Thorn
+Title: Rot Beneath the Stone
 Stars: ★★★
-Ascension band: ASCENSION • from Fen ★★
-Origin | Class | Tier: Wildkin | Hunter | TIER I
-Trait icons: Wildkin: gold paw print; Hunter: red three-slash claw mark
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
+Ascension band: ASCENSION • from Thorn ★★
+Origin | Class | Tier: Verdant | Sapper | TIER II
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Scent of Prey.**
-3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-4. When Fen defeats a champion on your turn, draw a card.
-Flavour: “The deeper the dark, the better the hunt.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 7
+1. **Creeping Rot.**
+2. **Ascend:** Break one of your rival’s face-down Schemes at random.
+3. Break a rival champion’s Relic.
+4. Scorch 2 each rival champion.
+Flavour: “I grow in the cracks you can’t see.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 8 | 8
 Footer: 172/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: An alpha of the blood moon; a red spirit-wolf runs beside every leap. SCENE: over-the-shoulder from behind Fen’s pack on a ridge at night underground: Fen at the front howling, a giant fallen monster below them, a red moon-like crystal glowing in the cavern roof. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bloom colossus whose petals exhale toxic spores. SCENE: heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-173 (173)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Nyx
-Title: Vault Thief
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Dax Meridian
+Title: Guardian Hunter
 Stars: ★★
-Ascension band: ASCENSION • from Nyx ★
-Origin | Class | Tier: Umbral | Rogue | TIER I
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Dax Meridian ★
+Origin | Class | Tier: Riftborn | Hunter | TIER II
+Trait icons: Riftborn: pink diamond-in-a-diamond; Hunter: red three-slash claw mark
+Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
+1. Reach *(Can block Flight.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **Light Fingers.**
-4. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
-5. If you can’t, Scorch 1 a rival champion.
-Flavour: “Finders keepers.”
+3. **Rift Hunt.**
+4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+5. When Dax Meridian defeats a champion on your turn, draw a card.
+Flavour: “Big target. Easy shot.”
 Crown 2: none
-Might | Guard: 5 | 3
+Might | Guard: 6 | 4
 Footer: 173/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her cloak drips living shadow; violet eyes glow beneath the hood. SCENE: fast diagonal motion shot: Nyx mid-leap from treasure pile to pillar with the relic in hand, coins spraying into the air, the Guardian’s eye just opening behind her. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rift cracks glow along his revolver; his coat shows another sky. SCENE: dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-174 (174)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Emberling
-Title: Ember Conduit
-Stars: ★★
-Ascension band: ASCENSION • from Emberling ★
-Origin | Class | Tier: Elemental | Channeler | TIER I
-Trait icons: Elemental: orange flame; Channeler: violet spiral
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Elara
+Title: Healer of the Fallen Deep
+Stars: ★★★
+Ascension band: ASCENSION • from Elara ★★
+Origin | Class | Tier: Kingdom | Restorer | TIER II
+Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Ember Echo.**
-2. Whenever you cast a Tactic, Scorch 1 a rival champion.
-Flavour: “More! Read me more!”
-Crown 2: none
-Might | Guard: 4 | 4
+1. **Field Mending.**
+2. **Ascend:** Mend 1.
+3. Return a ★ champion from your Fallen pile to your hand.
+Flavour: “No one gets left in the dark.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 6 | 10
 Footer: 174/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A crackling fire sprite crowned with blue-hot embers. SCENE: side view in a forge library: Emberling swirling through floating open spellbooks, each page catching fire and feeding it, sparks trailing like a comet tail, cool blue stacks behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: An angel of the field hospital, light pouring from her open tome. SCENE: heroic wide shot of a cave-in: Elara stands alone in the breach of a collapsing hall, both arms raised as a vast wall of light from her open tome holds back a falling ceiling of stone while the last of the wounded escape behind her; no wings, no halo. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

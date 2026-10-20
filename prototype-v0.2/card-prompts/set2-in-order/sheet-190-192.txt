@@ -9,65 +9,63 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-190 (190)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Captain Blacktide
-Title: Plunderer of the Vault
-Stars: ★★
-Ascension band: ASCENSION • from Captain Blacktide ★
-Origin | Class | Tier: Riftborn | Rogue | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
-Keywords: Reach *(Can block Flight.)*
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Queen Vespera
+Title: Empress of the Underhalls
+Stars: ★★★
+Ascension band: ASCENSION • from Queen Vespera ★★
+Origin | Class | Tier: Umbral | Binder | TIER IV
+Trait icons: Umbral: lilac crescent moon; Binder: teal chain link
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Plunder.**
-3. **Attack:** Take a Relic from a rival champion and attach it to Captain Blacktide.
-4. If you can’t, Scorch 1 a rival champion.
-5. When Captain Blacktide defeats a champion on your turn, draw a card.
-Flavour: “Mine now!”
-Crown 2: none
-Might | Guard: 7 | 6
+1. **Underhall Court.**
+2. Your tokens have +2 Might and +1 Guard.
+3. **Ascend:** Summon two Court Shades.
+Flavour: “The shadows bow. So will you.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 9 | 10
 Footer: 190/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A spectral crew appears behind him; his coat drips seawater from nowhere. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A throne of night rises behind her; her crown is an eclipse. SCENE: heroic wide shot of a vast underhall turned into her court: Vespera stands on a staircase of shadow above a sea of kneeling shades, every thread of darkness in the cavern gathered into her raised fist; regal and terrifying. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-191 (191)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Captain Blacktide
-Title: Plunderer of the Vault
+Name: Pyrax
+Title: Wyrm of the Deep Forge
 Stars: ★★★
-Ascension band: ASCENSION • from Captain Blacktide ★★
-Origin | Class | Tier: Riftborn | Rogue | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
-Keywords: Reach *(Can block Flight.)*
+Ascension band: ASCENSION • from Pyrax ★★
+Origin | Class | Tier: Elemental | Sapper | TIER IV
+Trait icons: Elemental: orange flame; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. **Plunder.**
-3. **Ascend:** Take a Relic from a rival champion and attach it to Captain Blacktide.
-4. If you can’t, Scorch 1 a rival champion.
-5. **Attack: Scorch 2** each rival champion.
-Flavour: “Every vault is just a treasure chest with a door.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 9
+1. **Undermine.**
+2. **Ascend: Scorch 2** each rival champion.
+3. Break a rival champion’s Relic.
+4. Break one of your rival’s face-down Schemes at random.
+Flavour: “Collapse the deep.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 11 | 10
 Footer: 191/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A ghost galleon's figurehead rises behind him as he fires. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She becomes a dragon in all but wings, and the wings are coming. NEW pose and action, never the Set 1 pose or composition: bursting up through the floor of a forge cavern, the rock collapsing around her. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-192 (192)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Aurelia
-Title: Leader of the Descent
-Stars: ★★★
-Ascension band: ASCENSION • from Aurelia ★★
-Origin | Class | Tier: Kingdom | Delver | TIER III
-Trait icons: Kingdom: blue crown; Delver: amber lantern
-Keywords: none (text box starts with the ability name)
+Cost: 5 (GREEN gem)
+Name: Elysian
+Title: Light of the Lost Halls
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Astral | Seer | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. **Banner of the Descent.**
-2. **Ascend:** Draw 2 cards.
-3. Ready another champion you control.
-Flavour: “The Kingdom goes where I lead.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 9 | 10
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Prophecy.**
+3. Your Schemes cost 1 less to spring.
+4. **Arrival:** Draw a card.
+Flavour: “No one dies today.”
+Crown 2: none
+Might | Guard: 3 | 6
 Footer: 192/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Crowned in light, her banner becomes a column of gold. NEW pose and action, never the Set 1 pose or composition: at the head of a column of soldiers descending the great stair, pointing the way down with her banner. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A serene celestial healer with feathered wings. NEW pose and action, never the Set 1 pose or composition: raising one hand to stop a trap just before it springs, her eyes glowing with foresight. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

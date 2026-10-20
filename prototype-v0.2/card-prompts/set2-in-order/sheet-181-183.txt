@@ -9,65 +9,62 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-181 (181)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Dax Meridian
-Title: Guardian Hunter
-Stars: ★★
-Ascension band: ASCENSION • from Dax Meridian ★
-Origin | Class | Tier: Riftborn | Hunter | TIER II
-Trait icons: Riftborn: pink diamond-in-a-diamond; Hunter: red three-slash claw mark
-Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Ignara
+Title: Heart of the Forge
+Stars: ★★★
+Ascension band: ASCENSION • from Ignara ★★
+Origin | Class | Tier: Elemental | Channeler | TIER III
+Trait icons: Elemental: orange flame; Channeler: violet spiral
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. Reach *(Can block Flight.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Rift Hunt.**
-4. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-5. When Dax Meridian defeats a champion on your turn, draw a card.
-Flavour: “Big target. Easy shot.”
-Crown 2: none
-Might | Guard: 6 | 4
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Forgefire.**
+3. Whenever you cast a Tactic, Scorch 2 a rival champion.
+Flavour: “The forge answers only me.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 10
 Footer: 181/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rift cracks glow along his revolver; his coat shows another sky. SCENE: dramatic side view in a collapsing cavern: Dax fans the hammer of his rift-cracked revolver mid-run, glowing shots streaking toward a charging Guardian, his coat flaring open to show another sky inside it. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A pillar of fire in the shape of a woman; the air itself is burning. SCENE: heroic wide shot of a vast forge-hall: Ignara as a towering living furnace, every forge in the cavern roaring to life at once around her as she raises both arms, rivers of molten metal lighting the chains and pillars. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-182 (182)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Elara
-Title: Healer of the Fallen Deep
-Stars: ★★★
-Ascension band: ASCENSION • from Elara ★★
-Origin | Class | Tier: Kingdom | Restorer | TIER II
-Trait icons: Kingdom: blue crown; Restorer: rose-pink lotus
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Morrow
+Title: Lord of the Buried Halls
+Stars: ★★
+Ascension band: ASCENSION • from Morrow ★
+Origin | Class | Tier: Hollow | Binder | TIER III
+Trait icons: Hollow: teal skull; Binder: teal chain link
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Field Mending.**
-2. **Ascend:** Mend 1.
-3. Return a ★ champion from your Fallen pile to your hand.
-Flavour: “No one gets left in the dark.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 6 | 10
+1. **Call of the Buried.**
+2. Your tokens have +1 Might and +1 Guard.
+3. **Ascend:** Summon two Risen Soldiers.
+Flavour: “Rise. There’s work to do.”
+Crown 2: none
+Might | Guard: 5 | 6
 Footer: 182/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: An angel of the field hospital, light pouring from her open tome. SCENE: heroic wide shot of a cave-in: Elara stands alone in the breach of a collapsing hall, both arms raised as a vast wall of light from her open tome holds back a falling ceiling of stone while the last of the wounded escape behind her; no wings, no halo. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Ghostlights orbit him and his robes are stitched from banners. NEW pose and action, never the Set 1 pose or composition: raising soldiers from open stone tombs, ghostly chains of light binding them to his will. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-183 (183)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Rask
-Title: Champion of the Underpits
-Stars: ★★★
-Ascension band: ASCENSION • from Rask ★★
-Origin | Class | Tier: Wildkin | Gladiator | TIER II
-Trait icons: Wildkin: gold paw print; Gladiator: bronze crested gladiator helmet
-Keywords: Charge *(Can attack the turn it arrives.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
+Cost: 4 (GREEN gem)
+Name: Captain Blacktide
+Title: Plunderer of the Vault
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Riftborn | Rogue | TIER III
+Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
+Keywords: Reach *(Can block Flight.)*
 Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. Ambush *(Attacking a sideways champion, it strikes first.)*
-3. **Pit Fighter.**
-4. +2 Might while attacking a champion.
-5. Once per turn, when Rask defeats a champion on your turn, ready Rask.
-Flavour: “The pit chooses its king.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 10 | 8
+1. Reach *(Can block Flight.)*
+2. **Plunder.**
+3. **Attack:** Take a Relic from a rival champion and attach it to Captain Blacktide.
+4. If you can’t, Scorch 1 a rival champion.
+Flavour: “Toll's due, landlubber.”
+Crown 2: none
+Might | Guard: 4 | 3
 Footer: 183/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: The undefeated: golden scales and a cloak of every champion he has bested. SCENE: heroic low-angle hero shot of the packed Underpits arena: golden-scaled Rask large in frame raising his gladius in triumph on top of a defeated Guardian, cloak of fallen champions streaming behind him, the roaring crowd lit by a ring of fire; glorious and undefeated. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A dimensional pirate captain with a hand cannon. NEW pose and action, never the Set 1 pose or composition: swinging down on a rope from his rift-wedged ship into a treasure hoard, grabbing a relic mid-swing. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

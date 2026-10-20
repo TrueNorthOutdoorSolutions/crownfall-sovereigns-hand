@@ -10,65 +10,65 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-205 (205)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Vessimer
-Title: Alchemist of Relics
-Stars: ★★★
-Ascension band: ASCENSION • from Vessimer ★★
-Origin | Class | Tier: Hexbound | Artificer | TIER IV
-Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Transmute.**
-2. Your Relics cost 2 less.
-3. **Ascend:** Return a Relic from your Fallen pile to your hand.
-4. Draw a card.
-Flavour: “Everything transmutes.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 9 | 10
-Footer: 205/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A mobile laboratory of floating flasks and glowing tubes. SCENE: heroic wide shot of a vast relic vault: Vessimer stands in a ring of floating relics that melt and reforge in mid-air into one shining artefact above his raised gloved hand, rivers of glowing tincture running across the floor runes (Vessimer always wears his dark plague-doctor beaked mask with round glowing green lenses and a wide-brimmed hat; his face is never shown). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-206 (206)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Aurex
-Title: Bane of the Guardians
+Name: Veyra Sol
+Title: Hunter of Guardians
 Stars: ★★
-Ascension band: ASCENSION • from Aurex ★
-Origin | Class | Tier: Wyrmblood | Ascendant · Hunter | TIER V
-Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
-Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Veyra Sol ★
+Origin | Class | Tier: Riftborn | Ascendant · Hunter | TIER V
+Trait icons: Riftborn: pink diamond-in-a-diamond; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
 2. Flight *(Only Flight or Reach can block it.)*
-3. **GUARDIAN’S BANE.**
-4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-5. When Aurex defeats a champion on your turn, Scorch 2 each rival champion.
-Flavour: “Worth it? Perhaps.”
+3. Ambush *(Attacking a sideways champion, it strikes first.)*
+4. **THE HUNT ETERNAL.**
+5. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+6. When Veyra Sol defeats a champion on your turn, draw a card.
+Flavour: “Caught.”
 Crown 2: none
-Might | Guard: 9 | 9
+Might | Guard: 11 | 8
+Footer: 205/266 · E · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her cloak is a window into other worlds. NEW pose and action, never the Set 1 pose or composition: leaping out of a portal onto a Guardian’s back, blade raised. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-206 (206)
+Cost: 6 (GREEN gem)
+Name: Mother Verdant
+Title: Root of All Things
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Verdant | Ascendant · Binder | TIER V
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. **EVERGROWTH.**
+3. **Arrival:** Summon two Wild Saplings.
+4. Your tokens have +1 Guard.
+Flavour: “Come, my children.”
+Crown 2: none
+Might | Guard: 4 | 9
 Footer: 206/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Molten armour grows over his wings; fire leaks from every seam. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The mother of forests, crowned in blossom. NEW pose and action, never the Set 1 pose or composition: growing up through the Arena’s foundations, forest spirits bound and glowing in her branches. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-207 (207)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Noctara
-Title: Shadow Beneath the Crown
+Name: Mother Verdant
+Title: Root of All Things
 Stars: ★★
-Ascension band: ASCENSION • from Noctara ★
-Origin | Class | Tier: Umbral | Ascendant · Seer | TIER V
-Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Seer: indigo crystal orb
-Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Mother Verdant ★
+Origin | Class | Tier: Verdant | Ascendant · Binder | TIER V
+Trait icons: Verdant: green antlers; Ascendant: gold crown (distinct from the blue Kingdom crown); Binder: teal chain link
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
 1. Ascendant *(One per deck.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **ECLIPSE SIGHT.**
-4. Your Schemes cost 1 less to spring.
-5. **Ascend:** Defeat each rival champion with Guard 2 or less.
-Flavour: “Nothing remains.”
+2. **EVERGROWTH.**
+3. Your tokens have +1 Might and +1 Guard.
+4. **Ascend:** Summon two Wild Saplings.
+Flavour: “Bloom again.”
 Crown 2: none
-Might | Guard: 8 | 10
+Might | Guard: 7 | 12
 Footer: 207/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her crown becomes an eclipse; small voids orbit her. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Her train is a meadow; deer of light follow her. NEW pose and action, never the Set 1 pose or composition: growing up through the Arena’s foundations, forest spirits bound and glowing in her branches. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 

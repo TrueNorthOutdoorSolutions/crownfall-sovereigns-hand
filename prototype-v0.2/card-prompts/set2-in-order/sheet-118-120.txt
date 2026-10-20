@@ -1,4 +1,4 @@
-Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+Make these 2 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
 
 References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
 Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
@@ -10,60 +10,41 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-118 (118)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: HEX-3
-Title: Core Conduit
+Name: Maeve
+Title: Broker of Relics
 Stars: ★★
-Ascension band: ASCENSION • from HEX-3 ★
-Origin | Class | Tier: Gearbound | Channeler | TIER II
-Trait icons: Gearbound: gold gear; Channeler: violet spiral
+Ascension band: ASCENSION • from Maeve ★
+Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Core Surge.**
-2. Whenever you cast a Tactic, Shield HEX-3.
-Flavour: “Power accepted.”
+1. **Sleight of Thorns.**
+2. **Ascend:** Your rival discards a card at random.
+3. Draw a card.
+Flavour: “A fair trade. For me.”
 Crown 2: none
-Might | Guard: 5 | 6
+Might | Guard: 5 | 7
 Footer: 118/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Rune-etched plating; the reactor glows violet. SCENE: low angle inside a reactor chamber: HEX-3 rises free of its cables, rune-etched plating glowing, its violet reactor flaring as spells spill from the conduits around it and are drawn into its core in bright ribbons. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Antlers of bone and branch; her shadow is a tree. SCENE: high angle on a rope bridge over a fungus-lit cavern: Maeve escapes with a sack of stolen relics as living roots from her staff tangle the guards chasing her, green witch-light flaring. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 2 (middle)
+CARD 2 (right)
 Card number: S2-119 (119)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Valkara
-Title: Judge of the Depths
+Name: Ronin Zero
+Title: Blade Beneath the Arena
 Stars: ★★
-Ascension band: ASCENSION • from Valkara ★
-Origin | Class | Tier: Astral | Seer | TIER III
-Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Ronin Zero ★
+Origin | Class | Tier: Voltborn | Gladiator | TIER III
+Trait icons: Voltborn: blue lightning bolt; Gladiator: bronze crested gladiator helmet
+Keywords: Charge *(Can attack the turn it arrives.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Foresight Verdict.**
-3. Your Schemes cost 1 less to spring.
-4. **Ascend:** Defeat each rival champion with Guard 1 or less.
-Flavour: “I’ve already seen how this ends.”
+1. Charge *(Can attack the turn it arrives.)*
+2. **Arena Draw.**
+3. +2 Might while attacking a champion.
+4. Once per turn, when Ronin Zero defeats a champion on your turn, ready Ronin Zero.
+Flavour: “Again.”
 Crown 2: none
 Might | Guard: 7 | 6
 Footer: 119/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Wings of starlight and a gilded war-helm. SCENE: side view on a broken stone bridge: Valkara lands in a crouch before a kneeling monster, wings of starlight half-folded, gilded war-helm lit by the glow of her spear-sword raised in judgment. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-120 (120)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Dreadmouth
-Title: Devourer of Guardians
-Stars: ★★
-Ascension band: ASCENSION • from Dreadmouth ★
-Origin | Class | Tier: Hollow | Hunter | TIER III
-Trait icons: Hollow: teal skull; Hunter: red three-slash claw mark
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)*
-Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. **Guardian Feast.**
-3. +2 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
-Flavour: “The water is hungry.”
-Crown 2: none
-Might | Guard: 8 | 6
-Footer: 120/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Bone plates, a second jaw, and ghostfire in its throat. SCENE: side view in a flooded vault: Dreadmouth drags a thrashing Guardian down beneath the dark water, only its gaping jaw and the Guardian reaching arm breaking the surface, ripples catching amber torchlight. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Arc lines trace his frame; his blade hums. SCENE: top-down view onto the flooded pit: Ronin Zero mid-spin between three fallen opponents, his katana leaving a bright arc of rippling water around him, one warm lantern swinging overhead. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

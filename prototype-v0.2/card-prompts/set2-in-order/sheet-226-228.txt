@@ -9,48 +9,6 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-226 (226)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Nyx
-Title: Vault Thief
-Stars: ★★★
-Ascension band: ASCENSION • from Nyx ★★
-Origin | Class | Tier: Umbral | Rogue | TIER I
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Light Fingers.**
-4. **Attack:** Take a Relic from a rival champion and attach it to Nyx.
-5. If you can’t, Scorch 1 a rival champion.
-6. When Nyx defeats a champion on your turn, your rival discards a card at random.
-Flavour: “Guardians sleep. I don’t.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 5
-Footer: 226/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Half shadow, half girl: a trail of afterimages follows her and her daggers are carved from night. SCENE: wide shot of a vault ceiling: Nyx upside-down on a chain high above, silhouetted against a glowing skylight, a bag of stolen relics over her shoulder, the guards far below searching the wrong way. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 2 (middle)
-Card number: S2-227 (227)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Emberling
-Title: Ember Conduit
-Stars: ★★★
-Ascension band: ASCENSION • from Emberling ★★
-Origin | Class | Tier: Elemental | Channeler | TIER I
-Trait icons: Elemental: orange flame; Channeler: violet spiral
-Keywords: none (text box starts with the ability name)
-Text box, line by line:
-1. **Ember Echo.**
-2. Whenever you cast a Tactic, Scorch 1 each rival champion.
-Flavour: “Every spell is kindling.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 7 | 7
-Footer: 227/266 · P · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A miniature sun-spirit; the air warps around her and her fireballs leave spiralling trails. SCENE: low wide shot of a deep forge cavern: a towering pillar of flame rising from Emberling as dozens of floating spell scrolls burn around it in a ring, the whole cavern lit orange against a cold blue ceiling. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-228 (228)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
 Name: Gearwick-9
 Title: Relic Engineer
@@ -68,6 +26,47 @@ Text box, line by line:
 Flavour: “Every relic fits somewhere.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 8 | 8
-Footer: 228/266 · P · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 226/266 · P · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A walking siege tower with a rotary mortar crown. SCENE: heroic wide shot of a vast forge-hall: Gearwick-9 rebuilt into a towering walking siege tower, rotary mortar crown blazing as it fires a full volley into the dark, shell casings raining down and tiny engineers cheering at its feet. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 2 (middle)
+Card number: S2-227 (227)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Dax Meridian
+Title: Guardian Hunter
+Stars: ★★★
+Ascension band: ASCENSION • from Dax Meridian ★★
+Origin | Class | Tier: Riftborn | Hunter | TIER II
+Trait icons: Riftborn: pink diamond-in-a-diamond; Hunter: red three-slash claw mark
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Rift Hunt.**
+3. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+4. **Attack: Scorch 2** the defender.
+5. When Dax Meridian defeats a champion on your turn, draw a card.
+Flavour: “I hunt the things that hunt you.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 9 | 7
+Footer: 227/266 · P · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A drifter from every timeline at once: ghostly copies echo his shots. SCENE: heroic wide shot of a vast cavern split by rifts: Dax large in frame standing on a fallen Guardian, revolver smoking, a dozen ghostly copies of himself from other timelines firing all at once around him; violet rift light and amber muzzle flashes everywhere. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+
+CARD 3 (right)
+Card number: S2-228 (228)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: HEX-3
+Title: Core Conduit
+Stars: ★★★
+Ascension band: ASCENSION • from HEX-3 ★★
+Origin | Class | Tier: Gearbound | Channeler | TIER II
+Trait icons: Gearbound: gold gear; Channeler: violet spiral
+Keywords: none (text box starts with the ability name)
+Text box, line by line:
+1. **Core Surge.**
+2. Whenever you cast a Tactic, Shield HEX-3 and gain 1 Command.
+Flavour: “Every spell makes me stronger.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
+Might | Guard: 8 | 9
+Footer: 228/266 · P · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A levitating arcane engine with three orbiting reactor cores. SCENE: heroic wide shot of a vast arcane engine hall: HEX-3 levitating at centre-left as a towering engine, three reactor cores orbiting it and every conduit in the cavern pouring power into it at once, lightning-white and violet light filling the frame. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

@@ -328,3 +328,61 @@ Owner: cheap cards with two effects must not be Common. Screened every Set 2 car
 - Raised now (not yet drawn, so only undrawn numbers moved): The Tide Will Turn C→U, Crown Hex: Void U→E, The Ascension Vault Opens E→P, Gaia Prime ★★★ E→P.
 - Already drawn, left for the full post-art audit (owner decision): Bolt ★★ 017, Grizz ★★ 022, Something Stirs Beneath the Arena 056, Its Treasure Is Yours 057 (all Common, band Uncommon or higher).
 Drawn cards 001-057 pinned in data/set2-printed.json; validator 12,530 checks pass; sim unchanged (starters 47.0-52.9%).
+
+## 2026-10-20 owner rarity review (Set 2, approved by Jerian)
+
+Cheap cards with two effects, or effects that repeat, left Common; Elite/Epic power raised; vanilla Relics, Kira Volt ★★, Hexie ★ and Kael ★★ lowered to Common; The Fallen King's Blade and Titan's Last Heart Mythic → Epic. Mix now C 89 · U 75 · E 58 · P 29 · M 15 (leans strong; even out in the balance pass by weakening, not by rarity). Every rarity change is marked `2026-10-20 owner rarity review` in `src/v02/content/set2.ts`.
+
+Drawn cards renumbered once (old → new; footers fixed by GPT edit, art unchanged):
+
+```
+004 -> 005 C->C Grimm ★
+005 -> 006 C->C Grimm ★★
+006 -> 007 C->C Pip ★
+007 -> 008 C->C Pip ★★
+008 -> 009 C->C Solara ★
+009 -> 010 C->C Fen ★
+010 -> 011 C->C Fen ★★
+011 -> 012 C->C Torren ★
+012 -> 013 C->C Torren ★★
+013 -> 014 C->C Rowan ★
+014 -> 015 C->C Rowan ★★
+015 -> 016 C->C Rowan ★★★
+016 -> 018 C->C Bolt ★
+017 -> 096 C->U Bolt ★★
+018 -> 019 C->C Kael ★
+019 -> 021 C->C Solenne Ash ★
+020 -> 022 C->C Solenne Ash ★★
+021 -> 023 C->C Grizz ★
+022 -> 100 C->U Grizz ★★
+023 -> 102 C->U Gearwick-9 ★
+031 -> 108 C->U Dax Meridian ★
+032 -> 031 C->C Elara ★
+033 -> 032 C->C Rask ★
+034 -> 111 C->U HEX-3 ★
+035 -> 113 C->U Valkara ★
+036 -> 033 C->C Dreadmouth ★
+037 -> 115 C->U Professor Spark ★
+038 -> 034 C->C Orion ★
+039 -> 035 C->C Maeve ★
+040 -> 036 C->C Ronin Zero ★
+041 -> 120 C->U Ignara ★
+042 -> 121 C->U Ignara ★★
+043 -> 037 C->C Knuckle ★
+044 -> 038 C->C Astryon ★
+045 -> 126 C->U Queen Vespera ★
+046 -> 039 C->C Titan Rho ★
+047 -> 040 C->C Titan Rho ★★
+048 -> 041 C->C Lady Volt ★
+049 -> 135 C->U Vessimer ★
+050 -> 042 C->C ATLAS-Ω ★
+051 -> 043 C->C Crystal Mite 
+052 -> 044 C->C Shardling 
+053 -> 045 C->C Rift Hound 
+054 -> 046 C->C Crown Hex: War 
+055 -> 047 C->C Crown Hex: Creation 
+056 -> 148 C->U Something Stirs Beneath the Arena 
+057 -> 149 C->U Its Treasure Is Yours 
+```
+
+New cards slotted into drawn ranges: 004 Kira Volt ★★, 017 Hexie ★, 020 Kael ★★.

@@ -9,63 +9,64 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-193 (193)
-Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Knuckle
-Title: King Under the Pit
-Stars: ★★★
-Ascension band: ASCENSION • from Knuckle ★★
-Origin | Class | Tier: Titanborn | Gladiator | TIER III
-Trait icons: Titanborn: peach-orange triangle; Gladiator: bronze crested gladiator helmet
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Elysian
+Title: Light of the Lost Halls
+Stars: ★★
+Ascension band: ASCENSION • from Elysian ★
+Origin | Class | Tier: Astral | Seer | TIER IV
+Trait icons: Astral: blue four-pointed sparkle; Seer: indigo crystal orb
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Pit King’s Right.**
-3. +3 Might while attacking a champion.
-4. **Block:** The attacker gets −3 Might this turn.
-Flavour: “Kneel, or get knocked down.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 11 | 10
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Prophecy.**
+3. Your Schemes cost 1 less to spring.
+4. **Ascend: Shield** each champion you control.
+Flavour: “All of you, safe.”
+Crown 2: none
+Might | Guard: 6 | 9
 Footer: 193/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A living landslide with fists like siege rams. SCENE: heroic low angle in the vast Underpits: Knuckle smashes both fists down and the whole pit floor splits into glowing cracks, opponents flung back, the crowd on the cave ledges roaring under a ring of fire. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A second pair of wings and a halo of script. NEW pose and action, never the Set 1 pose or composition: raising one hand to stop a trap just before it springs, her eyes glowing with foresight. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 2 (middle)
 Card number: S2-194 (194)
-Cost: 4 (GREEN gem)
-Name: Zyrak
-Title: Shard of the Broken Vault
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Riftborn | Channeler | TIER III
-Trait icons: Riftborn: pink diamond-in-a-diamond; Channeler: violet spiral
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: General Varr
+Title: Holder of the Gate
+Stars: ★★★
+Ascension band: ASCENSION • from General Varr ★★
+Origin | Class | Tier: Kingdom | Sentinel | TIER IV
+Trait icons: Kingdom: blue crown; Sentinel: grey stone watchtower
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Shard Resonance.**
-3. Whenever you cast a Tactic, draw a card.
-Flavour: “* refracts politely *”
-Crown 2: none
-Might | Guard: 2 | 3
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Last Gate.**
+3. Rival champions attacking your Crown get −2 Might.
+4. **Ascend: Shield** each champion you control.
+Flavour: “This gate does not open.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 10 | 12
 Footer: 194/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A crystal alien with a floating prism. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A legend of the line, flanked by phantom shieldbearers. NEW pose and action, never the Set 1 pose or composition: holding a gate shut with his shield as monsters press against it from the other side. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-195 (195)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Astryon
-Title: Blade That Fell Beneath
-Stars: ★★
-Ascension band: ASCENSION • from Astryon ★
-Origin | Class | Tier: Astral | Gladiator | TIER IV
-Trait icons: Astral: blue four-pointed sparkle; Gladiator: bronze crested gladiator helmet
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Cost: 4 (GREEN gem)
+Name: Veilwalker
+Title: The Rift Below
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Riftborn | Rogue | TIER IV
+Trait icons: Riftborn: pink diamond-in-a-diamond; Rogue: crimson domino mask
+Keywords: Flight *(Only Flight or Reach can block it.)* · Ambush *(Attacking a sideways champion, it strikes first.)*
 Text box, line by line:
 1. Flight *(Only Flight or Reach can block it.)*
-2. **Starfall Duel.**
-3. +2 Might while attacking a champion.
-4. When Astryon defeats a champion on your turn, draw a card.
-Flavour: “Another star cut down.”
+2. Ambush *(Attacking a sideways champion, it strikes first.)*
+3. **Between the Veils.**
+4. **Attack:** Your rival discards a card at random.
+Flavour: “* the air tears open *”
 Crown 2: none
-Might | Guard: 9 | 6
+Might | Guard: 5 | 3
 Footer: 195/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Gold-and-white armour; two celestial blades float at his back and constellations trail his strikes. SCENE: close side view on a narrow underground bridge: Astryon parries three attackers at once, his seven blades orbiting him as a spinning wall of steel, sparks frozen in the air. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A living dimensional anomaly in a tattered shape. NEW pose and action, never the Set 1 pose or composition: half-stepping out of a rift behind a Guardian, reaching for the relic on its back. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

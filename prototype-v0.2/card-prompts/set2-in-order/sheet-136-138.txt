@@ -9,61 +9,63 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-136 (136)
-Cost: 5 (GREEN gem)
-Name: Gaia Prime
-Title: Root of the Arena
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Verdant | Restorer | TIER IV
-Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Vessimer
+Title: Alchemist of Relics
+Stars: ★★
+Ascension band: ASCENSION • from Vessimer ★
+Origin | Class | Tier: Hexbound | Artificer | TIER IV
+Trait icons: Hexbound: purple star outline; Artificer: bronze anvil
+Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Deep Roots.**
-3. **Arrival:** Mend 1.
-Flavour: “I remember who built this place.”
+1. **Transmute.**
+2. Your Relics cost 1 less.
+3. **Ascend:** Attach a Relic costing 3 or less from your hand to Vessimer for free.
+Flavour: “Results: conclusive.”
 Crown 2: none
-Might | Guard: 3 | 7
+Might | Guard: 6 | 7
 Footer: 136/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An ancient living tree titan. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Brass apparatus hisses on his back. SCENE: high angle down a spiral vault stair: Vessimer hurls a cracked violet flask down into the dark below, the burst lighting every relic on the walls as they transmute at once, his coat flaring as he leans over the rail (Vessimer always wears his dark plague-doctor beaked mask with round glowing green lenses and a wide-brimmed hat; his face is never shown). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-137 (137)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Gaia Prime
-Title: Root of the Arena
-Stars: ★★
-Ascension band: ASCENSION • from Gaia Prime ★
-Origin | Class | Tier: Verdant | Restorer | TIER IV
-Trait icons: Verdant: green antlers; Restorer: rose-pink lotus
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
+Cost: 6 (GREEN gem)
+Name: Noctara
+Title: Shadow Beneath the Crown
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Umbral | Ascendant · Seer | TIER V
+Trait icons: Umbral: lilac crescent moon; Ascendant: gold crown (distinct from the blue Kingdom crown); Seer: indigo crystal orb
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Deep Roots.**
-3. **Ascend: Shield** each champion you control.
-Flavour: “Grow.”
+1. Ascendant *(One per deck.)*
+2. **ECLIPSE SIGHT.**
+3. Your Schemes cost 1 less to spring.
+4. **Arrival:** Break one of your rival’s face-down Schemes at random.
+5. If you can’t, Scorch 2 a rival champion.
+Flavour: “All things end in me.”
 Crown 2: none
-Might | Guard: 6 | 10
+Might | Guard: 6 | 7
 Footer: 137/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): Blossoms and a canopy crown; birds nest in her shoulders. NEW pose and action, never the Set 1 pose or composition: her roots knitting cracked stone pillars back together, the hall mending around her. Same pose idea, bigger and more powerful at ★★. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An empress robed in the space between stars. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 CARD 3 (right)
 Card number: S2-138 (138)
-Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Lady Volt
-Title: Storm in the Deep
-Stars: ★★
-Ascension band: ASCENSION • from Lady Volt ★
-Origin | Class | Tier: Voltborn | Sharpshooter | TIER IV
-Trait icons: Voltborn: blue lightning bolt; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
-Keywords: Charge *(Can attack the turn it arrives.)*
+Cost: 6 (GREEN gem)
+Name: Sol
+Title: Dawn Beneath the World
+Stars: ★
+No Ascension band
+Origin | Class | Tier: Dawnforged | Ascendant · Restorer | TIER V
+Trait icons: Dawnforged: gold-orange sunburst; Ascendant: gold crown (distinct from the blue Kingdom crown); Restorer: rose-pink lotus
+Keywords: Ascendant *(One per deck.)*
 Text box, line by line:
-1. Charge *(Can attack the turn it arrives.)*
-2. **Chain Lightning.**
-3. **Attack: Scorch 2** a rival champion, then Scorch 1 a rival champion.
-Flavour: “Touché.”
+1. Ascendant *(One per deck.)*
+2. **SECOND DAWN.**
+3. **Arrival:** Mend 1.
+Flavour: “Before anything, there was me.”
 Crown 2: none
-Might | Guard: 8 | 6
+Might | Guard: 5 | 7
 Footer: 138/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Storm-silver armour; her hair crackles. SCENE: side view mid-lunge on a narrow wet walkway: Lady Volt dashes between two armoured foes, her rapier trailing a thin line of lightning that arcs from one to the other, spray kicked up from the puddles. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): The first light given a body. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 

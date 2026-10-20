@@ -386,59 +386,59 @@ const SCENES: Record<string, [string, string, string]> = {
 type R = NonNullable<ChampionForm['rarity']>;
 const CARD_RARITY: Record<string, [R, R, R]> = {
   bramble: ['common', 'common', 'mythic'],
-  kira: ['common', 'uncommon', 'mythic'],
+  kira: ['common', 'common', 'mythic'], // 2026-10-20 owner rarity review
   grimm: ['common', 'common', 'uncommon'],
   pip: ['common', 'common', 'uncommon'],
   solara: ['common', 'uncommon', 'elite'],
   fen: ['common', 'common', 'elite'],
   torren: ['common', 'common', 'uncommon'],
-  nyx: ['uncommon', 'elite', 'epic'],
-  emberling: ['uncommon', 'elite', 'epic'],
+  nyx: ['elite', 'epic', 'epic'], // 2026-10-20 owner rarity review
+  emberling: ['uncommon', 'uncommon', 'epic'], // 2026-10-20 owner rarity review
   rowan: ['common', 'common', 'common'],
-  hexie: ['uncommon', 'elite', 'mythic'],
-  bolt: ['common', 'common', 'uncommon'],
-  kael: ['common', 'uncommon', 'elite'],
+  hexie: ['common', 'elite', 'mythic'], // 2026-10-20 owner rarity review
+  bolt: ['common', 'uncommon', 'uncommon'], // 2026-10-20 owner rarity review
+  kael: ['common', 'common', 'uncommon'], // 2026-10-20 owner rarity review
   solenne: ['common', 'common', 'uncommon'],
-  grizz: ['common', 'common', 'uncommon'],
-  gearwick: ['common', 'uncommon', 'epic'],
+  grizz: ['common', 'uncommon', 'uncommon'], // 2026-10-20 owner rarity review
+  gearwick: ['uncommon', 'uncommon', 'epic'], // 2026-10-20 owner rarity review
   mirella: ['common', 'common', 'elite'],
   shade: ['common', 'uncommon', 'elite'],
   borin: ['common', 'common', 'uncommon'],
   seren: ['common', 'uncommon', 'elite'],
   thorn: ['common', 'uncommon', 'elite'],
-  dax: ['common', 'elite', 'epic'],
+  dax: ['uncommon', 'elite', 'epic'], // 2026-10-20 owner rarity review
   elara: ['common', 'uncommon', 'elite'],
   rask: ['common', 'uncommon', 'elite'],
-  hex3: ['common', 'uncommon', 'epic'],
-  valkara: ['common', 'uncommon', 'epic'],
+  hex3: ['uncommon', 'uncommon', 'epic'], // 2026-10-20 owner rarity review
+  valkara: ['uncommon', 'elite', 'epic'], // 2026-10-20 owner rarity review
   dreadmouth: ['common', 'uncommon', 'elite'],
-  spark: ['common', 'uncommon', 'elite'],
+  spark: ['uncommon', 'uncommon', 'elite'], // 2026-10-20 owner rarity review
   orion: ['common', 'uncommon', 'elite'],
   maeve: ['common', 'uncommon', 'elite'],
   ronin: ['common', 'uncommon', 'epic'],
-  ignara: ['common', 'common', 'elite'],
+  ignara: ['uncommon', 'uncommon', 'elite'], // 2026-10-20 owner rarity review
   morrow: ['uncommon', 'elite', 'mythic'],
-  blacktide: ['uncommon', 'elite', 'elite'],
+  blacktide: ['elite', 'elite', 'epic'], // 2026-10-20 owner rarity review
   aurelia: ['uncommon', 'uncommon', 'elite'],
   knuckle: ['common', 'uncommon', 'elite'],
   zyrak: ['elite', 'epic', 'mythic'],
   astryon: ['common', 'elite', 'elite'],
-  vespera: ['common', 'uncommon', 'elite'],
-  titanrho: ['common', 'common', 'elite'],
+  vespera: ['uncommon', 'uncommon', 'elite'], // 2026-10-20 owner rarity review
+  titanrho: ['common', 'common', 'epic'], // 2026-10-20 owner rarity review
   pyrax: ['uncommon', 'uncommon', 'elite'],
-  elysian: ['uncommon', 'elite', 'epic'],
+  elysian: ['elite', 'elite', 'epic'], // 2026-10-20 owner rarity review
   varr: ['uncommon', 'uncommon', 'elite'],
   veilwalker: ['elite', 'elite', 'epic'],
   gaia: ['uncommon', 'uncommon', 'epic'], // 2026-10-20 owner audit: ★★★ Mend + two tokens (was elite)
   ladyvolt: ['common', 'uncommon', 'elite'],
-  vessimer: ['common', 'uncommon', 'elite'],
-  aurex: ['uncommon', 'elite', 'mythic'],
+  vessimer: ['uncommon', 'uncommon', 'elite'], // 2026-10-20 owner rarity review
+  aurex: ['elite', 'elite', 'mythic'], // 2026-10-20 owner rarity review
   noctara: ['uncommon', 'elite', 'mythic'],
   atlas: ['common', 'elite', 'mythic'],
   sol: ['uncommon', 'epic', 'mythic'],
   unwritten: ['elite', 'elite', 'mythic'],
   veyra: ['uncommon', 'elite', 'epic'],
-  mother: ['uncommon', 'elite', 'mythic'],
+  mother: ['elite', 'elite', 'mythic'], // 2026-10-20 owner rarity review
   crownless: ['uncommon', 'epic', 'mythic'],
 };
 const ABILITY: Record<string, string> = {
@@ -787,7 +787,7 @@ const RELIC_RARITY: Record<string, NonNullable<RelicDef['rarity']>> = {
   blade: 'common',
   feather: 'common',
   crystal: 'common',
-  tear: 'uncommon',
+  tear: 'elite', // 2026-10-20 owner rarity review
   plate: 'common',
   cloak: 'common',
   core: 'common',
@@ -800,14 +800,14 @@ const RELIC_RARITY: Record<string, NonNullable<RelicDef['rarity']>> = {
   veilpiercer: 'common',
   bloodoath: 'uncommon',
   deadeye: 'common',
-  gale_talons: 'uncommon',
+  gale_talons: 'common', // 2026-10-20 owner rarity review
   storm_engine: 'elite',
   chrono_band: 'common',
   resolute_buckler: 'common',
   phase_mantle: 'common',
   quickened_heart: 'common',
   falconeye: 'common',
-  astral_diadem: 'uncommon',
+  astral_diadem: 'common', // 2026-10-20 owner rarity review
   tidecaller: 'epic',
   aegis_codex: 'elite',
   hexflame_orb: 'common',
@@ -820,19 +820,19 @@ const RELIC_RARITY: Record<string, NonNullable<RelicDef['rarity']>> = {
   fatebinder: 'common',
   thornward: 'common',
   twin_aegis: 'common',
-  bastion_heart: 'uncommon',
+  bastion_heart: 'common', // 2026-10-20 owner rarity review
   watchward: 'common',
   starveil: 'common',
-  sanctified_mantle: 'uncommon',
+  sanctified_mantle: 'elite', // 2026-10-20 owner rarity review
   nullifier: 'common',
   giant_heartstone: 'uncommon',
   reapers_lens: 'elite',
   true_sight: 'uncommon',
   sovereign_crown: 'epic',
-  fallen_kings_blade: 'mythic',
+  fallen_kings_blade: 'epic', // 2026-10-20 owner rarity review
   first_realm_crown: 'mythic',
   hourglass_of_ash: 'mythic',
-  titans_last_heart: 'mythic',
+  titans_last_heart: 'epic', // 2026-10-20 owner rarity review
   starless_tome: 'mythic',
 };
 const R = (canonId: string, name: string, cost: number, relicType: RelicDef['relicType'], text: string, art: string, rest: Partial<RelicDef> = {}): RelicDef =>
@@ -929,15 +929,15 @@ const SPELL_RARITY: Record<string, NonNullable<SpellDef['rarity']>> = {
   boss_encounter: 'uncommon',
   pack_leader: 'uncommon',
   clash_of_sovereigns: 'uncommon',
-  stirs_beneath: 'common',
+  stirs_beneath: 'uncommon', // 2026-10-20 owner rarity review
   guardian_approaches: 'uncommon',
   guardian_falls: 'epic',
-  treasure_is_yours: 'common',
+  treasure_is_yours: 'uncommon', // 2026-10-20 owner rarity review
   arena_yields: 'elite',
   vault_remembers: 'common',
   old_power: 'elite',
   vault_opens: 'epic', // 2026-10-20 owner audit: draw 3 for 2 (was elite)
-  wounded_choose: 'common',
+  wounded_choose: 'uncommon', // 2026-10-20 owner rarity review
   crown_divided: 'elite',
   guardian_enrages: 'uncommon',
   head_splits: 'uncommon',
@@ -948,7 +948,7 @@ const SPELL_RARITY: Record<string, NonNullable<SpellDef['rarity']>> = {
   cannot_be_touched: 'common',
   one_still_stands: 'common',
   keeps_treasure: 'uncommon',
-  not_yet: 'common',
+  not_yet: 'uncommon', // 2026-10-20 owner rarity review
 };
 const T = (id: string, name: string, cost: number, text: string, effects: Effect[], art: string, extra: Partial<SpellDef> = {}): SpellDef =>
   ({ id, set: 2, kind: 'tactic', name, cost, text, effects, art, rarity: SPELL_RARITY[id], ...extra });

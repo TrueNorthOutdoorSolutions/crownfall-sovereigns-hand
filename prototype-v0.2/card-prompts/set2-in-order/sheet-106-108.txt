@@ -1,4 +1,4 @@
-Make these 3 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
+Make these 2 cards in the locked master template, side by side, left to right, in one image. Each card has its OWN text and stats exactly as listed. Never copy text or stats from one card to another.
 
 References: attach the locked Champion Card Template (FRAME only) and the approved Set 2 Bramble sheet (Set 2 frame, set symbol and art style); match them exactly. SET 2 ART DIRECTION: new artwork, NOT a repaint of the Set 1 cards. Keep each character’s Crownfall appearance (same look, colours and identity, recognisable at a glance), but give each card a completely NEW pose, action, camera angle and composition. Show the class through what the character is DOING, not through added costume props. Setting: the vaults, tunnels, forges and sunken halls beneath the Arena, with darker underground lighting, teal and violet glow, amber lantern and forge light.
 Use the same proportions, green-vine gold border, parchment text box, name/title bar, gold stars top-right, full-width art, and studio mountain logo as the locked reference. No chevrons or plain black frame. BOTTOM-CENTRE SET SYMBOL between the Might and Guard shields = the SET 2 symbol: a small bronze round-topped arched gateway with a glowing teal keyhole and three steps leading down into it, with the small white studio mountain logo just below it. Never the Set 1 faceted shield crest.
@@ -9,60 +9,42 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-106 (106)
-Cost: 1 (GREEN gem)
-Name: Hexie
-Title: Reader of Bones
-Stars: ★
-No Ascension band
-Origin | Class | Tier: Hexbound | Seer | TIER I
-Trait icons: Hexbound: purple star outline; Seer: indigo crystal orb
-Keywords: none (text box starts with the ability name)
+Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
+Name: Seren
+Title: Starlight in the Dark
+Stars: ★★
+Ascension band: ASCENSION • from Seren ★
+Origin | Class | Tier: Astral | Delver | TIER II
+Trait icons: Astral: blue four-pointed sparkle; Delver: amber lantern
+Keywords: Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. **Bone Reading.**
-2. Your Schemes cost 1 less to spring.
-Flavour: “Who wants to be a toad?”
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Starlit Path.**
+3. **Ascend:** Draw 2 cards, then put a card from your hand on the bottom of your deck.
+Flavour: “Follow the stars, even down here.”
 Crown 2: none
-Might | Guard: 1 | 2
+Might | Guard: 4 | 6
 Footer: 106/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An apprentice witch in an oversized hat. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A cloak of night sky and a lantern that holds a real star. SCENE: over-the-shoulder view from behind Seren on a rock spire above a vast underground chasm: her night-sky cloak billowing as she lifts her lantern and a real star inside it flares, revealing a hidden city of ruins far below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-CARD 2 (middle)
+CARD 2 (right)
 Card number: S2-107 (107)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
-Name: Bolt
-Title: Scrap Smith
-Stars: ★★★
-Ascension band: ASCENSION • from Bolt ★★
-Origin | Class | Tier: Gearbound | Artificer | TIER I
-Trait icons: Gearbound: gold gear; Artificer: bronze anvil
-Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
-Text box, line by line:
-1. Bulwark *(Blocking doesn't turn it sideways.)*
-2. **Scrapforge.**
-3. **Ascend:** Attach a Relic costing 3 or less from your hand to Bolt for free.
-4. +2 Guard while Bolt holds a Relic.
-Flavour: “Spare parts? I’m all spare parts.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 6 | 9
-Footer: 107/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A gleaming brass guardian with a reactor heart and folding shield vanes. SCENE: heroic wide shot of a vast underground foundry: Bolt towering and fully rebuilt from dozens of mismatched relic plates, gear core blazing, raising one enormous piston fist as the forge erupts behind it; tiny workers below for scale. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-108 (108)
-Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
-Name: Kael
-Title: Relic Seeker
+Name: Thorn
+Title: Rot Beneath the Stone
 Stars: ★★
-Ascension band: ASCENSION • from Kael ★
-Origin | Class | Tier: Kingdom | Delver | TIER I
-Trait icons: Kingdom: blue crown; Delver: amber lantern
+Ascension band: ASCENSION • from Thorn ★
+Origin | Class | Tier: Verdant | Sapper | TIER II
+Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Delve.**
-2. **Ascend:** Return a Relic from your Fallen pile to your hand.
-Flavour: “This way. Probably.”
+1. **Creeping Rot.**
+2. **Ascend:** Break a rival champion’s Relic.
+3. If you can’t, Scorch 1 a rival champion.
+4. **Block: Scorch 2** the attacker.
+Flavour: “Your walls are already rotting.”
 Crown 2: none
-Might | Guard: 5 | 4
-Footer: 108/266 · U · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Blue-steel armour and a blade that leaves a crescent of light. SCENE: low side angle in a flooded relic vault: Kael wades waist-deep through dark water toward a broken plinth, sword drawn, his torch held high and reflecting in the ripples; a faint teal glow from the relic ahead. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Might | Guard: 5 | 5
+Footer: 107/266 · U · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: Poison dripping from purple petals; a thorny spine along his back. SCENE: three-quarter view inside a collapsing treasure vault: Thorn strides through a wall that is rotting apart around him, poison dripping from his purple petals and thorny spine raised, guards backing away through the green haze. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 

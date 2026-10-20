@@ -9,6 +9,49 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 
 CARD 1 (left)
 Card number: S2-256 (256)
+Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
+Name: Zyrak
+Title: Shard of the Broken Vault
+Stars: ★★★
+Ascension band: ASCENSION • from Zyrak ★★
+Origin | Class | Tier: Riftborn | Channeler | TIER III
+Trait icons: Riftborn: pink diamond-in-a-diamond; Channeler: violet spiral
+Keywords: Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Flight *(Only Flight or Reach can block it.)*
+2. **Shard Resonance.**
+3. Whenever you cast a Tactic, draw a card and Scorch 1 each rival champion.
+4. **Ascend: Scorch 2** each rival champion.
+Flavour: “Shatter me. I come back sharper.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 8 | 9
+Footer: 256/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A walking cathedral of prisms refracting impossible colours. NEW pose and action, never the Set 1 pose or composition: its shattered crystals reassembling around a burst of light as it gathers power. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 2 (middle)
+Card number: S2-257 (257)
+Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
+Name: Aurex
+Title: Bane of the Guardians
+Stars: ★★★
+Ascension band: ASCENSION • from Aurex ★★
+Origin | Class | Tier: Wyrmblood | Ascendant · Hunter | TIER V
+Trait icons: Wyrmblood: orange trident; Ascendant: gold crown (distinct from the blue Kingdom crown); Hunter: red three-slash claw mark
+Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
+Text box, line by line:
+1. Ascendant *(One per deck.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **GUARDIAN’S BANE.**
+4. +3 Might while fighting a Monster, a Guardian or a ★★/★★★ champion.
+5. **Ascend: Scorch 2** each rival champion, then defeat each rival Monster, Guardian and ★★/★★★ champion with Guard 6 or less.
+Flavour: “No Guardian outlives the last dragon.”
+Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
+Might | Guard: 13 | 12
+Footer: 257/266 · M · Northern Summit Studios · Art: Jerian Latawiec
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A full celestial dragon. The sky turns red and flames surround the arena. NEW pose and action, never the Set 1 pose or composition: pinning a fallen Guardian beneath his claws in its lair, roaring. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+
+CARD 3 (right)
+Card number: S2-258 (258)
 Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
 Name: Noctara
 Title: Shadow Beneath the Crown
@@ -27,52 +70,6 @@ Text box, line by line:
 Flavour: “I see every shadow you hide in.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
 Might | Guard: 12 | 13
-Footer: 256/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She is a doorway to nothing. The battlefield becomes the void. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
-
-CARD 2 (middle)
-Card number: S2-257 (257)
-Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
-Name: ATLAS-Ω
-Title: The Vault Engine
-Stars: ★★★
-Ascension band: ASCENSION • from ATLAS-Ω ★★
-Origin | Class | Tier: Gearbound | Ascendant · Sentinel | TIER V
-Trait icons: Gearbound: gold gear; Ascendant: gold crown (distinct from the blue Kingdom crown); Sentinel: grey stone watchtower
-Keywords: Ascendant *(One per deck.)* · Bulwark *(Blocking doesn't turn it sideways.)* · Reach *(Can block Flight.)*
-Text box, line by line:
-1. Ascendant *(One per deck.)*
-2. Bulwark *(Blocking doesn't turn it sideways.)*
-3. Reach *(Can block Flight.)*
-4. **VAULT PROTOCOL.**
-5. Rival champions attacking your Crown get −2 Might.
-6. **Attack: Scorch 3** each rival champion.
-Flavour: “Vault sealed. Threat denied.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 11 | 15
-Footer: 257/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A titan of the last war: a sun burns in its chest. SCENE: heroic low angle in the deepest vault: ATLAS-Ω stands fully upright and blazing, its chest opening like a vault door to reveal a blinding golden core, every vault seal in the hall locking shut around it in rings of light. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
-
-CARD 3 (right)
-Card number: S2-258 (258)
-Ascend cost: up-arrow 3 (GOLD gem showing an arrow pointing up and the number 3)
-Name: Sol
-Title: Dawn Beneath the World
-Stars: ★★★
-Ascension band: ASCENSION • from Sol ★★
-Origin | Class | Tier: Dawnforged | Ascendant · Restorer | TIER V
-Trait icons: Dawnforged: gold-orange sunburst; Ascendant: gold crown (distinct from the blue Kingdom crown); Restorer: rose-pink lotus
-Keywords: Ascendant *(One per deck.)* · Flight *(Only Flight or Reach can block it.)*
-Text box, line by line:
-1. Ascendant *(One per deck.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **SECOND DAWN.**
-4. **Ascend:** Mend 1, then Mend 1.
-5. Shield each champion you control.
-6. Your champions get +3 Might this turn.
-Flavour: “A second dawn, beneath the world.”
-Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 12 | 13
 Footer: 258/266 · M · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): A miniature sun hangs above the arena. NEW pose and action, never the Set 1 pose or composition: rising like a new sun inside the deepest cavern, her light mending cracked stone and wounded allies. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
+Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): She is a doorway to nothing. The battlefield becomes the void. NEW pose and action, never the Set 1 pose or composition: an eclipse opening above her as she sees every hidden plot as glowing threads in the dark. Same pose idea at full ★★★ power: dramatic scale, the action filling the scene. Show the class through the action; no extra costume props. Darker underground lighting.
 

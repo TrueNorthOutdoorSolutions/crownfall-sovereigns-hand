@@ -10,65 +10,65 @@ Thin divider above centred italic flavour in curly quotes. Bottom-left orange sh
 CARD 1 (left)
 Card number: S2-178 (178)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Shade
-Title: Mask of the Depths
+Name: Professor Spark
+Title: Relic Inventor
 Stars: ★★★
-Ascension band: ASCENSION • from Shade ★★
-Origin | Class | Tier: Umbral | Rogue | TIER II
-Trait icons: Umbral: lilac crescent moon; Rogue: crimson domino mask
-Keywords: Ambush *(Attacking a sideways champion, it strikes first.)* · Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Professor Spark ★★
+Origin | Class | Tier: Gearbound | Artificer | TIER III
+Trait icons: Gearbound: gold gear; Artificer: bronze anvil
+Keywords: Bulwark *(Blocking doesn't turn it sideways.)*
 Text box, line by line:
-1. Ambush *(Attacking a sideways champion, it strikes first.)*
-2. Flight *(Only Flight or Reach can block it.)*
-3. **Masked Theft.**
-4. **Attack:** Take a Relic from a rival champion and attach it to Shade.
-5. If you can’t, Scorch 1 a rival champion.
-6. When Shade defeats a champion on your turn, your rival discards a card at random.
-Flavour: “No face. No name. No witnesses.”
+1. Bulwark *(Blocking doesn't turn it sideways.)*
+2. **Prototype.**
+3. Your Relics cost 1 less.
+4. **Ascend:** Summon two Arc Turrets.
+Flavour: “Science, applied loudly!”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 9 | 6
+Might | Guard: 8 | 9
 Footer: 178/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A wraith of ribbons and knives; the mask floats in front of an empty hood. SCENE: heroic wide shot of a vast dark treasure vault: Shade unfurled as a wraith of black ribbons and spinning knives filling the frame, the mask floating before an empty hood, a storm of blades cutting every torch to darkness except one; terrifying and unstoppable. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: He sits in a walking workshop that builds turrets on the fly. SCENE: heroic wide shot of a vast cavern foundry: Spark on a gantry at centre-left conducting a whole army of relic turrets with a glowing wrench like a baton, every barrel firing in a storm of light while tiny engineers cheer below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 2 (middle)
 Card number: S2-179 (179)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Seren
-Title: Starlight in the Dark
+Name: Orion
+Title: Star-Charter of the Deep
 Stars: ★★★
-Ascension band: ASCENSION • from Seren ★★
-Origin | Class | Tier: Astral | Delver | TIER II
-Trait icons: Astral: blue four-pointed sparkle; Delver: amber lantern
-Keywords: Flight *(Only Flight or Reach can block it.)*
+Ascension band: ASCENSION • from Orion ★★
+Origin | Class | Tier: Astral | Sharpshooter | TIER III
+Trait icons: Astral: blue four-pointed sparkle; Sharpshooter: white eye with a single sight line (locked from the approved Kira Volt sheet)
+Keywords: Reach *(Can block Flight.)* · Flight *(Only Flight or Reach can block it.)*
 Text box, line by line:
-1. Flight *(Only Flight or Reach can block it.)*
-2. **Starlit Path.**
-3. **Ascend:** Draw a card.
-4. At the start of your turn, draw a card, then put a card from your hand on the bottom of your deck.
-Flavour: “No one gets lost on my watch.”
+1. Reach *(Can block Flight.)*
+2. Flight *(Only Flight or Reach can block it.)*
+3. **Charted Shot.**
+4. **Ascend: Scorch 2** each rival champion.
+5. **Attack: Scorch 1** a rival champion.
+6. Scorch 3 each rival champion with Flight.
+Flavour: “No dark is deep enough to hide from the sky.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (keyword line).
-Might | Guard: 7 | 9
+Might | Guard: 10 | 8
 Footer: 179/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: Constellations sketch themselves around her; a flock of light-birds circles overhead. SCENE: heroic wide shot of an enormous cavern turned into a night sky: Seren floating at centre-left, constellations drawing themselves across the cave roof around her and a great flock of light-birds circling overhead, the whole underworld lit silver-blue; wondrous and vast. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: A hunter of gods: his arrows are comets. SCENE: heroic low angle in a vast cavern: Orion fires straight up and the arrow bursts into a ceiling of new constellations across the cave roof, lighting the whole underworld silver-blue while he stands on a broken bridge below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 CARD 3 (right)
 Card number: S2-180 (180)
 Ascend cost: up-arrow 2 (GOLD gem showing an arrow pointing up and the number 2)
-Name: Thorn
-Title: Rot Beneath the Stone
+Name: Maeve
+Title: Broker of Relics
 Stars: ★★★
-Ascension band: ASCENSION • from Thorn ★★
-Origin | Class | Tier: Verdant | Sapper | TIER II
-Trait icons: Verdant: green antlers; Sapper: white powder keg with a lit orange fuse (locked from the approved Bramble sheet)
+Ascension band: ASCENSION • from Maeve ★★
+Origin | Class | Tier: Verdant · Hexbound | Rogue | TIER III
+Trait icons: Verdant: green antlers; Hexbound: purple star outline; Rogue: crimson domino mask
 Keywords: none (text box starts with the ability name)
 Text box, line by line:
-1. **Creeping Rot.**
-2. **Ascend:** Break one of your rival’s face-down Schemes at random.
-3. Break a rival champion’s Relic.
-4. Scorch 2 each rival champion.
-Flavour: “I grow in the cracks you can’t see.”
+1. **Sleight of Thorns.**
+2. **Ascend:** Take a Relic from a rival champion and attach it to Maeve.
+3. If you can’t, Scorch 1 a rival champion.
+4. Your rival discards a card at random.
+Flavour: “Everything has a price. I set it.”
 Crown 2: crown icon + 2 at the right end of the first text-box line (ability line).
-Might | Guard: 8 | 8
+Might | Guard: 8 | 10
 Footer: 180/266 · E · Northern Summit Studios · Art: Jerian Latawiec
-Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bloom colossus whose petals exhale toxic spores. SCENE: heroic low angle of a vast vault hall overrun: Thorn as a towering carnivorous bloom colossus bursting up through the cracked floor, giant petals exhaling clouds of toxic spores that rot the stone pillars around him; tiny soldiers flee below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
+Art brief: SET 2 ART. Keep this look, recognisable at a glance: The forest itself leans in to listen: moths of light circle her crown of antlers. SCENE: heroic wide shot of a hidden thieves hall grown from roots: Maeve on a throne of living wood surrounded by stolen relics, every root in the cavern reaching out to snatch more treasure toward her; sly and overwhelming. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
