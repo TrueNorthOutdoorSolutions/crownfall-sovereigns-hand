@@ -36,12 +36,17 @@ def _beige(a):
 
 
 def bar(a):
-    """(top, bottom) rows of the trait bar's inside, just above the text box's parchment."""
+    """(top, bottom) rows of the trait bar's inside: between its two gold rims (found on each card, the bars are
+    not all the same height)."""
     h, w, _ = a.shape
+    k = h / H
     b = _beige(a)[:, int(w * .25):int(w * .75)].mean(1)
     pt = next(y for y in range(int(h * .53), int(h * .75)) if b[y] > .6 and b[y + 4] > .6)
-    k = h / H
-    return pt - int(54 * k), pt - int(7 * k)
+    c = pt - int(30 * k)                                   # somewhere inside the bar
+    fr = (a[:, int(w * .12):int(w * .70)].max(2) > 100).mean(1)
+    up = next(y for y in range(c, c - int(60 * k), -1) if fr[y] > .8)
+    dn = next(y for y in range(c, c + int(60 * k)) if fr[y] > .8)
+    return up + 1, dn
 
 
 def _runs(mask, gap):
@@ -61,7 +66,8 @@ def icons(a):
     h, w, _ = a.shape
     k = h / H
     T, B = bar(a)
-    t, b = T + int(8 * k), B - int(5 * k)
+    mid = (T + B) // 2
+    t, b = mid - int(13 * k), mid + int(13 * k)
     reg = a[t:b]
     fg = reg.max(2) > 115
     rs = _runs(fg, int(4 * k))
@@ -145,6 +151,7 @@ def cut_masters():
     pins, rows = _pins(), _rows()
     bynew = {p["no"]: cid for cid, p in pins.items()}
     found = {}
+    orig = ART + "_Before icon fix (2026-10-20)/"       # untouched originals of every sheet from 004 on
     for f in sorted(os.listdir(ART)):
         if not f.startswith("Card"):
             continue
@@ -154,7 +161,8 @@ def cut_masters():
         elif f.startswith("Cards 001"):
             continue
         else:
-            im = Image.open(ART + f).convert("RGB")
+            src = orig + f if os.path.exists(orig + f) else ART + f
+            im = Image.open(src).convert("RGB")
             items = [(cid, im.crop((x0, 0, x1, im.height))) for cid, x0, x1 in sheet_cards(ART + f) if cid]
         for cid, card in items:
             n = pins[cid]["no"]
@@ -218,14 +226,27 @@ def fix_card(card, names, cid=None):
             mi = Image.fromarray(m.astype("uint8"), "RGBA")
             m = np.asarray(mi.resize((max(1, round(mi.width * f)), max(1, round(mi.height * f))), Image.LANCZOS)).astype(float)
         pad = int(4 * k)
-        # 1) erase the old icon (and its glow) with the bar's own colour. Reach a little above the bar's inside:
-        #    some drawn icons poke into the gold rim, and the rim (a straight line) rebuilds itself from either side.
-        e0, e1 = y0 - int(8 * k), y1 + int(2 * k)
+        # the master must sit fully inside the bar, clear of both rims
+        lo, hi = y0 + int(2 * k), y1 - int(2 * k)
+        vis = np.where((m[..., 3] > 80).any(1))[0]
+        mh = vis.max() - vis.min() + 1
+        if mh > hi - lo:
+            f = (hi - lo) / mh
+            mi = Image.fromarray(m.astype("uint8"), "RGBA")
+            m = np.asarray(mi.resize((max(1, round(mi.width * f)), max(1, round(mi.height * f))), Image.LANCZOS)).astype(float)
+            vis = np.where((m[..., 3] > 80).any(1))[0]
+            mh = vis.max() - vis.min() + 1
+            log.append("%s: fitted to bar height %d%%" % (t, round(f * 100)))
+        top = int(round((y0 + y1) / 2 - mh / 2))          # centred between the two rims
+        top = min(max(top, lo), hi - mh)
+        # 1) erase the old icon (and its glow) with the bar's own colour, a little into both rims: some drawn icons
+        #    poke into a rim, and the rim (a straight line) rebuilds itself from either side.
+        e0, e1 = y0 - int(3 * k), y1 + int(3 * k)
         a[e0:e1, x0 - pad:x1 + pad] = _bg_fill(a, x0, x1, e0, e1, pad)
         # 2) the master, centred on where the old icon was, same rows as the bar
         cx = (x0 + x1) / 2
         px = int(round(cx - m.shape[1] / 2))
-        py = y0 + max(0, (y1 - y0 - m.shape[0]) // 2)
+        py = top - vis.min()
         hh, ww = min(m.shape[0], a.shape[0] - py), m.shape[1]
         al = m[:hh, :ww, 3:4] / 255
         reg = a[py:py + hh, px:px + ww]
