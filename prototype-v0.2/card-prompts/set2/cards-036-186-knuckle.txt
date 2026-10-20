@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-037 (037)
+Card number: S2-036 (036)
 Cost: 4 (GREEN gem)
 Name: Knuckle
 Title: King Under the Pit
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “Surface fighters. Cute.”
 Crown 2: none
 Might | Guard: 5 | 5
-Footer: 037/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 036/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: An enormous stone pit fighter with taped fists. SCENE: low angle in a cramped torchlit tunnel below the pits: Knuckle squeezes his enormous stone body through a too-small archway into the underground fight cellar, taped fists braced on the walls, rubble cracking around his shoulders, a ring of shadowy brawlers waiting in the amber light beyond (not a sunny open arena). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-125 (125)
@@ -66,7 +66,7 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: A living landsli
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 037: no keyword; do not add a chip or reminder.
+- 036: no keyword; do not add a chip or reminder.
 - 125 ★★: up-arrow 1, not up-arrow 0.
 - 125: no keyword; do not add a chip or reminder.
 - 186 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

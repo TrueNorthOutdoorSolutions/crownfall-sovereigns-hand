@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-027 (027)
+Card number: S2-026 (026)
 Cost: 3 (GREEN gem)
 Name: Borin Ironbelly
 Title: Forgemaster of the Deep
@@ -22,10 +22,10 @@ Text box, line by line:
 Flavour: “The forge is hot!”
 Crown 2: none
 Might | Guard: 3 | 4
-Footer: 027/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 026/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A broad Forgekin smith: basalt skin, braided beard of copper wire, a glowing hammer. SCENE: side view in a collapsed, half-flooded ancient forge deep underground: Borin wades waist-deep through dark water, hauling a huge broken relic blade out of the rubble with both hands, steam hissing where its still-glowing edge touches the water; his lantern hangs from his belt, cold teal shadows all around (NOT at an anvil, NOT hammering). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-028 (028)
+Card number: S2-027 (027)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Borin Ironbelly
 Title: Forgemaster of the Deep
@@ -40,7 +40,7 @@ Text box, line by line:
 Flavour: “Heat it. Hit it. Done.”
 Crown 2: none
 Might | Guard: 6 | 7
-Footer: 028/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 027/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Magma veins open along his arms; his hammer head is a live forge. SCENE: low angle in a vast forge cavern: Borin lifts a freshly reforged Guardian relic from the quenching trough in a burst of steam, magma veins glowing along his arms, his live-forge hammer resting on his shoulder. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-105 (105)
@@ -65,6 +65,6 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: Borin becomes a 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
+- 026: no keyword; do not add a chip or reminder.
+- 027 ★★: up-arrow 1, not up-arrow 0.
 - 027: no keyword; do not add a chip or reminder.
-- 028 ★★: up-arrow 1, not up-arrow 0.
-- 028: no keyword; do not add a chip or reminder.

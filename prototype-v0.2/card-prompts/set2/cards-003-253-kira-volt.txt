@@ -25,7 +25,7 @@ Might | Guard: 2 | 1
 Footer: 003/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A young arc-tech gunner with one compact energy pistol. SCENE: over-the-shoulder view from just behind Kira lying prone on a rusted iron girder high above a flooded cavern, her compact energy pistol braced on her forearm, aiming at a tiny target far below; cool blue mist, one distant warm lantern. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-004 (004)
+Card number: S2-089 (089)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
 Name: Kira Volt
 Title: The Long Shot
@@ -40,7 +40,7 @@ Text box, line by line:
 Flavour: “Hold still. Thank you.”
 Crown 2: none
 Might | Guard: 4 | 3
-Footer: 004/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 089/266 · U · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Dual energised pistols; her coat carries a glowing arc coil. SCENE: low tilted (Dutch) angle: Kira slides along a wet stone walkway on one knee, both energised pistols firing across the frame at a target off the card, bright tracer lines crossing the dark and reflecting in the flood water; her coat’s arc coil glowing. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-253 (253)
@@ -67,6 +67,6 @@ Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 003: no keyword; do not add a chip or reminder.
-- 004: no keyword; do not add a chip or reminder.
+- 089: no keyword; do not add a chip or reminder.
 - 253 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- Mixed Scorch numbers: S2-003: Scorch 1; S2-004: Scorch 2; S2-253: none.
+- Mixed Scorch numbers: S2-003: Scorch 1; S2-089: Scorch 2; S2-253: none.

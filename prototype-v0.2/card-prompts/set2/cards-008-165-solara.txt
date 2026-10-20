@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-009 (009)
+Card number: S2-008 (008)
 Cost: 2 (GREEN gem)
 Name: Solara
 Title: Lamp of the Lost
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “The dawn walks with you.”
 Crown 2: none
 Might | Guard: 1 | 3
-Footer: 009/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 008/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A novice sun priestess with a simple brass staff. SCENE: three-quarter rear view in a pitch-dark flooded tunnel: Solara walks ahead on a line of stepping stones, holding her brass staff high so its tip glows like a small lantern, a few lost explorers following close behind her through the dark; the warm gold light falls only around them, everything beyond is cold blue shadow (standing and walking, NOT kneeling, NOT healing). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-092 (092)
@@ -65,7 +65,7 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: Radiant robes, a
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 009: no keyword; do not add a chip or reminder.
+- 008: no keyword; do not add a chip or reminder.
 - 092 ★★: up-arrow 1, not up-arrow 0.
 - 092: no keyword; do not add a chip or reminder.
 - 165: no keyword; do not add a chip or reminder.

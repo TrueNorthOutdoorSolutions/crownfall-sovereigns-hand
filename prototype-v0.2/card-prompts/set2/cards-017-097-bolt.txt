@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-018 (018)
+Card number: S2-017 (017)
 Cost: 2 (GREEN gem)
 Name: Bolt
 Title: Scrap Smith
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “Unit B-07 online.”
 Crown 2: none
 Might | Guard: 1 | 3
-Footer: 018/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 017/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A compact combat automaton with one amber eye. SCENE: close three-quarter view at a cluttered cave workbench: small Bolt hunches over its own forearm, welding a scavenged relic plate onto it, a fountain of orange sparks lighting its single amber eye; scrap piles and hanging chains fade into cool blue dark behind. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-096 (096)
@@ -68,5 +68,5 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: A gleaming brass
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 018: no keyword; do not add a chip or reminder.
+- 017: no keyword; do not add a chip or reminder.
 - 097 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

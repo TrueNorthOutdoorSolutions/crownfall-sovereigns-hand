@@ -386,7 +386,7 @@ const SCENES: Record<string, [string, string, string]> = {
 type R = NonNullable<ChampionForm['rarity']>;
 const CARD_RARITY: Record<string, [R, R, R]> = {
   bramble: ['common', 'common', 'mythic'],
-  kira: ['common', 'common', 'mythic'], // 2026-10-20 owner rarity review
+  kira: ['common', 'uncommon', 'mythic'], // 2026-10-20 owner rarity review: ★★ kept Uncommon so drawn 004-015 keep their numbers
   grimm: ['common', 'common', 'uncommon'],
   pip: ['common', 'common', 'uncommon'],
   solara: ['common', 'uncommon', 'elite'],

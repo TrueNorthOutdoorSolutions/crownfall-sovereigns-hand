@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-021 (021)
+Card number: S2-020 (020)
 Cost: 3 (GREEN gem)
 Name: Solenne Ash
 Title: Lantern of the Underways
@@ -23,10 +23,10 @@ Text box, line by line:
 Flavour: “Shadows, beware.”
 Crown 2: none
 Might | Guard: 3 | 3
-Footer: 021/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 020/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A flame knight in rose-gold plate. SCENE: low side angle in a pitch-black underway: Solenne strides forward with her flaming blade held low like a lantern, its fire throwing her long shadow behind her and lighting wet stone walls, shadowy shapes recoiling from the edge of the light. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-022 (022)
+Card number: S2-021 (021)
 Ascend cost: up-arrow 1 (GOLD gem showing an arrow pointing up and the number 1)
 Name: Solenne Ash
 Title: Lantern of the Underways
@@ -42,7 +42,7 @@ Text box, line by line:
 Flavour: “Stay close to the light.”
 Crown 2: none
 Might | Guard: 6 | 5
-Footer: 022/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 021/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Her plume becomes fire; her blade glows white-hot. SCENE: three-quarter view from below on a narrow bridge over a dark chasm: Solenne lifts her white-hot blade overhead, her fiery plume streaming, and a wave of dawnfire rolls ahead of her down the tunnel, burning the shadows away. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-099 (099)
@@ -68,5 +68,5 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: Sun-forged armou
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 022 ★★: up-arrow 1, not up-arrow 0.
+- 021 ★★: up-arrow 1, not up-arrow 0.
 - 099 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.

@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-030 (030)
+Card number: S2-029 (029)
 Cost: 2 (GREEN gem)
 Name: Thorn
 Title: Rot Beneath the Stone
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “Step closer…”
 Crown 2: none
 Might | Guard: 2 | 3
-Footer: 030/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 029/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A thorned plant warrior with a violet flower head. SCENE: close low angle at the base of an old vault wall: Thorn presses one thorned hand to a crack, violet blight creeping out from his fingers through the mortar as the stone crumbles to green dust; one warm torch above, cold shadows below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-107 (107)
@@ -68,9 +68,9 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: A carnivorous bl
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 030: no keyword; do not add a chip or reminder.
+- 029: no keyword; do not add a chip or reminder.
 - 107 ★★: up-arrow 1, not up-arrow 0.
 - 107: no keyword; do not add a chip or reminder.
 - 172: no keyword; do not add a chip or reminder.
 - 172 ★★★ has 4 text lines before flavour; retain all lines and crown 2 placement.
-- Mixed Scorch numbers: S2-030: none; S2-107: Scorch 1, Scorch 2; S2-172: Scorch 2.
+- Mixed Scorch numbers: S2-029: none; S2-107: Scorch 1, Scorch 2; S2-172: Scorch 2.

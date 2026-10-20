@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-034 (034)
+Card number: S2-033 (033)
 Cost: 3 (GREEN gem)
 Name: Orion
 Title: Star-Charter of the Deep
@@ -23,7 +23,7 @@ Text box, line by line:
 Flavour: “I have a star with your name.”
 Crown 2: none
 Might | Guard: 4 | 2
-Footer: 034/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 033/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A star-powered sniper with a crescent longbow. SCENE: low angle inside a narrow flooded tunnel lit only by his own glowing arrow: Orion wades thigh-deep, crescent longbow lowered, holding a single star-arrow up like a torch to read faint star maps carved into the tunnel ceiling (no open sky, no rocks against stars). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-117 (117)
@@ -73,4 +73,4 @@ Check when it comes back:
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
 - 117 ★★: up-arrow 1, not up-arrow 0.
 - 179 ★★★ has 6 text lines before flavour; retain all lines and crown 2 placement.
-- Mixed Scorch numbers: S2-034: Scorch 1; S2-117: Scorch 1, Scorch 2; S2-179: Scorch 2, Scorch 1, Scorch 3.
+- Mixed Scorch numbers: S2-033: Scorch 1; S2-117: Scorch 1, Scorch 2; S2-179: Scorch 2, Scorch 1, Scorch 3.

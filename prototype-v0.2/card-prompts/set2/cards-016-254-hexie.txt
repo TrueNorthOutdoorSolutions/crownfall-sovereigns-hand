@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-017 (017)
+Card number: S2-016 (016)
 Cost: 1 (GREEN gem)
 Name: Hexie
 Title: Reader of Bones
@@ -22,7 +22,7 @@ Text box, line by line:
 Flavour: “Who wants to be a toad?”
 Crown 2: none
 Might | Guard: 1 | 2
-Footer: 017/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 016/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (keep it): An apprentice witch in an oversized hat. NEW pose and action, never the Set 1 pose or composition: sitting cross-legged over a bowl of glowing water, ghostly images of hidden traps rising from it. Same pose idea at ★ scale. Show the class through the action; no extra costume props. Darker underground lighting.
 
 Card number: S2-168 (168)
@@ -66,6 +66,6 @@ Art brief: SET 2 ART: the same character, recognisable at a glance. Appearance (
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 017: no keyword; do not add a chip or reminder.
+- 016: no keyword; do not add a chip or reminder.
 - 168: no keyword; do not add a chip or reminder.
 - 254: no keyword; do not add a chip or reminder.

@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-012 (012)
+Card number: S2-011 (011)
 Cost: 2 (GREEN gem)
 Name: Torren
 Title: Keeper of the Deep Vault
@@ -22,10 +22,10 @@ Text box, line by line:
 Flavour: “Stand behind me.”
 Crown 2: none
 Might | Guard: 1 | 5
-Footer: 012/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 011/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A stone-skinned bearer behind a slab shield. SCENE: low angle from beside a gigantic sealed vault door: Torren stands with his back to it, arms folded, small against the door’s scale, a single lantern above, the corridor fading into cold blue dark. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-013 (013)
+Card number: S2-012 (012)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
 Name: Torren
 Title: Keeper of the Deep Vault
@@ -41,7 +41,7 @@ Text box, line by line:
 Flavour: “This door stays shut.”
 Crown 2: none
 Might | Guard: 3 | 8
-Footer: 013/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 012/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: The shield becomes a carved gate with glowing gold veins. SCENE: tight side view: Torren braces both hands and shoulder against the vault door as it bulges and cracks from blows on the other side, dust shaking from the hinges, warm light leaking through the seams. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-093 (093)
@@ -66,4 +66,4 @@ Art brief: SET 2 ART. Keep this look, recognisable at a glance: A mountain made 
 Check when it comes back:
 - No frame drift: laurels, shield crest, green-vine gold border; no band on ★.
 - Compare every form’s own costs, text, flavour and stats; never copy between forms.
-- 012: no keyword; do not add a chip or reminder.
+- 011: no keyword; do not add a chip or reminder.

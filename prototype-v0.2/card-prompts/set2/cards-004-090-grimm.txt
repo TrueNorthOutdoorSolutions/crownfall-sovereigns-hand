@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-005 (005)
+Card number: S2-004 (004)
 Cost: 2 (GREEN gem)
 Name: Grimm
 Title: The Last Sentry
@@ -21,10 +21,10 @@ Text box, line by line:
 Flavour: “Reporting for duty. Again.”
 Crown 2: none
 Might | Guard: 1 | 4
-Footer: 005/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 004/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A skeletal footsoldier in dented plate, ghost-light in his ribs. SCENE: a long lantern-lit corridor in deep perspective, Grimm small at the far end standing guard before a sealed iron vault door, seen as an intruder would see him; cold teal light, one warm lantern above the door. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-006 (006)
+Card number: S2-005 (005)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
 Name: Grimm
 Title: The Last Sentry
@@ -40,7 +40,7 @@ Text box, line by line:
 Flavour: “Nobody gets past. That’s the job.”
 Crown 2: none
 Might | Guard: 4 | 7
-Footer: 006/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 005/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Plate reforged with spectral seams; a tattered banner grows from his back. SCENE: close, low angle at Grimm’s side as he braces behind his shield in a narrow doorway, sparks and arrows glancing off it; the reforged plate and tattered banner lit by torchlight, the corridor beyond in cool shadow. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-090 (090)

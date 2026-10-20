@@ -331,58 +331,52 @@ Drawn cards 001-057 pinned in data/set2-printed.json; validator 12,530 checks pa
 
 ## 2026-10-20 owner rarity review (Set 2, approved by Jerian)
 
-Cheap cards with two effects, or effects that repeat, left Common; Elite/Epic power raised; vanilla Relics, Kira Volt ★★, Hexie ★ and Kael ★★ lowered to Common; The Fallen King's Blade and Titan's Last Heart Mythic → Epic. Mix now C 89 · U 75 · E 58 · P 29 · M 15 (leans strong; even out in the balance pass by weakening, not by rarity). Every rarity change is marked `2026-10-20 owner rarity review` in `src/v02/content/set2.ts`.
+Cheap cards with two effects, or effects that repeat, left Common; Elite/Epic power raised; vanilla Relics, Hexie ★ and Kael ★★ lowered to Common; The Fallen King's Blade and Titan's Last Heart Mythic → Epic. Mix now C 88 · U 76 · E 58 · P 29 · M 15 (leans strong; even out in the balance pass by weakening, not by rarity). Every rarity change is marked `2026-10-20 owner rarity review` in `src/v02/content/set2.ts`.
 
 Drawn cards renumbered once (old → new; footers fixed by GPT edit, art unchanged):
 
 ```
-004 -> 005 C->C Grimm ★
-005 -> 006 C->C Grimm ★★
-006 -> 007 C->C Pip ★
-007 -> 008 C->C Pip ★★
-008 -> 009 C->C Solara ★
-009 -> 010 C->C Fen ★
-010 -> 011 C->C Fen ★★
-011 -> 012 C->C Torren ★
-012 -> 013 C->C Torren ★★
-013 -> 014 C->C Rowan ★
-014 -> 015 C->C Rowan ★★
-015 -> 016 C->C Rowan ★★★
-016 -> 018 C->C Bolt ★
+016 -> 017 C->C Bolt ★
 017 -> 096 C->U Bolt ★★
-018 -> 019 C->C Kael ★
-019 -> 021 C->C Solenne Ash ★
-020 -> 022 C->C Solenne Ash ★★
-021 -> 023 C->C Grizz ★
+019 -> 020 C->C Solenne Ash ★
+020 -> 021 C->C Solenne Ash ★★
+021 -> 022 C->C Grizz ★
 022 -> 100 C->U Grizz ★★
 023 -> 102 C->U Gearwick-9 ★
+024 -> 023 C->C Mirella ★
+025 -> 024 C->C Mirella ★★
+026 -> 025 C->C Shade ★
+027 -> 026 C->C Borin Ironbelly ★
+028 -> 027 C->C Borin Ironbelly ★★
+029 -> 028 C->C Seren ★
+030 -> 029 C->C Thorn ★
 031 -> 108 C->U Dax Meridian ★
-032 -> 031 C->C Elara ★
-033 -> 032 C->C Rask ★
+032 -> 030 C->C Elara ★
+033 -> 031 C->C Rask ★
 034 -> 111 C->U HEX-3 ★
 035 -> 113 C->U Valkara ★
-036 -> 033 C->C Dreadmouth ★
+036 -> 032 C->C Dreadmouth ★
 037 -> 115 C->U Professor Spark ★
-038 -> 034 C->C Orion ★
-039 -> 035 C->C Maeve ★
-040 -> 036 C->C Ronin Zero ★
+038 -> 033 C->C Orion ★
+039 -> 034 C->C Maeve ★
+040 -> 035 C->C Ronin Zero ★
 041 -> 120 C->U Ignara ★
 042 -> 121 C->U Ignara ★★
-043 -> 037 C->C Knuckle ★
-044 -> 038 C->C Astryon ★
+043 -> 036 C->C Knuckle ★
+044 -> 037 C->C Astryon ★
 045 -> 126 C->U Queen Vespera ★
-046 -> 039 C->C Titan Rho ★
-047 -> 040 C->C Titan Rho ★★
-048 -> 041 C->C Lady Volt ★
+046 -> 038 C->C Titan Rho ★
+047 -> 039 C->C Titan Rho ★★
+048 -> 040 C->C Lady Volt ★
 049 -> 135 C->U Vessimer ★
-050 -> 042 C->C ATLAS-Ω ★
-051 -> 043 C->C Crystal Mite 
-052 -> 044 C->C Shardling 
-053 -> 045 C->C Rift Hound 
-054 -> 046 C->C Crown Hex: War 
-055 -> 047 C->C Crown Hex: Creation 
+050 -> 041 C->C ATLAS-Ω ★
+051 -> 042 C->C Crystal Mite 
+052 -> 043 C->C Shardling 
+053 -> 044 C->C Rift Hound 
+054 -> 045 C->C Crown Hex: War 
+055 -> 046 C->C Crown Hex: Creation 
 056 -> 148 C->U Something Stirs Beneath the Arena 
 057 -> 149 C->U Its Treasure Is Yours 
 ```
 
-New cards slotted into drawn ranges: 004 Kira Volt ★★, 017 Hexie ★, 020 Kael ★★.
+Kira Volt ★★ kept Uncommon (owner, 2026-10-20) so drawn 001-015 keep their numbers. New cards slotted into drawn ranges: 016 Hexie ★, 019 Kael ★★.

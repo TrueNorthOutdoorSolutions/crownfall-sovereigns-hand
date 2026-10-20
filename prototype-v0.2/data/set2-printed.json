@@ -35,7 +35,7 @@
    "flavour": "Charged and ready!"
   },
   "grimm@2": {
-   "no": 5,
+   "no": 4,
    "rarity": "common",
    "cost": "2",
    "might": "1",
@@ -46,7 +46,7 @@
    "flavour": "Reporting for duty. Again."
   },
   "grimm@2-2": {
-   "no": 6,
+   "no": 5,
    "rarity": "common",
    "cost": "↑0",
    "might": "4",
@@ -57,7 +57,7 @@
    "flavour": "Nobody gets past. That’s the job."
   },
   "pip@2": {
-   "no": 7,
+   "no": 6,
    "rarity": "common",
    "cost": "1",
    "might": "2",
@@ -68,7 +68,7 @@
    "flavour": "Pip brought explosives!"
   },
   "pip@2-2": {
-   "no": 8,
+   "no": 7,
    "rarity": "common",
    "cost": "↑0",
    "might": "5",
@@ -79,7 +79,7 @@
    "flavour": "Was that the wall? It was the wall!"
   },
   "solara@2": {
-   "no": 9,
+   "no": 8,
    "rarity": "common",
    "cost": "2",
    "might": "1",
@@ -90,7 +90,7 @@
    "flavour": "The dawn walks with you."
   },
   "fen@2": {
-   "no": 10,
+   "no": 9,
    "rarity": "common",
    "cost": "1",
    "might": "2",
@@ -101,7 +101,7 @@
    "flavour": "I smell weakness."
   },
   "fen@2-2": {
-   "no": 11,
+   "no": 10,
    "rarity": "common",
    "cost": "↑0",
    "might": "5",
@@ -112,7 +112,7 @@
    "flavour": "It’s big. Good."
   },
   "torren@2": {
-   "no": 12,
+   "no": 11,
    "rarity": "common",
    "cost": "2",
    "might": "1",
@@ -123,7 +123,7 @@
    "flavour": "Stand behind me."
   },
   "torren@2-2": {
-   "no": 13,
+   "no": 12,
    "rarity": "common",
    "cost": "↑0",
    "might": "3",
@@ -134,7 +134,7 @@
    "flavour": "This door stays shut."
   },
   "rowan@2": {
-   "no": 14,
+   "no": 13,
    "rarity": "common",
    "cost": "1",
    "might": "2",
@@ -145,7 +145,7 @@
    "flavour": "The wind is kind today."
   },
   "rowan@2-2": {
-   "no": 15,
+   "no": 14,
    "rarity": "common",
    "cost": "↑0",
    "might": "4",
@@ -156,7 +156,7 @@
    "flavour": "The next arrow’s already flying."
   },
   "rowan@2-3": {
-   "no": 16,
+   "no": 15,
    "rarity": "common",
    "cost": "↑1",
    "might": "8",
@@ -167,7 +167,7 @@
    "flavour": "From the gate to the target. Easy shot."
   },
   "bolt@2": {
-   "no": 18,
+   "no": 17,
    "rarity": "common",
    "cost": "2",
    "might": "1",
@@ -178,7 +178,7 @@
    "flavour": "Unit B-07 online."
   },
   "kael@2": {
-   "no": 19,
+   "no": 18,
    "rarity": "common",
    "cost": "2",
    "might": "3",
@@ -189,7 +189,7 @@
    "flavour": "I will be worthy."
   },
   "solenne@2": {
-   "no": 21,
+   "no": 20,
    "rarity": "common",
    "cost": "3",
    "might": "3",
@@ -200,7 +200,7 @@
    "flavour": "Shadows, beware."
   },
   "solenne@2-2": {
-   "no": 22,
+   "no": 21,
    "rarity": "common",
    "cost": "↑1",
    "might": "6",
@@ -211,7 +211,7 @@
    "flavour": "Stay close to the light."
   },
   "grizz@2": {
-   "no": 23,
+   "no": 22,
    "rarity": "common",
    "cost": "3",
    "might": "4",
@@ -222,7 +222,7 @@
    "flavour": "GRAHH!"
   },
   "mirella@2": {
-   "no": 24,
+   "no": 23,
    "rarity": "common",
    "cost": "3",
    "might": "2",
@@ -233,7 +233,7 @@
    "flavour": "The tide turns."
   },
   "mirella@2-2": {
-   "no": 25,
+   "no": 24,
    "rarity": "common",
    "cost": "↑1",
    "might": "4",
@@ -244,7 +244,7 @@
    "flavour": "The lake remembers who it saves."
   },
   "shade@2": {
-   "no": 26,
+   "no": 25,
    "rarity": "common",
    "cost": "2",
    "might": "3",
@@ -255,7 +255,7 @@
    "flavour": "A mark has been chosen."
   },
   "borin@2": {
-   "no": 27,
+   "no": 26,
    "rarity": "common",
    "cost": "3",
    "might": "3",
@@ -266,7 +266,7 @@
    "flavour": "The forge is hot!"
   },
   "borin@2-2": {
-   "no": 28,
+   "no": 27,
    "rarity": "common",
    "cost": "↑1",
    "might": "6",
@@ -277,7 +277,7 @@
    "flavour": "Heat it. Hit it. Done."
   },
   "seren@2": {
-   "no": 29,
+   "no": 28,
    "rarity": "common",
    "cost": "2",
    "might": "1",
@@ -288,7 +288,7 @@
    "flavour": "The starlings are hungry."
   },
   "thorn@2": {
-   "no": 30,
+   "no": 29,
    "rarity": "common",
    "cost": "2",
    "might": "2",
@@ -299,7 +299,7 @@
    "flavour": "Step closer…"
   },
   "elara@2": {
-   "no": 31,
+   "no": 30,
    "rarity": "common",
    "cost": "3",
    "might": "1",
@@ -310,7 +310,7 @@
    "flavour": "Who needs mending?"
   },
   "rask@2": {
-   "no": 32,
+   "no": 31,
    "rarity": "common",
    "cost": "2",
    "might": "3",
@@ -321,7 +321,7 @@
    "flavour": "One. Two. Three."
   },
   "dreadmouth@2": {
-   "no": 33,
+   "no": 32,
    "rarity": "common",
    "cost": "4",
    "might": "5",
@@ -332,7 +332,7 @@
    "flavour": "Hungry…"
   },
   "orion@2": {
-   "no": 34,
+   "no": 33,
    "rarity": "common",
    "cost": "3",
    "might": "4",
@@ -343,7 +343,7 @@
    "flavour": "I have a star with your name."
   },
   "maeve@2": {
-   "no": 35,
+   "no": 34,
    "rarity": "common",
    "cost": "3",
    "might": "2",
@@ -354,7 +354,7 @@
    "flavour": "Every gift has a price."
   },
   "ronin@2": {
-   "no": 36,
+   "no": 35,
    "rarity": "common",
    "cost": "3",
    "might": "4",
@@ -365,7 +365,7 @@
    "flavour": "Frame ready."
   },
   "knuckle@2": {
-   "no": 37,
+   "no": 36,
    "rarity": "common",
    "cost": "4",
    "might": "5",
@@ -376,7 +376,7 @@
    "flavour": "Surface fighters. Cute."
   },
   "astryon@2": {
-   "no": 38,
+   "no": 37,
    "rarity": "common",
    "cost": "5",
    "might": "6",
@@ -387,7 +387,7 @@
    "flavour": "The eighth star awaits."
   },
   "titanrho@2": {
-   "no": 39,
+   "no": 38,
    "rarity": "common",
    "cost": "5",
    "might": "3",
@@ -398,7 +398,7 @@
    "flavour": "City status: unknown. Defending anyway."
   },
   "titanrho@2-2": {
-   "no": 40,
+   "no": 39,
    "rarity": "common",
    "cost": "↑1",
    "might": "6",
@@ -409,7 +409,7 @@
    "flavour": "Perimeter held."
   },
   "ladyvolt@2": {
-   "no": 41,
+   "no": 40,
    "rarity": "common",
    "cost": "4",
    "might": "5",
@@ -420,7 +420,7 @@
    "flavour": "Shall we duel?"
   },
   "atlas@2": {
-   "no": 42,
+   "no": 41,
    "rarity": "common",
    "cost": "6",
    "might": "4",
@@ -431,7 +431,7 @@
    "flavour": "Awaiting orders."
   },
   "monster-mite": {
-   "no": 43,
+   "no": 42,
    "rarity": "common",
    "cost": "1",
    "might": "1",
@@ -442,7 +442,7 @@
    "flavour": ""
   },
   "monster-shardling": {
-   "no": 44,
+   "no": 43,
    "rarity": "common",
    "cost": "1",
    "might": "2",
@@ -453,7 +453,7 @@
    "flavour": ""
   },
   "monster-hound": {
-   "no": 45,
+   "no": 44,
    "rarity": "common",
    "cost": "2",
    "might": "2",
@@ -464,7 +464,7 @@
    "flavour": ""
   },
   "hex_war": {
-   "no": 46,
+   "no": 45,
    "rarity": "common",
    "cost": "2",
    "might": "",
@@ -475,7 +475,7 @@
    "flavour": ""
   },
   "hex_creation": {
-   "no": 47,
+   "no": 46,
    "rarity": "common",
    "cost": "2",
    "might": "",

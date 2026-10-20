@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-036 (036)
+Card number: S2-035 (035)
 Cost: 3 (GREEN gem)
 Name: Ronin Zero
 Title: Blade Beneath the Arena
@@ -23,7 +23,7 @@ Text box, line by line:
 Flavour: “Frame ready.”
 Crown 2: none
 Might | Guard: 4 | 2
-Footer: 036/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 035/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A cybernetic wandering swordsman with a straw-coloured visor. SCENE: low side angle in a flooded underground dueling pit: Ronin Zero locked blade-to-blade with a masked rival, both knee-deep in dark water, sparks bursting where the katanas meet and lighting his straw visor; torchlit crowd silhouettes on the ledges above (no petals, no open sky). Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-119 (119)

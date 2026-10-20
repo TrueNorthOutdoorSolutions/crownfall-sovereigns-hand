@@ -7,7 +7,7 @@ Keyword chips with italic exact reminders only when listed. Bold ability name wi
 Footer rarity letters: each card has its OWN letter, given in its Footer line (C Common, U Uncommon, E Elite, P Epic, M Mythic). The three cards can differ. The trait bar still shows its TIER.
 Thin divider above centred italic flavour in curly quotes. Bottom-left orange shield with sword icon = Might; bottom-right blue shield with shield icon = Guard. Any ★ inside rules text is a small solid gold star, the same gold as the name-bar stars.
 
-Card number: S2-010 (010)
+Card number: S2-009 (009)
 Cost: 1 (GREEN gem)
 Name: Fen
 Title: Pack Hunter
@@ -23,10 +23,10 @@ Text box, line by line:
 Flavour: “I smell weakness.”
 Crown 2: none
 Might | Guard: 2 | 1
-Footer: 010/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 009/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: A lean grey wolf warrior with bone-hilted claws. SCENE: ground-level view through tall cave fungus: Fen crouched low and motionless, ears forward, eyes fixed on the huge shadow of a monster moving across the cavern beyond; cool teal light, one warm glint in his eyes. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
-Card number: S2-011 (011)
+Card number: S2-010 (010)
 Ascend cost: up-arrow 0 (GOLD gem showing an arrow pointing up and the number 0)
 Name: Fen
 Title: Pack Hunter
@@ -42,7 +42,7 @@ Text box, line by line:
 Flavour: “It’s big. Good.”
 Crown 2: none
 Might | Guard: 5 | 4
-Footer: 011/266 · C · Northern Summit Studios · Art: Jerian Latawiec
+Footer: 010/266 · C · Northern Summit Studios · Art: Jerian Latawiec
 Art brief: SET 2 ART. Keep this look, recognisable at a glance: Scarred and armoured in hide, crimson war paint glowing on his muzzle. SCENE: dynamic side view mid-leap: Fen springing off a rock ledge across a chasm toward an unseen beast, claws out, his shadow stretched long on the wall by a warm torch below. Style: cinematic painted illustration, like a still from an animated film. Off-centre composition with strong diagonals; never centred facing the camera and never the Set 1 composition. Cool slate-blue and teal shadows with one warm amber light source; natural colours, real dust and grit. No generic glowing energy, lightning or floating rocks unless the scene calls for that character’s own power. No added costume props. The ★★★ card is the glorious hero moment: the champion large and spectacular in frame at full power, the shot a player imagines when it lands.
 
 Card number: S2-166 (166)
