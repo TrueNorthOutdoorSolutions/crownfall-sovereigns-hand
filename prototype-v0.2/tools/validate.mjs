@@ -222,7 +222,7 @@ for (const [id, p] of Object.entries(printed2)) {
   check(!!c && row?.no === p.no, `frozen: printed ${id} keeps number ${String(p.no).padStart(3, '0')}`);
   check(c?.rarity === p.rarity, `frozen: printed ${id} keeps rarity ${p.rarity}`);
   const s = (v) => (v === undefined || v === null ? '' : String(v));
-  check(c?.text === p.text && cost === p.cost && s(c.might) === p.might && s(c.guard) === p.guard && (c.keywords ?? []).join(', ') === p.keywords && (c.text && c.ability ? c.ability : '') === p.ability,
+  check(c?.text === p.text && cost === p.cost && s(c.might) === p.might && s(c.guard) === p.guard && [...(c.keywords ?? []), ...(c.shardfall && !(c.keywords ?? []).includes('Shardfall') ? ['Shardfall'] : [])].join(', ') === p.keywords && (c.text && c.ability ? c.ability : '') === p.ability,
     `frozen: printed ${id} keeps its text, stats, keywords and ability name`);
   const fl = c.line ? c.line.flavour?.[c.star] : c.flavour;
   if (fl) check(fl === p.flavour, `frozen: printed ${id} keeps its flavour`);
