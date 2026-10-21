@@ -529,6 +529,39 @@
    "text": "Spring when a rival champion attacks: it gets −3 Might this turn.",
    "flavour": "Steel will answer."
   },
+  "cannot_be_touched": {
+   "no": 49,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Spring when one of your champions is attacked or blocks: Shield a champion you control.",
+   "flavour": "It cannot be touched. Wait."
+  },
+  "one_still_stands": {
+   "no": 50,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Spring when one of your champions is attacked or blocks: it gets +2 Might and +2 Guard this turn.",
+   "flavour": "One still stands."
+  },
+  "relic-blade": {
+   "no": 51,
+   "rarity": "common",
+   "cost": "1",
+   "might": "+2",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "+2 Might.",
+   "flavour": ""
+  },
   "bolt@2-2": {
    "no": 96,
    "rarity": "uncommon",
