@@ -166,6 +166,17 @@
    "text": "Attack: Scorch 2 a rival champion.",
    "flavour": "From the gate to the target. Easy shot."
   },
+  "hexie@2": {
+   "no": 16,
+   "rarity": "common",
+   "cost": "1",
+   "might": "1",
+   "guard": "2",
+   "keywords": "",
+   "ability": "Bone Reading",
+   "text": "Your Schemes cost 1 less to spring.",
+   "flavour": "Who wants to be a toad?"
+  },
   "bolt@2": {
    "no": 17,
    "rarity": "common",
@@ -187,6 +198,17 @@
    "ability": "Delve",
    "text": "Arrival: Draw a card, then put a card from your hand on the bottom of your deck.",
    "flavour": "I will be worthy."
+  },
+  "kael@2-2": {
+   "no": 19,
+   "rarity": "common",
+   "cost": "↑0",
+   "might": "5",
+   "guard": "4",
+   "keywords": "",
+   "ability": "Delve",
+   "text": "Ascend: Return a Relic from your Fallen pile to your hand.",
+   "flavour": "This way. Probably."
   },
   "solenne@2": {
    "no": 20,
