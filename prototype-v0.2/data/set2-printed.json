@@ -562,6 +562,39 @@
    "text": "+2 Might.",
    "flavour": ""
   },
+  "relic-feather": {
+   "no": 52,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "Charge",
+   "ability": "",
+   "text": "Charge.",
+   "flavour": ""
+  },
+  "relic-crystal": {
+   "no": 53,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Attack: Scorch 1 the defender.",
+   "flavour": ""
+  },
+  "relic-plate": {
+   "no": 54,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "+2",
+   "keywords": "",
+   "ability": "",
+   "text": "+2 Guard.",
+   "flavour": ""
+  },
   "bolt@2-2": {
    "no": 96,
    "rarity": "uncommon",
