@@ -507,6 +507,28 @@
    "text": "Summon two Crownlings.",
    "flavour": ""
   },
+  "vault_remembers": {
+   "no": 47,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "Shardfall",
+   "ability": "",
+   "text": "Return a Relic from your Fallen pile to your hand.",
+   "flavour": "The Vault remembers this relic."
+  },
+  "steel_will_answer": {
+   "no": 48,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "Spring when a rival champion attacks: it gets −3 Might this turn.",
+   "flavour": "Steel will answer."
+  },
   "bolt@2-2": {
    "no": 96,
    "rarity": "uncommon",
