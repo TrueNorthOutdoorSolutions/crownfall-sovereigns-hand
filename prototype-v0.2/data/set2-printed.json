@@ -628,6 +628,39 @@
    "text": "+1 Might. Ambush.",
    "flavour": ""
   },
+  "relic-colossus_edge": {
+   "no": 58,
+   "rarity": "common",
+   "cost": "2",
+   "might": "+3",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "+3 Might.",
+   "flavour": ""
+  },
+  "relic-spellforged": {
+   "no": 59,
+   "rarity": "common",
+   "cost": "2",
+   "might": "+1",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "+1 Might. Attack: Scorch 1 each rival champion.",
+   "flavour": ""
+  },
+  "relic-crownsworn": {
+   "no": 60,
+   "rarity": "common",
+   "cost": "2",
+   "might": "+2",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "+2 Might. When the holder defeats a champion on your turn, gain 1 Command.",
+   "flavour": ""
+  },
   "bolt@2-2": {
    "no": 96,
    "rarity": "uncommon",
