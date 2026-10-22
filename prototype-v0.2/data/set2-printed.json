@@ -595,6 +595,39 @@
    "text": "+2 Guard.",
    "flavour": ""
   },
+  "relic-cloak": {
+   "no": 55,
+   "rarity": "common",
+   "cost": "1",
+   "might": "",
+   "guard": "+1",
+   "keywords": "",
+   "ability": "",
+   "text": "+1 Guard. Block: Scorch 1 the attacker.",
+   "flavour": ""
+  },
+  "relic-core": {
+   "no": 56,
+   "rarity": "common",
+   "cost": "2",
+   "might": "",
+   "guard": "+3",
+   "keywords": "",
+   "ability": "",
+   "text": "+3 Guard.",
+   "flavour": ""
+  },
+  "relic-lens": {
+   "no": 57,
+   "rarity": "common",
+   "cost": "1",
+   "might": "+1",
+   "guard": "",
+   "keywords": "Ambush",
+   "ability": "",
+   "text": "+1 Might. Ambush.",
+   "flavour": ""
+  },
   "bolt@2-2": {
    "no": 96,
    "rarity": "uncommon",
