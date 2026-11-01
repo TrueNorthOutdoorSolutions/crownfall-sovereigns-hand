@@ -661,6 +661,39 @@
    "text": "+2 Might. When the holder defeats a champion on your turn, gain 1 Command.",
    "flavour": ""
   },
+  "relic-oathkeeper": {
+   "no": 61,
+   "rarity": "common",
+   "cost": "2",
+   "might": "",
+   "guard": "+2",
+   "keywords": "",
+   "ability": "",
+   "text": "+2 Guard. Block: Shield the holder.",
+   "flavour": ""
+  },
+  "relic-veilpiercer": {
+   "no": 62,
+   "rarity": "common",
+   "cost": "2",
+   "might": "+1",
+   "guard": "",
+   "keywords": "",
+   "ability": "",
+   "text": "+1 Might. Attack: Scorch 2 the defender.",
+   "flavour": ""
+  },
+  "relic-deadeye": {
+   "no": 63,
+   "rarity": "common",
+   "cost": "2",
+   "might": "+2",
+   "guard": "",
+   "keywords": "Ambush",
+   "ability": "",
+   "text": "+2 Might. Ambush.",
+   "flavour": ""
+  },
   "bolt@2-2": {
    "no": 96,
    "rarity": "uncommon",
