@@ -694,6 +694,39 @@
    "text": "+2 Might. Ambush.",
    "flavour": ""
   },
+  "relic-gale_talons": {
+   "no": 64,
+   "rarity": "common",
+   "cost": "3",
+   "might": "+1",
+   "guard": "",
+   "keywords": "Charge, Ambush",
+   "ability": "",
+   "text": "+1 Might. Charge. Ambush.",
+   "flavour": ""
+  },
+  "relic-chrono_band": {
+   "no": 65,
+   "rarity": "common",
+   "cost": "2",
+   "might": "+1",
+   "guard": "",
+   "keywords": "Charge",
+   "ability": "",
+   "text": "+1 Might. Charge.",
+   "flavour": ""
+  },
+  "relic-resolute_buckler": {
+   "no": 66,
+   "rarity": "common",
+   "cost": "2",
+   "might": "",
+   "guard": "+2",
+   "keywords": "",
+   "ability": "",
+   "text": "+2 Guard. +2 Might while blocking.",
+   "flavour": ""
+  },
   "bolt@2-2": {
    "no": 96,
    "rarity": "uncommon",
